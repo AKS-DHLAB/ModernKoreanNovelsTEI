@@ -17,16 +17,16 @@
 * **주요 라이브러리:** `mwxml`, `requests`, `pandas`, `tqdm`
 * **데이터 소스:**
     1.  사용자 제공의 **작품 목록 CSV** 파일 (링크 주소 포함)
-    2.  **$\text{kowikisource-...xml.bz2}$** 덤프 파일
+    2.  **`kowikisource-...xml.bz2`** 덤프 파일
     3.  위키문헌 및 위키데이터 **API**
 
 ## 💡 핵심 함수 설명
 
 | 함수명 | 역할 | 상세 설명 |
 | :--- | :--- | :--- |
-| **$\text{find\_related\_dump\_pages}$** | **덤프 조각 모음** | 대용량 덤프에서 CSV 제목에 해당하는 **모든 하위 장($\text{/1장}$) 및 쪽 문서($\text{쪽:.../5}$)의 원본 텍스트**를 찾아 수집합니다. |
-| **$\text{sort\_wikisource\_parts}$** | **숫자 순서 정렬** | 수집된 장/쪽 제목을 **숫자($\text{1, 2, 10}$)**를 기준으로 정확하게 정렬하여, 본문 내용이 뒤섞이지 않도록 순서를 바로잡습니다. |
-| **$\text{process\_csv\_links\_with\_dump}$**| **최종 통합 지휘** | CSV 목록을 순회하며 $\text{find\_related\_dump\_pages}$로 가져온 조각을 $\text{sort\_wikisource\_parts}$로 정렬하고 합쳐서 **완성된 본문**을 만듭니다. 이후 $\text{enhance\_with\_api}$로 최종 정보를 보강합니다. |
+| **`find_related_dump_pages`** | **덤프 조각 모음** | 대용량 덤프에서 CSV 제목에 해당하는 **모든 하위 장($\text{/1장}$) 및 쪽 문서($\text{쪽:.../5}$)**의 원본 텍스트를 찾아 수집합니다. |
+| **`sort_wikisource_parts`** | **숫자 순서 정렬** | 수집된 장/쪽 제목을 **숫자($\text{1, 2, 10}$)**를 기준으로 정확하게 정렬하여, 본문 내용이 뒤섞이지 않도록 순서를 바로잡습니다. |
+| **`process_csv_links_with_dump`**| **최종 통합 지휘** | CSV 목록을 순회하며 $\text{find\_related\_dump\_pages}$로 가져온 조각을 $\text{sort\_wikisource\_parts}$로 정렬하고 합쳐서 **하나의 완성된 본문**을 만듭니다. 이후 $\text{enhance\_with\_api}$로 최종 정보를 보강합니다. |
 | **$\text{enhance\_with\_api}$** | **데이터 보강** | 덤프에서 부족한 **최신 분류**와 **위키데이터 연도** 정보를 API를 통해 추가하여 데이터셋의 정확도를 높입니다. |
 | **$\text{dataframe\_to\_xml}$** | **XML 변환** | Pandas DataFrame을 정교한 **XML 구조**로 수동 변환하여 저장 오류를 방지하고 구조화된 출력을 보장합니다. |
 
