@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Declares that this is an XML file using UTF-8 text encoding. -->
+
+<TEI xml:lang="ko">
+    <!-- Root element following the TEI (Text Encoding Initiative) standard.
+     The main language of the document is Korean (xml:lang="ko"). -->
+    <teiHeader>
+        <!-- Contains metadata (information about the text itself). -->
+        <fileDesc>
+            <!-- Describes the file, including title, author, and publication info. -->
+            <titleStmt>
+                <!-- Lists titles and authors in different languages. -->
+                <title xml:lang="ko">감자</title>
+                <!-- Title of the work in Korean: "감자" (Potatoes). -->
+                <title xml:lang="en">Potatoes</title>
+                <!-- English translation of the title. -->
+                <author xml:lang="ko">김동인</author>
+                <!-- Author’s name in Korean: Kim Dong-In. -->
+                <author xml:lang="en">Dong-In Kim</author>
+                <!-- Author’s name in English form. -->
+            </titleStmt>
+            <publicationStmt>
+                <!-- Describes when and where the text was published. -->
+                <publisher>조선문단</publisher>
+                <!-- Publisher name: "Joseon Literary Magazine". -->
+                <date>1925-01</date>
+                <!-- Publication date: January 1925. -->
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Describes the source or reference for the encoded text. -->
+                <bibl>
+                    <!-- Bibliographic information for the source. -->
+                    <title xml:lang="ko">감자 (source metadata)</title>
+                    <!-- Reference title in Korean. -->
+                    <idno type="poemid">Q16176689</idno>
+                    <!-- Unique ID number for the text. -->
+                    <idno type="authorid">Q625815</idno>
+                    <!-- Unique ID number for the author. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <!-- Contains information about languages, characters, setting, and people in the text. -->
+            <langUsage>
+                <!-- Lists the languages used in the document. -->
+                <language ident="ko">Korean</language>
+                <!-- Declares that the language is Korean. -->
+            </langUsage>
+            <particDesc>
+                <!-- Describes participants (characters) in the story. -->
+                <listPerson>
+                    <person xml:id="p1" role="protagonist">
+                        <persName>복녀</persName>
+                        <!-- Main character: Boknyeo (protagonist). -->
+                    </person>
+                    <person xml:id="p2" role="husband">
+                        <persName>복녀의 남편</persName>
+                        <!-- Boknyeo’s husband. -->
+                    </person>
+                    <person xml:id="p3" role="overseer">
+                        <persName>감독</persName>
+                        <!-- Supervisor or foreman. -->
+                    </person>
+                    <person xml:id="p4" role="landowner">
+                        <persName>왕서방</persName>
+                        <!-- Chinese landlord character, Mr. Wang. -->
+                    </person>
+                    <person xml:id="p5" role="other">
+                        <persName>기타</persName>
+                        <!-- Other minor or unnamed characters. -->
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <!-- Describes the settings (places) where the story occurs. -->
+                <listPlace>
+                    <place xml:id="l1">
+                        <placeName xml:lang="ko">칠성문 밖 빈민굴</placeName>
+                        <note>Slum outside Chilseongmun (Seven Stars Gate), Pyeongyang.</note>
+                        <!-- Main location: slum area outside Chilseongmun. -->
+                    </place>
+                    <place xml:id="l2">
+                        <placeName xml:lang="ko">칠성문</placeName>
+                        <note>Chilseongmun (Seven Stars Gate), Pyeongyang.</note>
+                        <!-- Secondary location: Chilseongmun Gate. -->
+                    </place>
+                    <place xml:id="l3">
+                        <placeName xml:lang="ko">평양</placeName>
+                        <note>Pyeongyang (historical city in Korea).</note>
+                        <!-- Tertiary location: Pyeongyang city. -->
+                    </place>
+                    <place xml:id="l4">
+                        <placeName xml:lang="ko">기자묘 솔밭</placeName>
+                        <note>Pine forest near Gija's Tomb, located near Pyeongyang.</note>
+                        <!-- Quaternary location: Pine forest near Gija's Tomb. -->
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <!-- The main content of the literary work. -->
+        <body>
+            <!-- Contains the main divisions and paragraphs of the story. -->
+            <div n="1">
+                <!-- First section of the story (like Chapter 1). -->
+
+                <p>싸움, 간통, 살인, 도적, 구걸, 징역 이 세상의 모든 비극과 활극의 근원지인, <placeName ref="#l1">칠성문 밖 빈민굴</placeName>로
+                    오기 전까지는, <name type="person" ref="#p1">복녀</name>의 부처는 (사농공상의 제2위에 드는) 농민이었었다.</p>
+                <!-- Paragraphs containing the narrative text. -->
+                <p><name type="person" ref="#p1">복녀</name>는, 원래 가난은 하나마 정직한 농가에서 규칙 있게 자라난 처녀였었다. 이전
+                    선비의 엄한 규율은 농민으로 떨어지자부터 없어졌다 하나, 그러나 어딘지는 모르하지만 딴 농민보다는 좀 똑똑하고 엄한 가율이 그의 집에 그냥 남아
+                    있었다. 그 가운데서 자라난 <name type="person" ref="#p1">복녀</name>는 물론 다른 집 처녀들과 같이 여름에는
+                    벌거벗고 개울에서 멱감고, 바짓바람으로 동리를 돌아다니는 것을 예사로 알기는 알았지만, 그러나 그의 마음속에는 막연하나마 도덕이라는 것에 대한
+                    져픔을 가지고 있었다.</p>
+                <p>그는 열다섯 살 나는 해에 동리 홀아비에게 팔십 원에 팔려서 시집이라는 것을 갔다. 그의 새서방(영감이라는 편이 적당할까)이라는 사람은 그보다
+                    이십 년이나 위로서, 원래 아버지의 시대에는 상당한 농군으로서 밭도 몇 마지기가 있었으나, 그의 대로 내려오면서는 하나 둘 줄기 시작하여서
+                    마지막에 <name type="person" ref="#p1">복녀</name>를 산 팔십 원이 그의 마지막 재산이었었다. 그는 극도로 게으른
+                    사람이었었다.</p>
+                <p>그러나 그 집에서도 얼마 안하여 쫓겨나왔다. <name type="person" ref="#p1">복녀</name>는 부지런히 주인집 일을
+                    보았지만 <name type="person" ref="#p2">남편</name>의 게으름은 어찌할 수가 없었다. 매일 <name
+                        type="person" ref="#p1">복녀</name>는 눈에 칼을 세워 가지고 <name type="person"
+                        ref="#p2">남편</name>을 채근하였지만, 그의 게으른 버릇은 고치질 못하였다.</p>
+                <q who="p1">벳섬 좀 치워 달라우요.</q>
+                <!-- Quotation spoken by person with ID "p1" (Boknyeo). -->
+                <q who="p2">남 졸음 오는데. 님자 치우시관.</q>
+                <!-- Quotation spoken by person with ID "p2" (husband). -->
+                <q who="p1">내가 치우나요?</q>
+                <q who="p1">이십 년이나 밥 먹구 그걸 못 치워! 에이구, 칵 죽구나 말디.</q>
+                <q who="p2">이년, 뭘.</q>
+                <p>이러한 싸움이 그치지 않다가, 마침내 그 집에서도 쫓겨나왔다.</p>
+                <p>이젠 어디로 가나? 그들은 하릴없이 <placeName ref="#l1">칠성문 밖 빈민굴</placeName>로 밀려 나오게 되었다.</p>
+                <!-- Throughout this section:
+                     <placeName ref="#l1"> links to defined place (like the slum),
+                     <name type="person" ref="#p1"> links to defined person (like Boknyeo). -->
+                <p><placeName ref="#l2">칠성문 밖</placeName>을 한 부락으로 삼고 그곳에 모여 있는 모든 사람들의 정업은 거라지요,
+                    부업으로는 도적질과 (자기네끼리의) 매음, 그 밖에 이 세상의 모든 무섭고 더러운 죄악이었었다. <name type="person"
+                        ref="#p1">복녀</name>도 그 정업으로 나섰다.</p>
+
+
+                <p>그러나 열아홉 살의 한창 좋은 나이의 여편네에게 누가 밥인들 잘 줄까.</p>
+            </div>
+
+
+            <div n="2">
+                <!-- Second section (continuation of the story). -->
+
+                <!-- Describes Boknyeo’s poverty and her work catching pine caterpillars. -->
+                <!-- Also shows her first encounter with the overseer (감독). -->
+                <q who="p5">젊은 거이 거랑질은 왜.</q>
+                <p>그런 소리를 들을 때마다 그는 여러 가지 말로, <name type="person" ref="#p2">남편</name>이 병으로 죽어 가거니
+                    어쩌거니 핑계는 대었지만, 그런 핑계에는 단련된 <placeName ref="#l3">평양</placeName> 시민의 동정은 역시 살 수가
+                    없었다. 그들은 이 <placeName
+                        ref="#l2">칠성문 밖</placeName>에서도 가장 가난한 사람 가운데 드는 편이었다.</p>
+                <p><name type="person" ref="#p1">복녀</name>는 열아홉 살이었었다. 얼굴도 그만하면 빤빤하였다. 그 동리 여인들의 보통
+                    하는 일을 본받아서 그도 돈벌이 좀 잘하는 사람의 집에라도 간간 찾아가면 매일 오륙십 전은 벌 수가 있었지만, 선비의 집안에서 자라난 그는 그런
+                    일은 할 수가 없었다.</p>
+                <p>그들 부처는 역시 가난하게 지냈다. 굶는 일도 흔히 있었다.</p>
+
+
+                <p><placeName ref="#l4">기자묘 솔밭</placeName>에 송충이가 끓었다. 그때, <placeName ref="#l3">평양부</placeName>에서는
+                    그 송충이를 잡는 데 (은혜를 베푸는 뜻으로) <placeName ref="#l1">칠성문 밖 빈민굴</placeName>의 여인들을 인부로
+                    쓰게 되었다.</p>
+                <p><placeName ref="#l1">빈민굴</placeName> 여인들은 모두 다 지원을 하였다. 그러나 뽑힌 것은 겨우 오십 명쯤이었다. <name
+                        type="person" ref="#p1">복녀</name>도 그 뽑힌 사람 가운데 한 사람이었었다.</p>
+                <p><name type="person" ref="#p1">복녀</name>는 열심으로 송충이를 잡았다. 소나무에 사다리를 놓고 올라가서는, 송충이를
+                    집게로 집어서 약물에 잡아 넣고, 그의 통은 잠깐 새에 차고 하였다. 하루에 삼십이 전 씩의 공전이 그의 손에 들어왔다.</p>
+                <p>그러나 대엿새 하는 동안에 그는 이상한 현상을 하나 발견하였다. 그것은 다른 것이 아니라, 젊은 여인부 한 여남은 사람은 언제나 송충이는 안 잡고
+                    아래서 지절거리며 웃고 날뛰기만 하고 있는 것이었다. 뿐만 아니라, 그 놀고 있는 인부의 공전은 일하는 사람의 공전보다 팔 전이나 더 많이
+                    내어주는 것이다.</p>
+                <p><name type="person" ref="#p3">감독</name>은 한 사람뿐이지만 <name type="person" ref="#p3">
+                    감독</name>도 그들의 놀고 있는 것을 묵인할 뿐 아니라, 때때로는 자기까지 섞여서 놀고 있었다.</p>
+                <p>어떤 날 송충이를 잡다가 점심때가 되어서, 나무에서 내려와서 점심을 먹고 다시 올라가려 할 때에 <name type="person"
+                        ref="#p3">감독</name>이 그를 찾았다.</p>
+                <q who="p3">복네, 얘 복네.</q>
+                <q who="p1">왜 그릅네까?</q>
+                <p>그는 약통과 집게를 놓은 뒤에 돌아섰다.</p>
+                <q who="p3">좀 오나라.</q>
+                <p>그는 말없이 <name type="person" ref="#p3">감독</name> 앞에 갔다.</p>
+                <p>그는 돌아서면서 인부들 모여 있는 데로 고함쳤다.</p>
+                <q who="p3">얘, 너, 음…… 데 뒤 좀 가보디 않갔니?</q>
+                <q who="p1">뭘 하레요?</q>
+                <q who="p3">글쎄, 가야…….</q>
+                <q who="p1">가디요, 형님.</q>
+                <q who="p5">형님두 갑세다가레.</q>
+
+
+            </div>
+
+            <div n="3">
+                <!-- Third section: Boknyeo changes morally and socially after meeting the overseer. -->
+
+                <!-- Describes how she adapts to her environment and starts earning differently. -->
+                <q who="p5">싫다 얘. 둘이서 재미나게 가는데, 내가 무슨 맛에 가갔니?</q>
+                <p><name type="person" ref="#p1">복녀</name>는 얼굴이 새빨갛게 되면서 <name type="person"
+                        ref="#p3">감독</name>에게로 돌아섰다.</p>
+                <q who="p3">가보자.</q>
+                <p><name type="person" ref="#p3">감독</name>은 저편으로 갔다. <name type="person" ref="#p1">
+                    복녀</name>는 머리를 수그리고 따라갔다.</p>
+                <q who="p5">복네 좋갔구나.</q>
+                <p>뒤에서 이러한 고함 소리가 들렸다. <name type="person" ref="#p1">복녀</name>의 숙인 얼굴은 더욱 발갛게 되었다.
+                    그날부터 <name
+                        type="person" ref="#p1">복녀</name>도 ‘일 안 하고 공전 많이 받는 인부’의 한 사람으로 되었다.</p>
+
+
+                <p><name type="person" ref="#p1">복녀</name>의 도덕관 내지 인생관은 그때부터 변하였다.</p>
+                <p>그는 아직껏 딴 사내와 관계를 한다는 것을 생각하여 본 일도 없었다. 그것은 사람의 일이 아니요 짐승의 하는 짓으로만 알고 있었다.</p>
+                <p>그러나 이런 이상한 일이 어디 다시 있을까. 사람인 자기도 그런 일을 한 것을 보면, 그것은 결코 사람으로 못 할 일이 아니었었다. 게다가 일 안
+                    하고도 돈 더 받고, 긴장된 유쾌가 있고, 빌어먹는 것보다 점잖고…….</p>
+                <p>일본말로 하자면 ‘삼박자(三拍子)’ 같은 좋은 일은 이것뿐이었었다. 이것이야말로 삶의 비결이 아닐까. 뿐만 아니라, 이 일이 있은 뒤부터, 그는
+                    처음으로 한 개 사람이 된 것 같은 자신까지 얻었다.</p>
+                <p>그 뒤부터는, 그의 얼굴에는 조금씩 분도 바르게 되었다.</p>
+
+
+                <p>일년이 지났다.</p>
+                <p>그의 처세의 비결은 더욱더 순탄히 진척되었다. 그의 부처는 이제는 그리 궁하게 지내지는 않게 되었다.</p>
+                <p>그의 <name type="person" ref="#p2">남편</name>은 이것이 결국 좋은 일이라는 듯이 아랫목에 누워서 벌신벌신 웃고
+                    있었다. <name
+                        type="person" ref="#p1">복녀</name>의 얼굴은 더욱 이뻐졌다.</p>
+                <q who="p1">여보, 아즈바니, 오늘은 얼마나 벌었소?</q>
+                <p><name type="person" ref="#p1">복녀</name>는 돈 좀 많이 번 듯한 거라지를 보면 이렇게 찾는다.</p>
+                <q who="p5">오늘은 많이 못 벌었쉔다.</q>
+                <q who="p1">얼마?</q>
+                <q who="p5">도무지 열서너 냥.</q>
+                <q who="p1">많이 벌었쉐다가레, 한 댓 냥 꿰주소고래.</q>
+                <q who="p1">오늘은 내가…….</q>
+                <p>어쩌고어쩌고 하면, <name type="person" ref="#p1">복녀</name>는 곧 뛰어가서 그의 팔에 늘어진다.</p>
+                <q who="p1">나한테 들킨 댐에는 뮈구야 말아요.</q>
+                <q who="p5">난 원 이 아즈마니 만나문 야단이더라. 자, 꿰주디. 그 대신 응? 알아 있디?</q>
+            </div>
+
+
+            <div n="4">
+                <!-- Fourth section: Boknyeo steals potatoes and meets the landowner, Wang Seobang. -->
+
+                <!-- Marks her relationship with him and the further moral decline. -->
+                <q who="p1">난 몰라요. 해해해해.</q>
+                <q who="p5">모르문, 안 줄 테야.</q>
+                <q who="p1">글쎄, 알았대두 그른다.</q>
+                <p>그의 성격은 이만큼까지 진보되었다.</p>
+                <gap reason="omission" />
+                <p>가을이 되었다.</p>
+                <p><placeName ref="#l1">칠성문 밖 빈민굴</placeName>의 여인들은 가을이 되면 <placeName ref="#l2">칠성문
+                        밖</placeName>에 있는 중국인의 채마밭에 감자(고구마)며 배추를 도적질하러 밤에 바구니를 가지고 간다. <name
+                        type="person" ref="#p1">복녀</name>도 감자깨나 잘 도적질하여 왔다.</p>
+                <p>어떤 날 밤, 그는 감자를 한 바구니 잘 도적질하여 가지고, 이젠 돌아오려고 일어설 때에, 그의 뒤에 시꺼먼 그림자가 서서 그를 꽉 붙들었다.
+                    보니, 그것은 그 밭의 소작인인 중국인 <name type="person" ref="#p4">왕서방</name>이었었다. <name
+                        type="person" ref="#p1">복녀</name>는 말도 못 하고 멀진멀진 발 아래만 내려다보고 있었다.</p>
+                <q who="p4">우리집에 가.</q>
+                <p><name type="person" ref="#p4">왕서방</name>은 이렇게 말하였다.</p>
+                <q who="p1">가재문 가디. 훤, 것두 못 갈까.</q>
+                <p><name type="person" ref="#p1">복녀</name>는 엉덩이를 한번 홱 두른 뒤에 머리를 젖히고 바구니를 저으면서 <name
+                        type="person" ref="#p4">왕서방</name>을 따라갔다.</p>
+                <p>한 시간쯤 뒤에 그는 <name type="person" ref="#p4">왕서방</name>의 집에서 나왔다. 그가 밭고랑에서 길로 들어서려 할
+                    때에, 문득 뒤에서 누가 그를 찾았다.</p>
+                <q who="p5">복네 아니야?</q>
+                <p><name type="person" ref="#p1">복녀</name>는 홱 돌아서 보았다. 거기는 자기 곁집 여편네가 바구니를 끼고 어두운
+                    밭고랑을 더듬더듬 나오고 있었다.</p>
+                <q who="p1">형님이댔쉐까? 형님두 들어갔댔쉐까?</q>
+                <q who="p5">님자두 들어갔댔나?</q>
+                <q who="p1">형님은 뉘 집에?</q>
+                <q who="p5">나? 눅서방네 집에. 님자는?</q>
+                <q who="p1">난 <name type="person" ref="#p4">왕서방</name>네…… 형님 얼마 받았소?</q>
+                <q who="p5">눅서방네 그 깍쟁이놈, 배추 세 페기…….</q>
+                <q who="p1">난 삼 원 받았디.</q>
+                <p><name type="person" ref="#p1">복녀</name>는 자랑스러운 듯이 대답하였다.</p>
+                <gap reason="omission" />
+                <p>그 뒤부터 <name type="person" ref="#p4">왕서방</name>은 무시로 <name type="person" ref="#p1">
+                    복녀</name>를 찾아왔다.</p>
+                <p>한참 <name type="person" ref="#p4">왕서방</name>이 눈만 멀진멀진 앉아 있으면, <name type="person"
+                        ref="#p1">복녀</name>의 <name type="person" ref="#p2">남편</name>은 눈치를 채고 밖으로
+                    나간다. <name
+                        type="person" ref="#p4">왕서방</name>이 돌아간 뒤에는 그들 부처는, 일 원 혹은 이 원을 가운데 놓고 기뻐하고
+                    하였다.</p>
+                <p><name type="person" ref="#p1">복녀</name>는 차차 동리 거지들한테 애교를 파는 것을 중지하였다. <name
+                        type="person" ref="#p4">왕서방</name>이 분주하여 못 올 때가 있으면 <name type="person"
+                        ref="#p1">복녀</name>는 스스로 <name type="person" ref="#p4">왕서방</name>의 집까지 찾아갈
+                    때도 있었다.</p>
+            </div>
+
+            <div n="5">
+                <!-- Fifth section: Wang Seobang marries another woman; Boknyeo becomes jealous. -->
+
+                <!-- Leads up to the violent climax. -->
+                <p><name type="person" ref="#p1">복녀</name>의 부처는 이제 이 <placeName ref="#l1">빈민굴</placeName>의
+                    한 부자였었다.</p>
+                <gap reason="omission" />
+                <p>그 겨울도 가고 봄이 이르렀다.</p>
+                <p>그때 <name type="person" ref="#p4">왕서방</name>은 돈 백 원으로 어떤 처녀를 하나 마누라로 사오게 되었다.</p>
+                <q who="p1">흥.</q>
+                <p><name type="person" ref="#p1">복녀</name>는 다만 코웃음만 쳤다.</p>
+                <p>마침내 색시가 오는 날이 이르렀다. 칠보 단장에 사인교를 탄 색시가, <placeName ref="#l2">칠성문 밖</placeName> 채마밭
+                    가운데 있는 <name
+                        type="person" ref="#p4">왕서방</name>의 집에 이르렀다.</p>
+                <p>밤이 깊도록, <name type="person" ref="#p4">왕서방</name>의 집에는 중국인들이 모여서 별한 악기를 뜯으며 별한 곡조로
+                    노래하며 야단하였다.</p>
+                <p><name type="person" ref="#p1">복녀</name>는 집 모퉁이에 숨어 서서 눈에 살기를 띠고 방 안의 동정을 듣고 있었다.</p>
+                <p>다른 중국인들은 새벽 두시쯤 하여 돌아갔다. 그 돌아가는 것을 보면서 <name type="person" ref="#p1">복녀</name>는 <name
+                        type="person" ref="#p4">왕서방</name>의 집 안에 들어갔다. <name type="person" ref="#p1">
+                    복녀</name>의 얼굴에는 분이 하얗게 발리어 있었다.</p>
+                <p>신랑신부는 놀라서 그를 쳐다보았다. 그것을 무서운 눈으로 흘겨보면서, 그는 <name type="person" ref="#p4">왕서방</name>에게
+                    가서 팔을 잡고 늘어졌다. 그의 입에서는 이상한 웃음이 흘렀다.</p>
+                <q who="p1">자, 우리집으로 가요.</q>
+                <p><name type="person" ref="#p4">왕서방</name>은 아무 말도 못 하였다. 눈만 정처없이 두룩두룩하였다. <name
+                        type="person" ref="#p1">복녀</name>는 다시 한번 <name type="person" ref="#p4">왕서방</name>을
+                    흔들었다.</p>
+                <q who="p1">자, 어서.</q>
+                <q who="p4">우리, 오늘 밤 일이 있어 못 가.</q>
+                <q who="p1">일은 밤중에 무슨 일.</q>
+                <q who="p4">그래두, 우리 일이…….</q>
+                <p><name type="person" ref="#p1">복녀</name>의 입에 아직껏 떠돌던 이상한 웃음은 문득 없어졌다.</p>
+                <q who="p1">이까짓 것.</q>
+                <p>그는 발을 들어서 치장한 신부의 머리를 찼다.</p>
+            </div>
+
+
+            <div n="6">
+                <!-- Sixth section: The tragic ending—Boknyeo attacks Wang Seobang and dies. -->
+
+                <!-- Includes aftermath and how others respond to her death. -->
+                <q who="p1">자, 가자우 가자우.</q>
+                <p><name type="person" ref="#p4">왕서방</name>은 와들와들 떨었다. <name type="person" ref="#p4">
+                    왕서방</name>은 <name type="person" ref="#p1">복녀</name>의 손을 뿌리쳤다.</p>
+                <p><name type="person" ref="#p1">복녀</name>는 쓰러졌다. 그러나 곧 다시 일어섰다. 그가 다시 일어설 때는, 그의
+                    손에는 얼른얼른 하는 낫이 한 자루 들리어 있었다.</p>
+                <q who="p1">이 되놈, 죽어라, 죽어라, 이놈, 나 때렸디! 이놈아, 아이구, 사람 죽이누나.</q>
+                <p>그는 목을 놓고 처울면서 낫을 휘둘렀다. <placeName ref="#l2">칠성문 밖</placeName> 외딴 밭 가운데 홀로 서 있는 <name
+                        type="person" ref="#p4">왕서방</name>의 집에서는 일장의 활극이 일어났다. 그러나 그 활극도 곧 잠잠하게 되었다. <name
+                        type="person" ref="#p1">복녀</name>의 손에 들리어 있던 낫은 어느덧 <name type="person"
+                        ref="#p4">왕서방</name>의 손으로 넘어가고, <name type="person" ref="#p1">복녀</name>는 목으로
+                    피를 쏟으면서 그 자리에 고꾸라져 있었다.</p>
+                <gap reason="omission" />
+                <p><name type="person" ref="#p1">복녀</name>의 송장은 사흘이 지나도록 무덤으로 못 갔다. <name
+                        type="person" ref="#p4">왕서방</name>은 몇 번을 <name type="person" ref="#p1">복녀</name>
+                    의 <name
+                        type="person" ref="#p2">남편</name>을 찾아 갔다. <name type="person" ref="#p1">
+                        복녀</name>의 <name type="person" ref="#p2">남편</name>도 때때로 <name type="person"
+                        ref="#p4">왕서방</name>을 찾아갔다. 둘의 사이에는 무슨 교섭하는 일이 있었다. 사흘이 지났다.</p>
+                <p>밤중에 <name type="person" ref="#p1">복녀</name>의 시체는 <name type="person" ref="#p4">
+                    왕서방</name>의 집에서 <name type="person" ref="#p2">남편</name>의 집으로 옮겼다.</p>
+                <p>그리고 그 시체에는 세 사람이 둘러앉았다. 한 사람은 <name type="person" ref="#p1">복녀</name>의 <name
+                        type="person" ref="#p2">남편</name>, 한 사람은 <name type="person" ref="#p4">왕서방</name>,
+                    또 한 사람은 어떤 한방 의사. <name type="person" ref="#p4">왕서방</name>은 말없이 돈주머니를 꺼내어, 십 원짜리
+                    지폐 석 장을 <name
+                        type="person" ref="#p1">복녀</name>의 <name type="person" ref="#p2">
+                        남편</name>에게 주었다. 한방의의 손에도 십 원짜리 두 장이 갔다.</p>
+                <p>이튿날 <name type="person" ref="#p1">복녀</name>는 뇌일혈로 죽었다는 한방의의 진단으로 공동</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+<!-- End of the TEI document. -->
