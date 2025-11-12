@@ -8,11 +8,12 @@
         <respStmt>
           <resp>TEI 인코딩</resp>
           <name>지해인<idno type="ISNI">0000 0005 2802 5223</idno></name>
-          <email>cihayin@gmail.com</email>
+          <email>cihayin [at] gmail.com</email>
         </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>한국학중앙연구원 인문정보학과</publisher>
+        <ref target="https://digitalhumanities.kr/">한국학중앙연구원 디지털인문학연구소 홈페이지</ref>
       </publicationStmt>
       <sourceDesc>
         <p>추후 보강.</p>
@@ -30,6 +31,7 @@
       <textClass>
         <keywords scheme="local">
           <term>근현대 한국문학</term>
+          <term>단편소설</term>
         </keywords>
       </textClass>
       <particDesc>
@@ -41,6 +43,10 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <change when="2025-10-29" who="#지해인">작업자 지해인이 TEI 인코딩을 시작함.</change>
+      <change when="2025-11-12" who="#지해인">작업자 지해인이 TEI 인코딩을 완료함.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
