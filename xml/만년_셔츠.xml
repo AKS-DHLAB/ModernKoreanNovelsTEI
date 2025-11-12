@@ -7,258 +7,141 @@
                 <author>방정환</author>
             </titleStmt>
             <publicationStmt>
-                <date when="1927">1927</date>
-                <p>Source: Wikisource</p>
+                <publisher>한국학중앙연구원 인문정보학과</publisher>
             </publicationStmt>
             <sourceDesc>
-                <p>이 디지털 텍스트는 현대어로 번역된 판본을 저본으로 삼아 입력되었으며, 해당 판본의 서지 정보는 아직 확정되지 않았습니다. 원본은 1927년 잡지 '어린이'에 수록된 것입니다.</p>
+                <p>본 텍스트는 사용자로부터 제공받았습니다.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>본 전자본은 TEI P5 지침(TEI Lite)에 따라 구조화함.</p></projectDesc>
+        </encodingDesc>
         <profileDesc>
-          <langUsage>
-            <language ident="ko">Korean</language>
-            <language ident="zh-Hant">Traditional Chinese</language>
-          </langUsage>
+            <langUsage>
+                <language ident="ko">Korean</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="local"><term>근현대 한국문학</term></keywords>
+            </textClass>
             <particDesc>
                 <listPerson>
-                    <person xml:id="TCH"><persName>선생님</persName></person>
-                    <person xml:id="CHN"><persName>한창남</persName></person>
-                    <person xml:id="ACN"><persName>안창남</persName></person>
-                    <person xml:id="OLDM"><persName>영감님</persName></person>
-                    <person xml:id="CHNBR"><persName>형님</persName></person>
-                    <person xml:id="CHNM"><persName>어머니</persName></person>
+                    <person xml:id="TCH"><persName xml:lang="ko">체조 선생님</persName></person>
+                    <person xml:id="CHN"><persName xml:lang="ko">한창남</persName></person>
+                    <person xml:id="ACN"><persName xml:lang="ko">안창남</persName></person>
+                    <person xml:id="GTCH"><persName xml:lang="ko">선생님</persName></person>
+                    <person xml:id="CHNBR"><persName xml:lang="ko">형님</persName></person>
+                    <person xml:id="CHNM"><persName xml:lang="ko">어머니</persName></person>
+                    <person xml:id="STD"><persName xml:lang="ko">학생들</persName></person>
                 </listPerson>
             </particDesc>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <head>1</head>
+            <div type="text">
                 <p>박물 시간이었다.</p>
-                <sp who="#TCH">
-                    <p>이 없는 동물이 무엇인지 아는가?</p>
-                </sp>
-                <p><persName xml:id="TCH">선생님</persName>이 두 번씩 연거푸 물어도 손 드는 학생이 없더니, 별안간 ‘옛’ 소리를 지르면서, 기운 좋게 손을 든 사람이 있었다.</p>
-                <sp who="#TCH">
-                    <p>음, <persName xml:id="CHN">창남이</persName>인가. 어디 말해 보아.</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>이 없는 동물은 늙은 <persName xml:id="OLDM">영감</persName>입니다!</p>
-                </sp>
-                <sp who="#TCH">
-                    <p>예에끼!</p>
-                </sp>
-                <p>하고, <persName xml:id="TCH">선생</persName>은 소리를 질렀다. 온 방안 학생이 깔깔거리고 웃어도, <persName xml:id="CHN">창남이</persName>는 태평으로 자리에 앉았다.</p>
+                <said who="#TCH">이 없는 동물이 무엇인지 아는가?</said>
+                <p><persName ref="#TCH">선생님</persName>이 두 번씩 연거푸 물어도 손 드는 학생이 없더니, 별안간 ‘옛’ 소리를 지르면서, 기운 좋게 손을 든 <rs ref="#CHN">사람</rs>이 있었다.</p>
+                <said who="#TCH">음, <persName ref="#CHN">창남</persName>이인가. 어디 말해 보아.</said>
+                <said who="#CHN">이 없는 동물은 늙은 <rs ref="#OLDM">영감</rs>입니다!</said>
+                <said who="#TCH">예에끼!</said>
+                <p>하고, <persName ref="#TCH">선생</persName>은 소리를 질렀다. 온 방안 학생이 깔깔거리고 웃어도, <persName ref="#CHN">창남</persName>이는 태평으로 자리에 앉았다.</p>
                 <p>수신(도덕) 시간이었다.</p>
-                <sp who="#TCH">
-                    <p>성냥 한 개비의 불을 잘못하여, 한 동네 삼십여 집에 불에 타 버렸으니, 성냥 단 한 개비라도 무섭게 알고 주의해야 하느니라.</p>
-                </sp>
-                <p>하고 열심히 설명해 준 <persName xml:id="TCH">선생님</persName>이 채 교실 문 밖도 나가기 전에,</p>
-                <sp who="#CHN">
-                    <p>한 방울씩 떨어진 빗물이 모이고 모여, 큰 홍수가 나는 것이니, 누구든지 콧물 한 방울이라도 무섭게 알고 주의해 흘려야 하느니라.</p>
-                </sp>
-                <p>하고, 크게 소리친 학생이 있었다. <persName xml:id="TCH">선생님</persName>은 그것을 듣고 터져 나오는 웃음을 억지로 참고 돌아서서,</p>
-                <sp who="#TCH">
-                    <p>그게 누구야? 아마, <persName xml:id="CHN">창남이</persName>가 또 그랬지?</p>
-                </sp>
+                <said who="#TCH">성냥 한 개비의 불을 잘못하여, 한 동네 삼십여 집에 불에 타 버렸으니, 성냥 단 한 개비라도 무섭게 알고 주의해야 하느니라.</said>
+                <p>하고 열심히 설명해 준 <persName ref="#TCH">선생님</persName>이 채 교실 문 밖도 나가기 전에,</p>
+                <said who="#CHN">한 방울씩 떨어진 빗물이 모이고 모여, 큰 홍수가 나는 것이니, 누구든지 콧물 한 방울이라도 무섭게 알고 주의해 흘려야 하느니라.</said>
+                <p>하고, 크게 소리친 <rs ref="#CHN">학생</rs>이 있었다. <persName ref="#TCH">선생님</persName>은 그것을 듣고 터져 나오는 웃음을 억지로 참고 돌아서서,</p>
+                <said who="#TCH">그게 누구야? 아마, <persName ref="#CHN">창남</persName>이가 또 그랬지?</said>
                 <p>하고 억지로 눈을 크게 떴다. 모든 학생들은 킬킬거리고 웃다가 조용해졌다.</p>
-                <sp who="#CHN">
-                    <p>예, <persName xml:id="TCH">선생님</persName>이 안 계신 줄 알고 제가 그랬습니다. 이 다음엔 안 그러지요.</p>
-                </sp>
-                <p>하고, 병정같이 벌떡 일어서서 말한 것은 <persName xml:id="CHN">창남</persName>이었다. 억지로 골 낸 얼굴을 지은 <persName xml:id="TCH">선생님</persName>은 기어이 다시 웃고 말았다. 아무 말없이 빙그레 웃고는 그냥 나가 버렸다.</p>
-                <sp>
-                    <p>아 하하하하…….</p>
-                </sp>
+                <said who="#CHN">예, <persName ref="#TCH">선생님</persName>이 안 계신 줄 알고 <rs ref="#CHN">제</rs>가 그랬습니다. 이 다음엔 안 그러지요.</said>
+                <p>하고, 병정같이 벌떡 일어서서 말한 것은 <persName ref="#CHN">창남</persName>이었다. 억지로 골 낸 얼굴을 지은 <persName ref="#TCH">선생님</persName>은 기어이 다시 웃고 말았다. 아무 말없이 빙그레 웃고는 그냥 나가 버렸다.</p>
+                <said who="#STD">아 하하하하…….</said>
                 <p>학생들은 일시에 손뼉을 치면서 웃어댔다.</p>
-                <p><orgName>×× 고등 보통 학교</orgName> 일 년급 을 반 <persName xml:id="CHN">창남이</persName>는 반 중에 제일 인기 좋은 쾌활한 소년이었다.</p>
-                <p>이름이 <persName xml:id="CHN">창남이</persName>요, 성이 한 가이므로, <persName xml:id="ACN"><choice><orig>安昌南</orig><reg>안창남</reg></choice></persName> 씨와 같다고 학생들은 모두 그를 , 보고 비행가 비행가 하고 부르는데, 사실은 그는 비행가같이 시원스럽고 유쾌한 성질을 가진 소년이었다.</p>
+                <p><orgName>×× 고등 보통 학교</orgName> 일 년급 을 반 <persName ref="#CHN">창남</persName>이는 반 중에 제일 인기 좋은 쾌활한 <rs ref="#CHN">소년</rs>이었다.</p>
+                <p>이름이 <persName ref="#CHN">창남</persName>이요, 성이 한 가이므로, <persName ref="#ACN"><choice><orig>安昌南</orig><reg>안창남</reg></choice></persName> 씨와 같다고 학생들은 모두 <rs ref="#CHN">그</rs>를 , 보고 <rs ref="#CHN">비행가</rs> <rs ref="#CHN">비행가</rs> 하고 부르는데, 사실은 <rs ref="#CHN">그</rs>는 비행가같이 시원스럽고 유쾌한 성질을 가진 <rs ref="#CHN">소년</rs>이었다.</p>
                 <p>모자가 다 해졌어도, 새 것을 사 쓰지 않고, 양복바지가 해져서 궁둥이에 조각 조각을 붙이고 다니는 것을 보면 집안이 구차한 것도 같지만, 그렇다고 단 한 번이라도 근심하는 빛이 있거나, 남의 것을 부러워하는 눈치도 없었다.</p>
-                <p>남이 걱정이 있어 얼굴을 찡그릴 때에는, 우스운 말을 잘 지어 내고, 동무들이 곤란한 일이 있을 때에는 좋은 의견도 잘 꺼내 놓으므로, 비행가의 이름이 더욱 높아졌다.</p>
-                <p>연설을 잘 하고, 토론을 잘 하므로 갑 조하고 내기를 할 때에는 언제든지 <persName xml:id="CHN">창남이</persName> 혼자 나가 이기는 셈이었다.</p>
-                <p>그러나, 그의 집이 정말 가난한지 넉넉한지 아무도 아는 사람이 없었고, 가끔 그의 뒤를 쫓아가 보려고도 했으나 모두 중간에서 실패를 하고 말았다. 왜 그런고 하면, 그는 날마다 이십 리 밖에서 학교를 다니는 까닭이었다.</p>
-                <p>그는 가끔 가끔 우스운 말을 하여도 자기 집안 일이나 자기 신상에 관한 이야기는 말하는 법이 없었다. 그런 것을 보면 입이 무거운 편이었다.</p>
-                <p>그는 입과 같이 궁둥이가 무거워서, 운동틀(철봉)에서는 잘 넘어가지 못하여, 늘 <persName xml:id="TCH">체조 선생님</persName>께 흉을 잡혔다. 하학한 후 학생들이 다 돌아간 다음에도 혼자 남아 있어서 운동틀에 매달려 땀을 흘리면서 혼자 연습을 하고 있는 것을 동무들은 가끔 보았다.</p>
-                <sp>
-                    <p>이애, 비행가가 하학 후에 혼자 남아서 철봉 연습을 하고 있더라.</p>
-                </sp>
-                <sp>
-                    <p>땀을 뻘뻘 흘리면서 혼자 애를 쓰더라.</p>
-                </sp>
-                <sp>
-                    <p>그래, 이제는 좀 넘어가데?</p></sp>
-                <sp>
-                    <p>웬걸, 한 이백 번이나 넘도록 연습하면서, 그래도 못 넘어가더라.</p>
-                </sp>
-                <sp>
-                    <p>그래, 맨 나중에는 자기가 자기 손으로 그 누덕누덕 기운 구둥이를 때리면서 <q>궁둥이가 무거워, 궁둥이가 무거워.</q> 하면서 가더라!</p>
-                </sp>
-                <sp>
-                    <p>제가 제 궁둥이를 때려?</p>
-                </sp>
-                <sp>
-                    <p>그러게 괴물이지…….</p>
-                </sp>
-                <sp>
-                    <p>아 하하하하하…….</p>
-                </sp>
-                <p>모두 웃었다. 어느 모로든지 <persName xml:id="CHN">창남이</persName>는 반 중의 이야깃거리가 되는 것이었다.</p>
-            </div>
-            <div type="chapter">
-                <head>2</head>
-                <p>겨울도 겨울 몹시도 , 추운 날이었다. 호호 부는 이른 아침에 상학 종은 치고, 공부는 시작되었는데, 한 번도 결석한 일이 없는 <persName xml:id="CHN">창남이</persName>가 이 날은 오지 않았다.</p>
-                <sp>
-                    <p>호욀세, 호외야! 비행가가 결석을 하다니!</p>
-                </sp>
-                <sp>
-                    <p>어제 저녁 그 무서운 바람에 어디로 날아간 게지!</p>
-                </sp>
-                <sp>
-                    <p>아마, 병이 났다 보다. 감기가 든 게지.</p>
-                </sp>
-                <sp>
-                    <p>이놈아, 능청스럽게 아는 체 마라.</p>
-                </sp>
-                <p>일 학년 을 조는 <persName xml:id="CHN">창남이</persName> 소문으로 수군수군 야단이었다.</p>
-                <p>첫째 시간이 반이나 넘어갔을 때, 교실 문이 덜컥 열리면서, <persName xml:id="CHN">창남이</persName>가 얼굴이 새빨개 가지고 들어섰다.</p>
-                <p>학생과 <persName xml:id="TCH">선생</persName>은 반가워하면서 웃었다. 그리고, 그들은 <persName xml:id="CHN">창남이</persName>가 신고 섰는 구두를 보고, 더욱 크게 웃었다. 그의 오른편 구두는 헝겊으로 싸매고 또 새끼로 감아 매고 또 그 위에 손수건으로 싸매고 하여, 퉁퉁하기 짝이 없다.</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">한창남</persName>! 오늘은 웬일로 늦었느냐?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>예.</p>
-                </sp>
-                <p>하고, <persName xml:id="CHN">창남이</persName>는 그 괴상한 퉁퉁한 구두를 신고 있는 발을 번쩍 들고,</p>
-                <sp who="#CHN">
-                    <p>오다가 길에서 구두가 다 떨어져서, 너털거리기에 새끼를 얻어서 고쳐 신었더니 또 너털거리고 해서, 여섯 번이나 제 손으로 고쳐 신고 오느라고 늦었습니다.</p>
-                </sp>
-                <p>그리고도 <persName xml:id="CHN">창남이</persName>는 태평이었다. 그 시간이 끝나고 쉬는 동안에, <persName xml:id="CHN">창남이</persName>는 그 구두를 벗어 들고, 다 해져서 너털거리는 구두 주둥이를 손수건과 대님 짝으로 얌전스럽게 싸매어 신었다. 그러고도 태평이었다.</p>
+                <p>남이 걱정이 있어 얼굴을 찡그릴 때에는, 우스운 말을 잘 지어 내고, 동무들이 곤란한 일이 있을 때에는 좋은 의견도 잘 꺼내 놓으므로, <rs ref="#CHN">비행가</rs>의 이름이 더욱 높아졌다.</p>
+                <p>연설을 잘 하고, 토론을 잘 하므로 갑 조하고 내기를 할 때에는 언제든지 <persName ref="#CHN">창남</persName>이 혼자 나가 이기는 셈이었다.</p>
+                <p>그러나, <rs ref="#CHN">그</rs>의 집이 정말 가난한지 넉넉한지 아무도 아는 사람이 없었고, 가끔 <rs ref="#CHN">그</rs>의 뒤를 쫓아가 보려고도 했으나 모두 중간에서 실패를 하고 말았다. 왜 그런고 하면, <rs ref="#CHN">그</rs>는 날마다 이십 리 밖에서 학교를 다니는 까닭이었다.</p>
+                <p><rs ref="#CHN">그</rs>는 가끔 가끔 우스운 말을 하여도 <rs ref="#CHN">자기</rs> 집안 일이나 <rs ref="#CHN">자기</rs> 신상에 관한 이야기는 말하는 법이 없었다. 그런 것을 보면 입이 무거운 편이었다.</p>
+                <p><rs ref="#CHN">그</rs>는 입과 같이 궁둥이가 무거워서, 운동틀(철봉)에서는 잘 넘어가지 못하여, 늘 <persName ref="#TCH">체조 선생님</persName>께 흉을 잡혔다. 하학한 후 학생들이 다 돌아간 다음에도 혼자 남아 있어서 운동틀에 매달려 땀을 흘리면서 혼자 연습을 하고 있는 것을 동무들은 가끔 보았다.</p>
+                <said who="#STD">이애, <rs ref="#CHN">비행가</rs>가 하학 후에 혼자 남아서 철봉 연습을 하고 있더라.</said>
+                <said who="#STD">땀을 뻘뻘 흘리면서 혼자 애를 쓰더라.</said>
+                <said who="#STD">그래, 이제는 좀 넘어가데?</said>
+                <said who="#STD">웬걸, 한 이백 번이나 넘도록 연습하면서, 그래도 못 넘어가더라.</said>
+                <said who="#STD">그래, 맨 나중에는 <rs ref="#CHN">자기</rs>가 <rs ref="#CHN">자기</rs> 손으로 그 누덕누덕 기운 구둥이를 때리면서 <q>궁둥이가 무거워, 궁둥이가 무거워.</q> 하면서 가더라!</said>
+                <said who="#STD"><rs ref="#CHN">제</rs>가 <rs ref="#CHN">제</rs> 궁둥이를 때려?</said>
+                <said who="#STD">그러게 괴물이지…….</said>
+                <said who="#STD">아 하하하하하…….</said>
+                <p>모두 웃었다. 어느 모로든지 <persName ref="#CHN">창남</persName>이는 반 중의 이야깃거리가 되는 것이었다.</p>
+                <p>겨울도 겨울 몹시도 , 추운 날이었다. 호호 부는 이른 아침에 상학 종은 치고, 공부는 시작되었는데, 한 번도 결석한 일이 없는 <persName ref="#CHN">창남</persName>이가 이 날은 오지 않았다.</p>
+                <said who="#STD">호욀세, 호외야! <rs ref="#CHN">비행가</rs>가 결석을 하다니!</said>
+                <said who="#STD">어제 저녁 그 무서운 바람에 어디로 날아간 게지!</said>
+                <said who="#STD">아마, 병이 났다 보다. 감기가 든 게지.</said>
+                <said who="#STD">이놈아, 능청스럽게 아는 체 마라.</said>
+                <p>일 학년 을 조는 <persName ref="#CHN">창남</persName>이 소문으로 수군수군 야단이었다.</p>
+                <p>첫째 시간이 반이나 넘어갔을 때, 교실 문이 덜컥 열리면서, <persName ref="#CHN">창남</persName>이가 얼굴이 새빨개 가지고 들어섰다.</p>
+                <p>학생과 <persName ref="#TCH">선생</persName>은 반가워하면서 웃었다. 그리고, 그들은 <persName ref="#CHN">창남</persName>이가 신고 섰는 구두를 보고, 더욱 크게 웃었다. <rs ref="#CHN">그</rs>의 오른편 구두는 헝겊으로 싸매고 또 새끼로 감아 매고 또 그 위에 손수건으로 싸매고 하여, 퉁퉁하기 짝이 없다.</p>
+                <said who="#TCH"><persName ref="#CHN">한창남</persName>! 오늘은 웬일로 늦었느냐?</said>
+                <said who="#CHN">예.</said>
+                <p>하고, <persName ref="#CHN">창남</persName>이는 그 괴상한 퉁퉁한 구두를 신고 있는 발을 번쩍 들고,</p>
+                <said who="#CHN">오다가 길에서 구두가 다 떨어져서, 너털거리기에 새끼를 얻어서 고쳐 신었더니 또 너털거리고 해서, 여섯 번이나 <rs ref="#CHN">제</rs> 손으로 고쳐 신고 오느라고 늦었습니다.</said>
+                <p>그리고도 <persName ref="#CHN">창남</persName>이는 태평이었다. 그 시간이 끝나고 쉬는 동안에, <persName ref="#CHN">창남</persName>이는 그 구두를 벗어 들고, 다 해져서 너털거리는 구두 주둥이를 손수건과 대님 짝으로 얌전스럽게 싸매어 신었다. 그러고도 태평이었다.</p>
                 <p>따뜻해도 귀찮은 체조 시간이 이처럼 살이 터지도록 추운 날이었다.</p>
-                <sp>
-                    <p>어떻게 이 추운 날 체조를 한담.</p>
-                </sp>
-                <sp>
-                    <p>또 그 무섭고 딱딱한 <persName xml:id="TCH">선생님</persName>이 웃통을 벗으라고 하겠지……. 아이구, 아찔이야.</p>
-                </sp>
-                <p>하고, 싫어들 하는 체조 시간이 되었다. 원래 군인으로 다니던 성질이라, 뚝뚝하고 용서성 없는 <persName xml:id="TCH">체조 선생</persName>이 호령을 하다가, 그 괴상스런 <persName xml:id="CHN">창남이</persName> 구두를 보았다.</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">한창남</persName>! 그 구두를 신고도 활동할 수 있나? 뻔뻔스럽게…….</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>예, 얼마든지 할 수 있습니다. 이것 보십시오.</p>
-                </sp>
-                <p>하고, <persName xml:id="CHN">창남이</persName>는 시키지도 않은 뜀도 뛰어 보이고, 달음박질도 하여 보이고, 답보(제자리걸음)도 부지런히 해 보였다. <persName xml:id="TCH">체조 선생님</persName>도 어이없다는 듯이,</p>
-                <sp who="#TCH">
-                    <p>음! 상당히 치료해 신었군!</p>
-                </sp>
+                <said who="#STD">어떻게 이 추운 날 체조를 한담.</said>
+                <said who="#STD">또 그 무섭고 딱딱한 <persName ref="#TCH">선생님</persName>이 웃통을 벗으라고 하겠지……. 아이구, 아찔이야.</said>
+                <p>하고, 싫어들 하는 체조 시간이 되었다. 원래 군인으로 다니던 성질이라, 뚝뚝하고 용서성 없는 <persName ref="#TCH">체조 선생</persName>이 호령을 하다가, 그 괴상스런 <persName ref="#CHN">창남</persName>이 구두를 보았다.</p>
+                <said who="#TCH"><persName ref="#CHN">한창남</persName>! 그 구두를 신고도 활동할 수 있나? 뻔뻔스럽게…….</said>
+                <said who="#CHN">예, 얼마든지 할 수 있습니다. 이것 보십시오.</said>
+                <p>하고, <persName ref="#CHN">창남</persName>이는 시키지도 않은 뜀도 뛰어 보이고, 달음박질도 하여 보이고, 답보(제자리걸음)도 부지런히 해 보였다. <persName ref="#TCH">체조 선생님</persName>도 어이없다는 듯이,</p>
+                <said who="#TCH">음! 상당히 치료해 신었군!</said>
                 <p>하고 말았다. 그리고, 다시 호령을 계속하였다.</p>
-                <sp who="#TCH">
-                    <p>전열만 삼 보(세걸음) 앞으로 ─ 옷!</p>
-                </sp>
-                <sp who="#TCH">
-                    <p>전 후열 모두 웃옷 벗어!</p>
-                </sp>
-            </div>
-            <div type="chapter">
-                <head>3</head>
-                <p>죽기보다 싫어도 <persName xml:id="TCH">체조 선생님</persName>의 명령이라, 온반 학생이 일제히 검은 양복 저고리를 벗어, 셔츠만 입은 채로 섰고, <persName xml:id="TCH">선생님</persName>까지 벗었는데, 다만 한 사람 <persName xml:id="CHN">창남이</persName>만 벗지를 않고 그대로 있었다.</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">한창남</persName>! 왜 웃옷을 안 벗나?</p>
-                </sp>
-                <p><persName xml:id="CHN">창남이</persName>의 얼굴은 푹 숙이면서 빨개졌다. 그가 이러기는 처음이었다. 한참 동안 멈칫멈칫하다가 고개를 들고,</p>
-                <sp who="#CHN">
-                    <p><persName xml:id="TCH">선생님</persName>, 만년 셔츠도 좋습니까?</p>
-                </sp>
-                <sp who="#TCH">
-                    <p>무엇? 만년 셔츠? 만년 셔츠란 무어야?</p></sp>
-                <sp who="#CHN">
-                    <p>매, 매, 맨몸 말씀입니다.</p>
-                </sp>
-                <p>성난 <persName xml:id="TCH">체조 선생님</persName>은 당장에 후려갈길 듯이 그의 앞으로 뚜벅뚜벅 걸어가면서,</p>
-                <sp who="#TCH">
-                    <p>벗어랏!</p>
-                </sp>
-                <p>호령하였다. <persName xml:id="CHN">창남이</persName>는 양복 저고리를 벗었다. 그는 셔츠도 적삼도 안 입은 벌거숭이 맨몸이었다. <persName xml:id="TCH">선생</persName>은 깜짝 놀라고 아이들은 깔깔 웃었다.</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">한창남</persName>! 왜 셔츠를 안 입었니?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>없어서 못 입었습니다.</p>
-                </sp>
-                <p>그때, <persName xml:id="TCH">선생님</persName>의 무섭던 눈에 눈물이 돌았다. 그리고, 학생들의 웃음도 갑자기 없어졌다. 가난! 고생! 아아 <persName xml:id="CHN">창남이</persName> 집은 그렇게 몹시 구차하였던가……, 모두 생각하였다.</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">창남아</persName>! 정말 셔츠가 없니?</p>
-                </sp>
+                <said who="#TCH">전열만 삼 보(세걸음) 앞으로 ─ 옷!</said>
+                <said who="#TCH">전 후열 모두 웃옷 벗어!</said>
+                <p>죽기보다 싫어도 <persName ref="#TCH">체조 선생님</persName>의 명령이라, 온반 학생이 일제히 검은 양복 저고리를 벗어, 셔츠만 입은 채로 섰고, <persName ref="#TCH">선생님</persName>까지 벗었는데, 다만 <rs ref="#CHN">한 사람</rs> <persName ref="#CHN">창남</persName>이만 벗지를 않고 그대로 있었다.</p>
+                <said who="#TCH"><persName ref="#CHN">한창남</persName>! 왜 웃옷을 안 벗나?</said>
+                <p><persName ref="#CHN">창남</persName>이의 얼굴은 푹 숙이면서 빨개졌다. 그가 이러기는 처음이었다. 한참 동안 멈칫멈칫하다가 고개를 들고,</p>
+                <said who="#CHN"><persName ref="#TCH">선생님</persName>, 만년 셔츠도 좋습니까?</said>
+                <said who="#TCH">무엇? 만년 셔츠? 만년 셔츠란 무어야?</said>
+                <said who="#CHN">매, 매, 맨몸 말씀입니다.</said>
+                <p>성난 <persName ref="#TCH">체조 선생님</persName>은 당장에 후려갈길 듯이 <rs ref="#CHN">그</rs>의 앞으로 뚜벅뚜벅 걸어가면서,</p>
+                <said who="#TCH">벗어랏!</said>
+                <p>호령하였다. <persName ref="#CHN">창남</persName>이는 양복 저고리를 벗었다. <rs ref="#CHN">그</rs>는 셔츠도 적삼도 안 입은 벌거숭이 맨몸이었다. <persName ref="#TCH">선생</persName>은 깜짝 놀라고 아이들은 깔깔 웃었다.</p>
+                <said who="#TCH"><persName ref="#CHN">한창남</persName>! 왜 셔츠를 안 입었니?</said>
+                <said who="#CHN">없어서 못 입었습니다.</said>
+                <p>그때, <persName ref="#TCH">선생님</persName>의 무섭던 눈에 눈물이 돌았다. 그리고, 학생들의 웃음도 갑자기 없어졌다. 가난! 고생! 아아 <persName ref="#CHN">창남</persName>이 집은 그렇게 몹시 구차하였던가……, 모두 생각하였다.</p>
+                <said who="#TCH"><persName ref="#CHN">창남</persName>아! 정말 셔츠가 없니?</said>
                 <p>눈물을 씻고 다정히 묻는 소리에,</p>
-                <sp who="#CHN">
-                    <p>오늘하고 내일만 없습니다. 모레는 <placeName>인천</placeName>서 <persName xml:id="CHNBR">형님</persName>이 올라와서 사 줍니다.</p>
-                </sp>
-                <p><persName xml:id="TCH">체조 선생님</persName>은 다시 물러서서 큰 소리로,</p>
-                <sp who="#TCH">
-                    <p><persName xml:id="CHN">한창남</persName>은 오늘은 웃옷을 입고 해도 용서한다. 그리고 학생 제군에게 특별히 할 말이 있으니, 제군은 다 <persName xml:id="CHN">한창남</persName> 군 같이 용감한 사람이 되란 말이다. 누구든지 셔츠가 없으면, 추운 것을 둘째요, 첫째 부끄러워서 결석이 되더라도 학교에 오지 못할 것이다. 그런데, 오늘 같이 제일 추운 날 <persName xml:id="CHN">한창남</persName> 군은 셔츠 없이 맨몸, 으으응, 즉 그 만년 셔츠로 학교에 왔단 말이다.</p>
-                    <p>여기 섰는 제군 중에는 셔츠를 둘씩 포개 입은 사람도 있을 것이요, 재킷에 다 외투까지 입고 온 사람이 있지 않은가……. 물론, 맨몸으로 나오는 것이 예의는 아니야, 그러나 그 용기와 의기가 좋단 말이다. <persName xml:id="CHN">한창남</persName> 군의 의기는 일등이다. 제군도 다 그의 의기를 배우란 말야.</p>
-                </sp>
-                <p>만년 셔츠! 비행가란 말도 없어지고, 그 날부터 만년 셔츠란 말이 온 학교 안에 퍼져서, 만년 셔츠라고만 부르게 되었다.</p>
-            </div>
-            <div type="chapter">
-                <head>4</head>
-                <p>그 다음날, 만년 셔츠 <persName xml:id="CHN">창남이</persName>는 늦게 오지 않았건마는, 그가 교문 근처까지 오기가 무섭게, 온 학교 학생이 허리가 부러지도록 웃기 시작하였다.</p>
-                <p><persName xml:id="CHN">창남이</persName>가 오늘은 양복 웃저고리에, 바지는 어쨌는지 얄따랗고 해어져 뚫어진 조선 겹바지를 입고, 버선도 안 신고 맨발에 짚신을 끌고 뚜벅뚜벅 걸어온 까닭이었다. 맨가슴에, 양복 저고리, 위는 양복 저고리 아래는 조선 바지, 그나마 다 떨어진 겹바지, 맨발에 짚신, 그 꼴을 하고, 이십 리 길이나 걸어왔으니, 한길에서는 오죽 웃었으랴…….</p>
-                <p>그러나, 당자는 태평이었다.</p>
-                <sp>
-                    <p><orgName>고아원</orgName> 학생 같으이! <orgName>고아원</orgName>야.</p>
-                </sp>
-                <sp>
-                    <p>밥 얻어 먹으러 다니는 아이 같구나.</p>
-                </sp>
-                <p>하고들 떠드는 학생들 틈을 헤치고 <persName xml:id="TCH">체조 선생님</persName>이, 무슨 일인가 하고 들여다보니까 <persName xml:id="CHN">창남이</persName>가 그 꼴이라 너무 놀라서,</p>
-                <sp who="#TCH">
-                    <p>너는 양복 바지를 어쨌니?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>없어서 못 입고 왔습니다.</p>
-                </sp>
-                <sp who="#TCH">
-                    <p>어째 그리 없어지느냐? 날마다 한 가지씩 없어진단 말이냐?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>예에, 그렇게 한 가지씩 두 가지씩 없어집니다.</p>
-                </sp>
-                <sp who="#TCH">
-                    <p>어째서?</p></sp>
-                <sp who="#CHN">
-                    <p>예.</p>
-                </sp>
+                <said who="#CHN">오늘하고 내일만 없습니다. 모레는 <placeName>인천</placeName>서 <persName ref="#CHNBR">형님</persName>이 올라와서 사 줍니다.</said>
+                <p><persName ref="#TCH">체조 선생님</persName>은 다시 물러서서 큰 소리로,</p>
+                <said who="#TCH"><persName ref="#CHN">한창남</persName>은 오늘은 웃옷을 입고 해도 용서한다. 그리고 학생 제군에게 특별히 할 말이 있으니, 제군은 다 <persName ref="#CHN">한창남</persName> 군 같이 용감한 사람이 되란 말이다. 누구든지 셔츠가 없으면, 추운 것을 둘째요, 첫째 부끄러워서 결석이 되더라도 학교에 오지 못할 것이다. 그런데, 오늘 같이 제일 추운 날 <persName ref="#CHN">한창남</persName> 군은 셔츠 없이 맨몸, 으으응, 즉 그 만년 셔츠로 학교에 왔단 말이다.여기 섰는 제군 중에는 셔츠를 둘씩 포개 입은 사람도 있을 것이요, 재킷에 다 외투까지 입고 온 사람이 있지 않은가……. 물론, 맨몸으로 나오는 것이 예의는 아니야, 그러나 그 용기와 의기가 좋단 말이다. <persName ref="#CHN">한창남</persName> 군의 의기는 일등이다. 제군도 다 <rs ref="#CHN">그</rs>의 의기를 배우란 말야.</said>
+                <p>만년 셔츠! <rs ref="#CHN">비행가</rs>란 말도 없어지고, 그 날부터 만년 셔츠란 말이 온 학교 안에 퍼져서, 만년 셔츠라고만 부르게 되었다.</p>
+                <p>그 다음날, 만년 셔츠 <persName ref="#CHN">창남</persName>이는 늦게 오지 않았건마는, <rs ref="#CHN">그</rs>가 교문 근처까지 오기가 무섭게, 온 학교 학생이 허리가 부러지도록 웃기 시작하였다.</p>
+                <p><persName ref="#CHN">창남</persName>이가 오늘은 양복 웃저고리에, 바지는 어쨌는지 얄따랗고 해어져 뚫어진 조선 겹바지를 입고, 버선도 안 신고 맨발에 짚신을 끌고 뚜벅뚜벅 걸어온 까닭이었다. 맨가슴에, 양복 저고리, 위는 양복 저고리 아래는 조선 바지, 그나마 다 떨어진 겹바지, 맨발에 짚신, 그 꼴을 하고, 이십 리 길이나 걸어왔으니, 한길에서는 오죽 웃었으랴…….</p>
+                <p>그러나, <rs ref="#CHN">당자</rs>는 태평이었다.</p>
+                <said who="#STD"><orgName>고아원</orgName> 학생 같으이! <orgName>고아원</orgName>야.</said>
+                <said who="#STD">밥 얻어 먹으러 다니는 아이 같구나.</said>
+                <p>하고들 떠드는 학생들 틈을 헤치고 <persName ref="#TCH">체조 선생님</persName>이, 무슨 일인가 하고 들여다보니까 <persName ref="#CHN">창남</persName>이가 그 꼴이라 너무 놀라서,</p>
+                <said who="#TCH"><rs ref="#CHN">너</rs>는 양복 바지를 어쨌니?</said>
+                <said who="#CHN">없어서 못 입고 왔습니다.</said>
+                <said who="#TCH">어째 그리 없어지느냐? 날마다 한 가지씩 없어진단 말이냐?</said>
+                <said who="#CHN">예에, 그렇게 한 가지씩 두 가지씩 없어집니다.</said>
+                <said who="#TCH">어째서?</said>
+                <said who="#CHN">예.</said>
                 <p>하고, 침을 삼키고 나서,</p>
-                <sp who="#CHN">
-                    <p>그저께 저녁에 바람이 몹시 불던 날 저희 동리에 큰 불이 나서, 저의 집도 반이나 넘어 탔어요. 그래서 모두 없어졌습니다.</p>
-                </sp>
+                <said who="#CHN">그저께 저녁에 바람이 몹시 불던 날 <rs ref="#CHN">저희</rs> 동리에 큰 불이 나서, <rs ref="#CHN">저</rs>의 집도 반이나 넘어 탔어요. 그래서 모두 없어졌습니다.</said>
                 <p>듣기에 하도 딱해서 모두 혀 끝을 찼다.</p>
-                <sp who="#TCH">
-                    <p>그렇지만, 양복 바지는 어저께도 입고 오지 않았니? 불을 그저께 나고…….</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>저의 집은 반만이라도 타서, 세간을 건졌지만, 이웃집이 십여 채나 다 타버려서 동네가 야단들이어요. 저는 <persName xml:id="CHNM">어머니</persName>하고 단 두 식구만 있는데, 반 만이라도 남았으니까, 먹고 잘 것은 넉넉해요. 그런데, 동네 사람들이 먹지도 못하고, 자지도 못 하게 되어서 야단들이어요. 그래, 저의 <persName xml:id="CHNM">어머니</persName>께서는 우리는 먹고 잘 수 있으니까. 두 식구가 당장에 입고 있는 옷 한 벌씩만 남기고는 모두 길거리에 떨고 있는 동네 사람들에게 나눠 주라고 하셨으므로 <persName xml:id="CHNM">어머니</persName> 옷, 제 옷을 모두 동네 어른들게 드렸답니다. 그리고, 양복 바지는 제가 입고 주지 않고 있었는데 저의 집 옆에서 술장사하던 <persName xml:id="OLDM">영감님</persName>이 병든 노인이신데, 하도 추워하니까, 보기에 딱해서, 어제 저녁에 마저 주고, 저는 가을에 입던 해진 겹바지를 꺼내 입었습니다.</p>
-                </sp>
-                <p>모든 학생들은 죽은 듯이 고요하고, 고개들이 말없이 수그러졌다. <persName xml:id="TCH">선생님</persName>도 고개를 숙였다.</p>
-                <sp who="#TCH">
-                    <p>그래, 너는 네가 입은 셔츠까지도 양말까지도 주었단 말이냐?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>아니오, 양말과 셔츠만은 한 벌씩 남겼었는데, 저의 <persName xml:id="CHNM">어머니</persName>가 입었던 옷은 모두 남에게 주어 놓고, 추워서 벌벌 떠시므로, 제가 <q><persName xml:id="CHNM">어머니</persName>, 제 셔츠라도 입으실까요.</q>하니까, <q>네 셔츠도 모두 남 주었는데, 웬 것이 두 벌씩 남았겠니!</q>하시므로, 저는 제가 입고 있던 것 한 벌뿐이면서도, <q>예, 두 벌 남았으니, 하나는 <persName xml:id="CHNM">어머니</persName> 입으시지요.</q>하고, 입고 있던 것을 어저께 아침에 벗어 드렸습니다. 그러니까 <q>네가 먼 길에 학교 가기 추울 텐데, 둘을 포개 입을 것을 그랬구나.</q>하시면서, 받아 입으셨어요. 그리고, 하도 발이 시려 하시면서, <q>이애야 <persName xml:id="CHN">창남아</persName>, 양말도 두 켤레가 있느냐?</q> 하시기에, 신고 있는 것 한 켤레 것만은, <q>예, 두 켤레입니다. 하나는 <persName xml:id="CHNM">어머니</persName> 신으시지요.</q> 하고, 거짓말을 하고, 신었던 것을 어저께 벗어 드렸습니다. 저는 그렇게 <persName xml:id="CHNM">어머니</persName>께 거짓말을 하였습니다. 나쁜 일인 줄 알면서도 거짓말을 하였습니다. 오늘도 아침에 나올 때에, <q>이 애야, 오늘같이 추운 날 셔츠를 하나만 입어서 춥겠구나. 버선을 신고 가거라.</q>하시기에 맨몸 맨발이면서도, <q>예, 셔츠도 잘 입고 버선도 잘 신었으니까, 춥지는 않습니다.</q> 하고 속이고 나왔어요. 저는 거짓말쟁이가 됐습니다.</p>
-                </sp>
-                <p>하고, <persName xml:id="CHN">창남이</persName>는 고개를 숙였다.</p>
-                <sp who="#TCH">
-                    <p>그러나, 네가 거짓말을 하더라도 <persName xml:id="CHNM">어머니</persName>께서 너의 벌거벗은 가슴과 버선 없이 맨발로 짚신을 신은 것을 보시고 아실 것이 아니냐?</p>
-                </sp>
-                <sp who="#CHN">
-                    <p>아아, <persName xml:id="TCH">선생님</persName>…….</p>
-                </sp>
-                <p>하는 <persName xml:id="CHN">창남이</persName>의 소리는 , 우는 소리같이 떨렸다. 그리고, 그의 수그린 얼굴에서 눈물 방울이 뚝뚝 그의 짚신 코에 떨어졌다.</p>
-                <sp who="#CHN">
-                    <p>저의 <persName xml:id="CHNM">어머니</persName>는 제가 여덟 살 되던 해에 눈이 멀으셔서 보지를 못하고 사신답니다.</p>
-                </sp>
-                <p><persName xml:id="TCH">체조 선생</persName>의 얼굴에도 굵다란 눈물이 흘렀다. 와글와글 하던 그 많은 학생들도 자는 것같이 조용하고, 훌쩍훌쩍 거리면서, 우는 소리만 여기저기서 조용히 들렸다.</p>
+                <said who="#TCH">그렇지만, 양복 바지는 어저께도 입고 오지 않았니? 불을 그저께 나고…….</said>
+                <said who="#CHN"><rs ref="#CHN">저</rs>의 집은 반만이라도 타서, 세간을 건졌지만, 이웃집이 십여 채나 다 타버려서 동네가 야단들이어요. <rs ref="#CHN">저</rs>는 <persName ref="#CHNM">어머니</persName>하고 단 두 식구만 있는데, 반 만이라도 남았으니까, 먹고 잘 것은 넉넉해요. 그런데, 동네 사람들이 먹지도 못하고, 자지도 못 하게 되어서 야단들이어요. 그래, <rs ref="#CHN">저</rs>의 <persName ref="#CHNM">어머니</persName>께서는 우리는 먹고 잘 수 있으니까. 두 식구가 당장에 입고 있는 옷 한 벌씩만 남기고는 모두 길거리에 떨고 있는 동네 사람들에게 나눠 주라고 하셨으므로 <persName ref="#CHNM">어머니</persName> 옷, 제 옷을 모두 동네 어른들게 드렸답니다. 그리고, 양복 바지는 제가 입고 주지 않고 있었는데 <rs ref="#CHN">저</rs>의 집 옆에서 술장사하던 <persName ref="#OLDM">영감님</persName>이 병든 노인이신데, 하도 추워하니까, 보기에 딱해서, 어제 저녁에 마저 주고, <rs ref="#CHN">저</rs>는 가을에 입던 해진 겹바지를 꺼내 입었습니다.</said>
+                <p>모든 학생들은 죽은 듯이 고요하고, 고개들이 말없이 수그러졌다. <persName ref="#TCH">선생님</persName>도 고개를 숙였다.</p>
+                <said who="#TCH">그래, 너는 네가 입은 셔츠까지도 양말까지도 주었단 말이냐?</said>
+                <said who="#CHN">아니오, 양말과 셔츠만은 한 벌씩 남겼었는데, 저의 <persName ref="#CHNM">어머니</persName>가 입었던 옷은 모두 남에게 주어 놓고, 추워서 벌벌 떠시므로, <rs ref="#CHN">제</rs>가 <q><persName ref="#CHNM">어머니</persName>, <rs ref="#CHN">제</rs> 셔츠라도 입으실까요.</q>하니까, <q>네 셔츠도 모두 남 주었는데, 웬 것이 두 벌씩 남았겠니!</q>하시므로, 저는 제가 입고 있던 것 한 벌뿐이면서도, <q>예, 두 벌 남았으니, 하나는 <persName ref="#CHNM">어머니</persName> 입으시지요.</q>하고, 입고 있던 것을 어저께 아침에 벗어 드렸습니다. 그러니까 <q>네가 먼 길에 학교 가기 추울 텐데, 둘을 포개 입을 것을 그랬구나.</q>하시면서, 받아 입으셨어요. 그리고, 하도 발이 시려 하시면서, <q>이애야 <persName ref="#CHN">창남아</persName>, 양말도 두 켤레가 있느냐?</q> 하시기에, 신고 있는 것 한 켤레 것만은, <q>예, 두 켤레입니다. 하나는 <persName ref="#CHNM">어머니</persName> 신으시지요.</q> 하고, 거짓말을 하고, 신었던 것을 어저께 벗어 드렸습니다. 저는 그렇게 <persName ref="#CHNM">어머니</persName>께 거짓말을 하였습니다. 나쁜 일인 줄 알면서도 거짓말을 하였습니다. 오늘도 아침에 나올 때에, <q>이 애야, 오늘같이 추운 날 셔츠를 하나만 입어서 춥겠구나. 버선을 신고 가거라.</q>하시기에 맨몸 맨발이면서도, <q>예, 셔츠도 잘 입고 버선도 잘 신었으니까, 춥지는 않습니다.</q> 하고 속이고 나왔어요. 저는 거짓말쟁이가 됐습니다.</said>
+                <p>하고, <persName ref="#CHN">창남</persName>이는 고개를 숙였다.</p>
+                <said who="#TCH">그러나, 네가 거짓말을 하더라도 <persName ref="#CHNM">어머니</persName>께서 너의 벌거벗은 가슴과 버선 없이 맨발로 짚신을 신은 것을 보시고 아실 것이 아니냐?</said>
+                <said who="#CHN">아아, <persName ref="#TCH">선생님</persName>…….</said>
+                <p>하는 <persName ref="#CHN">창남</persName>이의 소리는 , 우는 소리같이 떨렸다. 그리고, 그의 수그린 얼굴에서 눈물 방울이 뚝뚝 그의 짚신 코에 떨어졌다.</p>
+                <said who="#CHN">저의 <persName ref="#CHNM">어머니</persName>는 제가 여덟 살 되던 해에 눈이 멀으셔서 보지를 못하고 사신답니다.</said>
+                <p><persName ref="#TCH">체조 선생</persName>의 얼굴에도 굵다란 눈물이 흘렀다. 와글와글 하던 그 많은 학생들도 자는 것같이 조용하고, 훌쩍훌쩍 거리면서, 우는 소리만 여기저기서 조용히 들렸다.</p>
             </div>
         </body>
     </text>
