@@ -88,15 +88,21 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <change when="2025-10-30" who="#이재열">작업자 임이로가 자동 TEI 인코딩을 시작함.</change>
+      <change when="2025-10-31" who="#이재열">작업자 임이로가 자동 TEI 인코딩을 완료함.</change>
+      <change when="2025-11-13" who="#이재열">작업자 임이로가 누락된 따옴표 추가</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div>
+        <head>1</head>
         <p> "<said who="#K">뭐 어디 빈자리가 있어야지.</said>" </p>
         <p><persName ref="#K">K사장</persName>은 안락의자에 푹신 파묻힌 몸을 뒤로 벌―떡 젖히며 하품을 하듯이 시원찮게 대답을 한다. 미상불 그는
           두 팔을 쭉― 내뻗고 기지개라도 한 번 쓰고 싶은 것을 겨우 참는 눈치다.</p>
-        <p>이 <persName ref="#K">K사장</persName>과 둥근 탁자를 사이에 두고 공손히 마주 앉아 얼굴에는 '나는 선배인 선생님을 극히 존경하고
-          앙모합니다' 하는 비굴한 미소를 띠고 있는 구변 없는 구변을 다하여 직업 동냥의 구걸(<choice>
+        <p>이 <persName ref="#K">K사장</persName>과 둥근 탁자를 사이에 두고 공손히 마주 앉아 얼굴에는 '<rs ref="#P">나</rs>는
+          선배인 선생님을 극히 존경하고 앙모합니다' 하는 비굴한 미소를 띠고 있는 구변 없는 구변을 다하여 직업 동냥의 구걸(<choice>
             <orig>口乞</orig>
             <reg>구걸</reg>
           </choice>) 문구를 기다랗게 늘어놓던 <persName ref="#P">P</persName>…… <persName
@@ -191,6 +197,7 @@
         <p> "<said who="#P" aloud="false">흥! 망할 자식들!</said>" </p>
         <p><persName ref="#P">P</persName>는 혼자말로 이렇게 두덜거리며 <persName ref="#C">C</persName>와 작별도 아니
           하고 밖으로 나와 버렸다.</p>
+        <head>2</head>
         <p><persName ref="#P">P</persName>는 <placeName>광화문 네거리</placeName>의 <placeName>기념비각</placeName>
           (<choice>
             <orig>紀念碑閣</orig>
@@ -207,6 +214,7 @@
           기념비각</placeName>을 앞뒤로 구경한다. 여자는 사진까지 찍는다.</p>
         <p><persName ref="#DWG">대원군</persName>이 만일 이 꼴을 본다면…… 이렇게 생각하매 <persName ref="#P">P</persName>는
           저절로 미소가 입가에 떠올랐다.</p>
+        <head>3</head>
         <p><persName ref="#DWG">대원군</persName>은 <term>
             <choice>
               <orig>韓末</orig>
@@ -286,6 +294,7 @@
         <p>인텔리가 아니 되었으면 차라리 노동자가 되었을 것인데 <term>인텔리</term>인지라 그 속에는 들어갔다가도 도로 달아나오는 것이 구십구 퍼센트다. 그
           나머지는 모두 어깨가 축 처진 무직 <term>인텔리</term>요, 무기력한 문화 예비군 속에서 푸른 한숨만 쉬는 초상집의 주인 없는 개들이다. 레디메이드
           인생이다.</p>
+        <head>4</head>
         <p> "<said who="#P" aloud="false">제―길!</said>" </p>
         <p><persName ref="#P">P</persName>는 혼자 두덜거리며 지금까지 서 있던 <placeName>기념비각</placeName> 옆을 떠났다.</p>
         <p><persName ref="#P">P</persName>는 자기 자신이고 세상의 모든 일이고 모두 짜증이 나고 원수스러웠다.</p>
@@ -363,6 +372,7 @@
             <orig>一斗半</orig>
             <reg>한말반</reg>
           </choice>〕이나 되게 한숨을 푸― 내쉬었다. 그리고는 편지를 박박 찢어 버렸다.</p>
+        <head>5</head>
         <p>편지의 요건은 <persName ref="#P">P</persName>의 아들 <persName ref="#CS">창선</persName>에 관한 것이다.</p>
         <p><persName ref="#P">P</persName>에게는 연전에 갈린 아내와의 사이에 생긴 <persName ref="#CS">창선</persName>이라는
           아들이 있다. 금년에 아홉 살이다.</p>
@@ -524,6 +534,7 @@
         <p> "<said who="#M">흥.</said>" </p>
         <p> "<said who="#H">정말이야.</said>" </p>
         <p> "<said who="#M">싫여.</said>" </p>
+        <head>6</head>
         <p>그날 밤.</p>
         <p><persName ref="#P">P</persName>와 <persName ref="#M">M</persName>은 <persName ref="#H">H</persName>를
           졸라 그의 법률책을 잡혀 돈 육 원을 만들어 가지고 나섰다.</p>
@@ -620,6 +631,7 @@
           흐트러진다.</p>
         <p> "<said who="#P">아따 돈!</said>" </p>
         <p>해 던지고는 <persName ref="#P">P</persName>는 뛰어나왔다. 그의 눈에는 눈물이 괴었다.</p>
+        <head>7</head>
         <p><persName ref="#P">P</persName>는 정조(<choice>
             <orig>貞操</orig>
             <reg>정조</reg>
@@ -653,6 +665,7 @@
           몰라 괴로워하였다.</p>
         <p>내일을 굶어야 할 그 돈이지만 돈이 아까운 것이 아니다. 정조값으로 이십 전을 주어도 좋다는데 왜 정조는 퇴하고 돈만 있는 대로 다 떨어 주었는가? 왜 눈에
           눈물은 괴었는가?</p>
+        <head>8</head>
         <p><persName ref="#P">P</persName>는 머리가 띵하고 속이 뉘엿거리어 정신을 차릴 수가 없었다. 그는 두 친구에게 인사도 변변히 하지
           아니하고 코를 벤 듯이 <placeName>삼청동</placeName>으로 올라왔다. 어서 바삐 좀 드러눕고만 싶었던 것이다.</p>
         <p>아무리 방구들은 차고 지저분하게 늘어놓았어도 제 처소는 반가운 것이다. 더구나 몸이 괴로울 때는!</p>
@@ -731,6 +744,7 @@
         <p><persName ref="#P">P</persName>는 여기까지 생각하고 입맛 쓴 고소를 띠었다.</p>
         <p> '<said who="#P" aloud="false">'흥! 되지 못하게…… 장님이 눈병 앓는 사람더러 불쌍하다고 한 셈인가'</said>' </p>
         <p><persName ref="#P">P</persName>는 돌아누우면서 혀를 끌끌 찼다.</p>
+        <head>9</head>
         <p><date when="1934">일천구백삼십사년</date>의 이 세상에도 기적이 있다.</p>
         <p>그것은 <persName ref="#P">P</persName>가 굶어 죽지 아니한 것이다. 그는 최근 일주일 동안 돈이 생긴 데가 없다. 잡힐 것도 없었고
           어디서 벌이를 한 적도 없다.</p>
@@ -776,8 +790,7 @@
             아니 마친 자제를 공장엘 보내요?</said>" </p>
         <p> "<said who="#P">내가 학교 공부를 해본 나머지 그게 못쓰겠으니까 자식은 딴 공부를 시키겠다는 것이지요.</said>" </p>
         <p> "<said who="#A">글쎄 정 그러시다면 내가 내 자식 진배없이 잘 데리고 있으면서 일이나 착실히 가르쳐 드리리다마는…… 원 너무 어린데 애차랍잖애요?</said>
-          "
-        </p>
+          " </p>
         <p> "<said who="#P">애차라운 거야 애비 된 내가 더하지요만 그것이 제게는 약이니까…….</said>" </p>
         <p><persName ref="#P">P</persName>는 당부와 치하를 하고 <orgName>인쇄소</orgName>를 나왔다. 한짐 벗어 놓은 것같이 몸이
           거뜬하고 마음이 느긋하였다.</p>
@@ -785,6 +798,7 @@
         <p>십 원 남은 중에 <persName ref="#OWN">주인 노인</persName>에게 육 원을 내어 주니 입이 귀밑까지 찢어진다. 그 끝에 <persName
             ref="#P">P</persName>가 사온 호배추를 내어 주며 김치를 담가 달라고 하니 선선히 응낙한다. 그리고 자식을 데리고 자취를 하겠다니까 깍두기야
           간장이야 된장 같은 것을 아까운 줄 모르고 날라다 주곤 한다.</p>
+        <head>10</head>
         <p>이튿날 전에 없이 첫새벽에 일어난 <persName ref="#P">P</persName>는 서투른 솜씨로 화롯밥을 지어 놓고 <placeName>정거장</placeName>으로
           나갔다.</p>
         <p>그의 <persName ref="#PB">형</persName>에게서 온 편지에 <persName ref="#S">S</persName>라는 <term>고향
@@ -808,26 +822,25 @@
         <p><persName ref="#P">P</persName>는 <persName ref="#S">S</persName>와 <persName ref="#CS">창선</persName>이를
           데리고 <orgName>구름다리</orgName>로 올라왔다.</p>
         <p> "<said who="#S">저희 외할머니가 저 양복이야 떡이야 모다 해가지고 자네 댁에까지 오섰더라네…… 오서서 어제 떠나는데 정거장까지 나오섰는데 여러
-          가지
+            가지
             신신당부를 하시데…… 자네에게 전하라고.</said>" </p>
         <p><persName ref="#S">S</persName>는 <persName ref="#P">P</persName>가 그다지 듣고 싶지도 아니한 이야기를
           뒤따라오며 늘어놓는다. 그의 가슴에는 옛날의 반감이 솟쳐 올랐다.</p>
         <p> "<said who="#P" aloud="false">별걱정 다 하든 게로군…… 내 자식 내가 어련히 할까 버 쫓아다니며 그래!</said>" </p>
         <p> "<said who="#S">그래도 노인들이야 어데 그런가…… 객지에서 혼자 있는데 데리고 있기 정 불편하거든 당신에게로 도루 보내게 하라고 그러시데…….</said>
-          "
-        </p>
+          " </p>
         <p> "<said who="#P" aloud="false">그 집에 내 자식이 무슨 상관이 있어서 보내라는 거야……? 보낼 테면 그때 데려왔을라구…….</said>
-          "  
-        </p>
+          " </p>
         <p><persName ref="#P">P</persName>는 그것이 모두 그와 갈린 아내의 조종인 줄 알기 때문에 더구나 심정이 났다. 화가 나는 대로 하면
           어린아이가 입고 온 양복도 벗겨 내던지고 싶었으나 꿀꺽 참았다.</p>
+        <head>11</head>
         <p>일찍 맛보아 보지 못한 새 살림을 <persName ref="#P">P</persName>는 시작하였다.</p>
         <p><persName ref="#CS">창선</persName>이가 도착한 날 밤.</p>
         <p><persName ref="#CS">창선</persName>이는 아랫목에서 삭삭 잠을 자고 있다. 외롭게 꿈을 꾸고 있으려니 생각하매 전에 없던 애정이
           솟아오르는 듯하였다.</p>
         <p>이튿날 아침 일찍 <persName ref="#CS">창선</persName>이를 데리고 <orgName>××인쇄소</orgName>에 가서 <persName
             ref="#A">A</persName>에게 맡기고 안 내키는 발길을 돌이켜 나오는 <persName ref="#P">P</persName>는 혼자 중얼거렸다.</p>
-        <p> "<said who="#P" aloud="false">레디메이드 인생이 비로소 겨우 임자를 만나 팔리었구나.</said>" </p>
+        <p> "<said who="#P" aloud="false">레디메이드 인생이 비로소 겨우 <rs ref="#CS">임자</rs>를 만나 팔리었구나.</said>" </p>
       </div>
     </body>
   </text>
