@@ -38,17 +38,17 @@
           <person xml:id="C">
             <persName xml:lang="ko">C</persName>
           </person>
-          <person xml:id="DWG">
+          <!-- <person xml:id="DWG">
             <persName xml:lang="ko">대원군</persName>
-          </person>
-          <person xml:id="JST">
+          </person> -->
+          <!-- <person xml:id="JST">
             <persName xml:lang="ko">
               <choice>
                 <orig>齋藤</orig>
                 <reg>재등</reg>
               </choice>
             </persName>
-          </person>
+          </person> -->
           <person xml:id="OWN">
             <persName xml:lang="ko">주인 노파</persName>
           </person>
@@ -89,10 +89,12 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2025-10-30" who="#임이로">작업자 임이로가 자동 TEI 인코딩을 시작함.</change>
-      <change when="2025-10-31" who="#임이로">작업자 임이로가 자동 TEI 인코딩을 완료함.</change>
-      <change when="2025-11-13" who="#임이로">작업자 임이로가 누락된 따옴표 추가 및 head 태그 추가, 1,2,7,10,11장 초안 완료</change>
+      <change when="2025-10-30" who="#임이로">자동 TEI 인코딩을 시작함.</change>
+      <change when="2025-10-31" who="#임이로">자동 TEI 인코딩을 완료함.</change>
+      <change when="2025-11-13" who="#임이로">최종 자동 TEI 인코딩을 진행. 누락된 따옴표 추가 및 head 태그 추가, 1,2,7,10,11장
+        초안 완료</change>
       <change when="2025-11-14" who="#임이로">said attribute추가 3,4장 초안 완료</change>
+      <change when="2025-11-14" who="#임이로">gap Taged, 5, 6장 초안 완료</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -103,18 +105,10 @@
         <p><persName ref="#K">K사장</persName>은 안락의자에 푹신 파묻힌 몸을 뒤로 벌―떡 젖히며 하품을 하듯이 시원찮게 대답을 한다. 미상불 그는
           두 팔을 쭉― 내뻗고 기지개라도 한 번 쓰고 싶은 것을 겨우 참는 눈치다.</p>
         <p>이 <persName ref="#K">K사장</persName>과 둥근 탁자를 사이에 두고 공손히 마주 앉아 얼굴에는 '<rs ref="#P">나</rs>는
-          선배인 선생님을 극히 존경하고 앙모합니다' 하는 비굴한 미소를 띠고 있는 구변 없는 구변을 다하여 직업 동냥의 구걸(<choice>
-            <orig>口乞</orig>
-            <reg>구걸</reg>
-          </choice>) 문구를 기다랗게 늘어놓던 <persName ref="#P">P</persName>…… <persName
-            ref="#P">P</persName>는 그러나 취직운동에 백전백패(<choice>
-            <orig>百戰百敗</orig>
-            <reg>백전백패</reg>
-          </choice>)의 노졸(<choice>
-            <orig>老卒</orig>
-            <reg>노졸</reg>
-          </choice>)인지라 <persName ref="#K">K</persName>씨의 힘 아니 드는 한마디의 거절에도
-          새삼스럽게 실망도 아니한다. 대답이 그렇게 나왔으니 이제 더 졸라도 별수가 없는 것이지만 허실삼아 한마디 더 해보는 것이다.</p>
+          선배인 선생님을 극히 존경하고 앙모합니다' 하는 비굴한 미소를 띠고 있는 구변 없는 구변을 다하여 직업 동냥의 구걸(口乞) 문구를 기다랗게 늘어놓던 <persName
+            ref="#P">P</persName>…… <persName
+            ref="#P">P</persName>는 그러나 취직운동에 백전백패(百戰百敗)의 노졸(老卒)인지라 <persName ref="#K">K</persName>씨의
+          힘 아니 드는 한마디의 거절에도 새삼스럽게 실망도 아니한다. 대답이 그렇게 나왔으니 이제 더 졸라도 별수가 없는 것이지만 허실삼아 한마디 더 해보는 것이다.</p>
         <p> "<said aloud="true" direct="true" who="#P">글쎄올시다, 그러시다면 지금 당장 어떻게 해주십사고 무리하게 조를 수야
           있겠습니까마는…… 그러면 이 담에 결원이 있다든지 하면
             그때는
@@ -220,10 +214,8 @@
           하고 밖으로 나와 버렸다.</p>
         <head>2</head>
         <p><persName ref="#P">P</persName>는 <orgName type="place"
-            ref="https://ko.wikipedia.org/wiki/광화문">광화문</orgName> 네거리의 <placeName>기념비각</placeName> (<choice>
-            <orig>紀念碑閣</orig>
-            <reg>기념비각</reg>
-          </choice>) 옆에서 발길을 멈추고 망설였다. 어디로 갈까 하는 것이다.</p>
+            ref="https://ko.wikipedia.org/wiki/광화문">광화문</orgName> 네거리의 기념비각(紀念碑閣) 옆에서 발길을 멈추고 망설였다.
+          어디로 갈까 하는 것이다.</p>
         <p>봄 하늘이 맑게 개었다. 햇볕이 살이 올라 포근히 온몸을 싸고 돈다. 덕석 같은 겨울 외투를 벗어 버리고 말쑥말쑥하게 새로 지은 경쾌한 춘추복의 <rs
             type="group">젊은이들</rs>이 봄볕처럼 명랑하게 오고 가고 한다.</p>
         <p>멋쟁이로 차린 <rs
@@ -237,52 +229,25 @@
           기념비각</placeName>을 앞뒤로 구경한다. 여자는 사진까지 찍는다.</p>
         <p>대원군이 만일 이 꼴을 본다면…… 이렇게 생각하매 <persName ref="#P">P</persName>는 저절로 미소가 입가에 떠올랐다.</p>
         <head>3</head>
-        <p>대원군은 <term>
-            <choice>
-              <orig>韓末</orig>
-              <reg>한말</reg>
-            </choice>
-          </term>의 돈키호테였었다. <rs type="person">그</rs>는
-          바가지를 쓰고 벼락을 막으려 하였다. 바가지는 여지없이 부스러졌다. 역사는 <placeName
+        <p>대원군은 한말(韓末)의 돈키호테였었다. <rs type="person">그</rs>는 바가지를 쓰고 벼락을 막으려 하였다. 바가지는 여지없이 부스러졌다. 역사는 <placeName
             type="nation"
             ref="https://ko.wikipedia.org/wiki/조선">조선</placeName>이라는 조그마한 땅덩이나마 너무 오래 뒤떨어뜨려 놓지
           아니하였다.</p>
-        <p><event>
-            <name type="event">
-              <choice>
-                <orig>甲申政變</orig>
-                <reg>갑신정변</reg>
-              </choice>
-            </name>
-          </event>에 싹이 트기
-          시작하여 가지고 <event>
-            <name type="event">일한합방</name>
-          </event>의 급격한 역사 변천을 거쳐 자유주의의 사조는 <date
+        <p>갑신정변(甲申政變)에 싹이 트기 시작하여 가지고 일한합방의 급격한 역사 변천을 거쳐 자유주의의 사조는 <date
             type="historicalPeriod">기미년</date>에 비로소 확실한 걸음을 내어디디었다.</p>
-        <p>자유주의의 새로운 깃발을 내어걸은 '시민(<choice>
-            <orig>市民</orig>
-            <reg>시민</reg>
-          </choice>)'의 기세는 등등하였다.</p>
+        <p>자유주의의 새로운 깃발을 내어걸은 '시민(市民)'의 기세는 등등하였다.</p>
         <p> "<said aloud="true" direct="true" who="unknown">양반? 흥! 누구는 발이 하나길래 너희만 양발(반)이라느냐?</said>
           " </p>
         <p> "<said aloud="true" direct="true" who="unknown">법률의 앞에서는 만인이 평등이다.</said>" </p>
         <p> "<said aloud="true" direct="true" who="unknown">돈…… 돈이 있으면 무어든지 할 수 있다.</said>" </p>
         <p>신흥 부르주아지는 민주주의의 간판을 이용하여 노동자 농민의 등을 어루만지고 경제적으로 유력한 봉건귀족과 악수를 하는 동시에 지식 계급을 대량으로 주문하였다.</p>
-        <p>유자천금이 불여교자 일권서(<choice>
-            <orig>遺子千金 不如敎子 一卷書</orig>
-            <reg>유자천금이 불여교자 일권서</reg>
-          </choice>)라는 봉건시대의 진리가 자유주의의 세례를 받아 일단의 더 발전된 얼굴로 민중을
+        <p>유자천금이 불여교자 일권서(遺子千金 不如敎子 一卷書)라는 봉건시대의 진리가 자유주의의 세례를 받아 일단의 더 발전된 얼굴로 민중을
           열광시켰다.</p>
         <p> "<said aloud="true" direct="true" who="unknown">배워라. 글을 배워라…… 지식만 있으면 누구나 양반이 되고 잘살 수가
           있다.</said>" </p>
         <p>이러한 정열의 외침이 방방곡곡에서 소스라쳐 일어났다.</p>
-        <p><orgName>신문</orgName>과 <orgName>잡지</orgName>가 붓이 닳도록 향학열을 고취하고 피가 끓는 지사(<choice>
-            <orig>志士</orig>
-            <reg>지사</reg>
-          </choice>)들이 향촌으로 돌아다니며 삼촌의 혀를 놀려 권학(<choice>
-            <orig>勸學</orig>
-            <reg>권학</reg>
-          </choice>)을 부르짖었다.</p>
+        <p><orgName>신문</orgName>과 <orgName>잡지</orgName>가 붓이 닳도록 향학열을 고취하고 피가 끓는 지사(志士)들이 향촌으로 돌아다니며
+          삼촌의 혀를 놀려 권학(勸學)을 부르짖었다.</p>
         <p> "<said aloud="true" direct="true" who="unknown">배워라. 배워야 한다. 상놈도 배우면 양반이 된다.</said>" </p>
         <p> "<said aloud="true" direct="true" who="unknown">가르쳐라. 논밭을 팔고 집을 팔아서라도 가르쳐라. 그나마도 못 하면
           고학이라도 해야 한다.</said>" </p>
@@ -311,10 +276,7 @@
             type="school">학교</orgName> 교원이 생기고 <orgName type="church">교회</orgName>의 목사가 생겼다.</p>
         <p>신문 기자가 생기고 잡지 기자가 생겼다. 민중의 지식 정도가 높았으니 신문
           잡지 독자가 부쩍 늘고 의사와 변호사의 벌이가 윤택하여졌다.</p>
-        <p>소설가가 원고료를 얻어먹고 미술가가 그림을 팔아먹고 음악가가 광대의 천호(<choice>
-            <orig>賤號</orig>
-            <reg>천호</reg>
-          </choice>)에서 벗어났다.</p>
+        <p>소설가가 원고료를 얻어먹고 미술가가 그림을 팔아먹고 음악가가 광대의 천호(賤號)에서 벗어났다.</p>
         <p><orgName type="printing">인쇄소</orgName>와 <orgName type="store">책장사</orgName>가 세월을 만나고 <orgName
             type="store">양복점</orgName> <orgName>
             구둣방</orgName>이 늘비하여졌다.</p>
@@ -324,27 +286,27 @@
             type="nation"
             ref="https://ko.wikipedia.org/wiki/조선">조선</placeName>의 문화의 향상이나 민족적 발전이나가 도리어 무거운 짐을 지어
           주었을지언정 덜어 주지는 아니하였다. 그들은 배〔梨〕주고 속 얻어먹은 셈이다.</p>
+        <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 20여 자 탈락)……</gap>
         <p>인텔리…… <term>인텔리</term> 중에도 아무런 손끝의 기술이 없이 <orgName type="collage">대학</orgName>이나 <orgName
             type="school">전문학교</orgName>의 졸업증서 한 장을, 또는 그 조그마한 보통 상식을 가진 직업 없는 <term>
             인텔리</term>…… 해마다 천여 명씩 늘어 가는 <term>인텔리</term>…… 뱀을 본 것은 이들 <term>인텔리</term>다.</p>
         <p>부르주아지의 모든 기관이 포화상태가 되어 더 수요가 아니 되니 <rs type="group">그들</rs>은 결국 꼬임을 받아 나무에 올라갔다가 흔들리는
           셈이다. 개밥의 도토리다.</p>
-        <p>인텔리가 아니 되었으면 차라리 노동자가 되었을 것인데 <term>인텔리</term>인지라 그 속에는 들어갔다가도 도로 달아나오는 것이 구십구 퍼센트다. 그
-          나머지는 모두 어깨가 축 처진 무직 <term>인텔리</term>요, 무기력한 문화 예비군 속에서 푸른 한숨만 쉬는 초상집의 주인 없는 <rs
+        <p>인텔리가 아니 되었으면 차라리 <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 7∼8자 탈락)……</gap>노동자가
+          되었을 것인데 <term>인텔리</term>인지라 그 속에는 들어갔다가도 도로 달아나오는 것이 구십구 퍼센트다. 그 나머지는 모두 어깨가 축 처진 무직 <term>
+          인텔리</term>요, 무기력한 문화 예비군 속에서 푸른 한숨만 쉬는 초상집의 주인 없는 <rs
             type="group">개들</rs>이다. 레디메이드 인생이다.</p>
         <head>4</head>
         <p> "<said aloud="true" direct="true" who="#P">제―길!</said>" </p>
         <p><persName ref="#P">P</persName>는 혼자 두덜거리며 지금까지 서 있던 <placeName>기념비각</placeName> 옆을 떠났다.</p>
+        <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 80여 자 탈락)……</gap>
         <p><persName ref="#P">P</persName>는 <rs ref="#P">자기 자신</rs>이고 세상의 모든 일이고 모두 짜증이 나고 원수스러웠다.</p>
         <p><orgName type="place"
             ref="https://ko.wikipedia.org/wiki/광화문">광화문</orgName> 큰거리를 <orgName type="place">총독부</orgName>
           쪽으로 어슬어슬 걸어가노라니 <rs ref="#P">그</rs>의 그림자가 짤막하게 앞에 누워 간다. <persName ref="#P">P</persName>는
           그 <rs ref="#P">자기</rs> 그림자를 콱 밟고 싶었다. 그러나 발을 내어디디면 그림자도 그만큼 앞으로 더 나가곤 한다. 이 그림자와 <rs
             ref="#P">자기 자신</rs>에서, 그리고 그림자를 밟으려는 <rs ref="#P">자기 자신</rs>과 앞으로 달아나는 그림자에서 <persName
-            ref="#P">P</persName>는 자기의 이중인격의 모순상(<choice>
-            <orig>相</orig>
-            <reg>상</reg>
-          </choice>)을 발견하였다.</p>
+            ref="#P">P</persName>는 자기의 이중인격의 모순상(相)을 발견하였다.</p>
         <p><placeName>동십자각</placeName> 옆에까지 온 <persName ref="#P">P</persName>는 그 건너편 <orgName>담배 가게</orgName>
           앞으로 갔다.</p>
         <p> "<said aloud="true" direct="true" who="#P">담배 한 갑 주시오.</said>" </p>
@@ -395,10 +357,7 @@
         <p>그 여자는 자주 만나는 이 헙수룩한 양복쟁이―---<persName ref="#P">P</persName>를 먼빛으로도 알아보았는지 처녀다운 조심스런 몸매로
           길을 가로 비껴 가까이 왔다.</p>
         <p><persName ref="#P">P</persName>는 고개를 꼿꼿이 쳐들고 앞만 쳐다보면서도 속으로는, '<said who="#P"
-            aloud="false">저 여자가 지금 내 옆으로 다가와서 조그만 소리로 정답게 구애(<choice>
-              <orig>求愛</orig>
-              <reg>구애</reg>
-            </choice>)를 한다면? 사뭇 들여 안긴다면……? 어쩔꼬?'</said>'</p>
+            aloud="false">저 여자가 지금 내 옆으로 다가와서 조그만 소리로 정답게 구애(求愛)를 한다면? 사뭇 들여 안긴다면……? 어쩔꼬?'</said>'</p>
         <p>이런 생각을 하면서 히죽이 웃는데 여자는 벌써 지나쳐 버렸다.</p>
         <p> '<said aloud="false" direct="true" who="#P">'흥! 어쩌긴 무얼 어째……? 이년아, 일없다는데 왜 이래! 하고 발길로 칵 차
           내던지지</said>' </p>
@@ -414,53 +373,53 @@
           나와서 캑 하고 기침을 한다. <persName ref="#P">P</persName>는 또 방세 졸릴 일이 아득하였다.</p>
         <p>그러나 <persName ref="#OWN">노파</persName>는 방세보다도 우선 편지 한 장을 들이밀어 준다. 고향의 <persName ref="#PB">
           형</persName>에게서 온 것이다.</p>
-        <p>편지를 뜯어 읽고 난 <persName ref="#P">P</persName>는 말가웃〔<choice>
-            <orig>一斗半</orig>
-            <reg>한말반</reg>
-          </choice>〕이나 되게 한숨을 푸― 내쉬었다. 그리고는 편지를 박박 찢어 버렸다.</p>
+        <p>편지를 뜯어 읽고 난 <persName ref="#P">P</persName>는 말가웃〔一斗半〕이나 되게 한숨을 푸― 내쉬었다. 그리고는 편지를 박박 찢어
+          버렸다.</p>
         <head>5</head>
         <p>편지의 요건은 <persName ref="#P">P</persName>의 아들 <persName ref="#CS">창선</persName>에 관한 것이다.</p>
-        <p><persName ref="#P">P</persName>에게는 연전에 갈린 아내와의 사이에 생긴 <persName ref="#CS">창선</persName>이라는
-          아들이 있다. 금년에 아홉 살이다.</p>
-        <p>아내와 갈릴 때에 저편에서 다만 어린애만이라도 주었으면 그것을 데리고 길러 가는 재미로 혼자 사는 세상에 낙을 붙이겠다고 사정하였다. 그리고 적어도 중학까지는
-          마치게 하겠다는 것이었다.</p>
-        <p>그렇게 했으면 <persName ref="#P">P</persName>도 한짐을 덜었을 것이다. 그러나 그는 듣지 아니하였다.</p>
-        <p>어릴 적부터 소박데기 어미의 손에서 아비의 원망과 푸념을 들어가면서 자란 자식은 자란 뒤에 그 아비에게 호감을 가지지 못한다. <persName ref="#P">
-          P</persName>는 자식을 꼭 찾고 싶은 것은 아니나 아무튼 장성하면 아비라고 찾아올 터인데 그때에 <persName ref="#P">P</persName>는
-          이미 늙고 자식은 팔팔하게 젊은 놈이 옛날에 제 어미를 소박한 아비라서 아니꼽게 군다면 그것은 차마 못 당할 노릇이다.</p>
+        <p><persName ref="#P">P</persName>에게는 연전에 갈린 아내와의 사이에 생긴 <persName ref="#CS">창선</persName>
+          이라는 <rs ref="#CS">아들</rs>이 있다. 금년에 아홉 살이다.</p>
+        <p>아내와 갈릴 때에 저편에서 다만 <rs ref="#CS">어린애</rs>만이라도 주었으면 그것을 데리고 길러 가는 재미로 혼자 사는 세상에 낙을 붙이겠다고
+          사정하였다. 그리고 적어도 중학까지는 마치게 하겠다는 것이었다.</p>
+        <p>그렇게 했으면 <persName ref="#P">P</persName>도 한짐을 덜었을 것이다. 그러나 <rs ref="#P">그</rs>는 듣지 아니하였다.</p>
+        <p>어릴 적부터 소박데기 어미의 손에서 아비의 원망과 푸념을 들어가면서 자란 <rs ref="#CS">자식</rs>은 자란 뒤에 <rs ref="#P">그 아비</rs>에게
+          호감을 가지지 못한다. <persName ref="#P">
+            P</persName>는 <rs ref="#CS">자식</rs>을 꼭 찾고 싶은 것은 아니나 아무튼 장성하면 <rs ref="#P">아비</rs>라고 찾아올
+          터인데 그때에 <persName
+            ref="#P">P</persName>는 이미 늙고 <rs ref="#CS">자식</rs>은 팔팔하게 <rs ref="#CS">젊은 놈</rs>이 옛날에 제
+          어미를 소박한 <rs ref="#P">아비</rs>라서 아니꼽게 군다면 그것은 차마 못 당할 노릇이다.</p>
         <p>이러한 생각으로 <persName ref="#P">P</persName>는 <persName ref="#CS">창선</persName>이를 내주지 아니한
           것이다. 그러나 빼앗아 놓고 보니 이제 겨우 너댓 살밖에 아니 먹은 것을 자기 손으로 어찌할 수가 없다. 그리하여 할 수 없이 어렵사리 지내는 그 <persName
             ref="#PB">형</persName>에게 맡겨 놓고 다시 <placeName type="city"
-            ref="https://ko.wikipedia.org/wiki/서울특별시">서울</placeName>로 올라온 것이다. 보통학교에 다닐 나이가 되면 <placeName>
-          서울</placeName>로 데려오겠다고 해두고.</p>
-        <p><persName ref="#PB">P의 형</persName>은 작년에 조카를 보통학교에 입학시켰다. 그러나 극빈 축에 드는 집안인지라 몇 푼 아니 되는
-          월사금과 학비를 대지 못하여 중도에 퇴학시켰다. 애초에 입학시킬 상의로 <persName ref="#P">P</persName>에게 편지를 했을 때에 <persName
-            ref="#P">P</persName>는 공부 같은 것은 시켜 봤자 소용이 없으니 차라리 뼈가 보드라운 때부터 생일(<choice>
-            <orig>勞動</orig>
-            <reg>노동</reg>
-          </choice>)을 시키라고 하였다. <persName ref="#PB">P의 형</persName>은 그러나
-          백부(<choice>
-            <orig>伯父</orig>
-            <reg>백부</reg>
-          </choice>)의 도리로나 집안의 체면으로나 <persName ref="#CS">창선</persName>이를
-          생일을 시킬 수가 없었다. 차라리 자기 손에 두어 헐벗기고 헐입히면서 공부도 시키지 못하느니 제 아비인 <persName ref="#P">P</persName>더러
-          데려가라고 작년부터 편지를 하던 터이다.</p>
+            ref="https://ko.wikipedia.org/wiki/서울특별시">서울</placeName>로 올라온 것이다. <orgName>보통학교</orgName>에
+          다닐 나이가 되면 <placeName>
+            서울</placeName>로 데려오겠다고 해두고.</p>
+        <p><persName ref="#PB">P의 형</persName>은 작년에 <rs ref="#CS">조카</rs>를 <orgName>보통학교</orgName>에
+          입학시켰다. 그러나 극빈 축에 드는 집안인지라 몇 푼 아니 되는 월사금과 학비를 대지 못하여 중도에 퇴학시켰다. 애초에 입학시킬 상의로 <persName
+            ref="#P">P</persName>에게 편지를 했을 때에 <persName ref="#P">P</persName>는 공부 같은 것은 시켜 봤자 소용이
+          없으니 차라리 뼈가 보드라운 때부터 생일〔勞動〕을 시키라고 하였다. <persName ref="#PB">P의 형</persName>은 그러나 백부(伯父)의
+          도리로나 집안의 체면으로나 <persName
+            ref="#CS">창선</persName>이를 생일을 시킬 수가 없었다. 차라리 자기 손에 두어 헐벗기고 헐입히면서 공부도 시키지 못하느니 <rs
+            ref="#CS">제</rs> <rs ref="#P">아비</rs>인 <persName
+            ref="#P">P</persName>더러 데려가라고 작년부터 편지를 하던 터이다.</p>
         <p>금년도 입학 시기가 당하매 <persName ref="#PB">P의 형</persName>은 <persName ref="#P">P</persName>에게 누차
           편지를 하였다. 금년에 입학을 시키지 못하면 명년에는 학령이 초과되어 들여 주지 아니할 것이니 어서 데려다가 공부를 시키라는 것이다.</p>
-        <p>그 어린것이 굶기를 먹듯 하고 재주는 있으면서 남의 집 아이들이 학교에 다니는 것을 부러워하는 꼴은 차마 애처로워 볼 수가 없다. 차라리 이꼴 저꼴 보지 않는
-          것이 속이나 편하겠다.</p>
+        <p>그 <rs ref="#CS">어린것</rs>이 굶기를 먹듯 하고 재주는 있으면서 남의 집 아이들이 학교에 다니는 것을 부러워하는 꼴은 차마 애처로워 볼 수가
+          없다. 차라리 이꼴 저꼴 보지 않는 것이 속이나 편하겠다.</p>
         <p>이번 편지에는 이러한 구절이 있고 끝에 가서,</p>
-        <p>여비가 몇 원 변통되면 차를 태우고 전보를 칠 테니 정거장에 나와 데려가거라. 나도 웬만하면 객지에 혼자 있는 너에게 어린 자식을 떠맡기듯이 보내겠느냐마는
-          잘못하다가 그것을 굶겨 죽이겠기에 생각다못해 단행하는 것이다.</p>
+        <p><said aloud="false" direct="false" who="#PB">여비가 몇 원 변통되면 차를 태우고 전보를 칠 테니 정거장에 나와 데려가거라.</said>
+          <rs
+            ref="#PB">나</rs>도 웬만하면 객지에 혼자 있는 <rs ref="#P">너</rs>에게 <rs ref="#CS">어린 자식</rs>을 떠맡기듯이
+          보내겠느냐마는 잘못하다가 <rs ref="#CS">그것</rs>을 굶겨 죽이겠기에 생각다못해 단행하는 것이다.</p>
         <p>이러한 말이 씌어 있었다.</p>
         <p><persName ref="#P">P</persName>는 박박 찢은 편지를 돌돌 뭉쳐 방구석에 내던지고 한숨을 푸― 내쉬었다.</p>
-        <p>이제는 자식을 데리고 있기가 피할 수 없이 되었는데, 어떻게 했으면 좋을까 하는 것이다. 그는 <persName ref="#PB">형</persName>이
-          원망스럽고 아니꼬웠다.</p>
-        <p>굳이 제 아비를 따라 보낸다는 것이 아니라 부득부득 공부를 시키려는 것 때문이다. 기왕 <placeName type="city"
+        <p>이제는 <rs ref="#CS">자식</rs>할 수 없이 되었는데, 어떻게 했으면 좋을까 하는 것이다. <rs ref="#P">그</rs>는 <persName
+            ref="#PB">형</persName>이 원망스럽고 아니꼬웠다.</p>
+        <p>굳이 <rs ref="#CS">제</rs> <rs ref="#P">아비</rs>를 따라 보낸다는 것이 아니라 부득부득 공부를 시키려는 것 때문이다. 기왕 <placeName
+            type="city"
             ref="https://ko.wikipedia.org/wiki/서울특별시">서울</placeName>로 보내나 시골서 데리고 있으나 고생시키기는 일반이니
           차라리 시골서 일찍부터 생일이나 시켰으면 <persName ref="#P">P</persName>에게는 여러 가지로 좋을 것이었다.</p>
-        <p> "<said aloud="true" direct="true" who="#P" aloud="false">흥! 체면! 공부! 죽여도 인텔리는 만들잖는다.</said>
-          " </p>
+        <p> "<said aloud="true" direct="true" who="#P">흥! 체면! 공부! 죽여도 인텔리는 만들잖는다.</said> " </p>
         <p><persName ref="#P">P</persName>는 혼자 이렇게 두덜거렸다.</p>
         <p> "<said aloud="true" direct="true" who="#OWN">집에서 온 편지유? 무슨 걱정이 생겼수?</said>" </p>
         <p>말거리를 찾지 못하여 머뭇거리고 섰던 <persName ref="#OWN">안방 노인</persName>이 동정이나 하는 듯이 이렇게 묻는다.</p>
@@ -468,23 +427,25 @@
         <p><persName ref="#P">P</persName>는 마지못해 코대답을 하였다.</p>
         <p> "<said aloud="true" direct="true" who="#OWN">필경 무슨 걱정이 생긴 게구려!</said>" </p>
         <p><persName ref="#OWN">노인</persName>은 자기의 말거리를 만들려고 아니라는데도 이렇게 걱정을 내어놓는다.</p>
-        <p> "<said aloud="true" direct="true" who="#OWN">그게 모다 가난한 탓이지…… 저렇게 젊고 똑똑한 이가 저게 모다 가난한
-          탓이야! 어데 구실〔<term>職業</term>〕자리 말한다더니 아직 아니 됐수?</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#OWN">그게 모다 가난한 탓이지…… 저렇게 젊고 똑똑한 <rs ref="#P">이</rs>가
+          저게 모다 가난한 탓이야! 어데 구실〔職業〕자리 말한다더니 아직 아니 됐수?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">네，아직…….</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#OWN">거 큰일났구려! 어서 돼야 할 텐데…… 나도 꼭 죽겠수…… 이 늙은 것이……!
-          돈 좀 마련되잖았수?</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#OWN">거 큰일났구려! 어서 돼야 할 텐데…… <rs ref="#OWN">나</rs>도
+          꼭 죽겠수…… 이 <rs ref="#OWN">늙은 것</rs>이……! 돈 좀 마련되잖았수?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">네，아직 좀…….</said>" </p>
         <p> "<said aloud="true" direct="true" who="#OWN">저걸 어쩌나! 오늘은 물값이야 전깃불값이야 사뭇 받으러 달려들 텐데!</said>
           " </p>
-        <p> "<said aloud="true" direct="true" who="#P">메칠만 더 미루십시오. 설마하니 마나님이야 아니 드리겠습니까…….</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#OWN">아무렴! 실수야 없을 줄 알지만 내가 하도 옹색하니깐 그러는 거지…….</said>
-          " </p>
+        <p> "<said aloud="true" direct="true" who="#P">메칠만 더 미루십시오. 설마하니 <rs ref="#OWN">마나님</rs>이야
+          아니 드리겠습니까…….</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#OWN">아무렴! 실수야 없을 줄 알지만 <rs ref="#OWN">내</rs>가 하도
+          옹색하니깐 그러는 거지…….</said> " </p>
         <p><persName ref="#P">P</persName>는 <persName ref="#OWN">노인</persName>이 지껄이게 두어 두고 혼자 생각하였다.
           전에 아는 집에서 셋방을 얻어 들었을 때에는 두 달이고 석 달이고 세가 밀려도 조르는 법이 없었다.</p>
         <p>밀려도 조르지 아니하는 아는 집…… 이것이 <persName ref="#P">P</persName>는 도리어 미안해서 이곳으로 옮겨 온 것이다. 옮겨 와가지고
           막상 졸림질을 당하니 미안해도 졸리지는 아니하던 옛 집이 그리워지는 것이다.</p>
         <p><persName ref="#OWN">노인</persName>이 문을 가로막고 서서 수다스런 소리로 더 지껄이려고 하는데 마침 <persName ref="#P">
-          P</persName>의 동무 <persName ref="#M">M</persName>과 <persName ref="#H">H</persName>가 찾아왔다.</p>
+          P</persName>의 <rs ref="#M">동무</rs> <persName ref="#M">M</persName>과 <persName ref="#H">H</persName>가
+          찾아왔다.</p>
         <p> "<said aloud="true" direct="true" who="#M">어데 나가나?</said>" </p>
         <p><persName ref="#M">M</persName>이 그러잖아도 벌씸한 코를 한번 더 벌씸하고 사이 벌어진 앞니를 내어 보이며 싱끗 웃는다.</p>
         <p>몸집은 <persName ref="#M">M</persName>과 같이 통통하지만 키가 적어 <persName ref="#M">M</persName>의 뒤에
@@ -492,31 +453,29 @@
         <p> "<said aloud="true" direct="true" who="#H">안녕합시요.</said>" </p>
         <p>하고 인사를 한다.</p>
         <p><persName ref="#P">P</persName>는 싱끗이 웃었다. 이 <persName ref="#M">M</persName>과 <persName
-            ref="#H">H</persName>는 같은 하숙에 있는데 두 사람은 곧잘 같이 돌아다닌다. 같이 가는 것을 나란히 세워 놓고 보면 하나는 키가 커서
-          우뚝하고 하나는 키가 작아서 납작 붙어 가는 것 같다.</p>
+            ref="#H">H</persName>는 같은 하숙에 있는데 <rs ref="#M #H">두 사람</rs>은 곧잘 같이 돌아다닌다. 같이 가는 것을 나란히
+          세워 놓고 보면 하나는 키가 커서 우뚝하고 하나는 키가 작아서 납작 붙어 가는 것 같다.</p>
         <p>얼굴도 <persName ref="#M">M</persName>은 우둘부둘한 게 정객 타입으로 생겼고―---잘못하면 복싱 링에 내세워도 좋겠고―---<persName
             ref="#H">H</persName>는 안존한 게 사무원 타입이다.</p>
         <p>일상의 언행을 보아도 <persName ref="#H">H</persName>는 무슨 이야기가 자기 전문인 법률에 관한 것에 다다르면 육법 전서의 조목을 따르르
           외우면서 이러고저러고 하다고 설명을 하고, <persName ref="#M">M</persName>은 <placeName>동경</placeName>서 학생 ××에
           제휴를 했던만큼, 그리고 전문이 정경과인만큼 좌익 진영에서 쓰는 어투가 그대로 나온다.</p>
-        <p> "<said aloud="true" direct="true" who="#P">여전히 모다 동색(<choice>
-              <orig>冬色</orig>
-              <reg>동색</reg>
-            </choice>)이 창연하군!</said>" </p>
-        <p><persName ref="#P">P</persName>는 두 사람의 특특한 겨울 양복을 보고, 그리고 자기의 행색을 내려보며 웃었다.</p>
+        <p> "<said aloud="true" direct="true" who="#P">여전히 모다 동색(冬色)이 창연하군!</said>" </p>
+        <p><persName ref="#P">P</persName>는 <rs ref="#M #H">두 사람</rs>의 특특한 겨울 양복을 보고, 그리고 자기의 행색을
+          내려보며 웃었다.</p>
         <p><persName ref="#M">M</persName>이 신을 벗고 들어와 먼지 앉은 책상 위에 걸터앉으며,</p>
         <p> "<said aloud="true" direct="true" who="#M">춘래 불사춘일세.</said>" </p>
         <p>하고 한마디 외운다. <persName ref="#H">H</persName>도 따라 들어와 한편에 앉으며 한마디한다.</p>
         <p> "<said aloud="true" direct="true" who="#H">아직 괜찮아…… 거리에서 보니까 동복 입은 사람이 많데…….</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#M">괜찮기는 무어 괜찮아…… 우리가 길로 돌아다니니까 사방에서 아이구 아야! 소리가
-          들리데.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#M">괜찮기는 무어 괜찮아…… <rs ref="#M #H">우리</rs>가 길로
+          돌아다니니까 사방에서 아이구 아야! 소리가 들리데.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#H">왜?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">봄이 발밑에서 짓밟히느라고.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">하하하하.</said>" </p>
-        <p>세 사람은 소리를 내어 웃었다.</p>
+        <p><rs ref="#M #H #P">세 사람</rs>은 소리를 내어 웃었다.</p>
         <p> "<said aloud="true" direct="true" who="#P">참 시험 본 것 어떻게 되었소?</said>" </p>
-        <p><persName ref="#P">P</persName>는 <persName ref="#H">H</persName>가 일전에 <orgName>총독부</orgName>에서
-          본 고원 채용 시험을 생각하고 물어 보았다.</p>
+        <p><persName ref="#P">P</persName>는 <persName ref="#H">H</persName>가 일전에 <orgName
+            type="place">총독부</orgName>에서 본 고원 채용 시험을 생각하고 물어 보았다.</p>
         <p> "<said aloud="true" direct="true" who="#H">말두 마시우…… 이제는 꼭 들어앉어 공부나 해갖고 변호사 시험이나 치겠소.</said>
           " </p>
         <p>사람이 별로 변통성도 없고 그렇다고 여기저기 반연도 없어 취직이 여의하게 되지 못하는 것을 볼 때에 <persName ref="#P">P</persName>는
@@ -525,47 +484,50 @@
             주식회사를 조직해 가지고 자네를 법률 고문으로 모셔
             옴세.</said>" </p>
         <p>이것은 <persName ref="#M">M</persName>이 늘 농삼아 하는 농담이다. <persName ref="#M">M</persName>도 일년
-          동안이나 취직 운동을 하면서 지냈건만 그는 되레 배포가 유하다. 조금 더 재빠르게 했으면 <persName ref="#M">M</persName>은 벌써 취직이
-          되었을는지도 모르나 그는 타고난 배포와 그리고 남에게 아유구용을 하기 싫어하는 성질로 말하자면 취직 전선의 낙오자다.</p>
+          동안이나 취직 운동을 하면서 지냈건만 <rs ref="#M">그</rs>는 되레 배포가 유하다. 조금 더 재빠르게 했으면 <persName ref="#M">M</persName>은
+          벌써 취직이 되었을는지도 모르나 <rs ref="#M">그</rs>는 타고난 배포와 그리고 남에게 아유구용을 하기 싫어하는 성질로 말하자면 취직 전선의 <rs
+            ref="#M">낙오자</rs>다.</p>
         <p>별로 만나야 할 일도 없다. 그러나 제각기 혼자 있으면 우울해지니까 이렇게 서로 찾으며 자주 만나게 된다.</p>
         <p>만나 앉아서 이야기라도 지껄이면 그 동안만은 명랑하여진다. 지금 <placeName
             type="city"
             ref="https://ko.wikipedia.org/wiki/서울특별시">서울</placeName> 안에 <persName ref="#P">P</persName>
           니 <persName ref="#M">M</persName>이니 <persName ref="#H">H</persName>니와 매일 만나 하는 일 없이 돌아다니고
           주머니 구석에 돈푼 있으면 서로 털어 선술잔이나 먹고 하는 룸펜의 패가 수없이 많다.</p>
-        <p>무어나 일을 맡겼으면 불이 번쩍 일게 해낼 팔팔한 젊은 사람들이다. 그렇건만 그들은 몸을 비비 꼬고 있다.</p>
-        <p>아무 데도 용납지 못하는 사람들이다. ××적 ××에서 그들을 불러들이기에는 ××적 ××의 주관적 정세가 너무도 미약하다. 그것은 그들의 몇 부분이 <placeName>
-          동경</placeName>서 학생으로 있을 시절에는 그 속에서 활발하게 ××을 계속하던 것이 <placeName
+        <p>무어나 일을 맡겼으면 불이 번쩍 일게 해낼 팔팔한 젊은 <rs ref="#M #H #P">사람들</rs>이다. 그렇건만 <rs ref="#M #H #P">그들</rs>은
+          몸을 비비 꼬고 있다.</p>
+        <p>아무 데도 용납지 못하는 <rs ref="#M #H #P">사람들</rs>이다. ××적 ××에서 <rs ref="#M #H #P">그들</rs>을 불러들이기에는
+          ××적 ××의 주관적 정세가 너무도 미약하다. 그것은 <rs ref="#M #H #P">그들</rs>의 몇 부분이 <placeName
+            type="city" ref="https://ko.wikipedia.org/wiki/도쿄">
+            동경</placeName>서 학생으로 있을 시절에는 그 속에서 활발하게 ××을 계속하던 것이 <placeName
             type="nation"
             ref="https://ko.wikipedia.org/wiki/조선">조선</placeName>에 나오면서 탈리되는 것으로 보아 그러한 해석을 내리지 아니할
           수가 없다.</p>
         <p>그렇다고 부르주아의 기성 문화기관에 들어가자니 그곳에서는 수요를 찾지 아니한다. 레디메이드로 된 존재들이니 아무 때라도 저편에서 필요해야만 몇씩 사들여 간다.</p>
         <p><persName ref="#M">M</persName>이 마코를 꺼내 놓고 붙여 문다. <persName ref="#P">P</persName>는 포켓 속에
           들어 있는 해태를 차마 내놓기가 낯이 따가워 <persName ref="#M">M</persName>의 마코를 집어 당겼다.</p>
+        <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 80여 자 탈락)……</gap>
         <p><persName ref="#P">P</persName>는 설명을 시작한다. <persName ref="#P">P</persName> 자신 그러한 장난 비슷한
           공상은 하면서 일단 해보라고 하면 주저할 것이지만 어쨌거나 그랬으면 통쾌하리라는 것이다.</p>
         <p>
           <said aloud="true" direct="true" who="#P">먼저 <orgName>경무국</orgName>에 들어가서 아주 까놓고 이야기를 한단
-            말이야. 우리가 지금 대상으로 하는 것은 <orgName>
+            말이야. 우리가 지금 대상으로 하는 것은 <orgName type="place">
               총독부</orgName>가 아니라 <placeName
               type="nation"
               ref="https://ko.wikipedia.org/wiki/조선">조선</placeName>의 소위 민간측 유지들이니까 간섭을 말어 달라고.</said>
         </p>
-        <p> "<said aloud="true" direct="true" who="#M">그러면 관허(<choice>
-              <orig>官許</orig>
-              <reg>관허</reg>
-            </choice>) 메이 데이로구만.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">그래 관허도 좋아…… 그래 가지고는 기에다가는 무어라고 쓰느냐 하면 '우리에게
-          향학열을 고취한 놈이 누구냐?' ……어때?</said> " </p>
-        <p> "<said aloud="true" direct="true" who="#M">조―치!</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">인텔리에게 직업을 대라…… 이렇게 노래를 지어 부르거든.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">응…… 유지와 명사의 가면을 박탈시키라고…… 한 몇십 명이 그렇게 데모를 한단
+        <p> "<said aloud="true" direct="true" who="unknown">그러면 관허(官許) 메이 데이로구만.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="unknown">그래 관허도 좋아…… 그래 가지고는 기에다가는 무어라고 쓰느냐 하면 '<rs
+              ref="#M #H #P">우리</rs>에게 향학열을 고취한 놈이 누구냐?' ……어때?</said> " </p>
+        <p> "<said aloud="true" direct="true" who="unknown">조―치!</said>" </p>
+        <p> "<said aloud="true" direct="true" who="unknown">인텔리에게 직업을 대라…… 이렇게 노래를 지어 부르거든.</said>" </p>
+        <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 10여 자 탈락)……</gap>
+        <p> "<said aloud="true" direct="true" who="#M">응…… 유지와 명사의 가면을 박탈시키라고…… 한 몇십 명이 그렇게 데모를 한단
           말이야! 하하하하.</said>" </p>
         <p><persName ref="#M">M</persName>은 이렇게 웃고 <persName ref="#H">H</persName>는 시원찮게 핀잔을 준다.</p>
         <p> "<said aloud="true" direct="true" who="#H">드끄럽소, 여보…… 아 글쎄 멀끔멀끔한 양복쟁이들이 <placeName>종로
               네거리</placeName>로 기를 받고 그렇게 다녀 봐! 애들이 와서 나 광고지 한 장 주, 하잖나.</said>" </p>
-        <p> "<said aloud="true" direct="true">하하하하.</said>" </p>
-        <p> "<said aloud="true" direct="true">허허허허.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="unknown">하하하하.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="unknown">허허허허.</said>" </p>
         <p>창 밖에서 냉이장수가 싸구려 소리를 외치고 지나간다. <persName ref="#M">M</persName>이 그에 응하여,</p>
         <p> "<said aloud="true" direct="true" who="#M">이크! 봄을 덤핑하는구나!</said>" </p>
         <p> "<said aloud="true" direct="true" who="#H">흥, 경제학자라 달르군…… 참 우리 하숙에서는 채소를 좀 멕여 주어야지!</said>
@@ -587,30 +549,28 @@
         <p> "<said aloud="true" direct="true" who="#H">응.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">존 수가 있네.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#H">뭣?</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#M">자네 책 좀 <orgName><choice>
-                <orig>三四</orig>
-                <reg>삼사</reg>
-              </choice> 구락부</orgName>에 보내세.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#M">자네 책 좀 <orgName>삼사(三四) 구락부</orgName>에 보내세.</said>
+          " </p>
         <p> "<said aloud="true" direct="true" who="#H">싫으이.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#M">자네 돈 구경하고…… 구경하고 나서 그놈으로 한잔 먹고…… 한잔 말이 났으니
-            말이지 요즘 같으면 술이나 실컷 먹고 주정이라도
-            했으면
-            속이 시언하겠네.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#M"><rs ref="#H">자네</rs> 돈 구경하고…… 구경하고 나서 그놈으로 한잔
+          먹고…… 한잔 말이 났으니 말이지 요즘 같으면 술이나 실컷 먹고 주정이라도 했으면 속이 시언하겠네.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#H">그러니까 말이야…… 가세. 가서 다섯 권만 잽혀.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">일없다.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#H">내가 찾어 주지.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#H"><rs ref="#H">내</rs>가 찾어 주지.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">흥.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#H">정말이야.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#M">싫여.</said>" </p>
         <head>6</head>
         <p>그날 밤.</p>
         <p><persName ref="#P">P</persName>와 <persName ref="#M">M</persName>은 <persName ref="#H">H</persName>를
-          졸라 그의 법률책을 잡혀 돈 육 원을 만들어 가지고 나섰다.</p>
-        <p>선술집에 가서 엔간히 취하도록 먹은 뒤에 <orgName>C라는 카페</orgName>에 가서 술 두 병을 놓고 자정이 되도록 노닥거렸다.</p>
-        <p>그곳에서 나올 때는 육 원 돈이 이 원 남았다. 이 원의 처치를 생각하던 세 사람은 일제히 <placeName>동관</placeName>으로 가기로 하였다.</p>
-        <p>세 사람이 모두 다리가 비틀거렸다. 그 중에도 <persName ref="#P">P</persName>는 더욱 취하였다.</p>
+          졸라 <rs ref="#H">그</rs>의 법률책을 잡혀 돈 육 원을 만들어 가지고 나섰다.</p>
+        <p>선술집에 가서 엔간히 취하도록 먹은 뒤에 C라는 <orgName>카페</orgName>에 가서 술 두 병을 놓고 자정이 되도록 노닥거렸다.</p>
+        <p>그곳에서 나올 때는 육 원 돈이 이 원 남았다. 이 원의 처치를 생각하던 <rs ref="#P #M #H">세 사람</rs>은 일제히 <placeName>동관</placeName>으로
+          가기로 하였다.</p>
+        <p><rs ref="#P #M #H">세 사람</rs>이 모두 다리가 비틀거렸다. 그 중에도 <persName ref="#P">P</persName>는 더욱
+          취하였다.</p>
         <p>늴리리 가락으로 들어박힌 갈봇집.</p>
-        <p>다 쓰러져 가는 초가집을 세 사람이 아는 집 들어서듯이 쑥쑥 들어서니,</p>
+        <p>다 쓰러져 가는 초가집을 <rs ref="#P #M #H">세 사람</rs>이 아는 집 들어서듯이 쑥쑥 들어서니,</p>
         <p> "<said aloud="true" direct="true" who="#G #PG">들어옵시오.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G #PG">어서 옵시오.</said>" </p>
         <p>라고 <persName ref="#G">머리 딴 계집애</persName>와 배가 북통 같은 <persName ref="#PG">애 밴 계집</persName>이
@@ -628,22 +588,22 @@
           한다. 말을 붙이고 대답을 주고받고 하는 것이 <persName ref="#H">H</persName>와 <persName ref="#M">M</persName>은
           전에 한번 와본 집인 듯하다.</p>
         <p>술상이 들어왔다.</p>
-        <p>잔은 사발만한데 술주전자는 눈알만하다. 술을 부어 놓으니 <persName ref="#M">M</persName>이 척 받아 놓고는 노래를 투정한다. <persName
-            ref="#G">계집애</persName>는 그보다 더 약아 제가 그 술을 쪽 들이마시고는 빈 잔만 <persName ref="#M">M</persName>의
-          입에 대어 준다.</p>
+        <p>잔은 사발만한데 술주전자는 눈알만하다. 술을 부어 놓으니 <persName ref="#M">M</persName>이 척 받아 놓고는 노래를 투정한다. <rs
+            ref="#G">계집애</rs>는 그보다 더 약아 제가 그 술을 쪽 들이마시고는 빈 잔만 <persName ref="#M">M</persName>의 입에 대어
+          준다.</p>
         <p><persName ref="#P">P</persName>는 개숫물같이 밍밍한 술을 두어 잔 받아 먹는 동안에 비위가 콱 거슬려서 진정하느라고 드러누웠다.</p>
-        <p><persName ref="#H">H</persName>가 <persName ref="#G">계집애</persName>를 무릎에 올려놓고 신이 나게 노래를
-          부른다. 물론 고저도 장단도 맞지 아니하는 노래다.</p>
+        <p><persName ref="#H">H</persName>가 <rs ref="#G">계집애</rs>를 무릎에 올려놓고 신이 나게 노래를 부른다. 물론 고저도
+          장단도 맞지 아니하는 노래다.</p>
         <p><persName ref="#M">M</persName>이 <persName ref="#PG">애 밴 계집</persName>을 실컷 시달려 주다가 <persName
             ref="#G">머리 딴 계집애</persName>를 빼앗아 가더니 귀에 대고 무어라고 속삭거린다. 그러면서 둘이서 연해 <persName ref="#P">P</persName>를
           건너다보며 싱긋벙긋 웃는다.</p>
-        <p>조금 있다가 <persName ref="#G">계집애</persName>가 <persName ref="#P">P</persName>에게로 오더니 귀에다 입을
-          대고 속삭인다.</p>
-        <p> "<said aloud="true" direct="true" who="#G">저이가 나더러 당신하고 오늘 저녁…… 응 어때?</said>" </p>
+        <p>조금 있다가 <rs ref="#G">계집애</rs>가 <persName ref="#P">P</persName>에게로 오더니 귀에다 입을 대고 속삭인다.</p>
+        <p> "<said aloud="true" direct="true" who="#G"><rs ref="#M">저이</rs>가 <rs ref="#G">나</rs>더러
+          당신하고 오늘 저녁…… 응 어때?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">그래라.</said>" </p>
         <p><persName ref="#P">P</persName>는 불쑥 성난 것처럼 대답했다.</p>
         <p> "<said aloud="true" direct="true" who="#G">아이! 승거워!</said>" </p>
-        <p><persName ref="#G">계집애</persName>는 <persName ref="#P">P</persName>를 한번 꼬집어 주고 다시 <persName
+        <p><rs ref="#G">계집애</rs>는 <persName ref="#P">P</persName>를 한번 꼬집어 주고 다시 <persName
             ref="#M">M</persName>에게로 달아났다.</p>
         <p><persName ref="#M">M</persName>에게로 가서 또 무어라고 속삭거리더니 재차 와가지고는 귓속말을 한다.</p>
         <p> "<said aloud="true" direct="true" who="#G">자고 가，응.</said>" </p>
@@ -652,61 +612,60 @@
         <p> "<said aloud="true" direct="true" who="#P">응.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">정말.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">응.</said>" </p>
-        <p>술은 네 주전자가 들어왔는데 세 사람 손님은 두서너 잔씩밖에 아니 먹었다. 그 나머지는 다 저희가 먹었다. <persName ref="#G">계집애</persName>가
-          술이 곤주가 되게 취해 가지고 해롱해롱 까분다.</p>
+        <p>술은 네 주전자가 들어왔는데 <rs ref="#P #M #H">세 사람</rs> 손님은 두서너 잔씩밖에 아니 먹었다. 그 나머지는 다 <rs
+            ref="#G">저희</rs>가 먹었다. <rs
+            ref="#G">계집애</rs>가 술이 곤주가 되게 취해 가지고 해롱해롱 까분다.</p>
         <p>술값을 치르는 것을 보고 <persName ref="#P">P</persName>도 따라 일어섰다. <persName ref="#M">M</persName>이
-          몸뚱이로 슬쩍 밀어서 방 안으로 들여보내고 뒤에서 <persName ref="#G">계집애</persName>가 양복 뒷깃을 잡아당긴다.</p>
+          몸뚱이로 슬쩍 밀어서 방 안으로 들여보내고 뒤에서 <rs ref="#G">계집애</rs>가 양복 뒷깃을 잡아당긴다.</p>
         <p> "<said aloud="true" direct="true" who="#P">그래라, 자고 간다.</said>" </p>
         <p><persName ref="#P">P</persName>는 방 가운데 벌떡 드러누웠다.</p>
         <p> "<said aloud="true" direct="true" who="#P">너이 집이 어디냐?</said>" </p>
-        <p><persName ref="#G">계집애</persName>가 옆에 와서 앉는 것을 보고 <persName ref="#P">P</persName>가 물었다.</p>
+        <p>
+          <rs ref="#G">계집애
+          </rs>가 옆에 와서 앉는 것을 보고 <persName ref="#P">P</persName>가 물었다. </p>
         <p> "<said aloud="true" direct="true" who="#G">××도 ××.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">언제 왔니?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">작년에.</said>" </p>
-        <p><persName ref="#P">P</persName>는 몸을 일으켰다. 또 속이 왈칵 뒤집혀 좀더 진정하려고 하는 생각인데 <persName ref="#G">
-          계집애</persName>가 콱 밀어뜨린다.</p>
+        <p><persName ref="#P">P</persName>는 몸을 일으켰다. 또 속이 왈칵 뒤집혀 좀더 진정하려고 하는 생각인데 <rs ref="#G">계집애</rs>가
+          콱 밀어뜨린다.</p>
         <p> "<said aloud="true" direct="true" who="#P">나이 몇 살이냐?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">열여덟.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">부모는?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">부모가 있으면 여기서 이 짓을 해?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">왜 이 짓이 나쁘냐?</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#G">흥…… 나도 사람이야.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">에―꾸! 나는 네가 신선인 줄 알았더니 인제 알고 보니까 사람이로구나!</said>
-          " </p>
+        <p> "<said aloud="true" direct="true" who="#G">흥…… <rs ref="#G">나</rs>도 사람이야.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#P">에―꾸! <rs ref="#P">나</rs>는 <rs ref="#G">네</rs>가
+          신선인 줄 알았더니 인제 알고 보니까 사람이로구나!</said> " </p>
         <p> "<said aloud="true" direct="true" who="#G">드끄러!</said>" </p>
-        <p><persName ref="#G">계집애</persName>는 눈을 쭉 흘기고는 갑자기 웃으면서 <persName ref="#P">P</persName>의 목을
-          그러안는다.</p>
+        <p><rs ref="#G">계집애</rs>는 눈을 쭉 흘기고는 갑자기 웃으면서 <persName ref="#P">P</persName>의 목을 그러안는다.</p>
         <p> "<said aloud="true" direct="true" who="#G">자고 가, 응.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">우리 마누라한테 볼기 맞고 쫓겨난다.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#G">그러면 나한테 와서 나하고 살지…… 여기 내 빚 팔십 원만 물어 주면…….</said>
-          " </p>
+        <p> "<said aloud="true" direct="true" who="#G">그러면 <rs ref="#G">나</rs>한테 와서 <rs ref="#G">나</rs>하고
+          살지…… 여기 <rs ref="#G">내</rs> 빚 팔십 원만 물어 주면…….</said> " </p>
         <p> "<said aloud="true" direct="true" who="#P">팔십 원이냐?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">응.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">가겠다.</said>" </p>
-        <p><persName ref="#P">P</persName>가 또 일어나려는 것을 <persName ref="#G">계집</persName>이 껴안고 놓지
-          아니한다.</p>
-        <p> "<said aloud="true" direct="true" who="#G">자고 가…… 내가 반했어.</said>" </p>
+        <p><persName ref="#P">P</persName>가 또 일어나려는 것을 <rs ref="#G">계집</rs>이 껴안고 놓지 아니한다.</p>
+        <p> "<said aloud="true" direct="true" who="#G">자고 가…… <rs ref="#G">내</rs>가 반했어.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">아서라.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">정말!</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">놓아.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#G">아니야, 안 놓아. 자고 가요, 응…… 자고…… 나 돈 좀 주어.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">돈? 내가 돈이 있어 보이니?</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#G">아니야, 안 놓아. 자고 가요, 응…… 자고…… <rs ref="#G">나</rs>
+          돈 좀 주어.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#P">돈? <rs ref="#P">내</rs>가 돈이 있어 보이니?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">돈 소리가 절렁절렁 나는데?</said>" </p>
         <p>미상불 <persName ref="#P">P</persName>의 포켓 속에서는 아까부터 잔돈 소리가 가끔 잘랑거렸다.</p>
-        <p> "<said aloud="true" direct="true" who="#G">자고 나 돈 조―꼼 주고 가, 응.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#G">자고 <rs ref="#G">나</rs> 돈 조―꼼 주고 가, 응.</said>" </p>
         <p> "<said aloud="true" direct="true" who="#P">얼마나?</said>" </p>
         <p> "<said aloud="true" direct="true" who="#G">암만도 좋아…… 오십 전도, 아니 이십 전도.</said>" </p>
-        <p><persName ref="#P">P</persName>는 <persName ref="#G">계집애</persName>의 말이 떨어지기도 전에 불에 덴 것같이
-          벌떡 일어섰다. 일어서면서 그는 포켓 속에 손을 넣어 있는 대로 돈을 움켜쥐어 방바닥에 홱 내던졌다. 일 원짜리 지전 두 장과 백동전이 방바닥에 요란스럽게
-          흐트러진다.</p>
+        <p><persName ref="#P">P</persName>는 <rs ref="#G">계집애</rs>의 말이 떨어지기도 전에 불에 덴 것같이 벌떡 일어섰다.
+          일어서면서 <rs ref="#P">그</rs>는 포켓 속에 손을 넣어 있는 대로 돈을 움켜쥐어 방바닥에 홱 내던졌다. 일 원짜리 지전 두 장과 백동전이 방바닥에
+          요란스럽게 흐트러진다.</p>
         <p> "<said aloud="true" direct="true" who="#P">아따 돈!</said>" </p>
-        <p>해 던지고는 <persName ref="#P">P</persName>는 뛰어나왔다. 그의 눈에는 눈물이 괴었다.</p>
+        <p>해 던지고는 <persName ref="#P">P</persName>는 뛰어나왔다. <rs ref="#P">그</rs>의 눈에는 눈물이 괴었다.</p>
         <head>7</head>
-        <p><persName ref="#P">P</persName>는 정조(<choice>
-            <orig>貞操</orig>
-            <reg>정조</reg>
-          </choice>)적으로 순진한 <rs ref="#P">사나이</rs>가 아니다. 열네 살 때에 소꿉질 같은 장가를
-          갔고 그 뒤 <placeName type="city" ref="https://ko.wikipedia.org/wiki/도쿄">
+        <p><persName ref="#P">P</persName>는 정조(貞操)적으로 순진한 <rs ref="#P">사나이</rs>가 아니다. 열네 살 때에 소꿉질 같은
+          장가를 갔고 그 뒤 <placeName type="city" ref="https://ko.wikipedia.org/wiki/도쿄">
             동경</placeName> 가서 있을 동안에 거기 여자와 살림도 하였다.</p>
         <p><placeName
             type="nation"
@@ -766,16 +725,11 @@
         <p>그런 뒤에 겨우 물지게 소리를 듣고 그는 수통 있는 곳을 찾아 뛰어나갔다.</p>
         <p>사정 이야기도 변변히 하지 아니하고 쏟아지는 수통 꼭지에 매어달려 한 동이는 되리시피 냉수를 들이켰다. 물장수가 어이가 없어 멀끔히 쳐다보고만 있다가 <persName
             ref="#P">P</persName>의 꾸벅 하고 돌아서는 등뒤에다 혀를 끌끌 찬다.</p>
-        <p>밥보다도 더 다급하게 그립던 물을 실컷 들이켜고 나니 찌뿌드하게 엉킨 듯 불쾌하던 취기(<choice>
-            <orig>醉氣</orig>
-            <reg>취기</reg>
-          </choice>)도 적이 걷히고 정신이 말쑥하여졌다.</p>
+        <p>밥보다도 더 다급하게 그립던 물을 실컷 들이켜고 나니 찌뿌드하게 엉킨 듯 불쾌하던 취기(醉氣)도 적이 걷히고 정신이 말쑥하여졌다.</p>
         <p><persName ref="#P">P</persName>는 새삼스럽게 양복을 벗어 던지고 다시 자리에 파묻혔다. 이제는 잠이 십 리나 달아나고 눈이
           초랑초랑하여진다. 그러면서 어젯밤 일이 머리에 떠오른다.</p>
-        <p>그것은 마치 못 먹을 것을 먹은 것처럼 께름칙한 기억이다. 아무렇게나 씻어 넘겨 버리재도, 그러나 머리 한구석에 박혀 가지고 사라지려 하지 아니하는 어룽〔<choice>
-            <orig>班點</orig>
-            <reg>반점</reg>
-          </choice>〕과 같다. 어떻게 해서라도 시원스러운 해석을 내리고라야 마음이 놓일 것 같다.</p>
+        <p>그것은 마치 못 먹을 것을 먹은 것처럼 께름칙한 기억이다. 아무렇게나 씻어 넘겨 버리재도, 그러나 머리 한구석에 박혀 가지고 사라지려 하지 아니하는
+          어룽〔班點〕과 같다. 어떻게 해서라도 시원스러운 해석을 내리고라야 마음이 놓일 것 같다.</p>
         <p>정조 대가로 일금 이십 전을 부르는 여자…….</p>
         <p>방금 세상에는 한번 정조를 빼앗긴 것으로 목숨을 버려 자살하는 여자가 있다. 그러는 한편 '이십 전도 좋소' 하는 여자가 있다.</p>
         <p>여자의 정조가 그것을 잃었다고 자살을 하도록 그다지도 고귀한 것이라면 '이십 전에도 팔겠소' 하는 여자가 눈을 멀끔멀끔 뜨고 살아 있는 사실은 무엇으로 설명할
@@ -788,21 +742,12 @@
         <p>언제 누구에게 귀떨어진 도덕 관념이나 정당한 인생관을 얻어들은 적이 없을 것이다.</p>
         <p>술잔을 들고 앉아 한 잔이라도 오는 손님에게 더 먹여 한푼 어치라도 주인의 수입을 도와 주면 칭찬이 오니 그만이다.</p>
         <p> "<said aloud="true" direct="true" who="#G">고년 어여쁘다. 나하고 ××.</said>" </p>
-        <p>하고 손님이 말하면 그에 좇아 비록 조발(<choice>
-            <orig>早發</orig>
-            <reg>조발</reg>
-          </choice>)일지언정 생리적 만족을 얻는 한편 그야말로 단돈 이십 전이라도 벌면 그만이다.</p>
+        <p>하고 손님이 말하면 그에 좇아 비록 조발(早發)일지언정 생리적 만족을 얻는 한편 그야말로 단돈 이십 전이라도 벌면 그만이다.</p>
         <p>옆에서 그것을 시키기는 할지언정 그것이 나쁘다고 가르쳐 주는 사람이 있을 턱이 없는 것이다. 사실 일반 매춘부가 정조적으로 양심을 가진 듯이 보인다는 것은 그
-          대부분이 되레 한 가식(<choice>
-            <orig>假飾</orig>
-            <reg>가식</reg>
-          </choice>)에 지나지 못하는 것이다.</p>
+          대부분이 되레 한 가식(假飾)에 지나지 못하는 것이다.</p>
         <p>그것은 그들에게 있어서 일종의 정당성을 가진 노동인 것이다.</p>
         <p>그러니까 그것을 보고 불쌍하다고 여기고 동정을 하는 것은 위문이 폐문이다.</p>
-        <p>지금 세상은 정당한 성도덕(<choice>
-            <orig>性道德</orig>
-            <reg>성도덕</reg>
-          </choice>)이 서 있는 때도 아니다.</p>
+        <p>지금 세상은 정당한 성도덕(性道德)이 서 있는 때도 아니다.</p>
         <p>그것은 한 세대에 여러 가지의 시대 사조가 헝클어져 있는 때문이다. 그러니까 여자의 정조에 대하여도 일률적으로 선악과 시비를 가릴 수는 없는 것이다.</p>
         <p>하룻밤 몸값을 '이십 전도 좋소' 하는 여자, 그에게는 다른 사람이 갖는 성도덕도 없고 따라서 자신을 타락이라서 슬퍼하지도 아니한다.</p>
         <p>그 여자 자신을 나무랄 필요도 없는 것이요, 동정을 할 며리도 없는 것이다. 그 여자 자신은 결코 불쌍한 사람이 아니다.</p>
@@ -810,8 +755,9 @@
           사람'에게 미칠 수 있는 것이다.</p>
         <p>'불쌍하지 아니한', '죄 짓지 아니한' <placeName>동관</placeName>의 색주가 <persName ref="#G">계집애</persName>에게는
           누구의 동정이나 사랑도 일없는 것이다.</p>
-        <p> '<said aloud="true" direct="true" who="#P" aloud="false">뭣? 관념적이라고?</said>' </p>
+        <p> '<said aloud="true" direct="true" who="#P">뭣? 관념적이라고?</said>' </p>
         <p>그렇다. 관념적이라도 할 수 없다. 그러나 그것은 그 여자의 주관을 객관화한 것이다. 그러니까 그것은 한 엄연한 현실이다.</p>
+        <gap reason="physical damage" desc="텍스트 일부 손상됨">……(원문 30여 자 탈락)……</gap>
         <p>또 그 병적 현실에 메스를 대는 것은 집단의 역사적 문제이지만 룸펜 <term>인텔리</term>의 결벽과 흥분쯤으로는 문제도 되지 아니한다.</p>
         <p>다만 취객이 삼 원 각수를 던져 주었음으로 해서 그 여자는 감격 없는 기쁨을 맛보았을 뿐일 것이다.</p>
         <p> '<said aloud="false" who="#G">이게 웬 떡이냐…… 어제 저녁에 꿈이 괜찮더니 이런 땡을 잡을 양으로 그랬구나…… 웬 얼간망둥이냐'</said>
@@ -912,13 +858,13 @@
           전하라고.</said>" </p>
         <p><persName ref="#S">S</persName>는 <persName ref="#P">P</persName>가 그다지 듣고 싶지도 아니한 이야기를
           뒤따라오며 늘어놓는다. <rs ref="#P">그</rs>의 가슴에는 옛날의 반감이 솟쳐 올랐다.</p>
-        <p> "<said aloud="true" direct="true" who="#P" aloud="false">별걱정 다 하든 게로군…… <rs ref="#P">내</rs> <rs
+        <p> "<said aloud="true" direct="true" who="#P">별걱정 다 하든 게로군…… <rs ref="#P">내</rs> <rs
               ref="#CS">자식</rs> <rs
               ref="#P">내</rs>가 어련히 할까 버 쫓아다니며 그래!</said>" </p>
         <p> "<said aloud="true" direct="true" who="#S">그래도 <rs type="group">노인들</rs>이야 어데 그런가…… 객지에서
           혼자 있는데 데리고 있기 정 불편하거든 <rs
               ref="#P">당신</rs>에게로 도루 보내게 하라고 그러시데…….</said> " </p>
-        <p> "<said aloud="true" direct="true" who="#P" aloud="false">그 집에 <rs ref="#P">내</rs> <rs
+        <p> "<said aloud="true" direct="true" who="#P">그 집에 <rs ref="#P">내</rs> <rs
               ref="#CS">자식</rs> 무슨 상관이 있어서 보내라는 거야……? 보낼 테면 그때 데려왔을라구…….</said> " </p>
         <p><persName ref="#P">P</persName>는 그것이 모두 <rs ref="#P">그</rs>와 갈린 아내의 조종인 줄 알기 때문에 더구나 심정이
           났다. 화가 나는 대로 하면 <rs ref="#CS">어린아이</rs>가 입고 온 양복도 벗겨 내던지고 싶었으나 꿀꺽 참았다.</p>
@@ -929,8 +875,8 @@
           솟아오르는 듯하였다.</p>
         <p>이튿날 아침 일찍 <persName ref="#CS">창선</persName>이를 데리고 <orgName>××인쇄소</orgName>에 가서 <persName
             ref="#A">A</persName>에게 맡기고 안 내키는 발길을 돌이켜 나오는 <persName ref="#P">P</persName>는 혼자 중얼거렸다.</p>
-        <p> "<said aloud="true" direct="true" who="#P" aloud="false">레디메이드 인생이 비로소 겨우 <rs ref="#CS">
-          임자</rs>를 만나 팔리었구나.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#P">레디메이드 인생이 비로소 겨우 <rs ref="#CS">
+              임자</rs>를 만나 팔리었구나.</said>" </p>
       </div>
     </body>
   </text>
