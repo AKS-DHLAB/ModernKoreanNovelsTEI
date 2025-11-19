@@ -4,30 +4,47 @@
     <fileDesc>
       <titleStmt>
         <title>레디메이드 인생</title>
-        <author>채만식</author>
+        <author>채만식<idno type="ISNI">0000 0001 0882 5128</idno></author>
       </titleStmt>
+
       <publicationStmt>
         <publisher>한국학중앙연구원 인문정보학과</publisher>
       </publicationStmt>
+
       <sourceDesc>
-        <p>Text provided by the user.</p>
+        <bibl type="digitalSource" xml:lang="ko">
+          <title level="a">레디메이드 인생</title>
+          <author>채만식</author>
+          <publisher>Wikisource(한국어)</publisher>
+          <idno type="wikisource">https://ko.wikisource.org/wiki/레디메이드_인생</idno>
+          <idno type="wikidata">Q12594055</idno>
+          <idno type="wikidata-url">https://www.wikidata.org/wiki/Special:EntityPage/Q12594055</idno>
+        </bibl>
+
+        <bibl type="reference" xml:lang="ko">
+          <title level="a">레디메이드 인생</title>
+          <idno type="encykorea-id">E0017242</idno>
+          <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0017242</idno>
+        </bibl>
       </sourceDesc>
     </fileDesc>
+
     <encodingDesc>
       <projectDesc>
-        <p>본 전자본은 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+        <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
       </projectDesc>
     </encodingDesc>
+
     <profileDesc>
       <langUsage>
-        <language ident="ko">Korean</language>
+        <language ident="ko">한국어</language>
       </langUsage>
       <textClass>
         <keywords scheme="local">
           <term>근현대 한국문학</term>
         </keywords>
       </textClass>
-      <particDesc>
+      <particDesc xmlns="http://www.tei-c.org/ns/1.0">
         <listPerson>
           <person xml:id="P">
             <persName xml:lang="ko">P</persName>
@@ -79,12 +96,12 @@
           <person xml:id="A">
             <persName xml:lang="ko">문선 과장</persName>
           </person>
-          <person xml:id="Confucius">
+          <!-- <person xml:id="Confucius">
             <persName xml:lang="ko">공자</persName>
           </person>
           <person xml:id="Mencius">
             <persName xml:lang="ko">맹자</persName>
-          </person>
+          </person> -->
         </listPerson>
       </particDesc>
     </profileDesc>
@@ -97,6 +114,7 @@
       <change when="2025-11-15" who="#임이로">gap Taged, 5, 6장 초안 완료</change>
       <change when="2025-11-15" who="#임이로">term 태그 할루시네이션 제거, 8, 9장 초안 완료. 이상 초안은 said, rs,
         persName, placeName, orgName 태그가 포함되어 있습니다. </change>
+      <change when="2025-11-19" who="#임이로">headeEdit.py를 활용하여 추가.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -256,11 +274,8 @@
         <p> "<said aloud="true" direct="true" who="unknown">공자왈 맹자왈은
             이미 시대가 늦었다. 상투를 깎고 신학문을 배워라.</said>" </p>
         <p> "<said aloud="true" direct="true" who="unknown">야학을 실시하여라.</said>" </p>
-        <p><persName ref="#JST"><choice>
-              <orig>齋藤</orig>
-              <reg>재등</reg>
-            </choice> 총독</persName>이 문화정치의 간판을 내어걸고 골골이 학교를 증설하였다. <orgName>
-          보통학교</orgName>의 교장이 감발을 하고 촌으로 돌아다니며 입학을 권유하였다. 생도에게는 월사금을 받기는커녕 교과서와 학용품을 대어 주었다.</p>
+        <p>재등(齋藤) 총독이 문화정치의 간판을 내어걸고 골골이 학교를 증설하였다. <orgName>
+            보통학교</orgName>의 교장이 감발을 하고 촌으로 돌아다니며 입학을 권유하였다. 생도에게는 월사금을 받기는커녕 교과서와 학용품을 대어 주었다.</p>
         <p>민간의 유지는 돈을 걷어 학교를 세웠다. <orgName>민립대학</orgName>도 생기려다가 말았었다. <orgName>청년회</orgName>에서 야학을
           설시하였다. <orgName>갈돕회</orgName>가 생겨 갈돕만주 외우는 소리가 <placeName type="city"
             ref="https://ko.wikipedia.org/wiki/서울특별시">서울</placeName>에 신풍경을 이루었고 일반은 고학생을 존경하였다.</p>
