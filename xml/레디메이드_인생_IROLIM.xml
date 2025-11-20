@@ -118,6 +118,7 @@
       <change when="2025-11-15" who="#임이로">term 태그 할루시네이션 제거, 8, 9장 초안 완료. 이상 초안은 said, rs,
         persName, placeName, orgName 태그가 포함되어 있습니다. </change>
       <change when="2025-11-19" who="#임이로">headeEdit.py를 활용하여 추가.</change>
+      <change when="2025-11-20" who="#임이로">인물 '아내(#PW)' 추가. 11/20피드백 반영(혼잣말, 편지 간접화법)</change>
     </revisionDesc>
   </teiHeader>
   <text>
