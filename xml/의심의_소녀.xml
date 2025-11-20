@@ -70,25 +70,25 @@
     <body>
       <div>
         <head>1</head>
-        <p><placeName>평양</placeName> <placeName>대동강</placeName> 동쪽 해안을 이 리쯤 들어가면 <placeName>새마을</placeName>이라는 동리가 있다. 그 동리는 그리 작지는 않다. 그리고 동리의 인물이든지 가옥이 결코 비루하지도 않으며 업은 대개 농사다. 이 동리에는‘<persName ref="#GH">범네</persName>’라 하는 꽃인가 의심할 만하게 몹시 어여쁘고 <persName ref="#GH">범</persName>이라는 그 이름과는 정반대로 지극히 온순한 팔구 세의 소녀가 있다. 그 소녀가 이 동리로 온 것은 두어 해 전이니 <persName ref="#HJS">황진사</persName>라는 육십여 세 되는 젊지 않은 백발<persName>옹</persName>과 어디로선지 표연히 이사하여 거한다. 그 후 몇 달을 지나서 <persName ref="#GH">범네</persName>의 집에는 삼십 세 가량 된 <persName>여인</persName>이 왔으나 역시 타향인이었다. 하는 일은 없으나 생활은 흡족한 듯이 보이며 내객이라고는 일 년에 한 번도 없고 동리 사람들과 사귀지도 않는다. 그런 고로 이 동리에는 이 <persName ref="#GH">범네</persName>의 집안 일이 한 의심거리가 되어 하절 장마 때와 동절기인 밤에 담뱃 때들 사이의 이야기 거리가 되었다.</p>
-        <p><persName ref="#GH">범네</persName>라는 미소녀는 그 이웃 소녀들과 사귀기를 간절히 바라는 것 같다. 혹 때를 타서 나물하는 소녀들을 바라보고 섰으면 그 이웃 소녀들은 <persName ref="#GH">범네</persName>의 어여쁜 용자(容姿)에 눈이 황홀하여져 서로 물끄러미 바라보고 있을 때에 백발<persName>옹</persName>은 반드시 언제든지</p>
-        <p><said who="#HJS">야 ─ <persName ref="#GH">범네</persName>야 ─ 야 ─ <persName ref="#GH">범네</persName>야</said>하고 부른다. <persName ref="#GH">범네</persName>는 가엾은 모양으로 뒤를 돌아보며 도로 들어간다. 또한 의심을 일으키게 하는 것은 삼인이 각각 타향 언어를 쓰는 것이라. <persName><choice><orig>翁</orig><reg>옹</reg></choice></persName>은 순연한 <placeName>평양</placeName> 사투리요 <persName ref="#GH">범네</persName>는 사투리 없는 경언(京言)이며 <persName>여인</persName>은 <placeName>영남</placeName> 말씨라. 또 <persName ref="#GH">범네</persName>는 <persName>옹</persName>더러는 ‘할아버지’, <persName>여인</persName>더러는 ‘어멈’이라고 칭호한다. 무식한 촌 소년들은 그 <persName>여인</persName>이 <persName ref="#GH">범네</persName>의 모친인가 하였다. 촌사람들도 이렇게 외에는 <persName ref="#GH">범네</persName>의 집 내용을 구태여 알려고도 아니하였다.</p>
+        <p><placeName>평양</placeName> <placeName>대동강</placeName> 동쪽 해안을 이 리쯤 들어가면 <placeName>새마을</placeName>이라는 동리가 있다. 그 동리는 그리 작지는 않다. 그리고 동리의 인물이든지 가옥이 결코 비루하지도 않으며 업은 대개 농사다. 이 동리에는‘<persName ref="#GH">범네</persName>’라 하는 꽃인가 의심할 만하게 몹시 어여쁘고 <persName ref="#GH">범</persName>이라는 그 이름과는 정반대로 지극히 온순한 팔구 세의 <rs ref="#GH">소녀</rs>가 있다. 그 <rs ref="#GH">소녀</rs>가 이 동리로 온 것은 두어 해 전이니 <persName ref="#HJS">황진사</persName>라는 육십여 세 되는 젊지 않은 백발<rs ref="#HJS">옹</rs>과 어디로선지 표연히 이사하여 거한다. 그 후 몇 달을 지나서 <persName ref="#GH">범네</persName>의 집에는 삼십 세 가량 된 <persName ref="#YM">여인</persName>이 왔으나 역시 타향인이었다. 하는 일은 없으나 생활은 흡족한 듯이 보이며 내객이라고는 일 년에 한 번도 없고 동리 사람들과 사귀지도 않는다. 그런 고로 이 동리에는 이 <persName ref="#GH">범네</persName>의 집안 일이 한 의심거리가 되어 하절 장마 때와 동절기인 밤에 담뱃 때들 사이의 이야기 거리가 되었다.</p>
+        <p><persName ref="#GH">범네</persName>라는 <rs ref="#GH">미소녀</rs>는 그 이웃 소녀들과 사귀기를 간절히 바라는 것 같다. 혹 때를 타서 나물하는 소녀들을 바라보고 섰으면 그 이웃 소녀들은 <persName ref="#GH">범네</persName>의 어여쁜 용자(容姿)에 눈이 황홀하여져 서로 물끄러미 바라보고 있을 때에 백발<rs ref="#HJS">옹</rs>은 반드시 언제든지</p>
+        <p>“<said who="#HJS">야 ─ <persName ref="#GH">범네</persName>야 ─ 야 ─ <persName ref="#GH">범네</persName>야</said>”하고 부른다. <persName ref="#GH">범네</persName>는 가엾은 모양으로 뒤를 돌아보며 도로 들어간다. 또한 의심을 일으키게 하는 것은 삼인이 각각 타향 언어를 쓰는 것이라. <rs ref="#HJS"><choice><orig>翁</orig><reg>옹</reg></choice></rs>은 순연한 <placeName>평양</placeName> 사투리요 <persName ref="#GH">범네</persName>는 사투리 없는 경언(京言)이며 <persName>여인</persName>은 <placeName>영남</placeName> 말씨라. 또 <persName ref="#GH">범네</persName>는 <rs ref="#HJS">옹</rs>더러는 ‘<rs ref="#HJS">할아버지</rs>’, <persName>여인</persName>더러는 ‘<rs ref="#YM">어멈</rs>’이라고 칭호한다. 무식한 촌 소년들은 그 <persName>여인</persName>이 <persName ref="#GH">범네</persName>의 모친인가 하였다. 촌사람들도 이렇게 외에는 <persName ref="#GH">범네</persName>의 집 내용을 구태여 알려고도 아니하였다.</p>
         <head>2</head>
-        <p>그들이 이사하여온 지 만 이 년이나 지난 하절이라.</p>
-        <p>어떤 장날 마침 <persName>옹</persName>은 오후 이 시경에 외출하여 어슬어슬한 저녁때까지 귀 가치 않았더라. <persName ref="#GH">범네</persName>는 심심함을 못 이김이던지 싸리 문 안에서 문을 방긋이 열고 내다보고 섰다. 그 때 동리 이장의 딸 <persName>특실이</persName>가 그 어머니를 찾아 방황하는 모양을 보고 살며시 문 밖으로 흰 얼굴만 나타내어 자기를 쳐다보는 <persName>특실이</persName>를 향하여 미소하여 은근하게</p>
-        <p><said who="#GH">네가 <persName>특실이</persName>냐?</said></p>
-        <p><persName>특실이</persName>는 반가웁게 그 지방말로</p>
-        <p><said who="#TS">응 너희 할아버지 어디 가셨니?</said></p>
+        <p><rs ref="#GH #HJS #YM">그들</rs>이 이사하여온 지 만 이 년이나 지난 하절이라.</p>
+        <p>어떤 <time type="marketDay">장날</time> 마침 <rs ref="#HJS">옹</rs>은 <time when="14:00:00">오후 이 시경</time>에 외출하여 어슬어슬한 <time when="--:--:--T18">저녁때</time>까지 귀 가치 않았더라. <persName ref="#GH">범네</persName>는 심심함을 못 이김이던지 싸리 문 안에서 문을 방긋이 열고 내다보고 섰다. 그 때 동리 이장의 딸 <persName ref="#TS">특실이</persName>가 그 어머니를 찾아 방황하는 모양을 보고 살며시 문 밖으로 흰 얼굴만 나타내어 자기를 쳐다보는 <persName ref="#TS">특실이</persName>를 향하여 미소하여 은근하게</p>
+        <p>“<said who="#GH">네가 <persName ref="#TS">특실이</persName>냐?</said></p>
+        <p><persName ref="#TS">특실이</persName>는 반가웁게 그 지방말로</p>
+        <p>“<said who="#TS">응 <rs ref="#GH">너희</rs> <rs ref="#HJS">할아버지</rs> 어디 가셨니?</said>”</p>
         <p><persName ref="#GH">범네</persName>는 어여쁜 얼굴에 웃음을 띠며</p>
-        <p><said who="#GH">벌써부터 성내에 가셨는데…….</said></p>
-        <p>말 마치기 전에 은행 껍질 같은 눈꺼풀이 발그레하다. 두 소녀는 잠깐 잠잠하다.</p>
-        <p><said who="#TS">너는 아버지는 안 계시니?</said></p>
-        <p><said who="#GH">아버지는 <persName>서모</persName>하고 <persName>큰 언니</persName>하고 <placeName>서울</placeName> 계시구…….</said></p>
+        <p>“<said who="#GH">벌써부터 성내에 가셨는데…….</said>”</p>
+        <p>말 마치기 전에 은행 껍질 같은 눈꺼풀이 발그레하다. <rs ref="#GH #TS">두 소녀</rs>는 잠깐 잠잠하다.</p>
+        <p>“<said who="#TS">너는 아버지는 안 계시니?</said>”</p>
+        <p>“<said who="#GH">아버지는 <persName>서모</persName>하고 <persName>큰 언니</persName>하고 <placeName>서울</placeName> 계시구…….</said>”</p>
         <p>또다시 눈꺼풀이 붉어진다.</p>
-        <p><said who="#TS">지금 같이 있는 이는 너의 누군가?</said></p>
-        <p><said who="#GH">외할아버지 하고 밥 짓는 <persName>어멈</persName>이다…….</said></p>
-        <p>두 소녀의 담화가 점점 정다워 갈 시에 멀리서 <persName>옹</persName>의 점잖고 화평한 모양이 보였다. <persName ref="#GH">범네</persName>는 <persName>특실이</persName>를 향하여 온정하게 <said who="#GH">내일 또 놀러오너라</said>하고 걸음을 빨리 하여 <persName>옹</persName>의 옷소매를 붙들며 <persName>옹</persName>의 귀가를 무한히 기뻐한다. <persName>옹</persName>은 <persName ref="#GH">범네</persName>의 손목을 끌어 싸리문으로 들어가며</p>
-        <p><said who="#HJS">심심하든?</said>한다.</p>
+        <p>“<said who="#TS">지금 같이 있는 <rs ref="YM">이</rs>는 너의 누군가?</said>”</p>
+        <p>“<said who="#GH"><rs ref="#HJS">외할아버지</rs> 하고 밥 짓는 <persName>어멈</persName>이다…….</said>”</p>
+        <p><rs ref="#GH #TS">두 소녀</rs>의 담화가 점점 정다워 갈 시에 멀리서 <rs ref="#HJS">옹</rs>의 점잖고 화평한 모양이 보였다. <persName ref="#GH">범네</persName>는 <persName ref="#TS">특실이</persName>를 향하여 온정하게 “<said who="#GH">내일 또 놀러오너라</said>”하고 걸음을 빨리 하여 <persName>옹</persName>의 옷소매를 붙들며 <persName>옹</persName>의 귀가를 무한히 기뻐한다. <persName>옹</persName>은 <persName ref="#GH">범네</persName>의 손목을 끌어 싸리문으로 들어가며</p>
+        <p>“<said who="#HJS">심심하든?</said>”한다.</p>
         <p><persName ref="#GH">범네</persName>가 이같이 <persName>특실이</persName>와 이야기 한 것도 이 년이나 한 동리 앞 뒤 집에 살았지만 처음이더라.</p>
         <head>3</head>
         <p>혹독한 서중(暑中)에 기다리던 추절이 기별 없이 와서 맑고 시원한 바람에 오동잎이 힘없이 떨어지매 년년이 변치 않고 돌아오는 추석명절이 금년에도 돌아왔다. 도(都)에나 비(鄙)에나 성묘 가는 사람이 조조부터 끊일 새 없이 각기 조선(祖先) 부모 부처 자녀의 고혼(故魂)을 위로키 위하여 술이며 음식을 준비하여 남녀노소를 물론하고 북촌 길로 향한다. <placeName>새마을</placeName> 동리의 <persName ref="#GH">범네</persName>와 <persName>옹</persName>도 누구의 묘에 가는지 기중에 끼었더라. 어느덧 해는 <placeName>모란봉</placeName> 서편에 기울어지고 <placeName>능라도</placeName> 변에 연연(涓涓)한 세파(細波)는 금색을 대(帶)하였다.</p>
