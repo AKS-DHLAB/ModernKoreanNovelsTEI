@@ -257,8 +257,8 @@
             type="nation"
             ref="https://ko.wikipedia.org/wiki/조선">조선</placeName>이라는 조그마한 땅덩이나마 너무 오래 뒤떨어뜨려 놓지
           아니하였다.</p>
-        <p>갑신정변(甲申政變)에 싹이 트기 시작하여 가지고 일한합방의 급격한 역사 변천을 거쳐 자유주의의 사조는 <date
-            type="historicalPeriod">기미년</date>에 비로소 확실한 걸음을 내어디디었다.</p>
+        <p>갑신정변(甲申政變)에 싹이 트기 시작하여 가지고 일한합방의 급격한 역사 변천을 거쳐 자유주의의 사조는 <time
+            type="historicalPeriod">기미년</time>에 비로소 확실한 걸음을 내어디디었다.</p>
         <p>자유주의의 새로운 깃발을 내어걸은 '시민(市民)'의 기세는 등등하였다.</p>
         <p> "<said aloud="true" direct="true" who="unknown">양반? 흥! 누구는 발이 하나길래 너희만 양발(반)이라느냐?</said>
           " </p>
