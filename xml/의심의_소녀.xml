@@ -59,7 +59,7 @@
           <person xml:id="AB"><persName xml:lang="ko">아버지</persName></person>
           <person xml:id="SM"><persName xml:lang="ko">서모</persName></person>
           <person xml:id="KN"><persName xml:lang="ko">큰 언니</persName></person>
-          <person xml:id="SND"><persName xml:lang="ko">소녀들</persName></person>
+          <person xml:id="SND" type="group"><persName xml:lang="ko">소녀들</persName></person>
           <person xml:id="CHILD1"><persName xml:lang="ko">아이 1</persName></person>
           <person xml:id="CHILD2"><persName xml:lang="ko">아이 2</persName></person>
           <person xml:id="CHILD3"><persName xml:lang="ko">아이 3</persName></person>
