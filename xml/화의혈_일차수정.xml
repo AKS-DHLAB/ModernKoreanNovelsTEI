@@ -447,7 +447,7 @@
             가 한눈 한팔 병신으로 ᄉᆡᆼ기지 못ᄒᆞᆫ 것만 졀통ᄒᆞ지 그러ᄂᆞ 텰 즁에도 ᄌᆡᆼᄌᆡᆼ이라고 아모리 <rs type="role" ref="#GS">기ᄉᆡᆼ</rs>이라도 졔 ᄒᆡᆼ실 뎌가질 탓이지<rs type="role" ref="#GS">기ᄉᆡᆼ</rs>이라고 다 ᄀᆡ즘ᄉᆡᆼ의 ᄒᆡᆼ실을 ᄒᆞᆯ가 광ᄃᆡ타령의 말맛다나 옛날 
             <persName ref="#CH2">춘향</persName>
             이ᄂᆞᆫ 
-            <rs type="role" ref="#CH2"><placeName xml:lang="ko">남원</placeName>기ᄉᆡᆼ</rs>으로 헛탄히 몸을 버리지 안이ᄒᆞ고 년긔와 ᄌᆡ질이 뎍당ᄒᆞᆫ 
+            <rs type="role" ref="#CH2"><placeName type="settlement" subtype="local">남원</placeName>기ᄉᆡᆼ</rs>으로 헛탄히 몸을 버리지 안이ᄒᆞ고 년긔와 ᄌᆡ질이 뎍당ᄒᆞᆫ 
             <persName ref="#LDR">이도령</persName>
             을 맛ᄂᆞ 일부죵ᄉᆞ를 ᄒᆞ얏슴으로 그 아람다온 일홈이 몃 ᄇᆡᆨ년을 쎡지 안이ᄒᆞ얏ᄂᆞᆫᄃᆡ 
             <rs ref="#SC">나</rs>
@@ -512,11 +512,11 @@
             가 려염가 규슈로 츈ᄉᆡᆨ을 루셜치 안이ᄒᆞᆫ 터 ᄀᆞᆺ흐면 무리ᄒᆞᆫ 말로 권ᄒᆞᆯ 샤ᄅᆞᆷ도 업슬 것이오 권ᄒᆡ셔 말을 안이 듯더ᄅᆡ도 말ᄒᆞ던 졔나 무안ᄒᆞ지 이샹히 넉일바ㅣ 안이로ᄃᆡ 
             <rs ref="#SC">졔</rs>
             가 교방 츌신으로 사ᄅᆞᆷ마다 가허 ᄭᅥᆨ글만ᄒᆞᆫ 로튜장화가 되야 그 모양으로 말살스럽게 구니 듯고보ᄂᆞᆫ 자ㅣ 모다 큰 변괴나 십어 한 입 걸너 두 입 걸너 그 쇼문이 ᄉᆞ면 각쳐에 안이퍼진 ᄃᆡ가 업ᄂᆞᆫᄃᆡ 말은 갈ᄉᆞ록 보ᄐᆡᆫ다고 젼ᄒᆞᄂᆞᆫ 자의 셩미ᄅᆞᆯ ᄯᅡ어 졈졈 한 마듸식을 보ᄐᆡ여 나죵에ᄂᆞᆫ 
-            <placeName xml:lang="ko">서울</placeName>
+            <rs type="place" subtype="capital">서울</rs>
             성지 젼파되기를
           </p>
           <p>"<said who="#PEOPLE" aloud="true" direct="true">
-            <placeName xml:lang="ko">전라남도</placeName>
+            <placeName type="settlement" subtype="local">전라남도</placeName>
             <placeName ref="#JS">장성군</placeName>
             에 
             <persName ref="#SC">선초</persName>
@@ -569,7 +569,7 @@
           </said>"</p>
           <p>
             좌셕에 맛ᄎᆞᆷ 
-            <placeName xml:lang="ko">전라남도</placeName>
+            <placeName type="settlement" subtype="local">전라남도</placeName>
              친구가 안졋다가
           </p>
           <p>"<said who="#PERSON" aloud="true" direct="true">
@@ -591,7 +591,7 @@
             ᄂᆞᆫ 
             <persName ref="#LDS">이도사</persName>
             라 ᄒᆞᄂᆞᆫ 자인ᄃᆡ 평일 력ᄉᆞᄅᆞᆯ ᄃᆡ강 말ᄒᆞ자면 속담에 만셕즁이 일반이라 션ᄇᆡ ᄯᆡ부터 량반은 <rs ref="#LDS">ᄌᆞ긔 한아</rs>ᄲᅮᆫ인 쳬 언변도 <rs ref="#LDS">ᄌᆞ긔 한아</rs>ᄲᅮᆫ인 톄 지혜도 <rs ref="#LDS">ᄌᆞ긔 한아</rs>ᄲᅮᆫ인 쳬 그 즁에 엉큼ᄒᆞᆫ 욕심은 드러안져셔 언의 산림에게 집지를 ᄒᆞ야 학ᄒᆡᆼ도 <rs ref="#LDS">ᄌᆞ긔 한아</rs>ᄲᅮᆫ인쳬 부모덕에 <term type="studies">글ㅅᄌᆞ</term>ᄂᆞᆫ ᄇᆡ와셔 <term type="studies">문쟝</term>도 <rs ref="#LDS">ᄌᆞ긔 한아</rs>ᄲᅮᆫ인쳬 ᄒᆞ다가 
-            <placeName xml:lang="ko">서울</placeName>
+            <rs type="place" subtype="capital">서울</rs>
             로 쑥 을나와셔 <rs type="place" corresp="#CG #ND">은근히 셰력이 잇ᄂᆞᆫ ᄌᆡ샹의 집</rs>에를 츌입ᄒᆞ야 쳐음에 ᄌᆡ랑초ᄉᆞ로 나죵에 도ᄉᆞ츌륙을 ᄒᆞᆫ분네인ᄃᆡ 션쳔품부ᄅᆞᆯ 슌양덩이로 타고나셔 호ᄉᆡᆨ은 한바리에 실을 사ᄅᆞᆷ이 업슴으로 남모르게ᄂᆞᆫ 별별 긔괴망측ᄒᆞᆫ ᄒᆡᆼ동을 모다 ᄒᆞ면셔 외식으로ᄂᆞᆫ 셰샹에 졍남은 역시 ᄌᆞ긔 한아ᄲᅮᆫ인쳬 ᄒᆞ야 로샹에셔 지나가ᄂᆞᆫ 녀인을 보면 거짓말 보ᄐᆡ여 십리식은 피ᄒᆡ 가고 좌샹에셔 계집의 언론이 나면 능청스럽게 기리 ᄎᆡᆨ지ᄅᆞᆯ 일슈 잘 ᄒᆞ더니 급기 
             <persName ref="#SC">선초</persName>
             의 션셩을 드른 후로 몃칠 밤을 잠을 잘 못자며 스ᄉᆞ로 궁리ᄒᆞ기ᄅᆞᆯ
@@ -640,7 +640,7 @@
           <p>"<said who="#LDS" aloud="true" direct="true">그게 무슨 말인가 엇지ᄒᆞ다가 응</said>"</p>
           <p>"<said who="#SN" aloud="true" direct="true">
             근일에 
-            <placeName xml:lang="ko">충청남북도</placeName>
+            <placeName type="settlement" subtype="local">충청남북도</placeName>
             ᄂᆞᆫ 
             <orgName ref="#DHD">동학</orgName>
             으로 ᄒᆡ셔 아조 말안인즁 
@@ -658,7 +658,7 @@
             풍파를 당ᄒᆞᆯ 여부가 잇슴닛가 
             <rs ref="#SN">시ᄉᆡᆼ</rs>
             은 이러케 도망이나 ᄒᆞ야 
-            <placeName xml:lang="ko">서울</placeName>
+            <rs type="place" subtype="capital">서울</rs>
             로나 왓슴니다마는 산죵씨ᄭᅴ셔ᄂᆞᆫ <rs ref="#DHD">그쟈들</rs>에게 잡혀가셧ᄂᆞᆫᄃᆡ 엇지 되엿ᄂᆞᆫ지 하회를 알 슈 업슴니다
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
@@ -741,7 +741,7 @@
           </said>"</p>
           <p>"<said who="#SDS" aloud="true" direct="true">
             글셰 
-            <placeName xml:lang="ko">삼남</placeName>
+            <placeName type="settlement" subtype="local">삼남</placeName>
             에ᄂᆞᆫ 소위 
             <orgName ref="#DHD">동학당</orgName>
             의 횡ᄒᆡᆼ이 ᄃᆡ단ᄒᆞ다ᄂᆞᆫ 걸 그러치마는 그ᄭᆞ짓 <rs ref="#DHD">오합지즁</rs>을 무슨 심려ᄒᆞᆯ 것이 잇나 <orgName ref="#JWD">진위ᄃᆡ</orgName> 몃초만 풀어 보ᄂᆡᆺ스면 몃 칠 안이가셔 다 쇼멸ᄒᆞᆯ 것일셰
