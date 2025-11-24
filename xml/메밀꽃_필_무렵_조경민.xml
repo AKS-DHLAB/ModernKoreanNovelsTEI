@@ -87,9 +87,9 @@
         <p>코흘리개 한 녀석이 멀리서 소리를 쳤다.</p>
         <p><said aloud="false" who="#HSW">"고 녀석 말투가…."</said></p>
         <p><said who="#KID"><persName who="#KCJ">김 첨지</persName> 당나귀가 가버리니까 온통 흙을 차고 거품을 흘리면서 미친 소같이 날뛰는걸. 꼴이 우스워 우리는 보고만 있었다우. 배를 좀 보지.</said></p>
-        <p><persName>아이</persName>는 앙토라진 투로 소리를 치며 깔깔 웃었다. <persName who="#HSW">허 생원</persName>은 모르는 결에 낯이 뜨거워졌다. 뭇 시선을 막으려고 그는 짐승의 배 앞을 가리어서지 않으면 안되었다.</p>
+        <p><persName who="#KID">아이</persName>는 앙토라진 투로 소리를 치며 깔깔 웃었다. <persName who="#HSW">허 생원</persName>은 모르는 결에 낯이 뜨거워졌다. 뭇 시선을 막으려고 그는 짐승의 배 앞을 가리어서지 않으면 안되었다.</p>
         <p><said who="#KID">"늙은 주제에 암샘을 내는 셈야. 저놈의 짐승이."</said></p>
-        <p><persName>아이</persName>의 웃음소리에 <persName who="#HSW">허 생원</persName>은 주춤하면서 거어코 견딜 수 없어 채찍을 들더니 <persName>아이</persName>를 쫓았다.</p>
+        <p><persName who="#KID">아이</persName>의 웃음소리에 <persName who="#HSW">허 생원</persName>은 주춤하면서 거어코 견딜 수 없어 채찍을 들더니 <persName>아이</persName>를 쫓았다.</p>
         <p><said who="#KID">"쫓으려거든 쫓아보지. 왼손잡이가 사람을 때려."</said></p>
         <p>줄달음에 달아나는 각다귀에는 당하는 재주가 없었다. 왼손잡이는 <persName>아이</persName> 하나도 후릴 수 없다. 그만 채찍을 던졌다. 술기도 돌아 몸이 유난스럽게 화끈거렸다.</p>
         <p><said who="#HSW">"그만 떠나세. 녀석들과 어울리다가는 한이 없어. 장판의 각다귀들이란 어른보다도 더 무서운 것들인 걸."</said></p>
@@ -108,12 +108,12 @@
         <p>길이 좁은 까닭에 세 사람은 나귀를 타고 외줄로 늘어섰다. 방울소리가 시원스럽게 딸랑딸랑 메밀 밭께로 흘러간다. 앞장선 <persName who="#HSW">허 생원</persName>의 이야기 소리는 꽁무니에 선 <persName who="#DI">동이</persName>에게는 확적히는 안 들렸으나, 그는 그대로 개운한 제멋에 적적하지는 않았다.</p>
         <p><said who="#HSW">"장 선 꼭 이런 날 밤이었네. 객주집 <choice><orig>土房</orig><reg>토방</reg></choice>이란 무더워서 잠이 들어야지. 밤중은 돼서 혼자 일어나 개울가에 목욕하러 나갔지. <placeName>봉평</placeName>은 지금이나 그제나 마찬가지지. 보이는 곳마다 메밀 밭이어서 개울가가 어디 없이 하얀 꽃이야. 돌 밭에 벗어도 좋을 것을, 달이 너무나 밝은 까닭에 옷을 벗으러 물방앗간으로 들어가지 않았나. 이상한 일도 많지. 거기서 난데없는 <persName>성 서방네 처녀</persName>와 마주쳤단 말이네. <placeName>봉평</placeName>서야 제일 가는 일색이었지- 팔자에 있었나부지."</said></p>
         <p><said who="#JSD">"아무렴"</said> 하고 응답하면서 말머리를 아끼는 듯이 한참이나 담배를 빨 뿐이었다. 구수한 자주빛 연기가 밤 기운 속에 흘러서는 녹았다.</p>
-        <p><said who="#HSW">"날 기다린 것은 아니었으나 그렇다고 달리 기다리는 놈팽이가 있는 것두 아니었네. <persName>처녀</persName>는 울고 있단 말야. 짐작은 대고 있으나 <orgName>성 서방네</orgName>는 한창 어려워서 들고날 때였지, 한집안 일이니 딸에겐들 걱정이 없을 리 있겠나? 좋은 데만 있으면 시집도 보내련만 시집은 죽어도 싫다지…."</said></p>
-        <p><said who="#HSW">"그러나 <persName>처녀</persName>란 울 때같이 정을 끄는 때가 있을까. 처음에는 놀라기도 한 눈치였으나 걱정 있을 때는 누그러지기도 쉬운 듯해서 이럭저럭 이야기가 되었네…. 생각하면 무섭고도 기막힌 밤이었어."</said></p>
+        <p><said who="#HSW">"날 기다린 것은 아니었으나 그렇다고 달리 기다리는 놈팽이가 있는 것두 아니었네. 처녀는 울고 있단 말야. 짐작은 대고 있으나 <orgName>성 서방네</orgName>는 한창 어려워서 들고날 때였지, 한집안 일이니 딸에겐들 걱정이 없을 리 있겠나? 좋은 데만 있으면 시집도 보내련만 시집은 죽어도 싫다지…."</said></p>
+        <p><said who="#HSW">"그러나 처녀란 울 때같이 정을 끄는 때가 있을까. 처음에는 놀라기도 한 눈치였으나 걱정 있을 때는 누그러지기도 쉬운 듯해서 이럭저럭 이야기가 되었네…. 생각하면 무섭고도 기막힌 밤이었어."</said></p>
         <p><said who="#JSD">"제천인지로 줄행랑을 놓은 건 그 다음날이렷다."</said></p>
         <p><said who="#HSW">"다음 장도막에는 벌써 온 집안이 사라진 뒤였네. 장판은 소문에 발끈 뒤집혀 고작해야 술집에 팔려가기가 상수라고 <persName>처녀</persName>의 뒷공론이 자자들 하단 말이야. <placeName>제천</placeName> 장판을 몇 번이나 뒤졌겠나. 허나 <persName>처녀</persName>의 꼴은 꿩 궈먹은 자리야. 첫날밤이 마지막 밤이었지. 그때부터 <placeName>봉평</placeName>이 마음에 든 것이 반평생인들 잊을 수 있겠나."</said></p>
         <p><said who="#JSD">"수 좋았지. 그렇게 신통한 일이란 쉽지 않어. <choice><orig>恒用</orig><reg>항용</reg></choice> 못난 것 얻어 새끼 낳고, 걱정 늘고 생각만 해두 진저리나지- 그러나 늙으막바지까지 장돌뱅이로 지내기도 힘드는 노릇 아닌가? 난 가을까지만 하구 이 생계와두 하직하려네. <placeName>대화</placeName>쯤에 조그만 전방이나 하나 벌이구 식구들을 부르겠어. <choice><orig>四時長天</orig><reg>사시장천</reg></choice> 뚜벅뚜벅 걷기란 여간이래야지."</said></p>
-        <p><said who="#HSW">"옛 <persName>처녀</persName>나 만나면 같이나 살까- 난 꺼꾸러질 때까지 이 길 걷고 저 달 볼 테야."</said></p>
+        <p><said who="#HSW">"옛 처녀나 만나면 같이나 살까- 난 꺼꾸러질 때까지 이 길 걷고 저 달 볼 테야."</said></p>
         <p>산길을 벗어나니 큰길로 틔어졌다. 꽁무니의 <persName who="#DI">동이</persName>도 앞으로 나서 나귀들은 가로 늘어섰다.</p>
         <p><said who="#HSW">"총각두 젊겠다, 지금이 한창 시절이렸다. <placeName>충주집</placeName>에서는 그만 실수를 해서 그 꼴이 되었으나 설게 생각 말게."</said></p>
         <p><said who="#DI">"처, 천만에요. 되려 부끄러워요. 계집이란 지금 웬 제격인가요. 자나깨나 <persName>어머니</persName> 생각뿐인데요."</said></p>
@@ -122,12 +122,12 @@
         <p><said who="#HSW">"돌아가셨나?"</said></p>
         <p><said who="#DI">"당초부터 없어요."</said></p>
         <p><said who="#HSW">"그런 법이 세상에…"</said></p>
-        <p><persName>생원</persName>과 <persName>선달</persName>이 야단스럽게 껄껄들 웃으니, <persName who="#DI">동이</persName>는 정색하고 우길 수밖에는 없었다.</p>
-        <p><said who="#DI">"부끄러워서 말하지 않으랴 했으나 정말예요. <placeName>제천</placeName> 촌에서 달도 차지 않은 <persName>아이</persName>를 낳고 <persName>어머니</persName>는 집을 쫓겨났죠. 우스운 이야기나, 그러기 때문에 지금까지 아버지 얼굴도 본 적 없고 있는 고장도 모르고 지내와요."</said></p>
+        <p><persName who="#HSW">생원</persName>과 <persName who="#JSD">선달</persName>이 야단스럽게 껄껄들 웃으니, <persName who="#DI">동이</persName>는 정색하고 우길 수밖에는 없었다.</p>
+        <p><said who="#DI">"부끄러워서 말하지 않으랴 했으나 정말예요. <placeName>제천</placeName> 촌에서 달도 차지 않은 아이를 낳고 어머니는 집을 쫓겨났죠. 우스운 이야기나, 그러기 때문에 지금까지 아버지 얼굴도 본 적 없고 있는 고장도 모르고 지내와요."</said></p>
         <p>고개가 앞에 놓인 까닭에 세 사람은 나귀를 내렸다. 둔덕은 험하고 입을 벌리기도 대근하여 이야기는 한동안 끊졌다. 나귀는 건듯하면 미끄러졌다. <persName who="#HSW">허 생원</persName>은 숨이 차 몇 번이고 다리를 쉬지 않으면 안되었다. 고개를 넘을 때마다 나이가 알렸다. <persName who="#DI">동이</persName> 같은 젊은 축이 그지없이 부러웠다. 땀이 등을 한바탕 쪽 씻어 내렸다.</p>
         <p>고개 너머는 바로 개울이었다. 장마에 흘러버린 널다리가 아직도 걸리지 않은 채로 있는 까닭에 벗고 건너야 되었다. 고의를 벗어 띠로 등에 얽어 매고 반 벌거숭이의 우스꽝스런 꼴로 물속에 뛰어들었다. 금방 땀을 흘린 뒤였으나 밤 물은 뼈를 찔렀다.</p>
         <p><said who="#HSW">"그래 대체 기르긴 누가 기르구?"</said></p>
-        <p><said who="#DI">"<persName>어머니</persName>는 하는 수 없이 <persName>의부</persName>를 얻어가서 술장사를 시작했죠. 술이 고주래서 <persName>의부</persName>라고 전망나니예요. 철 들어서부터 맞기 시작한 것이 하룬들 편한 날 있었을까. <persName>어머니</persName>는 말리다가 채이고 맞고 칼부림을 당하고 하니 집 꼴이 무어겠소. 열 여덟 살 때 집을 뛰쳐나서부터 이 짓이죠."</said></p>
+        <p><said who="#DI">"어머니는 하는 수 없이 의부를 얻어가서 술장사를 시작했죠. 술이 고주래서 의부라고 전망나니예요. 철 들어서부터 맞기 시작한 것이 하룬들 편한 날 있었을까. 어머니는 말리다가 채이고 맞고 칼부림을 당하고 하니 집 꼴이 무어겠소. 열 여덟 살 때 집을 뛰쳐나서부터 이 짓이죠."</said></p>
         <p><said who="#JSD">"총각 낫세론 섬철듦이 무던하다고 생각했더니 듣고 보니 딱한 신세로군."</said></p>
         <p>물은 깊어 허리까지 찼다. 속 물살도 어지간히 센 데다가 발에 채이는 돌멩이도 미끄러워 금시에 훌칠 듯하였다. 나귀와 <persName who="#JSD">조 선달</persName>은 재빨리 거의 건넜으나 <persName who="#DI">동이</persName>는 <persName who="#HSW">허 생원</persName>을 붙드느라고 두 사람은 훨씬 떨어졌다.</p>
         <p><said who="#HSW">"모친의 친정은 원래부터 <placeName>제천</placeName>이었던가?"</said></p>
@@ -140,7 +140,7 @@
         <p><said who="#HSW">"그래 모친은 아비를 찾지는 않는 눈치지?"</said></p>
         <p><said who="#DI">"늘 한번 만나고 싶다고는 하는데요."</said></p>
         <p><said who="#HSW">"지금 어디 계신가?"</said></p>
-        <p><said who="#DI">"<persName>의부</persName>와도 갈라져 <placeName>제천</placeName>에 있죠. 가을에는 <placeName>봉평</placeName>에 모셔오려고 생각 중인데요. 이를 물고 벌면 이럭저럭 살아갈 수 있겠죠."</said></p>
+        <p><said who="#DI">"의부와도 갈라져 <placeName>제천</placeName>에 있죠. 가을에는 <placeName>봉평</placeName>에 모셔오려고 생각 중인데요. 이를 물고 벌면 이럭저럭 살아갈 수 있겠죠."</said></p>
         <p><said who="#HSW">"아무렴, 기특한 생각이야. 가을이랬다?"</said></p>
         <p><persName who="#DI">동이</persName>의 탐탁한 등어리가 뼈에 사무쳐 따뜻하다. 물을 다 건넜을 때에는 도리어 서글픈 생각에 좀더 업혔으면도 하였다.</p>
         <p><said who="#JSD">"진종일 실수만 하니 웬일이요, 생원."</said></p>
