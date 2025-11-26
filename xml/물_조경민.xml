@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>물</title>
-        <author>김남천</author>
+        <author>김남천<idno type="ISNI">0000 0000 8272 9276</idno></author>
         <respStmt>
           <resp>TEI 인코딩</resp>
           <name>조경민<idno type="ISNI">0000 0005 1476 7082</idno></name>
@@ -16,7 +16,17 @@
         <ref target="https://digitalhumanities.kr/">한국학중앙연구원 디지털인문학연구소 홈페이지</ref>
       </publicationStmt>
       <sourceDesc>
-        <p>본문은 사용자로부터 제공받았습니다.</p>
+        <bibl type="digitalSource" xml:lang="ko">
+          <title level="a">물</title>
+          <author>김남천</author>
+          <publisher>Wikisource(한국어)</publisher>
+          <idno type="wikisource">https://ko.wikisource.org/wiki/%EB%AC%BC</idno>
+        </bibl>
+        <bibl type="reference" xml:lang="ko">
+          <title level="a">물</title>
+          <idno type="encykorea-id">E0008868</idno>
+          <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0008868</idno>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -59,7 +69,7 @@
         <p><persName ref="#NA">나</persName>는 두평 칠합의 네모난 면적 위에 벌써 날수로 일곱 달이나 살아온 것이다. 두평 칠합을 전 몸뚱이를 가지고 느껴지는 것은 그 덕택이었다. <persName ref="#NA">내</persName>가 이 두평 칠합에 살기 전에 석 달 동안 두평 칠합을 절반 가른 조그만 방 안에서 생활한 적이 있었었다.</p>
         <p>그런데 그 조그만 방은 어쩐지 공연히 넓고 엉성하던 것이 그보다 배 곱이나 되는 이 두평 칠합이 이렇게 좁아 보이고 질식할 듯이 빼곡 차서 숨조차 마음대로 쉴 수 없는 것은 어떤 연고일까?</p>
         <p>별로 힘든 연고는 없었다.</p>
-        <p>조그만 방에 생활할 때는 영하 십오륙도를 상하하는 추운 동지 섣달이었고 또 게다가 별로 짐도 없는 방 안을 독차지하고 있었던 까닭이며 지금 이 방에는 열세 사람이 살고 있으며 그리고 또 시절이 구십도나 되는 여름이었다. 이 외에 별다른 연고는 없었다.</p>
+        <p>조그만 방에 생활할 때는 영하 십오륙도를 상하하는 추운 <time>동지 섣달</time>이었고 또 게다가 별로 짐도 없는 방 안을 독차지하고 있었던 까닭이며 지금 이 방에는 열세 사람이 살고 있으며 그리고 또 시절이 구십도나 되는 여름이었다. 이 외에 별다른 연고는 없었다.</p>
         <p>하여튼 <persName ref="#NA">나</persName>에게는 두평 칠합이 몹시 협착하고 빽빽한 듯이 느껴져서 어떻게 할 수가 없었다.</p>
         <p>이평 칠합 구십도 열세 사람―---<persName ref="#NA">나</persName>는 여태 이렇게 숨막히는 공기 속에서 이렇게 장구한 시일을 생활해 본 적이 없었던 것이다.</p>
         <p>물론 <persName ref="#NA">나</persName>뿐이 아니겠지. 이 속에는 열세 사람 그리고 또 몇백 사람이 그가 끓는 솥 속에나 혹은 타는 불 속에서 살아 본 적이 없는 이상 다 매한가지로 이런 질식할 만한 공기를 숨쉬고 그 속에서 생활한 적이 없을 것이다.</p>
@@ -67,11 +77,11 @@
         <p>물론 공장에서 일하는 노동자나 시골서 김 매고 물 뽑는 농군이나 또 부엌에서 밥을 짓는 여편네들도 우리들보다 못지않게 땀을 흘린다.</p>
         <p>그러나 아무것도 하지 않고 멀거니 앉아서 부채질만 하는 사람들이 이렇게 땀 흘리는 것은 아무래도 보지 못하는 일이었다.</p>
         <p>돌중같이 깎은 머리에는 땀때종이 모여서 헐고 진물이 흘렀다.</p>
-        <p>오후 세시나 되었을는지 태양에 쪼인 벽돌바람이 후끈후끈하게 달아 왔다.</p>
+        <p><time when="15:00:00">오후 세시</time>나 되었을는지 태양에 쪼인 벽돌바람이 후끈후끈하게 달아 왔다.</p>
         <p>두 개의 창문을 높이 등뒤에 지고 꽉 막힌 두터운 바람벽을 향하여 세 줄로 앉은 돌중들은 무릎 앞에 책을 놓고 있었다.</p>
-        <p>이들 돌중 가운데는 한 개의 <persName ref="#HC">하이칼라</persName>가 섞여 있었다. <persName ref="#HC">그</persName>는 똥통과 이불 새에 허리를 펴고 누워서 <title><choice><orig>講談全集</orig><reg>강담전집</reg></choice></title>을 읽으면서 이따금 버드나무를 그린 부채로 무릎을 딱딱 치고 있었다. 그러더니 <persName ref="#HC">그</persName>만 이마와 콧잔등에 구슬 같은 땀방울을 만들면서 잠이 들고 말았다. 이 작자는 한 달 전에 철도 청부사건에 담합(談合)을 하고 몰려 들어온 <placeName>일본</placeName> 사람 청부사였다. <persName ref="#HC">그</persName>는 동맥경화증(動脈硬化症)으로 혈압(血壓)이 높다나 낮다나 하더니 횡와허가(橫臥許可)를 얻어 가지고 대낮인데 가로누워 낮잠을 자고 있는 것이다.</p>
+        <p>이들 돌중 가운데는 한 개의 <persName ref="#HC">하이칼라</persName>가 섞여 있었다. <persName ref="#HC">그</persName>는 똥통과 이불 새에 허리를 펴고 누워서 <title><choice><orig>講談全集</orig><reg>강담전집</reg></choice></title>을 읽으면서 이따금 버드나무를 그린 부채로 무릎을 딱딱 치고 있었다. 그러더니 <persName ref="#HC">그</persName>만 이마와 콧잔등에 구슬 같은 땀방울을 만들면서 잠이 들고 말았다. 이 작자는 한 달 전에 철도 청부사건에 담합(談合)을 하고 몰려 들어온 <placeName type="country">일본</placeName> 사람 청부사였다. <persName ref="#HC">그</persName>는 <rs type="disease">동맥경화증(動脈硬化症)</rs>으로 혈압(血壓)이 높다나 낮다나 하더니 횡와허가(橫臥許可)를 얻어 가지고 대낮인데 가로누워 낮잠을 자고 있는 것이다.</p>
         <p>그 옆에 바로 똥통과 타구가 놓여 있는 앞에 앉아 있는 <persName ref="#GC">간도 친구</persName>는『속수국어독본』을 엎어 놓고 불알과 새채기에 다무시(백선)약을 바르고 있었다. 기름기 도는 누런 약을 손가락 끝에 발라서는 연신 새채기 속으로 가져갔다.</p>
-        <p>이것을 물끄러미 바라보고 있던 <orgName>독서회사건</orgName>의 <persName ref="#SC">서울 친구</persName>가 치분통 뒤에서 약봉지를 뒤적뒤적하더니 냄새 고약한 조그만 봉지를 손끝으로 꼬집어 들고 표정과 눈짓으로 몇 번이나 "<said who="#SC" aloud="false">이것 줄까?</said>" "<said who="#SC" aloud="false">이것 줄까?</said>"를 하였으나 저편에서 한 번도 이편 쪽을 바라다보지 않으므로 드디어 가느다란 목소리를 내었다.</p>
+        <p>이것을 물끄러미 바라보고 있던 <rs type="event" ref="https://hwasun.grandculture.net/hwasun/toc/GC05600532">독서회사건</rs>의 <persName ref="#SC">서울 친구</persName>가 치분통 뒤에서 약봉지를 뒤적뒤적하더니 냄새 고약한 조그만 봉지를 손끝으로 꼬집어 들고 표정과 눈짓으로 몇 번이나 "<said who="#SC" aloud="false">이것 줄까?</said>" "<said who="#SC" aloud="false">이것 줄까?</said>"를 하였으나 저편에서 한 번도 이편 쪽을 바라다보지 않으므로 드디어 가느다란 목소리를 내었다.</p>
         <p>"<said who="#SC">어어 어이 슛개 옴약이 좋다, 이걸 발러.</said>"</p>
         <p>그러나 <persName ref="#SC">그</persName>는 너무 머리를 돌리고 이야기를 하였었다. 드디어 <persName ref="#SC">그</persName>는 구멍을 따고 엿보고 있는 두 눈을 경계하지 못하였다.</p>
         <p>"<said who="#GUARD">나니 하나시데 이루카(뭐라고 떠드는 거야)?</said>"</p>
