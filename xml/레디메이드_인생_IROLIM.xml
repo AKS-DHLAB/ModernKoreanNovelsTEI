@@ -5,6 +5,10 @@
       <titleStmt>
         <title>레디메이드 인생</title>
         <author>채만식<idno type="ISNI">0000 0001 0882 5128</idno></author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>임이로<idno type="ORCID">0009-0006-1600-8818</idno></name>
+        </respStmt>
       </titleStmt>
 
       <publicationStmt>
