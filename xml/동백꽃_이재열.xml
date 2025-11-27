@@ -83,6 +83,7 @@
       <change when="2025-10-31" who="#이재열">작업자 이재열이 TEI 인코딩을 완료함.</change>
       <change when="2025-11-12" who="#이재열">작업자 이재열이 sp 태그를 said 태그로 변경.</change>
       <change when="2025-11-13" who="#이재열">작업자 이재열이 누락된 따옴표 추가하고 said 태그에 attributes 추가</change>
+      <change when="2025-11-20" who="#이재열">작업자 이재열이 time 태그 추가</change>
     </revisionDesc>
   </teiHeader>
   <text>
