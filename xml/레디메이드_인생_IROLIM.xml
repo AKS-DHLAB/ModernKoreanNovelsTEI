@@ -5,6 +5,10 @@
       <titleStmt>
         <title>레디메이드 인생</title>
         <author>채만식<idno type="ISNI">0000 0001 0882 5128</idno></author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>임이로<idno type="ORCID">0009-0006-1600-8818</idno></name>
+        </respStmt>
       </titleStmt>
 
       <publicationStmt>
@@ -294,8 +298,7 @@
             조선</placeName>의 문화 정도는 급도로 높아 갔다.</p>
         <p>그리하여 민중의 지식 보급에 애쓴 보람은 나타났다.</p>
         <p>면서기를 공급하고 순사를 공급하고 군청 고원을 공급하고 간이 농업학교 출신의 농사 개량 기수를 공급하였다.</p>
-        <p><orgName type="bank">은행</orgName>원이 생기고 <orgName type="company">회사</orgName> 사원이 생겼다. <orgName
-            type="school">학교</orgName> 교원이 생기고 <orgName type="church">교회</orgName>의 목사가 생겼다.</p>
+        <p>은행원이 생기고 회사 사원이 생겼다. 학교 교원이 생기고 교회의 목사가 생겼다.</p>
         <p>신문 기자가 생기고 잡지 기자가 생겼다. 민중의 지식 정도가 높았으니 신문
           잡지 독자가 부쩍 늘고 의사와 변호사의 벌이가 윤택하여졌다.</p>
         <p>소설가가 원고료를 얻어먹고 미술가가 그림을 팔아먹고 음악가가 광대의 천호(賤號)에서 벗어났다.</p>
@@ -402,7 +405,8 @@
         <p>편지를 뜯어 읽고 난 <persName ref="#P">P</persName>는 말가웃〔一斗半〕이나 되게 한숨을 푸― 내쉬었다. 그리고는 편지를 박박 찢어
           버렸다.</p>
         <head>5</head>
-        <p>편지의 요건은 <persName ref="#P">P</persName>의 아들 <persName ref="#CS">창선</persName>에 관한 것이다.</p>
+        <p>편지의 요건은 <persName ref="#P">P</persName>의 <rs ref="#CS">아들</rs> <persName ref="#CS">창선</persName>에
+          관한 것이다.</p>
         <p><persName ref="#P">P</persName>에게는 연전에 갈린 <persName ref="#PW">아내</persName>와의 사이에 생긴 <persName
             ref="#CS">창선</persName> 이라는 <rs ref="#CS">아들</rs>이 있다. 금년에 아홉 살이다.</p>
         <p><persName ref="#PW">아내</persName>와 갈릴 때에 저편에서 다만 <rs ref="#CS">어린애</rs>만이라도 주었으면 그것을 데리고
@@ -508,9 +512,8 @@
           " </p>
         <p>사람이 별로 변통성도 없고 그렇다고 여기저기 반연도 없어 취직이 여의하게 되지 못하는 것을 볼 때에 <persName ref="#P">P</persName>는
           가엾은 생각이 늘 들곤 하였다.</p>
-        <p> "<said aloud="true" direct="true" who="#M">가만있게…… 어서 변호사 시험만 패스하게. 그러면 이제 내가 백만 원짜리
-            주식회사를 조직해 가지고 자네를 법률 고문으로 모셔
-            옴세.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#M">가만있게…… 어서 변호사 시험만 패스하게. 그러면 이제 <rs ref="#H">내</rs>가
+          백만 원짜리 주식회사를 조직해 가지고 자네를 법률 고문으로 모셔 옴세.</said>" </p>
         <p>이것은 <persName ref="#M">M</persName>이 늘 농삼아 하는 농담이다. <persName ref="#M">M</persName>도 일년
           동안이나 취직 운동을 하면서 지냈건만 <rs ref="#M">그</rs>는 되레 배포가 유하다. 조금 더 재빠르게 했으면 <persName ref="#M">M</persName>은
           벌써 취직이 되었을는지도 모르나 <rs ref="#M">그</rs>는 타고난 배포와 그리고 남에게 아유구용을 하기 싫어하는 성질로 말하자면 취직 전선의 <rs
@@ -647,7 +650,7 @@
           몸뚱이로 슬쩍 밀어서 방 안으로 들여보내고 뒤에서 <rs ref="#G">계집애</rs>가 양복 뒷깃을 잡아당긴다.</p>
         <p> "<said aloud="true" direct="true" who="#P">그래라, 자고 간다.</said>" </p>
         <p><persName ref="#P">P</persName>는 방 가운데 벌떡 드러누웠다.</p>
-        <p> "<said aloud="true" direct="true" who="#P">너이 집이 어디냐?</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#P"><rs ref="#G">너</rs>이 집이 어디냐?</said>" </p>
         <p>
           <rs ref="#G">계집애
           </rs>가 옆에 와서 앉는 것을 보고 <persName ref="#P">P</persName>가 물었다. </p>
@@ -667,7 +670,8 @@
         <p> "<said aloud="true" direct="true" who="#G">드끄러!</said>" </p>
         <p><rs ref="#G">계집애</rs>는 눈을 쭉 흘기고는 갑자기 웃으면서 <persName ref="#P">P</persName>의 목을 그러안는다.</p>
         <p> "<said aloud="true" direct="true" who="#G">자고 가, 응.</said>" </p>
-        <p> "<said aloud="true" direct="true" who="#P">우리 마누라한테 볼기 맞고 쫓겨난다.</said>" </p>
+        <p> "<said aloud="true" direct="true" who="#P">우리 <rs ref="#PW">마누라</rs>한테 볼기 맞고 쫓겨난다.</said>
+          " </p>
         <p> "<said aloud="true" direct="true" who="#G">그러면 <rs ref="#G">나</rs>한테 와서 <rs ref="#G">나</rs>하고
           살지…… 여기 <rs ref="#G">내</rs> 빚 팔십 원만 물어 주면…….</said> " </p>
         <p> "<said aloud="true" direct="true" who="#P">팔십 원이냐?</said>" </p>
@@ -802,8 +806,8 @@
         <p><persName ref="#P">P</persName>는 돌아누우면서 혀를 끌끌 찼다.</p>
         <head>9</head>
         <p><time when="1934">일천구백삼십사년</time>의 이 세상에도 기적이 있다.</p>
-        <p>그것은 <persName ref="#P">P</persName>가 굶어 죽지 아니한 것이다. 그는 최근 일주일 동안 돈이 생긴 데가 없다. 잡힐 것도 없었고
-          어디서 벌이를 한 적도 없다.</p>
+        <p>그것은 <persName ref="#P">P</persName>가 굶어 죽지 아니한 것이다. <rs ref="#P">그</rs>는 최근 일주일 동안 돈이 생긴
+          데가 없다. 잡힐 것도 없었고 어디서 벌이를 한 적도 없다.</p>
         <p>그렇다고 남의 집 문 앞에 가서 밥 한술 주시오 하고 구걸한 일도 없고 남의 것을 훔치지도 아니하였다.</p>
         <p>그러나 그 동안 굶어 죽지 아니하였다. 야위기는 하였지만 그래도 멀쩡하게 살아 있다. <persName ref="#P">P</persName>와 같은 인생이 이
           세상에 하나도 없이 싹 치운다면 근로하는 사람이 조금은 편해질는지도 모른다.</p>
