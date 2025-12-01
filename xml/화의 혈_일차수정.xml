@@ -1,83 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>화의 혈</title>
-        <author>
-          이해조
-          <idno type="ISNI">0000 0000 8418 5313</idno>
-        </author>
-        <respStmt xml:id="encoder">
-          <resp>TEI 인코딩</resp>
-          <name>이하경</name>
-          <note>iserene [at] sogang.ac.kr</note>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>한국학중앙연구원 인문정보학과</publisher>
-      </publicationStmt>
-<sourceDesc>
-    <biblStruct xml:id="digital_edition" type="digitalSource" xml:lang="ko">
-        <analytic>
+<fileDesc>
+   <titleStmt>
+      <title>화의 혈</title>
+      <author>
+         이해조
+         <idno type="ISNI">0000 0000 8418 5313</idno>
+      </author>
+      <respStmt xml:id="encoder">
+         <resp>TEI 인코딩</resp>
+         <name>이하경</name>
+         <note>iserene [at] sogang.ac.kr</note>
+      </respStmt>
+   </titleStmt>
+   <publicationStmt>
+      <publisher>한국학중앙연구원 인문정보학과</publisher>
+   </publicationStmt>
+   <sourceDesc>
+      <biblStruct xml:id="digital_edition" type="digitalSource" xml:lang="ko">
+         <analytic>
             <title level="a">화의 혈</title>
             <author>이해조</author>
-        </analytic>
-        
-        <monogr>
+         </analytic>
+         <monogr>
             <title level="m">위키문헌(Wikisource)</title>
             <idno type="wikisource">https://ko.wikisource.org/wiki/화의_혈</idno>
             <idno type="wikidata">Q85989161</idno>
             <imprint>
-                <publisher>Wikisource(한국어)</publisher>
-                <date>2023</date>
+               <publisher>Wikisource(한국어)</publisher>
+               <date>2023</date>
             </imprint>
-        </monogr>
-        
-        <note type="provenance">작업자는 위키문헌의 텍스트는 공유마당의 저작물을 입력한 결과물이라고 판단함. 공유마당의 저작물은 오거서창본(1918)을 입력한 결과물이라고 판단함.</note>
-        <note>
+         </monogr>
+         
+         <note type="provenance">작업자는 위키문헌의 텍스트는 공유마당의 저작물을 입력한 결과물이라고 판단함. 공유마당의 저작물은 오거서창본(1918)을 입력한 결과물이라고 판단함.</note>
+         <note>
             <ref target="http://www.wikidata.org/wiki/Q85989161"/>
-        </note>
+         </note>
 
-        <relatedItem type="source">
+         <relatedItem type="source">
             <biblStruct xml:id="gongu_copyright">
-                <monogr>
-                    <title level="m">화의 혈</title>
-                    <author>이해조</author>
-                    <idno type="UCI">G905-13313763</idno> <imprint>
-                        <publisher>한국저작권위원회</publisher>
-                        <distributor>공유마당</distributor>
-                    </imprint>
-                </monogr>
-                <note>
-                    <ref target="https://gongu.copyright.or.kr/gongu/main/contents.do?menuNo=200091">공유마당 저작물 확인하기</ref>
-                </note>
+               <monogr>
+                  <author>이해조</author>
+                  <title level="m">화의 혈</title>
+                  <idno type="UCI">G905-13313763</idno>
+                  <imprint>
+                     <publisher>한국저작권위원회</publisher>
+                     <distributor>공유마당</distributor>
+                  </imprint>
+               </monogr>
+               <note>
+                  <ref target="https://gongu.copyright.or.kr/gongu/main/contents.do?menuNo=200091">공유마당 저작물 확인하기</ref>
+               </note>
 
-                <relatedItem type="original">
-                    <biblStruct xml:id="original_book_1918">
-                        <monogr>
-                            <title level="m">花의 血</title>
-                            <author>이해조</author>
-                            <respStmt>
-                                <resp>발행인</resp>
-                                <name>金容俊</name>
-                            </respStmt>
-                            <idno type="UCI">G701:E-00076805822</idno> <imprint>
-                                <pubPlace>京城</pubPlace>
-                                <publisher>五車書廠</publisher>
-                                <date>1918</date>
-                            </imprint>
-                        </monogr>
-                        <note>
-                            <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&amp;pageNum=1&amp;pageSize=&amp;order=&amp;sort=&amp;srchTarget=&amp;kwd=%ED%99%94%EC%9D%98+%ED%98%88&amp;systemType=&amp;lnbTypeName=&amp;category=&amp;hanjaFlag=&amp;reSrchFlag=&amp;lnbCategory=%EB%8F%84%EC%84%9C&amp;licYn=&amp;kdcName1s=&amp;manageName=&amp;langName=&amp;ipubYear=&amp;pubyearName=&amp;seShelfCode=&amp;detailSearch=&amp;seriesName=&amp;mediaCode=&amp;offerDbcode2s=&amp;f1=&amp;v1=&amp;f2=&amp;v2=&amp;f3=&amp;v3=&amp;f4=&amp;v4=&amp;and1=&amp;and2=&amp;and3=&amp;and4=&amp;and5=&amp;and6=&amp;and7=&amp;and8=&amp;and9=&amp;and10=&amp;and11=&amp;and12=&amp;isbnOp=&amp;isbnCode=&amp;guCode2=&amp;guCode3=&amp;guCode4=&amp;guCode5=&amp;guCode6=&amp;guCode7=&amp;guCode8=&amp;guCode11=&amp;gu2=&amp;gu7=&amp;gu8=&amp;gu9=&amp;gu10=&amp;gu12=&amp;gu13=&amp;gu14=&amp;gu15=&amp;gu16=&amp;subject=&amp;sYear=&amp;eYear=&amp;sRegDate=&amp;eRegDate=&amp;typeCode=&amp;acConNo=&amp;acConNoSubject=&amp;acConNoAll=&amp;infoTxt=&amp;siteUrl=&amp;selIcon=list#viewKey=CNTS-00076805822&amp;viewType=C&amp;category=%EB%8F%84%EC%84%9C&amp;pageIdx=12&amp;jourId=">국립중앙도서관 소장 오거서창본 확인하기</ref>
-                        </note>
-                    </biblStruct>
-                </relatedItem>
+               <relatedItem type="original">
+                  <biblStruct xml:id="original_book_1918">
+                     <monogr>
+                        <author>이해조</author>
+                        <title level="m">花의 血</title>
+                        <respStmt>
+                           <resp>발행인</resp>
+                           <name>金容俊</name>
+                        </respStmt>
+                        <idno type="UCI">G701:E-00076805822</idno>
+                        <imprint>
+                           <pubPlace>京城</pubPlace>
+                           <publisher>五車書廠</publisher>
+                           <date>1918</date>
+                        </imprint>
+                     </monogr>
+                     <note>
+                        <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&amp;pageNum=1&amp;pageSize=&amp;order=&amp;sort=&amp;srchTarget=&amp;kwd=%ED%99%94%EC%9D%98+%ED%98%88&amp;systemType=&amp;lnbTypeName=&amp;category=&amp;hanjaFlag=&amp;reSrchFlag=&amp;lnbCategory=%EB%8F%84%EC%84%9C&amp;licYn=&amp;kdcName1s=&amp;manageName=&amp;langName=&amp;ipubYear=&amp;pubyearName=&amp;seShelfCode=&amp;detailSearch=&amp;seriesName=&amp;mediaCode=&amp;offerDbcode2s=&amp;f1=&amp;v1=&amp;f2=&amp;v2=&amp;f3=&amp;v3=&amp;f4=&amp;v4=&amp;and1=&amp;and2=&amp;and3=&amp;and4=&amp;and5=&amp;and6=&amp;and7=&amp;and8=&amp;and9=&amp;and10=&amp;and11=&amp;and12=&amp;isbnOp=&amp;isbnCode=&amp;guCode2=&amp;guCode3=&amp;guCode4=&amp;guCode5=&amp;guCode6=&amp;guCode7=&amp;guCode8=&amp;guCode11=&amp;gu2=&amp;gu7=&amp;gu8=&amp;gu9=&amp;gu10=&amp;gu12=&amp;gu13=&amp;gu14=&amp;gu15=&amp;gu16=&amp;subject=&amp;sYear=&amp;eYear=&amp;sRegDate=&amp;eRegDate=&amp;typeCode=&amp;acConNo=&amp;acConNoSubject=&amp;acConNoAll=&amp;infoTxt=&amp;siteUrl=&amp;selIcon=list#viewKey=CNTS-00076805822&amp;viewType=C&amp;category=%EB%8F%84%EC%84%9C&amp;pageIdx=12&amp;jourId=">국립중앙도서관 소장 오거서창본 확인하기</ref>
+                     </note>
+                  </biblStruct>
+               </relatedItem>
             </biblStruct>
-        </relatedItem>
-    </biblStruct>
-</sourceDesc>
-    </fileDesc>
+         </relatedItem>
+      </biblStruct>
+   </sourceDesc>
+</fileDesc>
     <encodingDesc>
       <projectDesc>
         <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI All)에 따라 구조화함.</p>
@@ -92,7 +93,7 @@
               <date>2003.12.30.</date>.
             </bibl>
         </p>
-        <p>위키문헌의 텍스트를 입력하였으나, 공유마당, 오거서창의 텍스트를 참고하여 교정한 바 있음.</p>
+        <p>본 전자본은 위키문헌의 텍스트를 입력하였으나, 공유마당 및 오거서창본(1918) 텍스트를 참고하여 교정한 바 있음.</p>
       </editorialDecl>
 <classDecl>
   <taxonomy xml:id="Job_List">
