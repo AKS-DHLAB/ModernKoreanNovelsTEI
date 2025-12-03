@@ -16,7 +16,23 @@
         <ref target="https://digitalhumanities.kr/">한국학중앙연구원 디지털인문학연구소 홈페이지</ref>
       </publicationStmt>
       <sourceDesc>
-        <p>추후 보강.</p>
+        <bibl type="digitalSource" xml:lang="ko">
+          <title level="a">날개</title>
+          <author>이상</author>
+          <publisher>Wikisource(한국어)</publisher>
+          <idno type="wikisource">https://ko.wikisource.org/wiki/날개</idno>
+          <idno type="wikisource-info">https://ko.wikisource.org/w/index.php?title=날개&amp;action=info</idno>
+          <idno type="wikidata">Q12589737</idno>
+          <idno type="wikidata-url">https://www.wikidata.org/wiki/Q12589737</idno>
+          <note type="acquisition">작업자 지해인이 위키문헌 항목에서 raw data를 취득함.</note>
+        </bibl>
+
+        <bibl type="reference" xml:lang="ko">
+          <title level="a">날개</title>
+          <idno type="encykorea-id">E0011736</idno>
+          <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0011736</idno>
+          <note type="statementOfResponsibility">동 항목의 기술에 따르면 “1936년 9월 종합지인 『조광(朝光)』에 발표되었다. 「오감도(烏瞰圖)」(1934) · 「지주회시(蜘鼄會豕)」(1936) 등 실험적인 작품에 대한 생경한 반응을 신심리주의 또는 심화된 리얼리즘이라는 평가로 바꾸게 한 작가의 대표적 작품”이다.</note>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
