@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>회생한 손녀에게</title>
+                <author>나혜석</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>한국학중앙연구원 인문정보학과</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Text provided by the user from: <bibl>『<choice>
+                            <orig>女子界</orig>
+                            <reg>여자계</reg>
+                        </choice>』, 1918.9</bibl></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>본 전자본은 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ko">Korean</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="local">
+                    <term>근현대 한국문학</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="HM">
+                        <persName xml:lang="ko">할멈</persName>
+                    </person>
+                    <person xml:id="SN">
+                        <persName xml:lang="ko">손녀</persName>
+                    </person>
+                    <person xml:id="CH">
+                        <persName xml:lang="ko">친구</persName>
+                    </person>
+                    <person xml:id="HN">
+                        <persName xml:lang="ko">하나님</persName>
+                    </person>
+                    <person xml:id="OMN">
+                        <persName xml:lang="ko">어머니</persName>
+                    </person>
+
+                    <person xml:id="NTG">
+                        <persName xml:lang="ko">나이팅게일</persName>
+                    </person>
+                    <person xml:id="ALLY">
+                        <persName xml:lang="ko">연합군들</persName>
+                    </person>
+                    <person xml:id="AGL">
+                        <persName xml:lang="ko">천사</persName>
+                    </person>
+                    <person xml:id="UNKN">
+                        <persName xml:lang="ko">다른 사람</persName>
+                    </person>
+
+                </listPerson>
+
+                <listPlace>
+                    <place>
+                        <placeName xml:id="HK" xml:lang="ko">학교</placeName>
+                    </place>
+                    <place>
+                        <placeName xml:id="CR" xml:lang="ko">크리미아</placeName>
+                    </place>
+                 
+
+                </listPlace>
+
+
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>아 <persName ref="#SN">손녀</persName> 야, 기특하다. 그렇게 몹시 앓던 병이 다 나았구나. 인제는 바로 머리도 곱게
+                    빗고 옷도 얌전히 입고 책상 앞에 앉았구나. <persName ref="#HM">할멈</persName> 은 견딜 수 없이 좋았었다. 그래서 <rs
+                        ref="#SN" type="pronoun">네</rs> 등을 뚜뚜 뚜드리며 그렇게 기뻐한다. <said aloud="true"
+                        direct="true" who="#HM">오냐, 어서 커라.</said> 
+                    <rs ref="#SN" type="pronoun">네</rs>
+                    그 호리호리한 허리로 <term type="musicalInstrument">피아노</term> 앞에 앉아서, <said aloud="true"
+                        direct="true" who="#HM">오냐 어서 뜯어라.</said> 
+                    <rs ref="#SN" type="pronoun">네</rs>
+                    그 꼬챙이 같은 소리로 <term type="musicalInstrument">바이올린</term>을, 아아 <rs ref="#HM"
+                        type="pronoun">내</rs> 몸이 <term type="mythical">선녀</term>가 된 것 같다. <rs ref="#HM"
+                        type="pronoun">내</rs> 앞에 <term type="religious">천사</term> 가 시종 드는 것 같다. 갖은 찬란한
+                    호접이 날아드는 것 같다. 각색 향기로운 꽃이 피어오르는 것 같다. <rs ref="#HM" type="pronoun">나</rs> 는 차마
+                    애처로워 볼 수 없는 <rs ref="#SN" type="pronoun">네</rs> 그 바르르 떨고 힘에 겨워 애써서 <term
+                        type="musicalInstrument">치는 것</term>이 왜 그리 기쁘고 좋은지 모르겠다. <persName ref="#SN">
+                    손녀</persName>야 기특하다. <rs ref="#SN">네</rs>가 발 한 자국 옮겨 놓는 것만 보아도 <persName
+                        ref="#HM">할멈</persName>의 마음속에 <seg type="emotion">기쁨</seg> 이 끓어 나온다. <rs
+                        ref="#SN" type="pronoun">네</rs> 가 이전과 같이 힘들지 않게 말 한 마디하는 것만 보아도 <persName
+                        ref="#HM">할멈</persName>은 더할 수 없는 <seg type="emotion">기쁨</seg> 을 깨닫는다.</p>
+
+
+                <p><persName ref="#SN">손녀</persName> 야 사위스러운 말이다마는 만일 <rs ref="#SN" type="pronoun">네</rs>
+                    가 그대로 죽었더라면 어찌할 뻔했을까. 지금 생각만 해도 몸이 으쓱해지고 마음이 간질간질해 온다. 참 아슬아슬하였다. 이 아무 데도 의지할 곳
+                    없는 <rs ref="#SN" type="pronoun">너</rs>만 믿고 살던 <persName ref="#HM">할멈</persName>
+                    은 어디다 의탁을 하고 <rs ref="" type="pronoun">누구</rs> 를 믿고 살아가랴. <rs ref="#UNKN">어멈</rs>
+                    찾으며 산지사방으로 울고 다니는 <rs ref="#UNKN" type="group">어린 자식들</rs> 을 참혹하고 눈물이 나서 어찌
+                    보았으랴. 참 행운이었다. <rs ref="#SN" type="pronoun">네</rs>가 회생하여 <time type="day">오늘</time> 
+                    <rs
+                        ref="#HM" type="pronoun">나</rs> 에게 이런 견딜 수 없는 <seg type="emotion">기쁨</seg>을
+                    줄 줄이야 어찌 감히 바랐으랴. <persName ref="#HM">할멈</persName> 은 무릎을 꿇고 앉아서 오직 <persName
+                        ref="#HN">하나님</persName>앞에 감사를 드린다.</p>
+
+                <p>지금 다시 회사하니 소름이 찍찍 끼친다. <rs ref="SN" type="pronoun">너</rs>는 
+                    금지옥엽 같이 귀엽게 자라났다. 기침 한 번만 하여도 <rs type="medicine">패독산</rs> 을 달린다, 눈만 힘없이 떠도 <rs
+                        type="medicine">인삼 녹용</rs> 을 먹인다 하던 <rs ref="#SN" type="pronoun">너</rs> 이었다.
+                    그렇게 자라난 <rs ref="#SN" type="pronoun">네</rs> 가 남의 집 위층 좁은 방에 아무도 들여다보아 주지 않고 그렇게
+                    병이 위중하도록 약 한 모금 먹지 못하고 그렇게 핼쑥한 얼굴로 머리가 뒤범벅이 되어서 기운을 차리지 못하고 눈꺼풀이 푹 꺼져서 드러누웠었다.
+                    도무지 몰랐던 <rs ref="#HM">내</rs> 가 방문을 열고 들어서서 이 형상을 처음 당하여 얼마나 놀랐으랴. <rs ref="#HM">
+                    나</rs>는 뜻 없이 <seg type="emotion">슬픔</seg> 이 끓어 나와서 이불 속에 든 <rs ref="#SN"
+                        type="pronoun">네</rs> 손을 꺼내어 잡고 눈물이 펑펑 쏟아졌다. 그제서야 <rs ref="#SN"
+                        type="pronoun">너</rs>는 겨우 눈을 힘없이 뜨고 <p>"<said who="#SN" direct="true"
+                            aloud="true">“이게 웬일이오, <seg type="interjection">아이고</seg> 죽겠소.”</said>"</p>
+                    힘없이 겨우 이 말만 하고 도로 눈을 감았다. <rs ref="#HM" type="pronoun">나</rs> 는 그때에 마치 찬물을 <rs
+                        ref="#HM" type="pronoun">내</rs> 등에 들어붓는 것 같았었다. 그러더니 <rs ref="#SN">너</rs> 는
+                    다시 일어나서 구역질을 하고 끈적끈적한 가래침을 뱉으려고 씩씩 애를 무한히 썼다. <rs
+                        ref="#HM">내</rs> 눈살은 저절로 찌푸려졌고 내 몸은 바싹 오그라지는 것 같았다. 그리고 금방 <rs ref="#SN"
+                        type="pronoun">네</rs> 입에서 나올 침이 벌건 피면 어찌하나 하여 <rs ref="#HM" type="pronoun">내</rs> 마음이 바싹바싹
+                    조였다. 그러나 <rs ref="#SN" type="pronoun">네</rs> 병은 <seg type="disease">폐병</seg>이
+                    아니고 <seg type="disease">위병</seg>이므로 허연 침이 나오는 것이
+                    천만다행이었다. 그런데 <rs ref="#HM" type="pronoun">나</rs> 는 그 순간에 왜 그리 금할 수 없이 흑흑 느껴
+                    울었었는지.</p>
+
+
+                <p><rs ref="#HM" type="pronoun">나</rs>는 <rs ref="#SN" type="pronoun">네</rs> 병이 다 나은
+                    지금이라도 차마 또 <rs ref="#HM" type="pronoun">내</rs> 입에 되풀이할 용기가 아니 나왔다. 그것은 <rs
+                        ref="#HM" type="pronoun">내</rs>가 전에 극히 사랑하던 <persName ref="#CH">친구</persName>
+                    하나가
+                    <!-- <rs ref="#CH" type="epithet">친구</rs> --> 
+                    <seg type="disease">폐병</seg>으로 피를
+                    뱉고 기침을 한번 시작하면 온몸이 불덩이같이 열이 일어나 숨이 차서 애를 쓰는 것을 목도한 적이 있었으므로 그날 <rs ref="#SN"
+                        type="pronoun">네</rs>가 애쓰는 형상에 우연한 자극을 받아 <time type="year">1년 전</time> 일을
+                    회사하는 동시에 그렇게 눈물이 흘렀었다. <rs ref="#CH" type="epithet">그 사람</rs>은 그 병으로 인하여 죽었다.
+                    그래서 추도회도 하고 <time type="year">1년제</time>까지 지냈다. <rs ref="#HM" type="pronoun">내</rs>가
+                    주야로 마음이 아파서 애를 쓰고 가슴을 치며 후회한 것은 <p>'<said who="#HM" direct="true" mode="thought"
+                            aloud="false">내가 왜 그 <persName ref="#CH">친구</persName>를 위하여 <rs
+                                ref="#HM" type="pronoun">내</rs> 공부를 폐지하고 철야하여 간호를 못하였던구.</said>'</p>
+                    함이었었다. <p>'<said
+                            who="#HM" direct="true" mode="thought" aloud="false">‘내 정성을 다하여 그 <persName
+                                ref="#CH">친구</persName>에게 위안을 주었더라면 <rs ref="#HM" type="pronoun">그</rs>는
+                    결코 죽지 않았으리라.</said>'</p> 함이었었다. <rs ref="#HM" type="pronoun">내</rs>가 곤히 자다가도 깜짝
+                    놀라 깨이면 먼저 <rs ref="#HM" type="pronoun">내</rs> 뇌를 때리며 <rs ref="#HM"
+                        type="pronoun">내</rs> 살을 찌르는 것은 <rs ref="#HM" type="pronoun">내</rs>게 이러한 <seg
+                        type="emotion">유한</seg>이 있음이었다. 그러나 그 <persName ref="#CH">친구</persName>는 벌써 <rs
+                        ref="#HM" type="pronoun">나</rs>와는 딴 세계 사람이라. <rs ref="#HM" type="pronoun">내</rs>가
+                    아무리 안아 보고 싶어도 안을 수도 없고 만지고 싶어도 만질 수도 없다. 그래서 <rs ref="#HM" type="pronoun">내</rs>가
+                    눈물을 씻고 <p>"<said who="#HM" direct="true" aloud="true">“오냐, 걱정 마라. <rs ref="#HM"
+                                type="pronoun">내</rs>가 있다.</said>"</p> 할 때에는 <rs ref="#HM"
+                        type="pronoun">나</rs>는 <rs ref="#HM" type="pronoun">내</rs> 마음에 <seg
+                        type="emotion">후회</seg>, <seg type="emotion">유한</seg>, <seg type="emotion">
+                    원애</seg>의 중적을 <rs ref="#SN" type="pronoun">너</rs>로 인하여 풀어 보려 함이었고 <rs ref="#HM"
+                        type="pronoun">내</rs> 몸에 품고 있는 정력과 성심을 <rs ref="#SN" type="pronoun">너</rs>게
+                    바쳐 보려는 <seg type="emotion">열정</seg>이 끓어 나옴이었다. <rs ref="#SN" type="pronoun">네</rs>
+                    손을 <rs ref="#HM" type="pronoun">내</rs>가 만질 수 있고 <rs ref="#SN" type="pronoun">네</rs>
+                    몸을 <rs ref="#HM" type="pronoun">내</rs> 가슴에 안을 때에 <rs ref="#HM" type="pronoun">나</rs>는
+                    미칠 듯이 기뻤었다. 그러므로 <rs ref="#SN" type="pronoun">네</rs> 병이 낫고 아니 낫는 데 따라 <rs
+                        ref="#HM" type="pronoun">내</rs>가 살고 죽는 운명의 길이 매달린 것 같았다. 불행히 <rs ref="#SN"
+                        type="pronoun">네</rs>가 그 병으로 죽었더라면 <rs ref="#HM" type="pronoun">나</rs>는 어젯밤과
+                    같이 단잠도 못 이루었을 것이요, 오늘 조반을 맛있게도 못 먹었을 터이다. <rs ref="#HM" type="pronoun">나</rs>는
+                    정신 착란이 되고 <seg type="disease">뇌빈혈</seg>이 되어 졸도하였을 터이다. <seg type="interjection">
+                    아아</seg> 행운이다. <rs ref="#SN" type="pronoun">네</rs> 병이 전쾌되고 <rs ref="#HM"
+                        type="pronoun">내</rs>가 다시 살아난다. <rs ref="#HM" type="pronoun">나</rs>는 입이
+                    찢어지도록 웃음이 나오고 어깨가 떨어지도록 춤이 나온다. <rs ref="#HM" type="pronoun">나</rs>는 또다시 무릎을 꿇어 <persName
+                        ref="#HN">하나님</persName>께 감사를 올리련다.</p>
+
+
+                <p><rs ref="#SN" type="pronoun">너</rs>는 <age>세 살</age> 적에 <rs ref="#OMN">어머니</rs>를
+                    잃었다고? 그래서 <persName ref="#HM">할머니</persName>가 <rs ref="#SN" type="pronoun">너</rs>를
+                    길러 내셨다고? <rs ref="#SN" type="pronoun">네</rs>가 종두로 앓을 때, <rs ref="#SN"
+                        type="pronoun">네</rs>가 <seg type="disease">열병</seg>에 걸려 죽어 갈 때 <persName
+                        ref="#HM">할머니</persName>가 울기도 많이 하시고 밤도 많이 새셨다고. 그러므로 <rs ref="#SN"
+                        type="pronoun">너</rs>는 <p>"<said who="#SN" direct="false" aloud="false">우리 <persName
+                                ref="#HM">할머니</persName>의 은혜가 태산 같소.</said>"</p> 하며 <rs ref="#SN"
+                        type="pronoun">네</rs> 눈에 눈물이 글썽렁글썰렁해졌다. 다시 <rs ref="#HM" type="pronoun">내</rs>
+                    손목을 쥐며 <p>"<said who="#SN" direct="false" aloud="true">
+                            <rs ref="#HM" type="pronoun">당신</rs>은 <rs ref="#SN" type="pronoun">내</rs> 
+                        <persName
+                                ref="#HM">할머니</persName>요, <rs ref="#HM" type="pronoun">내</rs>가 이번에
+                    살아난 것이 전혀 <persName ref="#HM">할머니</persName>의 정성이오.</said>"</p> 하였다. <rs
+                        ref="#HM" type="pronoun">나</rs>는 이 순간에 정신이 황홀해지고 무어라 대답을 주저하였다. <rs
+                        ref="#HM" type="pronoun">나</rs>는 묵념과 정사에 빠져 자연히 아무 말이 아니 나오고 감사한 호흡은 좁은 흉곽
+                    안에 반선하여 썩썩 숨소리만 내 귀에 우레 소리와 같이 들렸다. <said who="#HM" direct="true" aloud="false">
+                    오냐 
+                        <rs ref="#SN" type="pronoun">네</rs>가 주는 <persName
+                            ref="#HM">할머니</persName>의 명칭을 <rs ref="#HM" type="pronoun">나</rs>는 사절
+                    아니하고 받으련다.</said> 그리고 어머니 없고 <persName ref="#HM">할머니</persName> 떨어져 있는 외로운 <rs
+                        ref="#SN" type="pronoun">너</rs>를 <rs ref="#HM" type="pronoun">내</rs> 
+                    <persName
+                        ref="#SN">손녀</persName>로 귀애하고 아껴 주려 한다.</p>
+
+
+                <p>감사하다. 정말 감사하다. 만일 <rs ref="#SN" type="pronoun">네</rs>가 <rs ref="#HM"
+                        type="pronoun">내</rs>게 이만한 명칭을 주지 아니하였던들 <rs ref="#HM" type="pronoun">나</rs>
+                    는 말없이 드러누운 병자 옆에 장장 시일을 지키고 앉았기도 싫증이 났었을 터이다. 이것저것 심부름 다니기도 멀미도 났을 터이다. <rs
+                        ref="#HM" type="pronoun">내</rs>가 가깝지도 않은 길을 도보로 <placeName ref="#HK">학교</placeName>에서
+                    영시 휴업 시간에 뛰어가서 서서 보고 회보하기를 여일 연속함도 오직 <rs ref="#SN" type="pronoun">네</rs>게로 받은 <p>
+                    '<said who="#SN" direct="false" aloud="false" type="citation">
+                            <persName ref="#HM">할머니</persName> 요.</said>'</p> 의 힘이 시킴이었다. 원근불고 중에 일대
+                    고부의 꿈을 이루었던 것 같다. 여하튼 <rs ref="#SN" type="pronoun">네</rs> 붉은 입술에서 떨어진 이 복음이 바짝
+                    건조한 <rs ref="#HM">내</rs> 영에 펌프를 대어주었고 발발 떠는 <rs ref="#HM">내</rs> 육에 화재와 같은 활력을 준
+                    것이다. <seg type="interjection">아아</seg> 
+                    <rs ref="#HM" type="pronoun">나</rs>는 <rs
+                        ref="#SN" type="pronoun">네</rs>게로 받은 이 예물을 영구히 기념하기 위하여 흠뻑 축여 놓으련다. 더 뜨겁게 펄펄
+                    뛰련다. <rs ref="#HM" type="pronoun">나</rs>는 눈물이 쏟아지도록 네게 감사를 바친다.</p>
+
+
+                <p><placeName ref="#CR">크리미아 <choice>
+                            <orig>戰役</orig>
+                            <reg>전역</reg>
+                        </choice></placeName>에 
+
+                        <persName ref="#NTG"> 나이팅게일</persName> 같은 
+                        <rs ref="#AGL">천사</rs>가 돌현하여 수만 명 악역의 고병을 구해 주었단다. 침대 상에서 신음하던 <rs ref="#ALLY">연합군들은</rs> 
+                        <persName ref="#NTG">나이팅게일</persName>을 부르짖어 
+                    
+                    <p>"<said direct="false" aloud="true" type="citation" who="#ALLY">
+                        <rs ref="#AGL">천사</rs>여, 
+                        <rs ref="#AGL">천사</rs>여, 
+                        <rs ref="#AGL" type="pronoun">당신</rs>
+                        의 지나가는 발소리만 들어도 
+                        <rs ref="#UNKN">내</rs> 몸의 아픔이 스러지오. 
+                        <rs ref="#AGL" type="pronoun">당신</rs>
+                        의 한 번 웃는 웃음에는 내 아픔이 잊혀지나이다.</said>"</p>했단다. 
+                    <said direct="direct" aloud="true" who="#HM">오냐 나는 네게서 받은
+                    ‘<persName ref="#HM">할머니</persName>’로 만족하련다.</said> 그러나 얘 
+                    <persName ref="#SN">손녀</persName>야, 
+                    <rs ref="#HM">나</rs>도 
+                    <rs ref="#AGL">천사</rs>가 되고 싶다. 그래서 수만 명의 
+                    <persName ref="#HM">할머니</persName>가 되고 싶다. 
+                    <said who="#HM" direct="true" aloud="false">
+                        <seg type="interjection">아이고</seg> 좀 그렇게 되어 보았으면 좋겠다. 생시는
+                    바라지 못하더라도 오늘 밤 꿈에라도 
+                    <rs ref="#HM">내</rs>가 그렇게 좀 되어 보았으면 좀 좋겠다…….</said> 
+                    <seg type="interjection">아아</seg> 고맙다. 
+                    <rs ref="#SN">네</rs>게서 받은 
+                    <persName ref="#HM">할머니</persName>는 꿈이 아니라 확실히 이것이 생시로구나. 
+                    <said who="#HM" direct="true" aloud="false">아이고, 
+                        <rs ref="#HM" type="pronoun">나</rs>는 기뻐서
+                    어찌하나.</said> 
+                    <said who="#HM" direct="true" aloud="false">또 
+                        <rs ref="#SN" type="pronoun">네</rs>게 무슨 보수를 해야 좋을는지, 
+                        <rs ref="#HM" type="pronoun">나</rs>도 
+                        <rs ref="#SN" type="pronoun">너</rs>를 웃게 하고 기쁘게
+                        하기 위하여 전심진력으로 준비해 보련다. 그중에서 제일 좋은 것으로 
+                        <rs ref="#SN" type="pronoun">네</rs>게 바치련다.
+                    </said> <rs ref="#HM" type="pronoun">나</rs>는 생각만 해도 좋아서 이렇게 주먹을
+                    꼭 쥐고 온몸을 흔든다. 고맙다.</p>
+
+
+                <p><term type="food">깍두기 고추장</term>을 먹고서야 너는 정신이 반짝 나며, 감구미를 붙였다고 했지? 글쎄 
+                    <rs ref="#HM" type="pronoun">내</rs>가, 그 궂은 새우젓에 맵디매운 
+                    <term type="food">고춧가루</term>를 버무려 이 손으로
+                    주물럭주물럭해서 
+                    <rs ref="#SN" type="pronoun">네</rs>게 갖다가 준 나나, 또 그 고린내가 풀풀 나는 보기만 해도 눈물이 빠질 그렇게 빨간 
+                    <term type="food">깍두기</term>를 먹으며 
+                    <p>"<said direct="false" aloud="true" who="#SN">참 맛도 좋소.</said>"</p> 
+                    하는 
+                    <rs ref="#SN" type="pronoun">너</rs>나 생각해 보면 우습다. 달콤하고 냄새도 좋은 오므라이스나 가기후라이(굴튀김)의
+                    맛보다도 그 짜디짜고 맵디매운 
+                    <term type="food">깍두기</term> 맛이 그다지 좋단 말이지? 그러면 번쩍번쩍하는 쟁반에 받치어 하얀 유리병 속에 각색 원소며 산을 뺀 것은
+                    아니로구나? 역시 깍두기! 그 어두컴컴한 오지 항아리에 솜씨 없이 울쑥불쑥 담아서 
+                    <persName ref="#HM">할멈</persName>이 갖다가 준 그
+                    <term type="food">깍두기</term>
+                    로 네 병근이 쏙 빠졌어!? 손가락을 넣었다가 쪽쪽 빠니까 정신이 번쩍 나더란 말이지? 그러면 
+                    <rs ref="#SN" type="pronoun">너</rs>는 그 
+                    <term type="food">깍두기</term> 맛으로 회생한 
+                    <rs ref="#SN" type="pronoun">너</rs>로구나. 
+                    <said who="#HM">오냐 
+                        <rs ref="#SN" type="pronoun">너</rs>는 죽기 전에는 그 
+                        <term type="food">깍두기</term>가 
+                        <rs ref="#SN" type="pronoun">네</rs> 정신을 반짝하게 해 주던 인상을 잊을래야 잊을 수가 없게 되었구나.</said>
+                    왜? 참 남들이 맛있다는 스프나 빵보다도 
+                    <rs ref="#HM #SN" type="pronoun">우리</rs>의 입에는 
+                    <term type="food">깍두기</term>만치 맛있는 것을 못 보았다. 그리고 
+                    <term type="food">라이스 카레</term>나 
+                    <term type="food">미소시루</term>를 먹어도 깍두기를 마저
+                    먹어야 속이 든든해진다. 그리고 소화도 잘 되는구나. 이제 
+                    <rs ref="#SN" type="pronoun">네</rs> 뱃속에는 
+                    <term type="food">깍두기</term> 짭찔한 멀국이 가득 차 있을 터이니까 소화도 잘될 터이다. 
+                    <seg type="disease">위병</seg>도
+                    또 발생할 리가 없겠지. 
+                    <said who="#HM">오냐 
+                        <persName ref="#HM">할멈</persName>은 안심한다. 
+                        <rs ref="#SN" type="pronoun">너</rs>는 할 수 없이 
+                        <term type="food">깍두기</term>의 딸이다.</said> 
+                        <rs ref="#SN" type="pronoun">너</rs>도 인제 꼭 그런 줄을 알았을 줄 믿는다. 
+                        <term type="food">깍두기</term>로 영생하는 
+                        <rs ref="#HM" type="pronoun">내</rs> 기특한 
+                        <persName ref="#SN">손녀</persName>여!</p>
+            </div>
+        </body>
+    </text>
+</TEI>
