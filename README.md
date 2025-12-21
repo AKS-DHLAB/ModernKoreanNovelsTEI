@@ -1,38 +1,89 @@
-## 📚 Wikisource-KR Novel Scraper: 한국 위키문헌 근대소설 추출기
+# ModernKoreanNovelsTEI
 
-이 프로젝트는 한국 위키문헌(ko.wikisource.org)에 등록된 근대 소설 작품 목록을 기반으로, 작품의 '**원본 텍스트(Clean Content)**'와 **정확한 메타데이터**를 대량으로 추출하고 구조화된 파일(XML, JSON, CSV)로 저장하는 ipynb 기반의 파이썬 스크립트입니다.
+This repository provides a high-quality dataset of **34 Korean modern literary works**, encoded in **TEI P5 (eXtensible Markup Language)**. This project aims to bridge the gap between Modern Korean literature and Digital Humanities by providing machine-readable, semantically enriched texts.
 
-## ✨ 주요 특징
+## 📌 Project Overview
 
-* **덤프 파일 (Bulk Data) 활용:** 대용량 위키문헌 XML 덤프 파일을 직접 파싱하여, 실시간 API로 접근하기 어려운 **분리된 장(Chapter) 또는 쪽(Page) 문서의 본문 텍스트**를 안정적으로 추출하고 조합합니다.
-* **API 보강 (Enhancement):** 덤프 파일에 없는 최신 정보나 구조화된 데이터(위키데이터의 발표 연도, 템플릿으로 자동 생성된 분류 등)를 실시간 API를 통해 가져와 데이터의 정확성을 높입니다.
-* **복잡한 위키 구조 해결:**
-    * **하위 페이지 조합:** `/1장`, `/2장`처럼 분리된 본문 페이지들을 찾아 **정확한 순서**로 조합하여 하나의 완결된 텍스트를 복원합니다.
-    * **마크업 제거:** 위키텍스트의 모든 템플릿, 링크, HTML 태그 등을 제거하여 **순수한 작품 본문**만 추출합니다.
-* **다양한 형식 지원:** 추출된 최종 데이터를 연구 및 분석에 용이하도록 **XML, JSON, CSV, TSV** 형식으로 저장할 수 있습니다.
+Unlike simple text conversion, this dataset follows the **TEI (Text Encoding Initiative) P5 guidelines**. It includes detailed metadata, character descriptions, linguistic variations (Hanja/Hangul), and semantic tagging for emotions and places.
 
-## 🛠️ 기술 및 환경
+### Key Features
 
-* **언어:** Python 3.x
-* **주요 라이브러리:** `mwxml`, `requests`, `pandas`, `tqdm`
-* **데이터 소스:**
-    1.  사용자 제공의 **작품 목록 CSV** 파일 (링크 주소 포함)
-    2.  **`kowikisource-...xml.bz2`** 덤프 파일
-    3.  위키문헌 및 위키데이터 **API**
+* **TEI Standard**: Fully compliant with TEI P5 (`<teiHeader>`, `<body>`, `<div>`).
+* **Semantic Tagging**:
+* **Characters**: Linked via `xml:id` and `ref` (e.g., `<persName ref="#YB">`).
+* **Linguistic Mapping**: Original Hanja and modern Hangul mapped via `<choice>`, `<orig>`, and `<reg>`.
+* **Entities**: Places (`<placeName>`), Dates (`<date>`), and Occupations (`<occupation>`).
+* **Emotions**: Sentiment analysis support through `<seg type="emotion" subtype="...">`.
+* **Scholarly Metadata**: Includes source descriptions, publication history, and revision logs.
 
-## 💡 핵심 함수 설명
+## 📂 Repository Structure
 
-| 함수명 | 역할 | 상세 설명 |
+* **/xml**: Contains the `.xml` files encoded in TEI P5.
+* **/scraping**: Python scripts used to collect raw data from sources like Wikisource.
+
+## 🛠 XML Structure Example (Snippet)
+
+The dataset uses a hierarchical structure to capture both the content and the context of the literature:
+
+```xml
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>무정(단편)</title>
+            <author>이광수</author>
+        </titleStmt>
+    </fileDesc>
+    <profileDesc>
+        <particDesc>
+            <listPerson>
+                <person xml:id="YB"><persName>부인</persName></person>
+            </listPerson>
+        </particDesc>
+    </profileDesc>
+</teiHeader>
+<text>
+    <body>
+        <p>
+            <persName ref="#YB">부인</persName>은 <seg type="emotion" subtype="hope">희망</seg>도 없고...
+        </p>
+    </body>
+</text>
+
+```
+
+## 📚 List of Works
+
+| Author | Title (Original) | Title (English/Translit) |
 | :--- | :--- | :--- |
-| **`find_related_dump_pages`** | **덤프 조각 모음** | 대용량 덤프에서 CSV 제목에 해당하는 '**모든 하위 장(`/1장`) 및 쪽 문서(`쪽:.../5`)**'의 원본 텍스트를 찾아 수집합니다. |
-| **`sort_wikisource_parts`** | **숫자 순서 정렬** | 수집된 장/쪽 제목을 '**숫자(`1, 2, 10`)**'를 기준으로 정확하게 정렬하여, 본문 내용이 뒤섞이지 않도록 순서를 바로잡습니다. |
-| **`process_csv_links_with_dump`**| **최종 통합 지휘** | `find_related_dump_pages`로 가져온 조각을 `sort_wikisource_parts`로 정렬하고 합쳐서 **하나의 완성된 본문**을 만듭니다. 이후 `enhance_with_api`로 최종 정보를 보강합니다. |
-| **`enhance_with_api`** | **데이터 보강** | 덤프에서 부족한 **최신 분류**와 **위키데이터 연도** 정보를 API를 통해 추가하여 데이터셋의 정확도를 높입니다. |
-| **`dataframe_to_xml`** | **XML 변환** | Pandas DataFrame을 정교한 **XML 구조**로 수동 변환하여 저장 오류를 방지하고 구조화된 출력을 보장합니다. |
+| **Yi Kwang-su** | 무정 (단편) | Mujeong (Short Story) |
+| **Yi Hae-jo** | 화의 혈 | Hwa-ui Hyeol |
+| **Kim Myeong-sun** | 의심의 소녀 | Suspicious Girl |
+| **Na Hye-sok** | 경희 | Gyeong-hui |
+| **Na Hye-sok** | 회생한 손녀에게 | To a Resurrected Granddaughter |
+| **Na Hye-sok** | 규원 | Gyu-won |
+| **Kim Dong-in** | 약한 자의 슬픔 | Sorrow of the Weak |
+| **Kim Dong-in** | 감자 | Potato |
+| **Hyun Jin-geon** | 술 권하는 사회 | A Society that Forces Drink |
+| **Hyun Jin-geon** | 빈처 | The Poor Wife |
+| **Hyun Jin-geon** | 운수 좋은 날 | A Lucky Day |
+| **Hyun Jin-geon** | B사감과 러브레터 | B-Sagam and Love Letters |
+| **Bang Jung-hwan** | 만년 셔츠 | Eternal Shirt |
+| **Bang Jung-hwan** | 동무를 위하여 | For a Friend |
+| **Bang Jung-hwan** | 금시계 | Gold Watch |
+| **Baek Sin-ae** | 나의 어머니 | My Mother |
+| **Chae Man-sik** | 레디메이드 인생 | Ready-made Life |
+| **Kim Nam-cheon** | 물 | Water |
+| **Yi Hyo-seok** | 메밀꽃 필 무렵 | When Buckwheat Flowers Bloom |
+| **Kang Kyeong-ae** | 소금 | Salt |
+| **Kye Yong-mook** | 백치 아다다 | Idiot Adada |
+| **Kim Yu-jeong** | 동백꽃 | Camellia Flowers |
+| **Yi Sang** | 날개 | Wings |
+| **Ji Ha-ryeon** | 도정 | Do-jeong (The Path) |
+| **Yi Ik-sang** | 낙오자 | The Outcast |
+| **Choi Seo-hae** | 향수 | Nostalgia |
+| **Na Do-hyang** | 물레방아 | The Watermill |
 
-## 🚀 사용 방법 (Colab 기준)
+## 📝 License & Attribution
 
-1.  **파일 업로드:** Colab 환경에 `한국근대소설_TEI_XML_작품목록.csv` 파일을 업로드합니다.
-2.  **스크립트 실행:** 노트북 파일(`.ipynb`)을 실행하여 모든 함수를 로드하고, 덤프 파일을 다운로드(`kowikisource-...xml.bz2`)합니다.
-3.  **파싱 실행:** `process_csv_links_with_dump` 함수를 실행하여 덤프 파일 전체를 스캔하고 데이터를 추출합니다. (시간이 다소 소요될 수 있습니다.)
-4.  **결과 확인:** 원하는 출력 형식(`'xml', 'json', 'csv'`)을 지정하여 `output_data` 함수를 실행하면, 구조화된 최종 결과 파일이 생성됩니다.
+This dataset is maintained and inspired by the Digital Humanities Lab at the **Academy of Korean Studies**.
+Licensed under **CC BY 4.0**.
