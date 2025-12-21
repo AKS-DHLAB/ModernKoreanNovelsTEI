@@ -87,3 +87,5 @@ The dataset uses a hierarchical structure to capture both the content and the co
 
 This dataset is maintained and inspired by the Digital Humanities Lab at the **Academy of Korean Studies**.
 Licensed under **CC BY 4.0**.
+
+This dataset will be uploaded to **Zenodo**, and a **DOI** will be issued for formal academic citation.
