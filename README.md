@@ -51,6 +51,14 @@ The dataset uses a hierarchical structure to capture both the content and the co
 
 ```
 
+## 🖥️ Conversion of Korean Modern Literature xml/tei
+
+This session guides participants through developing a web-based TEI auto-tagging application using Google AI Studio with Gemini. We demonstrate the complete development process, including: designing system prompts that enforce TEI P5 compliance (TEI Consortium, 2025), addressing Korean-specific linguistic challenges such as agglutinative morphology and hanja transliteration, and integrating external knowledge bases for metadata enrichment. The resulting application will be publicly released, enabling participants to immediately apply automated TEI conversion to their own Korean text collections.
+
+Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/drive/1_RJJK8By-ZkkduRvDcH-MggM_B8rLD63) (Continuously updating...)
+
+
+
 ## 📚 List of Works
 
 | Author | Title (Original) | Title (English/Translit) |
