@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="ko">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>K박사의 연구</title>
+        <author>김동인</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>한국학중앙연구원 인문정보학과</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>본 텍스트는 사용자로부터 제공받음.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>본 전자본은 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ko">Korean</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="local">
+          <term>근현대 한국문학</term>
+        </keywords>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ME"><persName xml:lang="ko">나</persName></person>
+          <person xml:id="KPB"><persName xml:lang="ko">K 박사</persName></person>
+          <person xml:id="C"><persName xml:lang="ko">C</persName></person>
+          <person xml:id="MLS"><persName xml:lang="ko">맬서스</persName></person>
+          <person xml:id="BDD"><persName xml:lang="ko">복동이</persName></person>
+          <person xml:id="SNM"><persName xml:lang="ko">수남이</persName></person>
+          <person xml:id="WSC"><persName xml:lang="ko">W씨</persName></person>
+          <person xml:id="SMG"><persName xml:lang="ko">신문기자</persName></person>
+          <person xml:id="SNG"><persName xml:lang="ko">생어</persName></person>
+          <person xml:id="SAUM"><persName xml:lang="ko">사음</persName></person>
+          <person xml:id="SMA"><persName xml:lang="ko">사음의 아들</persName></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p><said who="#ME">자네 선생은 이즈음 뭘 하나?</said></p>
+        <p><persName ref="#ME">나</persName>는 어떤 날 <persName ref="#KPB">K 박사</persName>의 조수로 있는 <persName ref="#C">C</persName>를 만나서 말끝에 이런 말을 물어보았다.</p>
+        <p><said who="#C">노신다네.</said></p>
+        <p><said who="#ME">왜?</said></p>
+        <p><said who="#C">왜라니?</said></p>
+        <p><said who="#ME">그새 뭘 연구하고 있었지?</said></p>
+        <p><said who="#C">벌써 그만뒀지.</said></p>
+        <p><said who="#ME">왜 그만둬?</said></p>
+        <p><said who="#C">말하자면 장난이라네. 하기야 성공했지. 그렇지만 먹어주질 않으니 어쩌나.</said></p>
+        <p><said who="#ME">먹다니?</said></p>
+        <p><said who="#C">글쎄. 이 사람아, 똥을 누가 먹어.</said></p>
+        <p><said who="#ME">똥?</said></p>
+        <p><said who="#C">자네 시식회에 안 왔었나?</said></p>
+        <p><said who="#ME">시식회?</said></p>
+        <p><persName ref="#C">C</persName>의 말은 전부 ‘?’였다.</p>
+        <p><said who="#C">시식회까지 모를 적에는 자네는 모르는 모양일세그려. 그럼 내 이야기해줄게 웃지 말고 듣게.</said></p>
+        <p>이러한 말끝에 <persName ref="#C">C</persName>는 <persName ref="#KPB">K 박사</persName>의 연구며 그 성공에서 실패까지의 이야기를 들려주었다.</p>
+        <p><persName ref="#MLS">맬서스</persName>라나…… ‘사람은 기하학급으로 늘어나고 먹을 것은 수학급으로밖에는 늘지 못한다’고 이런 말을 한 사람이 있지 않나. <persName ref="#KPB">박사</persName>의 연구도 이 말을 근본 삼아가지고 시작되었다네.</p>
+        <p>어떤 날(<term>여름</term>일세) <persName ref="#KPB">박사</persName>는 <term>책</term>을 보고 있고 <persName ref="#ME">나</persName>는 다른 생각을 하면서 같이 앉았노라는데 <persName ref="#KPB">박사</persName>가 머리를 번듯이 들더니,</p>
+        <p><said who="#KPB">자네, 똥 좀 퍼 오게.</said></p>
+        <p>하데그려. 이게 무슨 말인지 알 수 있겠나. 그래서 똥이란 <term>대변</term>이냐고 물었더니, <term>대변</term> 아닌 똥도 있느냐고 그래. 그래서 무슨 <term>검사</term>라도 할 일이 있는가 하고,</p>
+        <p><said who="#ME">뉘 변을 말씀이외까?</said></p>
+        <p>했더니 벌컥 성을 내면서 뉘 똥이든 퍼오라데그려. 너무 어망처망하여 가만있었지. 글쎄(<term>의사</term>는 아니지만) <term>검사</term>라도 할 양이면 뉘 변이든 지적을 해야 하지 않는가. 그래서 <persName ref="#KPB">박사</persName>의 얼굴만 바라보고 있노라니깐 채근도 없어. 흥, 잊었구나 하고 다시 앉으려 하니까,</p>
+        <p><said who="#KPB">퍼 왔나?</said></p>
+        <p>하면서 일어서데그려. 자, 이렇게 채근까지 하는 것을 보면 <term>농담</term>도 아니야. 할 수 없이 <term>변소</term>에 가서 냄새나는 것을 조금 퍼다가 <persName ref="#KPB">박사</persName>께 드렸네그려. 그것을 힐끗 보더니 조금만 퍼 왔다고 또 성을 내거든. <persName ref="#ME">나</persName>도 슬그머니 <term>결</term>이 나데그려. 그래서 다시 가서 한 바가지 수북이 퍼 왔지, 그러니깐 만족하다는 듯이 웃더니 <term>실험옷</term>의 팔을 걷으면서 <persName ref="#ME">나</persName>도 <term>연구실</term>로 가자고 그래.</p>
+        <p>자네도 알다시피 <persName ref="#ME">내</persName>야 <term><choice><orig>理學上</orig><reg>이학상</reg></choice></term> 지식이야 어디 조금이라도 있나.</p>
+        <p>단지 <persName ref="#KPB">박사</persName>의 <term>서기</term>로 들어가 있는 사람이니깐 좌우간 알든 모르든 따라 들어갔지. <persName ref="#KPB">박사</persName>는 똥을 떠가지고 <term>현미경</term>으로 <term>시험관</term>에 넣어서 끓이며 세척하며 <term>전기</term>로 분해하며 별별 짓을 다 해보더니 그래도 마음대로 되지 않는지 <term>저녁</term>까지 굶어가면서 밤새도록 가지고 그러데그려. 아무리 <term>전기 환기 장치</term>를 했다 해도 그 냄새는 참 죽겠데. <term>코</term>가 저리고 <term>눈</term>이 쓰리고.</p>
+        <p><persName ref="#ME">나</persName>는 참다 못해 슬그머니 나와버렸네그려. 그랬더니 새벽 2시쯤 찾아.</p>
+        <p>그래서 가보니깐,</p>
+        <p><said who="#KPB">이게 새 똥이냐, 낡은 똥이냐?</said></p>
+        <p>또 묻데그려. <persName ref="#ME">내</persName>니 어찌 알겠나, <term>변소</term>에서 퍼 온뿐이지. 변의 <term><choice><orig>新舊</orig><reg>신구</reg></choice></term>야 알 리가 있겠나. 그래서 모르겠다고 그러니깐,</p>
+        <p><said aloud="false" who="#KPB">낡은 겐 모양이군. 다 썩었어. 낡은 게야.</said></p>
+        <p>혼자서 중얼중얼하더니 <persName ref="#ME">나</persName>더러 새 똥 좀 누라데그려. <persName ref="#ME">나</persName>도 성미가 그다지 곱지 못한 사람이라 마렵지 않노라고 해버리니깐 <persName ref="#KPB">박사</persName>는 근심스레 머리를 기웃기웃하더니,</p>
+        <p><said who="#KPB">나두 그리 매렵지 않는걸.</said></p>
+        <p>하면서 그릇을 가지고 저편 방에 가더니 마렵지 않다던 사람이 웬걸 그다지 누었는지 한 그릇 무더기 담긴 것을 가지고 들어오데그려. 아, 우습기도 하고 잠 못 자는 것이 일변 성도 나고 그래서 <said aloud="false" who="#ME">밤참으로는 넉넉하겠습니다</said>고 쏘아주려다가 그래도 <persName ref="#KPB">박사</persName>가 ‘<term>마지메(진지)</term>’하게 들여다보고 있는 것을 보니깐 그러지도 못하겠어.</p>
+        <p>그래서,</p>
+        <p><said who="#ME">전 먼저 자겠습니다.</said></p>
+        <p>하고 나와서 <persName ref="#ME">내</persName> 방으로 가서 자버렸지.</p>
+        <p>그 이튿날부터는 <persName ref="#KPB">박사</persName>는 꼭 <term>연구실</term>에 틀어박혔는데 <term>음식</term>까지 그 냄새나는 방에서 먹고 하는데 오히려 불쌍하데. <term>땀</term>을 뻘뻘 흘리면서 더러운 물건을 이리 주무르고 저리 주무르는 양은 우습기도 하거니와 한쪽으로 생각하면 그 사치하게 길러나고, 아무 <term>고생</term>이며 더러움을 <term>체험</term>해보지 못한 <persName ref="#KPB">박사</persName>가 연구 때문에 얼굴을 찌푸리고 냄새나는 방에서 <term>음식</term>까지 먹으며 <term>밤잠</term>까지 못 자며 돌아가는 것은 어떻게 <term>엄숙</term>해 보이기도 하고 <term>존경</term>할 생각도 나데.</p>
+        <p>이러구러 몇 달이 지났네. 무얼 하는지는 모르지만 <term>대변</term>을 분석해가지고 무슨 <term>유효 성분</term>을 얻어보려는 것을 알겠데. 좌우간 낡은 똥은 쓸 수가 없다 해서 그 뒤부터는 집안 <term>하인</term>의 <term>변</term>까지 죄 그릇에 누어서 <persName ref="#KPB">박사</persName>의 <term>연구실</term>로 들어가게 되었네그려. 그러니깐 <term>변소</term>는 늘 <term>소변</term>밖에는 아무것도 없었지.</p>
+        <p>집안사람들이라야 <persName ref="#KPB">박사</persName>와 <persName ref="#ME">나</persName>와 <term>행랑식구</term> 세 사람과 <term>식모</term> 하나 <term>침모</term> 하나와 <persName ref="#BDD">사환애</persName> 둘이었는데, 때때로는 그 아홉 사람의 것으로 부족될 때가 있어.</p>
+        <p>그런 때는 <persName ref="#KPB">박사</persName>는 <term>가족</term>이 20인이며 30인이며 하는 사람들을 슬며시 부러워하는 기색까지 보이는데 <term>연구 재료</term>가 부족해서 <persName ref="#KPB">박사</persName>가 안타까워하며 발을 동동 구를 때는 너무 미안스러워서 될 수만 있으면 서너 <term>동이</term>씩 만들어보고 싶데.</p>
+        <p>그러는 동안에 <term>시골</term> 계신 <term>할머님</term>이 세상을 떠나서 <persName ref="#ME">나</persName>는 <term>시골</term> 내려가서 한 달쯤 있다가 <term>가을</term>에야 다시 올라왔네그려. 그래서 곧 <persName ref="#KPB">박사</persName>네 집으로 가서 <term>짐</term>을 푼 뒤에 <persName ref="#BDD">복동이</persName>(<term>사환애</term>)에게 물으니깐 <persName ref="#KPB">박사</persName>는 역시 <term>연구실</term>에 있다 하기에 들어가서 <term>인사</term>를 드렸네. <persName ref="#KPB">박사</persName>는 무엇을 먹고 있었는데 몹시 반겨 하면서 와서 같이 먹자고 그래. 오래간만에 맡으니깐 냄새는 꽤 지독하데.</p>
+        <p><term>연구실</term> 한편 <term>모퉁이</term>에 조그마한 <term>책상</term>을 놓고 거기서 <persName ref="#KPB">박사</persName>는 <term>점심</term>을 먹고 있는데, <persName ref="#ME">나</persName>도 오라기에 <term>교자</term>를 하나 끌고 그리로 갔지. <term>점심</term>조차 <term>떡</term> 비슷한 것인데 맛은 ‘고깃국물을 조금 넣고 만든 밥’이랄까 좌우간 그 비슷한 맛이 나는 아직껏 먹어보지 못한 물건이야. 그래서 혹은 <term>양식</term>인가 하고 두어 <term>덩이</term> <term>소금</term>을 찍어 먹으니깐,</p>
+        <p><said who="#KPB">맛 좋지?</said></p>
+        <p>하고 묻데그려. 그래서 괜찮다고 하니깐,</p>
+        <p><said who="#KPB">똥내도 모르겠지?</said></p>
+        <p>하고 또 웃데그려.</p>
+        <p><said aloud="false" who="#ME">?</said></p>
+        <p>아닌 게 아니라 냄새가 좀 나기는 하는 것을 이 방 안의 <term>공기</term> 탓이라고 하고 그냥 먹었네그려.</p>
+        <p>그렇지만 <persName ref="#KPB">박사</persName>의 그 말을 듣고 나니깐 <term>혀</term> 아래서 맑은 <term>침</term>이 핑그르 돌더니 걷잡을 사이 없이 <term>구역</term>이 나겠지. 그래서 <term>변소</term>로 가려고 일어서려다가 그만 그 자리에 욱 하니 토해버렸네.</p>
+        <p><said who="#KPB">왜 그러나? 왜 그래. 야 <persName ref="#BDD">복동아</persName>, <persName ref="#SNM">수남아</persName>.</said></p>
+        <p>하면서 <persName ref="#KPB">박사</persName>는 일어서서 <persName ref="#ME">나</persName>를 붙들어다가 <term>소파</term>에 뉘려는데그려.</p>
+        <p>아, <term>결</term>도 나고 <term>성</term>도 나고 그래서 괜찮다고 하고 <persName ref="#KPB">박사</persName>를 밀쳐버리고 ‘대체 그 먹은 것이 무엇인가’고 물었네.</p>
+        <p>둔감한 <persName ref="#KPB">박사</persName>는 <persName ref="#ME">내</persName>가 토한 <term>원인</term>을 그때야 처음으로 안 모양이데그려.</p>
+        <p><said who="#KPB">먹은 것? 응 그것 말인가? 그것 때문에 토했나? 난 또 <term>차멀미</term>로 알았군. 그건 순전한 <term>자양분</term>일세, 하하하하하(<persName ref="#KPB">박사</persName>는 웃을 경우에는 웃을 줄을 모르고, 웃지 않을 경우에는 잘 웃는 사람이라네)! <term><choice><orig>乾酪</orig><reg>건락</reg></choice></term>, <term>전분</term>, <term>지방</term> 등 순전한 <term><choice><orig>良消化物</orig><reg>양소화물</reg></choice></term>로 만든 <term><choice><orig>最新最良原食品</orig><reg>최신최량원식품</reg></choice></term>.</said></p>
+        <p><said who="#ME">원료는…… 그 …….</said></p>
+        <p><said who="#KPB">그렇지, 자네도 알다시피 그…….</said></p>
+        <p><persName ref="#ME">나</persName>는 그 말을 채 듣지도 않고 다시 일어서면서 토했지. 좀 <term>메스껍기도</term> 하고 <term>성</term>도 나는 김에 <persName ref="#KPB">박사</persName>의 얼굴을 향하여 토했네그려. <persName ref="#KPB">박사</persName>도 놀란 모양이야.</p>
+        <p><said who="#KPB">아, 이 사람두. 야, <persName ref="#SNM">수남아</persName>…… <persName ref="#BDD">복동아</persName>…….</said></p>
+        <p>그때 <term>결</term>나는 것을 보아서는 <persName ref="#KPB">박사</persName>를 한 대 쥐어박고 싶기는 하지만 꿀꺽 참고 <persName ref="#ME">내</persName> 방으로 돌아와서 <term>이불</term>을 쓰고 눕고 말았지. 그 뒤 사흘 동안을 <term>음식</term> 하나 못 먹고 앓았네. 글쎄, <term>구역</term>에 <term>음식</term>을 어찌 먹겠나.</p>
+        <p>아무것이라도 <term>뱃속</term>에 들어만 가면 잠시를 머물러 있지 않고 도로 입으로 나오데그려. 아무것을 먹어도 그 냄새가 나는 것 같아.</p>
+        <p><persName ref="#KPB">박사</persName>는 미안한지 <term><choice><orig>鎭吐劑</orig><reg>진토제</reg></choice></term>를 주면서 잠시도 <persName ref="#ME">내</persName> 곁을 떠나지 않고 몸소 <term>간호</term>하겠지. 그러면서 연거푸 <term>자양분</term>만 뽑아서 <term>정제</term>한 것이니깐 아무 불쾌할 리가 없다고 설명해주네그려. 아닌 게 아니라 그러고 보니깐 <persName ref="#ME">나</persName>도 미안하데. 무슨 <term>악의</term>로써 <persName ref="#ME">내</persName>게다가 그것을 먹인 바도 아니요, <persName ref="#KPB">박사</persName> 자기도 먹으면서 <persName ref="#ME">내</persName>게도 좀 준 것이니 말하자면 <term>원망</term>할 것도 없어. <persName ref="#KPB">박사</persName>의 말마따나 무슨 부정한 것이 섞인 바도 아니요, <term>과학</term>의 힘으로써 가장 <term>정밀</term>히 만든 것이겠으매 웬만한 <term>음식점</term>의 <term>음식들</term>보다는 훨씬 깨끗할 것일세. 그저 <persName ref="#ME">내</persName> 비위에 맞지 않는다는 것뿐이지…… 그것을 <term>책임 관념상</term> <persName ref="#KPB">박사</persName>가 그렇게 미안해하는 것을 보니깐 오히려 <persName ref="#ME">내</persName>가 미안해오데그려.</p>
+        <p>그래서 사흘째 되는 날 일어났지.</p>
+        <p><said who="#ME">그 음식이 더럽다는 것이 아니라 <persName ref="#ME">내</persName> 비위에 맞지 않는 것뿐이니깐 그 마음상만 고치면 되겠지요.</said></p>
+        <p>그리고 일어나서 먹기 싫은 <term>음식</term>을 억지로 먹으면서 <term>연구실</term>에 드나들기 시작하였네그려. 처음에는 참 <term>역하데</term>. <persName ref="#KPB">박사</persName>는 <term>점심</term>은 역시 손수 만든 <term>음식</term>을 먹는데 그것을 보기만 해도 <term>구역</term>이 탁탁 가슴에 치받치는데 참 못 견디겠어. <persName ref="#KPB">박사</persName>는 먹기는 먹으면서도 미안한지,</p>
+        <p><said who="#KPB">이게 어떻담, 하하하하하.</said></p>
+        <p>하면서 먹고 해.</p>
+        <p>그러는 가운데도 <persName ref="#KPB">박사</persName>는 <term>실험</term>을 거듭하여 몇 가지 <term>조미료</term>를 더 넣을 때마다 자기가 몸소 맛본 뒤에는 <term>연대 감정인</term>으로 차마 <persName ref="#ME">내</persName>게는 먹어보래지 못하고 <persName ref="#BDD">복동아</persName>, <persName ref="#SNM">수남아</persName>, 해가지고는 <term>애들</term>에게 먹어보래지, 그 <term>애들</term>이야말로 <term>아리가타메이와쿠(달갑지 않다)</term>야, 얼굴이 벌개지면서 <term>주인</term>의 <term>명령</term>이라 거역치는 못하고 입에 조금 넣는처럼 한 뒤에는 삼키지도 않고,</p>
+        <p><said who="#BDD">먼젓번 것보담도 더 좋은걸요.</said></p>
+        <p>하고는 달아나고 하는 양은 <term>가련해</term>. 그럴 때마다 정직한 <persName ref="#KPB">박사</persName>는 <term>득의만면</term>해가지고 그러려니 하면서 <term>상금</term>으로서 그 <term>애들</term>에게 50전씩 준다네, ‘<term>감정료</term>’지. <persName ref="#KPB">박사</persName>의 말에 의지하건대 똥에는 <term>음식의 불능 소화물</term>, 즉 <term>섬유</term>며 <term>결체조직</term>이며 <term><choice><orig>角物質</orig><reg>각물질</reg></choice></term>이며 <term><choice><orig>腸管內</orig><reg>장관내</reg></choice></term> <term>분비물</term>의 <term><choice><orig>不要分</orig><reg>불요분</reg></choice></term>, 즉 <term>코라고산</term>(산), <term>피스린</term> ‘<term>담즙 점액소</term>’들 밖에 <term>부패 산물</term>인 <term>스카톨</term>이며 <term>인돌</term>이며 <term>지방산</term>들과 함께 아직 많은 <term><choice><orig>乾酪</orig><reg>건락</reg></choice></term>과 <term>전분</term>과 <term>지방</term>이 남아 있는데, 그것은 사람 사람에 따라서 혹은 시간에 따라 각각 다르지만 그 <term><choice><orig>良消化物</orig><reg>양소화물</reg></choice></term>이 3할에서 내지 7할까지는 그냥 남아서 <term>항문</term>으로 나온다네그려. 그리고 그 <term>대변</term> 가운데 그냥 남아 있는 <term>자양분</term>은 아무도 돌아보는 사람이 없이 헛되이 썩어버리는데 그것을 어떤 방식으로 <term>추출</term>할 수만 있다 하면은 그야말로 <term>식료품 문제</term>에 위협받는 <term>인류</term>의 큰 <term>복음</term>이 아닌가. 그래서 <term>연구</term>해 그 방식을 발견했대나. 말하자면 <term>석탄</term>의 <term>완전 연소</term>와 마찬가지로 <term>자양분</term>의 <term>완전 소화</term>를 계획하여 성공한 셈이지. 즉 <term>대변</term>을 분석해서 그 가운데 아직 3할 혹은 7할이나 남아 있는 <term>자양분</term>을 자아내어 그것을 다시 먹자는 말일세그려.</p>
+        <p>그러니까 사람이 하루에 세 끼씩 먹는 가운데 두 끼는 보통 <term>음식</term>을 먹고, 한 끼분은 그 새로운 <term>주식품</term>을 먹으면 이 <placeName>지구</placeName>상의 <term>식료 원품</term>이 3할 이상 늘어가는 셈 아닌가. 이 <placeName>지구</placeName>에 지금보다 <term>인구</term>가 3할쯤, 한 5천만 명쯤은 더 많아져도 <persName ref="#KPB">박사</persName>의 연구가 실현만 되면 걱정이 없는 셈일세그려. <persName ref="#MLS">맬서스</persName>도 이후에 이런 <term>천재</term>가 나타날 줄은 몰랐기에 그런 걱정을 했지.</p>
+        <p>좌우간 그러는 동안에 <term><choice><orig>調味</orig><reg>조미</reg></choice></term>에 대한 연구까지 끝나지 않았겠나. <persName ref="#ME">나</persName>는 첫번 모르고 한 번 먹은 뿐 그 뒤에는 절대로 입에 대지도 않았고 <persName ref="#KPB">박사</persName>도 <persName ref="#ME">내</persName>게는 권하지도 않았으니깐 모르지만 냄새는 마지막에는 꽤 좋은 냄새가 나데 <term>스키야키</term> 비슷하고도. 더 <term>침</term>이 도는 냄새야. 냄새뿐으로는 <term>구미</term>도 들데. 그만큼 되었으니깐 이제 남은 것은 ‘<term>발표</term>’라 하는 과정일세그려.</p>
+        <p><persName ref="#KPB">박사</persName>는 어림도 없이 <term>발명 경로</term>를 <term>신문</term>에 발표한 뒤에 <term>시식회</term>를 열겠다고 그래. 그것을 <persName ref="#ME">내</persName>가 우쩍 말렸지. <persName ref="#ME">나</persName>는 먹어도 못 보았지만 짐작컨대 맛은 괜찮은 모양인데……</p>
+        <p>그러니깐 그 맛있는 것을 먼저 먹여놓은 뒤에 이것의 <term>원료</term>를 발표해야지.</p>
+        <p>먼저 <term>원료</term>를 발표하면 <term>시식회</term>에는 한 사람도 나오지도 않을 것일세그려.</p>
+        <p>그렇지 않나. 그래서 말렸더니 <persName ref="#KPB">박사</persName>도 그럴듯한지 <persName ref="#ME">내</persName> 의견대로 하자고 그러더먼. 그리고 <persName ref="#KPB">박사</persName>와 <persName ref="#ME">내</persName>가 의논한 결과 그 <term>발명품</term>의 이름은 <persName ref="#KPB">박사</persName>의 이름을 따라 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>이라 하기로 하고 그 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>에 대한 <term>성명서</term>를 <persName ref="#KPB">박사</persName>가 초(<term><choice><orig>草</orig><reg>초</reg></choice></term>)하였네. 지금 똑똑히 기억치는 못하지만 대략 이런 뜻이야.</p>
+        <p><persName ref="#SNG"><choice><orig>M.Sanger</orig><reg>생어</reg></choice></persName>라 하는 <term>폭녀</term>가 나타나서 <term>산아제한</term>을 주장한 것을 일부 <term>인도주의자</term>는 눈살을 찌푸렸지만 거기도 상당한 근거가 있는 것을 어찌하랴. <term>위생관념</term>이 많아가면서 연년이 사람의 죽는 율은 주는데 그에 반하여 이 <placeName>지구</placeName>는 더 커지지 않으니까 여기 사람의 나아갈 세 가지의 길이 생겼으니 하나는 ‘도로 옛날로 돌아가서 이 세상에서 <term>위생</term>이라 하는 것을 없이하고 <term>살인 기관</term>으로 <term>전쟁</term>을 많이 하여 사람의 수효를 <term>도태</term>하는 것’이요, 또 하나는 ‘사람의 <term><choice><orig>出世</orig><reg>출세</reg></choice></term>를 적게 하는 것’이요, 나머지는 ‘아직껏 돌아보지 않던 데에서 <term>식원료</term>를 발견하는 것’이다. <term>여인</term>인 <persName ref="#SNG">생어</persName>는 이미 있는 <term>인명</term>을 없이하자 할 <term>용기</term>는 못 가졌었다. <term>여인</term>인 <persName ref="#SNG">생거</persName>는 <term>신국면 발견</term>이라 하는 <term>천재적 두뇌</term>도 못 가졌었다. 그는 마지막으로 <term>고식적 구제책</term>을 발견하였으니 그것이 ‘<term>산아제한론</term>’이다.</p>
+        <p>그러나 <term>독창력</term>과 <term>발명력</term>을 가진 <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>은 그러한 <term>고식책</term>으로서는 만족하지 못할지니 <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>의 연구는 여기서 비롯하였다. <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>의 매일 배설하는 <term>대변</term>에는 아직 많은 <term>자양분</term>이 남아 있으니 그 전 분량의 3할 내지 7할, 평균 잡아서 5할 약이나 되는 <term>자양분</term>은 헛되이 땅속에서 썩어버린다(그리고 <term>대변</term>에 대한 <term>분석표</term>며 그 밖 <term>숫자</term>가 있지만 그것은 약해버리세).</p>
+        <p>이것을 헛되이 썩혀버릴 필요는 없다. 이것을 자아낼 수만 있다하면 자아내어가지고 <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>의 <term>식탁</term>에 올리는 것이 <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>의 가장 <term>정당한 행위</term>라 아니할 수 없다. 각가지로 각 방면에서 일어나는 온갖 <term>고식적 문제</term>도 그 근본을 캐자면 <term>인류</term>의 <term>식료품 결핍</term>이라는 무서운 <term>예감</term> 때문에 생겨난 <term>신경과민적 부르짖음</term>이라 할 수 있으니 <term>인류</term>의 <term>생활</term>이 유족해지면 온갖 문제와 그 문제의 근본까지 저절로 사라질 것이다. <term><choice><orig>吾人</orig><reg>오인</reg></choice></term>의 연구는 여기서 출발하였다(그리고 연구의 경로도 약해버리지).</p>
+        <p>이러한 <term>동기</term> 아래서 이러한 <term>경로</term>를 밟아서 생겨난 이 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>을 귀하의 <term>식탁</term>에 바치노니 <term><choice><orig>高評</orig><reg>고평</reg></choice></term>을 바란다, 운운…….</p>
+        <p>이것을 <orgName>인쇄소</orgName>에 보내서 썩 맵시나게 <term>인쇄</term>를 해왔겠지. 그리고 <term>크리스마스</term>를 기회로 <persName ref="#KPB">박사</persName> 댁에서 <term>시식회</term>를 열기로 각 방면에 <term>초대장</term>을 보냈네그려. 그 <term>초대장</term>에는 그저 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>이라 할 뿐, <term>원료</term>며 그 <term>동기</term>에 대해서는 찍소리도 없는 것은 다시 말할 필요는 없겠지.</p>
+        <p><term>크리스마스</term> 한 사나흘 전부터는 꽤 분주하데. <term>겨울</term>이라 <term>대변</term>의 <term>자양분</term>이 썩을 염려는 없어. 그래서 <term>소제부</term>에게 부탁해서 열 통을 사들였네그려.</p>
+        <p>그리고 그것을 분석하고 처리하고 하느라고 사나흘 동안은 <persName ref="#KPB">박사</persName>, <persName ref="#ME">나</persName>, <persName ref="#SNM">수남이</persName>, <persName ref="#BDD">복동이</persName>, <term>임시 조수</term> 두 사람, 모두 다 똥 속에서 살았네그려.</p>
+        <p>더럽기가 짝이 있겠나, 에이 <term>구역나</term>, 생각만 해도 <term>구역</term>이 나서 못 견디겠네.</p>
+        <p><persName ref="#KPB">박사</persName>도 미안하긴 한 모양이야, 누가 청하지도 않는데 연방 <placeName>조선 호텔</placeName> 한턱 쓰지 하면서 <persName ref="#BDD">복동아</persName>, <persName ref="#SNM">수남아</persName>, 하면서 돌아가데그려. <term>크리스마스</term> 전날은 밤까지 새워가면서 모두 만들어놓은 뒤에 당일 아침에는 집을 씻느라고 또 야단이지. 글쎄, 이 방 저 방 할 것 없이 모두 똥내가 배어든 것을 어찌하나. 아닌 게 아니라 독한 놈의 냄새가 배어든 다음에는 빠지질 않아.</p>
+        <p>물론 <term>약품</term>으로 씻다 못해서 마지막에는 <term>향수</term>를 막 뿌려서 냄새를 감추도록 해버렸다네.</p>
+        <p>오후 1시쯤 <term>손님들</term>이 왔네. 원래 착하고 <term>교제성</term>이 없는 <persName ref="#KPB">박사</persName>는 정신을 못 차려 이리 왔다, 저리 갔다 하며 일변 웃으며 연거푸 <persName ref="#BDD">복동아</persName> <persName ref="#SNM">수남아</persName>를 찾으며 <term>조수들</term>을 꾸짖으며 <term>어리둥둥한 모양</term>이야.</p>
+        <p><term>신사 숙녀</term> 한 50명쯤 초대한 사람이 거진 모인 뒤에 2시에 <term>식당</term>은 열렸네.</p>
+        <p><persName ref="#KPB">박사</persName>의 <term>취지 설명</term>이 있은 뒤에 <orgName>I신문사</orgName> <term>주필</term> <persName ref="#WSC">W씨</persName>의 답례로써 <term>시식회</term>가 시작되었어. 그런데 시작되자마자 어떤 <persName ref="#SMG">신문기자</persName> 한 사람이 <persName ref="#KPB">박사</persName>를 찾데그려.</p>
+        <p><said who="#SMG">K 박사.</said></p>
+        <p><said who="#KPB">네?</said></p>
+        <p><said who="#SMG">이 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>에서 향기롭지 못한 냄새가 좀 납니다그려.</said></p>
+        <p><said aloud="false" who="#KPB">?</said></p>
+        <p>이때에 <persName ref="#KPB">박사</persName>의 얼굴의 변화는 <persName ref="#ME">내</persName> 일생에 잊지 못하겠네. 문득 하얘지더니 <term>웃음</term> 비슷한 <term>울음</term> 비슷한 변한 얼굴을 하더니 별한 <term>신음</term>을 하면서 벌떡 일어서서 <term>연구실</term>로 가. 그래서 <persName ref="#ME">나</persName>도 따라가려니까 <persName ref="#KPB">박사</persName>는 가던 발을 다시 돌이키며 <persName ref="#ME">나</persName>를 붙잡더니 <persName ref="#ME">내</persName> 귀에다 대고 작은 소리라고 하기는 하지만 그리 작은 소리도 아니야. 그런 소리로써,</p>
+        <p><said who="#KPB">야단났네그려, <term>스카톨</term>이나 <term>인돌</term>의 <term>반응</term>은 없었지?</said></p>
+        <p><persName ref="#ME">내</persName>야 <term>인돌</term>이 뭔지 <term>스카톨</term>이 뭔지 아나, <persName ref="#KPB">박사</persName>가 시키는 대로 할 뿐이지.</p>
+        <p>더구나 <term>반응</term>인지야 알 리도 없잖아.</p>
+        <p>그래도 <persName ref="#KPB">박사</persName>의 그 표정을 보니깐 모른다고 그러지도 못하겠데그려.</p>
+        <p>그래서,</p>
+        <p><said who="#ME">확실히 없었습니다.</said></p>
+        <p>고 그랬네. 그러하니깐 그래도 아직 미안미안한지,</p>
+        <p><said who="#KPB">야단났네, 큰일났네.</said></p>
+        <p>하면서 어쩔 줄을 모르데그려.</p>
+        <p><said who="#ME">아, 선생님 걱정하실 게 뭡니까? 지금 모두들 맛있게 잡숫는데…….</said></p>
+        <p>사실 말이지, 한 사람이 그런 질문을 하기는 했네. 하지만 다른 사람들은 모두 맛있게 먹고 있어. <persName ref="#ME">내</persName> 말을 듣고 그 양을 보더니 그제야 <persName ref="#KPB">박사</persName>는 마음이 놓이는지 숨을 내쉬며,</p>
+        <p><said who="#KPB">좌우간 <term>반응</term>은 없었것다. 확실히 없었어. 여보게 <persName ref="#C">C군</persName>, 그 <term>성명서</term> 돌리게.</said></p>
+        <p>하데그려.</p>
+        <p><term>문제</term>는 이게 <term>문제</term>일세. 한창 맛있게들 먹는 판에 당신네들이 먹고 있는 것이 똥이외다고 알게 해놓으면 무사할는지 이게 <term>의문</term>이야. 그러나 안 돌릴 수도 없고 그래서 그 <term>인쇄물</term>을 갖다가 <persName ref="#BDD">복동이</persName>와 <persName ref="#SNM">수남이</persName>를 시켜서 돌렸네그려. 그러니깐 어떤 사람은 받아서 <term>주머니</term>에 넣고, 어떤 사람은 <term>식탁</term> 위에 놓고, 어떤 사람은 읽어보는데 <persName ref="#ME">나</persName>는 슬며시 빠져서 다른 방으로 가버렸지.</p>
+        <p>달아는 났지만 그래도 마음이 놓이지 않아서 귀를 기울이고 있노라니깐 무엇이 왝왝하며 콰당콰당해, 뛰어가보았지. 하니깐 <term>부인 손님</term> 두 사람과 <term>신사</term> 한 사람이 입에 <term>손수건</term>을 대고 게워내는데, 그리고 몇 사람은 저편으로 <term>변소</term> <term>변소</term> 하면서 달아나고, 다른 사람들은 영문을 모르고 <term>중독</term>되었다고 <term>의사</term>를 청하라고 야단인 가운데 <persName ref="#KPB">박사</persName>는 방 한편 <term>모퉁이</term>에 눈만 멀찐멀찐하면서 서 있데그려. 이게 무슨 꼬락서닌가. <term>망신</term>이데그려.</p>
+        <p>그래서 <persName ref="#KPB">박사</persName>에게 가서 웬 셈입니까고 물었더니 <persName ref="#KPB">박사</persName>는 우들우들 떨면서,</p>
+        <p><said who="#KPB">야단났네, <term>망신</term>이야, 큰일났어…… 야, <persName ref="#SNM">수남아</persName>!</said></p>
+        <p>하더니, 우물쭈물 저편 방으로 달아나버리고 말데그려. 그래서 하는 수 있나. 그래도 이런 일이 생기지나 않을까 해서 <persName ref="#ME">내</persName>가 몰래 <term><choice><orig>鎭吐劑</orig><reg>진토제</reg></choice></term>를 준비해두었던 것이 있기에 내다가 <term>임시 조수</term>며 <persName ref="#BDD">복동이</persName> <persName ref="#SNM">수남이</persName>를 시켜서(초대받았던 <term>의사</term> 몇 사람까지 협력해서) <term>간호</term>들을 한 뒤에 <persName ref="#KPB">박사</persName>는 몸이 편하지 않아서 못 나온다고 하고 <term>사과</term>를 한 뒤에 <term>손님들</term>을 보내버렸지.</p>
+        <p><term>시식회</term>는 이렇게 흐지부지 끝이 났네그려.</p>
+        <p>그런 뒤에 <persName ref="#KPB">박사</persName>의 <term>침실</term>에 들어가보았더니 <persName ref="#KPB">박사</persName>는 몸에 <term>신열</term>까지 나고 헛소리를 탕탕 하고 있지 않겠나. <persName ref="#ME">나</persName>도 미안스럽기도 하거니와 딱하데.</p>
+        <p>그래서 <term>얼음</term>을 갖다가 <persName ref="#KPB">박사</persName>의 머리를 식히면서 한참 <term>간호</term>하니깐야 정신을 좀 차려. 그리고 연하여 <term>야단</term>이다, <term>망신</term>이다, 어쩌나를 연발하는데 <term>거북살스럽데</term>. 한참 정신없이 눈을 한군데만을 향하고 있다가는,</p>
+        <p><said who="#KPB">여보게 <persName ref="#C">C군</persName>, 이 일을 어쩌나? <term>야단</term>났네그려, 이런 <term>괴변</term>이 어디 있겠나?</said></p>
+        <p>하는데 <persName ref="#ME">난</persName>들 뭐라고 대답하겠나.</p>
+        <p><said who="#ME">뭘 하리까?</said></p>
+        <p>이런 대답은 하지만 참 <term>거북살스럽기</term>가 짝이 없데. 소위 <term>사회</term>의 <term>일류</term>라는 사람들을 초대해놓고 똥을 먹여놓았으니 이런 <term>괴변</term>이 어디 있겠나.</p>
+        <p><term>세상사</term>에 어두운 <persName ref="#KPB">박사</persName>는 이렇게까지 될 줄은 뜻도 안 했겠지만 <persName ref="#ME">나</persName> 역시 뜻밖일세그려. 아니, <persName ref="#ME">나</persName>는 이런 일이 있지 않을까 <term>예감</term>은 있었지만 <persName ref="#KPB">박사</persName>의 그 걱정하는 태도를 보니깐 예상외로 <persName ref="#ME">나</persName>도 겁이 나데그려. <persName ref="#ME">내</persName> 생각으로는 대상인 <term>피해자</term>(?)를 <term>개인 개인</term>으로 여겼지 그것이 합한 ‘<term>사회</term>’라는 것을 생각 안 했네그려. 그러니 이제 <term>사회</term>의 <term>명사 숙녀들</term>을 똥을 먹여놓았으니 <term>말썽</term>이 안 생기겠나.</p>
+        <p>그러는 동안에도 연하여 <persName ref="#SMG">신문기자</persName>가 찾아오며 <term>전화</term>가 오는 것을 <persName ref="#BDD">복동이</persName>를 시켜서 모두 거절해버린 뒤에 그날 오후 <term>종일</term>과 밤을 새워가지고 <term>협의</term>한 결과 <term>말썽</term>이 좀 삭아지기까지 <persName ref="#KPB">박사</persName>와 <persName ref="#ME">나</persName>는 어떤 <term>시골</term>에 한두 달 숨어 있기로 작정을 하였네. 그리고 <term>목적지</term>는 <persName ref="#KPB">박사</persName>의 <term>토지</term>가 몇 백 <term>정보</term> 있는 <placeName>T군</placeName>의 <persName ref="#KPB">박사</persName>의 <persName ref="#SAUM">사음</persName>(<term><choice><orig>舍音</orig><reg>사음</reg></choice></term>)의 집으로 작정하였네그려. 그리고 이튿날 아침 첫차로 그리로 <term>뺑소닐</term> 쳤지.</p>
+        <p>그런데 <persName ref="#ME #KPB">우리</persName>의 생각으로는 <term>신문</term>에서 깨나 <term>왁자지껄</term>할 줄 알았더니 비교적 말이 없데그려. <orgName>I신문</orgName> <term>잡보란</term>에 조그맣게 ‘<term><choice><orig>餠</orig><reg>○○떡</reg></choice></term> 시식회’라는 제목 아래 간단히 <term>기사</term>가 난 것뿐, 그 굉장한 <term>사건</term>이며 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>의 <term>원료</term>에 대해서는 한 마디도 없어. 아마 <orgName>신문사</orgName>에서도 <term>창피</term>스럽던 모양이야. <placeName>K역</placeName>에서 내려서 <placeName>T군</placeName>에 가는 <term>자동차</term>를 기다리기 위해서 어떤 <term>여관</term>에서 묵은 뒤에 이튿날 아침에야 <persName ref="#ME #KPB">우리</persName>는 그 <term>신문기사</term>를 보았는데 이 <term>기사</term>를 보더니 <persName ref="#KPB">박사</persName>는 적이 <term>안심</term>이 되는지 처음으로 조금 웃데그려. 그러더니 갑자기 <placeName>T군</placeName>은 그만두고 그 역에서 멀지 않은 <placeName>Y온천장</placeName>으로 가자데그려. <persName ref="#ME">내</persName>야 <term>이의</term>가 있을 리가 있나. <placeName>온정</placeName>으로 갔지. <placeName>온정</placeName>에서도 <persName ref="#KPB">박사</persName>는 생각만 나면 그 이야기만 하자네그려.</p>
+        <p><said who="#KPB"><persName ref="#C">C군</persName>, <term>스카톨</term> <term>반응</term>은 확실히 없었지? 혹은 좀 있었던가? 왜들 토해. <persName ref="#C">C군</persName>, <term>반응</term>은 확실히 없었나? 아무래도 있은 모양이야.</said></p>
+        <p><said who="#ME">반응은 있었는지 모르겠지만 혹은 없었다 해두 게우는 게 당연하지요. 누가…….</said></p>
+        <p><said who="#KPB"><persName ref="#C">C군</persName>!</said></p>
+        <p><persName ref="#KPB">박사</persName>는 이런 때는 꼭 <term>역증</term>을 내데그려. 그러나 이렇게 되면 <persName ref="#ME">내</persName> 성미도 그리 곱지는 못하니까 막 쏘아주지.</p>
+        <p><said who="#ME">똥 먹구 <term>구역</term> 안 나는 사람이 어디 있어요!</said></p>
+        <p><said aloud="false" who="#KPB">똥?</said></p>
+        <p>한 뒤에는 일어서서 <term>뒷짐</term>을 지고 한참 서성거리데그려. 그러다가,</p>
+        <p><said who="#KPB">자네 <term>오해</term>ㄹ세. <term>과학</term>의 힘으로 부정한 놈은 죄 없애버린 게 왜 똥이야. <term>오해</term>ㄹ세.</said></p>
+        <p>한 뒤에는 또 이유도 없이 하하하하 웃지.</p>
+        <p><said who="#ME">선생님, 그렇지 않아요. <term>분석</term>해보면 아무리 정한 게라 해두 똥으로 만든 것을 먹고야 왜 <term>구역</term>을 안 해요? <term>세상사</term>는 그렇게 <term>공식</term>대로 되는 것이 아니니깐요.</said></p>
+        <p><said who="#KPB"><term>공식</term>? 아무리 생각해두 자네 <term>오해</term>야. 그렇진 않으리.</said></p>
+        <p><said who="#ME">그럼 왜들 게웠어요?</said></p>
+        <p><said who="#KPB">글쎄, <term>반응</term>은 없었는데, 혹은 있었던가…….</said></p>
+        <p>단순한 <persName ref="#KPB">박사</persName>는 아직껏 <term>손님들</term>이 게운 이유를 <term>스카톨</term>이나 <term>인돌</term>이 좀 남아서 <term>대변 특유의 냄새</term>가 난 데 있는 줄만 알데그려.</p>
+        <p><term>한인</term>은 <term><choice><orig>戀情</orig><reg>연정</reg></choice></term>을 ‘<term>오매불망</term>’이라고 형용했지만 <persName ref="#KPB">박사</persName>와 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>의 사이야말로 <term>오매불망</term>인 모양이야. 우두커니 앉았다가도 문득 <term>스카톨</term>이 있었나 하고는 <term>한숨</term>을 쉬고 하네. 자다가도 <term>세척</term>이 부족한 모양이야 하면서 벌떡 일어나네그려. 곁에서 보는 <persName ref="#ME">내</persName>가 참 미안하고 딱하데. 너무 <term>민망</term>스러워서,</p>
+        <p><said who="#ME">선생님, 인젠 그 생각은 잊어버리시구려.</said></p>
+        <p>하면,</p>
+        <p><said who="#KPB">잊지 않자니 헐 수 있나?</said></p>
+        <p>하고는 또 <term>한숨</term>을 쉬시네. 여간 <term>민망</term>스럽지 않데. 사실 말이지 귀한 <term>발견</term>이야 귀한 <term>발견</term>이 아닌가. 아무도 돌아보지 않고 헛되이 땅속에서 썩어버리는 <term>폐물</term> 가운데서 평균 5할 약의 귀중한 <term>자양분</term>을 얻어낸다는 것은 <term>인류 경제 문제</term>의 얼마나 큰 <term>발견</term>인가. <persName ref="#ME #KPB">우리</persName>의 <term>인습</term> 때문에 비위가 받지를 않으니 말이지 그것을 만약 어떤 사람이 <term>원료</term>를 비밀히 해가지고 <term>대량</term>으로 만들어서 판다면 <term>우리 인류</term>에게 얼마나 큰 <term>공헌</term>인가. 그래서 어떤 날 <term>저녁</term>을 먹다가 <persName ref="#KPB">박사</persName>에게 그 <term>떡</term>을 <term><choice><orig>學問狂</orig><reg>학문광</reg></choice></term>의 나라 <placeName>독일</placeName> <orgName>학계</orgName>에 발표해보면 어떠냐고 물어보았지. 하니깐 대답도 없어. 그리고 <persName ref="#ME">나</persName>도 그 말만 한 뿐 잊어버리고 말았는데 <persName ref="#KPB">박사</persName>는 잊지 않았던 모양이야.</p>
+        <p>그날 밤 한잠 들었다가 <term>목</term>이 너무 말라서 깨어서 물을 먹으려는데 <persName ref="#KPB">박사</persName>가 그냥 안 잤댔는지,</p>
+        <p><said who="#KPB">독일도 틀렸어.</said></p>
+        <p>하데그려. <persName ref="#ME">나</persName>야 <term>자다 주먹</term>이라 무슨 뜻인지를 알겠나. 그래서 그저 <said who="#ME">네네</said> 하면서 물을 먹고 다시 누우니까,</p>
+        <p><said who="#KPB"><term><choice><orig>餠</orig><reg>○○떡</reg></choice></term>은 <placeName>독일</placeName>도 재미가 없어.</said></p>
+        <p>하고 다시 <term>주</term>를 놓데그려. 그 소릴 들으니까 펄떡 <term>졸음</term>이 <term>천리</term> 밖으로 달아나는데 그렇찮아도 이즈음 늘 <term>민망</term>스럽던 판에 <persName ref="#KPB">박사</persName>가 밤에 잠도 안 자고 그 생각을 하고 있었나 하니깐 막 눈물이 나오려데 그려. 그래서 왜 그렇느냐고 물으니까,</p>
+        <p><said who="#KPB"><placeName>독일</placeName>서는 <term>공기</term>에서 <term>식품</term>을 잡는 것은 <term>연구</term>해서 거진 성공했다니까 이것은 그다지 <term>센세이션</term>을 일으킬 것이 못 될 것 같어.</said></p>
+        <p>하면서 또 <term>한숨</term>을 쉬시데그려. <persName ref="#ME">나</persName>도 할 말이 없어서 <said who="#ME">그것도 그렇겠습니다</said>, 하고 다시 먹먹히 있노라니깐 또 찾지 않겠나.</p>
+        <p><said who="#KPB"><persName ref="#C">C군</persName> 자나?</said></p>
+        <p><said who="#ME">네?</said></p>
+        <p><said who="#KPB">안 자나?</said></p>
+        <p><said who="#ME">네.</said></p>
+        <p><said who="#KPB"><placeName>일본</placeName>은 어떨까? 나라는 좁고 <term>백성</term>은 많은…….</said></p>
+        <p><said who="#ME">말씀 마십쇼. <term>일인</term>에게는 소위 <term>결백</term>이라는 게 있지 않습니까? <term>쿠소쿠라에</term>(똥이나 먹어라)라는 것이 <term>욕</term>이 아닙니까. <term>어림</term>도 없습니다.</said></p>
+        <p><said who="#KPB">그래도 <term>일인들</term>은 더러운 <term>목간물</term>을 벌컥벌컥 들이마시지 않나?</said></p>
+        <p><said who="#ME">그거야…… 그래두 <term><choice><orig>餠</orig><reg>○○떡</reg></choice></term>은 안 먹습니다.</said></p>
+        <p><said who="#KPB">안 먹을까…….</said></p>
+        <p><said who="#ME">안 먹지 않구요.</said></p>
+        <p><persName ref="#KPB">박사</persName>는 또 <term>한숨</term>을 쉬시데.</p>
+        <p><said who="#ME">선생님, 그것을 <placeName>미국</placeName>에다 발표해보면 어떻습니까?</said></p>
+        <p><said who="#KPB"><placeName>미국</placeName> 놈은 먹어줄까?</said></p>
+        <p><said who="#ME">먹을 건 모르지만 그놈들은 아무것이든 신기한 것과 <term>과학</term>이라는 데에는 머리를 싸매고 덤벼드는 놈이니깐 혹은 좋다 할지도 모르지요.</said></p>
+        <p><said who="#KPB">글쎄…….</said></p>
+        <p>이러한 말을 주고받고 하다가 아무런 <term>해결</term>도 얻지 못하고 자고 말았네.</p>
+        <p><placeName>온정</placeName>에는 한 달 남짓 묵었는데 <persName ref="#KPB">박사</persName>의 <term><choice><orig>餠</orig><reg>○○떡</reg></choice></term>에 대한 <term>집착</term>은 조금도 줄지 않데그려. 그 지독한 <term>집착심</term>이야……. 이러구러 한 달 남짓 지난 뒤에 이제는 돌아가자고 <placeName>온정</placeName>을 출발해서 <placeName>K역</placeName>까지 왔다가 여기까지 온 이상에는 <persName ref="#KPB">박사</persName>의 <term>토지</term>도 돌아볼 겸 <persName ref="#C">C군</persName>까지 다녀가자는 <term>의논</term>이 생겨서 <persName ref="#ME #KPB">우리</persName>는 <placeName>C군</placeName>으로 갔었네그려.</p>
+        <p>양력 2월 초승인데 혹혹 쏘는 <term>바람</term>을 안고 <term>자동차</term>로 두 시간이나 흔들리면서 <placeName>C군</placeName>까지 가니깐 정신이 다 없어지데. <term>눈</term>이 보이지를 않고 <term>다리</term>가 뻣뻣하며 <term>코</term>가 굳어진 것 같고 몸의 <term>혈액순환</term>까지 멎은 것 같아.</p>
+        <p>그것을 겨우 <term>자동차</term>에서 내려서(<term>면장</term> 노릇하는) <persName ref="#KPB">박사</persName>의 <persName ref="#SAUM">사음</persName>의 집을 찾아갔지. <term>머리</term>가 휑한 게 정신이 없는 것을 그 집을 찾아 들어가니깐 반갑게 맞으면서 자기네들은 모두 <term>건넌방</term>으로 건너가며 큰방을 <persName ref="#ME #KPB">우리</persName>에게 내주어. 그래서 <persName ref="#ME #KPB">우리</persName>는 들어가서 다짜고짜로 자리를 펴고 누웠지.</p>
+        <p>방을 절절 끓여놓고 두어 시간 자고 나니깐 정신이 좀 들데. <persName ref="#KPB">박사</persName>도 그제야 정신이 드는지 부스스 일어나더니 <term>토지</term>를 돌아보러 나가자데그려.</p>
+        <p>세수들을 하고 옷을 든든히 차린 뒤에 <persName ref="#SAUM">사음</persName>의 <persName ref="#SMA">아들</persName>을 불러서 앞세우고 그 집을 나서려는데 <term>개</term>가 한 마리 <term>변소</term>에서 뛰쳐나오면서 컹컹 짖겠지. 보니깐 <term>변소</term>에서 똥을 먹고 있던 모양이라 입에 잔뜩 발라가지고 그 더러운 입을 쩍쩍 벌리며 따라오데그려. <persName ref="#SAUM">사음</persName>의 <persName ref="#SMA">아들</persName>은 <term>개</term>를 쫓아버리느라고 야단인데, <persName ref="#ME">나</persName>는 <persName ref="#KPB">박사</persName>에게 <term>개</term>도 <term><choice><orig>餠</orig><reg>○○떡</reg></choice></term>을 먹다가 온다고 그러니깐 <persName ref="#KPB">박사</persName>는 눈살을 잔뜩 찌푸리더니,</p>
+        <p><said who="#KPB">에, 더러워! <persName ref="#C">C군</persName>, <term>실험실</term>과는 다르네. 이놈의 <term>개</term>, 오지 마라, 가!</said></p>
+        <p>하며 슬슬 피하며 나가는 모양은 <term>요절</term>하겠데.</p>
+        <p><persName ref="#KPB">박사</persName>의 <term>토지</term>라는 것은 꽤 크데. 200 몇 십 <term>정보</term>라는데 말은 쉽지만 눈으로 덮인 <term>무연한 벌판</term>인데 어디까지가 <term>경계</term>인지 좀체 모르겠데.</p>
+        <p>그것을 한번 다 돌아보고 <persName ref="#SAUM">사음</persName>의 집까지 돌아오니깐 벌써 <term>저녁때</term>가 되었어 몸도 녹일 틈이. 없이 <term>저녁상</term>을 들여왔데그려. 시장하던 김이라 상을 움켜안고 먹었지. 더구나 <persName ref="#ME">내</persName>가 좋아하는 <term>개고기</term>가 있데그려. 그래서 밥은 제쳐놓고 <term>개고기</term>만 뜯어먹고 있었지.</p>
+        <p><persName ref="#KPB">박사</persName>도 괜찮은 모양이야.</p>
+        <p>글쎄 한 달 남짓을 <placeName>일본</placeName> <term>여관</term>에 묵느라고 <term>고기</term>는 맛까지 거의 잊게 되었네그려. 그런 판이니까 오래간만에 맛나는 <term>고기</term>라 <persName ref="#KPB">박사</persName>도 한참 <term>고기</term>만 뜯더니,</p>
+        <p><said who="#KPB"><persName ref="#C">C군</persName>.</said></p>
+        <p><said who="#ME">왜 그러십니까?</said></p>
+        <p><said who="#KPB">이런 시굴서도 <term>암소</term>를 잡는 모양이야.</said></p>
+        <p><said aloud="false" who="#ME">……?</said></p>
+        <p><said who="#KPB">고기 맛이 썩 부드러운데 <term>암소 고기</term>야.</said></p>
+        <p><said who="#ME">선생님 <term>개고기</term>올시다.</said></p>
+        <p><said aloud="false" who="#KPB">개?</said></p>
+        <p><said who="#ME">아까 그 짖던 <term>개</term>요. 돌아올 때는 안 보이지 않습디까?</said></p>
+        <p><said who="#KPB">아까 그, 그? 똥 먹던?</said></p>
+        <p><said who="#ME">그럼요.</said></p>
+        <p><persName ref="#KPB">박사</persName>는 덜컥 <term>젓가락</term>을 놓데그려. 그러더니 얼굴이 차차 하얘지더니 얼른 저편으로 돌아앉겠지. 그리고 혹혹 두어 번 숨을 들이쉬더니 왝 하고 모두 토해버리데그려.</p>
+        <p>왜 그러십니까고 <persName ref="#ME">나</persName>도 먹던 것을 집어치우고 <persName ref="#KPB">박사</persName>에게로 가서 <term>잔등</term>을 쓸어주니까 <said who="#KPB">가만있게, 가만있게</said> 하면서 연하여 왝왝 소리를 내데그려.</p>
+        <p>그것을 한 10분 동안이나 쓸어주니깐 좀 <term>진정</term>되는지,</p>
+        <p><said who="#KPB">안됐네. 이것 <term>주인</term> 몰래 치우세.</said></p>
+        <p>하면서 손수 <term>걸레</term>로 모두 훔쳐서 <term>문</term>밖에 내놓기에 <persName ref="#ME">나</persName>는 그것을 집어다가 <term>대문</term> 밖에 멀리 내버리고 도로 들어오니깐 <persName ref="#KPB">박사</persName>는,</p>
+        <p><said who="#KPB">에, 속이 편찮어. 야, <persName ref="#SNM">수남</persName>…… 야, 상 치워라.</said></p>
+        <p>하더니 <term>베개</term>를 내리고 벌떡 눕고 말데그려. 상을 치운 뒤에 <persName ref="#SAUM">사음</persName>이 <term>불</term>을 켜가지고 들어왔는데 <persName ref="#KPB">박사</persName>는 돌아누운 대로 그냥 모른 체 하기에 몸이 곤하신 모양이라고 <persName ref="#SAUM">사음</persName>을 내보내고 <persName ref="#ME">나</persName>도 <term>베개</term>를 내려서 드러누웠더니 한참 있다가 <persName ref="#KPB">박사</persName>는 돌아누운 대로 찾아.</p>
+        <p><said who="#KPB"><persName ref="#C">C군</persName>.</said></p>
+        <p><said who="#ME">네?</said></p>
+        <p><said who="#KPB">개고기하고 <term>돼지고기</term>하고 어느 편이 더 더러울까?</said></p>
+        <p><said who="#ME">글쎄 <term>돼지</term>가 더 더러울걸요.</said></p>
+        <p><said aloud="false" who="#KPB">그럴까. 둘 다 마찬가지겠지. 마찬가지야, <term>소고기</term> 두 마찬가지구.</said></p>
+        <p>혼잣말같이 이렇게 중얼거리더니 또 잠잠해버려. <persName ref="#ME">나</persName>도 곤하던 김이라 어느 틈에 잠이 들었는지 모르지. 좌우간 <persName ref="#ME">나</persName>는 입은 채로 잠이 들고 말았는데 아마 <persName ref="#KPB">박사</persName>가 그렇게 한 게야. 자리를 모두 펴고 <term>옷</term>을 벗겨서 <term>이불</term> 속에 집어 넣데그려. <persName ref="#ME">내</persName>야 알 리가 있나. 이튿날 아침에 깨어서야 처음 알았지.</p>
+        <p>이튿날 아침 눈을 부스스 뜨니깐 <persName ref="#KPB">박사</persName>는 언제 깼는지 벌써 깨어 있다가 <persName ref="#ME">내</persName>가 눈을 뜨는 것을 보고, <persName ref="#C">C군</persName>, 하데그려. 그래서 대답을 하니까,</p>
+        <p><said who="#KPB">일인도 안 먹을 게야.</said></p>
+        <p>또 <term>자다 주먹</term>일세그려.</p>
+        <p><said who="#ME">네?</said></p>
+        <p><said who="#KPB"><term><choice><orig>餠</orig><reg>○○병</reg></choice></term>은 <term>일인</term>도 안 먹을 게야. <term>목간물</term>은 벌컥벌컥 먹어두.</said></p>
+        <p><said who="#ME">네, 아마…….</said></p>
+        <p><said who="#KPB"><term>돼지고기</term>ㄴ 좋아두 <term>개고기</term>ㄴ 못 먹겠거든. 자네 <term>개고기</term> 잘 먹나?</said></p>
+        <p><said who="#ME"><term><choice><orig>肉中文王</orig><reg>육중문왕</reg></choice></term>입니다.</said></p>
+        <p><said who="#KPB">그럴 게야.</said></p>
+        <p>하더니 <term>한숨</term>을 내쉬어.</p>
+        <p>그때부터 <persName ref="#KPB">박사</persName>의 입에서는 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>의 <term>문제</term>는 없어졌네그려.</p>
+        <p>그 뒤에 집에 돌아와서도 <persName ref="#KPB">박사</persName>는 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>의 <term>문제</term>는 집어치우고 <term>전자</term>와 <term>원자</term>의 <term>관계의 연구</term>를 쌓는 중이니깐 이제 언제 거기에 대한 무슨 <term>발명</term>이나 <term>발견</term>이 나올 테지. 그리고 이번 것은 그 <term><choice><orig>餠</orig><reg>○○병</reg></choice></term>과 같이 <term>실패</term>로 안 돌아가기를 <persName ref="#ME">나</persName>는 진심으로 바라네.</p>
+        <p>이것이 <persName ref="#C">C</persName>가 들려준 바 <persName ref="#KPB">K 박사</persName>의 연구의 성공에서 실패로 또다시 <term><choice><orig>一轉</orig><reg>일전</reg></choice></term>하여 <term>회개</term>까지의 <term>경로</term>였다.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
