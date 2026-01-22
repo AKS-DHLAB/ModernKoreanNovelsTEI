@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>유치장에서 만난 사나이</title>
+                <author>김사량<idno type="ISNI">0000 0003 7474 1955</idno></author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>한국학중앙연구원 인문정보학과</publisher>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl type="digitalSource" xml:lang="ko">
+                    <title level="a">유치장에서 만난 사나이</title>
+                    <author>김사량</author>
+                    <publisher>Wikisource(한국어)</publisher>
+                    <idno type="wikisource">https://ko.wikisource.org/wiki/%EC%9C%A0%EC%B9%98%EC%9E%A5%EC%97%90%EC%84%9C_%EB%A7%8C%EB%82%9C_%EC%82%AC%EB%82%98%EC%9D%B4</idno>
+                    <idno type="wikidata">Q18213384</idno>
+                    <idno type="wikidata-url">https://www.wikidata.org/wiki/Q18213384</idno>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+            </projectDesc>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="ko">한국어</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="local">
+                    <term>근현대 한국문학</term>
+                </keywords>
+            </textClass>
+<particDesc xmlns="http://www.tei-c.org/ns/1.0">
+        <listPerson>
+          <person xml:id="NA">
+            <persName xml:lang="ko">나</persName>
+            <note>1인칭 주인공이자 외화의 서술자로, 본명이 등장하지 않는 관계로 '나'로 표기</note>
+          </person>
+          <person xml:id="REP"><persName xml:lang="ko" type="journalist">신문 기자</persName></person>
+          <person xml:id="WBJ"><persName xml:lang="ko">왕백작</persName></person>
+          <person xml:id="WBJF">
+            <persName xml:lang="ko">노백작</persName>
+            <note>왕백작의 아버지</note>
+          </person>
+          <person xml:id="CV3"><persName xml:lang="ko">전과 3범의 대야머리</persName></person>
+          <person xml:id="RTF"><persName xml:lang="ko">고무 도적</persName></person>
+          <person xml:id="CHF"><persName xml:lang="ko">주임</persName></person>
+          <person xml:id="ADV"><persName xml:lang="ko">광고쟁이</persName></person>
+          <person xml:id="LCE"><persName xml:lang="ko">축산 회사원</persName></person>
+          <person xml:id="NBY">
+            <note>왕백작을 깨우는 사내</note>
+          </person>
+          <person xml:id="JLR"><persName xml:lang="ko">간수</persName></person>
+        </listPerson>
+        <listPlace>
+          <place xml:id="SEOUL"><placeName xml:lang="ko" type="city">서울</placeName></place>
+          <place xml:id="JONGNO"><placeName xml:lang="ko" type="district">종로</placeName></place>
+          <place xml:id="DONGDAEMUN"><placeName xml:lang="ko" type="district">동대문</placeName></place>
+          <place xml:id="BUSAN"><placeName xml:lang="ko" type="city">부산</placeName></place>
+          <place xml:id="DAJEON"><placeName xml:lang="ko" type="city">대전</placeName></place>
+          <place xml:id="GANGWONDO"><placeName xml:lang="ko" type="province">강원도</placeName></place>
+          <place xml:id="HANRIVER"><placeName xml:lang="ko" type="river">한강</placeName></place>
+          <place xml:id="TOKYO"><placeName xml:lang="ko" type="city">동경</placeName></place>
+          <place xml:id="MANJU" sameAs="https://ko.wikipedia.org/wiki/%EB%A7%8C%EC%A3%BC">
+            <placeName xml:lang="ko" type="region">만주</placeName>
+          </place>
+          <place xml:id="SINGYEONG" sameAs="https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%A7%95">
+            <placeName xml:lang="ko" type="city">신경</placeName>
+          </place>
+          <place xml:id="CHULFENGYONG" sameAs="https://ko.wikipedia.org/wiki/%EC%B6%94%ED%92%8D%EB%A0%B9">
+            <placeName xml:lang="ko" type="hill">추풍령</placeName>
+          </place>
+          <place xml:id="TAEBACKSANMAK" sameAs="https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A7%A5">
+            <placeName xml:lang="ko" type="mountain">태백산맥</placeName>
+          </place>
+          <place xml:id="JAPAN" sameAs="https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%EC%A0%9C%EA%B5%AD">
+            <placeName xml:lang="ko" type="country">일본</placeName>
+          </place>
+          <place xml:id="JOSEON" sameAs="https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0">
+            <placeName xml:lang="ko" type="country">조선</placeName>
+          </place>
+          <place xml:id="YUCHIJANG">
+            <placeName xml:lang="ko" type="facility">유치장</placeName>
+          </place>
+          <place xml:id="TKSIL">
+            <placeName xml:lang="ko" type="facility">특고실</placeName>
+          </place>
+          <place xml:id="KBS">
+            <placeName xml:lang="ko" type="train">경부선 열차</placeName>
+          </place>
+          <place xml:id="HNS">
+            <placeName xml:lang="ko" type="train">호남선 열차</placeName>
+          </place>
+        </listPlace>
+        <listOrg>
+          <org xml:id="TK" sameAs="https://ko.wikipedia.org/wiki/%ED%8A%B9%EB%B3%84%EA%B3%A0%EB%93%B1%EA%B2%BD%EC%B0%B0">
+            <orgName xml:lang="ko" type="police">특별고등경찰</orgName>
+          </org>
+          <org xml:id="GB" sameAs="https://encykorea.aks.ac.kr/Article/E0002425">
+            <orgName xml:lang="ko" type="police">경방단</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="frame" n="outer">
+        <p><rs ref="#ADV #LCE #REP #NA">우리들</rs>은 <placeName ref="#BUSAN" type="city">부산</placeName>발 <placeName ref="#SINGYEONG" type="city">신경</placeName>행 급행 <placeName ref="#KBS" type="train">열차</placeName> 식당 안에서 비루병과 일본술 도쿠리를 지저분히 벌려놓은 양탁을 새에 두고 앉았다. 마침 연말 휴가로 귀향하던 도중 <rs ref="#ADV #LCE #REP #NA">우리</rs>는 <placeName ref="#BUSAN" type="city">부산</placeName>서 서로 만난 것이다. <rs ref="#ADV #LCE #REP #NA">넷</rs>이 모두 <orgName type="university">대학</orgName> 동창이요, 또 <rs ref="#ADV #LCE #REP #NA">모두</rs>가 같이 <placeName ref="#TOKYO" type="city">동경</placeName>에 남아서 살고 있었다. <rs ref="#ADV">한 사람</rs>은 <persName ref="#ADV">광고쟁이</persName> <rs ref="#LCE">한 사람</rs>은 <persName ref="#LCE">축산 회사원</persName>, <rs ref="#REF">한 사람</rs>은 <rs ref="#REP"><orgName type="newspaper" sameAs="https://encykorea.aks.ac.kr/Article/E0073532">조선신문</orgName> 동경지국 기자</rs>, 그리고 <persName ref="#NA">나</persName>. <rs ref="#ADV #LCE #REP #NA">우리들</rs>은 기실 <orgName type="university">대학</orgName>을 나온 이래 이렇게 오랜 시간 마주 앉아보기는 처음이었다. 그래 <rs ref="#ADV #LCE #REP #NA">우리</rs>는 만취하기까지 술잔을 기울이며 여러 가지로 이야기하였다. 그리고 <rs ref="#ADV #LCE #REP #NA">우리</rs>는 드디어 술에도 담배에도 이야기에도 시진하였다. 그때에 <persName ref="#REP">신문 기자</persName>는 이 <rs type="train">열차</rs>에 오를 적마다 머릿속에 깊이 박혀 사라지지 않는 기억이 하나 있노라 하며 다시 <rs ref="#ADV #LCE #REP #NA">우리들</rs>의 주의를 이끌어 다음과 같은 이야기를 시작하였다.</p>
+        <div type="embedded" n="inner">
+          <p>지금 세상에는 종잡을 수 없는 사람이 퍽이나 많기도 하다. 아무리 생각해 보아도 <rs ref="#WBJ">그</rs>는 이상한 <rs ref="#WBJ">사나이</rs>였다. 하나 <persName ref="#REP">나</persName>는 아직까지도 <rs ref="#WBJ">그</rs>의 본명을 모른다. 그래 여러 사람이 부르던 것처럼 <rs ref="#REP">나</rs>도 여기서 <rs ref="#WBJ">그</rs>를 <persName ref="#WBJ">왕백작</persName>이라고 부르기로 하련다.</p>
+          <p>그런데 <rs ref="#REP">내</rs>가 처음 <persName ref="#WBJ">왕백작</persName>을 만나기는 그다지 큰소리로 말할 것은 못 되나 사실은 <placeName type="facility"><placeName ref="#TOKYO" type="city">동경</placeName> A 경찰 <placeName ref="#YUCHIJANG" type="facility">유치장</placeName> 속에서였다. 바로 3년 전의 일이니 <rs ref="#REP">내</rs>가 ××사건에 관계하여 들어갔을 때이다. 그러므로 <rs ref="#WBJ">그</rs>를 <persName ref="#WBJ">왕백작</persName>이라고 부르고 있었다는 것도 이를테면 <rs type="person_group" subtype="prisoner">구류들</rs>과 <rs type="person_group" subtype="official">형사들</rs>과 <rs type="person_group" subtype="official">간수들</rs>을 두고 하는 말이다.</p>
+          <p>그러나 흥미 있는 일은 청년 <persName ref="#WBJ">왕백작</persName>이 대체 무슨 사건으로 해서 들어와 있는지는 알 수 없었으나 <placeName ref="#YUCHIJANG" type="facility">유치장</placeName> 속에서 대단히 인기가 있는 것만은 사실이다. 그것은 <rs ref="#WBJ">그</rs>가 누구에게 대하여서나 제일 부쩝이 좋았고 또 호통을 잘 부려 주위 사람들을 매우 우습게 혹은 귀찮게까지 만들기 때문이다. 퉁명스런 <rs type="person_group" subtype="prisoner">구류인들</rs>도 결국은 <rs ref="#WBJ">그 사나이</rs>의 일을 놀리던가 핀잔을 하던가 하면서 그나마 무료함을 꺼주는 위로로 삼고 있는 터였다. 물을 뿌린 듯이 고요할 대로 고요한 <placeName ref="#YUCHIJANG" type="facility">유치장</placeName> 내의 암울한 공기를 깨뜨리며 이 모든 사람의 심란한 낮졸음을 깨우치는 것두 <rs ref="#WBJ">그 사나이</rs>였다.</p>
+          <p>“<said who="#WBJ"><foreign xml:lang="ja"><rs ref="#JLR">탄나</rs> <rs ref="#JLR">탄나상</rs>.</foreign></said>”</p>
+          <p>이렇게 <rs ref="#WBJ">그</rs>는 밖으로 향해 부르기가 일쑤였다.</p>
+          <p><placeName ref="#YUCHIJANG" type="facility">유치장</placeName>에 들어간 다음날 <rs ref="#REP">나</rs>는 이 기이한 발음에 퍽이나 놀랐다. 그것은 바로 맞은편 쪽 방으로부터였으나 아무래도 <rs ref="#WBJ">그 목소리의 임자</rs>가 <rs ref="#WBJ"><placeName ref="#JOSEON" type="country">조선</placeName> 사나이</rs>임에 틀림없기 때문이다. 그것은 바로 <persName ref="#WBJ">왕백작</persName>이었다.</p>
+          <p>“<said who="#WBJ"><foreign xml:lang="ja"><rs ref="#WBJ">포쿠</rs>데스요.</foreign> <rs ref="#WBJ">포쿠</rs> 변소, 변소에 가구 싶어요.</said>”<said who="#JLR">“<persName ref="#WBJ">왕백작</persName>인가.”</said></p>
+          <p>“<said who="#WBJ">하이 하잇.</said>”</p>
+          <p>그것이 아주 질겁할 말큼 황송한 목소리이다. <rs type="person_group" subtype="prisoner">구류인들</rs>은 모두 참지 못하고 웃고 말았다. 그래도 <persName ref="#JLR">간수</persName>는 <rs ref="#WBJ">그이</rs>가 <rs ref="#WBJ">백작</rs>이라 하여 그런 것은 아니겠지만 변소에 내보낼 시간이 아닌 데도 드디어는 패검소리를 제가닥대며 철창문을 열며 그쪽으로 간다. 이래서 <rs type="person_group" subtype="prisoner">감방 사람들</rs>은 말짱 졸음을 깨치고 그래서 또 투덜투덜 불평을 늘어놓는다. 물론 그다지 불평일 게두 없지만. 그냥 너무 지루하던 끝이라 그렇게나마 파적을 하는 것이렸다. 그러나 그 중에도 이 음산한 분위기에서 겨우 구함을 받은 것 같아 철창 문 밖을 몰래 내다보려고 우죽우죽 엉덩이를 쳐드는 작자도 있다. <rs ref="#REP">내</rs> 바로 옆에 쭈그리고 있던 <persName ref="#CV3">전과 3범의 대야머리</persName>는 목을 움츠리고 어깨를 으쓱 올리면서 푸념을 한다.</p>
+          <p>“<said who="#CV3"><rs ref="#WBJ">자식</rs> 또 떠들어대네.</said>”</p>
+          <p>“<said who="#REP"><rs ref="#WBJ">저 사내</rs>는 어째서 들어온 모양인가</said>”하고 <rs ref="#REP">나</rs>는 나지막한 목소리로 물어보았다.</p>
+          <p>“<said who="#CV3">그야 모르지만, 저래 보여두 저고사 자네네 <rs ref="#WBJ">백작</rs>이랍데.</said>”하고 <persName ref="#CV3">전과 3범의 대야머리</persName>가 입맛 쓰는 듯이 웅얼거린다.</p>
+          <p>“<said who="#CV3"><rs ref="#WBJ">저놈</rs>은 <rs ref="#CV3">내</rs>가 사상가야라구 아주 얼러댄다니까.</said>”</p>
+          <p><said who="#RTF">“<rs ref="#WBJF"><rs ref="#WBJ">저 녀석</rs> 애비</rs>가 <rs ref="#WBJF"><placeName ref="#JOSEON" type="country">조선</placeName> 어딘가의 지사</rs>라나.”</said></p>
+          <p>이번은 맞은편에 쭈그리고 있던 쇠들쇠들 말라빠진 <persName ref="#RTF">고무 도적</persName>이 말을 걸었다. 그때 <rs ref="#REP">나</rs>는 <said who="#REP" aloud="false" mode="thought">옳지</said> 하고 생각이 났다. <said who="#REP" aloud="false" mode="thought">암 그렇지, <rs ref="#WBJ">그놈</rs>이 <rs ref="#WBJ"><rs ref="#WBJF">××도지사</rs>의 아들</rs>임에 틀림없지.</said> 긴데 가만 있게나. 거기서 <rs ref="#RTF">이놈</rs>이 또 수작을 하는 거야.</p>
+          <p><rs ref="#RTF">이놈</rs>은 본시 <rs ref="#WBJ">백작</rs>과 같은 방에 있으면서 <rs ref="#WBJ">백작</rs>하고 몰래 수군거리다가 <persName ref="#JLR">간수</persName>의 눈에 띄어 전방되었다던가 그래서 <persName ref="#WBJ">왕백작</persName>의 일을 잘 알고 있는 셈인지.</p>
+          <p>“<said who="#RTF">들으니까 <rs ref="#WBJ">저 녀석</rs>이 또 <rs ref="#WBJ">백만장자</rs>라겠지. 그래 <placeName ref="#JOSEON" type="country">조선</placeName> 신마이 <rs ref="#REP">자네</rs>는 모르는가, 그래 몰라? <rs ref="#WBJ">저놈</rs>은 저래두 사람은 무척 좋은 사나일세.</said>”</p>
+          <p>“<said who="#REP">언제쯤 들어왔는가.</said>”<rs ref="#REP">나</rs>는 재차 물었다.</p>
+          <p>“<said who="#RTF">반 년두 더 되었드군.</said>”</p>
+          <p>“<said who="#REP">무슨 일로.</said>”</p>
+          <p>“<said who="#RTF"><rs ref="#RTF">나</rs>두 모르지만 제딴은 아주 큰일을 저질렀다구 그러든데.</said>”</p>
+          <p>그러고 이 <persName ref="#RTF">고무 도적</persName>의 설명에 의하면 <persName ref="#WBJ">왕백작</persName>은 매일 <placeName type="facility" corresp="#TK">특고실</placeName>에 불려 나가 마음대로 사먹고 싶은 맛나는 음식을 주문해 먹으면서 신문과 잡지도 자유롭게 읽으며 또 놀기도 한다는 것이다. 그도 그럴 것이 주의해보니까 <rs ref="#WBJ">그</rs>는 하루에 한 번씩은 꼭 점심 전에 불리어 나간다. 그러면 <persName ref="#RTF">고무 도적</persName>이 그 뒤에서 입맛을 쩍쩍 다시면서 이렇게 중얼대곤 하였다.</p>
+          <p>“<said who="#RTF"><rs ref="#WBJ">저 녀석</rs>은 오늘은 또 중국요리를 먹구 들어올 게야……아 ── 아 <rs ref="#RTF">나</rs>는 담배라두 한 대 피워 물었으면, 담배라두 한 대…….</said>”</p>
+          <p>그런데 <rs ref="#REP">나</rs>는 드디어 <placeName type="facility" corresp="#TK">특고실</placeName>에서 그 <persName ref="#RTF">고무 도적</persName>의 이야기와는 얼토당토 않은 일을 하고 있는 <persName ref="#WBJ">왕백작</persName>을 발견하였다. <placeName ref="#YUCHIJANG" type="facility">유치장</placeName>을 나서면 바로 오른쪽에 이층으로 올라가는 층계가 있다. 거기를 올라가 막다른 곳에 <placeName type="facility" corresp="#TK">특고실</placeName>의 표찰이 걸려 있었다. <rs ref="#REP">나</rs>는 갑자기 밝은 데로 나갔던 탓인지, 눈이 부시어 보이지 않고 눈물이 솟구어 나오는 것을 깨달았다. 그래서 한켠 모퉁이 의자에 걸터앉아 현기증과 가뿐 숨결을 죽이려 하였다. 겨우 제 정신이 들어 눈을 떠보니까 <rs ref="#REP">내</rs> 앞에는 어느새 유령과 같이 <rs ref="#WBJ">한 사나이</rs>가 서 있었다. <rs ref="#WBJ">그것</rs>이 히죽이 웃는다.</p>
+          <p><said who="#REP" aloud="false" mode="thought">바로 <rs ref="#WBJ">이 사나이</rs>로구나</said> 하고 <persName ref="#REP">나</persName>는 생각하였다. <rs ref="#WBJ">그것</rs>이 히죽이 웃는다.</p>
+          <p>조리도 걸치지 않은 채 걸레질을 하고 있기 때문에 발은 11 11과 같이 더러웠다. 그리고 발가락 사이로는 시꺼먼 흙이 삐죽삐죽 비어져 나오고 있었다. <rs ref="#WBJ">그</rs>도 딴 사상 혐의와 같이 불리어 나가 매일 수기를 쓰고 있음에는 틀림없었다. 그리고 그날은 또 특별히 소제를 돕고 있던 것인지도 모른다. <rs ref="#WBJ">그</rs>는 이윽하여 대밭 밑에 몸을 구부리면서 걸레질을 하는 시늉을 지으며 주의를 꺼리는 듯한 나지막한 <placeName ref="#JOSEON" type="country">조선</placeName>말로 속삭였다.</p>
+          <p>“<said who="#WBJ">실수 없이 하게나. 똥구래미가 있으면……잘 부탁만 하면 모치떡 사먹을 수가 있다네.</said>”</p>
+          <p>그러고는 <rs ref="#WBJ">그</rs>는 얼굴을 쳐들고 입맛이 당기는 듯한 비굴한 동정의 웃음을 빙그레 웃어 보였다. 그리고 옆에 놓인 바케스 속에 걸레를 넣어 쥐어짜더니 그만 옆에 테이블 밑으로 엉금엉금 기어들어갔다. <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>의 병적으로 뚱뚱 부어오른 꺼먼 다리를 보면서 <said who="#REP" aloud="false" mode="thought">심한 각기로구나</said> 하고 <persName ref="#REP">나</persName>는 생각하였다. 그 후 얼마 되지 않아 <rs ref="#WBJ">그</rs>의 다리는 더욱 악화된 모양으로 <rs ref="#WBJ">그</rs>의 방에서 신음 소리가 들려왔고 그 때문인가 오랜 동안 예의 호출도 오지 않게 되었다.</p>
+          <p>어떤 날 밤 <rs ref="#REP">나</rs>는 잠깐이나마 변소 안에서 <rs ref="#WBJ">그</rs>와 함께 몰래 이야기를 할 수가 있었다. <rs type="person_group" subtype="prisoner"><rs ref="#REP">내</rs> 방 사람들</rs>이 모두 변소에 나갔을 때다. 바로 <persName ref="#WBJ">왕백작</persName>은 괴로운 자세로 <rs type="person_group" subtype="prisoner">같은 방 사람들</rs>보다 떨어져 혼자 소변대 위에 서 있었다. <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>의 옆으로 가서 나란히 서 있었다.</p>
+          <p>“<said who="#REP">몸은 괜찮은가.</said>”</p>
+          <p>“<said who="#WBJ">응 고맙네……괜찮아.</said>”라고 <rs ref="#WBJ">그</rs>는 대답하였다. 하나 그 목소리가 듣기에 너무나 가늘고 숨이 괴로워 보이기에 <rs ref="#REP">나</rs>는 놀라서 <rs ref="#WBJ">그</rs>의 얼굴을 한참 들여다보았다. 그런 즉 <rs ref="#WBJ">그</rs>는 아주 뻐기는 듯이 히죽 웃더니</p>
+          <p>“<said who="#WBJ"><rs ref="#WBJ">나</rs>는 <foreign xml:lang="ja">죠렌</foreign>이어서 뭐.</said>”한다. 그 얼굴은 이상하게도 찔린 듯이 새하얗다.</p>
+          <p>“<said who="#REP">언제 나가는가.</said>”</p>
+          <p>“<said who="#WBJ"><rs ref="#WBJ">나</rs>야 아마 송국일걸.</said>”그러나마 기운 없는 떨리는 목소리면서도 어쩐지 내심 득의양양한 눈치였다.</p>
+          <p>“<said who="#REP">크게 다치는 일인가.</said>”</p>
+          <p>“<said who="#WBJ"><rs ref="#WBJ">나</rs>? 헤헤헤 그게야 누구 보구 말할 수 있나 헤헤헤.</said>”하더니만 <rs ref="#WBJ">그</rs>는 별안간 커다란 공허스런 눈을 희번덕이며 목구멍이 메인 듯한 목소리로 묻는다.</p>
+          <p>“<said who="#WBJ">그런데 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>란 무언가?</said>”</p>
+          <p>“<said who="#REP"><rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>라니 거야 말하자면……”</said>하고 <persName ref="#REP">나</persName>는 그 말문이 막히어 어쩔 줄을 모르며 끝을 못 맺었다. 글쎄 한 3년 전의 일이니까 옛적이라고도 할까. 그 시절에 있어서는 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>도 있기는 하였을 것이다. 그러자 이 <persName ref="#WBJ">왕 백작</persName>이 돌연 넘어질 듯이 몸을 비틀거리며 에헤에헤 웃어대면서 이렇게 소리를 질렀다.</p>
+          <p><said who="#WBJ">“에헤헤 에헤헤 <rs ref="#WBJ">내</rs>가 그것이라우 바루 그것이야.”</said></p>
+          <p>그게 너무 엉뚱한 큰 소리였기 때문에 <rs ref="#REP">나</rs>는 펄쩍 놀라며 옆에 술통 앞으로 미끄러져 내려가 오금을 펴지 못하였다. <persName ref="#JLR">간수</persName>가 듣지나 않았을까 하여. 어쨌든 이 모양으로 <rs ref="#WBJ">그</rs>는 실로 무지하고 광신적이며 또 그리고 곧잘 허풍을 떠는 성질이었다. <rs ref="#WBJ">그</rs>는 병이 중태에 이르렀을 때에도 <persName ref="#JLR">간수</persName>의 눈을 피해가며 철창 문 옆에 비스듬히 기대고는 아무 방 사나이 보고라도 말을 걸고 선전하였다.</p>
+          <p>“<said who="#WBJ">아마 결국 <rs ref="#WBJ">나</rs>는 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>란 말이야. 무슨 일이 나기만 하면 턱하고 붙들려오거던. 그런데 아마 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>란 무엔지 <rs type="person_group" subtype="prisoner">네</rs> 아냐 말이다? 응 그렇지 모를 테지?</said>”그러나 <rs type="person_group" subtype="prisoner">감방 사람들</rs>은 누구 하나 <rs ref="#WBJ">그</rs>의 말을 곧이 들을려고는 하지 않았다.</p>
+          <p>그저 헤벌심 헤벌심 불어 넘기고 만다. 하나 <rs ref="#REP">나</rs>는 하루는 다시 <placeName type="facility" corresp="#TK">특고실</placeName>로 불리어갔을 때 <rs ref="#WBJ">그</rs>에 대한 모든 일을 알 수가 있었다. 거기에는 <rs ref="#WBJF"><rs ref="#WBJ">그</rs>의 아버지</rs>가 찾아와 앉았다. <rs ref="#WBJF">금테 안경을 낀 허어연 수염을 단 뚱뚱하고 점잖은 신사</rs>였다. 물론 <rs ref="#WBJF">××도지사</rs>이었음에 틀림없다. <persName ref="#CHF">주임</persName>이 이 <persName ref="#WBJF">노백작</persName>에게 <rs ref="#WBJ"><rs ref="#WBJF">그</rs>의 아들</rs>의 일을 설명하고 있는 것이다. <rs ref="#WBJ">젊은 왕백작</rs>은 사실로 수십 회나 여러 곳 서에 붙들려 다닌 모양이다. 그러고 보니 <foreign xml:lang="ja">죠렌</foreign>이라는 것도 믿을 성싶은 말이다.</p>
+          <p>그리고 <rs ref="#WBJ">그</rs>의 범죄라는 것이 또 늘 아주 기괴하였다. 어디서든지 부덕한 사람이 검속된 것을 안다 치면 무슨 생각엔지 그 뒤다름으로 주인공인 사람한테 자못 중대해 보이는 편지를 써 보내는 것이다. 그러면 이게 큰일이구나 해서 뛰어가 살펴보면 역시 <rs ref="#WBJ">사나이</rs>의 짓인 것이 판명되곤 하였다. 이번만 하더라도 같이 하숙하고 있는 <rs type="person" subtype="student">대학생</rs>이 무슨 혐의론지 붙들려가자 이어 그 방으로 들어가서 수상해 보이는 서적이며 그 외 증거물 같은 것을 <rs ref="#WBJ">자기</rs> 방으로 옮겨다 놓았던 것이다.<rs type="person" subtype="official">형사</rs>가 가택 수색을 하러 나가본 즉 온통 방안 모습이 달라졌기에 알아보니까 <persName ref="#WBJ">왕백작</persName>이 그것을 <rs ref="#WBJ">제</rs> 방으로 갔다가 이 모퉁이 저 모퉁이 쌓채이고서 그 가운데 네활개를 펴고 드러누워 있었다. 그래 동행을 요구하니까 <rs ref="#WBJ">그</rs>는 벌떡 일어나 덜렁덜렁 따라 나왔다는 것이다.</p>
+          <p>“<said who="#CHF">사실로 <rs ref="#WBJ"><rs ref="#WBJF">백작</rs>님 아드님</rs>한테는 어떻게 해야 좋을지 알 수가 있어야 말이지요.</said>”라고 <persName ref="#CHF">주임</persName>은 머리를 긁적거리었다.</p>
+          <p>“<said who="#CHF">유행을 따른다고 하기에는 너무 지나쳤으며……그리고 인제는 또 그러한 <rs type="ideology" subtype="anarchism" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">불온사상</rs>도 유행하지 않습니다.</said>”</p>
+          <p><said who="#WBJF">“대체 그게 무어라는 사상인데.”</said><persName ref="#WBJF">노백작</persName>은 침통한 낯빛으로 묻는다. <persName ref="#CHF">주임</persName>은 자못 난처한 모양으로</p>
+          <p>“<said who="#CHF">네 글쎄 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>라구나 말씀 드릴런지요.”</said></p>
+          <p>확실히 그것은 그 뒤 2,3일 지나서인가 생각된다. <rs ref="#REP">내</rs>가 일껀 서류와 함께 검사국으로 넘어가게 된 것은. 그런데 그날의 이 가련한 <rs type="person_group" subtype="anarchist" ref="https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98">아나키스트</rs>의 인상이란 <rs ref="#REP">나</rs>에게 있어 일생 동안 잊지 못할 만치 깊은 것이다. 그날 아침 <rs ref="#REP">나</rs>는 <placeName ref="#YUCHIJANG" type="facility">감방</placeName> 밖으로 나가 거의 두 달 만에 구두를 신으며 주섬주섬 차비를 차리고 있었다. <rs ref="#WBJ">그</rs>는 어느 <rs type="person_group" subtype="prisoner">구류인들</rs>과 같이 철창 문지방에 몸을 기대고 <rs ref="#REP">나</rs>의 얼굴을 멀거니 내려다보고 있었다.</p>
+          <p>“<said who="#WBJ"><foreign xml:lang="ja"><rs ref="#JLR">탄나상</rs></foreign>한테 부탁하여 담배라두 한 대 피우도록 하거니.</said>”라고 <rs ref="#WBJ">그</rs>는 중얼거렸다.</p>
+          <p>“<said who="#REP">고맙네.</said>”<persName ref="#REP">나</persName>는 왜 그런지 갑자기 마음이 언좧아지어 그쪽으로 얼굴을 돌리어 쳐다보았다.</p>
+          <p><rs ref="#WBJ">그</rs>의 그 총명해 보이는 넓은 이마에는 서너 줄의 움푹한 주름이 잡혔고 공허스런 눈은 힘없이 보이며 덥수룩이 수염을 기른 입 가장은 삐죽삐죽 움직이고 있었다.</p>
+          <p>“<said who="#WBJ">될 수 있는 대루 자동차루 가게나.</said>”</p>
+          <p><persName ref="#REP">나</persName>는 포승을 걸친 몸뚱이에 오바를 걸치고 모자를 깊숙이 쓴 다음 <rs ref="#WBJ">그</rs>에게 목례를 하였다.</p>
+          <p>그러고 <placeName ref="#YUCHIJANG" type="facility">유치장</placeName> 문을 막 나서려 할 때 별안간 <persName ref="#WBJ">왕백작</persName>의 목이 갈한 듯한 그러나 큰 고함지르는 소리가 <rs ref="#REP">내</rs> 귀에 째앵 울리며 들려왔다.</p>
+          <p><said who="#WBJ"><foreign xml:lang="ja">우마쿠 야레요오</foreign>(잘 하시오).</said></p>
+          <p><rs ref="#REP">나</rs>에게는 지금도 아직 그 목소리가 <rs ref="#REP">내</rs> 귀창을 찌르며 들어오는 것 같다.</p>
+          <p>그리고 찌르르 ── 가슴이 미어지는 것 같은 느낌이 없이는 그 고함 소리를 생각해낼 수가 없다. 
+        </div>
+        “<said who="#REP">……자, 비루를 좀더 따러주게나.</said>” 여기서 말을 잠시 끊고서 <persName ref="#REP">신문 기자</persName>는 또 한 잔 꿀꺽 들이마셨다. <rs ref="#KBS">기차</rs>는 어둠 속을 조금도 쉴 새 없이 그냥 북으로 북으로 맥진을 계속하고 있을 뿐이다.</p>
+        <div type="embedded" n="inner">
+          <p>그 후 아마 재작년 지금쯤의 일인가 싶다. <rs ref="#REP">나</rs>는 다시금 자유로운 몸이 되었다. 아니 오히려 갱생한 것이라 할까. 그리고 바로 이 <placeName ref="#KBS" type="train">경부선 열차</placeName>를 타고 고향으로 돌아가던 도중이었다. <rs ref="#REP">나</rs>는 실로 그때에 다시 한번 이 <persName ref="#WBJ">왕백작</persName>을 만났던 것이다. 그러나 그것은 드디어 무서운 일이 되고 말았다. 아무리하여도 돌이킬 수 없는 일이 되고 말았다. <rs ref="#REP">나</rs>는 그때 일을 생각하면 이상한 생각이 든다. 괴로워진다. 그리고 양심의 가책을 받는다. 그렇다. <rs ref="#REP">나</rs>는 갱생이라는 인생의 재출발 벽두에 있어서 또 하나의 큰 죄를 저지른 것처럼 생각된다.</p>
+          <p>그날 밤은 오늘 밤과 같이 달이 화안히 비치고 있지는 않았다. 배에서 내렸을 때 <placeName ref="#BUSAN" type="city">부산</placeName> 부두에는 비가 내리고 있었다. 그리고 해질 무렵 기차가 <placeName ref="#CHULFENGYONG">추풍령</placeName> 협곡에 다다랐을 때는 <placeName ref="#TAEBACKSANMAK">태백산맥</placeName>에 부딪친 대륙의 태풍이 노호를 하고 있었다. 주위 일면에는 눈보라가 치며 하늘은 검푸르게 내려앉고 소나무와 섭나무의 숲이 바위 잔등에서 떨고 있었다. <rs ref="#KBS">열차</rs>는 골짜기를 지나서는 어둠이 벌어지는 낙막한 전야로 돌진하였다.</p>
+          <p>헤일 수 없이 많은 가마귀들이 울면서 하늘 높이 떠오른다. 그때부터 실로 말하자면 음산한 밤이 시작한 것이다.</p>
+          <p>그런데 <rs ref="#KBS">기차</rs> 속은 <placeName ref="#MANJU">만주</placeName> 광야로 이주하는 <rs type="person_group" subtype="immigrant">이민군들</rs>로 가득 찼었다. <rs type="person_group" subtype="immigrant">그들</rs>은 짐짝과 같이 웅크리고 쭈그리고 쓰러지고 혹은 넘어지고 모로 눕기도 하고자리에서 비어져 나온 사람은 통로에서 타구를 안은 채 세상 모르게 잠들고 있다. <rs type="person_group" subtype="immigrant">모두들</rs> 무던히 피곤한 듯 침침히 잠이 들어 누구 하나 까닥하는 기색이 보이지 않았다. 때때로 어린애들이 킹킹 보채인다. 여기저기서 부인네들은 구역질을 하고.── 끈으로 꾀어 돌더구에 매어단 바가지는 서로 마주치며 달가락 달가락 소리를 내고 있다.</p>
+          <p><rs ref="#REP">나</rs>는 그 한 모퉁이에 움츠리고 있었다. <rs ref="#REP">내</rs> 아무것도 생각지 않으랴 과거의 일은 과거대로 묻어버리고 말리라고 눈을 감은 채였다. 그러나 <rs ref="#REP">나</rs>는 절망하고 있지는 않았다. 오히려 <rs ref="#REP">나</rs>는 <rs ref="#REP">내</rs> 체내에 새 생명의 피와 힘이 용솟음치는 것을 느꼈다. 그리고 심지어는 그 저주받을 풍수해로 말미암아 논 ․ 밭 ․ 집을 몽땅 띄워버리니 <rs type="person_group" subtype="immigrant">백성들</rs>이 이제부터 새로운 광명을 찾아 멀리 <rs ref="#MANJU">광야</rs>로 출발함을 볼 때 <rs ref="#REP">나</rs>는 더욱더욱 자기도 용기를 내어 갱생치 않으면 안 되겠다. 새로운 생명을 다시금 찾아들이지 않으면 안 되겠다고 맹세하는 것이다. 이리하여 <rs ref="#REP">나</rs>는 혼자 흥분한 나머지 차츰 체열이 생겨 거의 상기까지 할 지경이 되었다.</said></p>
+          <p>그 사이에도 <rs ref="#KBS">이 이민 열차</rs>는 쉴 새 없이 기적을 울리면서 맥진하고 있었다. 바로 이 기차 모양으로 연결되며 또 그 지방의 <rs type="person_group" subtype="immigrant">이민군들</rs>이 우르르 오르곤 한다. 너무나 소연한 바람에 <rs ref="#REP">나</rs>는 눈을 뜨고 창밖을 내다보았다. 아직두 펄펄 눈은 내리고 있다. 그 정거장에서 기다리고 있던 수백 명의 <rs type="person_group" subtype="immigrant">이민군</rs>이 꾸러미와 보따리를 안기도 하고 지기도 하고서 마치 파도와 같이 뒤 차륜으로 비명을 지르며 몰려가는 것이다. 그게 바로 난민의 무리와도 같이 보인다. 그러는데 어느 새엔지 <rs type="person_group" ref="#REP">우리들</rs>의 차륜으로도 수십 명의 이민들이 들어와 보려고 얼굴을 들며 밀었다가 무엇인지 지껄이면서 황망히 다시금 밖으로 물러 나간다. 그러나 <rs ref="#REP">그</rs>는 그 뒤로 꺼먼 외투에 흰 명주 마후라를 걸친 중키의 한 <rs ref="#WBJ">사나이</rs>가 비틀비틀거리며 들어서는 것을 보았다. <rs ref="#WBJ">그</rs>는 문 어귀에 멍하니 한참 서서 차 속을 둘러보는 것이다. 아주 퍽 괴로운 듯이 몇 번이고 양미간을 찌푸리며 두터운 입술을 비죽인다. 얼굴은 뻘겋게 달고 있다. 이마에는 서너 줄의 주름이 가로 잡혀 섰다.</p>
+          <p>숨이 몹시 가뿐 듯. <said who="#REP" aloud="false" mode="thought">몹시 술에 취한 게로구나</said>고 <rs ref="#REP">나</rs>는 생각하였다. 그러나 그와 동시에 <rs ref="#REP">나</rs>는 저도 모르게 펄쩍 놀라며 일어섰던 것이다.</p>
+          <p><rs ref="#WBJ">그</rs>도 <rs ref="#REP">나</rs>를 알아차린 듯 갑자기 눈을 휘둥그렇게 뜨더니만 히죽 웃는다. 그 웃는 얼굴을 보고는 <rs ref="#REP">나</rs>도 무엇이라 소리를 쳤다. 그것은 언제인가 <placeName ref="#TKSIL" type="facility">특고실</placeName>에서 <rs ref="#REP">내</rs> 앞에 나타나 히죽이 웃던 <persName ref="#WBJ">왕백작</persName>이 틀림이 없었던 것이다. <rs ref="#WBJ">그</rs>는 엎어질 듯 비틀거리며 가까이 오더니만 덥썩 <rs ref="#REP">나</rs>한테로 달겨붙는다. 술냄새가 확 코를 찌른다.</p>
+          <p>“<said who="#WBJ"><rs ref="#REP"><placeName ref="#TKSIL">특고실</placeName>의 동지</rs>!</said>”</p>
+          <p>이렇게 <rs ref="#WBJ">그</rs>는 아무 거리낌없이 다짜로 부르짖었다. 술기운 때문에 이전보다도 더욱 혀가 돌아가지 않는 일본 말을 쓴다.</p>
+          <p>“<said who="#REP">응 이게 웬일인가, 대체 <rs ref="#WBJ">자네</rs>는 그 후 무사했는가. 얼굴빛이 아주 나쁘구먼.</said>”</p>
+          <p>“<said who="#REP">어서 여기라도 좀 앉게나.</said>”하고 <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>에게 자리를 내주려고 일어났다. 그런 즉 <rs ref="#WBJ">그</rs>는 갑자기 무엇에 놀란 것처럼 괜찮아 하며 손을 내저어가며 뒷걸음을 치더니 그냥 그대로 통로에 털석 주저앉고 말았다. 그러고는 마냥 떠들어대는 것이다.</p>
+          <p>“<said who="#WBJ">아니 <rs ref="#WBJ">나</rs>는 여기가 더 좋을세 여기가. 응 그런데 여보게 <rs ref="#REP"><placeName ref="#TOKYO">동경</placeName>의 동지</rs>. 자 <rs ref="#REP">자네</rs>가 송국될 때 근심하였다네. 아주 크게 걱정을 했었다네. 저것이 처음이 되어 금시에 <foreign xml:lang="ja">헤타바루</foreign> 하지나 않을까 하구 응.</said>”</p>
+          <p>“<said who="#REP">고마울세 그러나 <rs ref="#WBJ">자네</rs> 지금 쉬는 게 좋을 것 같은데.</said>”하며 <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>를 타이르듯이 조용히 달랬다. 그런 즉 <rs ref="#WBJ">그</rs>는 두말 안짝으로 유순히 무르팍을 모아 세우고 머리를 숙였다. 그러고는 괴로운 듯이 신음 소리를 내기 시작한다. 그때 <rs ref="#KBS">기차</rs>가 굉음을 지르며 움직이기 시작하였다. 홈과 차 속으로부터 일제히 통곡과 탄성이 천동하듯 일어났다. 서로 멀리 이별할 순간이 되자 <rs type="person_group" subtype="immigrant">모두</rs> 울음통이 터진 것이다. <persName ref="#WBJ">왕백작</persName>은 뜨거운 물이라도 끼얹인 듯이 머리를 휙 쳐들었다.</p>
+          <p>“<said who="#WBJ">이게 무슨 소리야!</said>”</p>
+          <p>무서운 공포에 쌓인 것처럼 손발이 부들부들 떨리고 있었다. 하나 그 희멀건 눈 속에는 비웃는 듯한 음흉스런 기쁨의 빛이 서리고 있었다. <rs ref="#WBJ">그</rs>는 두서너 번 피게질을 하더니</p>
+          <p>“<said who="#WBJ">응 무슨 소리야 이게 무슨 소리야!</said>”</p>
+          <p>“<said who="#WBJ">그러면 그렇지 그러면 그렇지.</said>”하며 <rs ref="#WBJ">그</rs>는 아주 미치기라도 한 사람 모양으로 에헤헤 에헤헤 웃어대었다.</p>
+          <p>그러더니 갑자기 이상하게도 <persName ref="#WBJ">왕백작</persName>은 소리를 내어 괭괭 쳐울기 시작한 것이다.</p>
+          <p>주위의 <rs type="person_group" subtype="immigrant">사람들</rs>은 모두 놀라 눈을 뜨고 말소리를 죽이고서 조용한 태도로 이 이상한 <persName ref="#WBJ">왕백작</persName>을 굽어보기 시작하였다. 짐짓 <rs ref="#KBS">기차</rs>도 홈을 지나고나니 차 속도 차츰 조용해지었다. 어느덧 이 근처부터는 눈보라도 개이고 멀리 첩첩 싸인 산이며 지질펀하니 누운 전야가 백은색에 싸이어 어스름한 달빛 아래 흘러 달아나버린다. 다시 <rs ref="#KBS">차</rs> 속은 아주 고요해졌다. 그러나 <persName ref="#WBJ">왕백작</persName>의 울음소리는 점점 더 높아갈 뿐으로 어떻게 손을 댈래야 댈 수가 없었다. <rs ref="#WBJ">그</rs>는 다시 발작이라도 일어난 듯 낯을 척 들더니 이번에는 대번 <placeName ref="#JOSEON">조선</placeName> 말로 또 떠들기 시작하였다.</p>
+          <p>“<said who="#WBJ"><rs ref="#WBJ">나</rs>두 통곡을 하구 싶어요. 큰 소리를 지르며 통곡을 하고 싶어 <rs ref="#WBJ">나</rs>는 울기를 좋아하는 거야 울기를. 그래서 <rs ref="#WBJ">나</rs>는 늘 <rs ref="#KBS">이 이민 열차</rs>에 오르곤 하겠지.</said>”</p>
+          <p>거기서<rs ref="#WBJ">그</rs>는 갑자기 울음을 뚝 그치고 목소리를 낮추더니 얼굴 근육에 몹시 경련을 일으키었다. <rs ref="#REP">나</rs>는 <rs ref="#WBJ">이 광열적인 사내</rs>가 <rs ref="#ADV #LCE #REP #NA">우리들</rs>도 흔히 빠지곤 하는 절망적인 고독감에 사로잡힌 것을 알았다.</p>
+          <p>그렇다. <rs ref="#WBJ">그</rs>는 늘 절대의 고독 속에 묻혀 있는 것이다. 그것은 또 무서운 절망임에 틀림없다. <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>가 빨리 진정되어주기만 바랐다. 그러나 <rs ref="#WBJ">그</rs>의 턱주가리는 차츰 더 푸들푸들 떨리기 시작하였다. 그러자 갑자기 비명과 같은 소리를 꽥 지르더니 <rs ref="#WBJ">그</rs>는 뒤로 움쳐든다.</p>
+          <p>“<said who="#WBJ">네 <rs ref="#REP">네놈</rs>은……<rs ref="#WBJ">날</rs> 보구 복수를 하려는 게지.</said>”</p>
+          <p>잠시 동안 흠침한 침묵이 흘렀다. <rs ref="#WBJ">그</rs>는 입을 멍하니 열고서 <rs ref="#REP">나</rs> 얼굴을 한참 동안이나 쳐다본다. <rs ref="#REP">나</rs>는 공연히 가슴이 떨리는 것을 깨달았다.</p>
+          <p>“<said who="#WBJ">그렇다. 이놈 저놈 할 것 없이 <rs ref="#WBJ">나</rs>에게 복수를 하려드는구나. <rs ref="#REP">네놈</rs>두 그렇지? 그래 그렇지 않단 말이냐? <rs ref="#REP">저것</rs> 보게 차츰 얼굴빛이 달라져간다 에구 달라져 가누나.</said>”</p>
+          <p>“<said who="#REP">무슨 환영을 쫓고 있는가보네. 그리고 그것에 <rs ref="#WBJ">자네</rs>가 쫓겨다니구 있는 걸세.</said>”하고 <rs ref="#REP">나</rs>는 측은한 낯빛을 웃어 보이었다. 사실 <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>를 어떻게 해석함이 옳은지 몰랐다. 하여튼 이것을 병이라고 말한다면 확실히 그것은 <placeName ref="#YUCHIJANG" type="facility">유치장</placeName>에 있을 때보다 더 악화된 모양 같았다. <rs ref="#REP">나</rs>는 위로하듯이 덧붙여서 말하였다.</p>
+          <p>“<said who="#REP"><rs ref="#WBJ">자네</rs>가 무슨 말을 하고 있는지 <rs ref="#REP">나</rs>는 통 종을 못 잡겠네.</said>”</p>
+          <p>“<said who="#WBJ"><rs ref="#REP">네놈</rs>은 시침을 떼려드느냐 응, 복수를 해보고 싶지 않느냐 말이다 <rs ref="#WBJ">내</rs>게 응 <rs ref="#WBJ">나</rs>에게 에헤헤 에헤헤.</said>”</p>
+          <p>“<said who="#REP">대체 어떻게 된 셈인가.</said>”하고 <rs ref="#REP">나</rs>는 조금 캐듯이 물었다.</p>
+          <p>“<said who="#WBJ">아니 그 그…….</said>”<rs ref="#WBJ">그</rs>는 다시 괴로운 소리를 내며 신음하였다.</p>
+          <p>“<said who="#WBJ"><rs ref="#WBJ">나</rs>는 아아 지금 당장 <rs ref="#WBJ">내</rs> 자신으로부터도 복수를 받고 있는 터이야 목줄을 졸라매구 있는 터이야. 희망두 없구 슬픔도 없구 그리구 또 목적조차 없구…… 아아 <rs ref="#WBJ">나</rs>는 <rs ref="#KBS">이 이민 열차</rs>에 탔을 때만이 행복인걸 어떡하나. <rs ref="#WBJ">나</rs>는 <rs type="person_group" subtype="immigrant">그들</rs>과 같이 울 수가 있구 부르짖을 수가 있어.</said>”</p>
+          <p>“<said who="#REP">하나 <rs type="person_group" subtype="immigrant">이 사람들</rs>은 희망을 붙들고 가는 것이지 슬퍼하러 가는 것은 아닐 텐데.</said>”</p>
+          <p>“<said who="#WBJ">그게야 아무렴 어때 <rs ref="#WBJ">나</rs>는 그냥 <rs type="person_group" subtype="immigrant">그들</rs>과 같은 <rs ref="#KBS">차</rs>로 같은 방향으로 간다는 것만이 기뻐 죽겠어. 그리구 같이 울기두 하구 부르짖는 것두 함께 한다는 것이. 그러나 어떡허나 <rs ref="#WBJ">나</rs>는 어떡허나 <rs type="person_group" subtype="immigrant">이 사람들</rs>이 <placeName type="border">국경</placeName>을 넘어서면 <rs ref="#WBJ">나</rs>는 혼자서 집에 오지 않으면 안 되니 <rs ref="#WBJ">나</rs>는 그때 생각을 하면…….</said>”하고 <rs ref="#WBJ">그</rs>는 또 쿨적쿨적 울기 시작하였다. <rs ref="#REP">나</rs>는 더욱 어쩔 줄을 몰랐다. 그러나 어쩐지 <rs ref="#WBJ">그</rs>의 일이 뜻없이 측은히 생각되어 <rs ref="#REP">나</rs>도 덩달아 같이 슬퍼하고 싶은 생각까지 들었다. 물론 냉정히 생각한다면 이런 불쌍한 사람이 어디 있을 것인가. <rs ref="#WBJ">이런 사람</rs>이야말로 차츰 멸망할 인간이라고 할 것이다.</p>
+          <p>“<said who="#REP">그만두게 이것이 무슨 짓이람.</said>”</p>
+          <p>그러자 <rs ref="#WBJ">그</rs>는 움칠하더니 푸들푸들 다시 몸을 떨기 시작하였다. 눈을 휘황하게 뜨고 턱주가리가 떡떡 마주쳐 일어서려고 애를 쓴다. <rs ref="#REP">나</rs>는 잠시 망연하여졌다. 그 얼굴은 사상을 띠고 몸은 벅벅 극매인다. 마치 죽어가는 사람이 천국을 거부당한 것처럼. 최후의 기쁨을 빼앗긴 것처럼 그리고 팔을 휘저으며</p>
+          <p>“<said who="#WBJ"><rs ref="#REP">이놈</rs> <rs ref="#WBJ">날</rs>더러 가만 있으라구.</said>”하고 고함을 벽력같이 지르니 그만 기운이 빠져 그 자리에 넌지시 엉덩이를 박고 넘어졌다. 좀 있더니 입으로 침을 흘리며 그리고 얼굴과 함께 상반신을 그냥 철석 통로 바닥에 파묻어버렸다. 얼굴은 흙투성이가 되었다. 잔인스럽게도 <said who="#REP" aloud="false">그만 잘 되었다 이제는 잠이 들 것이라구</said></p>
+        </div>
+        <p>“<said who="#REP">그러나 그때 잘 되었다고 생각한 것에 대하여 <rs ref="#REP">나</rs>는 아직도 가슴이 메저린 듯한 느낌을 가지는 것이다. 그 일이 이 2년 <rs ref="#REP">내</rs> <rs ref="#REP">나</rs>를 얼마나 심한 고문에 걸고 있는 것일까.</said>”하며 <persName ref="#REP">신문 기자</persName>는 비검한 안색을 지었다.</p>
+        <p>“<said who="#REP">술을 좀더 부어주게 응. 술을 좀더 부어주게나.</said>”</p>
+        <p>“<said who="#LCE">그래서 어쨌단 말인가.</said>”<persName ref="#LCE">축산 회사원</persName>은 뒤가 궁금한 듯이 재촉하였다.</p>
+        <p>“<said who="#REP">글쎄 가만 있게나. 그런데 <rs ref="#KBS">기차</rs>는 좀 있으면 <placeName ref="#DAJEON">대전</placeName>에 닿게 되었더란 말이야. 군들도 알지만 <rs ref="#REP">나</rs>는 <placeName ref="#DAJEON">대전</placeName>서 <rs ref="#HNS">호남선</rs>으로 차를 바꿔 타야지 않는가 그래 그때 <rs ref="#REP">나</rs>는 내릴 준비를 하면서 생각하였네. <said who="#REP" aloud="false" mode="thought">자 작별을 하기 위해 이 <persName ref="#WBJ">왕백작</persName>을 깨워야 옳은가 그냥 두는 게 옳은가.</said> <rs ref="#WBJ">그</rs>는 정신 모르고 그냥 쓰러져 누워 있었네. 그래 구태여 깨울 필요가 없다구 생각하였지.</said>”
+        <div type="embedded" n="inner">
+          그러자 거의 가까워진 모양으로 기적 소리가 울렸다. 그래 <rs ref="#REP">나</rs>는 양손에 트렁크를 들고 일어서서 나오려고 했다. 그런데 <rs ref="#KBS">기차</rs>가 몹시 흔들리기 때문에 그 통에 <rs ref="#REP">나</rs>는 넘어질 뻔하며 그만 잘못하여 <persName ref="#WBJ">왕백작</persName>의 잔등 위에 엎어졌다.</p>
+          <p><rs ref="#WBJ">백작</rs>은 아주 펄저덕 쓰러지고 말았다. <rs ref="#REP">나</rs>는 혼이나서 버둥거리며 일어섰다.</p>
+          <p>하나 <rs ref="#WBJ">그</rs>는 통로 바닥에 쓰러진 채 몸을 꼼짝도 않는다. 이리하여 더욱 <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>에게 인사를 못 하게끔 되었다. 그때 벌써 홈의 등불이 보이기 시작하였다. 그러나 <rs ref="#REP">나</rs>는 <rs ref="#WBJ">그</rs>를 깨워야겠다는 생각이 들었다.</p>
+          “<said who="#REP"><persName ref="#WBJ">왕백작</persName>.</said>”불러도 대답이 없다. 취해서 그만 잠이 들었구나 하였다.
+          <p><rs ref="#KBS">기차</rs>는 차츰 멎기 시작한다. 홈의 분주한 양이 보인다. 소연스런 소리. <rs ref="#REP">나</rs>는 어서 내리지 않으면 안 되겠다고 마음이 분주해진다.</p>
+          “<said who="#REP"><persName ref="#WBJ">왕백작</persName> 여보게.</said>”여전히 <rs ref="#WBJ">그</rs>는 쓰러진 채 몸 하나 달싹 않는다. <rs ref="#REP">나</rs>는 트렁크를 내려놓고 <rs ref="#WBJ">그</rs>를 깨울 지혜까지는 나지 않았다. 그래서 마음은 더욱 분주하였다.
+          “<said who="#REP"><persName ref="#WBJ">왕백작</persName> 어떻게 된 셈인가. 일어나게 거기서 자다가는 짓밟히네. 여보게 <rs ref="#WBJ">백작</rs> 일어나게나.</said>”드디어 <rs ref="#KBS">기차</rs>는 멎었다. 라우드스피커는 소리를 지르고 홈에는 <rs type="person_group" subtype="immigrant">사람들</rs>이 뛰어 덤빈다. <rs ref="#REP">나</rs>는 반사적으로 두어 걸음 문 옆으로 달려가면서 돌아보았다.
+          <p>그때 보다못해 <rs ref="NBY">옆에 사람</rs>이 <persName ref="#WBJ">왕백작</persName>을 끄집어 일으켜내려고 하며 <rs ref="#WBJ">백작</rs>의 몸을 흔들기 시작하였다.</p>
+          <p>그때에 <rs ref="#REP">내</rs> 앞으로 <rs type="person_group" subtype="immigrant">승객들</rs>이 우르르 쏟아져 들어왔다. 그래서 황망 중에 <rs ref="#REP">나</rs>는 막 빠져나가려 고민하였다. 그러나 그 순간 뒤에서 <rs ref="#WBJ">백작</rs>을 깨우던 <rs ref="#NBY">사내</rs>가 놀라 고함을 지르며 일어선 것 같았다.</p>
+          <p>“<said who="#NBY">아앗.</said>”
+          <p><rs ref="#REP">나</rs>는 놀라 홱 돌아다보았다. 그러나 <rs ref="#REP">나</rs>는 새로이 올라탄 그 많은 <rs type="person_group" subtype="immigrant">승객들</rs> 틈에 끼어 몸을 비비댈 수도 없어졌다. 그야말로 아수라장이었으며 아비규환이라 할 지경이었다. <persName ref="#WBJ">왕백작</persName>이 그 뒤 어떻게 되었는지는 모른다. 보이지가 않았다. 왜 그러지 <rs ref="#REP">나</rs>는 그때에 내린다는 것만으로 가슴이 꽉 찼었다.</p>
+          <p>그래 사실 <rs ref="#KBS">차</rs>가 떠나기 전에 내렸을 때는 숨이 내쉬었다. 그러나 <rs ref="#KBS">기차</rs>가 움직이기 시작하자 <rs ref="#REP">나</rs>는 갑자기 무엇에 놀란 것처럼 트렁크를 든 채 <rs ref="#KBS">기차</rs>를 막 따라가며 죽기 한사하고 부르짖은 것이다.</p>
+          <p>“<said who="#REP"><persName ref="#WBJ">왕백작</persName>! <persName ref="#WBJ">왕백작</persName>!</said>”</p>
+        </div>
+        <p>“<said who="#ADV">벌써 아까 숨이 끊어졌던 가부지.</said>”하고 <persName ref="#ADV">광고쟁이</persName>는 측은스레 물었다.“<said who="#REP">그것이 <rs ref="#REP">내</rs>게는 아직두 알 수 없는 의문인 것이다. 지금까지두 <rs ref="#REP">나</rs>는 그것 때문에 얼마나 괴로운지 모른다. 아마 벌써 숨이 넘어갔던지두 모른다. 이것을 생각하면 <rs ref="#REP">나</rs>는 몹시 양심의 가책을 받는다. 내리지를 않았어야 꼭 옳을 뻔하였다. 아아 정말로 <persName ref="#WBJ">왕백작</persName>이 지금두 이 땅에서 살고 있는다면.</said>”</p>
+        <p><persName ref="#REP">신문 기자</persName>는 거기서 땀과 함께 눈물을 훔치었다. 그러고는 이야기를 뚝 끊었다. 그 후에는 한 번도 만난 일은 없느냐고 <persName ref="#LCE">축산 회사원</persName>이 물으니까 <rs ref="#REP">그</rs>는 잠시 동안 묵묵히 있더니만 다시 무거운 목소리로 혼잣소리같이 시작하였다.</p>
+        <div type="embedded" n="inner">
+          <p><rs ref="#REP">나</rs>는 작년 여름에 좀 조사할 것이 있어 <placeName ref="#GANWONDO" type="province">강원도</placeName> 산 속으로 들어갔었다. 그때에 수가 사나우려니까 열흘 동안이나 폭풍우가 계속되었다. <placeName ref="#HANRIVER" type="river">한강</placeName> 상류에 아주 큰 창수로 탁류가 된 것이다. 어떤 날 <rs ref="#HANRIVER">그 강</rs> 쪽에서부터 사람 살리라는 소리가 들려왔다. <rs ref="#REP">나</rs>는 어쩐지 낯익은 목소리 같아 뛰쳐나가 보았다. 중류 지대에 누아떼가 내려가고 있다. 그 위에 두서너 사람의 그림자가 보인다. 비 안개가 자욱하며 똑똑히는 보이지 않으나 그 중에는 <rs type="person" type="merchant">양복 입은 사람</rs>도 하나 끼어 있는 것 같았다. 그것이 단말마의 소리를 내어 부르짖고 있는 모양이다. 그 몸 모양이 어쩐지 눈에 익은 것 같기도 하다. 그렇다. 그것이 <persName ref="#WBJ">왕백작</persName>이 아니었던가 하는 생각도 <rs ref="#REP">나</rs>는 것이 물론 그럴싸해서이겠지만. <rs ref="#REP">나</rs>는 그 후 <placeName ref="#SEOUL" type="city">서울</placeName> <rs type="person" type="merchant">어느 젊은 목재 상인</rs>이 누아떼와 운명을 같이 하였다는 소리를 산읍에서 내려와서 들었다. 그러나 <rs type="person" type="merchant">그 사내</rs>의 이름이 무엇이라는 것은 누구 하나 아는 사람이 없었다.</p>
+        </div>
+        <p>“<said who="#ADV">아무렴. <rs type="person" type="merchant">그것</rs>이 <persName ref="#WBJ">왕백작</persName>이겠는가</said>”고 <persName ref="#ADV">광고쟁이</persName>는 중얼거렸다.</p>
+        <div type="embedded" n="inner">
+          <p>그리고 이번 봄의 일이다. <placeName ref="#SEOUL" type="city">서울</placeName>에 출장을 나와 <placeName ref="#JONGNO">종로</placeName>에서 <placeName ref="#DONGDAEMUN">동대문</placeName> 행 전차를 탔을 때이다. 바로 그게 반공 연습 당일이었다고 생각된다. 전차가 막 5 정 목 네거리를 지나가려 할 때였다. 그 길가에서는 <rs type="person_group" corresp="#GB">경방 단원</rs>이 훈련을 받고 있었다.</p>
+          <p>별로 그다지 키가 크지 않은 <rs type="person" corresp="#GB">한 사나이</rs>가 외줄로 쭉 늘어선 <rs type="person_group" corresp="#GB">단원</rs>에게 훈시를 하고 있다. <rs ref="#REP">나</rs>는 <rs type="person" corresp="#GB">그 사내</rs>의 뒷모양밖에는 보지 못했다. 그러나 지금 생각하면 아무래도 <rs type="person" corresp="#GB">그것</rs>이 <persName ref="#WBJ">왕백작</persName>이었던 것 같기도 하다.</p>
+        </div>
+        <p>“<said who="#REP">그럼직도 한데.</said>”하고 <persName ref="#NA">나</persName>는 무릎을 치며 부르짖었다. 왜 <persName ref="#NA">내</persName>가 그렇게 부르짖었는지는 모른다. 그러나 어쩐지 있음직한 일 같았기 때문이다.</p>
+        <p>“<said who="#REP">그럴 게야. 꼭 그게 <persName ref="#WBJ">왕백작</persName>임에 틀림없을 게야. 그는 전쟁이 벌어져 기뻐할 걸. 왜 그런고 하면 지금의 <rs ref="#JOSEON">우리 나라</rs>는 현실적인 괴로움은 있지. 그러나 일정한 방향을 향하여 건국일치의 체제로 맥진 <rs type="person" corresp="#GB">경방단 반장</rs>쯤 넉넉하지 지냄직한 걸.</said>”</p>
+        <p><rs ref="#ADV #REP #NA #LCE">모두들</rs> 묵묵히 끄덕이었다.</p>
+        <p>“<said who="#REP">그랬으면 좋은련만.</said>”하며 <persName ref="#REP">신문 기자</persName>는 한참 동안 비루잔을 들어다보더니 한숨을 짓는다. 그리고 또 다시 계속하였다.</p>
+        <p>“<said who="#REP">그러나 그 뒤 또 어떤 날……</said>”</p>
+        <head>라이선스</head>
+      </div>
+    </body>
+  </text>
+</TEI>
