@@ -194,20 +194,20 @@
                   <persName xml:lang="ko" type="alias">혼졸</persName>
                   <persName xml:lang="ko" type="alias">순경</persName>
                </person>
-               <person xml:id="SO" source="https://ko.wiktionary.org/wiki/새옹지마">
+               <person xml:id="SO" ref="https://ko.wiktionary.org/wiki/새옹지마">
                   <persName xml:lang="ko">ᄉᆡ옹(塞翁)</persName>
                </person>
-               <person xml:id="NP" source="https://ko.wiktionary.org/wiki/나폴레옹_보나파르트">
+               <person xml:id="NP" ref="https://ko.wiktionary.org/wiki/나폴레옹_보나파르트">
                   <persName xml:lang="ko">라파륜</persName>
                </person>
-               <person xml:id="NP_3" source="https://ko.wiktionary.org/wiki/나폴레옹_3세">
+               <person xml:id="NP_3" ref="https://ko.wiktionary.org/wiki/나폴레옹_3세">
                   <persName xml:lang="ko">라파륜뎨삼</persName>
                </person>
                라파륜뎨삼
-               <person xml:id="PJ" source="https://ko.wiktionary.org/wiki/편작">
+               <person xml:id="PJ" ref="https://ko.wiktionary.org/wiki/편작">
                   <persName xml:lang="ko">편쟉</persName>
                </person>
-               <person xml:id="HELL_K" source="https://ko.wiktionary.org/wiki/염라대왕">
+               <person xml:id="HELL_K" ref="https://ko.wiktionary.org/wiki/염라대왕">
                   <persName xml:lang="ko">염라대왕</persName>
                </person>
                <person xml:id="AM">
@@ -282,13 +282,13 @@
             </listPerson>
 
             <listObject>
-               <object xml:id="CO2" type="substance" subtype="carbonDioxide" source="https://ko.wikipedia.org/wiki/이산화_탄소">
+               <object xml:id="CO2" type="substance" subtype="carbonDioxide" ref="https://ko.wikipedia.org/wiki/이산화_탄소">
                   <objectName>탄산와ᄉᆞ</objectName>
                </object>
                <object xml:id="O2MASK" type="equipment">
                   <objectName>흡긔통</objectName>
                </object>
-               <object xml:id="NAH" type="plant" source="https://ko.wikipedia.org/wiki/벨라돈나풀">
+               <object xml:id="NAH" type="plant" ref="https://ko.wikipedia.org/wiki/벨라돈나풀">
                   <objectName>녀아화</objectName>
                </object>
                <object xml:id="CO2_B">
@@ -300,22 +300,22 @@
             </listObject>
 
             <listOrg>
-               <org xml:id="LJ" type="ethnicity" source="https://ko.wikipedia.org/wiki/라틴족">
+               <org xml:id="LJ" type="ethnicity" ref="https://ko.wikipedia.org/wiki/라틴족">
                   <orgName xml:lang="ko">라틴족</orgName>
                </org>>
-               <org xml:id="SS" type="ethnicity" source="https://ko.wikipedia.org/wiki/색슨인">
+               <org xml:id="SS" type="ethnicity" ref="https://ko.wikipedia.org/wiki/색슨인">
                   <orgName xml:lang="ko">살손인죵</orgName>
                </org>
-               <org xml:id="GE" type="ethnicity" source="https://ko.wikipedia.org/wiki/게르만족">
+               <org xml:id="GE" type="ethnicity" ref="https://ko.wikipedia.org/wiki/게르만족">
                   <orgName xml:lang="ko">일이만</orgName>
                </org>
-               <org xml:id="GS" type="ethnicity" source="https://ko.wikipedia.org/wiki/카자크">
+               <org xml:id="GS" type="ethnicity" ref="https://ko.wikipedia.org/wiki/카자크">
                   <orgName xml:lang="ko">가ᄉᆞᆯ극</orgName>
                </org>
-               <org xml:id="FR_P" type="ethnicity" source ="https://ko.wikipedia.org/wiki/프랑스인">
+               <org xml:id="FR_P" type="ethnicity" ref ="https://ko.wikipedia.org/wiki/프랑스인">
                   <orgName xml:lang="ko"><placeName ref="#FR">법</placeName>인</orgName>
                </org>
-               <org xml:id="CH_P" type="ethnicity" source ="https://ko.wikipedia.org/wiki/스위스인">
+               <org xml:id="CH_P" type="ethnicity" ref ="https://ko.wikipedia.org/wiki/스위스인">
                   <orgName xml:lang="ko"><placeName ref="#CH">셔서</placeName>인</orgName>
                </org>
                <org xml:id="JSC_R" type="residents">
@@ -344,91 +344,91 @@
 
          <settingDesc>
             <listPlace>
-               <place xml:id="FR" type="country" source="https://ko.wikipedia.org/wiki/프랑스">
+               <place xml:id="FR" type="country" ref="https://ko.wikipedia.org/wiki/프랑스">
                   <placeName xml:lang="ko">법국</placeName>
                </place>
-               <place xml:id="UK" type="country" source="https://ko.wikipedia.org/wiki/영국">
+               <place xml:id="UK" type="country" ref="https://ko.wikipedia.org/wiki/영국">
                   <placeName xml:lang="ko">영국</placeName>
                </place>
-               <place xml:id="DE" type="country" source="https://ko.wikipedia.org/wiki/독일">
+               <place xml:id="DE" type="country" ref="https://ko.wikipedia.org/wiki/독일">
                   <placeName xml:lang="ko">덕국</placeName>
                </place>
-               <place xml:id="CN" type="country" source="https://ko.wikipedia.org/wiki/중국">
+               <place xml:id="CN" type="country" ref="https://ko.wikipedia.org/wiki/중국">
                   <placeName xml:lang="ko">쳥국</placeName>
                </place>
-               <place xml:id="IN" type="country" source="https://ko.wikipedia.org/wiki/인도">
+               <place xml:id="IN" type="country" ref="https://ko.wikipedia.org/wiki/인도">
                   <placeName xml:lang="ko">린도</placeName>
                </place>
-               <place xml:id="AMC" type="continent" source="https://ko.wikipedia.org/wiki/아메리카">
+               <place xml:id="AMC" type="continent" ref="https://ko.wikipedia.org/wiki/아메리카">
                   <placeName xml:lang="ko">아미리ᄭᅡ</placeName>
                </place>
-               <place xml:id="US" type="country" source="https://ko.wikipedia.org/wiki/미국">
+               <place xml:id="US" type="country" ref="https://ko.wikipedia.org/wiki/미국">
                   <placeName xml:lang="ko">합즁국</placeName>
                </place>
-               <place xml:id="JP" type="country" source="https://ko.wikipedia.org/wiki/일본">
+               <place xml:id="JP" type="country" ref="https://ko.wikipedia.org/wiki/일본">
                   <placeName xml:lang="ko">일본</placeName>
                </place>
-               <place xml:id="IT" type="country" source="https://ko.wikipedia.org/wiki/이탈리아">
+               <place xml:id="IT" type="country" ref="https://ko.wikipedia.org/wiki/이탈리아">
                   <placeName xml:lang="ko">이대리</placeName>
                </place>
-               <place xml:id="ES" type="country" source="https://ko.wikipedia.org/wiki/스페인">
+               <place xml:id="ES" type="country" ref="https://ko.wikipedia.org/wiki/스페인">
                   <placeName xml:lang="ko">셔반아</placeName>
                </place>
-               <place xml:id="BE" type="country" source="https://ko.wikipedia.org/wiki/벨기에">
+               <place xml:id="BE" type="country" ref="https://ko.wikipedia.org/wiki/벨기에">
                   <placeName xml:lang="ko">비래시</placeName>
                </place>
-               <place xml:id="SE" type="country" source="https://ko.wikipedia.org/wiki/스웨덴">
+               <place xml:id="SE" type="country" ref="https://ko.wikipedia.org/wiki/스웨덴">
                   <placeName xml:lang="ko">셔젼</placeName>
                </place>
-               <place xml:id="NO" type="country" source="https://ko.wikipedia.org/wiki/노르웨이">
+               <place xml:id="NO" type="country" ref="https://ko.wikipedia.org/wiki/노르웨이">
                   <placeName xml:lang="ko">라위</placeName>
                </place>
-               <place xml:id="CH" type="country" source="https://ko.wikipedia.org/wiki/스위스">
+               <place xml:id="CH" type="country" ref="https://ko.wikipedia.org/wiki/스위스">
                   <placeName xml:lang="ko">셔서</placeName>
                </place>
-               <place xml:id="RU" type="country" source="https://ko.wikipedia.org/wiki/러시아">
+               <place xml:id="RU" type="country" ref="https://ko.wikipedia.org/wiki/러시아">
                   <placeName xml:lang="ko">아라ᄉᆞ</placeName>
                </place>
-               <place xml:id="PR" type="city" source="https://ko.wikipedia.org/wiki/파리_(프랑스)">
+               <place xml:id="PR" type="city" ref="https://ko.wikipedia.org/wiki/파리_(프랑스)">
                   <placeName xml:lang="ko">파려</placeName>
                </place>
-               <place xml:id="NY" type="city" source="https://ko.wikipedia.org/wiki/뉴욕">
+               <place xml:id="NY" type="city" ref="https://ko.wikipedia.org/wiki/뉴욕">
                   <placeName xml:lang="ko">누육</placeName>
                </place>
-               <place xml:id="BR" type="city" source="https://ko.wikipedia.org/wiki/브라이턴">
+               <place xml:id="BR" type="city" ref="https://ko.wikipedia.org/wiki/브라이턴">
                   <placeName xml:lang="ko">발뢰돈</placeName>
                </place>
-               <place xml:id="LD" type="city" source="https://ko.wikipedia.org/wiki/런던">
+               <place xml:id="LD" type="city" ref="https://ko.wikipedia.org/wiki/런던">
                   <placeName xml:lang="ko">륜돈</placeName>
                </place>
-               <place xml:id="JE" type="city" source="https://ko.wikipedia.org/wiki/예나">
+               <place xml:id="JE" type="city" ref="https://ko.wikipedia.org/wiki/예나">
                   <placeName xml:lang="ko">야리부</placeName>
                </place>
-               <place xml:id="AS" type="city" source="https://ko.wikipedia.org/wiki/알자스">
+               <place xml:id="AS" type="city" ref="https://ko.wikipedia.org/wiki/알자스">
                   <placeName xml:lang="ko">아이ᄉᆞ사</placeName>
                </place>
-               <place xml:id="SD" type="city" source="https://ko.wikipedia.org/wiki/스당">
+               <place xml:id="SD" type="city" ref="https://ko.wikipedia.org/wiki/스당">
                   <placeName xml:lang="ko">산당</placeName>
                </place>
-               <place xml:id="SF" type="city" source="https://ko.wikipedia.org/wiki/샌프란시스코">
+               <place xml:id="SF" type="city" ref="https://ko.wikipedia.org/wiki/샌프란시스코">
                   <placeName xml:lang="ko">상항</placeName>
                </place>
-               <place xml:id="PCF" type="ocean" source="https://ko.wikipedia.org/wiki/태평양">
+               <place xml:id="PCF" type="ocean" ref="https://ko.wikipedia.org/wiki/태평양">
                   <placeName xml:lang="ko">ᄐᆡ평양</placeName>
                </place>
-               <place xml:id="EU" type="continent" source="https://ko.wikipedia.org/wiki/유럽">
+               <place xml:id="EU" type="continent" ref="https://ko.wikipedia.org/wiki/유럽">
                   <placeName xml:lang="ko">구라파</placeName>
                </place>
-               <place xml:id="ASIA" type="continent" source="https://ko.wikipedia.org/wiki/아시아">
+               <place xml:id="ASIA" type="continent" ref="https://ko.wikipedia.org/wiki/아시아">
                   <placeName xml:lang="ko">아셰아</placeName>
                </place>
-               <place xml:id="RCK" type="mountains" source="https://ko.wikipedia.org/wiki/로키산맥">
+               <place xml:id="RCK" type="mountains" ref="https://ko.wikipedia.org/wiki/로키산맥">
                   <placeName xml:lang="ko">낙긔산ᄆᆡᆨ</placeName>
                </place>
-               <place xml:id="CC" type="mountains" source="https://ko.wikipedia.org/wiki/캐스케이드산맥">
+               <place xml:id="CC" type="mountains" ref="https://ko.wikipedia.org/wiki/캐스케이드산맥">
                   <placeName xml:lang="ko">ᄀᆡ특산</placeName>
                </place>
-               <place xml:id="OG" type="region" source="https://ko.wikipedia.org/wiki/오리건주">
+               <place xml:id="OG" type="region" ref="https://ko.wikipedia.org/wiki/오리건주">
                   <placeName xml:lang="ko">아란궁</placeName>
                </place>
                <place xml:id="JSC" type="town">
