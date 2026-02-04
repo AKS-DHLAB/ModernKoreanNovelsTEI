@@ -1,152 +1,112 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-<fileDesc>
-   <titleStmt>
-      <title>화의 혈</title>
-      <author>
-         이해조
-         <idno type="ISNI">0000 0000 8418 5313</idno>
-      </author>
-      <respStmt xml:id="encoder">
-         <resp>TEI 인코딩</resp>
-         <name>이하경</name>
-         <note>iserene [at] sogang.ac.kr</note>
-      </respStmt>
-   </titleStmt>
-   <publicationStmt>
-      <publisher>한국학중앙연구원 인문정보학과</publisher>
-   </publicationStmt>
-   <sourceDesc>
-      <biblStruct xml:id="digital_edition" type="digitalSource" xml:lang="ko">
-         <analytic>
-            <title level="a">화의 혈</title>
+    <fileDesc>
+      <titleStmt>
+        <title>화의 혈</title>
+        <author>이해조<idno type="ISNI">0000 0000 8418 5313</idno></author>
+        <respStmt xml:id="encoder">
+          <resp>TEI 인코딩</resp>
+          <name>이하경</name>
+          <note>iserene [at] sogang.ac.kr</note>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>한국학중앙연구원 인문정보학과</publisher>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="originalSource" xml:lang="ko">
+            <title level="a">화의 혈</title> 
             <author>이해조</author>
-         </analytic>
-         <monogr>
-            <title level="m">위키문헌(Wikisource)</title>
-            <idno type="wikisource">https://ko.wikisource.org/wiki/화의_혈</idno>
-            <idno type="wikidata">Q85989161</idno>
-            <imprint>
-               <publisher>Wikisource(한국어)</publisher>
-               <date>2023</date>
-            </imprint>
-         </monogr>
-         
-         <note type="provenance">작업자는 위키문헌의 텍스트는 공유마당의 저작물을 입력한 결과물이라고 판단함. 공유마당의 저작물은 오거서창본(1918)을 입력한 결과물이라고 판단함.</note>
-         <note>
-            <ref target="http://www.wikidata.org/wiki/Q85989161"/>
-         </note>
+            <title level="j"><ref target="https://encykorea.aks.ac.kr/Article/E0014992">매일신보</ref></title> 
+            <publisher>매일신보사</publisher>
+            <date from="1911-04-06" to="1911-06-21">1911-04-06 ~ 1911-06-21</date>
+            <note>
+                원본 정보는 <ref target="https://encykorea.aks.ac.kr/Article/E0064844">한국민족문화대백과사전[화의 혈 (花의 血)]</ref>의 설명을 참조함.
+            </note> 
+        </bibl>        
 
-         <relatedItem type="source">
-            <biblStruct xml:id="gongu_copyright">
-               <monogr>
-                  <author>이해조</author>
-                  <title level="m">화의 혈</title>
-                  <idno type="UCI">G905-13313763</idno>
-                  <imprint>
-                     <publisher>한국저작권위원회</publisher>
-                     <distributor>공유마당</distributor>
-                  </imprint>
-               </monogr>
-               <note>
-                  <ref target="https://gongu.copyright.or.kr/gongu/main/contents.do?menuNo=200091">공유마당 저작물 확인하기</ref>
-               </note>
+        <bibl type="digitalSource" xml:lang="ko">
+          <title level="a">화의 혈</title>
+          <author>이해조</author>
+          <publisher>Wikisource(한국어)</publisher>
+          <idno type="wikisource">https://ko.wikisource.org/wiki/%ED%99%94%EC%9D%98_%ED%98%88</idno>
+        </bibl>
 
-               <relatedItem type="original">
-                  <biblStruct xml:id="original_book_1918">
-                     <monogr>
-                        <author>이해조</author>
-                        <title level="m">花의 血</title>
-                        <respStmt>
-                           <resp>발행인</resp>
-                           <name>金容俊</name>
-                        </respStmt>
-                        <idno type="UCI">G701:E-00076805822</idno>
-                        <imprint>
-                           <pubPlace>京城</pubPlace>
-                           <publisher>五車書廠</publisher>
-                           <date>1918</date>
-                        </imprint>
-                     </monogr>
-                     <note>
-                        <ref target="https://www.nl.go.kr/NL/contents/search.do?resultType=&amp;pageNum=1&amp;pageSize=&amp;order=&amp;sort=&amp;srchTarget=&amp;kwd=%ED%99%94%EC%9D%98+%ED%98%88&amp;systemType=&amp;lnbTypeName=&amp;category=&amp;hanjaFlag=&amp;reSrchFlag=&amp;lnbCategory=%EB%8F%84%EC%84%9C&amp;licYn=&amp;kdcName1s=&amp;manageName=&amp;langName=&amp;ipubYear=&amp;pubyearName=&amp;seShelfCode=&amp;detailSearch=&amp;seriesName=&amp;mediaCode=&amp;offerDbcode2s=&amp;f1=&amp;v1=&amp;f2=&amp;v2=&amp;f3=&amp;v3=&amp;f4=&amp;v4=&amp;and1=&amp;and2=&amp;and3=&amp;and4=&amp;and5=&amp;and6=&amp;and7=&amp;and8=&amp;and9=&amp;and10=&amp;and11=&amp;and12=&amp;isbnOp=&amp;isbnCode=&amp;guCode2=&amp;guCode3=&amp;guCode4=&amp;guCode5=&amp;guCode6=&amp;guCode7=&amp;guCode8=&amp;guCode11=&amp;gu2=&amp;gu7=&amp;gu8=&amp;gu9=&amp;gu10=&amp;gu12=&amp;gu13=&amp;gu14=&amp;gu15=&amp;gu16=&amp;subject=&amp;sYear=&amp;eYear=&amp;sRegDate=&amp;eRegDate=&amp;typeCode=&amp;acConNo=&amp;acConNoSubject=&amp;acConNoAll=&amp;infoTxt=&amp;siteUrl=&amp;selIcon=list#viewKey=CNTS-00076805822&amp;viewType=C&amp;category=%EB%8F%84%EC%84%9C&amp;pageIdx=12&amp;jourId=">국립중앙도서관 소장 오거서창본 확인하기</ref>
-                     </note>
-                  </biblStruct>
-               </relatedItem>
-            </biblStruct>
-         </relatedItem>
-      </biblStruct>
-   </sourceDesc>
-</fileDesc>
+        <bibl type="reference" xml:lang="ko">
+          <title level="a">화의 혈</title>
+          <idno type="encykorea-id">E0064844</idno>
+          <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0064844</idno>
+        </bibl>
+
+        <bibl type="reference" xml:lang="ko">
+          <title level="m">구마검·모란병·자유종·산천초목·화의 혈</title>
+          <author>권영민·김종욱·배경열</author>
+          <publisher>서울대학교출판부</publisher>
+          <date>2003-12-30</date> 
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
     <encodingDesc>
       <projectDesc>
-        <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI All)에 따라 구조화함.</p>
+        <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
       </projectDesc>
-      <editorialDecl>
-        <p>
-            원문 해독에 어려움이 있는 경우 다음 교열본을 참고함. 다음 교열본은 오거서창본(1918)을 텍스트로 함.
-            <bibl>
-              <author>권영민·김종욱·배경열</author>, 
-              <title>구마검·모란병·자유종·산천초목·화의 혈</title>, 
-              <publisher>서울대학교출판부</publisher>, 
-              <date>2003.12.30.</date>.
-            </bibl>
-        </p>
-        <p>본 전자본은 위키문헌의 텍스트를 입력하였으나, 공유마당 및 오거서창본(1918) 텍스트를 참고하여 교정한 바 있음.</p>
-      </editorialDecl>
-<classDecl>
-  <taxonomy xml:id="Job_List">
-    <category xml:id="GS">
-      <catDesc>
-        기생
-        <ref target="https://encykorea.aks.ac.kr/Article/E0008280"/>
-      </catDesc>
-    </category>
-    <category xml:id="GCS">
-      <catDesc>
-        관찰사
-        <ref target="https://encykorea.aks.ac.kr/Article/E0005013"/>
-      </catDesc>
-    </category>
-    <category xml:id="SL">
-      <catDesc>
-        수령
-        <ref target="https://encykorea.aks.ac.kr/Article/E0031317"/>
-      </catDesc>
-    </category>
-    <category xml:id="SCG">
-      <catDesc>
-        시찰관
-        <ref target="https://dh.aks.ac.kr/sillokwiki/index.php/시찰관(視察官)"/>
-      </catDesc>
-    </category>
-    <category xml:id="SDG">
-      <catDesc>
-        상두꾼
-        <ref target="https://encykorea.aks.ac.kr/Article/E0027053"/>
-      </catDesc>
-    </category>
-    <category xml:id="GMS">
-      <catDesc>
-        경무사
-        <ref target="https://encykorea.aks.ac.kr/Article/E0002415"/>
-      </catDesc>
-    </category>
-    <category xml:id="YJ">
-      <catDesc>
-        역졸
-        <ref target="https://dh.aks.ac.kr/sillokwiki/index.php/역졸(驛卒)"/>
-      </catDesc>
-    </category>
-    <category xml:id="SG">
-      <catDesc>
-        순검
-        <ref target="https://encykorea.aks.ac.kr/Article/E0031863"/>
-      </catDesc>
-    </category>
-  </taxonomy>
-</classDecl>
+      
+      <classDecl>
+        <taxonomy xml:id="Job_List">
+          <category xml:id="GS">
+            <catDesc>
+              기생
+              <ref target="https://encykorea.aks.ac.kr/Article/E0008280"/>
+            </catDesc>
+          </category>
+          <category xml:id="GCS">
+            <catDesc>
+              관찰사
+              <ref target="https://encykorea.aks.ac.kr/Article/E0005013"/>
+            </catDesc>
+          </category>
+          <category xml:id="SL">
+            <catDesc>
+              수령
+              <ref target="https://encykorea.aks.ac.kr/Article/E0031317"/>
+            </catDesc>
+          </category>
+          <category xml:id="SCG">
+            <catDesc>
+              시찰관
+              <ref target="https://dh.aks.ac.kr/sillokwiki/index.php/시찰관(視察官)"/>
+            </catDesc>
+          </category>
+          <category xml:id="SDG">
+            <catDesc>
+              상두꾼
+              <ref target="https://encykorea.aks.ac.kr/Article/E0027053"/>
+            </catDesc>
+          </category>
+          <category xml:id="GMS">
+            <catDesc>
+              경무사
+              <ref target="https://encykorea.aks.ac.kr/Article/E0002415"/>
+            </catDesc>
+          </category>
+          <category xml:id="YJ">
+            <catDesc>
+              역졸
+              <ref target="https://dh.aks.ac.kr/sillokwiki/index.php/역졸(驛卒)"/>
+            </catDesc>
+          </category>
+          <category xml:id="SG">
+            <catDesc>
+              순검
+              <ref target="https://encykorea.aks.ac.kr/Article/E0031863"/>
+            </catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -354,7 +314,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2025-11-02" who="#encoder">작업자 이하경이 TEI 인코딩을 시작함.</change>
-      <change when="2025-12-01" who="#encoder">작업자 이하경이 TEI 인코딩을 완료함.</change>
+      <change when="2026-01-19" who="#encoder">작업자 이하경이 TEI 인코딩을 완료함.</change>
     </revisionDesc>
     </teiHeader>
 <standOff>

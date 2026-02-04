@@ -72,8 +72,9 @@
           <person xml:id="JDR"><persName xml:lang="ko">잔다르크</persName></person>
           <person xml:id="PDB"><persName xml:lang="ko">포드 부인</persName></person>
           <person xml:id="HNN"><persName xml:lang="ko">하나님</persName></person>
-          <person xml:id="LADS" sex="2" type="group">
-            <note>텍스트에서 '여러 부인'으로 지칭되는 익명의 부인들 집단</note></person>
+          <personGrp xml:id="LADS" sex="2">
+            <note>텍스트에서 '여러 부인'으로 지칭되는 익명의 부인들 집단</note>
+          </personGrp>
           <person xml:id="UNKN">
             <persName xml:lang="ko">알 수 없음</persName>
           </person>          
