@@ -279,7 +279,7 @@
     <listPlace>
       <place xml:id="JS">
         <placeName xml:lang="ko">장성군</placeName>
-        <ref target ="https://ko.wikipedia.org/wiki/장성군"/>
+        <ref target ="https://encykorea.aks.ac.kr/Article/E0048561"/>
       </place>
       <place xml:id="JLGY">
         <placeName xml:lang="ko">전라감영</placeName>
@@ -298,7 +298,7 @@
         <ref target="https://ko.wikipedia.org/wiki/목천군"/>
       </place>
       <place xml:id="P_GB"> <placeName xml:lang="ko">고부</placeName>
-        <ref target="https://ko.wikipedia.org/wiki/고부군"/>
+        <ref target="https://encykorea.aks.ac.kr/Article/E0003610"/>
       </place>
       <place xml:id="SC_H">
         <placeName xml:lang="ko">최호방, 춘홍, 선초, 모란의 거주지</placeName>
@@ -317,7 +317,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2025-11-02" who="#encoder">작업자 이하경이 TEI 인코딩을 시작함.</change>
-      <change when="2026-01-19" who="#encoder">작업자 이하경이 TEI 인코딩을 완료함.</change>
+      <change when="2026-02-10" who="#encoder">검수자 김가연이 TEI 인코딩을 수정 완료함.</change>
     </revisionDesc>
     </teiHeader>
 <standOff>
@@ -387,19 +387,19 @@
             녀ᄌᆞ 한 아이</rs>
              ᄭᅥᆨ거진 <rs ref="#FW" ana="#meta_SC">그 ᄭᅩᆺ가지</rs>를 다졍히 집어들고 한업시 가엽시 넉이이며
           </p>
-          <p>"<said who="#SC" aloud="true" direct="true">에그 앗가워라 <rs ref="#CD" ana="#meta_LDS">언의 몹슬 ᄋᆞᄒᆡ</rs>가 이런 못ᄒᆞᆯ 노릇을 ᄒᆡᆺ슬가 겨우ᄂᆡ <rs ref="#FW" ana="#meta_SC">풍셜 즁에 쳔신만고ᄅᆞᆯ 다 격다가 <time type="season">봄쳘</time>을 인졔 만나 간신히 퓌힌 너</rs>를 ᄉᆞ졍 업시 ᄯᅮᆨ ᄭᅥᆨᄭᅥᆺ구나</said>"</p>
+          <p>"<said who="#SC" aloud="true" direct="true">에그 앗가워라 <rs ref="#CD" ana="#meta_LDS">언의 몹슬 ᄋᆞᄒᆡ</rs>가 이런 못ᄒᆞᆯ 노릇을 ᄒᆡᆺ슬가 겨우ᄂᆡ <rs ref="#FW" ana="#meta_SC">풍셜 즁에 쳔신만고ᄅᆞᆯ 다 격다가 <date type="season">봄쳘</date>을 인졔 만나 간신히 퓌힌 너</rs>를 ᄉᆞ졍 업시 ᄯᅮᆨ ᄭᅥᆨᄭᅥᆺ구나</said>"</p>
           <p>ᄒᆞ며 연ᄒᆞᆫ 눈에 조곰만 더ᄒᆞ면 눈물이 나올 듯 ᄒᆞ다가</p>
           <p>"<said who="#SC" aloud="true" direct="true">속졀업다</said>"</p>
           <p>
             소리를 구슯흐게 ᄒᆞ고 우두커니 안졋스니 
             <rs ref="#SC">그 녀ᄌᆞ</rs>
             ᄂᆞᆫ 
-            <placeName type="settlement" subtype="local">전라남도</placeName>
+            <placeName type="settlement" subtype="local" ref="https://encykorea.aks.ac.kr/Article/E0049365">전라남도</placeName>
             <placeName ref="#JS">장성군</placeName>
             <persName ref="#CHB">최호방</persName>
             이 나이 ᄉᆞ십이 되도록 ᄌᆞ녀간 한낫 혈육이 업셔 ᄆᆡ양 셜워ᄒᆞ더니 <rs ref="#JS">그 고을</rs> 
             <persName ref="#CH1">퇴기춘홍</persName>
-            을 작쳡ᄒᆞ야 텬ᄒᆡᆼ으로 <rs ref="#SC #MR" type="group">ᄯᆞᆯ 형졔</rs>를 나엇스니 큰 ᄯᆞᆯ의 일홈은 
+            을 작쳡ᄒᆞ야 텬ᄒᆡᆼ으로 <rs type="group" ref="#SC #MR" >ᄯᆞᆯ 형졔</rs>를 나엇스니 큰 ᄯᆞᆯ의 일홈은 
             <persName ref="#SC">선초</persName>
             요 젹은 ᄯᆞᆯ의 일홈은 
             <persName ref="#MR">모란</persName>
@@ -408,7 +408,7 @@
             이ᄂᆞᆫ <measure type="age">유치</measure>에 어린 ᄋᆞᄒᆡ라 죡히 의론ᄒᆞᆯ 바ㅣ 업거니와 
             <persName ref="#SC">선초</persName>
             ᄂᆞᆫ <measure type="age" unit="year" quantity="10">십 셰</measure>가 넘어 졈졈 쟝셩ᄒᆞ야오니 ᄭᅩᆺ ᄀᆞᆺ흔 얼골과 달 ᄀᆞᆺ흔 ᄐᆡ도가 한 곳도 범연ᄒᆞᆫ ᄃᆡ가 업ᄂᆞᆫ 일ᄉᆡᆨ이러라 ᄌᆞᄅᆡ로 젼ᄒᆡ오ᄂᆞᆫ 말이 <placeName type="country">죠션</placeName> <placeName type="country">십삼도</placeName> 즁 
-            <placeName type="settlement" subtype="local">전라도</placeName>
+            <placeName type="settlement" subtype="local" ref="https://encykorea.aks.ac.kr/Article/E0049367">전라도</placeName>
              물ᄉᆡᆨ이 뎨일이오, 
             <placeName type="settlement" subtype="local">전라남북도</placeName>
              즁 
