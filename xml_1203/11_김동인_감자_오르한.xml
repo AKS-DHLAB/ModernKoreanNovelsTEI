@@ -4,18 +4,45 @@
         <fileDesc>
             <titleStmt>
                 <title>감자</title>
-                <author>저자 미상</author>
+                <author>김동인<idno type="ISNI">0000 0001 0915 8152</idno></author>
+                <respStmt>
+                    <resp>TEI 인코딩</resp>
+                    <name>오르한<idno type="ORCID">0009 0002 5874 9754</idno></name>
+                    <email>ishimairobu.orkhan [at] gmail.com</email>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI 검수</resp>
+                    <name>지해인<idno type="ISNI">0000 0005 2802 5223</idno></name>
+                    <email>cihayin [at] gmail.com</email>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>한국학중앙연구원 인문정보학과</publisher>
+                <ref target="https://digitalhumanities.kr/">한국학중앙연구원 디지털인문학연구소 홈페이지</ref>
             </publicationStmt>
             <sourceDesc>
-                <p>본 텍스트는 사용자로부터 제공받았습니다.</p>
+                <bibl type="digitalSource" xml:lang="ko">
+                    <title level="a">감자</title>
+                    <author>김동인</author>
+                    <publisher>Wikisource(한국어)</publisher>
+                    <idno type="wikisource">https://ko.wikisource.org/wiki/감자</idno>
+                    <idno type="wikisource-info">https://ko.wikisource.org/w/index.php?title=감자&amp;action=info</idno>
+                    <idno type="wikidata">Q16176689</idno>
+                    <idno type="wikidata-url">https://www.wikidata.org/wiki/Q16176689</idno>
+                    <note type="acquisition">작업자 오르한이 위키문헌 항목에서 raw data를 취득함.</note>
+                </bibl>
+
+                <bibl type="reference" xml:lang="ko">
+                    <title level="a">감자</title>
+                    <idno type="encykorea-id">E0000816</idno>
+                    <idno type="encykorea">https://encykorea.aks.ac.kr/Article/E0000816</idno>
+                    <note type="statementOfResponsibility">동 항목의 기술에 따르면 “김동인이 1925년 『조선문단(朝鮮文壇)』 1월호에 발표한 단편소설이다. 이 소설은 3인칭 관찰자 시점으로 되어 있으며, 김동인 스스로가 한 줄만 읽고도 자신의 소설임을 알 수 있을 만한 문체와 표현 방식, 곧 ‘동인미’가 가장 잘 구현된 소설이라고 평가”하였다.</note>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>본 전자본은 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+                <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
             </projectDesc>
         </encodingDesc>
         <profileDesc>
@@ -25,116 +52,45 @@
             <textClass>
                 <keywords scheme="local">
                     <term>근현대 한국문학</term>
+                    <term>단편소설</term>
                 </keywords>
             </textClass>
             <particDesc>
                 <listPerson>
-                    <person xml:id="BN">
-                        <persName xml:lang="ko">복녀</persName>
-                    </person>
-                    <person xml:id="BNH">
-                        <persName xml:lang="ko">복녀의 남편</persName>
-                    </person>
-                    <person xml:id="GD">
-                        <persName xml:lang="ko">감독</persName>
-                    </person>
-                    <person xml:id="CHN">
-                        <persName xml:lang="ko">처녀</persName>
-                    </person>
-                    <person xml:id="WSB">
-                        <persName xml:lang="ko">왕 서방</persName>
-                    </person>
-                    <person xml:id="LSB">
-                        <persName xml:lang="ko">
-                            <choice>
-                                <orig>陸</orig>
-                                <reg>눅 서방</reg>
-                            </choice>
-                        </persName>
-                    </person>
-                    <person xml:id="HNM">
-                        <persName xml:lang="ko">형님</persName>
-                    </person>
-                    <person xml:id="SSX">
-                        <persName xml:lang="ko">새색시</persName>
-                    </person>
-                    <person xml:id="HYS">
-                        <persName xml:lang="ko">한방 의사</persName>
-                    </person>
-                    <person xml:id="GZ">
-                        <persName xml:lang="ko">거지</persName>
-                    </person>
-                    <person xml:id="DYP">
-                        <persName xml:lang="ko">동네 여편네</persName>
-                    </person>
-                    <person xml:id="SB">
-                        <persName xml:lang="ko">선비</persName>
-                    </person>
-                    <person xml:id="HAB">
-                        <persName xml:lang="ko">홀아비</persName>
-                    </person>
-                    <person xml:id="ABJ">
-                        <persName xml:lang="ko">아버지</persName>
-                    </person>
-                    <person xml:id="UNKN">
-                        <persName xml:lang="ko">알 수 없는 사람</persName>
-                    </person>
+                    <person xml:id="BN"><persName xml:lang="ko">복녀</persName></person>
+                    <person xml:id="BNH"><persName xml:lang="ko">복녀의 남편</persName></person>
+                    <person xml:id="GD"><persName xml:lang="ko">감독</persName></person>
+                    <person xml:id="CHN"><persName xml:lang="ko">처녀</persName></person>
+                    <person xml:id="WSB"><persName xml:lang="ko">왕 서방</persName></person>
+                    <person xml:id="LSB"><persName xml:lang="ko">눅 서방</persName></person>
+                    <person xml:id="HNM"><persName xml:lang="ko">형님</persName></person>
+                    <person xml:id="SSX"><persName xml:lang="ko">새색시</persName></person>
+                    <person xml:id="HYS"><persName xml:lang="ko">한방 의사</persName></person>
+                    <person xml:id="GZ"><persName xml:lang="ko">거지</persName></person>
+                    <person xml:id="DYP"><persName xml:lang="ko">동네 여편네</persName></person>
+                    <person xml:id="NI"><persName xml:lang="ko">노인</persName></person>
+                    <person xml:id="HAB"><persName xml:lang="ko">홀아비</persName></person>
+                    <person xml:id="ABJ"><persName xml:lang="ko">아버지</persName></person>
+                    <person xml:id="UNKN"><persName xml:lang="ko">알 수 없는 사람</persName></person>
                 </listPerson>
 
                 <!-- LIST OF PLACES -->
                 <listPlace>
-                    <place xml:id="PS">
-                        <placeName xml:lang="ko">평양 성</placeName>
-                    </place>
-                    <place xml:id="PY">
-                        <placeName xml:lang="ko">평양</placeName>
-                    </place>
-                    <place xml:id="PB">
-                        <placeName xml:lang="ko">평양 부</placeName>
-                    </place>
-                    
-                    <place xml:id="NG">
-                        <placeName xml:lang="ko">농가</placeName>
-                    </place>
-                    <place xml:id="CSMB">
-                        <placeName xml:lang="ko">칠성문 밖 빈민굴</placeName>
-                    </place>
-                    <place xml:id="YGJ">
-                        <placeName xml:lang="ko">연광정</placeName>
-                    </place>
-                    <place xml:id="DDG">
-                        <placeName xml:lang="ko">대동강</placeName>
-                    </place>
-                    <place xml:id="GJM">
-                        <placeName xml:lang="ko">기자묘 솔밭</placeName>
-                    </place>
-                    <place xml:id="JB">
-                        <placeName xml:lang="ko">선비의 집</placeName>
-                    </place>
-                    <place xml:id="KL">
-                        <placeName xml:lang="ko">개울</placeName>
-                    </place>
-                    <place xml:id="DN">
-                        <placeName xml:lang="ko">동네</placeName>
-                    </place>
-                    <place xml:id="PJS">
-                        <placeName xml:lang="ko">전주집</placeName>
-                    </place>
-                    <place xml:id="SSN">
-                        <placeName xml:lang="ko">세상</placeName>
-                    </place>
-                    <place xml:id="KDMJ">
-                        <placeName xml:lang="ko">공동묘지</placeName>
-                    </place>
-                    <place xml:id="BGR">
-                        <placeName xml:lang="ko">밭고랑</placeName>
-                    </place>
-                    <place xml:id="WSBH">
-                        <placeName xml:lang="ko">우리집 (왕 서방)</placeName>
-                    </place>
-                    <place xml:id="BNHS">
-                        <placeName xml:lang="ko">우리집 (복녀)</placeName>
-                    </place>
+                    <place xml:id="PS"><placeName xml:lang="ko">평양 성</placeName></place>
+                    <place xml:id="PY"><placeName xml:lang="ko">평양</placeName></place>
+                    <place xml:id="PB"><placeName xml:lang="ko">평양 부</placeName></place>
+                    <place xml:id="NG"><placeName xml:lang="ko">농가</placeName></place>
+                    <place xml:id="CSMB"><placeName xml:lang="ko">칠성문 밖 빈민굴</placeName></place>
+                    <place xml:id="YGJ"><placeName xml:lang="ko">연광정</placeName></place>
+                    <place xml:id="DDG"><placeName xml:lang="ko">대동강</placeName></place>
+                    <place xml:id="GJM"><placeName xml:lang="ko">기자묘 솔밭</placeName></place>
+                    <place xml:id="DN"><placeName xml:lang="ko">동네</placeName></place>
+                    <place xml:id="PJS"><placeName xml:lang="ko">전주집</placeName></place>
+                    <place xml:id="SSN"><placeName xml:lang="ko">세상</placeName></place>
+                    <place xml:id="KDMJ"><placeName xml:lang="ko">공동묘지</placeName></place>
+                    <place xml:id="BGR"><placeName xml:lang="ko">밭고랑</placeName></place>
+                    <place xml:id="WSBH"><placeName xml:lang="ko">우리집 (왕 서방)</placeName></place>
+                    <place xml:id="BNHS"><placeName xml:lang="ko">우리집 (복녀)</placeName></place>
                 </listPlace>
             </particDesc>
         </profileDesc>
@@ -142,119 +98,18 @@
     <text>
         <body>
             <div>
-                <p>싸움, 간통, 살인, 도둑, 구걸, 징역, 이 세상의 모든 비극과 활극의 근원지인, 
-                    <placeName ref="#CSMB">칠성문 밖 빈민굴</placeName>
-                    로 오기 전까지는, 
-                    <rs ref="#BNH">복녀의 부처</rs> 
-                    는,(사농공상의 제 이 위에 드는) 
-                    <term type="occupation" ref="#BNH">농민</term>이었었다.</p>
-                    
-        
-
-                <p><persName ref="#BN">복녀</persName> 
-                    는, 원래 가난은 하나마 정직한 
-                    <placeName ref="#NG">농가</placeName>
-                    에서 규칙 있게 자라난 
-                    <rs ref="#BN">처녀</rs> 
-                    였었다. 이전 
-                    <persName ref="#SB">선비</persName> 
-                    의 엄한 규율은 
-                    <term type="occupation" ref="#UNKN">농민</term> 
-                    으로 떨어지자부터 없어졌다 하나, 그러나 어딘지는 모르지만 딴 
-                    <term type="occupation" ref="#UNKN">농민</term> 보다는 좀 똑똑하고 엄한 가율이 
-                    <rs type="place" ref="#JB">그의 집</rs> 에 그냥 남아 있었다. </p>
-        
-
-                <p>그 가운데서 자라난 
-                    <persName ref="#BN">복녀</persName> 
-                    는 물론 다른 집 <rs ref="#CHN" type="group">처녀들</rs> 
-                    같이 
-                    <time type="season">여름</time> 
-                    에는 벌거벗고 
-                    <placeName ref="#KL">개울</placeName> 
-                    에서 멱감고, 바짓바람으로 
-                    <placeName ref="#DN">동네</placeName>
-                    를 돌아다니는 것을 예사로 알기는 알았지만, 그러나 그의 마음속에는 막연하나마 도덕이라는 것에 대한 
-                    <seg type="emotion">저품</seg>
-                    을 가지고 있었다.</p>
-        
-
-
-                <p><rs ref="#BN" type="pronoun">그</rs> 
-                    는 
-                    <measure type="age" ref="#BN">열 다섯 살</measure>
-                    <rs ref="#BN" type="pronoun">나</rs> 
-                    는 해에 
-                    <placeName ref="#DN">동네</placeName>
-                    <rs ref="#BNH">홀아비</rs> 
-                    에게 
-                    <measure type="currency">팔십 원</measure> 
-                    에 팔려서 시집이라는 것을 갔다. 
-                    <rs ref="#BN" type="pronoun">그</rs> 
-                    의 
-                    <rs ref="#BNH">새서방</rs> 
-                    (영감이라는 편이 적당할까)이라는 사람은 
-                    <rs ref="#BN" type="pronoun">그</rs>
-                    보다 
-                    <time type="year">이십 년</time> 
-                    이나 위로서, 원래 
-                    <rs ref="#ABJ">아버지</rs> 
-                    의 시대에는 상당한 
-                    <term type="occupation" ref="#UNKN">농민</term> 
-                    으로서 밭도 몇 마지기가 있었으나, 
-                    <rs ref="#BNH" type="pronoun">그</rs> 
-                    의 대로 내려오면서는 하나 둘 줄기 시작하여서, 마지막에 
-                    <persName ref="#BN">복녀</persName> 
-                    를 산 
-                    <measure type="currency">팔십 원</measure> 
-                    이 
-                    <rs ref="#BNH" type="pronoun">그</rs> 
-                    의 마지막 재산이었었다.</p>
-        
-
-                <p><rs ref="#BNH" type="pronoun">그</rs> 
-                    는 극도로 게으른 
-                    <rs ref="#BNH">사람</rs> 
-                    이었었다. 
-                    <placeName ref="#DN">동네</placeName> 
-                    <rs ref="#UNKN">노인</rs>
-                    의 주선으로 소작 밭깨나 얻어주면, 종자나 뿌려둔 뒤에는 후치질도 안하고 김도 안 매고 그냥 버려두었다가는, 
-                    <time type="season">가을</time> 
-                    에 가서는 되는 대로 거두어서 
-                    <p>"<said direct="false" aloud="true" who="#BNH">금년은 흉년이네</said>"</p> 
-                    하고 
-                    <placeName ref="#PJS">전주집</placeName>
-                    에는 가져도 안가고 
-                    <rs ref="#BNH" type="pronoun">자기</rs> 
-                    혼자 먹어버리고 하였다. 그러니까 
-                    <rs ref="#BNH" type="pronoun">그</rs> 
-                    는 한밭을 이태를 연하여 붙여본 일이 없었다. 이리하여 
-                    <time type="year">몇 해</time> 
-                    를 지내는 동안 
-                    <rs ref="#BNH" type="pronoun">그</rs> 
-                    는 그 <placeName ref="#DN">동네</placeName> 
-                    에서는 밭을 못 얻으리만큼 인심과 신용을 잃고 말았다.</p>
-        
-
-                <p><persName ref="#BN">복녀</persName> 
-                    가 시집을 온 뒤, 한 
-                    <time type="year">삼사 년</time> 
-                    은 
-                    <rs ref="#ABJ">장인</rs> 
-                    의 덕으로 이렁저렁 지내갔으나, 이전 
-                    <rs ref="#SB">선비</rs> 
-                    의 꼬리인 
-                    <rs ref="#ABJ">장인</rs> 
-                    도 차차 사위를 밉게 보기 시작하였다. 
-                    <rs ref="#BN #BNH" type="group pronoun">그들</rs> 
-                    은 처가에까지 신용을 잃게 되었다.</p>
+                <p>싸움, 간통, 살인, 도둑, 구걸, 징역, 이 세상의 모든 비극과 활극의 근원지인 <placeName ref="#CSMB">칠성문 밖 빈민굴</placeName>로 오기 전까지는, <rs ref="#BN #BNH">복녀의 부처</rs>는,(<rs type="occupation">사농공상</rs>의 제 이 위에 드는) <rs type="occupation" ref="#BN #BNH">농민</rs>이었었다.</p>
+                <p><persName ref="#BN">복녀</persName>는, 원래 가난은 하나마 정직한 농가에서 규칙 있게 자라난 <rs ref="#BN">처녀</rs>였었다. 이전 <rs type="occupation">선비</rs>의 엄한 규율은 <rs type="occupation">농민</rs>으로 떨어지자부터 없어졌다 하나, 그러나 어딘지는 모르지만 딴 <rs type="occupation">농민</rs>보다는 좀 똑똑하고 엄한 가율이 <rs ref="#BN">그</rs>의 집에 그냥 남아 있었다. 그 가운데서 자라난 <persName ref="#BN">복녀</persName>는 물론 다른 집 <rs ref="#CHN" type="group">처녀들</rs>같이 <date type="season">여름</time>에는 벌거벗고 개울에서 멱감고, 바짓바람으로 <placeName ref="#DN">동네</placeName>를 돌아다니는 것을 예사로 알기는 알았지만, 그러나 <rs ref="#BN">그</rs>의 마음속에는 막연하나마 도덕이라는 것에 대한 저품을 가지고 있었다.</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>는 <measure type="age">열 다섯 살</measure> 나는 해에 <placeName ref="#DN">동네</placeName> <rs ref="#BNH">홀아비</rs>에게 <measure type="currency">팔십 원</measure>에 팔려서 시집이라는 것을 갔다.<rs type="pronoun" ref="#BN">그</rs>의 <rs ref="#BNH">새서방</rs>(영감이라는 편이 적당할까)이라는 <rs ref="#BNH">사람</rs>은 <rs type="pronoun" ref="#BN">그</rs>보다 <measure type="duration" quantity="20" unit="year">이십 년</measure>이나 위로서, 원래 <rs ref="#ABJ">아버지</rs>의 시대에는 상당한 <rs type="occupation">농민</rs>으로서 밭도 몇 마지기가 있었으나, <rs type="pronoun" ref="#BNH">그</rs>의 대로 내려오면서는 하나 둘 줄기 시작하여서, 마지막에 <persName ref="#BN">복녀</persName>를 산 <measure type="currency" quantity="80" unit="won">팔십 원</measure>이 <rs type="pronoun" ref="#BNH">그</rs>의 마지막 재산이었었다.</p>
+                <p><rs type="pronoun" ref="#BNH">그</rs>는 극도로 게으른 <rs ref="#BNH">사람</rs>이었었다. <placeName ref="#DN">동네</placeName> <persName ref="#NI">노인</persName>의 주선으로 소작 밭깨나 얻어주면, 종자나 뿌려둔 뒤에는 후치질도 안하고 김도 안 매고 그냥 버려두었다가는, <date type="season">가을</date>에 가서는 되는 대로 거두어서 '<said direct="false" aloud="true" who="#BNH">금년은 흉년이네</said>' 하고 <placeName ref="#PJS">전주집</placeName>에는 가져도 안가고 <rs type="pronoun" ref="#BNH">자기</rs> 혼자 먹어버리고 하였다. 그러니까 <rs type="pronoun" ref="#BNH">그</rs>는 한밭을 이태를 연하여 붙여본 일이 없었다. 이리하여 <measure type="duration" unit="year">몇 해</measure>를 지내는 동안 <rs type="pronoun" ref="#BNH">그</rs>는 그 <placeName ref="#DN">동네</placeName>에서는 밭을 못 얻으리만큼 인심과 신용을 잃고 말았다.</p>
+                <p><persName ref="#BN">복녀</persName>가 시집을 온 뒤, 한 <measure type="duration" unit="year">삼사 년</measure>은 <rs ref="#ABJ">장인</rs>의 덕으로 이렁저렁 지내갔으나, 이전<rs ref="#SB">선비</rs>의 꼬리인<rs ref="#ABJ">장인</rs>도 차차 사위를 밉게 보기 시작하였다.<rs ref="#BN #BNH" type="group pronoun">그들</rs>은 처가에까지 신용을 잃게 되었다.</p>
                 
 
                 <p><rs ref="#BN #BNH" type="group pronoun">그들 부처</rs> 
                     는 여러 가지로 의논하다가 하릴없이 
                     <placeName ref="#PS">평양 성</placeName> 
                     안으로 막벌이로 들어왔다. 그러나 게으른 
-                    <rs ref="#BNH" type="pronoun">그</rs> 에게는 막벌이나마 역시 되지 않았다. 
+                    <rs type="pronoun" ref="#BNH">그</rs> 에게는 막벌이나마 역시 되지 않았다. 
                     <time type="day">하루 종일</time> 
                     지게를 지고 
                     <placeName ref="#YGJ">연광정</placeName> 
@@ -291,7 +146,7 @@
                     <rs ref="#BNH">님자</rs> 치우시관.</said>"</p>
 
                 <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs ref="#BN" type="pronoun">내</rs> 가 치우나요?</said>"</p>
+                    <rs type="pronoun" ref="#BN">내</rs> 가 치우나요?</said>"</p>
 
                 <p>"<said aloud="true" direct="true" who="#BNH">
                     <time type="year">이십 년</time> 
@@ -337,7 +192,7 @@
 
                 <p><said aloud="true" direct="true" who="#UNKN">젊은 거이 거랑은 왜?</said> 
                     그런 소리를 들을 때마다 
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BN">그</rs>
                     는 여러 가지 말로, 
                     <rs ref="#BNH">남편</rs> 
                     이 병으로 죽어가거니 어쩌거니 핑계는 대었지만, 그런 핑계에는 단련된 
@@ -363,14 +218,14 @@
                     이었었다. 얼굴도 그만하면 빤빤하였다. 그 동네 
                     <rs ref="#UNKN" type="group">여인들</rs> 
                     의 보통 하는 일을 본받아서, 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     도 돈벌이 좀 잘하는 사람의 집에라도 간간 찾아가면, 
                     <time type="day">매일</time>
                     <measure type="currency">오륙십 전</measure> 
                     은 벌 수가 있었지만, 
                     <rs ref="#SB">선비</rs> 
                     의 집안에서 자라난 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     는 그런 일은 할 수가 없었다.</p>
         
 
@@ -413,7 +268,7 @@
                 <p>그러나 
                     <time type="day" quantity="5-6">대엿새</time> 
                     하는 동안에 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     는 이상한 현상을 하나 발견하였다. 그것은 다른 것이 아니라, 젊은 
                     <term type="occupation">여인부</term>
                     한 여나믄 사람은 언제나 
@@ -448,17 +303,17 @@
                     <persName ref="#BN">복네</persName>!</said>"</p>
 
                 <p>"<said aloud="true" who="#BN">왜 그릅네까?</said>"
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BN">그</rs>
                     는 약통과 집게를 놓고 뒤로 돌아섰다.</p>
 
                 <p>"<said aloud="true" direct="true" who="#GD">좀 오나라.</said>"</p>
 
-                <p><rs ref="#BN" type="pronoun">그</rs>는 말없이 
+                <p><rs type="pronoun" ref="#BN">그</rs>는 말없이 
                     <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
                     앞에 갔다.</p>
 
                 <p>"<said aloud="true" direct="true" who="#GD">얘, 
-                    <rs ref="#BN" type="pronoun">너</rs>
+                    <rs type="pronoun" ref="#BN">너</rs>
                     , 음… 데 뒤에 가자.</said>"</p>
                     
 
@@ -466,7 +321,7 @@
 
                 <p>"<said aloud="true" direct="true" who="#GD">글쎄, 가야…</said>"</p>
 
-                <p><rs ref="#BN" type="pronoun">그</rs> 
+                <p><rs type="pronoun" ref="#BN">그</rs> 
                     는 말없이 
                     <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
                     앞에 갔다.</p>
@@ -474,7 +329,7 @@
                 <p>"<said who="#BN">가디요. - 
                     <rs ref="#GD">형님</rs>.</said>"</p>
 
-                <p><rs ref="#BN" type="pronoun">그</rs>
+                <p><rs type="pronoun" ref="#BN">그</rs>
                     는 돌아서면서 
                     <term type="occupation">인부들</term> 
                     모여 있는 데로 고함쳤다.</p>
@@ -516,7 +371,7 @@
                 <p><persName ref="#BN">복녀</persName> 
                     의 도덕관 내지 인생관은, 그때부터 변하였다.</p>
 
-                <p><rs ref="#BN" type="pronoun">그</rs> 
+                <p><rs type="pronoun" ref="#BN">그</rs> 
                     는 아직껏 딴 <rs ref="#UNKN">사내</rs> 
                     와 관계를 한다는 것을 생각하여본 일도없었다. 그것은 
                     <rs ref="#UNKN">사람</rs> 
@@ -531,17 +386,17 @@
                         <orig xml:lang="ja">拍子</orig>
                         <reg xml:lang="ko">박자</reg>
                     </choice> 같은 좋은 일은 이것뿐이었었다. 이것이야말로 삶의 비결이 아닐까. 뿐만 아니라, 이 일이 있은 뒤부터, 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     는 처음으로 한 개 사람이 된 것
                     같은 자신까지 얻었다.</p>
         
 
-                <p>그 뒤부터는, <rs ref="#BN" type="pronoun">그</rs> 
+                <p>그 뒤부터는, <rs type="pronoun" ref="#BN">그</rs> 
                     의 얼굴에는 조금씩 분도 바르게 되었다.</p>
 
                 <time type="year">일년</time>이 지났다.
 
-                <p><rs ref="#BN" type="pronoun">그</rs> 의 처세의 비결은 더욱 더 순탄히 진척되었다. 
+                <p><rs type="pronoun" ref="#BN">그</rs> 의 처세의 비결은 더욱 더 순탄히 진척되었다. 
                     <rs ref="#BN #BNH" type="group pronoun">그의
                     부처</rs> 
                     는 이제는 그리 궁하게 지내지는 않게 되었다.</p>
@@ -577,7 +432,7 @@
                     <rs ref="#GZ" type="pronoun">그</rs> 의 팔에늘어진다.</p>
 
                 <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs ref="#BN" type="pronoun">나</rs> 
+                    <rs type="pronoun" ref="#BN">나</rs> 
                     한테 들킨 댐에는 뀌구야 말아요.</said>"</p>
 
                 <p>"<said aloud="true" direct="true" who="#GZ">
@@ -592,7 +447,7 @@
                 <p>"<said aloud="true" direct="true" who="#BN">글쎄, 알았대두 그른다.</said>"</p>
         
 
-                <p>− <rs ref="#BN" type="pronoun">그</rs>의 성격은 이만큼까지 진보되었다.</p>
+                <p>− <rs type="pronoun" ref="#BN">그</rs>의 성격은 이만큼까지 진보되었다.</p>
 
                 <p><time type="season">가을</time> 이 되었다.</p>
 
@@ -617,11 +472,11 @@
 
                 <p>
                     <time type="night">어떤 날 밤</time>, 
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BN">그</rs>
                     는 <rs type="plant">감자</rs> 
                     를 한 바구니 잘 도둑질하여가지고, 이젠 돌아오려고 일어설 때에, 
-                    <rs ref="#BN" type="pronoun">그</rs> 의 뒤에 시꺼먼 그림자가 서서 
-                    <persName ref="#BN" type="pronoun">그</persName>
+                    <rs type="pronoun" ref="#BN">그</rs> 의 뒤에 시꺼먼 그림자가 서서 
+                    <persName type="pronoun" ref="#BN">그</persName>
                     를 꽉 붙들었다. 보니, 그것은 그 
                     <term type="occupation" ref="#UNKN">밭의 주인</term>인 
                     <rs type="nationality">중국인</rs> 
@@ -644,14 +499,14 @@
                     을 따라갔다.</p>
 
                 <p><time type="hour">한 시간쯤</time> 에 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     는 <persName ref="#WSB">왕 서방</persName> 
                     의 집에서 나왔다. 
-                    <rs ref="#BN" type="pronoun">그</rs>가 
+                    <rs type="pronoun" ref="#BN">그</rs>가 
                     <placeName ref="#BGR">밭고랑</placeName> 
                     에서 길로 들어서려 할 때에, 문득 앞 뒤에서 
                     <persName ref="#HNM" type="pronoun">누가</persName>
-                    <rs ref="#BN" type="pronoun">그</rs>를 찾았다.</p>
+                    <rs type="pronoun" ref="#BN">그</rs>를 찾았다.</p>
             
 
                 <p>"<said aloud="true" direct="true" who="#HNM">
@@ -715,11 +570,11 @@
 
                 <p>
                     <time type="minute">십 분쯤</time> 뒤에 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     는 
                     <rs ref="#BNH">자기 남편</rs> 
                     과, 
-                    <rs ref="#BNH" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BNH">그</rs>
                     앞에 돈 
                     <measure type="currency">삼원</measure> 
                     을 내어놓은 뒤에, 아까 그 
@@ -788,10 +643,10 @@
                     하고 코웃음을 웃고 하였다.</p>
 
                 <p>"<said who="#BN" direct="true" aloud="true">
-                    <persName ref="#BN" type="pronoun">내가</persName> 강짜를 해?</said>" 
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <persName type="pronoun" ref="#BN">내가</persName> 강짜를 해?</said>" 
+                    <rs type="pronoun" ref="#BN">그</rs>
                     는 늘 힘있게 부인하고 하였다. 그러나 
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BN">그</rs>
                     의 마음에 생기는 검은 그림자는 어찌할 수가 없었다.</p>
 
                 <p>"<said who="#BN" aloud="false">
@@ -839,12 +694,12 @@
                     <!-- FINISHED -->
 
                 <p><rs ref="#WSB #SSX" type="group">신랑 신부</rs>는 놀라서 
-                    <rs ref="#BN" type="pronoun">그</rs> 를 쳐다보았다.
+                    <rs type="pronoun" ref="#BN">그</rs> 를 쳐다보았다.
                     그것을 무서운 눈으로 흘겨보면서, 
-                    <rs ref="#BN" type="pronoun">그</rs>는 
+                    <rs type="pronoun" ref="#BN">그</rs>는 
                     <persName ref="#WSB">왕 서방</persName> 
                     에게 가서 팔을 잡고 늘어졌다. 
-                    <rs ref="#BN" type="pronoun">그</rs>
+                    <rs type="pronoun" ref="#BN">그</rs>
                     의 입에서는 이상한 웃음이 흘렀다.</p>
 
                 <p>"<said aloud="true" who="#BN">
@@ -876,7 +731,7 @@
 
                 <p>"<said aloud="true" direct="true" who="#BN">이까짓 것.</said>"</p>
 
-                <p><rs ref="#BN" type="pronoun">그</rs> 
+                <p><rs type="pronoun" ref="#BN">그</rs> 
                     는 발을 들어서 치장한 
                     <rs ref="#SSX">신부</rs>의 머리를 찼다.</p>
 
@@ -892,22 +747,22 @@
 
                 <p><persName ref="#BN">복녀</persName> 
                     는 쓰러졌다. 그러나 곧 다시 일어섰다. 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     가 다시 일어설 때는, 
-                    <rs ref="#BN" type="pronoun">그</rs> 
+                    <rs type="pronoun" ref="#BN">그</rs> 
                     의 손에는 얼른얼른 하는 낫이 한 자루 들리어 있었다.</p>
 
                 <p>"<said aloud="true" direct="true" who="#BN">
                     <rs ref="#WSB">이 되놈</rs>, 죽에라. 
                     <rs ref="#WSB">이놈</rs>, 
-                    <rs ref="#BN" type="pronoun">나</rs> 
+                    <rs type="pronoun" ref="#BN">나</rs> 
                     때렸디! 
                     <rs ref="#WSB">이놈</rs>
                     <seg type="interjection">아, 아이구</seg>
                     <rs type="person">사람</rs> 죽이누나.</said>"</p>
                     <!-- FINISHED -->
 
-                <p><rs ref="#BN" type="pronoun">그</rs> 
+                <p><rs type="pronoun" ref="#BN">그</rs> 
                     는 목을 놓고 처울면서 낫을 휘둘렀다. 
                     <placeName ref="#CSMB">칠성문 밖</placeName>
                     외따른 밭 가운데 홀로 서 있는 
