@@ -5,6 +5,15 @@
       <titleStmt>
         <title>치숙</title>
         <author>채만식<idno type="ISNI">0000 0001 0882 5128</idno></author>
+        <respStmt>
+            <resp>TEI 인코딩</resp>
+            <name>이병주<idno type="ISNI">0000 0004 9386 8211</idno></name>
+        </respStmt>
+        <respStmt>
+            <resp>TEI 검수</resp>
+            <name>지해인<idno type="ISNI">0000 0005 2802 5223</idno></name>
+            <email>cihayin [at] gmail.com</email>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>한국학중앙연구원 디지털인문학연구소</publisher>
@@ -16,16 +25,16 @@
           <publisher>Wikisource(한국어)</publisher>
           <idno type="wikisource">https://ko.wikisource.org/wiki/치숙</idno>
           <idno type="wikisource-info">https://ko.wikisource.org/w/index.php?title=치숙</idno>
-          <idno type="wikisource-id">Q623552</idno>
-          <idno type="wikisource-url">https://www.wikidata.org/wiki/Q623552</idno>
+          <idno type="wikisource-id">Q64788677</idno>
+          <idno type="wikisource-url">https://www.wikidata.org/wiki/Q64788677</idno>
           <note type="acquisition">작업자 이병주가 위키문헌 항목에서 raw data를 취득함.</note>
-          <note type="statementOfResponsibility">조카의 시선으로 고모부를 관찰하는 형식을 통해 일제강점기 지식인의 비참한 현실과 굴절을 풍자적으로 그린 작품 </note>
+          <note type="statementOfResponsibility">조카의 시선으로 고모부를 관찰하는 형식을 통해 일제강점기 지식인의 비참한 현실과 굴절을 풍자적으로 그린 작품</note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>본 전자본은 TEI P5 지침(TEI ALL)에 따라 구조화함.</p>
+        <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
       </projectDesc>
     </encodingDesc>
     <profileDesc>
@@ -35,6 +44,7 @@
       <textClass>
         <keywords scheme="local">
           <term>근현대 한국문학</term>
+          <term>단편소설</term>
         </keywords>
       </textClass>
       <particDesc>
@@ -78,8 +88,14 @@
           <place xml:id="JOSEON" type="country">
             <placeName xml:lang="ko">조선</placeName>
           </place>
-            <place xml:id="JAPAN" type="country">
+          <place xml:id="SEOUL">
+            <placeName xml:lang="ko">서울</placeName>
+          </place>
+          <place xml:id="JAPAN" type="country">
               <placeName xml:lang="ko">일본</placeName>
+          </place>
+          <place xml:id="TOKYO">
+            <placeName xml:lang="ko">동경</placeName>
           </place>
           <place xml:id="SW" type="region">
             <placeName xml:lang="ko">서양</placeName>
@@ -92,51 +108,28 @@
   <text>
     <body>
       <div>
-        <p>우리<persName ref="#AJ">아저씨</persName> 말이지요? 아따 저 거시키, 한참 당년에 무엇이냐 그놈의 것, 사회주의라더냐 막덕이라더냐, 그걸 하다 징역
-          살고 나와서 폐병으로 시방 앓고 누웠는 우리 오촌
-          <persName ref="#AJ"><choice><orig>姑母夫</orig><reg>고모부</reg></choice></persName> 그<persName ref="#AJ">양반</persName>…….</p>
-        <p>뭐, 말도 마시오. 대체 사람이 어쩌면 글쎄…… <persName ref="#ME">내</persName> 원!</p>
+        <p>우리 <persName ref="#AJ">아저씨</persName> 말이지요? 아따 저 거시키, 한참 당년에 무엇이냐 그놈의 것, <term type="ideology">사회주의</term>라더냐 막덕이라더냐, 그걸 하다 징역 살고 나와서 폐병으로 시방 앓고 누웠는 우리 오촌 <rs ref="#AJ">고모부(<foreign xml:lang="zh">姑母夫</foreign>)</rs> 그 <rs ref="#AJ">양반</rs>…….</p>
+        <p>뭐, 말도 마시오. 대체 <rs ref="#AJ">사람</rs>이 어쩌면 글쎄…… <rs ref="#ME">내</rs> 원!</p>
         <p>신세 간데없지요.</p>
-        <p>자, 십 년 적공, 대학교까지 공부한 것 풀어 먹지도 못했지요. 좋은 청춘 어영부영 다 보냈지요, 신분에는
-              <choice><orig>前科者</orig><reg>전과자</reg></choice>라는 붉은 도장 찍혔지요. 몸에는 몹쓸 병까지 들었지요.</p>
+        <p>자, 십 년 적공, 대학교까지 공부한 것 풀어 먹지도 못했지요. 좋은 청춘 어영부영 다 보냈지요, 신분에는 전과자(<foreign xml:lang="zh">前科者</foreign>)라는 붉은 도장 찍혔지요. 몸에는 몹쓸 병까지 들었지요.</p>
         <p>이 신세를 해가지골랑은 굴속 같은 오두막집 단칸 셋방 구석에서 사시장철 밤이나 낮이나 눈 따악 감고 드러누웠군요.</p>
         <p>재산이 어디 집터전인들 있을 턱이 있나요. 서발막대 내저어야 짚검불 하나 걸리는 것 없는 철빈인데.</p>
-        <p>우리 <persName ref="#AJM">아주머니</persName>가, 그래도 그 <persName ref="#AJM">아주머니</persName>가,
-          어질고 얌전해서 그 알량한 <persName ref="#AJ">남편양반</persName> 받드느라
-          삯바느질이야 남의 집 품빨래야 화장품장사야, 그 칙살스런 벌이를 해다가 겨우겨우 목구멍에 풀칠을 하지요.</p>
-        <p>어디루 대나 그<persName ref="#AJ">양반</persName>은 죽는 게 두루 좋은 일인데 죽지도 아니해요.</p>
-        <p>우리 <persName ref="#AJM">아주머니</persName>가 불쌍해요. 아, 진작 한 나이라도 젊어서 팔자를 고치는 게 아니라, 무슨 놈의 우난 후분을 바라고 있다가
-          끝끝내 고생을 하는지.</p>
-        <p>근 이십 년 소박을 당했지요.</p>
-        <p>이십 년을 설운 청춘 한숨으로 보내고서 다 늦게야 송장 여대치게 생긴 그<persName ref="#AJ">양반</persName>을 그래도 <persName
-            ref="#AJ">남편</persName>이라고 모셔다가는 병수발 들랴, 먹고 살랴, 애자진하고 다니는 걸
-          보면 참말 가엾어요.</p>
-        <p>그게 무슨 죄다짐이람? 팔자 팔자 하지만 왜 팔자를 고치지를 못하고서 그래요. 우리 <placeName ref="JOSEON">죄선</placeName> 구식 부인네들은 다 문명을 못
-          하고 깨지를 못 해서 그러지.</p>
-        <p> 그<persName ref="#AJ">양반</persName>이 한시바삐 죽기나 했으면 우리 <persName ref="#AJM">아주머니</persName>는 차라리 신세 편하리다.</p>
-        <p>심덕 좋겠다, 솜씨 얌전하겠다 하니, 어디 가선들 자기 일신 몸 가누고 편안히 못 지내요?</p>
-        <p>가만있자, 열여섯 살에 <persName ref="#AJ">아저씨</persName>네 집으로 시집을 갔다니깐, 그게 <persName ref="#ME">내가</persName> 세 살 적이니
-          꼬박 열여덟 해로군. 열여덟 해면 이십 년 아니오.</p>
-        <p>그때 우리 <persName ref="#AJ">아저씨</persName> 양반은 나이 어리기도 했지만, 공부를 한답시고 <placeName>서울</placeName>로
-          <placeName ref="JAPAN">동경</placeName>으로 십여 년이나 돌아다녔고, 조금 자라서 색시 재미를 알 만하니까는 누가 이쁘달까 봐 이혼하자고
-            <persName ref="#AJM">아주머니</persName>를 친정으로 쫓고는 통히 불고를 하고…….</p>
-        <p>공부를 다 마치고 오더니만, 그 담에는 그놈의 짓에 들입다 발광해 다니면서 명색 학생 출신이라는 딴 <persName
-            ref="CH">여편네</persName>를 얻어 살았지요. 그 <persName
-              ref="CH">여편네</persName>는
-            <persName ref="#ME">나</persName>도 몇 번 보았지만 쌍판대기라고 별반 출 수도 없이 생겼습디다. 그 인물로 남의 <persName
-              ref="CH">첩</persName>이야? 일색소박은 있어도 박색소박은
-          없다더니, 사실 소박맞은 우리 <persName ref="#AJM">아주머니</persName>가 그 <persName
-            ref="CH">여편네</persName>게다 대면 월등 이뻤다우.</p>
-        <p>그래 그 뒤에,  그<persName ref="#AJ">양반</persName>은 필경 붙들려 가서 오 년이나 전중이를 살았지요. 그 동안에 <persName ref="#AJM">아주머니</persName>는 시집이고 친정이고 모두 폭
-          망해서 의지가지없이 됐지요.</p>
+        <p>우리 <persName ref="#AJM">아주머니</persName>가, 그래도 그 <persName ref="#AJM">아주머니</persName>가, 어질고 얌전해서 그 알량한 <rs ref="#AJ">남편양반</rs> 받드느라 삯바느질이야 남의 집 품빨래야 화장품장사야, 그 칙살스런 벌이를 해다가 겨우겨우 목구멍에 풀칠을 하지요.</p>
+        <p>어디루 대나 그 <rs ref="#AJ">양반</rs>은 죽는 게 두루 좋은 일인데 죽지도 아니해요.</p>
+        <p>우리 <persName ref="#AJM">아주머니</persName>가 불쌍해요. 아, 진작 한 나이라도 젊어서 팔자를 고치는 게 아니라, 무슨 놈의 우난 후분을 바라고 있다가 끝끝내 고생을 하는지.</p>
+        <p>근 <measure type="duration" quantity="20" unit="year">이십 년</measure> 소박을 당했지요.</p>
+        <p><measure type="duration" quantity="20" unit="year">이십 년</measure>을 설운 청춘 한숨으로 보내고서 다 늦게야 송장 여대치게 생긴 그 <rs ref="#AJ">양반</rs>을 그래도 <persName ref="#AJ">남편</persName>이라고 모셔다가는 병수발 들랴, 먹고 살랴, 애자진하고 다니는 걸 보면 참말 가엾어요.</p>
+        <p>그게 무슨 죄다짐이람? 팔자 팔자 하지만 왜 팔자를 고치지를 못하고서 그래요. 우리 <placeName ref="#JOSEON">죄선</placeName> 구식 부인네들은 다 문명을 못 하고 깨지를 못 해서 그러지.</p>
+        <p>그 <rs ref="#AJ">양반</rs>이 한시바삐 죽기나 했으면 우리 <persName ref="#AJM">아주머니</persName>는 차라리 신세 편하리다.</p>
+        <p>심덕 좋겠다, 솜씨 얌전하겠다 하니, 어디 가선들 <rs ref="#AJM">자기</rs> 일신 몸 가누고 편안히 못 지내요?</p>
+        <p>가만있자, <measure type="age" quantity="16">열여섯 살</measure>에 <persName ref="#AJ">아저씨</persName>네 집으로 시집을 갔다니깐, 그게 <rs ref="#ME">내</rs>가 <measure type="age" quantity="3">세 살</measure> 적이니 꼬박 <measure type="duration" quantity="18" unit="year">열여덟 해</measure>로군. <measure type="duration" quantity="18" unit="year">열여덟 해</measure>면 <measure type="duration" quantity="20" unit="year">이십 년</measure> 아니오.</p>
+        <p>그때 우리 <persName ref="#AJ">아저씨</persName> 양반은 나이 어리기도 했지만, 공부를 한답시고 <placeName ref="#SEOUL">서울</placeName>로 <placeName ref="#TOKYO">동경</placeName>으로 <measure type="duration" quantity="10" unit="year">십여 년</measure>이나 돌아다녔고, 조금 자라서 색시 재미를 알 만하니까는 누가 이쁘달까 봐 이혼하자고 <persName ref="#AJM">아주머니</persName>를 친정으로 쫓고는 통히 불고를 하고…….</p>
+        <p>공부를 다 마치고 오더니만, 그 담에는 <rs type="ideology">그놈의 짓</rs>에 들입다 발광해 다니면서 명색 학생 출신이라는 딴 <rs ref="#CH">여편네</rs>를 얻어 살았지요. 그 <rs ref="CH">여편네</rs>는 <persName ref="#ME">나</persName>도 몇 번 보았지만 쌍판대기라고 별반 출 수도 없이 생겼습디다. 그 인물로 <rs ref="#AJ">남</rs>의 <persName ref="#CH">첩</persName>이야? 일색소박은 있어도 박색소박은 없다더니, 사실 소박맞은 우리 <persName ref="#AJM">아주머니</persName>가 그 <rs ref="CH">여편네</rs>게다 대면 월등 이뻤다우.</p>
+        <p>그래 그 뒤에, 그 <rs ref="#AJ">양반</rs>은 필경 붙들려 가서 <measure type="duration" quantity="5" unit="year">오 년</measure>이나 전중이를 살았지요. 그 동안에 <persName ref="#AJM">아주머니</persName>는 시집이고 친정이고 모두 폭망해서 의지가지없이 됐지요.</p>
         <p>그러니 어떻게 해요? 자칫하면 굶어 죽을 판인데.</p>
-        <p>할 수 없이 얻어먹고 살기도 해야 하려니와, 또 <persName ref="#AJ">아저씨</persName> 나오는 것도 기다려야 한다고
-            <persName ref="ME">나</persName>를 반연삼아 <placeName>서울</placeName>로 올라왔더군요. 그게 그러니까
-            <persName ref="#AJ">아저씨</persName>가 나오던 그 전해로군.</p>
-        <p>그때 <persName ref="ME">내</persName>가 나이는 어려도 두루 납뛴 보람이 있어서 이내 <persName ref="#KRD">구라다상</persName>네 식모로 들어갔지요.
-          그 무렵에 참 <persName ref="ME">내</persName>가
-          <persName ref="#AJM">아주머니</persName>더러 여러 번 권면을 했지요. 그러지 말고
-            <choice><orig>改嫁</orig><reg>개가</reg></choice>를 가라고. 글쎄 어린 소견에도 보기에 퍽 딱하고 민망합디다.</p>
+        <p>할 수 없이 얻어먹고 살기도 해야 하려니와, 또 <persName ref="#AJ">아저씨</persName> 나오는 것도 기다려야 한다고 <persName ref="ME">나</persName>를 반연삼아 <placeName ref="#SEOUL">서울</placeName>로 올라왔더군요. 그게 그러니까 <persName ref="#AJ">아저씨</persName>가 나오던 그 <date>전해</date>로군.</p>
+        <p>그때 <rs ref="ME">내</rs>가 나이는 어려도 두루 납뛴 보람이 있어서 이내 <persName ref="#KRD">구라다상</persName>네 <rs ref="ME">식모</rs>로 들어갔지요. 그 무렵에 참 <rs ref="ME">내</rs>가 <persName ref="#AJM">아주머니</persName>더러 여러 번 권면을 했지요. 그러지 말고 개가(<foreign xml:lang="zh">改嫁</foreign>)를 가라고. 글쎄 어린 소견에도 보기에 퍽 딱하고 민망합디다.</p>
+
         <p>계제에 마침 또 좋은 자리가 있었고요. <persName ref="MN">미네상</persName>이라고 <orgName>미쓰꼬시</orgName> 앞에서 바나나 다다키우리를
           하는 인데 사람이 퍽 좋아요.</p>
         <p>우리집 <persName ref="DS"><choice><orig>主人</orig><reg>다이쇼</reg></choice></persName>도 잘 알고 하는데, 그이가 늘
