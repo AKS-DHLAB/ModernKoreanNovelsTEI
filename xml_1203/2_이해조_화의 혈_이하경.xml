@@ -1058,16 +1058,16 @@
             과 한동리에셔 죽마고교로 자라ᄂᆞ셔 여형약졔(如兄若弟)ᄒᆞ게 졍의가 두터올 ᄲᅮᆫ 안이라 
             <rs type="org" subtype="household" ref="#IMC_F"><persName ref="#IMC">임씨</persName>
             의 집</rs>은 젹이 조슈족을 ᄒᆞᆯ만 ᄒᆞ고 
-            <rs type="person" ref="#LDS_F"><persName ref="#LDS">리시찰</persName>
+            <rs type="org" ref="#LDS_F"><persName ref="#LDS">리시찰</persName>
             의 집</rs>은 극히 빈한ᄒᆞᆫ 탓으로 
             <persName ref="#IMC_M">임씨 어머니</persName>
             가 
             <persName ref="#LDS">리시찰</persName>
             을 <rs type="person" subtype="metaphor" ref="#LDS">자긔 쇼ᄉᆡᆼ 아ᄃᆞᆯ</rs>이ᄂᆞ 다름 업시 ᄇᆡ가 곱하ᄒᆞ면 음식도 것어 먹이고 헐버셔 치워ᄒᆞ면 의복도 쥬어 닙히니 어린 아ᄒᆡᄂᆞᆫ 괴이ᄂᆞᆫ 곳으로 간다고 
             <persName ref="#LDS">리시찰</persName>
-            이 <rs type="person" ref="#LDS_F"><rs type="person" ref="#LDS">자긔</rs> 집</rs>은 남의 집 보듯 ᄒᆞ야도 
+            이 <rs type="org" ref="#LDS_F"><rs type="person" ref="#LDS">자긔</rs> 집</rs>은 남의 집 보듯 ᄒᆞ야도 
             <rs type="org" subtype="household" ref="#IMC_F"><persName ref="#IMC">임씨</persName>
-            의 집</rs>은 <rs type="person" ref="#LDS_F"><rs type="person" ref="#LDS">자긔</rs> 집</rs>보다 더 녁여 머리도 종종 
+            의 집</rs>은 <rs type="org" ref="#LDS_F"><rs type="person" ref="#LDS">자긔</rs> 집</rs>보다 더 녁여 머리도 종종 
             <persName ref="#IMC_M">임씨 어머니</persName>
              손에 빗고 잠도 
             <persName ref="#IMC_M">임씨 어머니</persName>
@@ -1673,7 +1673,7 @@
              몸이 편치못ᄒᆞ닛가 슈졉ᄒᆞ기가 귀치안아 뎌리 ᄒᆞ거니 ᄒᆞ얏다가 <date type="duration">여러 날</date>이 되도록 일향 한 모양으로 안이보니 그졔는 의심이 업지 못ᄒᆞ야 슬몃이 사ᄅᆞᆷ을 노아 
             <persName ref="#SC">션초</persName>
             의 병셰 유무ᄅᆞᆯ 탐지ᄒᆡ 보니 그동안 엇더케 알ᄂᆞ니 엇의가 압흐니 ᄒᆞ던 것이 모도다 ᄯᆞᆫ 소리라. 그졔는 분심이 ᄐᆡᆼ즁ᄒᆞ야 당쟝 <orgName ref="#YJ">역졸</orgName>을 푸렁 
-            <rs type="place" ref="#SC_F"><persName ref="#CHB">쵀호방</persName>의 집 식구</rs>ᄅᆞᆯ 모조리 잡아다가 물벗김으로 치도곤을 퍽퍽 ᄯᅡ리고 
+            <rs type="org" subtype="household" ref="#SC_F"><persName ref="#CHB">쵀호방</persName>의 집 식구</rs>ᄅᆞᆯ 모조리 잡아다가 물벗김으로 치도곤을 퍽퍽 ᄯᅡ리고 
             <persName ref="#SC">션초</persName>
             를 반ᄶᅡᆨ 들어오고 십으나 <rs type="person" ref="#LDS">그</rs>는 명여관계에 ᄒᆞ는 슈 업고 그ᄃᆡ로 두고 
             <rs type="person" ref="#SC">졔</rs>
@@ -1684,7 +1684,7 @@
             "<said who="#LDS" aloud="false" direct="true">
               올치 되얏다······· ᄒᆡᆺ스면 <date type="duration">몃 칠</date> 안이되야 
               <rs type="person" ref="#SC">졔</rs>
-              가 졀로 쓸쓸 긔여 드러오고 말지. <date type="relative" subtype="this_day">오날</date>은 기위 졉으럿스니 <date type="relative" subtype="next_day">ᄅᆡ일</date> <time type="timeOfDay" subtype="dawn">쳣 ᄉᆡ벽</time>에 거조를 ᄒᆞ야 보리라.
+              가 졀로 쓸쓸 긔여 드러오고 말지. <date type="relative" subtype="this_day">오날</date>은 기위 졉으럿스니 <date type="relative" subtype="next_day">ᄅᆡ일</date> <time>쳣 ᄉᆡ벽</time>에 거조를 ᄒᆞ야 보리라.
             </said>"</p>
           <p>
             ᄒᆞ고 일심 졍력이 
@@ -1732,7 +1732,7 @@
             <persName ref="#LDS">리시찰</persName>
             을 ᄎᆞᄌᆞ 
             <placeName ref="#JS">쟝셩군</placeName>
-            에ᄅᆞᆯ <time type="timeOfDay" subtype="that_night">그 밤</time>ᄂᆡ로 드러온다는 풍셜을 어셔 엇어 듯고 겁결에 ᄌᆞ셰탐지ᄒᆡ 볼 여부 업시 한다름에 
+            에ᄅᆞᆯ <time>그 밤</time>ᄂᆡ로 드러온다는 풍셜을 어셔 엇어 듯고 겁결에 ᄌᆞ셰탐지ᄒᆡ 볼 여부 업시 한다름에 
             <rs type="place" ref="#LDS_JS_H"><persName ref="#LDS">리시찰</persName>
              쳐소</rs>로 와셔 엇더케 풍을 쳐노왓던지 
             <persName ref="#LDS">리시찰</persName>
@@ -1740,7 +1740,7 @@
             <rs type="person" ref="#LDS">ᄌᆞ긔</rs>
             의 지은 ᄌᆈ가 잇슨 즉 ᄌᆞ겁이 안이날 슈 업셔 그 모양으로 도망ᄒᆞᆫ 것이라. 
             <rs type="place" ref="#JS">쟝셩디방</rs>
-            을 <time type="timeOfDay" subtype="that_night">그 밤</time> ᄉᆡ기 젼에 지나 
+            을 <time>그 밤</time> ᄉᆡ기 젼에 지나 
             <placeName type="place" subtype="local" ref="https://encykorea.aks.ac.kr/Article/E0037206">영광</placeName>
             <placeName type="place" subtype="local" ref="https://encykorea.aks.ac.kr/Article/E0013800">담양</placeName>
             으로 
@@ -1782,7 +1782,7 @@
             <persName ref="#CHB">쵀호방</persName>
             의 멱살을 치켜 잡고 이 ᄲᅡᆷ 져 ᄲᅡᆷ ᄉᆞ졍 업시 치며 ᄭᅩᆼ문이에셔 ᄲᆞᆯᄂᆡ줄 ᄀᆞᆺ흔 삼시위 로오리ᄅᆞᆯ 쑥 ᄲᆡ여 
             <persName ref="#CHB">쵀호방</persName>
-            의 두 손목을 ᄭᅳᆫ어지거라 ᄒᆞ고 잔ᄯᅳᆨ 잘나ᄆᆡ더니 덜미를 턱턱 집허 압셰우고 가는지라. 그 디경이 되닛가 <rs type="place" ref="#SC_F">왼집안</rs>이 란가가 되야 엇진 곡졀인지 모르고 황황 망조ᄒᆞ는ᄃᆡ 
+            의 두 손목을 ᄭᅳᆫ어지거라 ᄒᆞ고 잔ᄯᅳᆨ 잘나ᄆᆡ더니 덜미를 턱턱 집허 압셰우고 가는지라. 그 디경이 되닛가 <rs type="org" subtype="household" ref="#SC_F">왼집안</rs>이 란가가 되야 엇진 곡졀인지 모르고 황황 망조ᄒᆞ는ᄃᆡ 
             <persName ref="#SC">션초</persName>
             는 
             <rs type="person" ref="#CHB"><rs type="person" ref="#SC">져</rs>
@@ -1855,7 +1855,7 @@
           <p>"<said who="#LDS" aloud="true" direct="true">
             <rs type="person" ref="#CHB">이 놈</rs>
              무슨 잔소리야. 무죄ᄒᆞ면 
-            <rs type="person" ref="#HAIN"><rs type="place" ref="#SC_F"><rs type="person" ref="#CHB">네</rs>
+            <rs type="person" ref="#HAIN"><rs type="org" subtype="household" ref="#SC_F"><rs type="person" ref="#CHB">네</rs>
             집</rs> 하인</rs>이 
             <placeName ref="#P_GB">고부읍</placeName>
             에셔 작란ᄒᆞ던 
@@ -1955,10 +1955,10 @@
             <rs type="person" ref="#SC">이 계집ᄋᆡ</rs>
              듯기 슬타. <date type="relative" subtype="this_day">오ᄂᆞᆯ날</date> 
             <rs type="person" ref="#CHB"><rs type="person" ref="#SC">너</rs>의 아바지</rs>
-            뎌 고ᄉᆡᆼᄒᆞᄂᆞᆫ 것이 모도다 <rs type="person" ref="#SC">뉘</rs> 탓이냐. 긔왕 팔ᄌᆞ가 사오나와 <rs type="person" subtype="gisaeng" ref="#SC">기ᄉᆡᆼ</rs>인지 <rs type="person" subtype="gisaeng" ref="#SC">비ᄉᆡᆼ</rs>인지 되엿스면 유난스럽게 굴지 말고 남과 ᄀᆞᆺ치 츄월츈풍(<foreign xml:lang="zh">秋月春風</foreign>)으로 지나거나 ᄯᅩ 한 ᄆᆞᄋᆞᆷ 한 ᄯᅳᆺ을 먹엇거던 <rs type="event">연회</rs>파ᄒᆞᆫ 뒤에 진즉 <rs type="place" ref="#SC_H">집</rs>으로 나올 것이지 무엇을 ᄒᆞ러 어슬넝 어슬넝 ᄯᅡ라갓다가 <rs type="place" ref="#SC_F">집안</rs>을 이 디경이 되게 ᄒᆞ얏ᄂᆞ냐.
+            뎌 고ᄉᆡᆼᄒᆞᄂᆞᆫ 것이 모도다 <rs type="person" ref="#SC">뉘</rs> 탓이냐. 긔왕 팔ᄌᆞ가 사오나와 <rs type="person" subtype="gisaeng" ref="#SC">기ᄉᆡᆼ</rs>인지 <rs type="person" subtype="gisaeng" ref="#SC">비ᄉᆡᆼ</rs>인지 되엿스면 유난스럽게 굴지 말고 남과 ᄀᆞᆺ치 츄월츈풍(<foreign xml:lang="zh">秋月春風</foreign>)으로 지나거나 ᄯᅩ 한 ᄆᆞᄋᆞᆷ 한 ᄯᅳᆺ을 먹엇거던 <rs type="event">연회</rs>파ᄒᆞᆫ 뒤에 진즉 <rs type="place" ref="#SC_H">집</rs>으로 나올 것이지 무엇을 ᄒᆞ러 어슬넝 어슬넝 ᄯᅡ라갓다가 <rs type="org" subtype="household" ref="#SC_F">집안</rs>을 이 디경이 되게 ᄒᆞ얏ᄂᆞ냐.
           </said>"</p>
           <p>
-            한참 이 모양으로 <rs ref="#SC #CH1" type="person" subtype="group">모녀</rs>가 말을 ᄒᆞᄂᆞᆫᄃᆡ 다년 <rs type="place" ref="#SC_F"><rs ref="#SC #CH1" type="person" subtype="group">자긔</rs>집</rs> 하인이나 다름업시 단이ᄂᆞᆫ 
+            한참 이 모양으로 <rs ref="#SC #CH1" type="person" subtype="group">모녀</rs>가 말을 ᄒᆞᄂᆞᆫᄃᆡ 다년 <rs type="org" subtype="household" ref="#SC_F"><rs ref="#SC #CH1" type="person" subtype="group">자긔</rs>집</rs> 하인이나 다름업시 단이ᄂᆞᆫ 
             <rs type="person" ref="#GB">관비</rs>
             가 분쥬히 드러오더니
           </p>
@@ -1981,7 +1981,7 @@
           </said>"</p>
           <p>"<said who="#GB" aloud="true" direct="true">
             ᄌᆞ연 그리 ᄒᆡᆺ슴니다. 에그 
-            <rs type="person" ref="#SC_F">ᄃᆡᆨ</rs>
+            <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>
             에셔야 여복 걱졍이 되시겟슴닛가. 
             <rs type="person" ref="#CHB">나으리</rs>
             ᄭᅦ셔 뎌 디경이 되셔셔.
@@ -1990,8 +1990,8 @@
           <p>"<said who="#GB" aloud="true" direct="true">
             <rs type="person" ref="#GB">졔</rs>
             가 
-            <rs type="place" ref="#SC_F">ᄃᆡᆨ</rs>
-            을 <rs type="place" ref="#SC_F">샹젼ᄃᆡᆨ</rs> ᄀᆞᆺ치 바라고 단이ᄂᆞᆫᄃᆡ 
+            <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>
+            을 <rs type="org" subtype="household" ref="#SC_F">샹젼ᄃᆡᆨ</rs> ᄀᆞᆺ치 바라고 단이ᄂᆞᆫᄃᆡ 
             <rs type="person" ref="#CHB">나으리</rs>
              쇼문을 듯ᄉᆞᆸ고 엇지 놀나온지 한 다름에 ᄯᅱ여가 
             <persName type="alias" ref="#SK">김션달</persName>
@@ -2020,7 +2020,7 @@
             이 
             <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
             ᄭᅴ 아조 단벌 로긴ᄒᆞ다고 ᄒᆞᄋᆞᆸ길ᄂᆡ 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>
             나으리</rs>
             ᄭᅦ셔 무슨 죄로 잡히셧ᄂᆞᆫ지 큰 형벌이나 아니 당ᄒᆞ시고 슈히 노이실ᄂᆞᆫ지 
             <rs type="person" ref="#GB_S"><rs type="person" ref="#GB">졔</rs>
@@ -2116,7 +2116,7 @@
              진뎡ᄒᆞᆸ시오 말이 그럿치 셜마 엇더ᄒᆞ릿가. 
             <rs type="person" ref="#GB">졔</rs>
             가 
-            <rs type="place" ref="#SC_F">ᄃᆡᆨ</rs>
+            <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>
             에ᄅᆞᆯ 별로 갓가히 안이단이ᄂᆞᆫ 톄ᄒᆞ고 
             <persName type="alias" ref="#SK">김션달</persName>
             에게 다시 무러보아 만약 풍셜이게 되면 다시 말ᄉᆞᆷᄒᆞᆯ 거 업시 둇ᄉᆞᆷ고 그러치 못ᄒᆞᄋᆞᆸ거던 즉시 와 엿쥴 것이니 힘자라ᄂᆞᆫ ᄃᆡ로 쥬션ᄒᆞ야 보십시오.
@@ -2134,7 +2134,7 @@
           <p>"<said who="#SC" aloud="true" direct="true">
             <persName ref="#GB">간난 어멈</persName>
             . 그ᄅᆡ 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs>나으리마님</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>나으리마님</rs>
              일을 ᄌᆞ셰 알아보고 왓나.
           </said>"</p>
           <p>
@@ -2182,7 +2182,7 @@
           <p>"<said who="#CH1" aloud="true" direct="true">
             노여나오ᄂᆞᆫ 것이 다 무엇이냐. <date type="relative">닷ᄉᆡ 후</date>며는 <rs type="place" ref="#JS">홍문밧 ᄉᆞᆷ거리</rs>에다 내여다 안치고 총으로 노아 쥭인단다. 에그 남은 열 ᄌᆞ식을 두어도 아모탈 업더구면 
             <rs ref="#CH1 #CHB" type="person" subtype="group">우리</rs>
-            ᄂᆞᆫ 변변치 못ᄒᆞᆫ <rs ref="#SC #MR">ᄯᆞᆯ 형뎨</rs>를 두엇ᄂᆞᆫᄃᆡ <rs type="person" subtype="generalalization" ref="#SC">ᄯᆞᆯ</rs>에 효도 보기는 바라도 아니ᄒᆞ지마는 
+            ᄂᆞᆫ 변변치 못ᄒᆞᆫ <rs type="person" ref="#SC #MR">ᄯᆞᆯ 형뎨</rs>를 두엇ᄂᆞᆫᄃᆡ <rs type="person" subtype="generalalization" ref="#SC">ᄯᆞᆯ</rs>에 효도 보기는 바라도 아니ᄒᆞ지마는 
             <rs type="person" ref="#SC">너</rs>
             로 인ᄒᆞ야 ᄉᆡᆼᄯᅦ갓흔 
             <rs type="person" ref="#CHB">아비</rs>
@@ -2238,7 +2238,7 @@
              아오</rs>를 식여 
             <persName type="alias" ref="#SK">김션달</persName>
             에게 다시 알아도 <date type="relative">몃 칠 후</date>면 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
              일이 ᄎᆞᆷ아 입으로 옴기지 못ᄒᆞᆯ 지경이라 ᄒᆞ기에 
             <rs type="person" ref="#GB">졔</rs>
              말로 하ᄂᆞᆯ이 문어져도 소사나올 구멍이 잇다ᄂᆞᆫᄃᆡ 엇더케 일폐일 도리가 업겟ᄂᆞ냐 무른 즉 
@@ -2269,7 +2269,7 @@
             만 쥭을 터이지 ᄒᆞ는 말을 듯고 
             <rs type="person" ref="#GB">져</rs>
              되야셔 
-            <rs type="place" ref="#SC_F">ᄃᆡᆨ</rs>
+            <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>
             에 와 엿줍지 아니ᄒᆞᆯ 가망이 잇슴닛가.
           </said>"</p>
           <p>
@@ -2320,7 +2320,7 @@
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
             여보게 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
              무죄 ᄇᆡᆨ방되시고 못되시ᄂᆞᆫ 것은 
             <persName ref="#GB">갓난 어멈</persName>
              쥬션만 밋으니 아모됴록 힘을 잘 써 보게.
@@ -2340,7 +2340,7 @@
           <p>"<said who="#GB" aloud="true" direct="true">
             <rs type="person" ref="#SC">자근 아씨</rs>
              그난 아모 걱졍 말으시고 한 마듸 말ᄉᆞᆷ만 쾌히 ᄒᆞ시면 <date type="relative" subtype="next_day">ᄅᆡ일</date>이라도 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
             ᄭᅴ셔 ᄂᆞ오시도록 힘을 써 보오리다.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
@@ -2378,7 +2378,7 @@
             <rs type="person" ref="#SC">졔</rs>
             가 될 말인가 어려올 것 업지. 
             <rs type="person" ref="#SC">졔</rs>
-             소원ᄃᆡ로 다 ᄒᆞ야 줄 것이니 <time type="timeOfDay" subtype="this_night">오날ㅅ밤</time>이라도 드러오라고 말ᄒᆞ여라.
+             소원ᄃᆡ로 다 ᄒᆞ야 줄 것이니 <time>오날ㅅ밤</time>이라도 드러오라고 말ᄒᆞ여라.
           </said>"</p>
           <p>"<said who="#SK" aloud="true" direct="true">예. 그리ᄒᆞ게슴니다.</said>"</p>
           <p>
@@ -2422,7 +2422,7 @@
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             일이 되ᄂᆞᆫ 이샹에 은근ᄒᆞ나 왁자ᄒᆞ나 아모 관계 업거니와 만일 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
             ᄭᅴ셔 언의 ᄯᅢ던지 노혀 나오신 뒤라야 
             <rs type="person" ref="#SC">내</rs>
             가 가던지 
@@ -2440,7 +2440,7 @@
             는 무슨 ᄭᅩᆯ이겟나. 두 말 말고 
             <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
             다려 오ᄂᆞᆯ이라도 
-            <rs type="person" ref="#CHB"><rs type="place" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
+            <rs type="person" ref="#CHB"><rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs> 나으리</rs>
             만 무죄 ᄇᆡᆨ방만 ᄒᆞ시라게. 
             <rs type="person" ref="#SC">내</rs>
             가 한 번 허락ᄒᆞᆫ 이샹에 위반ᄒᆞᆯ 리가 만무ᄒᆞ고 ᄯᅩᄂᆞᆫ 
@@ -2454,7 +2454,7 @@
           <p>"<said who="#GB" aloud="true" direct="true">
             드르실 약됴ᄂᆞᆫ ᄯᅩ 무엇이오닛가. 아조 지금 다 시원ᄒᆞ게 닐너 주십시오. 좌우간 이번 가셔 
             <rs type="person" ref="#LDS">슈의ᄉᆞㅅ</rs>
-            의 의향을 알고 오겟슴니다. 에구 <rs ref="#SC_F">ᄃᆡᆨ</rs>일이 안이면 옷이 남닛가 . 밥이 남닛가 이 ᄋᆡᄅᆞᆯ 쓰고 단니게오.
+            의 의향을 알고 오겟슴니다. 에구 <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>일이 안이면 옷이 남닛가 . 밥이 남닛가 이 ᄋᆡᄅᆞᆯ 쓰고 단니게오.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             아모렴 그러치. 약됴ᄂᆞᆫ 별 것이 안이라 <date type="relative" subtype="last_day">어제</date> 말과 ᄀᆞᆺ치 
@@ -2582,19 +2582,19 @@
             을 종용히 부르며
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SK">이 ᄋᆡ</rs> <rs ref="#SK">너</rs>
-            <rs ref="#SC_F"><persName ref="#CHB">쵀호방</persName>
-            의 집</rs> 쇼식을 드럿ᄂᆞ냐. 필경 <rs ref="#SC_F">웬 집안</rs>이 됴화들 ᄒᆞ겟지.
+            <rs type="person" ref="#SK">이 ᄋᆡ</rs> <rs type="person" ref="#SK">너</rs>
+            <rs type="org" subtype="household" ref="#SC_F"><persName ref="#CHB">쵀호방</persName>
+            의 집</rs> 쇼식을 드럿ᄂᆞ냐. 필경 <rs type="org" subtype="household" ref="#SC_F">웬 집안</rs>이 됴화들 ᄒᆞ겟지.
           </said>"</p>
           <p>
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             이 두 손을 마조잡고 호리를 굽슬ᄒᆞ며
           </p>
           <p>"<said who="#SK" aloud="true" direct="true">
             됴화ᄒᆞᆯ ᄲᅮᆫ이오닛가. 
-            <rs ref="#SC_F"><rs ref="#CHB">져</rs>의
+            <rs type="org" subtype="household" ref="#SC_F"><rs type="person" ref="#CHB">져</rs>의
              집</rs>에셔ᄂᆞᆫ 큰 경ᄉᆞ가 난 듯이 깃버ᄒᆞ며 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              송덕을 만셰불망으로 ᄒᆞᆫ다 ᄒᆞᆷ니다.
           </said>"</p>
           <p>
@@ -2602,26 +2602,26 @@
             이 ᄭᅥᆯᄭᅥᆯ 우스며
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC_F">시럽신 것들</rs>이로구나. 송덕은 무슨 송덕 
+            <rs type="org" subtype="household" ref="#SC_F">시럽신 것들</rs>이로구나. 송덕은 무슨 송덕 
             <rs ref="#CHB">졔</rs>
             가 실범이 업스니 그러치 실범이 잇셔도 노혓슬가. 
-            <rs ref="#SK">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SK">이 ᄋᆡ</rs>
              그러ᄂᆞ 
             <persName ref="#SC">션초</persName>
-            가 <time type="timeOfDay" subtype="this_night">오날밤</time>에 뎡녕히 오기ᄂᆞᆫ ᄒᆞ겟지.
+            가 <time>오날밤</time>에 뎡녕히 오기ᄂᆞᆫ ᄒᆞ겟지.
           </said>"</p>
           <p>"<said who="#SK" aloud="true" direct="true">
             그다 ᄲᅮᆫ이오닛가. 
-            <rs ref="#SK">졔</rs>
-            가 언의 <rs ref="#LDS">존젼</rs>이라고 거즌 말ᄉᆞᆷ을 엿쥬엇겟슴닛가.
+            <rs type="person" ref="#SK">졔</rs>
+            가 언의 <rs type="person" ref="#LDS">존젼</rs>이라고 거즌 말ᄉᆞᆷ을 엿쥬엇겟슴닛가.
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SK">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SK">이 ᄋᆡ</rs>
              졀은 소ᄅᆡ로 긴밤 ᄉᆡ겟ᄂᆞ냐. 밤들기 젼에 어셔 오라고 가 일너라.
           </said>"</p>
           <p>"<said who="#SK" aloud="true" direct="true">예. 그리ᄒᆞ오리다</said>"</p>
           <p>
-            ᄒᆞ고 <rs ref="#GB_S"><rs ref="#SK">졔</rs> 쥬인</rs>으로 나와 
+            ᄒᆞ고 <rs type="person" ref="#GB_S"><rs type="person" ref="#SK">졔</rs> 쥬인</rs>으로 나와 
             <persName ref="#GB">간난 어미</persName>
             ᄅᆞᆯ 족불이지로 
             <rs type="place" ref="#SC_H"><persName ref="#CHB">쵀호방</persName>
@@ -2634,40 +2634,40 @@
             을 보고 공슌히
           </p>
           <p>"<said who="#GB" aloud="true" direct="true">
-            <rs ref="#CHB">ᄂᆞ으리 마님</rs>
+            <rs type="person" ref="#CHB">ᄂᆞ으리 마님</rs>
              문안 엇덥시오. 그동안 경과ᄒᆞᄋᆞᆸ신 일은 
-            <rs ref="#GB">하졍</rs>
+            <rs type="person" ref="#GB">하졍</rs>
             에 무에라고 엿줄 말ᄉᆞᆷ이 업슴니다.
           </said>"</p>
           <p>
             <persName ref="#CHB">ᄎᆡ호방</persName>
             이 
-            <rs ref="#GB">관비</rs>
+            <rs type="person" ref="#GB">관비</rs>
             ᄅᆞᆯ 보니 분이 도로 왈칵 ᄂᆞ셔 당장
           </p>
           <p>"<said aloud="false" who="#CHB" direct="true">
-            <rs ref="#GB">이 년</rs>
-            <rs ref="#GB">괘ㅅ심ᄒᆞᆫ 년</rs>
+            <rs type="person" ref="#GB">이 년</rs>
+            <rs type="person" ref="#GB">괘ㅅ심ᄒᆞᆫ 년</rs>
             . 무엇이 엇지고 엇지ᄒᆡ. 
-            <rs ref="#GB">져런 년</rs>
+            <rs type="person" ref="#GB">져런 년</rs>
             을 업ᄉᆡ 버려야지 그ᄃᆡ로 두엇다ᄂᆞᆫ 무슨 짓을 ᄒᆞᆯᄂᆞᆫ지 모로겟다.
           </said>"</p>
           <p>
             ᄒᆞ고 본보기ᄅᆞᆯ 착실히 내노으려다가 다시 돌녀ᄉᆡᆼ각ᄒᆞ기ᄅᆞᆯ 
             <said aloud="false" who="#CHB" direct="true">
               에ㅣ 견문발검이지. 
-              <rs ref="#GB">졔ᄭᆞ짓 것</rs>
+              <rs type="person" ref="#GB">졔ᄭᆞ짓 것</rs>
               을 갈ᄋᆡ셔 무엇ᄒᆞ며 역시 
-              <rs ref="#SC_F"><rs ref="#CHB">내</rs>
+              <rs type="org" subtype="household" ref="#SC_F"><rs ref="#CHB">내</rs>
                집</rs> 운슈니라
             </said>
              ᄒᆞ더니 눈ㅅ살을 훨ᄶᅧᆨ 펴면셔
           </p>
           <p>"<said who="#CHB" aloud="true" direct="true">
             오ㅣ 
-            <rs ref="#GB">너</rs>
+            <rs type="person" ref="#GB">너</rs>
              왓ᄂᆞ냐. 근ᄅᆡ에ᄂᆞᆫ 
-            <rs ref="#GB">네</rs>
+            <rs type="person" ref="#GB">네</rs>
             가 즁ᄆᆡᄅᆞᆯ 잘 ᄒᆞᆫ다ᄂᆞᆫ구ᄂᆞ
           </said>"</p>
           <p>
@@ -2677,23 +2677,23 @@
             의 말 나오ᄂᆞᆫ 것을 듯고 가ᄉᆞᆷ이 울넝울넝ᄒᆞ야 얼풋 ᄃᆡ답을 못ᄒᆞ고 셧스니 이ᄂᆞᆫ 다름 안이라 
             <persName ref="#CHB">ᄎᆡ호방</persName>
             이 평일에 셩품이 엇지 강경ᄒᆞᆫ지 말 ᄒᆞᆫ 마듸 일 ᄒᆞᆫ 가지 
-            <rs ref="#CHB">ᄌᆞ긔</rs>
+            <rs type="person" ref="#CHB">ᄌᆞ긔</rs>
              소료에 버셔ᄂᆞ면 조곰도 용셔ㅅ셩 업시 당장 마른 벼락을 ᄂᆞ리ᄂᆞᆫ 터이라 그동안 
-            <rs ref="GB">졔</rs>
+            <rs type="person" ref="GB">졔</rs>
             가 왕ᄅᆡᄒᆞ며 소ᄀᆡᄒᆞ던 일을 미타히 녁여 무슨 거조ᄅᆞᆯ ᄒᆞ려고 뎌러케 문뎨ᄅᆞᆯ ᄂᆡ거니 ᄒᆞᆷ이러니 ᄉᆡᆼ각 밧긔 
             <persName ref="#CHB">ᄎᆡ호방</persName>
             이 ᄭᅥᆯᄭᅥᆯ 한 번 우스며
           </p>
           <p>"<said who="#CHB" aloud="true" direct="true">웨 ᄃᆡ답을 안이ᄒᆞᄂᆞ냐. 응.</said>"</p>
           <p>
-            <rs ref="#GB">ᄀᆞᆺ난 어미</rs>
+            <rs type="person" ref="#GB">ᄀᆞᆺ난 어미</rs>
             가 그졔야 숨이 휘ㅣ이 ᄂᆞ가셔
           </p>
           <p>"<said who="#GB" aloud="true" direct="true">
-            <rs ref="#GB">쇼인네</rs>
-            가 무슨 ᄌᆡ됴로 <rs ref="#SC">남</rs>의 즁ᄆᆡᄅᆞᆯ ᄒᆞᆷ닛가. 요ᄉᆞ이 <rs type="place" ref="#SC_H">ᄃᆡᆨ</rs>에 몃 ᄎᆞ례 오ᄋᆞᆸ기ᄂᆞᆫ 
-            <rs ref="#GB">쇼인네</rs>
-             쇼견에ᄂᆞᆫ <rs ref="#SC_F">ᄃᆡᆨ</rs>일이 ᄒᆞ도 가이업셔 심부림은 더러 단엿슴니다.
+            <rs type="person" ref="#GB">쇼인네</rs>
+            가 무슨 ᄌᆡ됴로 <rs type="person" ref="#SC">남</rs>의 즁ᄆᆡᄅᆞᆯ ᄒᆞᆷ닛가. 요ᄉᆞ이 <rs type="place" ref="#SC_H">ᄃᆡᆨ</rs>에 몃 ᄎᆞ례 오ᄋᆞᆸ기ᄂᆞᆫ 
+            <rs type="person" ref="#GB">쇼인네</rs>
+             쇼견에ᄂᆞᆫ <rs type="org" subtype="household" ref="#SC_F">ᄃᆡᆨ</rs>일이 ᄒᆞ도 가이업셔 심부림은 더러 단엿슴니다.
           </said>"</p>
           <p>"<said who="#CHB" aloud="true" direct="true">
             허허 
@@ -2706,88 +2706,88 @@
           </said>"</p>
           <p>"<said who="#GB" aloud="true" direct="true">
             ··········· 
-            <rs ref="#GB">졔</rs>
+            <rs type="person" ref="#GB">졔</rs>
             야 무엇을 알음닛가. 
-            <rs ref="#LDS">슈의ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
              ᄯᅡ라온 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             이 식이ᄂᆞᆫ ᄃᆡ로 심부림만 ᄒᆞᆯ ᄯᅡ름이올시다.
           </said>"</p>
           <p>"<said who="#CHB" aloud="true" direct="true">
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             의 말이 즉 
-            <rs ref="#LDS">슈의ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
             의 말인즉 
-            <persName ref="#SK">김션달</persName>
-            <rs ref="#SK">졔</rs>
+            <persName type="alias" ref="#SK">김션달</persName>
+            <rs type="person" ref="#SK">졔</rs>
             가 허젼장령을 ᄒᆞ얏겟ᄂᆞ냐. 그ᄅᆡ 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             이 무엇이라고 ᄒᆞ더냐. ᄒᆞᆫ 마듸도 ᄲᆡ지 말고 자셰히 이약이를 ᄒᆞ여라.
           </said>"</p>
           <p>"<said who="#GB" aloud="true" direct="true">
             이왕 무르시ᄂᆞᆫᄃᆡ 죄를 쥬시ᄂᆞ 상을 쥬시ᄂᆞ 엇의가 긔망을 ᄒᆞ겟슴닛가. 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             의 말이 
-            <rs ref="#LDS">슈의ᄉᆞㅅ도</rs>
-            ᄭᅦ셔 <rs ref="SC_F">ᄃᆡᆨ</rs> 
-            <rs ref="#SC">작은 아씨</rs>
-            의 한 마듸 허락만 드르시면 <rs ref="SC_F">ᄃᆡᆨ</rs>일을 극력 두호ᄒᆡ 쥬실 의향이시라고 ᄒᆞᄋᆞᆸ기에 
-            <rs ref="#GB">쇼인네</rs>
+            <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
+            ᄭᅦ셔 <rs type="org" subtype="household" ref="SC_F">ᄃᆡᆨ</rs> 
+            <rs type="person" ref="#SC">작은 아씨</rs>
+            의 한 마듸 허락만 드르시면 <rs type="org" subtype="household" ref="SC_F">ᄃᆡᆨ</rs>일을 극력 두호ᄒᆡ 쥬실 의향이시라고 ᄒᆞᄋᆞᆸ기에 
+            <rs type="person" ref="#GB">쇼인네</rs>
             ᄂᆞᆫ 
-            <rs ref="#SC_F">ᄃᆡᆨ</rs>
+            <rs type="org" subtype="household" ref="SC_F">ᄃᆡᆨ</rs>
             을 위ᄒᆞ와 마ᄋᆞᆷ에 됴화셔 와셔 엿쥬어 보온 즉 텬ᄒᆡᆼ으로 
-            <rs ref="#SC">작은 아씨</rs>
+            <rs type="person" ref="#SC">작은 아씨</rs>
             ᄭᅴ셔 허락을 ᄒᆞᄋᆞᆸ시기에 그ᄃᆡ로 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             에게 회답ᄒᆞ엿ᄉᆞᆸ더니 지금 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             이 
-            <rs ref="#GB">쇼인네</rs>
+            <rs type="person" ref="#GB">쇼인네</rs>
             를 ᄯᅩ 불너셔 
-            <rs ref="#LDS">슈의ᄉᆞㅅ도</rs>
-            ᄭᅴ셔 기ᄃᆡ리실 터이니 <time type="timeOfDay" subtype="this_night">오ᄂᆞᆯ밤</time>으로 
-            <rs ref="#SC">작은 아씨</rs>
+            <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
+            ᄭᅴ셔 기ᄃᆡ리실 터이니 <time>오ᄂᆞᆯ밤</time>으로 
+            <rs type="person" ref="#SC">작은 아씨</rs>
             를 뫼시고 오라ᄒᆞᄋᆞᆸ기 
-            <rs ref="#CHB">ᄂᆞ으리</rs>
+            <rs type="person" ref="#CHB">ᄂᆞ으리</rs>
              문안도 ᄒᆞ올 겸 
-            <rs ref="#SC">작은 아씨</rs>
+            <rs type="person" ref="#SC">작은 아씨</rs>
             ᄭᅴ 이런 말ᄉᆞᆷ도 엿줄 겸 왓슴니다.
           </said>"</p>
           <p>"<said who="#CHB" aloud="true" direct="true">
-            그리면 <rs ref="SC_F">ᄃᆡᆨ</rs> 
-            <rs ref="#SC">작은 아씨</rs>
+            그리면 <rs type="org" subtype="household" ref="SC_F">ᄃᆡᆨ</rs> 
+            <rs type="person" ref="#SC">작은 아씨</rs>
             다려 ᄀᆞᆺ치 가자고 안이될 말이지. 바로 
-            <rs ref="#LDS">슈의ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">슈의ᄉᆞㅅ도</rs>
             가 
-            <rs ref="#SC_H">><rs ref="#CHB">내</rs>
+            <rs type="place" ref="#SC_H"><rs type="person" ref="#CHB">내</rs>
              집</rs>으로 오시면 모로거니와 
-            <rs ref="#SC">작은 아씨</rs>
+            <rs type="person" ref="#SC">작은 아씨</rs>
             가 갈 슈ᄂᆞᆫ 업지.
           </said>"</p>
           <p>"<said who="#GB" aloud="true" direct="true">에그 그리면 그ᄃᆡ로 가셔 말ᄉᆞᆷ을 ᄒᆞᄋᆞᆸ지오.</said>"</p>
           <p>
             <persName ref="#SC">션초</persName>
             가 창을 격ᄒᆞ야 그 말을 듯다가 
-            <rs ref="#CHB"><rs ref="#SC">져</rs>의 아바지</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">져</rs>의 아바지</rs>
              겻헤 와 셔며
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">그러치 안인 일 한 가지가 잇슴니다.</said>"</p>
           <p>"<said who="#CHB" aloud="true" direct="true">무엇이란 말이냐.</said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
-            <rs ref="#SC">졔</rs>
+            <rs type="person" ref="#SC">졔</rs>
             가 가ᄂᆞᆫ 일이 불가ᄒᆞᆷ은 더 말ᄉᆞᆷᄒᆞᆯ 것 업ᄉᆞᆸ거니와 
             <rs type="person" subtype="class" ref="#LDS">그 량반</rs>
             다려 경솔이 오시라 ᄒᆞᆯ 슈도 업슴니다.
           </said>"</p>
           <p>"<said who="#CHB" aloud="true" direct="true">
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
             가 잘잘못 간에 임의 허락을 ᄒᆞᆫ 이상에 가지도 안이ᄒᆞ고 오지도 말ᄂᆞᄒᆞ면 <rs type="person" subtype="class" ref="#LDS">점잔은이</rs> ᄃᆡ졉도 안이오 
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
              모양은 무엇이냐.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             안이올시다. 
-            <rs ref="#SC">져</rs>
+            <rs type="person" ref="#SC">져</rs>
             ᄂᆞᆫ 셰상 업셔도 갈 슈도 업ᄉᆞᆸ고 
             <rs type="person" subtype="class" ref="#LDS">그 량반</rs>
             다려 오시라 ᄒᆞᆯ 터이면 
@@ -2800,9 +2800,9 @@
           </p>
           <p>"<said who="#CHB" aloud="true" direct="true">
             오냐. 
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
             ᄉᆡᆼ각ᄃᆡ로 ᄒᆞ여라. 
-            <rs ref="#CHB">ᄂᆞ</rs>
+            <rs type="person" ref="#CHB">ᄂᆞ</rs>
             ᄂᆞᆫ 이것뎌게 도모지 모로겟다.
           </said>"</p>
         </div>
@@ -2811,34 +2811,34 @@
           <p>
             <persName ref="#SC">션초</persName>
             가 
-            <rs ref="#CHB"><rs ref="#SC">져</rs>의 아바지</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">져</rs>의 아바지</rs>
              ᄂᆞ아간 뒤에 
             <persName ref="#GB">갓난 어멈</persName>
             을 ᄃᆡᄒᆞ야
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
             여보게 그러치 안이ᄒᆞᆫ가. 이 일이 남보기에ᄂᆞᆫ 시들ᄒᆞ야도 
-            <rs ref="#SC">내</rs>
+            <rs type="person" ref="#SC">내</rs>
             게ᄂᆞᆫ 평ᄉᆡᆼ 큰 관게가 여간이 안일셰. 여보게 
-            <rs ref="#GB">자네</rs>
+            <rs type="person" ref="#GB">자네</rs>
              말이 
             <rs type="person" subtype="class" ref="#LDS">그 량반</rs>
             ᄭᅴ셔 임의 
-            <rs ref="#SC">ᄂᆡ</rs>
+            <rs type="person" ref="#SC">ᄂᆡ</rs>
              말에 ᄃᆡᄒᆞ야 허락ᄭᆞ지 ᄒᆞ셧다 ᄒᆞ니 어련ᄒᆞᆯ 바ㅣᄂᆞᆫ 안이로ᄃᆡ 
-            <rs ref="#SC">ᄂᆡ</rs>
+            <rs type="person" ref="#SC">ᄂᆡ</rs>
             셔 그리ᄒᆞ더라고 
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             을 가보고 말ᄉᆞᆷ을 엿쥬어 보라고 ᄒᆞ게.
           </said>"</p>
           <p>"<said who="#GB" aloud="true" direct="true">무에라고 말ᄉᆞᆷ을 엿쥬라 ᄒᆞ와요.</said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             별 말이 잇겟ᄂᆞ. 아ᄭᅡ 
-            <rs ref="#SC">ᄂᆞ</rs>
+            <rs type="person" ref="#SC">ᄂᆞ</rs>
             ᄒᆞᄂᆞᆫ 말을 
-            <rs ref="#GB">자네</rs>
+            <rs type="person" ref="#GB">자네</rs>
             도 드럿거니와 륙례갓초ᄂᆞᆫ 혼인 아닌 바에 혼셔지 여부ᄂᆞᆫ 업지마는 다만 <rs type="object" subtype="contract">글 ᄒᆞᆫ 자</rs>라도 이 다음 증거될 만ᄒᆞᆫ 것을 ᄒᆞ야 보ᄂᆡ시기를 바란다고 엿쥬아 무엇이라 ᄒᆞ던지 
-            <rs ref="#SC">ᄂᆡ</rs>
+            <rs type="person" ref="#SC">ᄂᆡ</rs>
             게 곳 와셔 알게 ᄒᆞ야쥬게.
           </said>"</p>
           <p>
@@ -2847,13 +2847,13 @@
           </p>
           <p>"<said who="#GB" aloud="true" direct="true">
             <persName ref="#SC">작은 아씨</persName>
-            <persName ref="#SK">김션달</persName>
+            <persName type="alias" ref="#SK">김션달</persName>
             이 그 말ᄉᆞᆷ을 엿쥬닛가 
             <persName ref="#LDS">슈의ᄉᆞㅅ도</persName>
             ᄭᅴ셔 우스시며 도로혀 
-            <rs ref="#SC">작은 아씨</rs>
+            <rs type="person" ref="#SC">작은 아씨</rs>
             가 넘오 심ᄒᆞ게 말ᄉᆞᆷ을 ᄒᆞ신다고 ᄒᆞ시며 
-            <rs ref="#LDS">그</rs>
+            <rs type="person" ref="#LDS">그</rs>
             ᄂᆞᆫ 어렵지 아니ᄒᆞᆫ 즉 귀타여 ᄉᆞᄅᆞᆷ을 간졉으로 무엇을 쎠셔 쥬고 말고 ᄒᆞᆯ 것 업시 셔로 ᄃᆡ면ᄒᆞ야 안져셔 엇의ᄭᆞ지 마음에 츙분ᄒᆞ도록 의론ᄒᆞ야 <rs type="object" subtype="contract">증거물</rs>을 써줄 것이니 걱졍말ᄂᆞ고 ᄒᆞ시드ᄅᆡ요.
           </said>"</p>
           <p>
@@ -2862,19 +2862,19 @@
           </p>
           "<said who="#SC" aloud="true" direct="true">
             에그 <rs type="person" subtype="class" ref="#LDS">졈자는 쳐디</rs>에 셜마 거즛말ᄉᆞᆷ 하시겟ᄂᆞ. 그러면 <time type="relative" subtype="this_night">오ᄂᆞᆯ밤</time>에 
-            <rs type="place" ref="#SC_H"><rs ref="#SC">ᄂᆡ</rs>
+            <rs type="place" ref="#SC_H"><rs type="person" ref="#SC">ᄂᆡ</rs>
              집</rs>으로 ᄒᆡᆼᄎᆞᄒᆞ시라고 엿쥬라게.
           </said>""
           <p>
             <persName ref="#GB">갓난 어멈</persName>
             을 보ᄂᆡ여 
-            <rs ref="#CH1"><rs ref="#SC">자긔</rs>
+            <rs type="person" ref="#CH1"><rs type="person" ref="#SC">자긔</rs>
             어머니</rs>
             에게 당부ᄒᆞ야 일변 쥬안을 먹을만 ᄒᆞ게 졍결히 ᄎᆞ려노코 
             <persName ref="#LDS">리시찰</persName>
-             오기를 기ᄃᆡ리ᄂᆞᆫᄃᆡ 얼풋 말ᄒᆞ면 <rs ref="#SC">과년ᄒᆞᆫ 녀ᄌᆞ</rs>가 쳣날 신방을 당ᄒᆞ얏스니 남 보기에 한업시 붓그럽기도 ᄒᆞᆯ 터이오 ᄂᆡ심으로 은근히 깃부기도 ᄒᆞᆯ 터이지마는 이ᄂᆞᆫ 려염가 보통 녀ᄌᆞ를 두고 ᄒᆞᄂᆞᆫ 말이지  <rs ref="#SC">일즉이 교방에 몸이 ᄆᆡ여날마다 시마다 남ᄌᆞ의 노리ᄀᆡ로 파겁을 여디업시ᄒᆞᆫ <persName ref="#SC">션초</persName></rs>
+             오기를 기ᄃᆡ리ᄂᆞᆫᄃᆡ 얼풋 말ᄒᆞ면 <rs type="person" ref="#SC">과년ᄒᆞᆫ 녀ᄌᆞ</rs>가 쳣날 신방을 당ᄒᆞ얏스니 남 보기에 한업시 붓그럽기도 ᄒᆞᆯ 터이오 ᄂᆡ심으로 은근히 깃부기도 ᄒᆞᆯ 터이지마는 이ᄂᆞᆫ 려염가 보통 녀ᄌᆞ를 두고 ᄒᆞᄂᆞᆫ 말이지  <rs type="person" ref="#SC">일즉이 교방에 몸이 ᄆᆡ여날마다 시마다 남ᄌᆞ의 노리ᄀᆡ로 파겁을 여디업시ᄒᆞᆫ <persName ref="#SC">션초</persName></rs>
             로 말ᄒᆞ면 붓그러올 것은 의례 업스려니와 반졈도 깃부지도 안이ᄒᆞ니 이ᄂᆞᆫ 다름이 안이라 
-            <rs ref="#SC">ᄌᆞ긔</rs>
+            <rs type="person" ref="#SC">ᄌᆞ긔</rs>
             의 일뎡ᄒᆞᆫ ᄯᅳᆺ이 년긔라던지 인물이라던지 운치가 
             <persName ref="#LDS">리시찰</persName>
              ᄀᆞᆺ흔 자를 ᄭᅮᆷ에도 원ᄒᆞ고 기ᄃᆡ리던 터이 안이어ᄂᆞᆯ ᄉᆞ셰에 박부득이 ᄒᆞ야 그 디경이 되엿스니 엇지 심ᄉᆞ가 편안ᄒᆞ리오. 셤셤옥슈로 턱을 느즈막히 괴이고 시름업시 홀노 안져 긴 한숨 져른 한숨 쉴 ᄉᆡ 업시 쉬ᄂᆞᆫᄃᆡ 웃묵에 노인 등잔볼은 등화가 졀로 안져 ᄭᅳᆷ벅ᄭᅳᆷ벅 ᄒᆞᆯ ᄯᅡ름이러라. 그리자 <rs type="place" subtype="part" ref="#SC_H">문밧</rs>긔셔 ᄉᆞᄅᆞᆷ의 소리가 두런두런 ᄂᆞ며 ᄯᅳᆯ 압헤셔 자던 삽살동경ᄀᆡ가 컹컹 짓고 마죠 ᄂᆞ가니 
@@ -2883,22 +2883,22 @@
           </p>
           <said who="#SC" aloud="false" direct="true">
             에구 
-            <rs ref="#SC">내</rs>
+            <rs type="person" ref="#SC">내</rs>
              팔ᄌᆞ야. 엇지ᄒᆞ면 됴흔가. 이 일이 <rs type="person" subtype="group" ref="#CHB #CH1">부모</rs>ᄅᆞᆯ 위ᄒᆞ야 이러케 된 것이지 
-            <rs ref="#SC">ᄂᆡ</rs>
+            <rs type="person" ref="#SC">ᄂᆡ</rs>
              마ᄋᆞᆷ 글너셔 그런 것은 안이지마는········ 
-            <rs ref="#LDS">그</rs>
+            <rs type="person" ref="#LDS">그</rs>
             의 희ㅅ득 희득ᄒᆞᆫ 모발을 보건ᄃᆡ 
-            <rs ref="#CHB">우리 아바지</rs>
-            보다도 나이 더 만흔 모양이던데 참아 붓그럽고 무셔워셔 엇더케 <rs ref="LDS">남편</rs>이라고 얼골을 마죠 ᄃᆡᄒᆞᄂᆞ········ 에라 긔왕 이리된 일을 다시 말ᄒᆞ면 쓸ᄃᆡ 잇ᄂᆞ냐. 
-            <rs ref="#LDS">그</rs>
+            <rs type="person" ref="#CHB">우리 아바지</rs>
+            보다도 나이 더 만흔 모양이던데 참아 붓그럽고 무셔워셔 엇더케 <rs type="person" ref="LDS">남편</rs>이라고 얼골을 마죠 ᄃᆡᄒᆞᄂᆞ········ 에라 긔왕 이리된 일을 다시 말ᄒᆞ면 쓸ᄃᆡ 잇ᄂᆞ냐. 
+            <rs type="person" ref="#LDS">그</rs>
             가 드러오거던 <rs type="object" subtype="contract">계약</rs>이나 단단히 밧아 
-            <rs ref="#SC">ᄂᆡ</rs>
+            <rs type="person" ref="#SC">ᄂᆡ</rs>
              신셰 결단이ᄂᆞ 안이ᄂᆡ도록 ᄒᆞᄂᆞᆫ 것이 올치········· 
-            <rs ref="#LDS">그</rs>
+            <rs type="person" ref="#LDS">그</rs>
             의 ᄒᆞᄂᆞᆫ 거죠ᄂᆞᆫ 비록죡히 의론ᄒᆞᆯ 여디가 업지마는 
-            <rs ref="#LDS">그</rs>
-            도 <rs ref="#LDS">ᄉᆞᄅᆞᆷ</rs>이지 ᄂᆞ이 그만치 지긋ᄒᆞ닛가 한 번 약조 곳 ᄒᆞ여 노으면 남의 젹악이야 셜마 ᄒᆞᆯᄂᆞ구········
+            <rs type="person" ref="#LDS">그</rs>
+            도 <rs type="person" ref="#LDS">ᄉᆞᄅᆞᆷ</rs>이지 ᄂᆞ이 그만치 지긋ᄒᆞ닛가 한 번 약조 곳 ᄒᆞ여 노으면 남의 젹악이야 셜마 ᄒᆞᆯᄂᆞ구········
           </said>
           <p>
             <persName ref="#LDS"><rs type="person" subtype="metaphor" ref="#LDS">굿드른 무당</rs>과 <rs  subtype="metaphor" ref="#LDS">ᄌᆡ드른 즁</rs>과 일반인 리시찰</persName>
@@ -2911,52 +2911,52 @@
             과 ᄀᆞᆺ치 
             <rs type="place" ref="#SC_H"><persName ref="#SC">션초</persName>
             의 집</rs>을 ᄎᆞᄌᆞ가ᄂᆞᆫᄃᆡ 뒤에 ᄯᅡ라오ᄂᆞᆫ 
-            <rs ref="#SK">김션ᄃᆞᆯ</rs>
+            <rs type="person" ref="#SK">김션ᄃᆞᆯ</rs>
             다려
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SK">이 ᄋᆡ</rs>
-            <rs ref="#LDS">내</rs>
+            <rs type="person" ref="#SK">이 ᄋᆡ</rs>
+            <rs type="person" ref="#LDS">내</rs>
             가 가기ᄂᆞᆫ ᄒᆞᆫ다마는 창피스렵지 안이ᄒᆞ냐.
           </said>"</p>
           <p>"<said who="#SK" aloud="true" direct="true">
             그러ᄒᆞ올시다. 
-            <rs ref="#SC">졔</rs>
+            <rs type="person" ref="#SC">졔</rs>
             만 <rs type="person" subtype="gisaeng" ref="#SC">기ᄉᆡᆼ</rs>으로셔 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             게셔 브르시ᄂᆞᆫᄃᆡ 의례히 등ᄃᆡᄅᆞᆯ ᄒᆞ여야 도리에 가ᄒᆞ올 터이온ᄃᆡ 방ᄌᆞ스럽게 
-            <rs type="place" ref="#SC_H"><rs ref="#SC">졔</rs>
-             집</rs>에 ᄭᅡᄃᆡᆨ 안이ᄒᆞ고 안져셔 언의 <rs ref="#LDS">죤젼</rs>이라고 오시라고 ᄒᆞᆫ단 말ᄉᆞᆷ이오닛ᄀᆞ. 
-            <rs ref="#SK">쇼인</rs>
+            <rs type="place" ref="#SC_H"><rs type="person" ref="#SC">졔</rs>
+             집</rs>에 ᄭᅡᄃᆡᆨ 안이ᄒᆞ고 안져셔 언의 <rs type="person" ref="#LDS">죤젼</rs>이라고 오시라고 ᄒᆞᆫ단 말ᄉᆞᆷ이오닛ᄀᆞ. 
+            <rs type="person" ref="#SK">쇼인</rs>
             의 미련ᄒᆞᆫ ᄉᆡᆼ각에ᄂᆞᆫ 이러케 ᄒᆡᆼᄎᆞᄒᆞ실 것이 업시 도로 드러ᄀᆞᄋᆞᆸ서셔. ᄂᆡᆼ큼 ᄃᆡ령ᄒᆞ라고 엄분부ᄅᆞᆯ 나리셧스면 됴흘 듯 ᄒᆞ오이다.
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
             허허 
-            <rs ref="#SK">네</rs>
+            <rs type="person" ref="#SK">네</rs>
              말이 그럴 듯 ᄒᆞ다마는 
-            <rs ref="#LDS">ᄂᆡ</rs>
-            ᄀᆞ 졈ᄌᆞ느니 <rs ref="#SC">쳘모르ᄂᆞᆫ 뎌</rs>ᄅᆞᆯ
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
+            ᄀᆞ 졈ᄌᆞ느니 <rs type="person" ref="#SC">쳘모르ᄂᆞᆫ 뎌</rs>ᄅᆞᆯ
              갈ᄋᆡ여 무엇ᄒᆞ겟나냐. ᄯᅩ 이왕 나션 길에 도로 드러ᄀᆞ면 더구나 모양이 되얏ᄂᆞ냐. 그리고 <rs type="person" subtype="gisaeng" ref="#SC">기ᄉᆡᆼ</rs>이면 다<rs ref="#GS">기ᄉᆡᆼ</rs>이냐. 
-            <rs ref="#SC">졔</rs>
+            <rs type="person" ref="#SC">졔</rs>
             ᄀᆞ 이ᄯᅢᄭᆞ지 지죠ᄅᆞᆯ 직희고 잇ᄂᆞᆫ 것이 ᄀᆞ샹ᄒᆡ도 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
             가 한 번 질 슈밧긔 업고 ᄯᅩᄂᆞᆫ 
-            <rs ref="#CHB">졔 아비</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
             ᄀᆞ 그 고초ᄅᆞᆯ 격다ᄀᆞ 방장 노혀 나왓ᄂᆞᆫᄃᆡ <rs  ref="#SC">ᄌᆞ식</rs>된 도리에 모로ᄂᆞᆫ 톄 ᄒᆞ고 나올 슈ᄀᆞ 잇ᄂᆞ냐. 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
             ᄀᆞ 
-            <rs ref="#SC">져</rs>
+            <rs type="person" ref="#SC">져</rs>
             ᄅᆞᆯ 갓ᄀᆞ히 안이ᄒᆞ랴면 모로거니와 그러치 안인 바에 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
             ᄀᆞ ᄀᆞ셔 
-            <rs ref="#SC">뎌</rs>
+            <rs type="person" ref="#SC">뎌</rs>
             도 볼겸 
-            <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비</rs>
-             일을 위문도 ᄒᆞᄂᆞᆫ 것이 관계치 안이ᄒᆞᆯ 듯 ᄒᆞ다. <rs ref="#SK">남의 덕으로 졔 ᄉᆡᆼ계ᄅᆞᆯ ᄉᆞᆷᄂᆞᆫ 무리</rs>ᄂᆞᆫ 예나 지금이나 ᄆᆡᄉᆞ에 ᄌᆞ유ᄂᆞᆫ 반뎜도 업고 ᄀᆞ위 
-            이현령 비현령(耳懸鈴鼻懸鈴)으로 비위 맛초기로만 쥬장을ᄒᆞᄂᆞᆫ 법이라
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
+             일을 위문도 ᄒᆞᄂᆞᆫ 것이 관계치 안이ᄒᆞᆯ 듯 ᄒᆞ다. <rs type="person" ref="#SK">남의 덕으로 졔 ᄉᆡᆼ계ᄅᆞᆯ ᄉᆞᆷᄂᆞᆫ 무리</rs>ᄂᆞᆫ 예나 지금이나 ᄆᆡᄉᆞ에 ᄌᆞ유ᄂᆞᆫ 반뎜도 업고 ᄀᆞ위 
+            이현령 비현령(<foreign xml:lang="zh">耳懸鈴鼻懸鈴</foreign>)으로 비위 맛초기로만 쥬장을ᄒᆞᄂᆞᆫ 법이라
           </said>"</p>
           <p>
-            <persName ref="#SK">김션ᄃᆞᆯ</persName>
+            <persName type="alias" ref="#SK">김션ᄃᆞᆯ</persName>
             이 
             <persName ref="#LDS">리시찰</persName>
             의 말을 드르니 <rs type="object" subtype="metaphor" ref="#LDS">지남셕 맛ᄂᆞᆫ 바늘</rs>모양으로 젼신이 모다 
@@ -2965,56 +2965,56 @@
           </p>
           <p>"<said who="#SK" aloud="true" direct="true">
             예 지당합소이다. <rs type="person" subtype="class" ref="#LDS">졈자느신 좌디</rs>로 
-            <rs ref="#SC">뎌</rs>
+            <rs type="person" ref="#SC">뎌</rs>
             와 각승을 ᄒᆞ오실 슈ᄀᆞ 잇ᄉᆞ오며 과연 말ᄉᆞᆷ이지 쥭을 
-            <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
             ᄀᆞ 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              덧ᄐᆡᆨ에 살아나왓스니 <rs ref="#SC">하졍</rs>에 감샤ᄒᆞᆫ 품으로 말ᄉᆞᆷᄒᆞ오면 한다름에 ᄯᅱ여라도 와셔 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              압헤 ᄇᆡᆨᄇᆡ 사례ᄅᆞᆯ ᄒᆞ겟지오마는 지금 분부ᄒᆞ신 말ᄉᆞᆷ과 ᄀᆞᆺ치 고ᄉᆡᆼ격던 
-            <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
             ᄅᆞᆯ 맛나 참아 겻을 ᄯᅥ날 슈ᄀᆞ 잇슴닛ᄀᆞ. 그러치마는 
-            <rs ref="#SC">뎌</rs>의
+            <rs type="person" ref="#SC">뎌</rs>의
              일편단심은 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             ᄅᆞᆯ 향ᄒᆞ야 감격ᄒᆞᆫ ᄯᅳᆺ이 필경 엇의ᄭᆞ지 간졀ᄒᆞᆯ 터이올시다.
           </said>"</p>
           <p>
             그 다음에ᄂᆞᆫ 
             <persName ref="#LDS">리시찰</persName>
             이 다시 말이 업시 웃논에 물실어 노흔 듯이 든든ᄒᆞᆫ 마ᄋᆞᆷ으로 한거름 두거름 
-            <rs ref="#SC_H"><persName ref="#SC">션초</persName>
+            <rs type="place" ref="#SC_H"><persName ref="#SC">션초</persName>
             에 집</rs>레ᄅᆞᆯ 거진 당도ᄒᆞ얏ᄂᆞᆫᄃᆡ 
             <persName ref="#GB">갓난 어미</persName>
             ᄀᆞ 마죠나아와 기다리다ᄀᆞ ᄶᅩ루루 먼져 드러ᄀᆞᄂᆞᆫ 양을 보고 속마음으로
           </p>
           <p>"<said who="#LDS" aloud="false" direct="true">
-            <rs ref="#GB">뎌 계집</rs>
+            <rs type="person" ref="#GB">뎌 계집</rs>
             이 뎌러케 드러ᄀᆞ 통긔ᄅᆞᆯ ᄒᆞ면 아마 
             <persName ref="#CHB">ᄎᆡ호방</persName>
             이라도 마죵을 나오렷다. 
             <persName ref="#CHB">ᄎᆡ호방이라ᄂᆞᆫ자</persName>
             ᄀᆞ 우ᄆᆡᄒᆞᆫ ᄉᆞᄅᆞᆷ이 안이라 경위죠리ᄀᆞ ᄆᆡ오 ᄯᅩᆨᄯᅩᆨᄒᆞᆫ 모양이던데 초면 슈작을 무엇이라고 ᄒᆡ야 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
              모양이 창피치 안이ᄒᆞᆯ구. 으ㅢ 응 지금 셰샹은 아모리 실슈ᄒᆞᆫ 일이 잇더ᄅᆡ도 
-            <rs ref="#LDS">ᄂᆡ</rs>
-             긔운을 츅지지 말고 언론이 씩씩ᄒᆡ야 좀쳬 <rs ref="#CHB">놈</rs>이 넘보이지ᄅᆞᆯ 못ᄒᆞᄂᆞ니라.
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
+             긔운을 츅지지 말고 언론이 씩씩ᄒᆡ야 좀쳬 <rs type="person" ref="#CHB">놈</rs>이 넘보이지ᄅᆞᆯ 못ᄒᆞᄂᆞ니라.
           </said>"</p>
           <p>
-            이럿틋 마ᄋᆞᆷ을 도실너 먹고 <rs type="place" subtype="part" ref="#SC_H"><rs ref="#SC_H">그 집</rs> 문젼</rs>ᄭᆞ지 니르러도 어리친 ᄀᆡ삿기도 ᄂᆡ다보지ᄅᆞᆯ 안이ᄒᆞᄂᆞᆫ지라. 슬몃이 ᄀᆞ통ᄒᆞᆫ ᄉᆡᆼ각이 드러 <rs ref="#LDS">ᄌᆞ긔</rs>에 평ᄉᆡᄀᆡᆨ긔ᄃᆡ로 ᄒᆞ면 불호령이 텬동ᄀᆞᆺ치 나오지마는 ᄭᅮᆯᄯᅥᆨᄭᅮᆯᄯᅥᆨ 억지로 참기ᄂᆞᆫ 
+            이럿틋 마ᄋᆞᆷ을 도실너 먹고 <rs type="place" subtype="part" ref="#SC_H"><rs type="place" ref="#SC_H">그 집</rs> 문젼</rs>ᄭᆞ지 니르러도 어리친 ᄀᆡ삿기도 ᄂᆡ다보지ᄅᆞᆯ 안이ᄒᆞᄂᆞᆫ지라. 슬몃이 ᄀᆞ통ᄒᆞᆫ ᄉᆡᆼ각이 드러 <rs type="person" ref="#LDS">ᄌᆞ긔</rs>에 평ᄉᆡᄀᆡᆨ긔ᄃᆡ로 ᄒᆞ면 불호령이 텬동ᄀᆞᆺ치 나오지마는 ᄭᅮᆯᄯᅥᆨᄭᅮᆯᄯᅥᆨ 억지로 참기ᄂᆞᆫ 
             <persName ref="#SC">션초</persName>
              한아의 관계라 스ᄉᆞ로 돌녀 ᄉᆡᆼ각ᄒᆞ기ᄅᆞᆯ <rs type="person" subtype="metaphor" ref="#LDS">소경된 ᄂᆡ</rs>
              탓ᄒᆞ지 <rs type="person" subtype="metaphor" ref="#CHB">ᄀᆡ쳔너</rs> 나물어 무엇ᄒᆞ리 
-            <rs ref="#LDS">ᄂᆡ</rs>
-            ᄀᆞ 오날 여긔 오기ᄂᆞᆫ 소관이 하사라고 좀 참으면 고만될 것을 공연히 ᄒᆡᆼ실을 ᄂᆡᆺ다ᄀᆞ 다 쑨 쥭에 코ᄅᆞᆯ 쳣드려 무엇ᄒᆞ리. 그러나 <rs ref="#CHB">놈</rs>의 쇼위가 괘심키ᄂᆞᆫ 안인 바ᄀᆞ 안인 즉 이 다음에 언의 모퉁이에셔든지 맛날 날이 잇슬 터이지 ᄒᆞ고 <rs type="place" subtype="part" ref="#SC_H">문압</rs>헤셔 왓다갓다ᄒᆞ며 동졍을 기ᄃᆡ리ᄂᆞᆫᄃᆡ 안으로셔 등불빗이 번듯 비ᄎᆔ며 신발소리ᄀᆞ 들니더니 오ᄆᆡ불망ᄒᆞ던 
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
+            ᄀᆞ 오날 여긔 오기ᄂᆞᆫ 소관이 하사라고 좀 참으면 고만될 것을 공연히 ᄒᆡᆼ실을 ᄂᆡᆺ다ᄀᆞ 다 쑨 쥭에 코ᄅᆞᆯ 쳣드려 무엇ᄒᆞ리. 그러나 <rs type="person" ref="#CHB">놈</rs>의 쇼위가 괘심키ᄂᆞᆫ 안인 바ᄀᆞ 안인 즉 이 다음에 언의 모퉁이에셔든지 맛날 날이 잇슬 터이지 ᄒᆞ고 <rs type="place" subtype="part" ref="#SC_H">문압</rs>헤셔 왓다갓다ᄒᆞ며 동졍을 기ᄃᆡ리ᄂᆞᆫᄃᆡ 안으로셔 등불빗이 번듯 비ᄎᆔ며 신발소리ᄀᆞ 들니더니 오ᄆᆡ불망ᄒᆞ던 
             <persName ref="#SC">션초</persName>
             ᄀᆞ 
             <persName ref="#GB">갓난 어미</persName>
             ᄅᆞᆯ 압셰우고 마쥬 나오며
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              안녕히 ᄒᆡᆼᄎᆞᄒᆡ겝시오닛ᄀᆞ.
           </said>"</p>
           <p>
@@ -3023,7 +3023,7 @@
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
             허허허 허허허 
-            <rs ref="#SC">너</rs>
+            <rs type="person" ref="#SC">너</rs>
              잘 잇더냐.
           </said>"</p>
           <p>
@@ -3032,25 +3032,25 @@
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
             황송ᄒᆞ올시다. 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             ᄭᅴ셔 이러케 ᄒᆡᆼᄎᆞᄅᆞᆯ ᄒᆞᄋᆞᆸ시ᄂᆞᆫᄃᆡ 인ᄉᆞ로 ᄒᆞᄋᆞᆸ던지 도리로 ᄒᆞᄋᆞᆸ던지 
-            <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
             가 진시나아와 문안을 ᄒᆞ얏스련마는········· 엇진 일인지 요ᄉᆡ이 우연히 신병이 나셔 ᄭᅩᆷ작을 못ᄒᆞ고 누어 잇슴니다.
           </said>"</p>
           <p>
             <persName ref="#LDS">리시찰</persName>
             이 
-            <rs ref="#LDS">ᄌᆞ긔</rs>
+            <rs type="person" ref="#LDS">ᄌᆞ긔</rs>
             의 ᄒᆞᆫ 짓이 붓그러워 그러턴지 얼골이 슐ᄎᆔᄒᆞᆫ 것 ᄀᆞᆺ치 ᄎᆔᄒᆡ지며
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
              엇진지 
-            <rs ref="#CHB"><rs ref="#SC">너</rs>의 어룬</rs>
+            <rs type="person" ref="#CHB"><rs type="person" ref="#SC">너</rs>의 어룬</rs>
             의 동졍을 못보겟더라. 그것 안이되엿구나. 징셰가 즁ᄒᆞ지나 안이ᄒᆞ냐 약이나 진시 써보지.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">약도 약간 썻담니다마는 동졍이 업슴니다.</said>"</p>
-          <p>"<said who="#LDS" aloud="true" direct="true">오냐 <rs ref="#CHB">ᄉᆞᄅᆞᆷ</rs>이 병나기도 혹 례ᄉᆞ이지 셜마 엇더ᄒᆞ겟ᄂᆞ냐. 이리 갓ᄀᆞ히 오너라. <rs ref="#SC">밤낫 보고 십던 얼골</rs>을 ᄌᆞ셰히 좀 보게.</said>"</p>
+          <p>"<said who="#LDS" aloud="true" direct="true">오냐 <rs type="person" ref="#CHB">ᄉᆞᄅᆞᆷ</rs>이 병나기도 혹 례ᄉᆞ이지 셜마 엇더ᄒᆞ겟ᄂᆞ냐. 이리 갓ᄀᆞ히 오너라. <rs type="person" ref="#SC">밤낫 보고 십던 얼골</rs>을 ᄌᆞ셰히 좀 보게.</said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">········</said>"</p>
           <p>
             그리자 <rs type="place" subtype="part" ref="#SC_H">방문</rs>이 열니며 쥬안샹이 드러오ᄂᆞᆫᄃᆡ 쎡셩비ᄂᆞᆫ 안이ᄒᆞ얏스되 아담ᄒᆞ고 졍결ᄒᆞ기ᄂᆞᆫ 다시 ᄒᆞᆯ 말 업더라. 아모리 <rs type="person" subtype="generalization">슐 못먹ᄂᆞᆫ 자</rs>라도 반ᄀᆞ온 일이 잇거나 <rs type="person" subtype="generalization">ᄉᆡᆼ각던 사ᄅᆞᆷ</rs>을 맛나면 한 잔 두 잔 ᄎᆔᄒᆞᄂᆞᆫ 줄 모르고 먹ᄂᆞᆫ 법인ᄃᆡ 이 날 
@@ -3072,30 +3072,30 @@
             이 ᄋᆡ 
             <persName ref="#SC">션초</persName>
             야 
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
             ᄀᆞ 이리ᄒᆞᆯ 터이면 
-            <rs ref="#LDS">나</rs>
+            <rs type="person" ref="#LDS">나</rs>
             다려 오라기ᄂᆞᆫ 무슨 버르쟝인고. 이 슐 한 잔 쥬랴고 불넛던ᄀᆞ 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
             ᄀᆞ 슐에 팔녀 단일 터ᄀᆞ. 안이어ᄂᆞᆯ 어 참 ᄆᆡᆼ랑ᄒᆞ다.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             잠시 진졍을 ᄒᆞᄋᆞᆸ시고 
-            <rs ref="#SC">졔</rs>
+            <rs type="person" ref="#SC">졔</rs>
              말ᄉᆞᆷ을 드러봅시오.
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
             말이 무슨 말이냐. 길다케 쟝황슈작ᄒᆞᆯ 것이 업다. 먼졋번에도 
-            <rs ref="#LDS">ᄂᆡ</rs>
+            <rs type="person" ref="#LDS">ᄂᆡ</rs>
             ᄀᆞ 어림업시 
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
              ᄭᅬ병ᄒᆞᄂᆞᆫᄃᆡ 속은 일이 지금ᄭᆞ지 ᄀᆞ통ᄒᆞ거던 ᄯᅩ 무슨 얏흔 ᄭᅬ로 속여넘기랴고
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
             왕ᄉᆞᄂᆞᆫ 말삼ᄒᆞ실 것이 업ᄂᆞᆫ 것이 그ᄯᅢ에ᄂᆞᆫ 
-            <rs ref="#SC">졔</rs>
+            <rs type="person" ref="#SC">졔</rs>
             ᄀᆞ 아모조록 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             의 말삼을 안이드리랴닛ᄀᆞ 부득이 ᄒᆞ야 ᄭᅬ병을 ᄒᆞ얏ᄉᆞᆸ거니와 <date type="relative" subtype="this_day">오ᄂᆞᆯ</date>이야 엇의ᄀᆞ 일호기로 긔졍을 ᄒᆞ야 말삼ᄒᆞ올리ᄀᆞ 잇슴닛ᄀᆞ.
           </said>"</p>
           <p>
@@ -3111,36 +3111,36 @@
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
             이번에 
-            <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비</rs>
-            ᄅᆞᆯ 살녀쥬신 은덕은 태산이 가ᄇᆡᄋᆞᆸ고 하ᄒᆡ가 얏ᄉᆞ오니 <rs ref="#SC">ᄌᆞ식</rs>된 도리에 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
-             분부ᄒᆞ신ᄂᆞᆫᄃᆡ ᄃᆡᄒᆞ야 도탕부화(蹈湯赴火)라도 감히 ᄉᆞ양ᄒᆞ오닛가만은 급기 ᄂᆡ외되ᄂᆞᆫ 일에 당ᄒᆞ와ᄂᆞᆫ 인륜의 읏듬되ᄂᆞᆫ 바이온 즉 확실히 밋사올 만ᄒᆞᆫ <rs type="object" subtype="contract">증거</rs>가 업시는 당장 장하에 죽ᄉᆞ와도 봉ᄒᆡᆼᄒᆞᆯ 길이 만무ᄒᆞᄋᆞᆸ고 그 디경에 당ᄒᆞ와도 하ᄂᆞᆯᄀᆞᆺ흔 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs  type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비</rs>
+            ᄅᆞᆯ 살녀쥬신 은덕은 태산이 가ᄇᆡᄋᆞᆸ고 하ᄒᆡ가 얏ᄉᆞ오니 <rs type="person" ref="#SC">ᄌᆞ식</rs>된 도리에 
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
+             분부ᄒᆞ신ᄂᆞᆫᄃᆡ ᄃᆡᄒᆞ야 도탕부화(<foreign xml:lang="zh">蹈湯赴火</foreign>)라도 감히 ᄉᆞ양ᄒᆞ오닛가만은 급기 ᄂᆡ외되ᄂᆞᆫ 일에 당ᄒᆞ와ᄂᆞᆫ 인륜의 읏듬되ᄂᆞᆫ 바이온 즉 확실히 밋사올 만ᄒᆞᆫ <rs type="object" subtype="contract">증거</rs>가 업시는 당장 장하에 죽ᄉᆞ와도 봉ᄒᆡᆼᄒᆞᆯ 길이 만무ᄒᆞᄋᆞᆸ고 그 디경에 당ᄒᆞ와도 하ᄂᆞᆯᄀᆞᆺ흔 
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              은덕은 
-            <rs ref="#SC">이 몸</rs>
+            <rs type="person" ref="#SC">이 몸</rs>
             이 죽ᄉᆞ와셔라도 풀을 ᄆᆡ져 갑흘 터이올시다.
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">허허허 그 ᄃᆡ단ᄒᆞᆫ 일을 가지고 말ᄒᆞ기ᄅᆞᆯ 어려워 ᄒᆞ얏ᄂᆞ냐. 그리ᄒᆞ야라. 엇더케 ᄒᆞ얏스면 <rs type="object" subtype="contract">증거</rs>가 확실히 되겟ᄂᆞ냐.</said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             ᄭᅴᄋᆞᆸ셔ᄂᆞᆫ 
             <rs type="person" subtype="class" ref="#LDS"><placeName ref="#HY">경셩</placeName>
              죤귀ᄒᆞᄋᆞᆸ신 량반</rs>이시오 
-            <rs ref="#SC">져</rs>
-            ᄂᆞᆫ <rs type="person" subtype="gisaeng" ref="#SC"><rs type="place" subtype="local">하방</rs>일ᄀᆡ 쳔기</rs>가 안이오닛가. 쇼일 삼아 그리시던가 작란삼아 그리시던가 <rs ref="#FW" ana="meta_SC">담우에 ᄭᅩᆺ가지</rs> ᄀᆞᆺ치 시렵시 ᄭᅥᆨ거 보시랴ᄂᆞᆫ 것이 볼시 례ᄉᆞ이올시다마는 
+            <rs type="person" ref="#SC">져</rs>
+            ᄂᆞᆫ <rs type="person" subtype="gisaeng" ref="#SC"><rs type="place" subtype="local">하방</rs>일ᄀᆡ 쳔기</rs>가 안이오닛가. 쇼일 삼아 그리시던가 작란삼아 그리시던가 <rs type="plant" ref="#FW" ana="meta_SC">담우에 ᄭᅩᆺ가지</rs> ᄀᆞᆺ치 시렵시 ᄭᅥᆨ거 보시랴ᄂᆞᆫ 것이 볼시 례ᄉᆞ이올시다마는 
             <rs ref="#SC">졔</rs>
-            가 비록 팔ᄌᆞ가 긔구ᄒᆞ와 기안에 일홈은 잇ᄉᆞ오나 일편단심이 시속 쳔ᄒᆞᆫ 무리와 일반으로 ᄒᆡᆼ실을 음란히 가지지 안이ᄒᆞ고 무론 누구에게던지 한 번 허신을 ᄒᆞᄂᆞᆫ 디경이면 <date dur="P100Y">ᄇᆡᆨ년</date>을 의탁ᄒᆞ자ᄂᆞᆫ 작졍이온 즉 <time type="timeOfDay" subtype="this_night">오ᄂᆞᆯ밤</time>이라도 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            가 비록 팔ᄌᆞ가 긔구ᄒᆞ와 기안에 일홈은 잇ᄉᆞ오나 일편단심이 시속 쳔ᄒᆞᆫ 무리와 일반으로 ᄒᆡᆼ실을 음란히 가지지 안이ᄒᆞ고 무론 누구에게던지 한 번 허신을 ᄒᆞᄂᆞᆫ 디경이면 <date dur="P100Y">ᄇᆡᆨ년</date>을 의탁ᄒᆞ자ᄂᆞᆫ 작졍이온 즉 <time>오ᄂᆞᆯ밤</time>이라도 
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
             ᄭᅴᄋᆞᆸ셔 
-            <rs ref="#SC">졔 몸</rs>
+            <rs type="person" ref="#SC">졔 몸</rs>
             을 루츄히 녁이지 안이ᄒᆞᄋᆞᆸ실 터이오면 
-            <rs ref="#LDS">ᄉᆞㅅ도</rs>
+            <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>
              필젹으로 <rs type="object" subtype="contract"><date dur="P100Y">ᄇᆡᆨ년</date>ᄆᆡᆼ셰ᄅᆞᆯ</rs> 써주ᄋᆞᆸ시면 즉시 명령ᄃᆡ로 복종ᄒᆞ오리이다.
           </said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              그러면 <rs type="object" subtype="contract">혼셔지일쳬</rs>로구나. 어럽지 안치. 지필 가져 오너라. 
-            <rs ref="#SC">네</rs>
+            <rs type="person" ref="#SC">네</rs>
              소원ᄃᆡ로 써쥴 것이니.
           </said>"</p>
           <p>
@@ -3152,35 +3152,35 @@
             이 됴희을 집어 두어 ᄲᅧᆷ은 둘둘 펴셔 셔판 한편에다 걸쳐 졉어 쥐고 쓰윽 잡어당긔더니 다시 셔판에다 밧쳐 들고 붓에 먹을 흠셕 뭇쳐 이리 뎌리 ᄌᆡ이면셔
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              한문으로 쓰랴 언문으로 쓰랴.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">한문이고 언문이고 쳐분ᄃᆡ로 ᄒᆞ십시오.</said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              ᄉᆞ연은
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true">ᄉᆞ연도 쳐분ᄃᆡ로 쓰십시오.</said>"</p>
           <p>
             <persName ref="#LDS">리시찰</persName>
-            이 <time type="timeOfDay" subtype="this_night">그날밤</time>에ᄂᆞᆫ 우슘이 보로 터졋ᄂᆞᆫ지 검프른 입살이 귀밋ᄭᆞ지 ᄶᅵ여지며 붓에 먹을 다시 뭇치어 슌식간에 써놋ᄂᆞᆫᄃᆡ <rs type="studies" subtype="writing">문필</rs>이라ᄂᆞᆫ 것은 부졍을 아니타ᄂᆞᆫ 법이라. <rs ref="#LDS">그 ᄌᆞ격</rs>에 <rs type="studies" subtype="writing">글</rs> <rs type="studies" subtype="writing">글시</rs>ᄂᆞᆫ 무식지 안이ᄒᆞ야 별로 ᄉᆡᆼ각지 안이ᄒᆞᆫ ᄉᆞ연과 힘도 안이드린 ᄌᆞ획이 능란휘황 ᄒᆞ더라.
+            이 <time>그날밤</time>에ᄂᆞᆫ 우슘이 보로 터졋ᄂᆞᆫ지 검프른 입살이 귀밋ᄭᆞ지 ᄶᅵ여지며 붓에 먹을 다시 뭇치어 슌식간에 써놋ᄂᆞᆫᄃᆡ <rs type="studies" subtype="writing">문필</rs>이라ᄂᆞᆫ 것은 부졍을 아니타ᄂᆞᆫ 법이라. <rs type="person" ref="#LDS">그 ᄌᆞ격</rs>에 <rs type="studies" subtype="writing">글</rs> <rs type="studies" subtype="writing">글시</rs>ᄂᆞᆫ 무식지 안이ᄒᆞ야 별로 ᄉᆡᆼ각지 안이ᄒᆞᆫ ᄉᆞ연과 힘도 안이드린 ᄌᆞ획이 능란휘황 ᄒᆞ더라.
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              이것 보아라. 이만ᄒᆞ면 <rs type="object" subtype="contract">증거</rs>가 되겟ᄂᆞ냐.
           </said>"</p>
           <p>
             <persName ref="#SC">션초</persName>
             가 밧아들고 두 세 차례를 보더니 쳑쳑 졉어 싸고 싸셔 의쟝 속에다 깁히 깁히 간슈를 ᄒᆞᆫ 후 
             <persName ref="#LDS">리시찰</persName>
-            의 소원을 셩취케 ᄒᆞ엿더라. <rs type="animal" corresp="#SC_H">촌ᄃᆞᆰ</rs>이 <time type="timeOfDay" subtype="dawn">ᄉᆡ벽</time>을 ᄌᆡ쵹ᄒᆞ노라고 쉴 ᄉᆡ 업시 자지러지게 우ᄂᆞᆫᄃᆡ <rs type="place" subtype="part" ref="#SC_H">ᄯᅳᆯ</rs> 압헤셔 자던 <rs type="animal" corresp="#SC_H">ᄀᆡ</rs>가 인젹에 놀ᄂᆞ ᄭᆡ여 <rs type="place" subtype="part" ref="#SC_H">집웅</rs>이 울니게 짓ᄂᆞᆫ 통에 
+            의 소원을 셩취케 ᄒᆞ엿더라. <rs type="animal" corresp="#SC_H">촌ᄃᆞᆰ</rs>이 <time>ᄉᆡ벽</time>을 ᄌᆡ쵹ᄒᆞ노라고 쉴 ᄉᆡ 업시 자지러지게 우ᄂᆞᆫᄃᆡ <rs type="place" subtype="part" ref="#SC_H">ᄯᅳᆯ</rs> 압헤셔 자던 <rs type="animal" corresp="#SC_H">ᄀᆡ</rs>가 인젹에 놀ᄂᆞ ᄭᆡ여 <rs type="place" subtype="part" ref="#SC_H">집웅</rs>이 울니게 짓ᄂᆞᆫ 통에 
             <persName ref="#LDS">리시찰</persName>
             이 니러나 두 손으로 두 눈을 쎡쎡 부뷔며 의복을 부스럭 부스럭 닙더니 
             <persName ref="#SC">션초</persName>
             ᄅᆞᆯ 흔들흔들 ᄒᆞ며
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              ᄌᆞᄂᆞ냐. 응
           </said>"</p>
           <p>
@@ -3214,13 +3214,13 @@
           </p>
           <p>"<said who="#LDS" aloud="true" direct="true">
             아ᄎᆞ, 함아ᄒᆞ더면 그ᄃᆡ로 갈 번ᄒᆞ엿군. 
-            <rs ref="#SC">이 ᄋᆡ</rs>
+            <rs type="person" ref="#SC">이 ᄋᆡ</rs>
              <rs type="object" subtype="contract">그 계약셔</rs>를 이리 ᄭᅳ내 오너라.
           </said>"</p>
           <p>"<said who="#SC" aloud="true" direct="true"><rs type="object" subtype="contract">그것</rs>은 웨 내오라고 ᄒᆞ셔요.</said>"</p>
           <p>"<said who="#LDS" aloud="true" direct="true">
             약증셔를 안이ᄒᆞ엿스면 모르거니와 긔왕 ᄒᆞᆫ 이샹에 도쟝을 쳐야 <rs type="object" subtype="contract">확실 증거</rs>가 될 터인ᄃᆡ 맛ᄎᆞᆷ 도쟝을 안이넛코 왓구나. 그것을 
-            <rs ref="#LDS">내</rs>
+            <rs type="person" ref="#LDS">내</rs>
             가 가지고 가셔 도장을 쳐셔 곳 내 보내주마.
           </said>"</p>
           <p>
@@ -3229,35 +3229,35 @@
             의 말을 슌연ᄒᆞᆫ 텬진으로 나오ᄂᆞᆫ 것으로만 밋고 일호 의심업시 ᄭᅳ내여 주며 인ᄉᆞ에 당연ᄒᆞ게 말 ᄒᆞᆫ 마듸를 ᄒᆞᆫ다.
           </p>
           <p>"<said who="#SC" aloud="true" direct="true">
-            <rs ref="#LDS">령감</rs>
+            <rs type="person" ref="#LDS">령감</rs>
              인졔ᄂᆞᆫ 
-            <rs ref="#SC">졔</rs>
-            가 <rs ref="#LDS_F">ᄃᆡᆨ</rs>ᄉᆞᄅᆞᆷ이 되얏ᄉᆞ온ᄃᆡ 
-            <rs ref="#CH1">졔 모</rs>
-            가 <time type="timeOfDay" subtype="last_dinner">엇져녁</time>에라도 나와셔 뵈왓스련만은 늙을 바탕에 무엇이 그리 붓그러온지 못와 뵈ᄋᆞᆸ고 
-            <rs ref="#CHB">졔 어른</rs>
+            <rs type="person" ref="#SC">졔</rs>
+            가 <rs type="org" ref="#LDS_F">ᄃᆡᆨ</rs>ᄉᆞᄅᆞᆷ이 되얏ᄉᆞ온ᄃᆡ 
+            <rs type="person" ref="#CH1"><rs type="person" ref="#SC">졔</rs> 모</rs>
+            가 <time>엇져녁</time>에라도 나와셔 뵈왓스련만은 늙을 바탕에 무엇이 그리 붓그러온지 못와 뵈ᄋᆞᆸ고 
+            <rs type="person" ref="#CHB">졔 어른</rs>
             은 신병으로 ᄒᆞ야 호뎡출입을 못ᄒᆞᄂᆞᆫ 탓으로 역시 나와셔 뵈ᄋᆞᆸ지를 못ᄒᆞ오니 
-            <rs ref="#LDS">령감</rs>좌디
-            로 ᄒᆞ나 <rs ref="#SC">ᄯᆞᆯ ᄌᆞ식</rs>에 관계로 ᄒᆞ나 못와 뵈ᄋᆞᆸᄂᆞᆫ 
-            <rs type="person" subtype="group" ref="#CH1 #CHB"><rs ref="#SC">졔</rs>
+            <rs type="person" ref="#LDS">령감</rs>좌디
+            로 ᄒᆞ나 <rs type="person" ref="#SC">ᄯᆞᆯ ᄌᆞ식</rs>에 관계로 ᄒᆞ나 못와 뵈ᄋᆞᆸᄂᆞᆫ 
+            <rs type="person" subtype="group" ref="#CH1 #CHB"><rs type="person" ref="#SC">졔</rs>
              부모</rs>의 졍황이 엇더타 ᄒᆞ오릿가만은 
-            <rs ref="#SC">져</rs>
+            <rs type="person" ref="#SC">져</rs>
             되야셔ᄂᆞᆫ 
-            <rs ref="#LDS">령감</rs>
+            <rs type="person" ref="#LDS">령감</rs>
              얼골 ᄃᆡᄒᆞᆯ 낫이 업ᄉᆞ오니 이런 ᄉᆞ졍을 용셔ᄒᆞ십시오.
           </said>"</p>
         <p>
-          "<said who="#LDS" aloud="true" direct="true">별말을 다 ᄒᆞᄂᆞᆫ구나. 지금은 총총ᄒᆞ다. 이 다음에 셔로 셜파ᄒᆞ기로 느질 것 잇ᄂᆞ냐. 쟈ㅣ <rs ref="LDS">나</rs>ᄂᆞᆫ 간다. 잘 잇거라. 얼마 안이되면 볼 것이니 <rs ref="#LDS">내</rs> ᄉᆡᆼ각을 너모 과도히나 말어라. 무얼 <rs ref="#LDS">내</rs> ᄉᆡᆼ각을 ᄭᅮᆷ에나 ᄒᆞᆯ나구.</said>"
+          "<said who="#LDS" aloud="true" direct="true">별말을 다 ᄒᆞᄂᆞᆫ구나. 지금은 총총ᄒᆞ다. 이 다음에 셔로 셜파ᄒᆞ기로 느질 것 잇ᄂᆞ냐. 쟈ㅣ <rs type="person" ref="LDS">나</rs>ᄂᆞᆫ 간다. 잘 잇거라. 얼마 안이되면 볼 것이니 <rs type="person" ref="#LDS">내</rs> ᄉᆡᆼ각을 너모 과도히나 말어라. 무얼 <rs type="person" ref="#LDS">내</rs> ᄉᆡᆼ각을 ᄭᅮᆷ에나 ᄒᆞᆯ나구.</said>"
         </p>
         <p>
           "<said who="#SC" aloud="true" direct="true">웨 그러케 말ᄉᆞᆷ을 ᄒᆞ셔오</said>"</p><p>ᄒᆞ며
           <persName ref="#LDS">리시찰</persName>을 <rs type="place" subtype="part" ref="#SC_H">ᄃᆡ문밧</rs>ᄭᆞ지 젼송ᄒᆞᄂᆞᆫᄃᆡ
           <persName ref="#LDS">리시찰</persName>은 웨 그리 급ᄒᆞᆫ지 뒤도 도라보지 안이ᄒᆞ고 ᄒᆡᆼᄒᆡᆼ히 가더라.
-          <persName ref="#CHB">ᄎᆡ호방</persName>은 <rs ref="#SC"><rs ref="#CHB">ᄌᆞ긔</rs>의 ᄉᆞ랑ᄒᆞᄂᆞᆫ ᄯᆞᆯ</rs>이 <time type="relative" subtype="that_night">그날밤</time>의 싀집가ᄂᆞᆫ 날 밤인 즉 ᄆᆞᄋᆞᆷ에 경ᄉᆞ스러워라도 젼후 범ᄇᆡᆨ 거ᄒᆡᆼ을 련ᄒᆡ 신칙ᄒᆞ야 힘자라ᄂᆞᆫ ᄃᆡ로 긔구를 불여볼 것이오. 사외되ᄂᆞᆫ 쟈가 사랑ᄒᆞ야셔라도 <rs type="place" subtype="part" ref="#SC_H">방문</rs>이 달토록 나들며 졍답게 슈졉을 ᄒᆞ얏슬 것인ᄃᆡ <rs ref="#LDS">늙은 위인</rs>이라셔 음침ᄒᆞᆫ ᄯᅳᆺ을 두고 <rs ref="#SC"><rs ref="#CHB">ᄌᆞ긔</rs>에 ᄯᆞᆯ</rs>을 검박ᄒᆞ려다가 <rs ref="#LDS">졔</rs> ᄆᆞᄋᆞᆷᄃᆡ로 안이되잇가 <rs ref="#CHB">ᄌᆞ긔</rs>이게 불칙ᄒᆞᆫ 죄명을 억륵으로 씨워 쥭이려 ᄒᆞ던 일도 ᄆᆞᄋᆞᆷ에 얼마즘 통탄ᄒᆞ거던 하물며 <rs ref="#CHB">ᄌᆞ긔</rs>를 무죄 방송ᄒᆞᄂᆞᆫ 것으로 <rs ref="#CHB">어린 것</rs>의 ᄆᆞᄋᆞᆷ을 유인ᄒᆞ야 긔어히 츙욕ᄒᆞᄂᆞᆫ 일이 졀치부심이 되야셔 <rs ref="#CH1"><rs ref="#CHB">ᄌᆞ긔</rs>
-          마누라</rs>ᄭᆞ지 단속ᄒᆞ야 <rs ref="#SC">뎌</rs>의 ᄌᆞ락ᄃᆡ로 내버려두고 오거니 가거니 도모지 내다보지도 안이ᄒᆞ얏더라. 이ᄯᅢ
-          <persName ref="#LDS">리시찰</persName>은 <rs ref="#LDS_JS_H"><rs ref="#LDS">ᄌᆞ긔</rs> ᄉᆞ쳐</rs>로 도라오며 심즁에 스ᄉᆞ로 ᄒᆞᄂᆞᆫ 말이라.</p>
-          <p>"<said who="#LDS" aloud="false">흥 유지면 ᄉᆞ경셩(有志事竟成) 이란 말이 ᄭᅩᆨ 올타. <rs ref="#SC">졔</rs>가 ᄀᆞ장 결심이나 잇ᄂᆞᆫ 쳬 ᄒᆞ고 엇져니 엇져니 ᄒᆞ더니 인졔도 그ᄯᅡ위 슈작을 남을 ᄃᆡᄒᆞ야 짓걸일ᄭᅡ. 어ㅣ <rs ref="#SC">실업에 ᄯᆞᆯ년</rs> <rs ref="#LDS">내</rs>가
-            <rs ref="#HY">셔울</rs>셔브터 <rs ref="#SC">뎌</rs>을 한 번 결연ᄒᆞ자고 ᄆᆞᄋᆞᆷ둔 일이 잇던 터이오. ᄯᅩᄂᆞᆫ <rs ref="#SC">졔</rs> 인물과 ᄌᆡ됴가 하로밤 쇼일거리가 착실ᄒᆞ기에 작난을 실업시 ᄒᆞᆫ 일이지. <rs ref="#SC">뎌</rs>ᄒᆞ고 살기ᄂᆞᆫ <rs ref="#LDS">내</rs>가 계집이 업셔셔 <rs type="house" subtype="rural_area" corresp="#LDS">싀골집</rs>에ᄂᆞᆫ <persName ref="LDS_W1">마누라</persName>가 눈이 십퍼러케 잇고 <rs ref="#LDS_HY_H">셔울 집</rs>에ᄂᆞᆫ <rs ref="LDS_W2">ᄭᅩᆺᄀᆞᆺ치 졂은 쳡</rs>이 잇ᄂᆞᆫᄃᆡ 무에 낫바셔 <rs ref="#SC">져</rs>를 ᄯᅩ 두어 그나 ᄌᆞ손이 업ᄂᆞᆫ 터이면 일뎜혈육이라도 보려고 <rs ref="#SC">어린 계집</rs>을 엇ᄂᆞᆫ 것이 혹 례ᄉᆞ지마는 <rs ref="#LDS">내</rs>야 <rs ref="#LDS_C">아ᄃᆞᆯ ᄯᆞᆯ</rs>이 ᄉᆞᆷ남ᄆᆡ나 되고 <rs ref="#LDS_G">손ᄌᆞ</rs>가 그득ᄒᆞᆫᄃᆡ 무엇을 ᄒᆞ자고 <rs ref="#SC">뎌</rs>를 엇어 어ㅣ 우슌일 다보겟구. <rs ref="#CHB"><rs ref="#SC">졔</rs> 아비 놈</rs>으로 말ᄒᆞ면 당장 <rs ref="#CHB"><rs ref="#LDS">내</rs> 슈즁에 죽ᄂᆞᆫ 놈</rs>인 즉 무죄 ᄇᆡᆨ방으로 ᄒᆞ야쥰 은덕으로 ᄒᆞᆫᄃᆡ도 <rs ref="#LDS">내</rs>가 왓다면 유공불급ᄒᆞ야 나와볼 터이어ᄂᆞᆯ 언연이 <rs type="place" subtype="part" ref="#SC_H"><rs ref="#CHB">졔</rs> 방</rs>에 ᄯᅥᆨ 잣바져 잇고 <rs ref="#CH1"><rs ref="#SC">제</rs> 어미년</rs>으로 말ᄒᆞ면 <rs ref="#CH1">불과시 퇴기로 뭇놈을 다 보던 것</rs>이 안이ᄭᅩᆸ게 ᄂᆡ외 올치 <rs ref="#SC"><rs ref="#CH1 #CHB" type="person" subtype="group">졔</rs> ᄯᆞᆯ</rs> 하아 ᄂᆡ놋ᄂᆞᆫ 것이 큰 ᄇᆡ부른 흥셩이나 ᄒᆞᄂᆞᆫ 것쳐럼 응 <rs ref="#SC"><rs type="person" subtype="group" ref="#CH1 #CHB">졔</rs> ᄯᆞᆯ</rs>이 무엇인ᄃᆡ <rs ref="#LDS">내</rs>가 마음에 업셧스면 모르거니와 <rs type="person" subtype="gisaeng" ref="#SC" ><rs ref="#JS">이 고을</rs> 기ᄉᆡᆼ년하아</rs>임의로 쳐치ᄒᆞ지 못ᄒᆞᆯ가. <rs type="person" subtype="group" ref="#CH1 #CHB">너의년놈</rs>의 소위가 괘ㅅ심ᄒᆡ도
+          <persName ref="#CHB">ᄎᆡ호방</persName>은 <rs type="person" ref="#SC"><rs type="person" ref="#CHB">ᄌᆞ긔</rs>의 ᄉᆞ랑ᄒᆞᄂᆞᆫ ᄯᆞᆯ</rs>이 <time type="relative" subtype="that_night">그날밤</time>의 싀집가ᄂᆞᆫ 날 밤인 즉 ᄆᆞᄋᆞᆷ에 경ᄉᆞ스러워라도 젼후 범ᄇᆡᆨ 거ᄒᆡᆼ을 련ᄒᆡ 신칙ᄒᆞ야 힘자라ᄂᆞᆫ ᄃᆡ로 긔구를 불여볼 것이오. 사외되ᄂᆞᆫ 쟈가 사랑ᄒᆞ야셔라도 <rs type="place" subtype="part" ref="#SC_H">방문</rs>이 달토록 나들며 졍답게 슈졉을 ᄒᆞ얏슬 것인ᄃᆡ <rs type="person" ref="#LDS">늙은 위인</rs>이라셔 음침ᄒᆞᆫ ᄯᅳᆺ을 두고 <rs ref="#SC"><rs ref="#CHB">ᄌᆞ긔</rs>에 ᄯᆞᆯ</rs>을 검박ᄒᆞ려다가 <rs type="person" ref="#LDS">졔</rs> ᄆᆞᄋᆞᆷᄃᆡ로 안이되잇가 <rs type="person" ref="#CHB">ᄌᆞ긔</rs>이게 불칙ᄒᆞᆫ 죄명을 억륵으로 씨워 쥭이려 ᄒᆞ던 일도 ᄆᆞᄋᆞᆷ에 얼마즘 통탄ᄒᆞ거던 하물며 <rs type="person" ref="#CHB">ᄌᆞ긔</rs>를 무죄 방송ᄒᆞᄂᆞᆫ 것으로 <rs type="person" ref="#CHB">어린 것</rs>의 ᄆᆞᄋᆞᆷ을 유인ᄒᆞ야 긔어히 츙욕ᄒᆞᄂᆞᆫ 일이 졀치부심이 되야셔 <rs rtype="person" ef="#CH1"><rs type="person" ref="#CHB">ᄌᆞ긔</rs>
+          마누라</rs>ᄭᆞ지 단속ᄒᆞ야 <rs type="person" ref="#SC">뎌</rs>의 ᄌᆞ락ᄃᆡ로 내버려두고 오거니 가거니 도모지 내다보지도 안이ᄒᆞ얏더라. 이ᄯᅢ
+          <persName ref="#LDS">리시찰</persName>은 <rs type="place" ref="#LDS_JS_H"><rs type="person" ref="#LDS">ᄌᆞ긔</rs> ᄉᆞ쳐</rs>로 도라오며 심즁에 스ᄉᆞ로 ᄒᆞᄂᆞᆫ 말이라.</p>
+          <p>"<said who="#LDS" aloud="false">흥 유지면 ᄉᆞ경셩(<foreign xml:lang="zh">有志事竟成</foreign>) 이란 말이 ᄭᅩᆨ 올타. <rs type="person" ref="#SC">졔</rs>가 ᄀᆞ장 결심이나 잇ᄂᆞᆫ 쳬 ᄒᆞ고 엇져니 엇져니 ᄒᆞ더니 인졔도 그ᄯᅡ위 슈작을 남을 ᄃᆡᄒᆞ야 짓걸일ᄭᅡ. 어ㅣ <rs type="person" ref="#SC">실업에 ᄯᆞᆯ년</rs> <rs type="person" ref="#LDS">내</rs>가
+            <rs type="place" ref="#HY">셔울</rs>셔브터 <rs type="person" ref="#SC">뎌</rs>을 한 번 결연ᄒᆞ자고 ᄆᆞᄋᆞᆷ둔 일이 잇던 터이오. ᄯᅩᄂᆞᆫ <rs type="person" ref="#SC">졔</rs> 인물과 ᄌᆡ됴가 하로밤 쇼일거리가 착실ᄒᆞ기에 작난을 실업시 ᄒᆞᆫ 일이지. <rs type="person" ref="#SC">뎌</rs>ᄒᆞ고 살기ᄂᆞᆫ <rs type="person" ref="#LDS">내</rs>가 계집이 업셔셔 <rs type="house" subtype="rural_area" corresp="#LDS">싀골집</rs>에ᄂᆞᆫ <persName ref="LDS_W1">마누라</persName>가 눈이 십퍼러케 잇고 <rs type="place" ref="#LDS_HY_H">셔울 집</rs>에ᄂᆞᆫ <rs type="person" ref="LDS_W2">ᄭᅩᆺᄀᆞᆺ치 졂은 쳡</rs>이 잇ᄂᆞᆫᄃᆡ 무에 낫바셔 <rs type="person" ref="#SC">져</rs>를 ᄯᅩ 두어 그나 ᄌᆞ손이 업ᄂᆞᆫ 터이면 일뎜혈육이라도 보려고 <rs type="person" ref="#SC">어린 계집</rs>을 엇ᄂᆞᆫ 것이 혹 례ᄉᆞ지마는 <rs type="person" ref="#LDS">내</rs>야 <rs type="person" ref="#LDS_C">아ᄃᆞᆯ ᄯᆞᆯ</rs>이 ᄉᆞᆷ남ᄆᆡ나 되고 <rs type="person" ref="#LDS_G">손ᄌᆞ</rs>가 그득ᄒᆞᆫᄃᆡ 무엇을 ᄒᆞ자고 <rs type="person" ref="#SC">뎌</rs>를 엇어 어ㅣ 우슌일 다보겟구. <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 아비 놈</rs>으로 말ᄒᆞ면 당장 <rs type="person" ref="#CHB"><rs type="person" ref="#LDS">내</rs> 슈즁에 죽ᄂᆞᆫ 놈</rs>인 즉 무죄 ᄇᆡᆨ방으로 ᄒᆞ야쥰 은덕으로 ᄒᆞᆫᄃᆡ도 <rs type="person" ref="#LDS">내</rs>가 왓다면 유공불급ᄒᆞ야 나와볼 터이어ᄂᆞᆯ 언연이 <rs type="place" subtype="part" ref="#SC_H"><rs type="person" ref="#CHB">졔</rs> 방</rs>에 ᄯᅥᆨ 잣바져 잇고 <rs type="person" ref="#CH1"><rs type="person" ref="#SC">제</rs> 어미년</rs>으로 말ᄒᆞ면 <rs type="person" ref="#CH1">불과시 퇴기로 뭇놈을 다 보던 것</rs>이 안이ᄭᅩᆸ게 ᄂᆡ외 올치 <rs type="person" ref="#SC"><rs ref="#CH1 #CHB" type="person" subtype="group">졔</rs> ᄯᆞᆯ</rs> 하아 ᄂᆡ놋ᄂᆞᆫ 것이 큰 ᄇᆡ부른 흥셩이나 ᄒᆞᄂᆞᆫ 것쳐럼 응 <rs type="person" ref="#SC"><rs type="person" subtype="group" ref="#CH1 #CHB">졔</rs> ᄯᆞᆯ</rs>이 무엇인ᄃᆡ <rs type="person" ref="#LDS">내</rs>가 마음에 업셧스면 모르거니와 <rs type="person" subtype="gisaeng" ref="#SC" ><rs type="place" ref="#JS">이 고을</rs> 기ᄉᆡᆼ년하아</rs>임의로 쳐치ᄒᆞ지 못ᄒᆞᆯ가. <rs type="person" subtype="group" ref="#CH1 #CHB">너의년놈</rs>의 소위가 괘ㅅ심ᄒᆡ도
             <persName ref="#SC">션초</persName>ᄂᆞᆫ 안이다리고 살 것이다. 오냐 <rs type="object" subtype="contract">계약셔</rs>에 도장 ᄶᅵᆨ어 보내기를 잘 기ᄃᆡ려 보아라. 하ᄂᆞᆯ에 잇ᄂᆞᆫ 별ᄯᅡ기보다 좀 더 어려올나.</said>"</p>
           <p>ᄒᆞ고 <date type="relative" subtype="next_day">그 잇흔날</date> 이럿타 져럿타 한 마듸 긔별업시
           <placeName ref="#JL_N">젼라북도</placeName>로 향ᄒᆡ 갓더라.
@@ -3265,61 +3265,61 @@
         </div>
       <div type="chapter" n="5">
         <head>뎨 오회</head> 
-        <p>슌젼ᄒᆞᆫ 텬진으로 <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>을 <rs ref="#SC">ᄌᆞ긔</rs> 마ᄋᆞᆷ 밋듯 ᄒᆞᄂᆞᆫ
+        <p>슌젼ᄒᆞᆫ 텬진으로 <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>을 <rs type="person" ref="#SC">ᄌᆞ긔</rs> 마ᄋᆞᆷ 밋듯 ᄒᆞᄂᆞᆫ
           <persName ref="#SC">션초</persName>ᄂᆞᆫ
-          <persName ref="#LDS">리시찰</persName> 도라간 뒤로 이ᄯᅢ나 <rs type="object" subtype="contract">계약셔</rs>ᄅᆞᆯ 보ᄂᆡᆯ가 눈이 감도록 기ᄃᆡ리ᄂᆞᆫᄃᆡ 어언간 <time type="timeOfDay" subtype="night">ᄒᆡ가 지도록</time> 쇼식이 업스니 심즁에 심이 의아ᄒᆞᆫ던지 <rs type="person" subtype="group" ref="#CHB #CH1"><rs ref="#SC">져</rs>의 부모</rs>를 향ᄒᆞ야 소경력 ᄉᆞ졍를 고ᄒᆞ며</p>
-          <p>"<said who="#SC" aloud="true" direct="true"><rs ref="#LDS">이 량반</rs>이 엇지ᄒᆡ셔 아모 긔별이 업슬가요. <rs type="person" subtype="class" ref="#LDS">그 량반</rs>이 년부력강치 안이신 터에 <time type="timeOfDay" subtype="night">밤</time>에 잠을 편이 못줌으시고 아마 신병이 나셧나 보오. 그러치 안이면 즉시 <rs ref="#HAIN">하인</rs>을 보ᄂᆡ마고 금셕ᄀᆞᆺ치 말ᄉᆞᆷ을 ᄒᆞ얏ᄂᆞᆫᄃᆡ 엇지 엇ᄒᆡ셔 잇ᄃᆡᄭᆞ지 긔별이 업스니 갑갑ᄒᆞᆫᄃᆡ
+          <persName ref="#LDS">리시찰</persName> 도라간 뒤로 이ᄯᅢ나 <rs type="object" subtype="contract">계약셔</rs>ᄅᆞᆯ 보ᄂᆡᆯ가 눈이 감도록 기ᄃᆡ리ᄂᆞᆫᄃᆡ 어언간 <time>ᄒᆡ가 지도록</time> 쇼식이 업스니 심즁에 심이 의아ᄒᆞᆫ던지 <rs type="person" subtype="group" ref="#CHB #CH1"><rs type="person" ref="#SC">져</rs>의 부모</rs>를 향ᄒᆞ야 소경력 ᄉᆞ졍를 고ᄒᆞ며</p>
+          <p>"<said who="#SC" aloud="true" direct="true"><rs ref="#LDS">이 량반</rs>이 엇지ᄒᆡ셔 아모 긔별이 업슬가요. <rs type="person" subtype="class" ref="#LDS">그 량반</rs>이 년부력강치 안이신 터에 <time>밤</time>에 잠을 편이 못줌으시고 아마 신병이 나셧나 보오. 그러치 안이면 즉시 <rs type="person" ref="#HAIN">하인</rs>을 보ᄂᆡ마고 금셕ᄀᆞᆺ치 말ᄉᆞᆷ을 ᄒᆞ얏ᄂᆞᆫᄃᆡ 엇지 엇ᄒᆡ셔 잇ᄃᆡᄭᆞ지 긔별이 업스니 갑갑ᄒᆞᆫᄃᆡ
             <persName ref="#GB">갓난 어멈</persName>을 불너 알아보앗스면 됴켓셔요.</said>"
         </p>
-        <p>"<said who="#CHB" aloud="true" direct="true">밋기를 ᄭᅩᆨ 잘 밋ᄂᆞᆫ다. <rs ref="#LDS">그</rs>가 <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>인 줄노 밋엇더냐. <rs ref="#LDS">그</rs> 흉계ᄅᆞᆯ 몰낫지 잠ㅅ간 <rs ref="#SC">너</rs>ᄅᆞᆯ 속이노라고 능쳥스럽게 무엇을 써 쥬고 급히 갈 ᄯᆡ에 도로 ᄲᆡ아슬 계교로 도쟝인지 막걸닌지 ᄶᅵᆨ어 쥬마고 가져간 것인ᄃᆡ <rs ref="#SC">네</rs> ᄉᆡᆼ각에ᄂᆞᆫ 도로 보ᄂᆡᆯ 줄로 알고 기다리ᄂᆞᆫ 모양이냐. 이번에 <rs ref="#SC">너</rs> 욕당ᄒᆞᆫ 일 곳 ᄉᆡᆼ각ᄒᆞ면 이에 신물이 졀로 난다. <rs ref="#SC">이 ᄋᆡ</rs> 긔왕 욕당ᄒᆞᆫ 일은 팔ᄌᆞ탓으로 녁이고 <rs ref="#LDS">그ᄯᅡ위 인물</rs>을 ᄉᆡᆼ각도 말아라. 셜혹 <rs ref="#LDS">그 위인</rs>이 약죠을 직회기로 소용이 무엇이냐.</said>"</p>
-          <p><persName ref="#SC">션초</persName>가 <rs ref="#CHB"><rs ref="#SC">ᄌᆞ긔</rs> 부친</rs> 말에 ᄃᆡᄒᆞ야 무엇이라 명기불연ᄒᆞ야 ᄃᆡ답을 ᄒᆞ려다가 다시 ᄉᆡᆼ각ᄒᆞ기를</p>
-          <p>"<said who="#SC" aloud="false" direct="true">에그 아모 말도 말어야 ᄒᆞ겟다. <rs ref="#CHB">아바지</rs>게셔 분졍지도에 ᄒᆞ시ᄂᆞᆫ 말ᄉᆞᆷ이지 그러치 아니면 아즉 압일을 지ᄂᆡ보지시지도 안이ᄒᆞ시고 <rs ref="#SC">나</rs>의 <rs ref="#LDS">가장된 분</rs>을 뎌다지 단쳐을 들어 말ᄉᆞᆷᄒᆞ실ᄂᆞ구. 그ᄅᆡ로 그러치 안이ᄒᆞ다 만일 분ㅅ김에 말ᄉᆞᆷ을 더 심ᄒᆞ게 ᄒᆞ시면 낫말은 ᄉᆡ가 듯고 밤말은 ᄌᆔ가 듯ᄂᆞᆫ다ᄂᆞᆫᄃᆡ <rs ref="#LDS">령감</rs>귀에 혹 드러가면 <date dur="P10D">열흘</date> 길를 하로도 못가셔 <rs ref="#SC">내</rs>게 향ᄒᆞᄂᆞᆫ <rs ref="#LDS">령감</rs>의 마ᄋᆞᆷ도 셥셥ᄒᆞ야질 터이지.</said>"</p>
-          <p>ᄒᆞ고 <rs ref="#CHB"><rs ref="#SC">자긔</rs> 부친</rs>에 입을 손다닥으로 막으며</p>
-          <p>"<said who="#SC" aloud="true" direct="true">글셰 웨 이러케 말ᄉᆞᆷ을 ᄒᆞ심닛가. 긔왕 일은 엇지 되얏던지 인졔ᄂᆞᆫ <rs ref="#LDS">그 령감</rs>이 <rs ref="#CHB">아바지</rs> <rs ref="#LDS">사외</rs>가 안이오닛가. <rs ref="#LDS">사외</rs>에 말을 <rs ref="#CHB">장인</rs>되시ᄂᆞᆫ <rs ref="#CHB">아바지</rs>ᄭᅴ셔 심ᄒᆞ게 ᄒᆞ시면 <rs ref="#SC">ᄯᆞᆯ</rs>에 ᄭᅩᆯ악션이ᄂᆞᆫ 무엇이 됨닛가. 분ᄒᆞ셔도 ᄎᆞᆷ으시고
+        <p>"<said who="#CHB" aloud="true" direct="true">밋기를 ᄭᅩᆨ 잘 밋ᄂᆞᆫ다. <rs ref="#LDS">그</rs>가 <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>인 줄노 밋엇더냐. <rs type="person" ref="#LDS">그</rs> 흉계ᄅᆞᆯ 몰낫지 잠ㅅ간 <rs type="person" ref="#SC">너</rs>ᄅᆞᆯ 속이노라고 능쳥스럽게 무엇을 써 쥬고 급히 갈 ᄯᆡ에 도로 ᄲᆡ아슬 계교로 도쟝인지 막걸닌지 ᄶᅵᆨ어 쥬마고 가져간 것인ᄃᆡ <rs type="person" ref="#SC">네</rs> ᄉᆡᆼ각에ᄂᆞᆫ 도로 보ᄂᆡᆯ 줄로 알고 기다리ᄂᆞᆫ 모양이냐. 이번에 <rs type="person" ref="#SC">너</rs> 욕당ᄒᆞᆫ 일 곳 ᄉᆡᆼ각ᄒᆞ면 이에 신물이 졀로 난다. <rs type="person" ref="#SC">이 ᄋᆡ</rs> 긔왕 욕당ᄒᆞᆫ 일은 팔ᄌᆞ탓으로 녁이고 <rs ref="#LDS">그ᄯᅡ위 인물</rs>을 ᄉᆡᆼ각도 말아라. 셜혹 <rs type="person" ref="#LDS">그 위인</rs>이 약죠을 직회기로 소용이 무엇이냐.</said>"</p>
+          <p><persName ref="#SC">션초</persName>가 <rs type="person" ref="#CHB"><rs type="person" ref="#SC">ᄌᆞ긔</rs> 부친</rs> 말에 ᄃᆡᄒᆞ야 무엇이라 명기불연ᄒᆞ야 ᄃᆡ답을 ᄒᆞ려다가 다시 ᄉᆡᆼ각ᄒᆞ기를</p>
+          <p>"<said who="#SC" aloud="false" direct="true">에그 아모 말도 말어야 ᄒᆞ겟다. <rs type="person" ref="#CHB">아바지</rs>게셔 분졍지도에 ᄒᆞ시ᄂᆞᆫ 말ᄉᆞᆷ이지 그러치 아니면 아즉 압일을 지ᄂᆡ보지시지도 안이ᄒᆞ시고 <rs type="person" ref="#SC">나</rs>의 <rs type="person" ref="#LDS">가장된 분</rs>을 뎌다지 단쳐을 들어 말ᄉᆞᆷᄒᆞ실ᄂᆞ구. 그ᄅᆡ로 그러치 안이ᄒᆞ다 만일 분ㅅ김에 말ᄉᆞᆷ을 더 심ᄒᆞ게 ᄒᆞ시면 낫말은 ᄉᆡ가 듯고 밤말은 ᄌᆔ가 듯ᄂᆞᆫ다ᄂᆞᆫᄃᆡ <rs type="person" ref="#LDS">령감</rs>귀에 혹 드러가면 <date dur="P10D">열흘</date> 길를 하로도 못가셔 <rs type="person" ref="#SC">내</rs>게 향ᄒᆞᄂᆞᆫ <rs type="person" ref="#LDS">령감</rs>의 마ᄋᆞᆷ도 셥셥ᄒᆞ야질 터이지.</said>"</p>
+          <p>ᄒᆞ고 <rs type="person" ref="#CHB"><rs type="person" ref="#SC">자긔</rs> 부친</rs>에 입을 손다닥으로 막으며</p>
+          <p>"<said who="#SC" aloud="true" direct="true">글셰 웨 이러케 말ᄉᆞᆷ을 ᄒᆞ심닛가. 긔왕 일은 엇지 되얏던지 인졔ᄂᆞᆫ <rs type="person" ref="#LDS">그 령감</rs>이 <rs type="person" ref="#CHB">아바지</rs> <rs type="person" ref="#LDS">사외</rs>가 안이오닛가. <rs type="person" ref="#LDS">사외</rs>에 말을 <rs type="person" ref="#CHB">장인</rs>되시ᄂᆞᆫ <rs type="person" ref="#CHB">아바지</rs>ᄭᅴ셔 심ᄒᆞ게 ᄒᆞ시면 <rs type="person" ref="#SC">ᄯᆞᆯ</rs>에 ᄭᅩᆯ악션이ᄂᆞᆫ 무엇이 됨닛가. 분ᄒᆞ셔도 ᄎᆞᆷ으시고
             <persName ref="#GB">갓난 어미</persName>에게 좀 알아나 보아 쥬십시오.</said>"</p>
-          <p>"<said who="#CHB" aloud="true" direct="true"><rs ref="#SC">뎌 ᄌᆞ식</rs>이 약고 ᄯᅩᆨᄯᅩᆨᄒᆞᆫ 쥴 알앗던니 지금 보닛가 아즉 용열ᄒᆞ구나. <rs ref="#LDS">령감</rs>은 난졍마즐 무슨 <rs ref="#LDS">령감</rs>이고 알아보기ᄂᆞᆫ 무엇을 알아보아 <rs ref="#CHB">아비</rs>에 말이 ᄭᅩᆨ 올으니 가당치 안케 ᄉᆡᆼ각을 말고 진작 이져버려라. 한 일 밀워 열 일을 아ᄂᆞᆫ 법인 즉 두고 볼 것 업시 <rs ref="#SC">네</rs>게도 결다코 <rs ref="#LDS">못ᄒᆞᆯ 노릇ᄒᆞᆯ 위인</rs>이니라.</said>"
+          <p>"<said who="#CHB" aloud="true" direct="true"><rs ref="#SC">뎌 ᄌᆞ식</rs>이 약고 ᄯᅩᆨᄯᅩᆨᄒᆞᆫ 쥴 알앗던니 지금 보닛가 아즉 용열ᄒᆞ구나. <rs type="person" ref="#LDS">령감</rs>은 난졍마즐 무슨 <rs type="person" ref="#LDS">령감</rs>이고 알아보기ᄂᆞᆫ 무엇을 알아보아 <rs type="person" ref="#CHB">아비</rs>에 말이 ᄭᅩᆨ 올으니 가당치 안케 ᄉᆡᆼ각을 말고 진작 이져버려라. 한 일 밀워 열 일을 아ᄂᆞᆫ 법인 즉 두고 볼 것 업시 <rs type="person" ref="#SC">네</rs>게도 결다코 <rs type="person" ref="#LDS">못ᄒᆞᆯ 노릇ᄒᆞᆯ 위인</rs>이니라.</said>"
         </p>
         <p>
-          "<said who="#SC" aloud="true" direct="true">에그 <rs ref="#CHB">아바지</rs> 그러케 ᄒᆞ실 말ᄉᆞᆷ이 안이올시다. <rs ref="#LDS">그 령감</rs>ᄭᅴ셔 금셕ᄀᆞᆺ흔 언약을 져바리ᄂᆞᆫ 디경이면 <rs ref="#SC">져</rs>ᄂᆞᆫ··········· ᄯᅩ 후분 됴치 못ᄒᆞᆫ 것이야 엇지 압을 ᄂᆡ다보난 슈도 업고 셜ᄉᆞ 그얼줄 알기로 긔왕 몸을 허락ᄒᆞᆫ 이상에 후회ᄒᆞ면 쓸 ᄃᆡ가 잇슴니가.</said>"</p>
+          "<said who="#SC" aloud="true" direct="true">에그 <rs type="person" ref="#CHB">아바지</rs> 그러케 ᄒᆞ실 말ᄉᆞᆷ이 안이올시다. <rs type="person" ref="#LDS">그 령감</rs>ᄭᅴ셔 금셕ᄀᆞᆺ흔 언약을 져바리ᄂᆞᆫ 디경이면 <rs type="person" ref="#SC">져</rs>ᄂᆞᆫ··········· ᄯᅩ 후분 됴치 못ᄒᆞᆫ 것이야 엇지 압을 ᄂᆡ다보난 슈도 업고 셜ᄉᆞ 그얼줄 알기로 긔왕 몸을 허락ᄒᆞᆫ 이상에 후회ᄒᆞ면 쓸 ᄃᆡ가 잇슴니가.</said>"</p>
           <p>
           <persName ref="#CHB">ᄎᆡ호방</persName>이
-          <persName ref="#LDS">리시찰</persName> <rs ref="#LDS">위인</rs>을 명약관화로 알고
-          <persName ref="#SC">션초</persName>다려 아모됴록 다시 ᄯᅳᆺ을 두지 말고 진즉 달니 변통ᄒᆞ라고 졍ᄉᆡᆨᄒᆞ야 얼마ᄶᅳᆷ ᄭᅮ짓다가 <rs ref="#SC">졔</rs>가 결심을 하도 단단히 ᄒᆞ고 일향 듯지 아니ᄒᆞᄂᆞᆫ 양을 본즉 아모려도 ᄒᆞᆯ 일 업ᄂᆞᆫ지라. 부득이ᄒᆞ야</p>
+          <persName ref="#LDS">리시찰</persName> <rs type="person" ref="#LDS">위인</rs>을 명약관화로 알고
+          <persName ref="#SC">션초</persName>다려 아모됴록 다시 ᄯᅳᆺ을 두지 말고 진즉 달니 변통ᄒᆞ라고 졍ᄉᆡᆨᄒᆞ야 얼마ᄶᅳᆷ ᄭᅮ짓다가 <rs type="person" ref="#SC">졔</rs>가 결심을 하도 단단히 ᄒᆞ고 일향 듯지 아니ᄒᆞᄂᆞᆫ 양을 본즉 아모려도 ᄒᆞᆯ 일 업ᄂᆞᆫ지라. 부득이ᄒᆞ야</p>
           <p>"<said who="#CHB" aloud="true" direct="true">응 <rs ref="#SC">ᄌᆞ식</rs>도 ᄒᆞᆫ 번 쥐면 다시 펼 줄은 도모지 모로지. ᄒᆞᆯ 수 업다 <rs ref="#SC">네</rs> 팔ᄌᆞ 소관이다.</said>"</p>
           <p>ᄒᆞ더니
-          <rs ref="#HAIN">하인</rs>을
+          <rs type="person" ref="#HAIN">하인</rs>을
           <persName ref="#GB">갓난 어미</persName>에게로 보ᄂᆡ여
           <persName ref="#LDS">리시찰</persName>의 동졍을 탐지ᄒᆞ야 본즉
           <persName ref="#LDS">리시찰</persName>이 죠반을 ᄌᆡ촉ᄒᆞ야 먹고 즉시 ᄯᅥ나셔
           <placeName ref="#JLN">젼라북도</placeName>로 갓다 ᄒᆞᄂᆞᆫ지라.
           <persName ref="#CHB">ᄎᆡ호방</persName>이 혀를 툭툭 차며</p>
-          <p>"<said who="#CHB" aloud="true" direct="true">쟈ㅣ 보아라. <rs ref="#CHB">내</rs>가 무엇이라더냐. 발셔
+          <p>"<said who="#CHB" aloud="true" direct="true">쟈ㅣ 보아라. <rs type="person" ref="#CHB">내</rs>가 무엇이라더냐. 발셔
             <placeName ref="#JLN">젼라북도</placeName>로 다라낫단다. 고러케 <rs type="object" subtype="contract">계약셔</rs>에 도쟝을 잘 ᄶᅵᆨ어 보ᄂᆡ엿ᄂᆞ냐.</said>"
         </p>
         <p>
           "<said who="#SC" aloud="true" direct="true">아마 총망즁에 잇고 그ᄃᆡ로 가신게지오. 쇼양 ᄇᆡ양ᄒᆞᆫ 졂은 사ᄅᆞᆷ안이고 셜마 ᄇᆡ약ᄒᆞ오릿가. 하회를 기다려 보면 알 것이오니 넘오 과도히 말ᄉᆞᆷ을 마십시오.</said>"
         </p>
         <p>
-          "<said who="#CHB" aloud="true" direct="true"><rs ref="#CHB">나</rs>인들 <rs ref="#SC">너</rs>만치 ᄉᆡᆼ각을 못ᄒᆞ겟ᄂᆞ냐. <rs ref="#LDS">그</rs>가 늙것스나 졀멋스나 <rs ref="#LDS">ᄉᆞ위</rs>되기ᄂᆞᆫ 일반인 즉 <rs ref="#SC">너</rs>를 위ᄒᆞ야 아모됴록 <rs ref="#LDS">그</rs> 허물을 뒤덥허 가겟지만는 관기모ᄌᆞ면 인언슈ᄌᆡ(觀其眸子人焉瘐諸)라고 <rs ref="#LDS">그 목자</rs>가 텬하에 간교ᄒᆞ기가 ᄶᅡᆨ이 업고 음셩이 괴상ᄒᆡ셔 후분신셰ᄂᆞᆫ 말이 못될나 <rs ref="#CHB">ᄂᆡ</rs>가 상셔공부ᄂᆞᆫ 못ᄒᆞ얏다만은 <date type="durtaion">다년</date> 관부 츌입을 ᄒᆞ며 렬인을 만히 ᄒᆞᆫ 탓으로 여합부졀 알겟더라. 그런즉 <rs ref="#CHB">ᄂᆡ</rs> ᄉᆡᆼ각에ᄂᆞᆫ 열에 아홉은 <rs ref="#LDS">그</rs>가 <rs ref="#SC">너</rs>를 당장 속여넘긴것 ᄀᆞᆺ고 ᄯᅩᄂᆞᆫ 셜혹 속이지를 안이ᄒᆞ고 신를 직힌ᄃᆡ도 나죵에 필경 됴치 못ᄒᆞᆯ 것이니 아ᄭᅡ 말ᄒᆞᆫ ᄃᆡ로 진작 단염ᄒᆞᄂᆞᆫ 편이 가ᄒᆞ니라.</said>"
+          "<said who="#CHB" aloud="true" direct="true"><rs type="person" ref="#CHB">나</rs>인들 <rs type="person" ref="#SC">너</rs>만치 ᄉᆡᆼ각을 못ᄒᆞ겟ᄂᆞ냐. <rs ref="#LDS">그</rs>가 늙것스나 졀멋스나 <rs ref="#LDS">ᄉᆞ위</rs>되기ᄂᆞᆫ 일반인 즉 <rs ref="#SC">너</rs>를 위ᄒᆞ야 아모됴록 <rs type="person" ref="#LDS">그</rs> 허물을 뒤덥허 가겟지만는 관기모ᄌᆞ면 인언슈ᄌᆡ(<foreign xml:lang="zh">觀其眸子人焉瘐諸</foreign>)라고 <rs type="person" ref="#LDS">그 목자</rs>가 텬하에 간교ᄒᆞ기가 ᄶᅡᆨ이 업고 음셩이 괴상ᄒᆡ셔 후분신셰ᄂᆞᆫ 말이 못될나 <rs type="person" ref="#CHB">ᄂᆡ</rs>가 상셔공부ᄂᆞᆫ 못ᄒᆞ얏다만은 <date type="durtaion">다년</date> 관부 츌입을 ᄒᆞ며 렬인을 만히 ᄒᆞᆫ 탓으로 여합부졀 알겟더라. 그런즉 <rs type="person" ref="#CHB">ᄂᆡ</rs> ᄉᆡᆼ각에ᄂᆞᆫ 열에 아홉은 <rs type="person" ref="#LDS">그</rs>가 <rs type="person" ref="#SC">너</rs>를 당장 속여넘긴것 ᄀᆞᆺ고 ᄯᅩᄂᆞᆫ 셜혹 속이지를 안이ᄒᆞ고 신를 직힌ᄃᆡ도 나죵에 필경 됴치 못ᄒᆞᆯ 것이니 아ᄭᅡ 말ᄒᆞᆫ ᄃᆡ로 진작 단염ᄒᆞᄂᆞᆫ 편이 가ᄒᆞ니라.</said>"
         </p>
         <p>
-          "<said who="#SC" aloud="true" direct="true">에그 <rs ref="#CHB">아바지</rs> <rs ref="#SC">져</rs>ᄂᆞᆫ 죽ᄉᆞ와도 그리ᄒᆞᆯ 슈 업슴이다. <rs ref="#LDS">그 령감</rs>ᄭᅴ셔 금셕ᄀᆞᆺ흔 언약을 져바리ᄂᆞᆫ 디경이면 <rs ref="#SC">져</rs>ᄂᆞᆫ··········· ᄯᅩ 후분 됴치 못ᄒᆞᆫ 것이야 엇지 압을 ᄂᆡ다보난 슈도 업고 셜ᄉᆞ 그얼줄 알기로 긔왕 몸을 허락ᄒᆞᆫ 이상에 후회ᄒᆞ면 쓸 ᄃᆡ가 잇슴니가.</said>"</p>
+          "<said who="#SC" aloud="true" direct="true">에그 <rs type="person" ref="#CHB">아바지</rs> <rs type="person" ref="#SC">져</rs>ᄂᆞᆫ 죽ᄉᆞ와도 그리ᄒᆞᆯ 슈 업슴이다. <rs type="person" ref="#LDS">그 령감</rs>ᄭᅴ셔 금셕ᄀᆞᆺ흔 언약을 져바리ᄂᆞᆫ 디경이면 <rs type="person" ref="#SC">져</rs>ᄂᆞᆫ··········· ᄯᅩ 후분 됴치 못ᄒᆞᆫ 것이야 엇지 압을 ᄂᆡ다보난 슈도 업고 셜ᄉᆞ 그얼줄 알기로 긔왕 몸을 허락ᄒᆞᆫ 이상에 후회ᄒᆞ면 쓸 ᄃᆡ가 잇슴니가.</said>"</p>
           <p><persName ref="#CHB">ᄎᆡ호방</persName>은
           <persName ref="#SC">션초</persName>의 고집ᄒᆞᄂᆞᆫ 양을 보고 화가 더럭 나셔</p>
-          <p>"<said who="#CHB" aloud="true" direct="true">예ㅣ 누가 아ᄂᆞ냐. <rs ref="#SC">네</rs> ᄌᆞ락ᄃᆡ로 ᄒᆞ여라. 잘 되야도 <rs ref="#SC">네</rs> 팔ᄌᆞ오 못 되여도 <rs ref="#SC">네</rs> 팔ᄌᆞ니라.</said>"</p>
+          <p>"<said who="#CHB" aloud="true" direct="true">예ㅣ 누가 아ᄂᆞ냐. <rs type="person" ref="#SC">네</rs> ᄌᆞ락ᄃᆡ로 ᄒᆞ여라. 잘 되야도 <rs type="person" ref="#SC">네</rs> 팔ᄌᆞ오 못 되여도 <rs ref="#SC">네</rs> 팔ᄌᆞ니라.</said>"</p>
           <p>ᄒᆞ며 밧갓흐로 나간 뒤에 <rs ref="#CH1">션초어머니</rs>가 쥐죽은 듯이 잇셔 동졍만 보다가 곰곰 ᄉᆡᆼ각ᄒᆞ기를</p>
-          <p>"<said who="#CH1" aloud="false"> <rs ref="#CHB"><rs ref="#CH1">ᄌᆞ긔</rs> 남편</rs> 말ᄃᆡ로
-          <persName ref="#LDS">리시찰</persName>의 ᄌᆞ격이 깁히 <rs ref="#LDS">밋지 못ᄒᆞᆯ 위인</rs> ᄀᆞᆺ흐면 <rs ref="#SC"><rs ref="#SC">ᄌᆞ긔</rs> ᄯᆞᆯ</rs>의 집심은 ᄆᆡᆺ고 ᄭᅳᆫ은 듯 ᄒᆞ야 다시 변통을 못ᄒᆞᆯ 모양이라. <rs ref="#SC">ᄯᆞᆯᄌᆞ식</rs>일지언뎡 <rs ref="#SC">졔</rs> ᄌᆞ격이 남에 밋헤 안이들만 ᄒᆞ닛가 아모됴록 <rs ref="#SC_H"><rs ref="#SC">져</rs>와 ᄀᆞᆺ흔 ᄶᅡᆨ</rs>을 엇어 한이업시 ᄌᆞ미를 보ᄌᆡᆺ더니 ᄭᅮᆷ결인지 잠결인지 쳔만 ᄯᅳᆺ밧게 굽도 졋도 못ᄒᆞᆯ 경우를 당ᄒᆞ얏스니 이 일을 엇지ᄒᆞ면 됴탄 말인가</said>"</p>
-          <p>ᄒᆞ며, 담ᄇᆡㅅᄃᆡᄅᆞᆯ 톡톡 털어 한 ᄃᆡᄅᆞᆯ 퓌여 물고 <rs type="place" subtype="part" ref="#SC_H">후뎡화원</rs>으로 넉이 업시 ᄒᆞᆫ 거름 두 거름 도라가ᄂᆞᆫᄃᆡ <rs ref="#MR">머리가 다 부욱ᄒᆞ고 키가 조고마ᄒᆞᆫ 계집ᄋᆞᄒᆡ</rs>가 각ᄉᆡᆨ풀입을 ᄯᅳᆺ어 초마 압혜다 싸들고 강동강동 뒤여오며</p>
-          <p>"<said who="#MR" aloud="true" direct="true"><rs ref="#CH1">어머니</rs> <rs ref="#SC">뎌긔 언니</rs>가 <rs type="place" subtype="part" ref="#SC_H">뒤ㅅ마루</rs>에 혼자 안져셔 작구 울기만 ᄒᆞ며 <rs ref="#MR">나</rs>가 가닛가 뎌리 가라고 핀잔만 주어요. <rs ref="#SC"><rs ref="#MR">나</rs> 뮈어ᄒᆞᄂᆞᆫ 그 놈에 언니</rs> 진작 죽기나 ᄒᆡᆺ스면 됴켓지.</said>"</p>
-          <p><persName ref="#CH1">션초어머니</persName>가 갓득이나 심란ᄒᆞᆫᄃᆡ 아모리 <rs ref="#MR">쳘 모르ᄂᆞᆫ 어린 것</rs>이라도 <rs ref="#SC"><rs ref="#MR">졔</rs> 형</rs>에게 향ᄒᆞ야 막 맛츰가ᄂᆞᆫ 말로 쥭엇스면 죠켓다고 ᄒᆞᄂᆞᆫ 것을 듯고 분이 와락 나셔</p>
-          <p>"<said who="#CH1" aloud="true" direct="true"><rs ref="#MR">이년</rs> 무엇이야. <rs ref="#SC">형</rs>다려 죽엇스면 죠켓다ᄂᆞᆫ 법이 엇의 잇더냐. 그리지 안이ᄒᆡ도 <rs ref="#SC">심ᄉᆞ가 죠치 못ᄒᆞ야 울기만 ᄒᆞᄂᆞᆫ 형</rs>다려 죽으라고 <rs ref="#MR">이년</rs> 보기 실타. 져리 가거라.</said>"</p>
-          <p><rs ref="#MR">그 ᄋᆞᄒᆡ</rs>ᄂᆞᆫ <rs ref="#CH1"><rs ref="#MR">뎌</rs>의 어머니</rs>가 그리ᄒᆞᆯᄉᆞ록 팔에 가 ᄆᆡ달녀 응셕을 ᄒᆞ며</p>
-          <p>"<said who="#MR" aloud="true" direct="true"><rs ref="#CH1">어머니</rs> 그리고 <rs ref="#SC">언니</rs>가 <rs ref="#MR">나</rs>를 작고 ᄶᅭᆺ기에 무엇을 혼자 쳐먹으려나 ᄒᆞ고 감안감안이 가 슘어 보닛가 <rs ref="#SC">언니</rs>가 웨 그리난지 의쟝을 열고 의복을 ᄎᆞ례로 ᄂᆡ여 이것도 닙어 보고 한슘 쉬고 뎌것도 닙어 보고 한슘을 쉬여요.</said>"</p>
-          <p><rs ref="#CH1">션초 어머니</rs>가 <rs ref="#MR">그 ᄋᆞᄒᆡ</rs> 대ᄀᆡᆼ이ᄅᆞᆯ 툭 쥐여 박으며</p>
-          <p>"<said who="#CH1" aloud="true" direct="true">에라 <rs ref="#MR">이 년</rs> 뎌리 가거라. 듯기 슬타.</said>"</p> 
-          <p>ᄒᆞ야 ᄶᅭ차보ᄂᆡᆫ 뒤에 <rs type="place" subtype="part" ref="#SC_H"><persName ref="#SC">션초</persName>의 쳐소</rs>로 슬슬 도라가니 <persName ref="#SC">션초</persName>가 <rs ref="#CH1">ᄌᆞ긔 어머니</rs> 오ᄂᆞᆫ 양을 보고 흘으던 눈물을 얼풋 씨셔 버리고 텬연ᄒᆞᆫ 모양으로 ᄂᆡ려 마즈며</p>
-          <p>"<said who="#SC" aloud="true" direct="true"><rs ref="#CH1">어머니</rs> 웨 무슨 일에 역졍이 나셧슴닛가. 긔ᄉᆡᆨ이 죠치 못ᄒᆞ시니.</said>"</p>
+          <p>"<said who="#CH1" aloud="false"> <rs type="person" ref="#CHB"><rs type="person" ref="#CH1">ᄌᆞ긔</rs> 남편</rs> 말ᄃᆡ로
+          <persName ref="#LDS">리시찰</persName>의 ᄌᆞ격이 깁히 <rs type="person" ref="#LDS">밋지 못ᄒᆞᆯ 위인</rs> ᄀᆞᆺ흐면 <rs type="person" ref="#SC"><rs type="person" ref="#SC">ᄌᆞ긔</rs> ᄯᆞᆯ</rs>의 집심은 ᄆᆡᆺ고 ᄭᅳᆫ은 듯 ᄒᆞ야 다시 변통을 못ᄒᆞᆯ 모양이라. <rs ref="#SC">ᄯᆞᆯᄌᆞ식</rs>일지언뎡 <rs ref="#SC">졔</rs> ᄌᆞ격이 남에 밋헤 안이들만 ᄒᆞ닛가 아모됴록 <rs type="place" ref="#SC_H"><rs ref="#SC">져</rs>와 ᄀᆞᆺ흔 ᄶᅡᆨ</rs>을 엇어 한이업시 ᄌᆞ미를 보ᄌᆡᆺ더니 ᄭᅮᆷ결인지 잠결인지 쳔만 ᄯᅳᆺ밧게 굽도 졋도 못ᄒᆞᆯ 경우를 당ᄒᆞ얏스니 이 일을 엇지ᄒᆞ면 됴탄 말인가</said>"</p>
+          <p>ᄒᆞ며, 담ᄇᆡㅅᄃᆡᄅᆞᆯ 톡톡 털어 한 ᄃᆡᄅᆞᆯ 퓌여 물고 <rs type="place" subtype="part" ref="#SC_H">후뎡화원</rs>으로 넉이 업시 ᄒᆞᆫ 거름 두 거름 도라가ᄂᆞᆫᄃᆡ <rs type="person" ref="#MR">머리가 다 부욱ᄒᆞ고 키가 조고마ᄒᆞᆫ 계집ᄋᆞᄒᆡ</rs>가 각ᄉᆡᆨ풀입을 ᄯᅳᆺ어 초마 압혜다 싸들고 강동강동 뒤여오며</p>
+          <p>"<said who="#MR" aloud="true" direct="true"><rs type="person" ref="#CH1">어머니</rs> <rs type="person" ref="#SC">뎌긔 언니</rs>가 <rs type="place" subtype="part" ref="#SC_H">뒤ㅅ마루</rs>에 혼자 안져셔 작구 울기만 ᄒᆞ며 <rs type="person" ref="#MR">나</rs>가 가닛가 뎌리 가라고 핀잔만 주어요. <rs type="person" ref="#SC"><rs type="person" ref="#MR">나</rs> 뮈어ᄒᆞᄂᆞᆫ 그 놈에 언니</rs> 진작 죽기나 ᄒᆡᆺ스면 됴켓지.</said>"</p>
+          <p><persName ref="#CH1">션초어머니</persName>가 갓득이나 심란ᄒᆞᆫᄃᆡ 아모리 <rs type="person" ref="#MR">쳘 모르ᄂᆞᆫ 어린 것</rs>이라도 <rs type="person" ref="#SC"><rs ref="#MR">졔</rs> 형</rs>에게 향ᄒᆞ야 막 맛츰가ᄂᆞᆫ 말로 쥭엇스면 죠켓다고 ᄒᆞᄂᆞᆫ 것을 듯고 분이 와락 나셔</p>
+          <p>"<said who="#CH1" aloud="true" direct="true"><rs type="person" ref="#MR">이년</rs> 무엇이야. <rs type="person" ref="#SC">형</rs>다려 죽엇스면 죠켓다ᄂᆞᆫ 법이 엇의 잇더냐. 그리지 안이ᄒᆡ도 <rs type="person" ref="#SC">심ᄉᆞ가 죠치 못ᄒᆞ야 울기만 ᄒᆞᄂᆞᆫ 형</rs>다려 죽으라고 <rs type="person" ref="#MR">이년</rs> 보기 실타. 져리 가거라.</said>"</p>
+          <p><rs type="person" ref="#MR">그 ᄋᆞᄒᆡ</rs>ᄂᆞᆫ <rs type="person" ref="#CH1"><rs type="person" ref="#MR">뎌</rs>의 어머니</rs>가 그리ᄒᆞᆯᄉᆞ록 팔에 가 ᄆᆡ달녀 응셕을 ᄒᆞ며</p>
+          <p>"<said who="#MR" aloud="true" direct="true"><rs type="person" ref="#CH1">어머니</rs> 그리고 <rs type="person" ref="#SC">언니</rs>가 <rs ref="#MR">나</rs>를 작고 ᄶᅭᆺ기에 무엇을 혼자 쳐먹으려나 ᄒᆞ고 감안감안이 가 슘어 보닛가 <rs type="person" ref="#SC">언니</rs>가 웨 그리난지 의쟝을 열고 의복을 ᄎᆞ례로 ᄂᆡ여 이것도 닙어 보고 한슘 쉬고 뎌것도 닙어 보고 한슘을 쉬여요.</said>"</p>
+          <p><rs type="person" ref="#CH1">션초 어머니</rs>가 <rs type="person" ref="#MR">그 ᄋᆞᄒᆡ</rs> 대ᄀᆡᆼ이ᄅᆞᆯ 툭 쥐여 박으며</p>
+          <p>"<said who="#CH1" aloud="true" direct="true">에라 <rs type="person" ref="#MR">이 년</rs> 뎌리 가거라. 듯기 슬타.</said>"</p> 
+          <p>ᄒᆞ야 ᄶᅭ차보ᄂᆡᆫ 뒤에 <rs type="place" subtype="part" ref="#SC_H"><persName ref="#SC">션초</persName>의 쳐소</rs>로 슬슬 도라가니 <persName ref="#SC">션초</persName>가 <rs type="person" ref="#CH1">ᄌᆞ긔 어머니</rs> 오ᄂᆞᆫ 양을 보고 흘으던 눈물을 얼풋 씨셔 버리고 텬연ᄒᆞᆫ 모양으로 ᄂᆡ려 마즈며</p>
+          <p>"<said who="#SC" aloud="true" direct="true"><rs type="person" ref="#CH1">어머니</rs> 웨 무슨 일에 역졍이 나셧슴닛가. 긔ᄉᆡᆨ이 죠치 못ᄒᆞ시니.</said>"</p>
         <p>
           "<said who="#CH1" aloud="true" direct="true">에그 역졍인지 무엇인지 <rs ref="#CH1">나</rs>ᄂᆞᆫ 모르겟다. <rs ref="#CH1">내</rs>가 <rs ref="#SC">너</rs>를 <rs ref="#SC">엇더케 길은 ᄯᆞᆯ</rs>인야 남보다 ᄯᅱ여나게 잘 되지는 못ᄒᆞᆫ들 텬ᄒᆞ에 <rs ref="#LDS">몹슬 량반</rs>을 맛나셔 <rs ref="#SC">네</rs>가 뎌 모양으로 속을 샹ᄒᆞ고 울기만 ᄒᆞ니 <rs ref="#CH1">내</rs> 마ᄋᆞᆷ이 엇지 죠켓난야. <rs ref="#SC">이 ᄋᆡ</rs> <rs ref="#CH1">어미</rs>가 ᄋᆡ쓰고 공드려 길너셔 ᄐᆡ산ᄀᆞᆺ치 밋고 바라ᄂᆞᆫ ᄯᅳᆺ을 ᄉᆡᆼ각ᄒᆞ야셔라도 <date type="relative" subtype="last_day">어졔</date> <rs ref="#CHB">아바지</rs> ᄒᆞ시던 말ᄉᆞᆷ과 ᄀᆞᆺ치 팔ᄌᆞ 탓으로 보쌈격근 세음치고 <rs type="person" subtype="class" ref="#LDS">그 량반</rs>은 니져바려라. <rs ref="#SC">네</rs> 말맛다나 <rs type="person" subtype="class" ref="#LDS">그 량반</rs>이 총망즁에 니졋다 ᄒᆞᆯ지라도 벌셔 <rs type="person" subtype="class" ref="#LDS">그 량반</rs> ᄯᅥ나간지가 <date type="duration">몃 칠</date>니냐. 쳐음에 <rs ref="#SC">너</rs>을 맛나지 못ᄒᆞ야 셔들던 품으로 ᄒᆞ면 니져버릴 리도 만무ᄒᆞ고 이ᄯᅢᄭᆞ지 이럿타 아모 긔별이 업단 말니냐.</said>"
         </p>
@@ -3359,7 +3359,7 @@
           <p>"<said who="#CH1" aloud="true" direct="true"><rs ref="#CHB">령감</rs> 잠드셧소. <rs ref="#CH1">내</rs> 마ᄋᆞᆷ이 무단히 어슈션 산란ᄒᆞ며 잠이 안이오구려.</said>"</p>
         <p>"<said who="#CHB" aloud="true" direct="true">글셰 <rs ref="#CHB">내</rs> 말이야 <rs ref="#CHB">나</rs>도 잠을 벗노앗ᄂᆞᆫ 걸</said>"</p>
         <p>"<said who="#CH1" aloud="true" direct="true">웨 그런지 <persName ref="#SC">션초</persName>가 별안간에 보고 십소 가셔 불너올가.</said>"</p>
-        <p>"<said who="#CHB" aloud="true" direct="true">글셰 <rs ref="#CHB">내</rs> 마ᄋᆞᆷ도 그러키ᄂᆞᆫ ᄒᆞ지만 고만두지. <rs ref="#SC">그 ᄋᆡ</rs>가 웬 <rs ref="#LDS">망ᄒᆞᆫ 쟈</rs>로 ᄒᆡ셔 요사이 시시로 울기만 ᄒᆞ고 잠을 못자더니 <date type="relative" subtype="this_day">오ᄂᆞᆯ</date>은 아마 곤ᄒᆞ던지 <time type="timeOfDay" subtype="dinner">초져녁</time>부터 <rs type="place" subtype="part" ref="#SC_H">문</rs>을 닷고 아모 소리 업ᄂᆞᆫ 것을 공연히 ᄭᆡ엿다가 ᄶᅵᆯᄭᅳᆯᄶᅵᆯᄭᅳᆷ 울기나 ᄒᆞ면 셩가스러온ᄃᆡ 고만 내버려두지.</said>"</p>
+        <p>"<said who="#CHB" aloud="true" direct="true">글셰 <rs ref="#CHB">내</rs> 마ᄋᆞᆷ도 그러키ᄂᆞᆫ ᄒᆞ지만 고만두지. <rs ref="#SC">그 ᄋᆡ</rs>가 웬 <rs ref="#LDS">망ᄒᆞᆫ 쟈</rs>로 ᄒᆡ셔 요사이 시시로 울기만 ᄒᆞ고 잠을 못자더니 <date type="relative" subtype="this_day">오ᄂᆞᆯ</date>은 아마 곤ᄒᆞ던지 <time>초져녁</time>부터 <rs type="place" subtype="part" ref="#SC_H">문</rs>을 닷고 아모 소리 업ᄂᆞᆫ 것을 공연히 ᄭᆡ엿다가 ᄶᅵᆯᄭᅳᆯᄶᅵᆯᄭᅳᆷ 울기나 ᄒᆞ면 셩가스러온ᄃᆡ 고만 내버려두지.</said>"</p>
           <p><rs type="person" subtype="group" ref="#CHB #CH1">쵀호방ᄂᆡ외</rs>가 그 모양으로 슈작을 ᄒᆞ고 <rs ref="#SC">그 ᄯᆞᆯ</rs>의 일로 한 걱졍을 ᄒᆞᄂᆞᆫᄃᆡ 압헤셔 자던
           <persName ref="#MR">모란</persName>이가 별안간에 벌ᄯᅥᆨ 니러나셔 쥬먹으로 ᄯᅡᆼ을 치고 대셩통곡ᄒᆞ며</p>
           <p>"<said who="#MR" aloud="true" direct="true">에구 <rs ref="#CHB">아바지</rs> 에구 <rs ref="#CH1">어머니</rs> <rs ref="#SC">나</rs>ᄂᆞᆫ 속졀업시 셰샹을 버렷소. <rs ref="#SC">내</rs>가 이 원슈를 갑지 못ᄒᆞ면 언의 ᄯᆡᄭᆞ지던지 살이 썩지 못ᄒᆞᆯ 터이오 ᄉᆡᆼ젼에 <rs ref="#CHB">아바지</rs> <rs ref="#CH1">어머니</rs> <rs type="person" subtype="group" ref="#CHB #CH1">두 분</rs>ᄭᅴ 효셩을 다ᄒᆞ야 봉양ᄒᆞ려던 마ᄋᆞᆷ과 <rs type="studies" subtype="writing">문필</rs> <rs type="studies" subtype="entertainment">가무</rs> 등 각죵 ᄌᆡ질은 모다
@@ -3381,7 +3381,7 @@
           <p>"<said who="#CHB" aloud="true" direct="true">여보게 <rs ref="#MR">이 ᄋᆡ</rs>가 웬 곡졀인가. 자다가 말고 실셩을 ᄒᆡᆺ스니 문갑을 열고 쳥심환을 내여 오게. 어셔 먹여보셰.</said>"</p>
           <p><rs ref="#CH1">션초 어머니</rs>가 쳥심환을 황망히 ᄭᅳ내다가 ᄇᆡᆨ비탕에 풀어
           <persName ref="#MR">모란</persName>의 입에 퍼느으며 ᄋᆡᄅᆞᆯ 무한쓰ᄂᆞᆫᄃᆡ
-          <persName ref="#MR">모란</persName>은 여젼히 그 모양으로 횡셜슈셜ᄒᆞ더니 <time type="timeOfDay" subtype="dawn">날이 졈졈 발가오닛가</time> 졍신을 모로고 혼곤히 느러지ᄂᆞᆫ지라.
+          <persName ref="#MR">모란</persName>은 여젼히 그 모양으로 횡셜슈셜ᄒᆞ더니 <time>날이 졈졈 발가오닛가</time> 졍신을 모로고 혼곤히 느러지ᄂᆞᆫ지라.
           <rs type="person" subtype="group" ref="#CHB #CH1">쵀호방ᄂᆡ외</rs>가 그졔야 마ᄋᆞᆷ을 놋코 역시 잠이 혼곤히 드럿다가 ᄒᆡ가 한나졀은 되야 ᄭᆡ여보니
           <persName ref="#MR">모란</persName>이ᄂᆞᆫ 여샹히 ᄯᅱ여단이며 작란을 ᄒᆞᄂᆞᆫᄃᆡ
           <persName ref="#SC">션초</persName>의 동졍이 도모지 업ᄂᆞᆫ지라 심즁에 심히 의심이 나셔
@@ -3393,13 +3393,13 @@
           "<said who="#CH1" aloud="true" direct="true">글셰요. 엇진 일인지 이ᄯᆡᄭᆞ지 볼 슈가 업소구려.</said>"
         </p>
         <p>
-          "<said who="#CHB" aloud="true" direct="true"><rs type="place" subtype="part" ref="#SC_H"><rs ref="#SC">졔</rs> 방</rs>으로 좀 가보지 필경 ᄯᅩ 울고 잇나 보구먼 그러치 안이ᄒᆞ면 효셩이 유명히 잇ᄂᆞᆫ 것이 <time type="timeOfDay" subtype="day_time">ᄒᆡ가 낫</time>이 되도록 <rs ref="#CHB">어미</rs> <rs ref="#CH1">아비</rs>ᄅᆞᆯ 안이와 볼 리가 잇나.</said>"
+          "<said who="#CHB" aloud="true" direct="true"><rs type="place" subtype="part" ref="#SC_H"><rs ref="#SC">졔</rs> 방</rs>으로 좀 가보지 필경 ᄯᅩ 울고 잇나 보구먼 그러치 안이ᄒᆞ면 효셩이 유명히 잇ᄂᆞᆫ 것이 <time>ᄒᆡ가 낫</time>이 되도록 <rs ref="#CHB">어미</rs> <rs ref="#CH1">아비</rs>ᄅᆞᆯ 안이와 볼 리가 잇나.</said>"
         </p>
         <p>"<said who="#CH1" aloud="true" direct="true"><rs ref="#CH1">내</rs>가 가보고 오리다. <rs ref="#SC">뎌것</rs>이 ᄯᅩ 울고 잇스면 보기 슬혀 엇더케 ᄒᆞᆫ단 말이오.</said>"</p> 
           <p>ᄒᆞ며
           <rs type="place" subtype="part" ref="#SC_H"><persName ref="#SC">션초</persName>의 쳐소</rs>로 가보니 <rs type="place" subtype="part" ref="#SC_H">방문</rs>이 그져 쳡쳡히 닷쳐 잇ᄂᆞᆫ지라
           <rs ref="#CH1">션초 어머니</rs>가 손쟝가락을 ᄭᅮ부려 졧쳐들고 <rs type="place" subtype="part" ref="#SC_H">문셜쥬</rs>ᄅᆞᆯ 툭툭 울니며</p>
-          <p>"<said who="#CH1" aloud="true" direct="true"><rs ref="#SC">아가</rs> <rs ref="#SC">아가</rs> 그져 자늬. <time type="timeOfDay" subtype="day_time">ᄒᆡ가 한나졀</time>이 지ᄂᆡᆺ다 고만 니러나 아ᄎᆞᆷ밥을 먹어라. 에그 <rs ref="#SC">이 ᄋᆡ</rs>가 이러케 곤히 잠이 드럿나. <rs ref="#SC">이 ᄋᆡ</rs> <rs ref="#SC">아가</rs> 고만 이러나거라.</said>"</p> 
+          <p>"<said who="#CH1" aloud="true" direct="true"><rs ref="#SC">아가</rs> <rs ref="#SC">아가</rs> 그져 자늬. <time>ᄒᆡ가 한나졀</time>이 지ᄂᆡᆺ다 고만 니러나 아ᄎᆞᆷ밥을 먹어라. 에그 <rs ref="#SC">이 ᄋᆡ</rs>가 이러케 곤히 잠이 드럿나. <rs ref="#SC">이 ᄋᆡ</rs> <rs ref="#SC">아가</rs> 고만 이러나거라.</said>"</p> 
           <p>이ᄀᆞᆺ치 쳐음에ᄂᆞᆫ 나즉나즉이 ᄭᆡ우다가 나죵에ᄂᆞᆫ <rs type="place" subtype="part" ref="#SC_H">문</rs>을 와락와락 잡아다리며 소리를 놉히여 크게 불너도 종ᄅᆡ 아모 동졍이 업ᄂᆞᆫ지라.</p>
           <p>"<said who="#CH1" aloud="true" direct="true">에구 <rs ref="#CHB">령감</rs> 이게 웬일이오. <rs ref="#SC">잠ㅅ귀 발긔로 유명ᄒᆞᆫᄋᆞᄒᆡ</rs>가 이러케 ᄭᆡ여도 ᄃᆡ답이 업스니 그 안이 심샹치 안이ᄒᆞ오.</said>"
         </p>
@@ -3414,7 +3414,7 @@
         <p>"<said who="#CH1" aloud="true" direct="true">필경 <rs ref="#SC">뎌것</rs>이 쥭엇나 보오.</said>"</p>
         <p>ᄒᆞ며 두 발ㅅ길로 <rs type="place" subtype="part" ref="#SC_H">방문</rs>을 박ᄎᆞᄂᆞᆫᄃᆡ <rs type="place" subtype="part" ref="#SC_H">그 문</rs>을 례ᄉᆞ날님으로 ᄶᅡᆫ 것이 안인즉 평시ᄀᆞᆺ흐면 <rs ref="#CH1">여간 녀편네</rs> 발ㅅ길 한 두 번에ᄂᆞᆫ 안이ᄒᆞᆯ 터이지마는 물론 급ᄒᆞᆫ 디경을 당ᄒᆞ면 ᄯᆞᆫ 긔운이 한층 더 나ᄂᆞᆫ 법이라. 문ᄶᅡᆨ이
           <rs ref="#CH1">션초의 어머니</rs> 발ㅅ길을 ᄯᅡ라 우루루 덜컥 잡바지며 완ᄌᆞ미다지가 그 바ᄅᆞᆷ에 것뭇어 렬파가 되난지라. <rs ref="#CHB #CH1" type="person" subtype="group">두ᄂᆡ외</rs>가 한다름에 ᄯᅱ여 드러가니
-          <persName ref="#SC">션초</persName>가 벌셔 언의ᄯᆡ 그 디경이 되얏ᄂᆞᆫ지 ᄉᆞ지가 ᄲᅥᆺᄲᅥᆺᄒᆞ게 굿고 젼신이 ᄇᆡᆨ지쟝에 물을 츅이여 싸노은 듯 ᄒᆞᆫ지라 엇더케 긔가 막히던지 피ᄎᆞ에 말 한 마듸 못ᄒᆞ고 물그름히 드려다 보기만 ᄒᆞ다가 한편에셔 울음주머니가 툭 터지며 마조 몸부림을 ᄯᅡᆼᄯᅡᆼᄒᆞ고 방셩대곡을 ᄒᆞᄂᆞᆫᄃᆡ <rs ref="#SC_F">그 집안</rs> 샹하로쇼와 리웃집 남녀친지가 모다 모혀 와셔 그 광경을 보고 흙흙 늣겨가며 눈물 안이내ᄂᆞᆫ 사ᄅᆞᆷ이 업ᄂᆞᆫ 즁 <rs ref="#PEOPLE">기즁 친근ᄒᆞᆫ 사ᄅᆞᆷ들</rs>은
+          <persName ref="#SC">션초</persName>가 벌셔 언의ᄯᆡ 그 디경이 되얏ᄂᆞᆫ지 ᄉᆞ지가 ᄲᅥᆺᄲᅥᆺᄒᆞ게 굿고 젼신이 ᄇᆡᆨ지쟝에 물을 츅이여 싸노은 듯 ᄒᆞᆫ지라 엇더케 긔가 막히던지 피ᄎᆞ에 말 한 마듸 못ᄒᆞ고 물그름히 드려다 보기만 ᄒᆞ다가 한편에셔 울음주머니가 툭 터지며 마조 몸부림을 ᄯᅡᆼᄯᅡᆼᄒᆞ고 방셩대곡을 ᄒᆞᄂᆞᆫᄃᆡ <rs type="org" subtype="household" ref="#SC_F">그 집안</rs> 샹하로쇼와 리웃집 남녀친지가 모다 모혀 와셔 그 광경을 보고 흙흙 늣겨가며 눈물 안이내ᄂᆞᆫ 사ᄅᆞᆷ이 업ᄂᆞᆫ 즁 <rs ref="#PEOPLE">기즁 친근ᄒᆞᆫ 사ᄅᆞᆷ들</rs>은
           <rs ref="#CHB #CH1" type="person" subtype="group">ᄎᆡ호방ᄂᆡ외</rs>ᄅᆞᆯ 붓드러 만류ᄒᆞᆫ다.</p>
           <p>"<said who="#PEOPLE" aloud="true" direct="true">여보십시오. 고만두시오. 암만 울면 쓸 ᄃᆡ 잇슴닛가. 긔왕 이 디경을 당ᄒᆞ신 터에 졍신을 찰이여 <rs ref="#SC">졔</rs> 몸 감쟝이나 유ᄒᆞᆫ 업시 ᄒᆞ야 쥬시ᄂᆞᆫ 일이 올슴니다. 에그 긔막킨 일도 잇지. ᄭᅩᆺ갓흔 나에 병이 드러 텬명으로 이 디경이 되엿셔도 <rs ref="#CHB #CH1" type="person" subtype="group">부모</rs>되신 터에 긔가 막히실 터인ᄃᆡ 뎨일 인물과 ᄌᆡ질이 앗갑지. 여보십시오. 어셔 긋치시고 초종처를 일이나 ᄉᆡᆼ각ᄒᆡ 보십시오.</said>"</p>
           <p><persName ref="#CHB">ᄎᆡ호방</persName>이 ᄒᆞᆫ숨을 휘ㅣ이 쉬고 니러나 감안히 ᄉᆡᆼ각ᄒᆞᆫ 즉 <rs ref="#SC"><rs ref="#CHB">ᄌᆞ긔</rs> ᄯᆞᆯ</rs>이 ᄌᆞ쳐ᄒᆞ기ᄂᆞᆫ
@@ -3444,7 +3444,7 @@
           <p>신산 잡은 ᄃᆡ로 워호 소리를 쥬고 밧으며 가셔 <rs ref="#SC_G">양지 바른 ᄌᆞ좌오향판</rs>에다 깁슉히 장ᄉᆞᄅᆞᆯ 지내고 <rs ref="#SC_G">봉분</rs>을 덩그럭케 모아 노은 뒤에 사ᄅᆞᆷ은 다 허여져 가고 오즉 뷔인 산이 젹젹ᄒᆞᆫᄃᆡ 달이 황혼이더라.</p>
           <p><rs ref="#CH1">션초 어머니</rs>가 ᄉᆡ로 닙힌 잔듸를 두 손으로 부드등 부드등 ᄯᅳᆺ으며</p>
           <p>"<said who="#CH1" aloud="true" direct="true">에구
-          <persName ref="#SC">션초</persName>야 웨 <rs type="place" ref="#SC_H">집</rs>을 버리고 <rs ref="#SC_G">예</rs> 와 잇ᄂᆞ냐. 셰샹에 <rs ref="#CH1">내</rs>가 모질기도 ᄒᆞ지 <rs ref="#SC">이것</rs>을 <rs ref="#SC_G">예</rs>다 버리고 혼ᄌᆞ <rs ref="#SC_H">집</rs>으로 도라가려고 ᄒᆞ니 <rs ref="#CHB">령감</rs> <rs ref="#CH1">ᄂᆞ</rs>ᄂᆞᆫ 참아 <rs ref="#SC">이것</rs>을 버리고 <rs type="place" ref="#SC_H">집</rs>으로 못가겟스니 <rs ref="#SC_G">여긔</rs>다 아조 뭇어를 주고 가오. 혼이 남아 <rs ref="#CH1 #SC" type="person" subtype="group">모녀</rs>가 셔로 의지ᄅᆞᆯ ᄒᆞ게.</said>"</p>
+          <persName ref="#SC">션초</persName>야 웨 <rs type="place" ref="#SC_H">집</rs>을 버리고 <rs ref="#SC_G">예</rs> 와 잇ᄂᆞ냐. 셰샹에 <rs ref="#CH1">내</rs>가 모질기도 ᄒᆞ지 <rs ref="#SC">이것</rs>을 <rs ref="#SC_G">예</rs>다 버리고 혼ᄌᆞ <rs type="place" ref="#SC_H">집</rs>으로 도라가려고 ᄒᆞ니 <rs ref="#CHB">령감</rs> <rs ref="#CH1">ᄂᆞ</rs>ᄂᆞᆫ 참아 <rs ref="#SC">이것</rs>을 버리고 <rs type="place" ref="#SC_H">집</rs>으로 못가겟스니 <rs ref="#SC_G">여긔</rs>다 아조 뭇어를 주고 가오. 혼이 남아 <rs ref="#CH1 #SC" type="person" subtype="group">모녀</rs>가 셔로 의지ᄅᆞᆯ ᄒᆞ게.</said>"</p>
           <p><persName ref="#CHB">쵀호방</persName>은 대범ᄒᆞᆫ 남ᄌᆞ라 좀톄ㅅ일에 눈물을 안이내던 터이더니 비죽비죽 마조 울며</p>
           <p>"<said who="#CHB" aloud="true" direct="true">여보게 <rs ref="#CH1">자네</rs> ᄀᆡᆨ스러온 말 말고 나려 가셰. 셰상에 <rs ref="#SC">ᄌᆞ식</rs>ᄯᅡ라 죽ᄂᆞᆫ <rs ref="#CHB #CH1" type="person" subtype="group">부모</rs>가 엇의 잇던가. <rs ref="#SC">졔</rs>가 이러케 쥭은 것이 이 탓 뎌 탓ᄒᆞᆯ 것 업시 첫ᄌᆡᄂᆞᆫ <rs ref="#SC">졔</rs> 팔ᄌᆞㅣ오 둘ᄌᆡᄂᆞᆫ <rs ref="#CHB #CH1" type="person" subtype="group">우리</rs> 팔ᄌᆞ이니 고만 울고 <rs type="place" ref="#SC_H">집</rs>으로 ᄂᆞ려 가셰.</said>"
         </p>
@@ -3453,7 +3453,7 @@
         <head>뎨 육회</head>
         <p>
           <persName ref="#CHB #CH1" type="person" subtype="group">최호방ᄂᆡ외</persName>
-           가 압흘 가리는 눈물을 간신히 억졔ᄒᆞ고 <rs ref="#SC_H">집</rs>으로 도라오니 웬갓 것이 모도다 눈에 밟혀 못살 디경이라. 자박자박 ᄌᆞ최가 ᄂᆞᄂᆞᆫ 듯 ᄂᆞ즉ᄂᆞ즉 음셩이 들니ᄂᆞᆫ 듯 <rs type="object" subtype="basket">연ㅅ상혈합</rs>에ᄂᆞᆫ <rs ref="#SC">졔</rs> 필젹으로 쓴 <rs type="object" subtype="letter">편지ᄶᅩᆨ</rs>이 데굴데굴 <rs type="object" subtype="basket">바느질 그릇</rs>에ᄂᆞᆫ <rs type="studies" subtype="sewing">침션</rs>ᄇᆡ올ㅅ졔 시험ᄒᆞ던 골모 괴불이 ᄃᆡ굴ᄃᆡ굴 탁ᄌᆞ위 <measure type="count" unit="券" quantity="10000">만권</measure> <rs type="object" subtype="book">셔ᄎᆡᆨ</rs>에는 몬지가 켜로 안졋ᄂᆞᆫᄃᆡ 이 갈피 뎌 갈피 질너둔 표지ᄂᆞᆫ <rs ref="#SC">뎌</rs> 읽던 흔젹이 완연ᄒᆞᆫ 그 즁에 뎨일 간쟝이 슬슬 녹고 졍신이 아조 업셔지며 가ᄉᆞᆷ이 답답ᄒᆡ질 일은 <rs ref="#YG">문갑 우에 노혀잇ᄂᆞᆫ 양금</rs>이 방즁만 되면 쥴이 졀로 죄이며 ᄯᅩᆼ, ᄯᅡᆼ ᄒᆞᄂᆞᆫ 소리라. 평시ᄀᆞᆺ흐면 <rs ref="#YG">그</rs> 소리가 일긔가 음음ᄒᆞᆫ 탓으로 복판이 늘며 쥴이 튀ᄂᆞᆫ 것이라ᄒᆞ야 심샹히 드럿스련마는 슈심이 겨워 잠을 못일우고 고ᄉᆡᆼ고ᄉᆡᆼᄒᆞᄂᆞᆫ 
+           가 압흘 가리는 눈물을 간신히 억졔ᄒᆞ고 <rs type="place" ref="#SC_H">집</rs>으로 도라오니 웬갓 것이 모도다 눈에 밟혀 못살 디경이라. 자박자박 ᄌᆞ최가 ᄂᆞᄂᆞᆫ 듯 ᄂᆞ즉ᄂᆞ즉 음셩이 들니ᄂᆞᆫ 듯 <rs type="object" subtype="basket">연ㅅ상혈합</rs>에ᄂᆞᆫ <rs ref="#SC">졔</rs> 필젹으로 쓴 <rs type="object" subtype="letter">편지ᄶᅩᆨ</rs>이 데굴데굴 <rs type="object" subtype="basket">바느질 그릇</rs>에ᄂᆞᆫ <rs type="studies" subtype="sewing">침션</rs>ᄇᆡ올ㅅ졔 시험ᄒᆞ던 골모 괴불이 ᄃᆡ굴ᄃᆡ굴 탁ᄌᆞ위 <measure type="count" unit="券" quantity="10000">만권</measure> <rs type="object" subtype="book">셔ᄎᆡᆨ</rs>에는 몬지가 켜로 안졋ᄂᆞᆫᄃᆡ 이 갈피 뎌 갈피 질너둔 표지ᄂᆞᆫ <rs ref="#SC">뎌</rs> 읽던 흔젹이 완연ᄒᆞᆫ 그 즁에 뎨일 간쟝이 슬슬 녹고 졍신이 아조 업셔지며 가ᄉᆞᆷ이 답답ᄒᆡ질 일은 <rs ref="#YG">문갑 우에 노혀잇ᄂᆞᆫ 양금</rs>이 방즁만 되면 쥴이 졀로 죄이며 ᄯᅩᆼ, ᄯᅡᆼ ᄒᆞᄂᆞᆫ 소리라. 평시ᄀᆞᆺ흐면 <rs ref="#YG">그</rs> 소리가 일긔가 음음ᄒᆞᆫ 탓으로 복판이 늘며 쥴이 튀ᄂᆞᆫ 것이라ᄒᆞ야 심샹히 드럿스련마는 슈심이 겨워 잠을 못일우고 고ᄉᆡᆼ고ᄉᆡᆼᄒᆞᄂᆞᆫ 
           <rs ref="#CH1">선초 어머니</rs>
           ᄂᆞᆫ <rs ref="#YG">그</rs> 소리날ㅅ졔마다
         </p>
@@ -3481,30 +3481,30 @@
         </p>
         <p>"<said who="#PERSON" aloud="true" direct="true">
           <persName ref="#SC">선초</persName>
-          씨여 이 슐을 달게 밧고 아모됴록 <time type="relative" subtype="this_night">오날밤</time> ᄂᆡ로 비가 압ᄂᆡ예 시위나도록 퍼부어 <rs ref="#PERSON">우리</rs>논에 물이 말으지 안토록ᄒᆞ야 주소셔
+          씨여 이 슐을 달게 밧고 아모됴록 <time type="relative" subtype="this_night">오날밤</time> ᄂᆡ로 비가 압ᄂᆡ예 시위나도록 퍼부어 <rs type="person" ref="#PERSON">우리</rs>논에 물이 말으지 안토록ᄒᆞ야 주소셔
         </said>"</p>
         <p>엇던 쟈ᄂᆞᆫ</p>
         <p>"<said who="#PERSON" aloud="true" direct="true">
           <persName ref="#SC">선초</persName>
-          씨여 이 슐을 바든 후에 잠귀잡신을 모다 젯쳐쥬어 <rs ref="#PERSON">우리</rs>집 우환이 구름것듯 퇴송케ᄒᆞ야 주소셔.
+          씨여 이 슐을 바든 후에 잠귀잡신을 모다 젯쳐쥬어 <rs type="person" ref="#PERSON">우리</rs>집 우환이 구름것듯 퇴송케ᄒᆞ야 주소셔.
         </said>"</p>
         <p>
           이ᄯᅢ 
           <persName ref="#LDS">리시찰</persName>
           은 거졀ᄒᆞᄂᆞᆫ 편지에 돈 <measure type="currency" unit="KRW" quantity="10">십원</measure>을 너어 보내고 스ᄉᆞ로 ᄉᆡᆼ간ᄒᆞ기ᄅᆞᆯ
         </p>
-        <said who="#LDS" aloud="false" direct="true">(리) 아마 <rs type="object" subtype="letter"><rs ref="#LDS">내</rs> 편지</rs>을 보면 <rs ref="#SC">졔</rs> ᄉᆡᆼ각에 어히가 업스렷다. 기실은 어히 업슬 것도 업지. <rs ref="#LDS">나</rs>를 ᄃᆡᄒᆞ야셔ᄂᆞᆫ ᄀᆞ쟝 지조가 잇ᄂᆞᆫ 듯이 <rs type="object" subtype="contract">계약셔</rs>니 ᄒᆡ로ᄅᆞᆯ ᄒᆞ느니 ᄒᆞ얏지마는 그게 다 남ᄌᆞ후리ᄂᆞᆫ <rs ref="#SC">졔</rs> ᄒᆡᆼᄐᆡ이지 무얼 진심으로야 <rs ref="#SC">어린 것</rs>이 <rs ref="#LDS">나갓흔늙은이</rs>와 ᄀᆞᆺ치 살냐고 ᄒᆞᆯ나구. 참말 살기 곳ᄒᆞ면 <rs ref="#SC">졔</rs>가 안이 <rs ref="#SC">졔</rs> ᄭᅩᆨ지에 물너갈가. 모로면 모로되 <rs type="object" subtype="letter">편지</rs>ᄅᆞᆯ 본 뒤에 필경 <measure type="currency" unit="KRW" quantity="10">돈 십원</measure> 보ᄂᆡᆫ 것만 대견ᄒᆞ야 얼마ᄶᅳᆷ 됴화ᄒᆞᆯ 걸.</said>
+        <said who="#LDS" aloud="false" direct="true">(리) 아마 <rs type="object" subtype="letter"><rs type="person" ref="#LDS">내</rs> 편지</rs>을 보면 <rs ref="#SC">졔</rs> ᄉᆡᆼ각에 어히가 업스렷다. 기실은 어히 업슬 것도 업지. <rs ref="#LDS">나</rs>를 ᄃᆡᄒᆞ야셔ᄂᆞᆫ ᄀᆞ쟝 지조가 잇ᄂᆞᆫ 듯이 <rs type="object" subtype="contract">계약셔</rs>니 ᄒᆡ로ᄅᆞᆯ ᄒᆞ느니 ᄒᆞ얏지마는 그게 다 남ᄌᆞ후리ᄂᆞᆫ <rs type="person" ref="#SC">졔</rs> ᄒᆡᆼᄐᆡ이지 무얼 진심으로야 <rs type="person" ref="#SC">어린 것</rs>이 <rs type="person" ref="#LDS">나갓흔늙은이</rs>와 ᄀᆞᆺ치 살냐고 ᄒᆞᆯ나구. 참말 살기 곳ᄒᆞ면 <rs type="person" ref="#SC">졔</rs>가 안이 <rs  type="person" ref="#SC">졔</rs> ᄭᅩᆨ지에 물너갈가. 모로면 모로되 <rs type="object" subtype="letter">편지</rs>ᄅᆞᆯ 본 뒤에 필경 <measure type="currency" unit="KRW" quantity="10">돈 십원</measure> 보ᄂᆡᆫ 것만 대견ᄒᆞ야 얼마ᄶᅳᆷ 됴화ᄒᆞᆯ 걸.</said>
         <p>
           거무하에 
-          <persName ref="#SK">김선달</persName>
+          <persName type="alias" ref="#SK">김선달</persName>
           이 <measure type="currency" unit="KRW" quantity="10">그 돈 십원</measure>을 도로 가지고와 쥬며 
           <persName ref="#SC">선초</persName>
           가 밧지를 안이ᄒᆞ고 도로 싸보내더라 ᄒᆞᄂᆞᆫ지라 
           <persName ref="#LDS">리시찰</persName>이 <rs ref="#LDS" type="person" subtype="class">안이ᄭᅩ온 량반</rs>의 ᄆᆞ음이 불ᄭᅳᆫ 치밀어셔 발을 ᄯᅡᆼᄯᅡᆼ 굴느며
         </p>
-        <p>"<said who="#LDS" aloud="true" direct="true">(리) 어<rs ref="#SC">ㅣ 버르쟝이 업ᄂᆞᆫ 년</rs> <rs ref="#SC">졔년</rs>ᄶᅳᆷ이 다과간에 <rs ref="#LDS">내</rs>가 보ᄂᆡᆫ 것을 외람히 밧지를 안이ᄒᆞ고 도로 보내ㅣ <rs ref="#LDS" type="person" subtype="clss">량반</rs>이 <rs ref="#SC">괴악ᄒᆞᆫ 년</rs> 한 번 상관ᄒᆞ고 큰 욕을 보앗군.</said>"</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">(리) 어<rs type="person" ref="#SC">ㅣ 버르쟝이 업ᄂᆞᆫ 년</rs> <rs type="person" ref="#SC">졔년</rs>ᄶᅳᆷ이 다과간에 <rs type="person" ref="#LDS">내</rs>가 보ᄂᆡᆫ 것을 외람히 밧지를 안이ᄒᆞ고 도로 보내ㅣ <rs ref="#LDS" type="person" subtype="clss">량반</rs>이 <rs type="person" ref="#SC">괴악ᄒᆞᆫ 년</rs> 한 번 상관ᄒᆞ고 큰 욕을 보앗군.</said>"</p>
         <p>
-          <persName ref="#SK">김선달</persName>
+          <persName type="alias" ref="#SK">김선달</persName>
           은 아모됴록 
           <persName ref="#LDS">리시찰</persName>
           의 비위를 맛치노라고
@@ -3512,64 +3512,64 @@
         <p>"<said who="#SK" aloud="true" direct="true">
           진노ᄒᆞᄋᆞᆸ실 일이 안이올시다. <rs ref="#SK">소인</rs>의 미련ᄒᆞᆫ ᄉᆡᆼ각에ᄂᆞᆫ 
           <persName ref="#SC">선초</persName>
-          가 본시 <rs ref="#SC">욕심만흔 것</rs>으로 <rs ref="#LDS">ᄉᆞㅅ도</rs>ᄭᅴ셔 갓가히 ᄒᆞᄋᆞᆸ셧스닛가 그 돈 쥬신 것이 <rs ref="#SC">졔</rs> ᄆᆞᄋᆞᆷ에 약소히 넉여 도로 밧치면 젼쳔이나 더 쳐분ᄒᆞ실 쥴 알고 소견업시 그리ᄒᆡᆺ나보이다.
+          가 본시 <rs type="person" ref="#SC">욕심만흔 것</rs>으로 <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs>ᄭᅴ셔 갓가히 ᄒᆞᄋᆞᆸ셧스닛가 그 돈 쥬신 것이 <rs type="person" ref="#SC">졔</rs> ᄆᆞᄋᆞᆷ에 약소히 넉여 도로 밧치면 젼쳔이나 더 쳐분ᄒᆞ실 쥴 알고 소견업시 그리ᄒᆡᆺ나보이다.
         </said>"</p>
         <p>
           <persName ref="#LDS">리시찰</persName>
           이 그 돈을 젼장에 나갓던 아ᄃᆞᆯ 살아온 것 만치나 대견히 알아셔 한 번을 쳑 졉어 가방에다 너으며
         </p>
-        <p>"<said who="#LDS" aloud="true" direct="true">(리) 오냐 고만두어라. <rs ref="#LDS">내</rs>가 두고 쓰지. <rs ref="#SC">뎌</rs> 슬타ᄂᆞᆫ 것을 ᄋᆡᄅᆞᆯ 써쥴 것 무엇 잇늬. 더 쥬어 <rs ref="#SC">뎌</rs> 더 줄 돈이 잇스면 <rs ref="#LDS">내</rs>가 ᄯᅡᆼ을 다만 한 마직이라도 더 사셔 젼지ᄌᆞ손ᄒᆞ겟다.</said>"</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">(리) 오냐 고만두어라. <rs type="person" ref="#LDS">내</rs>가 두고 쓰지. <rs type="person" ref="#SC">뎌</rs> 슬타ᄂᆞᆫ 것을 ᄋᆡᄅᆞᆯ 써쥴 것 무엇 잇늬. 더 쥬어 <rs type="person" ref="#SC">뎌</rs> 더 줄 돈이 잇스면 <rs type="person" ref="#LDS">내</rs>가 ᄯᅡᆼ을 다만 한 마직이라도 더 사셔 젼지ᄌᆞ손ᄒᆞ겟다.</said>"</p>
         <p>
-          <persName ref="#SK">김선달</persName>
-           물너간 뒤에 <rs ref="#LDS">ᄌᆞ긔</rs> ᄆᆞ음에 무엇이 그리 츙연유득(充然有得)ᄒᆞ던지 바른손으로 ᄇᆡᄅᆞᆯ 쓱쓱 문즈르며 초헌다리ᄅᆞᆯ ᄒᆞ고 누어셔 풍월ㅅ귀를 읇흐더니 잡이 스르르 드러 코를 드르렁 드르렁 골다가 이마ㅅ젼에 ᄯᆞᆷ을 ᄶᅲᆯᄶᅲᆯ 흘니고 벌덕 이러나더니 입맛을 ᄶᅧᆨᄶᅧᆨ 다시며
+          <persName type="alias" ref="#SK">김선달</persName>
+           물너간 뒤에 <rs type="person" ref="#LDS">ᄌᆞ긔</rs> ᄆᆞ음에 무엇이 그리 츙연유득(<foreign xml:lang="zh">充然有得</foreign>)ᄒᆞ던지 바른손으로 ᄇᆡᄅᆞᆯ 쓱쓱 문즈르며 초헌다리ᄅᆞᆯ ᄒᆞ고 누어셔 풍월ㅅ귀를 읇흐더니 잡이 스르르 드러 코를 드르렁 드르렁 골다가 이마ㅅ젼에 ᄯᆞᆷ을 ᄶᅲᆯᄶᅲᆯ 흘니고 벌덕 이러나더니 입맛을 ᄶᅧᆨᄶᅧᆨ 다시며
         </p>
         <p>"<said who="#LDS" aloud="true" direct="true">(리) 응 ᄭᅮᆷ도 긔샹ᄒᆞ다.</said>"</p>
         <p>
           ᄒᆞ고 연ㅅ상에 붓을 집어 먹을 ᄶᅵᆨ더니 머리ㅅ맛벽에다 두 쥴을 가로 "야몽극흉 서벽대길"(밤ᄭᅮᆷ 극히 흉ᄒᆞᆫ 즉 벽에 <rs type="object" subtype="writing">글</rs>을 쓰노니 크게 길ᄒᆞ라.)이라 쓴 뒤에 다시 드러눕더니 얼마 안이되야 ᄯᅩ 여전히 ᄯᅡᆷ을 물독에셔 ᄲᆡᄂᆡᆫ 듯이 흘니며 니러나 혼ᄌᆞ 즁얼즁얼 ᄭᅮᆷ리약이ᄅᆞᆯ ᄒᆞᆫ다.
         </p>
-        <said who="#LDS" aloud="false" direct="true">(리) 어ㅣ 이게 무슨 ᄭᅮᆷ인가. 쇽담에 맘이 잇셔야 ᄭᅮᆷ에 뵈인다ᄂᆞᆫᄃᆡ <rs ref="#LDS">내</rs>가 작란삼아 <rs ref="#SC">뎌</rs>ᄅᆞᆯ 한 번 상죵ᄒᆞᆫ 일이지 바늘ᄭᅳᆺ만치나 못니쳐 ᄉᆡᆼ각을 ᄒᆞ기에 펄젹 뵈이나 어<rs ref="#SC">ㅣ 요망스러온 것</rs> ᄭᅮᆷ에 뵈일 터이면 됴흔 낫으로 반갑게 뵈이지를 워 안이ᄒᆞ고 <rs ref="#LDS">내</rs>가 <rs ref="#SC">졔</rs>게 무슨 못ᄒᆞᆯ 노릇을 ᄒᆡᆺ길ᄂᆡ 머리 풀어 산발을 ᄒᆞ고 니ᄅᆞᆯ 아등아등 갈며 요약ᄒᆞᆫ 소리로 <rs ref="#LDS">내</rs>게 이러케 젹악을 ᄒᆞ고 <rs ref="#SC">네</rs> 신셰가 평안ᄒᆞᆯ 줄 아ᄂᆞ냐 <rs type="person" subtype="ghost" ref="#SC"><rs ref="#SC">내</rs> 혼</rs>이 <rs ref="#LDS">네</rs> 머리위로 쥬야쟝텬 도라단이며 <rs ref="#LDS">네</rs> 가ᄉᆞᆷ을 쾅쾅 짓ᄶᅵ며 ᄒᆞᆫ탄ᄒᆞᄂᆞᆫ 양을 보고야 말겟다 ᄒᆞ고 발악발악 울며 덤뷔여 보이노 응 요망스러온지고.</said>
+        <said who="#LDS" aloud="false" direct="true">(리) 어ㅣ 이게 무슨 ᄭᅮᆷ인가. 쇽담에 맘이 잇셔야 ᄭᅮᆷ에 뵈인다ᄂᆞᆫᄃᆡ <rs type="person" ref="#LDS">내</rs>가 작란삼아 <rs type="person" ref="#SC">뎌</rs>ᄅᆞᆯ 한 번 상죵ᄒᆞᆫ 일이지 바늘ᄭᅳᆺ만치나 못니쳐 ᄉᆡᆼ각을 ᄒᆞ기에 펄젹 뵈이나 어<rs type="person" ref="#SC">ㅣ 요망스러온 것</rs> ᄭᅮᆷ에 뵈일 터이면 됴흔 낫으로 반갑게 뵈이지를 워 안이ᄒᆞ고 <rs type="person" ref="#LDS">내</rs>가 <rs ref="#SC">졔</rs>게 무슨 못ᄒᆞᆯ 노릇을 ᄒᆡᆺ길ᄂᆡ 머리 풀어 산발을 ᄒᆞ고 니ᄅᆞᆯ 아등아등 갈며 요약ᄒᆞᆫ 소리로 <rs ref="#LDS">내</rs>게 이러케 젹악을 ᄒᆞ고 <rs ref="#SC">네</rs> 신셰가 평안ᄒᆞᆯ 줄 아ᄂᆞ냐 <rs type="person" subtype="ghost" ref="#SC"><rs type="person" ref="#SC">내</rs> 혼</rs>이 <rs type="person" ref="#LDS">네</rs> 머리위로 쥬야쟝텬 도라단이며 <rs type="person" ref="#LDS">네</rs> 가ᄉᆞᆷ을 쾅쾅 짓ᄶᅵ며 ᄒᆞᆫ탄ᄒᆞᄂᆞᆫ 양을 보고야 말겟다 ᄒᆞ고 발악발악 울며 덤뷔여 보이노 응 요망스러온지고.</said>
         <p>
           <persName ref="#LDS">리시찰</persName>
           이 그 ᄭᅮᆷ을 ᄭᅮ고나셔 입찬 소리로 쟝담은 ᄒᆞ얏지만은 일ᄌᆞ 이후로 공연히 심신이 산란ᄒᆞ야지며 머리ᄭᅳᆺ이 ᄶᅮᆺ볏ᄶᅮᆺ볏ᄒᆞᆫ지라. 다시 잠을 쟈지 못ᄒᆞ고 ᄋᆡᄭᅮ진 담ᄇᆡ만 펄ᄶᅧᆨ 먹ᄂᆞᆫᄃᆡ 그렁저렁 날이 밝앗더라. 
-          <persName ref="#SK">김선달</persName>
+          <persName type="alias" ref="#SK">김선달</persName>
           이 슘이 턱에 닷케 오더니 황망ᄒᆞᆫ 말로
         </p>
         <p>"<said who="#SK" aloud="true" direct="true">
-          <rs ref="#LDS">ᄉᆞㅅ도</rs> <time type="timeOfDay" subtype="last_night">간밤</time>에 
+          <rs type="person" ref="#LDS">ᄉᆞㅅ도</rs> <time>간밤</time>에 
           <persName ref="#SC">선초</persName>
           가 ᄌᆞ쳐를 ᄒᆞ얏담니다.
         </said>"</p>
-        <p>"<said who="#LDS" aloud="true" direct="true">(리) 무엇이야 ᄌᆞ쳐를 ᄒᆞ다니 <rs ref="#SC">졔</rs>가 무슨 곡졀로 ᄌᆞ쳐를 ᄒᆡᆺ단 말이냐. <rs ref="#SK">네</rs>가 분명히 드럿ᄂᆞ냐.</said>"</p>
-        <p>"<said who="#SK" aloud="true" direct="true">(김) 듯다 ᄲᅮᆫ이오닛가. <rs ref="#GB">관비</rs>가 가셔 보기ᄭᆞ지ᄒᆞ고 왓담니다.</said>"</p>
-        <p>"<said who="#LDS" aloud="true" direct="true">(리) <rs ref="#SK">이 ᄋᆡ</rs> 듯기 슬타. 관비<rs ref="#GB">년</rs>은 <rs ref="#SK">너</rs> 엇지 그리 ᄭᅩᆨ 밋ᄂᆞ냐. <rs ref="#SC">그 년</rs>이 역시 <rs ref="#SC">그 년</rs>이니라. 쥭엇다고 을음장을 ᄒᆞ면 <rs ref="#LDS">내</rs>가 왼눈이나 ᄭᅡᆷ작ᄒᆞᆯ 쥴 알고 실업슨 <rs ref="#GB #SC #SK" type="person" subtype="group">것들</rs>이로구.</said>"</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">(리) 무엇이야 ᄌᆞ쳐를 ᄒᆞ다니 <rs type="person" ref="#SC">졔</rs>가 무슨 곡졀로 ᄌᆞ쳐를 ᄒᆡᆺ단 말이냐. <rs ref="#SK">네</rs>가 분명히 드럿ᄂᆞ냐.</said>"</p>
+        <p>"<said who="#SK" aloud="true" direct="true">(김) 듯다 ᄲᅮᆫ이오닛가. <rs type="person" ref="#GB">관비</rs>가 가셔 보기ᄭᆞ지ᄒᆞ고 왓담니다.</said>"</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">(리) <rs type="person" ref="#SK">이 ᄋᆡ</rs> 듯기 슬타. 관비<rs type="person" ref="#GB">년</rs>은 <rs ref="#SK">너</rs> 엇지 그리 ᄭᅩᆨ 밋ᄂᆞ냐. <rs ref="#SC">그 년</rs>이 역시 <rs ref="#SC">그 년</rs>이니라. 쥭엇다고 을음장을 ᄒᆞ면 <rs type="person" ref="#LDS">내</rs>가 왼눈이나 ᄭᅡᆷ작ᄒᆞᆯ 쥴 알고 실업슨 <rs ref="#GB #SC #SK" type="person" subtype="group">것들</rs>이로구.</said>"</p>
         <p>"<said who="#SK" aloud="true" direct="true">(김) 안이올시다. <rs ref="#SC">졔</rs>가 ᄌᆞ쳐ᄅᆞᆯ ᄒᆡᆺᄂᆞᆫ지ᄂᆞᆫ 확실히 밋지 못ᄒᆞ겟슴니다마는 살을 마졋ᄂᆞᆫ지 관젹을 ᄒᆞ얏ᄂᆞᆫ지 쥭기ᄂᆞᆫ 뎡녕히 쥭엇길내 렴습졔구ᄅᆞᆯ 작만ᄒᆞᆫ다 관곽을 ᄶᅡᆫ다ᄒᆞᄋᆞᆸ지오</said>"</p>
-        <p>"<said who="#LDS" aloud="true" direct="true">(리) 참말 쥭엇슬 터이면 <rs ref="#SK">네</rs> 말맛다나 필경 살을 마졋거나 관젹이 되여 쥭은 것이오 ᄯᅩᄂᆞᆫ 만손 ᄌᆞ쳐를 ᄒᆞ얏다 ᄒᆞ더ᄅᆡ도 <rs ref="#SC">졔</rs> 손으로 <rs ref="#SC">뎌</rs> 쥭은 것이 <rs ref="#LDS">내</rs>게 무슨 상관이 잇ᄂᆞ냐.</said>"</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">(리) 참말 쥭엇슬 터이면 <rs type="person" ref="#SK">네</rs> 말맛다나 필경 살을 마졋거나 관젹이 되여 쥭은 것이오 ᄯᅩᄂᆞᆫ 만손 ᄌᆞ쳐를 ᄒᆞ얏다 ᄒᆞ더ᄅᆡ도 <rs type="person" ref="#SC">졔</rs> 손으로 <rs type="person" ref="#SC">뎌</rs> 쥭은 것이 <rs type="person" ref="#LDS">내</rs>게 무슨 상관이 잇ᄂᆞ냐.</said>"</p>
         <p>
           그 모양으로 
-          <persName ref="#SK">김선달</persName>
+          <persName type="alias" ref="#SK">김선달</persName>
           을 ᄃᆡᄒᆞ야셔ᄂᆞᆫ 말을 ᄒᆞ야놋코 은근히 ᄆᆞᄋᆞᆷ에ᄂᆞᆫ 일샹 ᄭᅥ림ᄒᆞ던 ᄎᆞ에 
           <placeName ref="#JS">장성읍</placeName>
            인민들이 감을 과류ᄒᆡᆼ병을 인ᄒᆞ야 
-          <rs ref="#SC_G"><persName ref="#SC">선초</persName>
+          <rs type="place" ref="#SC_G"><persName ref="#SC">선초</persName>
           의 무덤</rs>에 졔ᄅᆞᆯ 풍비ᄒᆞ게 지ᄂᆡᆫ다ᄂᆞᆫ 소문을 듯고 렴치됴케 스ᄉᆞ로 ᄉᆡᆼ각ᄒᆞ기를
         </p>
-        <said who="#LDS" aloud="false" direct="true">(리) <rs ref="#LDS">내</rs>가 <rs ref="#SC">졔</rs>게 젹원ᄒᆞᆫ 것은 업지마는 <rs ref="#SC">졔</rs> ᄆᆞᄋᆞᆷ에ᄂᆞᆫ 얼마ᄶᅳᆷ 셥셥히ᄂᆞᆫ 녁엿던 것이야 그리기에 죵죵 <rs ref="#LDS">내</rs>게 현몽ᄒᆞᄂᆞᆫ 것이니 <rs type="person" subtype="ghost" ref="#SC"><rs ref="#SC">졔</rs> 귀신</rs>을 위로ᄒᆞᆯ 겸 졔지ᄂᆡᄂᆞᆫ 구경도 ᄒᆞᆯ 겸 <rs ref="#LDS">내</rs>가 좀 가보겟다.</said>
+        <said who="#LDS" aloud="false" direct="true">(리) <rs type="person" ref="#LDS">내</rs>가 <rs type="person" ref="#SC">졔</rs>게 젹원ᄒᆞᆫ 것은 업지마는 <rs ref="#SC">졔</rs> ᄆᆞᄋᆞᆷ에ᄂᆞᆫ 얼마ᄶᅳᆷ 셥셥히ᄂᆞᆫ 녁엿던 것이야 그리기에 죵죵 <rs type="person" ref="#LDS">내</rs>게 현몽ᄒᆞᄂᆞᆫ 것이니 <rs type="person" subtype="ghost" ref="#SC"><rs type="person" ref="#SC">졔</rs> 귀신</rs>을 위로ᄒᆞᆯ 겸 졔지ᄂᆡᄂᆞᆫ 구경도 ᄒᆞᆯ 겸 <rs type="person" ref="#LDS">내</rs>가 좀 가보겟다.</said>
         <p>
           ᄒᆞ고 대동이 ᄐᆡᆨ일ᄒᆞᆫ 졔ᄉᆞㅅ날을 당ᄒᆞ야 
           <persName ref="#LDS">리시찰</persName>
           이 
-          <rs ref="#SC_G"><persName ref="#SC">선초</persName>
-          의 무덤</rs>으로 ᄇᆡㅅ심됴케 가셔 남녀로쇼의 축원ᄒᆞᄂᆞᆫ 양을 ᄎᆞ례로 구경ᄒᆞ고 모도다 허여져 간 뒤에 <rs ref="#LDS">ᄌᆞ긔</rs> 역시 슐 한 쟌을 ᄯᅡᆺᄯᅡᆺᄒᆞ게 부어 놋코 <rs type="object" subtype="writing">글 한구</rs>ᄅᆞᆯ 지어 고셩대독ᄒᆞᄂᆞᆫᄃᆡ</p> 
-          <p>"<said who="#LDS" aloud="true" direct="true"><time type="season" subtype="spring">츄풍</time>에ᄅᆡ<rs ref="#LDS" type="person" subtype="metaphor">ᄇᆡᆨ발</rs>ᄒᆞ야 <gloss><time type="season" subtype="fall">가을바ᄅᆞᆷ</time>에 <rs ref="#LDS" type="person" subtype="metaphor">ᄇᆡᆨ발</rs>이 와셔</gloss> 락일에 곡쳥샨 <gloss>ᄯᅥ러지ᄂᆞᆫ 날에 쳥산에셔 울다</gloss></said>"</p>
+          <rs type="place" ref="#SC_G"><persName ref="#SC">선초</persName>
+          의 무덤</rs>으로 ᄇᆡㅅ심됴케 가셔 남녀로쇼의 축원ᄒᆞᄂᆞᆫ 양을 ᄎᆞ례로 구경ᄒᆞ고 모도다 허여져 간 뒤에 <rs type="person" ref="#LDS">ᄌᆞ긔</rs> 역시 슐 한 쟌을 ᄯᅡᆺᄯᅡᆺᄒᆞ게 부어 놋코 <rs type="object" subtype="writing">글 한구</rs>ᄅᆞᆯ 지어 고셩대독ᄒᆞᄂᆞᆫᄃᆡ</p> 
+          <p>"<said who="#LDS" aloud="true" direct="true"><time type="season" subtype="spring">츄풍</time>에ᄅᆡ<rs ref="#LDS" type="person" subtype="metaphor">ᄇᆡᆨ발</rs>ᄒᆞ야 <gloss><date type="season" subtype="fall">가을</date>바ᄅᆞᆷ에 <rs ref="#LDS" type="person" subtype="metaphor">ᄇᆡᆨ발</rs>이 와셔</gloss> 락일에 곡쳥샨 <gloss>ᄯᅥ러지ᄂᆞᆫ 날에 쳥산에셔 울다</gloss></said>"</p>
           <p>가쟝 
           <rs type="person" subtype="ghost" ref="#SC"><persName ref="#SC">선초</persName>
-          의 혼</rs>이 <rs ref="#LDS">ᄌᆞ긔</rs>의 슐을 달게 흠향이나 ᄒᆞᆫ 듯 십어 희ᄉᆡᆨ이 만면ᄒᆞ야 도라왓더라. <time from="23:00:00" to="01:00:00" type="traditional">삼경</time>이 못되야 별안간에 남풍이 슬슬 불며 ᄉᆞ면에셔 검은 구룸이 뭉게뭉게 니러나셔 탄탄대로에 긔초달니듯 ᄒᆞ더니 번ᄀᆡᄂᆞᆫ 번ᄶᅧᆨ번ᄶᅧᆨ 텬동은 우루루 우루루 쥬먹갓흔 비ㅅ방울이 우두두 ᄯᅥ러지다가 거미긔에 눈을 못ᄯᅳ게 삼ㅅᄃᆡᄀᆞᆺ치 퍼부어 오니 <rs ref="#PEOPLE">읍하의 우ᄆᆡᄒᆞᆫ 부녀들</rs>은 모다 됴화 츔을 츄며 <rs ref="#PERSON">졔</rs>각기 ᄒᆞᆫ 마듸식을 다짓거리기ᄅᆞᆯ</p>
+          의 혼</rs>이 <rs type="person" ref="#LDS">ᄌᆞ긔</rs>의 슐을 달게 흠향이나 ᄒᆞᆫ 듯 십어 희ᄉᆡᆨ이 만면ᄒᆞ야 도라왓더라. <time from="23:00:00" to="01:00:00" type="traditional">삼경</time>이 못되야 별안간에 남풍이 슬슬 불며 ᄉᆞ면에셔 검은 구룸이 뭉게뭉게 니러나셔 탄탄대로에 긔초달니듯 ᄒᆞ더니 번ᄀᆡᄂᆞᆫ 번ᄶᅧᆨ번ᄶᅧᆨ 텬동은 우루루 우루루 쥬먹갓흔 비ㅅ방울이 우두두 ᄯᅥ러지다가 거미긔에 눈을 못ᄯᅳ게 삼ㅅᄃᆡᄀᆞᆺ치 퍼부어 오니 <rs type="person" ref="#PEOPLE">읍하의 우ᄆᆡᄒᆞᆫ 부녀들</rs>은 모다 됴화 츔을 츄며 <rs type="person" ref="#PERSON">졔</rs>각기 ᄒᆞᆫ 마듸식을 다짓거리기ᄅᆞᆯ</p>
         <p>"<said who="#PEOPLE" aloud="true" direct="true">
           셰샹에 령검도ᄒᆡ라. <rs type="person" subtype="shaman">무당</rs><rs type="person" subtype="shaman">판슈</rs>라 ᄒᆞ는 것이 헷것은 안인게야. 뎜쾌나는ᄃᆡ로 
           <persName ref="#SC">선초</persName>
           혼을 위로ᄒᆞ얏더니 당일ᄂᆡ로 비가 이러케 오지 이번일만 보아도 살아셔낙 쥭어셔나 
           <persName ref="#SC">선초</persName>
-          ᄀᆞᆺ치 연ᄒᆞ고 싹싹ᄒᆞᆫ 사ᄅᆞᆷ을 나은 몃 살 안이되얏셔도 처음 보ᄂᆞᆫ 걸. 만일 이번에 <rs ref="#PEOPLE">인간들</rs>이 몽ᄆᆡᄒᆞ야 그양 ᄂᆡᄇᆞ려 두엇더면 언의ᄯᆡᄭᆞ지 감을는지 모를번 ᄒᆞ얏지 인졔 비는 더 바랄것 업시 흡죡ᄒᆞ니 내 집 남의 집을 물론ᄒᆞ고 우환이나 마져 업셔졋스면 그 안이됴흘ᄭᅡ.
+          ᄀᆞᆺ치 연ᄒᆞ고 싹싹ᄒᆞᆫ 사ᄅᆞᆷ을 나은 몃 살 안이되얏셔도 처음 보ᄂᆞᆫ 걸. 만일 이번에 <rs type="person" ref="#PEOPLE">인간들</rs>이 몽ᄆᆡᄒᆞ야 그양 ᄂᆡᄇᆞ려 두엇더면 언의ᄯᆡᄭᆞ지 감을는지 모를번 ᄒᆞ얏지 인졔 비는 더 바랄것 업시 흡죡ᄒᆞ니 내 집 남의 집을 물론ᄒᆞ고 우환이나 마져 업셔졋스면 그 안이됴흘ᄭᅡ.
         </said>"</p>
         <p>
           <persName ref="#LDS">리시찰</persName>
@@ -3644,7 +3644,7 @@
         <said who="#LDS" aloud="false" direct="true">(리) 에구 <rs ref="#LDS">ᄂᆡ</rs> 신셰가 엇지 ᄒᆞ다가 이 디경이 되얏슬가. 죄가 잇거던 죽이던지 귀양을 보ᄂᆡ던지 얼풋 쳐판을 ᄒᆞ야쥬거ᄂᆞ 밤낫 ᄌᆡ판은 ᄒᆞ야도 ᄭᅳᆺ은 안이ᄂᆡ여 쥬고 이 모양으로 <rs type="place" subtype="jail">옥구멍</rs>에다 너어두니 <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>이 살이 슬슬 ᄂᆞ려 졀로 쥭겟지.</said>
         <p>
           이 디경 될 쥴 알앗던면 남과 혐의ᄂᆞ 안이지엇드면 됴흘 것을 큰 훈공이ᄂᆞ 셰울 줄 알고 잡아 압샹ᄒᆞᆫ 
-          <orgName ref="#DHD">동학당슈 ᄇᆡᆨ 명</orgName>을 진작 쥭여 업ᄉᆡ지를 안코 그ᄃᆡ로 가두어 두어셔 <rs ref="#DHD">이 놈들</rs>이 <rs ref="#LDS">ᄂᆞ</rs>ᄅᆞᆯ 못먹겟다고 별의살 덤뷔듯 ᄒᆞ며 줌먹질 발길질 입에 못담을 욕셜악담이 물퍼붓듯 ᄒᆞᄂᆞᆫ 즁 죠셕ᄯᅢ를 당ᄒᆞ야 먹을 것을 좀 ᄒᆡ드려오면 <rs ref="#DHD">이 놈</rs>도 ᄲᆡ아셔 가고 <rs ref="#DHD">뎌 놈</rs>도 ᄲᆡ아셔 가셔 졍작 <rs ref="#LDS">ᄂᆞ</rs>ᄂᆞᆫ 다만 몃 슐을 먹어보ᄂᆞᆫ 슈 업스니 당쟝 들피가 ᄂᆞ셔 ᄭᅩᆨ 쥭을 디경이오 그 ᄲᅮᆫ 안이라 <time type="timeOfDay">밤</time>이 되야 잠을 좀 자랴ᄒᆞ면 <persName type="ghost" ref="#SC">고 방졍마즌 선초
+          <orgName ref="#DHD">동학당슈 ᄇᆡᆨ 명</orgName>을 진작 쥭여 업ᄉᆡ지를 안코 그ᄃᆡ로 가두어 두어셔 <rs ref="#DHD">이 놈들</rs>이 <rs ref="#LDS">ᄂᆞ</rs>ᄅᆞᆯ 못먹겟다고 별의살 덤뷔듯 ᄒᆞ며 줌먹질 발길질 입에 못담을 욕셜악담이 물퍼붓듯 ᄒᆞᄂᆞᆫ 즁 죠셕ᄯᅢ를 당ᄒᆞ야 먹을 것을 좀 ᄒᆡ드려오면 <rs ref="#DHD">이 놈</rs>도 ᄲᆡ아셔 가고 <rs ref="#DHD">뎌 놈</rs>도 ᄲᆡ아셔 가셔 졍작 <rs ref="#LDS">ᄂᆞ</rs>ᄂᆞᆫ 다만 몃 슐을 먹어보ᄂᆞᆫ 슈 업스니 당쟝 들피가 ᄂᆞ셔 ᄭᅩᆨ 쥭을 디경이오 그 ᄲᅮᆫ 안이라 <time>밤</time>이 되야 잠을 좀 자랴ᄒᆞ면 <persName type="ghost" ref="#SC">고 방졍마즌 선초
           귀신</persName>의 우ᄂᆞᆫ 소리에 실로 숑구ᄒᆡ셔 견ᄃᆡᆯ 슈가 업지 <rs ref="#LDS">ᄂᆡ</rs>가 외입은 만히 못ᄒᆡᆺ지마는 <rs ref="#SC">그 모양으로 소견업ᄂᆞᆫ 것</rs>은 듯고 보ᄂᆞ니 쳐음이야 <rs ref="#SC">졔</rs>가 규즁에 감초아 잇던 터이 안이오 <rs type="person" subtype="generalization" ref="#LDS">계집 샹죵ᄒᆞᄂᆞᆫ 사ᄅᆞᆷ</rs>이 여간 거즌말로 쇽이기가 불시 예ᄉᆞ어ᄂᆞᆯ 발셔 <rs ref="#SC">졔</rs>가 고만 살 팔ᄌᆞ라 ᄌᆞ쳐를 ᄒᆞ고셔 웨 <rs ref="#LDS">ᄂᆡ</rs>게 와셔 셩화를 밧치누 <rs ref="#LDS">ᄂᆡ</rs>가 지금은 횡ᄋᆡᆨ으로 <rs type="place" subtype="jail">옥</rs>쇽에셔 고ᄉᆡᆼ을 ᄒᆞ고 잇스니 ᄒᆞᆯ 슈 업지 죠만간 ᄂᆞ가기 곳ᄒᆞ야 보아라. 금부뒤 쟝님 몃 명만 불너다가 옥츄경을 일헤만 닑어 영영 셰샹 구경을 못ᄒᆞ게 가두워 버릴 터이다.<sic>"</sic>그러ᄂᆞ이네들이 <rs ref="#LDS">ᄂᆡ</rs>일 범연히 쥬션을 ᄒᆞᆯ 리가 만무ᄒᆞᆫ데.<sic>"</sic> ᄒᆞ며 가ᄉᆞᆷ이 부집죄이듯 밧ᄶᅡᆨ밧ᄶᅡᆨ 타드러가ᄂᆞᆫ ᄎᆞ에 <rs ref="#LDS">자긔</rs> 집으로 무슨 <rs type="object" subtype="letter">편지</rs>가 급히 왓ᄂᆞᆫ지라. 됴흔 긔별이ᄂᆞ 잇ᄂᆞᆫ가 ᄒᆞ야 얼풋 밧아 ᄯᅦ여보니 자긔 큰 아ᄃᆞᆯ이 급ᄒᆞᆫ 관격으로 위ᄐᆡᄒᆞ다ᄂᆞᆫ 병보라 알키가 레ᄉᆞ지 셜마 엇더ᄒᆞ랴 ᄒᆞ얏더니 비몽ᄉᆞ몽간의 
           <persName type="ghost" ref="#SC">선초</persName>
           가 압셔고 <orgName ref="#DHD">동학</orgName>에 몰녀 쥭은 
@@ -3661,12 +3661,12 @@
         <p>
           ᄒᆞᄂᆞᆫ 독ᄒᆞ고 무졍ᄒᆞ고 ᄆᆡ몰ᄒᆞᆫ ᄯᅳᆺ을 가ᄉᆞᆷ속에다 품고셔 여상히 지ᄂᆡ다가 급긔 <rs ref="#LDS_W1"><rs ref="#LDS">자긔</rs> 마누라</rs>가 여러번 독쳑을 보고 샹심이 되야 신음신음 알타가 셰상을 ᄯᅩ 버렷다ᄂᆞᆫ 긔별을 듯더니 그졔ᄂᆞᆫ 몸부림을 ᄯᅡᆼᄯᅡᆼᄒᆞ며 긔가 컥컥 막히게 울다가 옥ᄉᆞ쟝이에게 구박을 ᄌᆞ심ᄒᆞ게 당ᄒᆞ더라. <rs type="person" subtype="generalization" ref="#LDS">사ᄅᆞᆷ</rs>이 궁극ᄒᆞᆫ 디경을 당ᄒᆞ면 뉘우치ᄂᆞᆫ 마음이 졀로 ᄉᆡᆼ기ᄂᆞᆫ 법이라. 
           <persName ref="#LDS">리시찰</persName>
-          이 웬만ᄒᆞᆫ 사ᄅᆞᆷᄀᆞᆺ흐면 그 디경을 당ᄒᆞ얏스니 <time type="timeOfDay" subtype="daytime">ᄆᆞᆰ은 낫</time> <time type="timeOfDay" subtype="night">고요ᄒᆞᆫ 밤</time>에 <rs ref="LDS">ᄌᆞ긔</rs>외 젼후의 지은 죄ᄅᆞᆯ ᄎᆞ레로 ᄉᆡᆼ각곳ᄒᆞ면 뉘우치ᄂᆞᆫ ᄆᆞᄋᆞᆷ이 나셔
+          이 웬만ᄒᆞᆫ 사ᄅᆞᆷᄀᆞᆺ흐면 그 디경을 당ᄒᆞ얏스니 <time>ᄆᆞᆰ은 낫</time> <time>고요ᄒᆞᆫ 밤</time>에 <rs ref="LDS">ᄌᆞ긔</rs>외 젼후의 지은 죄ᄅᆞᆯ ᄎᆞ레로 ᄉᆡᆼ각곳ᄒᆞ면 뉘우치ᄂᆞᆫ ᄆᆞᄋᆞᆷ이 나셔
         </p>
         <said who="#LDS" aloud="false" direct="true">(리) 에구 <rs ref="#LDS">내</rs>가 이 앙화를 밧어 싸지. 수원수구ᄅᆞᆯ ᄒᆞᆯᄭᅡ마는 찰아리 <rs ref="#LDS">죄지은 내</rs>나 진작 죽여 주엇스면 ᄇᆡᆨ번 샤양을 못ᄒᆞ려니와 <rs ref="#LDS_W1 #LDS_C #LDS_G" type="person" subtype="group">ᄋᆡᄭᅮ진 처ᄌᆞ</rs>야 무슨 죄가 잇나.</said>
         <p>ᄒᆞ야 <rs ref="#LDS">ᄌᆞ긔</rs> 한아 잘못ᄒᆞᆫ 죄로 <rs ref="#LDS_W1 #LDS_C #LDS_G" type="person" subtype="group">처ᄌᆞ식</rs>의 불상이 셰샹을 버린 일을 ᄉᆡᆼ각ᄒᆞ면 머리ᄅᆞᆯ 기동에라도 부듸져셔 ᄯᅡ러 죽을 터인ᄃᆡ 그런 회심을 ᄒᆞ기ᄂᆞᆫ 고샤ᄒᆞ고 죵ᄅᆡ 흰소리로 <rs ref="#LDS">ᄌᆞ긔</rs> 조상탓부터 ᄒᆞᆫ다.</p>
         <said who="#LDS" aloud="false" direct="true">(리) 어허 <rs ref="#LDS">내</rs>가 이러케 ᄒᆞ면 <rs ref="#LDS">내</rs> 몸만 해롭지 안이되겟구 <rs type="place" subtype="grave" corresp="#LDS"><rs ref="#LDS">우리</rs> 산소</rs>가 잘못 드럿거나 션셰에 지은 죄가 잇ᄂᆞᆫ 탓으로 <rs ref="#LDS_C #LDS_G" type="person" subtype="group">ᄌᆞ식들</rs>이 모다 ᄋᆡ물로 ᄉᆡᆼ겻다가 눈아헤 ᄭᅡᆷᄶᅵᆨ스러운 경상을 뵈엿ᄂᆞᆫ 것을 <rs ref="#LDS_W1">아모 지식업ᄂᆞᆫ 마누라</rs>ᄂᆞᆫ 공연히 ᄆᆞᄋᆞᆷ을 샹ᄒᆞ야셔 쳔금ᄀᆞᆺ흔 몸ᄭᆞ지 버렷지</said>
-        <said who="#LDS" aloud="false" direct="true">(리) 오냐 <measure type="age" subtype="year" quantity="70">칠십</measure>에 ᄉᆡᆼ남ᄌᆞ도 ᄒᆞᆫ다는ᄃᆡ 아즉도 <rs ref="#LDS">ᄂᆡ</rs>가 년부력 강ᄒᆞᆫ 즉 언의 ᄯᆡ던지 이 ᄌᆡ판 ᄭᅳᆺ만 나거던 복셩스러온 규슈에게 후취도 ᄒᆞ려니와 ᄋᆡ나이ᄒᆞ는 <rs ref="#LDS_W2">젹은 마누라</rs>가 잇스니 셜마 ᄯᅩ 날 터인 즉 이 다음 소ᄉᆡᆼ아달을 학교에나 보내여 <rs type="studies">ᄀᆡ화공부</rs>를 식여 먹을 버리ᄅᆞᆯ ᄒᆞ게 ᄒᆞ겟다.</said>
+        <said who="#LDS" aloud="false" direct="true">(리) 오냐 <measure type="age" subtype="year" quantity="70">칠십</measure>에 ᄉᆡᆼ남ᄌᆞ도 ᄒᆞᆫ다는ᄃᆡ 아즉도 <rs type="person" ref="#LDS">ᄂᆡ</rs>가 년부력 강ᄒᆞᆫ 즉 언의 ᄯᆡ던지 이 ᄌᆡ판 ᄭᅳᆺ만 나거던 복셩스러온 규슈에게 후취도 ᄒᆞ려니와 ᄋᆡ나이ᄒᆞ는 <rs type="person" ref="#LDS_W2">젹은 마누라</rs>가 잇스니 셜마 ᄯᅩ 날 터인 즉 이 다음 소ᄉᆡᆼ아달을 학교에나 보내여 <rs type="studies">ᄀᆡ화공부</rs>를 식여 먹을 버리ᄅᆞᆯ ᄒᆞ게 ᄒᆞ겟다.</said>
         <p>
           <persName ref="#LDS">리시찰</persName>
           이 당ᄒᆞᆫ 일은 언의 
@@ -3680,18 +3680,18 @@
           을 지어 부지간에 모도다 고소ᄒᆡ셔 한 마듸식 이라도
         </p>
         <p>"<said who="#PEOPLE" aloud="true" direct="true">
-          에ㅣ 잘코사니 <rs ref="#LDS">졔</rs>가 <rs ref="#SDS #SJS" type="person" subtype="group">상뎐</rs> 잘 맛난 탓으로 그만치 부릇되얏스니 엇의ᄭᆞ지 ᄆᆡᄉᆞᄅᆞᆯ 극력조심ᄒᆞ야도 실수ᄒᆞ기가 십샹팔구어던 본ᄅᆡ <rs ref="#LDS">쥬졔 넘고 안이ᄭᅩ은 위인</rs>이 그갓치 쇼무긔탄(小無忌憚)ᄒᆞ고 남에 젹약을 ᄒᆞ엿스니 텬도가 엇지 무심ᄒᆞᆯ 리가 잇나. 그 죄벌을 당ᄒᆡ 싸지.
+          에ㅣ 잘코사니 <rs type="person" ref="#LDS">졔</rs>가 <rs ref="#SDS #SJS" type="person" subtype="group">상뎐</rs> 잘 맛난 탓으로 그만치 부릇되얏스니 엇의ᄭᆞ지 ᄆᆡᄉᆞᄅᆞᆯ 극력조심ᄒᆞ야도 실수ᄒᆞ기가 십샹팔구어던 본ᄅᆡ <rs type="person" ref="#LDS">쥬졔 넘고 안이ᄭᅩ은 위인</rs>이 그갓치 쇼무긔탄(小無忌憚)ᄒᆞ고 남에 젹약을 ᄒᆞ엿스니 텬도가 엇지 무심ᄒᆞᆯ 리가 잇나. 그 죄벌을 당ᄒᆡ 싸지.
         </said>"</p>
-        <p><rs ref="#PEOPLE">이러케 말ᄒᆞᄂᆞᆫ 사ᄅᆞᆷ</rs>은 일반공론이라 과격ᄒᆞ다ᄒᆞᆯ 수 업거니와 <rs ref="#PEOPLE">젹거니 크거니 험의가 좀 잇ᄂᆞᆫ 사ᄅᆞᆷ들</rs>은</p>
+        <p><rs type="person" ref="#PEOPLE">이러케 말ᄒᆞᄂᆞᆫ 사ᄅᆞᆷ</rs>은 일반공론이라 과격ᄒᆞ다ᄒᆞᆯ 수 업거니와 <rs type="person" ref="#PEOPLE">젹거니 크거니 험의가 좀 잇ᄂᆞᆫ 사ᄅᆞᆷ들</rs>은</p>
         <p>"<said who="#PEOPLE" aloud="true" direct="true">
-          흥 고ᄭᅡ짓것 <rs ref="#LDS">졔</rs>가 <rs ref="#LDS">졔</rs> 벌을 밧으려면 아즉도 멀엇지. 아모에 젼ᄌᆡ ᄲᆡ아슨 것과 아모의 젼답 ᄲᆡ아슨 것 이라던지 누구누구ᄅᆞᆯ 모함ᄒᆞᆫ 것만 ᄒᆡ도 <rs ref="#LDS">뎌</rs>만치ᄂᆞᆫ 고ᄉᆡᆼ을 ᄒᆞ고도 남을 터이오 <rs ref="#LDS">그네</rs> 일과 <rs ref="#PEOPLE">우리</rs>의 쇼조ᄂᆞᆫ 다 고만두고 남의 일이라도 말을 ᄒᆞ쟈면 니가 졀로 갈니기ᄂᆞᆫ <rs ref="#LDS">졔</rs> 동향에 잇ᄂᆞᆫ 
+          흥 고ᄭᅡ짓것 <rs type="person" ref="#LDS">졔</rs>가 <rs type="person" ref="#LDS">졔</rs> 벌을 밧으려면 아즉도 멀엇지. 아모에 젼ᄌᆡ ᄲᆡ아슨 것과 아모의 젼답 ᄲᆡ아슨 것 이라던지 누구누구ᄅᆞᆯ 모함ᄒᆞᆫ 것만 ᄒᆡ도 <rs ref="#LDS">뎌</rs>만치ᄂᆞᆫ 고ᄉᆡᆼ을 ᄒᆞ고도 남을 터이오 <rs type="person" ref="#LDS">그네</rs> 일과 <rs type="person" ref="#PEOPLE">우리</rs>의 쇼조ᄂᆞᆫ 다 고만두고 남의 일이라도 말을 ᄒᆞ쟈면 니가 졀로 갈니기ᄂᆞᆫ <rs type="person" ref="#LDS">졔</rs> 동향에 잇ᄂᆞᆫ 
           <persName ref="#IMC">임씨</persName>
           의 집에 ᄃᆡᄒᆞ야 ᄇᆡ은망덕으로 멸망을 식혓스니 그 원귀들이 감안히 잇슴리도 업고 그ᄂᆞᆫ 챠치 물론ᄒᆞᆫᄃᆡ도 
           <placeName ref="#JS">장성읍</placeName><rs type="person" subtype="gisaeng" ref="#SC">기ᄉᆡᆼ</rs><persName ref="#SC">선초</persName>
           의 일로 말ᄒᆞ면 
           <persName ref="#LDS">리시찰</persName>
-           <rs ref="LDS">ᄌᆞ긔</rs> 소위 학문가의 츌신으로 쳘모로ᄂᆞᆫ 계집ᄋᆞᄒᆡ가 목젼에 노ᄂᆞᆫ 풍졍만 탐ᄒᆞ야 ᄒᆡᆼ실을 부졍히 가질지라도 아모조록 됴흔 도리로 권고ᄅᆞᆯ 간졀히 ᄒᆞ야 ᄀᆡ과쳔션ᄒᆞ도록 ᄒᆞᄂᆞᆫ 것이 가ᄒᆞ거ᄂᆞᆯ <persName ref="#SC">졔ᄌᆞ격이 졀등ᄒᆞ고 지조가 비샹ᄒᆞᆫ 선초</persName>
-          ᄅᆞᆯ 엇의ᄭᆞ지 포쟝은 못ᄒᆡ쥬남아 <rs ref="#CHB"><rs ref="#SC">졔</rs> 부형</rs>의 업ᄂᆞᆫ 죄ᄅᆞᆯ 억지로 씨워서 당쟝 죽일 듯이 위풍을 부리고 뒤로 은근히 소개ᄅᆞᆯ ᄒᆞ야 <rs ref="#LDS">ᄇᆡᆨ발이 허연쟈</rs>가 <rs ref="#SC">막ᄂᆡᄯᆞᆯ ᄀᆞᆺ흔 것</rs>을 간통ᄒᆞ고 <rs ref="#LDS">그남아</rs> 약됴ᄅᆞᆯ 져ᄇᆞ려 <rs type="animal" subtype="metaphor" ref="#SC">ᄉᆡᆼ션ᄀᆞᆺ흔 것</rs>이 쳘텬지 ᄒᆞᆫ을 품고 쥭게 ᄒᆞ얏스니 앙화를 밧지 안코 무엇을 ᄒᆞᆯ고.
+           <rs type="person" ref="LDS">ᄌᆞ긔</rs> 소위 학문가의 츌신으로 쳘모로ᄂᆞᆫ 계집ᄋᆞᄒᆡ가 목젼에 노ᄂᆞᆫ 풍졍만 탐ᄒᆞ야 ᄒᆡᆼ실을 부졍히 가질지라도 아모조록 됴흔 도리로 권고ᄅᆞᆯ 간졀히 ᄒᆞ야 ᄀᆡ과쳔션ᄒᆞ도록 ᄒᆞᄂᆞᆫ 것이 가ᄒᆞ거ᄂᆞᆯ <persName ref="#SC">졔ᄌᆞ격이 졀등ᄒᆞ고 지조가 비샹ᄒᆞᆫ 선초</persName>
+          ᄅᆞᆯ 엇의ᄭᆞ지 포쟝은 못ᄒᆡ쥬남아 <rs type="person" ref="#CHB"><rs type="person" ref="#SC">졔</rs> 부형</rs>의 업ᄂᆞᆫ 죄ᄅᆞᆯ 억지로 씨워서 당쟝 죽일 듯이 위풍을 부리고 뒤로 은근히 소개ᄅᆞᆯ ᄒᆞ야 <rs type="person" ref="#LDS">ᄇᆡᆨ발이 허연쟈</rs>가 <rs type="person" ref="#SC">막ᄂᆡᄯᆞᆯ ᄀᆞᆺ흔 것</rs>을 간통ᄒᆞ고 <rs type="person" ref="#LDS">그남아</rs> 약됴ᄅᆞᆯ 져ᄇᆞ려 <rs type="animal" subtype="metaphor" ref="#SC">ᄉᆡᆼ션ᄀᆞᆺ흔 것</rs>이 쳘텬지 ᄒᆞᆫ을 품고 쥭게 ᄒᆞ얏스니 앙화를 밧지 안코 무엇을 ᄒᆞᆯ고.
         </said>"</p>
         <p>
           ᄒᆞ더라. 그런ᄃᆡ 
@@ -3717,25 +3717,25 @@
           의 참경을 본 이후로 한 가지 고집이 ᄉᆡᆼ겻ᄂᆞᆫᄃᆡ 이 고집은 별것이 안이라
         </p>
         <said who="#CHB" aloud="false" direct="true">
-          <rs ref="#MR">ᄯᆞᆯᄌᆞ식</rs>이라ᄂᆞᆫ 것은 <rs type="studies" subtype="writing">반졀</rs>이나 ᄭᆡ쳐셔 가간통졍이나 ᄒᆞ면 넉넉ᄒᆞ고 밥이나 짓고 의복이나 ᄭᅱ여ᄆᆡ면 고만이지 <rs type="studies" subtype="writing">한문ㅅᄌᆞ</rs>ᄂᆞᆫ 한ᄌᆞ도 가라칠 일이 안이오 ᄯᅩ <rs type="person" subtype="gisaeng" ref="#MR">기ᄉᆡᆼ</rs>으로 말ᄒᆞᆫᄃᆡ도 <rs type="studies" subtype="entertainment">음률</rs> <term type="studies" subtype="entertainment">가무</term>가 변변치 못ᄒᆞᆫ ᄋᆞᄒᆡ들은 열이면 열이다 후분이 됴화도 ᄌᆡ됴가 남보다 ᄯᅱ여나면 ᄌᆡ승덕박(才勝德薄)ᄒᆞ야 그런지 ᄀᆡᄀᆡ히 팔ᄌᆞ가 긔구ᄒᆞ더라 더ᄒᆞᆯ 말 업시 <rs ref="#CHB">우리 <persName ref="#SC">선초</persName></rs>
-          로 보아도 <rs ref="#SC">제</rs>가 인물이라던지 <rs type="studies" subtype="entertainment">음률</rs> <term type="studies" subtype="entertainment">가무</term>가 변변치 못ᄒᆞ얏더면 
+          <rs type="person" ref="#MR">ᄯᆞᆯᄌᆞ식</rs>이라ᄂᆞᆫ 것은 <rs type="studies" subtype="writing">반졀</rs>이나 ᄭᆡ쳐셔 가간통졍이나 ᄒᆞ면 넉넉ᄒᆞ고 밥이나 짓고 의복이나 ᄭᅱ여ᄆᆡ면 고만이지 <rs type="studies" subtype="writing">한문ㅅᄌᆞ</rs>ᄂᆞᆫ 한ᄌᆞ도 가라칠 일이 안이오 ᄯᅩ <rs type="person" subtype="gisaeng" ref="#MR">기ᄉᆡᆼ</rs>으로 말ᄒᆞᆫᄃᆡ도 <rs type="studies" subtype="entertainment">음률</rs> <term type="studies" subtype="entertainment">가무</term>가 변변치 못ᄒᆞᆫ ᄋᆞᄒᆡ들은 열이면 열이다 후분이 됴화도 ᄌᆡ됴가 남보다 ᄯᅱ여나면 ᄌᆡ승덕박(<foreign xml:lang="zh">才勝德薄</foreign>)ᄒᆞ야 그런지 ᄀᆡᄀᆡ히 팔ᄌᆞ가 긔구ᄒᆞ더라 더ᄒᆞᆯ 말 업시 <rs  type="person" ref="#CHB">우리 <persName ref="#SC">선초</persName></rs>
+          로 보아도 <rs type="person" ref="#SC">제</rs>가 인물이라던지 <rs type="studies" subtype="entertainment">음률</rs> <term type="studies" subtype="entertainment">가무</term>가 변변치 못ᄒᆞ얏더면 
           <persName ref="#LDS">리시찰</persName>
-          이 그 모양으로 욕심을 내여 의리부동ᄒᆞᆫ ᄒᆡᆼ위를 ᄒᆡᆺ슬 리가 업셧슬 것이오 ᄯᅩ <rs ref="#SC">졔</rs>가 <rs type="studies" subtype="writing">글ㅅᄌᆞ</rs>ᄅᆞᆯ 안이ᄇᆡ와 무식ᄒᆞᆫ 것 ᄀᆞᆺ흐면 의리인지 지조인지 엇지 알어셔 <rs ref="#SC">졔</rs> 목슘을 ᄭᅳᆫ을 디경ᄭᆞ지 ᄒᆞ얏슬 리도 업스니 에ㅣ <rs ref="#CHB">우리</rs> 
-          <persName ref="#MR">모란이년</persName>은 당초에 아모것도 가라치지 말고 그ᄃᆡ로 내버려 두겟다.
+          이 그 모양으로 욕심을 내여 의리부동ᄒᆞᆫ ᄒᆡᆼ위를 ᄒᆡᆺ슬 리가 업셧슬 것이오 ᄯᅩ <rs ref="#SC">졔</rs>가 <rs type="studies" subtype="writing">글ㅅᄌᆞ</rs>ᄅᆞᆯ 안이ᄇᆡ와 무식ᄒᆞᆫ 것 ᄀᆞᆺ흐면 의리인지 지조인지 엇지 알어셔 <rs ref="#SC">졔</rs> 목슘을 ᄭᅳᆫ을 디경ᄭᆞ지 ᄒᆞ얏슬 리도 업스니 에ㅣ <rs type="person" ref="#CHB">우리</rs> 
+          <persName ref="#MR">모란</persName>이년은 당초에 아모것도 가라치지 말고 그ᄃᆡ로 내버려 두겟다.
         </said>
         <p>
           ᄒᆞ야 일졀 아모것도 ᄇᆡ호지ᄅᆞᆯ 못ᄒᆞ게 ᄒᆞ것마는 
           <persName ref="#MR">모란</persName>
-          이난 ᄆᆡᄅᆞᆯ 맛고 ᄭᅮ지람을 들어가며 틈틈히 <rs ref="#MR">뎌</rs>의 일가ㅅ집에 가셔 동량<rs type="studies" subtype="writing">글</rs>을 ᄇᆡ화셔 <rs type="studies" subtype="writing">문필</rs>이 <rs ref="#SC"><rs ref="#MR">뎌</rs>의형</rs>만 못지안이ᄒᆞ고 <rs type="studies" subtype="entertainment">음률</rs>은 
+          이난 ᄆᆡᄅᆞᆯ 맛고 ᄭᅮ지람을 들어가며 틈틈히 <rs ref="#MR">뎌</rs>의 일가ㅅ집에 가셔 동량<rs type="studies" subtype="writing">글</rs>을 ᄇᆡ화셔 <rs type="studies" subtype="writing">문필</rs>이 <rs ref="#SC"><rs type="person" ref="#MR">뎌</rs>의형</rs>만 못지안이ᄒᆞ고 <rs type="studies" subtype="entertainment">음률</rs>은 
           <persName ref="#CHB">최호방</persName>
-           츌입ᄒᆞᆫ 동안이면 <rs ref="#SC">졔 형</rs> 공부ᄒᆞ던 률보를 보아가며 ᄉᆞ습을 은근히 ᄒᆞ야 언의 ᄇᆡ반이던지 막힐 것이 업ᄂᆞᆫ 즁 형뎨의 얼골이 방불ᄒᆞᆫ 것은 흔이 잇ᄂᆞᆫ 일이라. <rs ref="#MR">졔</rs> 나히 졈졈 차 갈ᄉᆞ록 ᄃᆞᆯㅅ덩이 ᄀᆞᆺ치 어엽버 <rs ref="#SC"><rs ref="#MR">졔</rs> 형</rs>의 얼골에셔 ᄶᅩ귀어ᄂᆡᆫ 듯 ᄒᆞ더라. 그리지 안이ᄒᆡ도 
+           츌입ᄒᆞᆫ 동안이면 <rs type="person" ref="#SC"><rs type="person" ref="#MR">졔</rs> 형</rs> 공부ᄒᆞ던 률보를 보아가며 ᄉᆞ습을 은근히 ᄒᆞ야 언의 ᄇᆡ반이던지 막힐 것이 업ᄂᆞᆫ 즁 형뎨의 얼골이 방불ᄒᆞᆫ 것은 흔이 잇ᄂᆞᆫ 일이라. <rs ref="#MR">졔</rs> 나히 졈졈 차 갈ᄉᆞ록 ᄃᆞᆯㅅ덩이 ᄀᆞᆺ치 어엽버 <rs type="person" ref="#SC"><rs type="person" ref="#MR">졔</rs> 형</rs>의 얼골에셔 ᄶᅩ귀어ᄂᆡᆫ 듯 ᄒᆞ더라. 그리지 안이ᄒᆡ도 
           <persName ref="#MR">모란</persName>
-          이가 턴륜이 감동ᄒᆡ셔 <rs ref="#PEOPLE"><rs ref="#SC"><rs ref="#MR">졔</rs> 형</rs>의 넉드리ᄒᆞ던 소문드른 사ᄅᆞᆷ</rs>마다 
+          이가 턴륜이 감동ᄒᆡ셔 <rs type="person" ref="#PEOPLE"><rs type="person" ref="#SC"><rs type="person" ref="#MR">졔</rs> 형</rs>의 넉드리ᄒᆞ던 소문드른 사ᄅᆞᆷ</rs>마다 
           <persName ref="#MR">모란</persName>
           이ᄂᆞᆫ 
           <persName ref="#SC">선초</persName>
-          가 다시 왓다고 지목을 ᄒᆞ얏ᄂᆞᆫᄃᆡ 더구ᄂᆞ 인물 ᄌᆡ질이 <rs ref="#SC"><rs ref="#MR">졔</rs> 형</rs>과 방불ᄒᆞ니 
-            <rs ref="#PEOPLE">호ᄉᆞ쟈(好事者)들</rs>이 오작 말을 만드러 ᄒᆞ리오.
+          가 다시 왓다고 지목을 ᄒᆞ얏ᄂᆞᆫᄃᆡ 더구ᄂᆞ 인물 ᄌᆡ질이 <rs type="person" ref="#SC"><rs type="person" ref="#MR">졔</rs> 형</rs>과 방불ᄒᆞ니 
+            <rs type="person" ref="#PEOPLE">호ᄉᆞ쟈(<foreign xml:lang="zh">好事者</foreign>)들</rs>이 오작 말을 만드러 ᄒᆞ리오.
         </p>
         <p>"<said who="#PEOPLE" aloud="true" direct="true">
           에ㅣ 셰샹에 희안ᄒᆞᆫ 일도 잇더라. 
@@ -3744,19 +3744,19 @@
           <persName ref="#SC">선초</persName>
           가 ᄉᆡᆼ겨ᄂᆞ셔 
           <placeName ref="#JS">장성 일군</placeName>
-          을 흔들흔들 ᄒᆞ다가 <rs ref="FW" ana="meta_SC">몹슬 바ᄅᆞᆷ에 ᄯᅥ러진 ᄭᅩᆺ모양</rs>으로 하로밤 ᄉᆡ이에 흔젹이 업셔지고 젹막히 뷔인 가지에 셕양이 빗긴 모양이 되얏스니 아모라도 ᄉᆡᆼ각ᄒᆞ기를 인졔ᄂᆞᆫ 산쳔도 변ᄒᆞ야져셔 
+          을 흔들흔들 ᄒᆞ다가 <rs type="plant" ref="FW" ana="meta_SC">몹슬 바ᄅᆞᆷ에 ᄯᅥ러진 ᄭᅩᆺ모양</rs>으로 하로밤 ᄉᆡ이에 흔젹이 업셔지고 젹막히 뷔인 가지에 셕양이 빗긴 모양이 되얏스니 아모라도 ᄉᆡᆼ각ᄒᆞ기를 인졔ᄂᆞᆫ 산쳔도 변ᄒᆞ야져셔 
           <placeName ref="#JS">장성읍</placeName>
           에 <rs ref="#GS">명기</rs>가 ᄭᅳᆫ치려ᄂᆞ보다 ᄒᆞ얏ᄂᆞᆫᄃᆡ <persName ref="#SC">쥭은 선초</persName>
           ᄂᆞᆫ 참 희한ᄒᆞᆫ 일이야 요ᄉᆞ이에 도로 살아낫다ᄂᆞᆫ 걸.
         </said>"</p>
         <p>
-          <rs ref="#PERSON"><persName ref="#MR">모란</persName>
+          <rs type="person" ref="#PERSON"><persName ref="#MR">모란</persName>
           이 셩식을 ᄌᆞ셰 아ᄂᆞᆫ 사ᄅᆞᆷ</rs>은 그런 말을 듯고
         </p>
         <p>"<said who="#PERSON" aloud="true" direct="true">
           올치 
           <persName ref="#MR">모란</persName>
-          이가 <rs ref="#SC"><rs ref="#MR">졔</rs> 형</rs> 
+          이가 <rs type="person" ref="#SC"><rs type="person" ref="#MR">졔</rs> 형</rs> 
           <persName ref="#SC">선초</persName>
           의 계젹을 ᄒᆡᆺ스닛가 뎌러케 말ᄒᆞ기도 용혹무괴이지.
         </said>"</p>
@@ -3764,13 +3764,13 @@
         <p>"<said who="#PERSON" aloud="true" direct="true">
           으 응 그게 무슨 말이야. 
           <persName ref="#SC">선초</persName>
-          가 살아낫다니 <rs ref="#SC">쥭은 사ᄅᆞᆷ</rs>이 도로 ᄉᆞᆯ아ᄂᆞ 그러면 
+          가 살아낫다니 <rs type="person" ref="#SC">쥭은 사ᄅᆞᆷ</rs>이 도로 ᄉᆞᆯ아ᄂᆞ 그러면 
           <persName ref="#SC">선초</persName>
           가 
           <persName ref="#LDS">리시찰</persName>
-          을 속이노라고 거즛 쥿엇던 것이로구면 엇더턴지 <rs ref="#SC">계집</rs>의 ᄭᅬ라ᄂᆞᆫ 것이 긔가 막히더라. 
+          을 속이노라고 거즛 쥿엇던 것이로구면 엇더턴지 <rs type="person" ref="#SC">계집</rs>의 ᄭᅬ라ᄂᆞᆫ 것이 긔가 막히더라. 
           <persName ref="#LDS">리시찰</persName>
-          은 커녕 <rs ref="#PEOPLE">우리</rs>도 그 쇼문을 듯고 ᄭᅩᆨ 쇽엇ᄂᆞᆫ 걸.
+          은 커녕 <rs type="person" ref="#PEOPLE">우리</rs>도 그 쇼문을 듯고 ᄭᅩᆨ 쇽엇ᄂᆞᆫ 걸.
         </said>"</p>
         <p>
           그ᄃᆡㅅ말 젼ᄒᆞ던 사ᄅᆞᆷ도 두 가지 구별이 잇스니 
@@ -3785,65 +3785,65 @@
       <div type="chapter" n="7">
         <head>뎨 칠회</head>
         <p>
-          지극히 어지신 하ᄂᆞ님ᄭᅴ셔ᄂᆞᆫ 호ᄉᆡᆼ지덕(好生之德)을 쥬장ᄒᆞ시ᄂᆞᆫ 터이라 <persName ref="#LDS"><time dur="P3Y">삼 년</time> 동안을 <rs type="place" subtype="jail">구명</rs>속에셔 ᄉᆞᄅᆞᆷ은 못당ᄒᆞᆯ 고ᄉᆡᆼ을 다 격던 리시ᄎᆞᆯ</persName>
+          지극히 어지신 하ᄂᆞ님ᄭᅴ셔ᄂᆞᆫ 호ᄉᆡᆼ지덕(<foreign xml:lang="zh">好生之德</foreign>)을 쥬장ᄒᆞ시ᄂᆞᆫ 터이라 <persName ref="#LDS"><time dur="P3Y">삼 년</time> 동안을 <rs type="place" subtype="jail">구명</rs>속에셔 ᄉᆞᄅᆞᆷ은 못당ᄒᆞᆯ 고ᄉᆡᆼ을 다 격던 리시ᄎᆞᆯ</persName>
           을 뇌여 ᄂᆞ와 셰상구경을 다시 ᄒᆞ게 ᄒᆞ신지라. 그물을 버셔난 새와 일반으로 
           <persName ref="#LDS">리시ᄎᆞᆯ</persName>
-          이 <rs type="place">옥</rs>문을 ᄂᆞ오니 그ᄯᆡ에ᄂᆞᆫ ᄋᆡ연ᄒᆞᆫ 량심이 잠ᄭᅡᆫ ᄉᆡᆼ기어셔 스ᄉᆞ로 ᄌᆞ복ᄒᆞᄂᆞᆫ 말이라
+          이 <rs type="place" subtype="jail">옥</rs>문을 ᄂᆞ오니 그ᄯᆡ에ᄂᆞᆫ ᄋᆡ연ᄒᆞᆫ 량심이 잠ᄭᅡᆫ ᄉᆡᆼ기어셔 스ᄉᆞ로 ᄌᆞ복ᄒᆞᄂᆞᆫ 말이라
         </p>
         <p>"<said who="#LDS" aloud="true" direct="true">
-          에구 <rs ref="#LDS">ᄂᆡ</rs>가 이번에 고쵸격근 일이 모도다 <rs ref="#LDS">ᄂᆡ</rs> 잘못이지 슈원슈구ᄒᆞᆯ 슈 잇나 
+          에구 <rs type="person" ref="#LDS">ᄂᆡ</rs>가 이번에 고쵸격근 일이 모도다 <rs type="person" ref="#LDS">ᄂᆡ</rs> 잘못이지 슈원슈구ᄒᆞᆯ 슈 잇나 
           <persName ref="#IMC">임씨</persName>
-          집 일로 말ᄒᆞ면 <rs ref="#LDS">ᄂᆡ</rs>가 <rs ref="#IMC_M">그 로인</rs>의 ᄉᆞ랑하던 은혜를 ᄐᆡ산갓치 지고 만분의 일이라도 갑지ᄂᆞᆫ 못ᄒᆞᆯ지언뎡 <rs ref="#LDS">ᄂᆡ</rs> 요공을 ᄒᆞ자고 <rs ref="#IMC">죄도 변변치 안은그 아ᄃᆞᆯ</rs>을 ᄉᆞ졍업시 포ᄉᆞᆯᄒᆞ얏스니 엇지ᄒᆞ니 원통치 아니ᄒᆞ며 
+          집 일로 말ᄒᆞ면 <rs type="person" ref="#LDS">ᄂᆡ</rs>가 <rs ref="#IMC_M">그 로인</rs>의 ᄉᆞ랑하던 은혜를 ᄐᆡ산갓치 지고 만분의 일이라도 갑지ᄂᆞᆫ 못ᄒᆞᆯ지언뎡 <rs type="person" ref="#LDS">ᄂᆡ</rs> 요공을 ᄒᆞ자고 <rs ref="#IMC">죄도 변변치 안은그 아ᄃᆞᆯ</rs>을 ᄉᆞ졍업시 포ᄉᆞᆯᄒᆞ얏스니 엇지ᄒᆞ니 원통치 아니ᄒᆞ며 
           <persName ref="#SC">션쵸</persName>
-          로 말ᄒᆞ면 <rs ref="#SC">졔</rs>가 그쳐럼 고집을 ᄒᆞ니 <rs ref="#LDS">ᄂᆡ</rs> 욕심을 참앗더면 <rs ref="#LDS">ᄂᆞ</rs>도 졈자는모양이되고 <rs ref="#SC">뎌</rs>도소원셩취가 되얏슬 것을 응 잘못ᄒᆡᆺ지 잘못ᄒᆡᆺ셔 <rs ref="#SC">그것</rs>이 ᄉᆡᆼ목슘을 ᄭᅳᆫ을ᄯᆡ에ᄉᆡᆼ목슘을 ᄭᅳᆫ을 ᄯᆡ에 다시 업ᄂᆞᆫ 원혼을 품엇슬 것이니 일부ᄒᆞᆷ원에 오월비샹(一婦含冤五月飛霜)이라ᄂᆞᆫᄃᆡ <rs ref="#LDS">ᄂᆡ</rs>가 결단이 엇지 ᄂᆞ지안이ᄒᆞ얏슬고.</said>"</p>
+          로 말ᄒᆞ면 <rs ref="#SC">졔</rs>가 그쳐럼 고집을 ᄒᆞ니 <rs type="person" ref="#LDS">ᄂᆡ</rs> 욕심을 참앗더면 <rs type="person" ref="#LDS">ᄂᆞ</rs>도 졈자는모양이되고 <rs type="person" ref="#SC">뎌</rs>도소원셩취가 되얏슬 것을 응 잘못ᄒᆡᆺ지 잘못ᄒᆡᆺ셔 <rs type="person" ref="#SC">그것</rs>이 ᄉᆡᆼ목슘을 ᄭᅳᆫ을ᄯᆡ에ᄉᆡᆼ목슘을 ᄭᅳᆫ을 ᄯᆡ에 다시 업ᄂᆞᆫ 원혼을 품엇슬 것이니 일부ᄒᆞᆷ원에 오월비샹(<foreign xml:lang="zh">一婦含冤五月飛霜</foreign>)이라ᄂᆞᆫᄃᆡ <rs type="person" ref="#LDS">ᄂᆡ</rs>가 결단이 엇지 ᄂᆞ지안이ᄒᆞ얏슬고.</said>"</p>
         <p>
           ᄒᆞ야 ᄀᆞ쟝 회ᄀᆡᄒᆞᆫ 듯이 일졀 녀ᄉᆡᆨ은 갓가히 안이ᄒᆞ고 점자는 ᄒᆡᆼᄐᆡ를 이왕 학ᄌᆞ문하에 단이던 ᄯᆡ와 일반으로 ᄒᆞ니 이ᄂᆞᆫ <rs ref="#LDS">ᄌᆞ기</rs> 마ᄋᆞᆷ에 ᄯᅩ 한 번 속여볼 작뎡이러라 쇽담에 더 먹자면 것친 계라더니 
           <persName ref="#LDS">리시ᄎᆞᆯ</persName>
-          이 부조유업만ᄒᆡ도 <rs ref="#LDS">ᄌᆞ긔</rs> 식구ᄂᆞᆫ 굼지안코 넉넉히 지ᄂᆡ엿슬 것을 아모조록 불안당질을 ᄒᆞ야 
+          이 부조유업만ᄒᆡ도 <rs type="person" ref="#LDS">ᄌᆞ긔</rs> 식구ᄂᆞᆫ 굼지안코 넉넉히 지ᄂᆡ엿슬 것을 아모조록 불안당질을 ᄒᆞ야 
           <rs type="place" subtype="capital">장안</rs>
           에 손곱이 가ᄂᆞᆫ 거부장ᄌᆞ가 되야 보자ᄂᆞᆫ 작뎡겸 일ᄉᆡᆨ미인을 한 번 샹종ᄒᆞ자ᄂᆞᆫ 계교로 쳔신만고ᄒᆞ야 <rs ref="#SCG"><rs type="place" subtype="group" ref="#JLD #GSD #CCD">삼남</rs>시찰</rs>을 버러 ᄂᆡ려가셔 일ᄉᆡᆨ도 상관ᄒᆞ얏스려니와 ᄌᆡ물은 엇더케 휩쓰러 모라 올녀왓던지 만일 그 ᄌᆡ물을 굿게 직히기 곳ᄒᆞ면 
           <placeName type="place" subtype="local">츙쳥도</placeName>
           ᄂᆡ에 큰 ᄌᆞ본가가 되엿슬 터인ᄃᆡ 것칠게 드러온 ᄌᆡ산이 ᄂᆞ갈졔도 것친 것은 당연ᄒᆞᆫ 리치라 
           <persName ref="#LDS">리시ᄎᆞᆯ</persName>
-          이 <rs ref="#LDS">자긔</rs> 집에를 와셔 그 ᄌᆡ물을 한 푼 써보도 못ᄒᆞ고 
+          이 <rs type="person" ref="#LDS">자긔</rs> 집에를 와셔 그 ᄌᆡ물을 한 푼 써보도 못ᄒᆞ고 
           <placeName ref="#JLGY">젼라감영</placeName>
           에셔 바로 
-          <rs type="place" subtype="capital">셔울</rs>
+          <rs type="place" subtype="capital" ref="#HY">셔울</rs>
           로 압상이 되야 <time dur="P3Y">삼 년</time> ᄌᆡ판ᄒᆞᄂᆞᆫ 즁에 집안에 ᄉᆞᄅᆞᆷ도 씨가 업셔지고 ᄌᆡ물도 본ᄅᆡ 잇던 것ᄭᆞ지 보ᄐᆡ여 탕진을 ᄒᆞ얏스니 
           <persName ref="#LDS">리시ᄎᆞᆯ</persName>
-          이 <rs type="place">옥</rs>에셔 ᄂᆞ온 후로 본 집이라고는 쑥밧ᄲᅮᆫ이오 발을 ᄂᆡ드듸여 향ᄒᆞᆯ 곳 업스닛가 ᄒᆞᆯ 일 업시 <rs ref="#LDS_W2">이왕 소박ᄒᆞ야 버렷던 쳡</rs>의 겻방ᄉᆞ리ᄒᆞ고 잇는 곳을 슈쇼문ᄒᆞ야 ᄎᆞ져가셔 비진 ᄉᆞ졍을 ᄒᆞ야 몸을 의지ᄒᆞ고 잇스며 간능시럽게 틈틈이 교졔를 잘ᄒᆞ야 젼ᄇᆡᆨ젼관의 구걸로 근근히 호구를 ᄒᆞ니 <rs ref="#LDS">ᄌᆞ긔</rs> 마ᄋᆞᆷ에는 ᄉᆞ력이 훨신 펴인 줄 녁엿던지 지어먹은 마ᄋᆞᆷ이 ᄉᆞ흘을 못가셔 이왕 ᄒᆡᆼᄐᆡ가 도로 ᄂᆞ와셔 돈량곳 보면 쇼치ᄂᆞ 대단ᄒᆞᆫ 톄 ᄒᆞ야 친구도 모와 슐도 먹고 계집도 불너 쇼일도 ᄒᆞ더니 하로ᄂᆞᆫ <rs type="event">엇던 친구의 연회</rs>에를 갓더니 그 <rs type="event">좌셕</rs>에 <rs>아모판셔</rs> <rs>아모ᄃᆡ신</rs>이하로 <rs>협판</rs><rs>참셔</rs> <rs>국쟝</rs> 쥬ᄉᆞ가 다수히 회집ᄒᆞ야 반죠뎡이 더 되고 겸ᄒᆞ야 각국 <rs>공령ᄉᆞ</rs> ᄂᆡ외국 상민도 젹지안이 모혓는지라 항여ᄂᆞ 실슈를 ᄒᆞᆯ가 하야 극히 조심조심ᄒᆞ노라고 먹고 십은 쥬육도 못 먹고 ᄒᆞ고 십은 슈작도 못ᄒᆞ며 한 변 구셕에셔 슘도 크게 못 ᄉᆔ고 얌잔스럽게 안졋노라니 맛ᄎᆞᆷ 여흥으로 <rs>기ᄉᆡᆼ</rs>의 <term type="studies">가무</term>를 보는ᄃᆡ <rs ref="#MR">그 즁 기ᄉᆡᆼ 한아이</rs> <rs ref="#LDS">ᄌᆞ긔</rs>의 얼골을 눈이 ᄯᅮᆯ어지게 녁여 보거ᄂᆞᆫ <rs ref="#LDS">ᄌᆞ긔</rs> 역시 유심히 본 즉 분명히 알 슈는 업셔도 엇의셔 이왕 만히 보던 인물ᄀᆞᆺ흔지라 으졋이
+          이 <rs type="place" subtype="jail">옥</rs>에셔 ᄂᆞ온 후로 본 집이라고는 쑥밧ᄲᅮᆫ이오 발을 ᄂᆡ드듸여 향ᄒᆞᆯ 곳 업스닛가 ᄒᆞᆯ 일 업시 <rs type="person" ref="#LDS_W2">이왕 소박ᄒᆞ야 버렷던 쳡</rs>의 겻방ᄉᆞ리ᄒᆞ고 잇는 곳을 슈쇼문ᄒᆞ야 ᄎᆞ져가셔 비진 ᄉᆞ졍을 ᄒᆞ야 몸을 의지ᄒᆞ고 잇스며 간능시럽게 틈틈이 교졔를 잘ᄒᆞ야 젼ᄇᆡᆨ젼관의 구걸로 근근히 호구를 ᄒᆞ니 <rs type="person" ref="#LDS">ᄌᆞ긔</rs> 마ᄋᆞᆷ에는 ᄉᆞ력이 훨신 펴인 줄 녁엿던지 지어먹은 마ᄋᆞᆷ이 ᄉᆞ흘을 못가셔 이왕 ᄒᆡᆼᄐᆡ가 도로 ᄂᆞ와셔 돈량곳 보면 쇼치ᄂᆞ 대단ᄒᆞᆫ 톄 ᄒᆞ야 친구도 모와 슐도 먹고 계집도 불너 쇼일도 ᄒᆞ더니 하로ᄂᆞᆫ <rs type="event">엇던 친구의 연회</rs>에를 갓더니 그 <rs type="event">좌셕</rs>에 아모판셔 아모ᄃᆡ신 이하로 협판참셔 국쟝 쥬ᄉᆞ가 다수히 회집ᄒᆞ야 반죠뎡이 더 되고 겸ᄒᆞ야 각국 공령ᄉᆞ ᄂᆡ외국 상민도 젹지안이 모혓는지라 항여ᄂᆞ 실슈를 ᄒᆞᆯ가 하야 극히 조심조심ᄒᆞ노라고 먹고 십은 쥬육도 못 먹고 ᄒᆞ고 십은 슈작도 못ᄒᆞ며 한 변 구셕에셔 슘도 크게 못 ᄉᆔ고 얌잔스럽게 안졋노라니 맛ᄎᆞᆷ 여흥으로 <rs ref="#GS">기ᄉᆡᆼ</rs>의 <term type="studies">가무</term>를 보는ᄃᆡ <rs type="person" ref="#MR">그 즁 기ᄉᆡᆼ 한아이</rs> <rs type="person" ref="#LDS">ᄌᆞ긔</rs>의 얼골을 눈이 ᄯᅮᆯ어지게 녁여 보거ᄂᆞᆫ <rs type="person" ref="#LDS">ᄌᆞ긔</rs> 역시 유심히 본 즉 분명히 알 슈는 업셔도 엇의셔 이왕 만히 보던 인물ᄀᆞᆺ흔지라 으졋이
         </p>
-        <p>"<said who="#LDS" aloud="true" direct="true">이 ᄋᆡ <rs ref="#MR">뎌 기ᄉᆡᆼ</rs> 이리 오너라. <rs ref="#MR">네</rs> 일홈이 무엇이고. ᄂᆞ는 몃 ᄉᆞᆯ이며 <rs type="place" subtype="native_place">싀골</rs>은 엇의냐.</said>"</p>
-        <p>한 마듸 무러보고 십지마는 <rs ref="#PTS">여러 귀즁ᄒᆞᆫ 좌ᄀᆡᆨ</rs>들이 엇더케 녁이는지도 알 슈 업고 겻헤 친구를 련비ᄒᆞ야 그 셩명거쥬를 탐지ᄒᆞ고 십으ᄂᆞ 그 ᄉᆞᄅᆞᆷ 못보는 ᄃᆡ는 무슨 ᄒᆡᆼ셰를 ᄒᆞ얏던지 졔법 졍대ᄒᆞᆫ 톄동인 톄 ᄒᆞ던 터에 <rs>기ᄉᆡᆼ</rs>의 일홈을 ᄌᆞ셰히 무르면 역시 무엇이라고 흉을 볼는지 알 길이 업셔 ᄭᅮᆯ먹은 벙어리 모양으로 안져셔 <rs ref="#MR">그 기ᄉᆡᆼ</rs>만 쏘아보며</p>
+        <p>"<said who="#LDS" aloud="true" direct="true">이 ᄋᆡ <rs type="person" ref="#MR">뎌 기ᄉᆡᆼ</rs> 이리 오너라. <rs type="person" ref="#MR">네</rs> 일홈이 무엇이고. ᄂᆞ는 몃 ᄉᆞᆯ이며 <rs type="place" subtype="native_place">싀골</rs>은 엇의냐.</said>"</p>
+        <p>한 마듸 무러보고 십지마는 <rs type="person" ref="#PTS">여러 귀즁ᄒᆞᆫ 좌ᄀᆡᆨ</rs>들이 엇더케 녁이는지도 알 슈 업고 겻헤 친구를 련비ᄒᆞ야 그 셩명거쥬를 탐지ᄒᆞ고 십으ᄂᆞ 그 ᄉᆞᄅᆞᆷ 못보는 ᄃᆡ는 무슨 ᄒᆡᆼ셰를 ᄒᆞ얏던지 졔법 졍대ᄒᆞᆫ 톄동인 톄 ᄒᆞ던 터에 <rs>기ᄉᆡᆼ</rs>의 일홈을 ᄌᆞ셰히 무르면 역시 무엇이라고 흉을 볼는지 알 길이 업셔 ᄭᅮᆯ먹은 벙어리 모양으로 안져셔 <rs type="person" ref="#MR">그 기ᄉᆡᆼ</rs>만 쏘아보며</p>
         <said who="#LDS" aloud="false" direct="true"><rs ref="#MR">그것</rs> 다시 볼ᄉᆞ록 졀모ᄒᆞᆫ 걸. 엇더케 ᄒᆞ면 한 번 죵용히 불너볼구.</said>
         <p>
-          ᄒᆞ며 한 입에 ᄭᅩᆯᄯᅡᆨ 집어삼커고 십은 마음이 ᄂᆞ셔 은근히 좌불안셕을 ᄒᆞ는ᄃᆡ <rs ref="#MR">그 기ᄉᆡᆼ</rs>이 츄던 춤을 즁간에 긋치고 
+          ᄒᆞ며 한 입에 ᄭᅩᆯᄯᅡᆨ 집어삼커고 십은 마음이 ᄂᆞ셔 은근히 좌불안셕을 ᄒᆞ는ᄃᆡ <rs type="person" ref="#MR">그 기ᄉᆡᆼ</rs>이 츄던 춤을 즁간에 긋치고 
           <persName ref="#LDS">리시찰</persName>
            안졋는 압흐로 ᄶᅮ루루 와셔 웃둑 셧더니 물그럼이 한동안 마죠보는지라 
           <persName ref="#LDS">리시찰</persName>
            ᄉᆡᆼ각에는
         </p>
-        <said who="#LDS" aloud="false" direct="true"><rs ref="#LDS">자긔</rs>의 풍ᄎᆡ가 두목지존쟝칠만 ᄒᆞ야 <rs ref="#MR">그 기ᄉᆡᆼ</rs>이 뎌러케 와셔 보거니</said>
+        <said who="#LDS" aloud="false" direct="true"><rs type="person" ref="#LDS">자긔</rs>의 풍ᄎᆡ가 두목지존쟝칠만 ᄒᆞ야 <rs type="person" ref="#MR">그 기ᄉᆡᆼ</rs>이 뎌러케 와셔 보거니</said>
         <p>
           십어 한업시 됴흔 즁 도로혀 면구ᄒᆡ셔 고ᄀᆡ를 돌녀 ᄯᆞᆫᄃᆡ를 보는 톄 ᄒᆞ는ᄃᆡ <rs ref="#MR">그 기ᄉᆡᆼ</rs>이 <rs>신ᄂᆡ리는 무당</rs>모양으로 쇼리 한 마듸를 버럭 질으더니 
           <persName ref="#LDS">리시찰</persName>
           을 향ᄒᆞ야 젼후슈죄를 다ᄒᆞᆫ다
         </p>
         <p>"<said who="#MR" aloud="true" direct="true">
-          <rs ref="#LDS">여보</rs> 넘오마오 남의 젹악을 넘오마오 <rs ref="#LDS" type="person" subtype="class">졈ᄌᆞ는 쳐디</rs>로 학쟈문하에 츌입을 ᄒᆞ얏다면셔···········<rs ref="#LDS">여보</rs> ᄂᆞㅅ갑이ᄂᆞ 좀 ᄒᆞ시오. 귀밋헤 털이 힛득힛득ᄒᆞᆫ 터에 <rs ref="#SC">ᄂᆞᄀᆞᆺ치 어린 ᄋᆞᄒᆡ</rs>에게 이다지 원통히 ᄒᆞ여야 가ᄒᆞᆯ가요. 죠뎡에셔 불ᄎᆞᄐᆡᆨ용으로 <rs ref="#SCG">시찰</rs>을 보ᄂᆡ실 졔는 아모죠록 패악ᄒᆞ야 풍속을 괴란케ᄒᆞ는 자는 징치ᄒᆞ고 졍직ᄒᆞ야 샤회에 모범될 만ᄒᆞᆫ 쟈는 포쟝ᄒᆞ라는 ᄯᅳᆺ인ᄃᆡ 웨 <rs ref="#SC">ᄂᆞ</rs>와 무슨 불공지슈가 잇길ᄂᆡ 무죄ᄒᆞᆫ <rs ref="#CHB"><rs ref="#SC">우리</rs> 아바지</rs>를 
+          <rs type="person" ref="#LDS">여보</rs> 넘오마오 남의 젹악을 넘오마오 <rs ref="#LDS" type="person" subtype="class">졈ᄌᆞ는 쳐디</rs>로 학쟈문하에 츌입을 ᄒᆞ얏다면셔···········<rs type="person" ref="#LDS">여보</rs> ᄂᆞㅅ갑이ᄂᆞ 좀 ᄒᆞ시오. 귀밋헤 털이 힛득힛득ᄒᆞᆫ 터에 <rs type="person" ref="#SC">ᄂᆞᄀᆞᆺ치 어린 ᄋᆞᄒᆡ</rs>에게 이다지 원통히 ᄒᆞ여야 가ᄒᆞᆯ가요. 죠뎡에셔 불ᄎᆞᄐᆡᆨ용으로 <rs ref="#SCG">시찰</rs>을 보ᄂᆡ실 졔는 아모죠록 패악ᄒᆞ야 풍속을 괴란케ᄒᆞ는 자는 징치ᄒᆞ고 졍직ᄒᆞ야 샤회에 모범될 만ᄒᆞᆫ 쟈는 포쟝ᄒᆞ라는 ᄯᅳᆺ인ᄃᆡ 웨 <rs type="person" ref="#SC">ᄂᆞ</rs>와 무슨 불공지슈가 잇길ᄂᆡ 무죄ᄒᆞᆫ <rs type="person" ref="#CHB"><rs type="person" ref="#SC">우리</rs> 아바지</rs>를 
           <orgName ref="#DHD">동학</orgName>
-          에 간련이 잇다 모ᄒᆞᆷ을 ᄒᆞ야 <rs type="place">옥즁</rs>에다 뢰슈ᄒᆞ고 ᄅᆡ일 포ᄉᆞᆯ ᄒᆞ네 각ᄉᆡᆨ으로 위협ᄒᆞᆯ ᄲᅮᆫ 안이라 텬연스럽게 <term type="contract">계약셔</term>ᄭᆞ지 ᄒᆞ야 쥬고 급기 강졔로 욕을 뵈인 뒤에는 도쟝 ᄶᅵᆨ어 쥬마고 그 <term type="contract">계약셔</term>를 도로 달ᄂᆡ 가더니 인ᄒᆡ ᄇᆡ약을 ᄒᆞ야 <rs ref="#SC">ᄂᆡ</rs>가 쳘텬지 ᄒᆞᆫ을 품고 이러케 쥭게 ᄒᆞ얏스니 <rs ref="#LDS">당신</rs> 마ᄋᆞᆷ에 얼마ᄂᆞ 샹쾌ᄒᆞ시오 <rs ref="#SC">ᄂᆡ</rs> ᄇᆡᆨ골이 진토가 될지라도 <rs ref="#SC">ᄂᆡ</rs> 원혼은 그ᄃᆡ로 잇셔 <rs ref="#LDS">당신</rs> 후분이 얼마ᄂᆞ 잘 되ᄂᆞ 보고야 말 터이오 여보 무슨 졍이 그리 ᄯᅡᆺ닷ᄒᆡ셔 <rs type="place" subtype="grave" corresp="#SC"><rs ref="#SC">ᄂᆡ</rs> 무덤</rs>에 와셔 슐을 부어 놋코 <term type="work">글</term>을 지엇습더닛가 가을 바람에 <rs type="person" subtype="metaphor" ref="#LDS">ᄇᆡᆨ발</rs>이 왓다ᄒᆞ니  <rs ref="#LDS"><rs ref="#SC">ᄂᆞ</rs> ᄉᆞᆯ아셔 거졀ᄒᆞᆫ량반</rs>이 쥭은 뒤에 무엇 ᄒᆞ려 왓스며 ᄯᅥ러지는 날에 
-          쳥산에셔 운다 ᄒᆞ얏스니 울기는 무엇이 답답ᄒᆡ셔 울엇습더닛가. 오날 <rs ref="#SC">ᄂᆡ</rs>가 <rs type="event">이 좌셕</rs>에를 불원쳔리ᄒᆞ고 올ᄂᆞ오기는 다름안이라 <rs ref="#LDS">당신</rs>이 <rs ref="#SCG">시찰</rs>로 ᄂᆞ려와 그 탐음무도(貪淫無度)ᄒᆞᆫ ᄒᆡᆼ실을 ᄒᆞ고도 필경 명찰ᄒᆞ게 직분을 다ᄒᆞᆫ 모양으로 셰상이목을 속엿슬 터이기에 이러케 만당귀ᄀᆡᆨ이 모히신 ᄃᆡ에셔 죄상을 공포ᄒᆞ려는 것이오. <rs ref="#LDS_F">집</rs>에 변상이 슈업시 ᄂᆞ고 ᄌᆡ산을 탕패ᄒᆞᆫ 것이 무심ᄒᆞᆫ 일인 줄로 녁엿습더닛가. <rs ref="#MR">ᄂᆡ</rs> 흔이 <rs ref="#LDS">당신</rs> 간 곳마다 ᄶᅩᆺᄎᆞ가셔 후분이 얼마ᄂᆞ 잘 되ᄂᆞ 보고야 말 터이오.</said>"</p>
+          에 간련이 잇다 모ᄒᆞᆷ을 ᄒᆞ야 <rs type="place">옥즁</rs>에다 뢰슈ᄒᆞ고 ᄅᆡ일 포ᄉᆞᆯ ᄒᆞ네 각ᄉᆡᆨ으로 위협ᄒᆞᆯ ᄲᅮᆫ 안이라 텬연스럽게 <term type="contract">계약셔</term>ᄭᆞ지 ᄒᆞ야 쥬고 급기 강졔로 욕을 뵈인 뒤에는 도쟝 ᄶᅵᆨ어 쥬마고 그 <term type="contract">계약셔</term>를 도로 달ᄂᆡ 가더니 인ᄒᆡ ᄇᆡ약을 ᄒᆞ야 <rs type="person" ref="#SC">ᄂᆡ</rs>가 쳘텬지 ᄒᆞᆫ을 품고 이러케 쥭게 ᄒᆞ얏스니 <rs type="person" ref="#LDS">당신</rs> 마ᄋᆞᆷ에 얼마ᄂᆞ 샹쾌ᄒᆞ시오 <rs type="person" ref="#SC">ᄂᆡ</rs> ᄇᆡᆨ골이 진토가 될지라도 <rs type="person" ref="#SC">ᄂᆡ</rs> 원혼은 그ᄃᆡ로 잇셔 <rs type="person" ref="#LDS">당신</rs> 후분이 얼마ᄂᆞ 잘 되ᄂᆞ 보고야 말 터이오 여보 무슨 졍이 그리 ᄯᅡᆺ닷ᄒᆡ셔 <rs type="place" subtype="grave" corresp="#SC"><rs type="person" ref="#SC">ᄂᆡ</rs> 무덤</rs>에 와셔 슐을 부어 놋코 <term type="work">글</term>을 지엇습더닛가 가을 바람에 <rs type="person" subtype="metaphor" ref="#LDS">ᄇᆡᆨ발</rs>이 왓다ᄒᆞ니  <rs type="person" ref="#LDS"><rs type="person" ref="#SC">ᄂᆞ</rs> ᄉᆞᆯ아셔 거졀ᄒᆞᆫ량반</rs>이 쥭은 뒤에 무엇 ᄒᆞ려 왓스며 ᄯᅥ러지는 날에 
+          쳥산에셔 운다 ᄒᆞ얏스니 울기는 무엇이 답답ᄒᆡ셔 울엇습더닛가. 오날 <rs type="person" ref="#SC">ᄂᆡ</rs>가 <rs type="event">이 좌셕</rs>에를 불원쳔리ᄒᆞ고 올ᄂᆞ오기는 다름안이라 <rs type="person" ref="#LDS">당신</rs>이 <rs ref="#SCG">시찰</rs>로 ᄂᆞ려와 그 탐음무도(<foreign xml:lang="zh">貪淫無度</foreign>)ᄒᆞᆫ ᄒᆡᆼ실을 ᄒᆞ고도 필경 명찰ᄒᆞ게 직분을 다ᄒᆞᆫ 모양으로 셰상이목을 속엿슬 터이기에 이러케 만당귀ᄀᆡᆨ이 모히신 ᄃᆡ에셔 죄상을 공포ᄒᆞ려는 것이오. <rs type="org" ref="#LDS_F">집</rs>에 변상이 슈업시 ᄂᆞ고 ᄌᆡ산을 탕패ᄒᆞᆫ 것이 무심ᄒᆞᆫ 일인 줄로 녁엿습더닛가. <rs type="person" ref="#MR">ᄂᆡ</rs> 흔이 <rs type="person" ref="#LDS">당신</rs> 간 곳마다 ᄶᅩᆺᄎᆞ가셔 후분이 얼마ᄂᆞ 잘 되ᄂᆞ 보고야 말 터이오.</said>"</p>
         <p>
           ᄒᆞ며 무죄 량반을 비도라 모ᄒᆞᆷᄒᆞ야 ᄌᆡ물 ᄲᆡ앗던 일을 력력히 들어 슈죄ᄒᆞ는 즁 
-          <rs ref="#IMC_M">임씨부인</rs>
-          의 양육ᄒᆞᆫ 은혜를 져바리고 쥭마고교로 자라난 <rs ref="#IMC">그 아ᄃᆞᆯ</rs>을 죄업시 포살을 ᄒᆞ야 <rs ref="#IMC_M #IMC_W">그 집 고부</rs>가 일시에 원통이 셰샹을 바린 일ᄭᆞ지 모조리 공포ᄒᆞ니 그ᄯᅢ <rs type="event">그 좌셕</rs>에 참예ᄒᆞᆫ 귀ᄀᆡᆨ 즁 언어를 즉졉으로 통치못ᄒᆞᄂᆞᆫ 외국사ᄅᆞᆷ은 당쟝에ᄂᆞᆫ 아모런 줄 모르고 다만 당황히 넉일 ᄲᅮᆫ이로되 기타 <rs>모ᄃᆡ신</rs> <rs>모협판</rs>이하로 평시에 
-          <rs ref="#PTS"><persName ref="#LDS">리시찰</persName>
-          을 상업지 안케 넉이던 여러 분네</rs>들이 <rs ref="#MR">그 기ᄉᆡᆼ</rs>의 ᄒᆞᄂᆞᆫ 거동을 보고 심히 괴샹ᄒᆞ야 쳐음에ᄂᆞᆫ
+          <rs type="person" ref="#IMC_M">임씨부인</rs>
+          의 양육ᄒᆞᆫ 은혜를 져바리고 쥭마고교로 자라난 <rs ref="#IMC">그 아ᄃᆞᆯ</rs>을 죄업시 포살을 ᄒᆞ야 <rs type="person" ref="#IMC_M #IMC_W">그 집 고부</rs>가 일시에 원통이 셰샹을 바린 일ᄭᆞ지 모조리 공포ᄒᆞ니 그ᄯᅢ <rs type="event">그 좌셕</rs>에 참예ᄒᆞᆫ 귀ᄀᆡᆨ 즁 언어를 즉졉으로 통치못ᄒᆞᄂᆞᆫ 외국사ᄅᆞᆷ은 당쟝에ᄂᆞᆫ 아모런 줄 모르고 다만 당황히 넉일 ᄲᅮᆫ이로되 기타 모ᄃᆡ신 모협판이하로 평시에 
+          <rs type="person" ref="#PTS"><persName ref="#LDS">리시찰</persName>
+          을 상업지 안케 넉이던 여러 분네</rs>들이 <rs type="person" ref="#MR">그 기ᄉᆡᆼ</rs>의 ᄒᆞᄂᆞᆫ 거동을 보고 심히 괴샹ᄒᆞ야 쳐음에ᄂᆞᆫ
         </p>
-        <p>"<said who="#PERSON" aloud="true" direct="true"><rs ref="#MR">뎌것</rs>이 풍병이 잇거나 광징이 드럿나보다.</said>"</p>
+        <p>"<said who="#PERSON" aloud="true" direct="true"><rs type="person" ref="#MR">뎌것</rs>이 풍병이 잇거나 광징이 드럿나보다.</said>"</p>
         <p>
-          ᄒᆞ얏더니 ᄎᆞᄎᆞ 그 말을 드르니 무슨 묘ᄆᆡᆨ이 착실히 잇ᄂᆞᆫ 일이라. 각기 련비를 ᄒᆞ야 <rs ref="#MR">그 기ᄉᆡᆼ</rs>의 ᄅᆡ력을 무른 즉 일홈은 
+          ᄒᆞ얏더니 ᄎᆞᄎᆞ 그 말을 드르니 무슨 묘ᄆᆡᆨ이 착실히 잇ᄂᆞᆫ 일이라. 각기 련비를 ᄒᆞ야 <rs type="person" ref="#MR">그 기ᄉᆡᆼ</rs>의 ᄅᆡ력을 무른 즉 일홈은 
           <persName ref="#MR">모란</persName>
           이오 <rs type="place" subtype="native_place">싀골</rs>은 
           <placeName ref="#JS">쟝셩</placeName>
@@ -3854,7 +3854,7 @@
           <persName ref="#MR">모란</persName>
           이라 
           <persName ref="#SC">션초</persName>
-          가 비록 <rs ref="#SC"><rs type="place" subtype="local">하방</rs>의 잇는 쳐기</rs>나 그 품ᄒᆡᆼ과 ᄌᆡ화ᄅᆞᆯ 모로ᄂᆞᆫ 사ᄅᆞᆷ이 업시 썩 유명ᄒᆞ얏던 탓으로 ᄌᆞ셰ᄒᆞᆫ 곡질은 몰나도 ᄌᆞ쳐ᄒᆞ얏다는 소문은 다 듯고 모다 가셕히 녁이던 터이던이 급기 
+          가 비록 <rs type="person" ref="#SC"><rs type="place" subtype="local">하방</rs>의 잇는 쳐기</rs>나 그 품ᄒᆡᆼ과 ᄌᆡ화ᄅᆞᆯ 모로ᄂᆞᆫ 사ᄅᆞᆷ이 업시 썩 유명ᄒᆞ얏던 탓으로 ᄌᆞ셰ᄒᆞᆫ 곡질은 몰나도 ᄌᆞ쳐ᄒᆞ얏다는 소문은 다 듯고 모다 가셕히 녁이던 터이던이 급기 
           <persName ref="#MR">모란</persName>
           의 일쟝ᄒᆞᄂᆞᆫ 말을 듣고 
           <persName ref="#SC">션초</persName>
@@ -3884,14 +3884,14 @@
           <persName ref="#MR">모란</persName>
           을 보며
         </p>
-        <p>"<said who="#LDS" aloud="true" direct="true"><rs ref="#MR">이년</rs> <rs ref="#MR">이 밋친 년</rs> <rs type="event">이 좌셕</rs>이 <rs type="event">엇던 좌셕</rs>으로 알고 얼토당토안인 광언망셜을 이러케 ᄒᆞᄂᆞ냐. <rs ref="#MR">번연히 ᄉᆞᆯ아셔 짓것리ᄂᆞᆫ 년</rs>이 <rs ref="#LDS">나</rs>다려 죽엿ᄂᆞ니 마니 응 간밤에 ᄭᅮᆷ자리가 뒤슝슝ᄒᆞ더니 <rs ref="#MR">괴악ᄒᆞᆫ 년</rs>의 슈작을 다 듯는다.</said>"</p>
-        <p>ᄒᆞ고 <rs ref="#PTS">좌상</rs>에 <rs ref="#SDS" cert="medium"><rs ref="#LDS">ᄌᆞ긔</rs>와 친졀ᄒᆞᆫ ᄌᆡ샹</rs>을 쳐다보며</p>
+        <p>"<said who="#LDS" aloud="true" direct="true"><rs type="person" ref="#MR">이년</rs> <rs type="person" ref="#MR">이 밋친 년</rs> <rs type="event">이 좌셕</rs>이 <rs type="event">엇던 좌셕</rs>으로 알고 얼토당토안인 광언망셜을 이러케 ᄒᆞᄂᆞ냐. <rs type="person" ref="#MR">번연히 ᄉᆞᆯ아셔 짓것리ᄂᆞᆫ 년</rs>이 <rs type="person" ref="#LDS">나</rs>다려 죽엿ᄂᆞ니 마니 응 간밤에 ᄭᅮᆷ자리가 뒤슝슝ᄒᆞ더니 <rs type="person" ref="#MR">괴악ᄒᆞᆫ 년</rs>의 슈작을 다 듯는다.</said>"</p>
+        <p>ᄒᆞ고 <rs type="person" ref="#PTS">좌상</rs>에 <rs type="person" ref="#SDS" cert="medium"><rs type="person" ref="#LDS">ᄌᆞ긔</rs>와 친졀ᄒᆞᆫ ᄌᆡ샹</rs>을 쳐다보며</p>
         <p>"<said who="#LDS" aloud="true" direct="true">
-          <rs ref="#LDS">시ᄉᆡᆼ</rs>은 오날 이런 소조가 업슴니다. 이런 <rs ref="#MR">밋친것</rs>이 ᄯᅩ 엇의 잇슴닛가. 륜쳑이 업ᄂᆞᆫ 말을 함부루 짓거려 <rs ref="#PTS">조좌즁</rs>예 창피케 ᄒᆞ오니 역일 변괴올시다. <rs ref="#MR"><rs ref="#LDS">소ᄆᆡ</rs> 평ᄉᆡᆼ에 눈도 코도 못보던 것</rs>이 어셔 와셔 <rs ref="#MR">뎌</rs>ᄅᆞᆯ 죽엿ᄂᆞ니 ᄉᆞᆯ엿ᄂᆞ니 못ᄒᆞᆯ 험담이 업시ᄒᆞᄂᆞᆫ 모양을 보온 즉 <rs ref="#MR">뎌것</rs>이 밋친년 곳 안이면 필경 
-          <rs type="person" corresp="#DHD"><orgName ref="#DHD">동학여당</orgName>으로<rs ref="#LDS">시ᄉᆡᆼ</rs>에게 형벌당ᄒᆞᆫ 무엇</rs>이 회ᄀᆡᄂᆞᆫ ᄒᆞᆯ 쥴 모로고 도로혀 함혐을 ᄒᆞ야 <rs ref="#MR">뎌것</rs>을 ᄭᅬ이여 이거죠를 ᄒᆞ도록 ᄒᆞᆫ 것이오니 
+          <rs type="person" ref="#LDS">시ᄉᆡᆼ</rs>은 오날 이런 소조가 업슴니다. 이런 <rs type="person" ref="#MR">밋친것</rs>이 ᄯᅩ 엇의 잇슴닛가. 륜쳑이 업ᄂᆞᆫ 말을 함부루 짓거려 <rs type="person" ref="#PTS">조좌즁</rs>예 창피케 ᄒᆞ오니 역일 변괴올시다. <rs type="person" ref="#MR"><rs ref="#LDS">소ᄆᆡ</rs> 평ᄉᆡᆼ에 눈도 코도 못보던 것</rs>이 어셔 와셔 <rs type="person" ref="#MR">뎌</rs>ᄅᆞᆯ 죽엿ᄂᆞ니 ᄉᆞᆯ엿ᄂᆞ니 못ᄒᆞᆯ 험담이 업시ᄒᆞᄂᆞᆫ 모양을 보온 즉 <rs ref="#MR">뎌것</rs>이 밋친년 곳 안이면 필경 
+          <rs type="org" corresp="#DHD"><orgName ref="#DHD">동학여당</orgName>으로<rs type="person" ref="#LDS">시ᄉᆡᆼ</rs>에게 형벌당ᄒᆞᆫ 무엇</rs>이 회ᄀᆡᄂᆞᆫ ᄒᆞᆯ 쥴 모로고 도로혀 함혐을 ᄒᆞ야 <rs type="person" ref="#MR">뎌것</rs>을 ᄭᅬ이여 이거죠를 ᄒᆞ도록 ᄒᆞᆫ 것이오니 
           <persName ref="#SDS">대감</persName>
           게ᄋᆞᆸ셔 
-          <rs ref="#GMS">경무ᄉᆞ대감</rs>
+          <rs type="person" ref="#GMS">경무ᄉᆞ대감</rs>
           ᄭᅴ 말ᄉᆞᆷᄒᆞ오셔 근인을 사문ᄒᆞ야 긔어히 득졍을 ᄒᆞ도록 ᄒᆞ야 쥬ᄋᆞᆸ소셔.</said>"</p>
         <p>
           그 말이 ᄯᅮᆨ ᄯᅥ러지쟈 
@@ -3899,9 +3899,9 @@
           이가 ᄯᅩ 소리ᄅᆞᆯ 질너 수죄ᄒᆞᄂᆞᆫ 말이
         </p>
         <p>"<said who="#MR" aloud="true" direct="true">
-          <rs ref="#LDS">여보</rs> 간ᄉᆞ도 ᄒᆞ오. 그ᄅᆡ도 <rs ref="#SC">나</rs>ᄅᆞᆯ 몰나본다고 ᄒᆡ. 그만치 고ᄉᆡᆼ을 ᄒᆞ고도 녯 버릇이 그져 남엇구려. 누구를 잡아가두고 사문을 ᄒᆞ야 달나구. 이왕에ᄂᆞᆫ 셰샹을 속이고 명예ᄅᆞᆯ 도젹질ᄒᆞᆫ 탓으로 ᄉᆞ면ᄃᆡ우도 밧고 여간 벼ᄉᆞᆯ도 엇어 ᄒᆡᆺ거니와 <rs ref="#SC">ᄂᆡ</rs>가 이 모양으로 셜원ᄒᆞᄂᆞᆫ 것을 목도ᄒᆞ시고야 언으 량반이 <rs ref="#LDS">당신</rs>의 말을 올케 녁여 <rs ref="#SC">나</rs>다려 무엇이라ᄒᆞᆯ 쥴로 알고 <rs ref="#SC">내</rs>가 유명이 다른 탓으로 직졉으로 말을 ᄒᆞᄂᆞᆫ 도리가 업셔셔 <rs ref="#MR"><rs ref="#SC">ᄂᆡ</rs> 아오</rs>
+          <rs type="person" ref="#LDS">여보</rs> 간ᄉᆞ도 ᄒᆞ오. 그ᄅᆡ도 <rs type="person" ref="#SC">나</rs>ᄅᆞᆯ 몰나본다고 ᄒᆡ. 그만치 고ᄉᆡᆼ을 ᄒᆞ고도 녯 버릇이 그져 남엇구려. 누구를 잡아가두고 사문을 ᄒᆞ야 달나구. 이왕에ᄂᆞᆫ 셰샹을 속이고 명예ᄅᆞᆯ 도젹질ᄒᆞᆫ 탓으로 ᄉᆞ면ᄃᆡ우도 밧고 여간 벼ᄉᆞᆯ도 엇어 ᄒᆡᆺ거니와 <rs type="person" ref="#SC">ᄂᆡ</rs>가 이 모양으로 셜원ᄒᆞᄂᆞᆫ 것을 목도ᄒᆞ시고야 언으 량반이 <rs type="person" ref="#LDS">당신</rs>의 말을 올케 녁여 <rs type="person" ref="#SC">나</rs>다려 무엇이라ᄒᆞᆯ 쥴로 알고 <rs type="person" ref="#SC">내</rs>가 유명이 다른 탓으로 직졉으로 말을 ᄒᆞᄂᆞᆫ 도리가 업셔셔 <rs type="person" ref="#MR"><rs type="person" ref="#SC">ᄂᆡ</rs> 아오</rs>
           <persName ref="#MR">모란</persName>
-          의 입을 빌어 <rs ref="#LDS">당신</rs>의 죄샹을 이러케 말ᄒᆞᄂᆞᆫ 것인ᄃᆡ 누구다려 밋친년이니 광언망셜이니 ᄒᆞ오. <rs ref="#LDS">궁흉극악ᄒᆞᆫ ᄃᆡᆨ</rs>과 더 말ᄒᆞᆯ 것이 업스니 <rs ref="#SC">나</rs>ᄂᆞᆫ 가오.
+          의 입을 빌어 <rs type="person" ref="#LDS">당신</rs>의 죄샹을 이러케 말ᄒᆞᄂᆞᆫ 것인ᄃᆡ 누구다려 밋친년이니 광언망셜이니 ᄒᆞ오. <rs type="person" ref="#LDS">궁흉극악ᄒᆞᆫ ᄃᆡᆨ</rs>과 더 말ᄒᆞᆯ 것이 업스니 <rs type="person" ref="#SC">나</rs>ᄂᆞᆫ 가오.
         </said>"</p>
         <p>
           ᄒᆞ더니 
@@ -3920,13 +3920,13 @@
         </p>
         <said who="#SDS" aloud="false" direct="true">어ㅣ 요망ᄒᆞᆫ <rs ref="#MR">년</rs> ᄉᆞ불범졍이어던 엇의셔 이ᄭᆞ짓 버르쟝이를 ᄒᆞ노라고 어ㅣ 암만ᄒᆡ도 그ᄃᆡ로 두지 못ᄒᆞ겟구.</said>
         <p>
-          ᄒᆞ야 그 자리에셔 <rs ref="SG">슌검</rs>을 불너 
+          ᄒᆞ야 그 자리에셔 <rs type="person" ref="SG">슌검</rs>을 불너 
           <persName ref="#MR">모란</persName>
           이를 ᄂᆡ야쥬랴 ᄒᆞ다가 
           <persName ref="#SDS">신ᄃᆡ신</persName>
           은 본ᄅᆡ 쳔셩이 근신ᄒᆞᆫ 터이라 둥그런 눈을 ᄭᅳᆷ젹ᄭᅳᆷ젹ᄒᆞ며 다시 ᄉᆡᆼ각ᄒᆞ기ᄅᆞᆯ
         </p>
-        <said who="#SDS" aloud="false" direct="true">대범 물건이라ᄂᆞᆫ 것이 불평ᄒᆞ면 우ᄂᆞ니 <rs ref="#MR">뎌것</rs>이 ᄆᆡᆰ은 졍신의 말이라 ᄒᆞᆯ 슈ᄂᆞᆫ 업스나 <rs ref="#MR">졔ᄯᆞᆫ</rs>은 무슨 원통ᄒᆞᆫ 일은 잇기에 <rs ref="#MR">뎌</rs> 모양으로 울며 ᄉᆞ셜을 ᄒᆞᄂᆞᆫ 것이니 아모럿턴지 그ᄃᆡ로 ᄂᆡ버려 두고 동량을 더 보리라.</said>
+        <said who="#SDS" aloud="false" direct="true">대범 물건이라ᄂᆞᆫ 것이 불평ᄒᆞ면 우ᄂᆞ니 <rs type="person" ref="#MR">뎌것</rs>이 ᄆᆡᆰ은 졍신의 말이라 ᄒᆞᆯ 슈ᄂᆞᆫ 업스나 <rs type="person" ref="#MR">졔ᄯᆞᆫ</rs>은 무슨 원통ᄒᆞᆫ 일은 잇기에 <rs type="person" ref="#MR">뎌</rs> 모양으로 울며 ᄉᆞ셜을 ᄒᆞᄂᆞᆫ 것이니 아모럿턴지 그ᄃᆡ로 ᄂᆡ버려 두고 동량을 더 보리라.</said>
         <p>
           ᄒᆞ고 감안이 안져 
           <persName ref="#MR">모란</persName>
@@ -3936,18 +3936,18 @@
           <persName ref="#LDS">리시찰</persName>
           은 무안에 ᄎᆔᄒᆞ야 뎨일 몬져 삼십륙계 즁샹ᄎᆡᆨ을 ᄒᆞ얏더라 당초에 
           <persName ref="#MR">모란</persName>
-          이ᄀᆞ <rs ref="#SC"><rs ref="#SC">져</rs>의 형</rs> 죽은 후로 ᄭᅮᆷ마다 <rs ref="#SC"><rs ref="#SC">져</rs>의 형</rs>이 와셔 울며 부탁ᄒᆞ기를
+          이ᄀᆞ <rs type="person" ref="#SC"><rs type="person" ref="#MR">져</rs>의 형</rs> 죽은 후로 ᄭᅮᆷ마다 <rs type="person" ref="#SC"><rs type="person" ref="#MR">져</rs>의 형</rs>이 와셔 울며 부탁ᄒᆞ기를
         </p>
         <p>"<said who="#SC" aloud="true" direct="true">
-          <persName ref="#MR">이 ᄋᆡ 모란</persName>아 <rs ref="#MR">네</rs>가 아모됴록 <term type="studies">시셔</term> <term type="studies">ᄀᆞ무</term> <term type="studies">음률</term> <term type="studies">침ᄌᆡ</term>ᄅᆞᆯ <rs ref="#SC">나</rs>만치 ᄇᆡ화 가지고 교방에 일등이 되야 <rs ref="#SC"><rs ref="#MR">네</rs> 형</rs>의 ᄆᆡ져먹엇던 소원ᄃᆡ로 셩ᄎᆔ도 ᄒᆞ고 <rs ref="#SC"><rs ref="#MR">네</rs> 형</rs>의 ᄲᅨ에 ᄉᆞ모친 셜원도 ᄒᆞ야다고.</said>"</p>
+          <persName ref="#MR">이 ᄋᆡ 모란</persName>아 <rs type="person" ref="#MR">네</rs>가 아모됴록 <term type="studies">시셔</term> <term type="studies">ᄀᆞ무</term> <term type="studies">음률</term> <term type="studies">침ᄌᆡ</term>ᄅᆞᆯ <rs type="person" ref="#SC">나</rs>만치 ᄇᆡ화 가지고 교방에 일등이 되야 <rs type="person" ref="#SC"><rs type="person" ref="#MR">네</rs> 형</rs>의 ᄆᆡ져먹엇던 소원ᄃᆡ로 셩ᄎᆔ도 ᄒᆞ고 <rs ref="#SC"><rs ref="#MR">네</rs> 형</rs>의 ᄲᅨ에 ᄉᆞ모친 셜원도 ᄒᆞ야다고.</said>"</p>
         <p>
-          ᄒᆞ니 한 나이라도 젹어셔ᄂᆞᆫ 아모 의ᄉᆞ도 못내다가 <measure type="age" unit="year" quantity="15">십오셰</measure>가 되야 온갓 지각이 날말ᄒᆞ닛ᄭᅡ <rs ref="#SC"><rs ref="#MR">ᄌᆞ긔</rs>형</rs>이 원억히 셰샹을 ᄇᆞ린 일이 졈졈 유한이 되야 무슨 능력으로 셜분을 상괘히 ᄒᆞ야주ᄂᆞᆫ 도리가 업ᄂᆞᆫ지라 쥬ᄉᆞ야탁으로 골몰히 궁리를 ᄒᆞ다가 한ᄀᆞ지 계ᄎᆡᆨ를 내여 
-          <rs type="place" subtype="capital">셔울</rs>
+          ᄒᆞ니 한 나이라도 젹어셔ᄂᆞᆫ 아모 의ᄉᆞ도 못내다가 <measure type="age" unit="year" quantity="15">십오셰</measure>가 되야 온갓 지각이 날말ᄒᆞ닛ᄭᅡ <rs type="person" ref="#SC"><rs type="person" ref="#MR">ᄌᆞ긔</rs>형</rs>이 원억히 셰샹을 ᄇᆞ린 일이 졈졈 유한이 되야 무슨 능력으로 셜분을 상괘히 ᄒᆞ야주ᄂᆞᆫ 도리가 업ᄂᆞᆫ지라 쥬ᄉᆞ야탁으로 골몰히 궁리를 ᄒᆞ다가 한ᄀᆞ지 계ᄎᆡᆨ를 내여 
+          <rs type="place" subtype="capital" ref="#HY">셔울</rs>
           셔 다년 기부로 영업ᄒᆞ던 
           <persName ref="#PBG">박별감</persName>
           이 <rs ref="#GS">다리고 외입을 ᄒᆞ던 기ᄉᆡᆼ</rs>은 드려보내고 ᄉᆡ로 <rs ref="#GS">기ᄉᆡᆼ</rs>을 구ᄒᆞᆯ ᄎᆞ로 나려온 것을 알고 사ᄅᆞᆷ을 쇼개ᄒᆞ야 쳥ᄒᆡ다가 가기ᄅᆞᆯ ᄌᆞ원ᄒᆞ며 약도ᄒᆞᄂᆞᆫ 말이라.
         </p>
-        <p>"<said who="#MR" aloud="true" direct="true"><rs ref="#PBG">당신</rs>이 긔왕 <rs ref="#GS">기ᄉᆡᆼ</rs>을 구ᄒᆞ려 오셧다 ᄒᆞ니 불필타구로 <rs ref="#MR">나</rs>를 다려가시오. <rs ref="#MR">내</rs>가 <rs ref="#PBG">당신</rs>을 ᄯᅡ라간ᄃᆡ도 츔이라던지 노ᄅᆡ라던지 지어 각ᄉᆡᆨ <term type="studies">음률</term>ᄭᆞ지라도 ᄉᆡ로 ᄇᆡ홀 것이 업슨 즉 부비 한 푼 들 것 업고 다만 <rs ref="#PBG"><rs ref="#MR">내</rs>쥬인</rs>이 되야 밧갓도량만 ᄒᆞ야 주면 <rs ref="#MR">내</rs> 목뎍 달ᄒᆞᄂᆞᆫ 날ᄭᆞ지 매챵은 ᄉᆞ양치 안이ᄒᆞ고 ᄒᆞ려니와 결다코 매음은 안이ᄒᆞᆯ 터이니 그리 알으시고 갓치 ᄀᆞ십시다.</said>"</p>
+        <p>"<said who="#MR" aloud="true" direct="true"><rs type="person" ref="#PBG">당신</rs>이 긔왕 <rs type="person" ref="#GS">기ᄉᆡᆼ</rs>을 구ᄒᆞ려 오셧다 ᄒᆞ니 불필타구로 <rs ref="#MR">나</rs>를 다려가시오. <rs type="person" ref="#MR">내</rs>가 <rs type="person" ref="#PBG">당신</rs>을 ᄯᅡ라간ᄃᆡ도 츔이라던지 노ᄅᆡ라던지 지어 각ᄉᆡᆨ <term type="studies">음률</term>ᄭᆞ지라도 ᄉᆡ로 ᄇᆡ홀 것이 업슨 즉 부비 한 푼 들 것 업고 다만 <rs type="person" ref="#PBG"><rs ref="#MR">내</rs>쥬인</rs>이 되야 밧갓도량만 ᄒᆞ야 주면 <rs type="person" ref="#MR">내</rs> 목뎍 달ᄒᆞᄂᆞᆫ 날ᄭᆞ지 매챵은 ᄉᆞ양치 안이ᄒᆞ고 ᄒᆞ려니와 결다코 매음은 안이ᄒᆞᆯ 터이니 그리 알으시고 갓치 ᄀᆞ십시다.</said>"</p>
         <p>
           <persName ref="#PBG">박별감</persName>
           이 그 말을 듯고 ᄉᆡᆼ각ᄒᆞ야 본 즉
@@ -3955,11 +3955,11 @@
         <said who="#PBG" aloud="false" direct="true">긔왕
           날ㅅ득이를 돈 주고 사다가 ᄉᆡᆼᄆᆡ 길드리ᄂᆞᆫ 일톄로 이 삼년 동안을 불쇼한 ᄌᆞ본을 허비ᄒᆞ야 가라치ᄂᆞᆫ 것보다 
           <persName ref="#MR">모란</persName>
-          을 돈 한 푼 안이주고 ᄃᆡ려다가 <term type="studies">가무</term>등쇽을 슈고스럽게 가라칠 여부업시 그날부터 버러먹ᄂᆞᆫ 것이 해롭지 안코 ᄯᅩᄂᆞᆫ 긔왕 <rs ref="#PBG">기부노릇</rs>을 ᄒᆞᄂᆞᆫ 터에 <rs ref="#MR">뎌러ᄒᆞᆫ 명기</rs>를 한 번 다리고 지내ᄂᆞᆫ 것이 올커니
+          을 돈 한 푼 안이주고 ᄃᆡ려다가 <term type="studies">가무</term>등쇽을 슈고스럽게 가라칠 여부업시 그날부터 버러먹ᄂᆞᆫ 것이 해롭지 안코 ᄯᅩᄂᆞᆫ 긔왕 <rs type="person" ref="#PBG">기부노릇</rs>을 ᄒᆞᄂᆞᆫ 터에 <rs type="person" ref="#MR">뎌러ᄒᆞᆫ 명기</rs>를 한 번 다리고 지내ᄂᆞᆫ 것이 올커니
         </said>
         <p>
           ᄒᆞ야 소원ᄃᆡ로 ᄒᆞ게 ᄒᆞᆷ아. 다짐을 ᄒᆞ고 즉시 교마를 찰여 
-          <rs type="place" subtype="capital">셔울</rs>
+          <rs type="place" subtype="capital" ref="#HY">셔울</rs>
           로 올나와 약방에다 구실을 박앗ᄂᆞᆫᄃᆡ 
           <persName ref="#PBG">박별감</persName>
           이 비록 쳔ᄒᆞᆫ 업은 ᄒᆞᆯ지언뎡 과히 샹업지ᄂᆞᆫ 안이ᄒᆞᆫ 쟈이라 
@@ -3974,27 +3974,27 @@
           <persName ref="#LDS">리시찰</persName>
           을 보고 움파ᄀᆞᆺ흔 주먹으로 볼치를 눈의셔 불이 나게 훔쳐치며
         </p>
-        <p>"<said who="#MR" aloud="true" direct="true"><rs ref="#LDS">ᄃᆡᆨ</rs>이 <rs ref="#SC"><rs ref="#MR">내</rs> 형</rs>을 웨 원통히 죽엿슴ᄂᆞ <rs type="place">법소</rs>도 갈 것 업시 <rs ref="#MR">내</rs> 손에 당쟝 죽어보아라.</said>"</p>
+        <p>"<said who="#MR" aloud="true" direct="true"><rs type="person" ref="#LDS">ᄃᆡᆨ</rs>이 <rs type="person" ref="#SC"><rs type="person" ref="#MR">내</rs> 형</rs>을 웨 원통히 죽엿슴ᄂᆞ <rs type="place">법소</rs>도 갈 것 업시 <rs type="person" ref="#MR">내</rs> 손에 당쟝 죽어보아라.</said>"</p>
         <p>
           ᄒᆞ련마는 남ᄌᆞ도 안이오 녀ᄌᆞ요 녀ᄌᆞ즁에도 <rs ref="#MR">쳔기</rs>라 그리ᄒᆞᄂᆞᆫ 수ᄂᆞᆫ 업고 다만 <rs type="event">좌셕</rs>에셔 맛나기만 기ᄃᆡ리ᄂᆞᆫᄃᆡ 텬ᄒᆡᆼ으로 <date type="relative" subtype="same_date">그날</date> <rs type="event">연회</rs>에셔 
           <persName ref="#LDS">리시찰</persName>
-          을 보고 즉졉으로 <rs ref="#LDS">그</rs> 얼골에다 줌을 ᄇᆡᆺ타가며 슈죄를 ᄒᆞ려다가 ᄉᆡᆼ각ᄒᆞᆫ 즉 <rs type="event">그 좌셕</rs>에 
+          을 보고 즉졉으로 <rs type="person" ref="#LDS">그</rs> 얼골에다 줌을 ᄇᆡᆺ타가며 슈죄를 ᄒᆞ려다가 ᄉᆡᆼ각ᄒᆞᆫ 즉 <rs type="event">그 좌셕</rs>에 
           <rs type="person" subtype="group" corresp="#SDS SJS"><persName ref="#LDS">리시찰</persName>
-          의 <sic>샹년</sic></rs>이 만이 잇ᄂᆞᆫ 모양인ᄃᆡ 셧불니 ᄒᆞ다ᄂᆞᆫ 망신만 ᄒᆞ겟ᄂᆞᆫ 고로 ᄀᆞ쟝 <rs ref="#SC"><rs type="#MR">ᄌᆞ긔</rs>형</rs>의 넉이나 씨운 듯이 일호 고긔업시 ᄒᆞ고 십은 말을 다 ᄒᆞ얏더라. 
+          의 <sic>샹년</sic></rs>이 만이 잇ᄂᆞᆫ 모양인ᄃᆡ 셧불니 ᄒᆞ다ᄂᆞᆫ 망신만 ᄒᆞ겟ᄂᆞᆫ 고로 ᄀᆞ쟝 <rs type="person" ref="#SC"><rs type="person" ref="#MR">ᄌᆞ긔</rs>형</rs>의 넉이나 씨운 듯이 일호 고긔업시 ᄒᆞ고 십은 말을 다 ᄒᆞ얏더라. 
           <persName ref="#MR">모란</persName>
           의 그 거죠 한 번이 엇지 그다지 령독ᄒᆞᆫ지 
           <persName ref="#LDS">리시찰</persName>
-          이 일ᄌᆞ 이 후로 간 곳마다 뎡거가 되야 복직은 키녕 쳥편지 한 쟝 엇어보ᄂᆞᆫ 도리가 업스니 돈 한 푼 ᄉᆡᆼ길 곳은 업고 허구ᄒᆞᆫ ᄂᆞᆯ 무엇으로 먹고 닙고 살아가리오 그 즁에 <rs ref="#LDS_W2">악죵의 쳡</rs>은 <rs ref="#LDS"><rs ref="#LDS_W2">져</rs>의 남편</rs>이 벼ᄉᆞᆯ을 단여 돈을 버러드릴 졔ᄂᆞᆫ <rs ref="#LDS_W2">졔</rs>랑탁을 좀 ᄒᆡ볼 작뎡으로 입에혀 노릇을 ᄒᆞ며 가진 간특을 다 부리다가 감옥셔 삼 년에 가산을 여지업시 털어 맛치고 다시ᄂᆞᆫ 벼살도 못ᄒᆞ고 돈도 못버러드리니 날마다 함박ᄶᅩᆨ박을 메여 붓치며 포달을 부리ᄂᆞᆫ 통에 잘 먹지도 못ᄒᆞ지마는 여간 먹ᄂᆞᆫ 것이 살로 한뎜 못가ᄂᆞᆫ지라. ᄇᆡ도 곱흐고 <rs ref="#LDS_W2"><rs ref="#LDS">ᄌᆞ긔</rs>쳡</rs>의 박ᄋᆞ지 긁ᄂᆞᆫ 것도 귀치안어셔 낫 모로ᄂᆞᆫ 집으로 남이 알셰라 모를 셰라 단이며 소ᄆᆡ동량을 ᄒᆞ야가지고 <rs type="place" ref="#LDS_H"><rs ref="#LDS">ᄌᆞ긔</rs> 집</rs>에 드러갈 졔ᄂᆞᆫ ᄀᆞ쟝 누가 보내쥰 모양으로 <rs ref="#LDS_W2">그 쳡</rs>을 속여 안유ᄒᆞ며 근근히 지내더니 하로ᄂᆞᆫ 
+          이 일ᄌᆞ 이 후로 간 곳마다 뎡거가 되야 복직은 키녕 쳥편지 한 쟝 엇어보ᄂᆞᆫ 도리가 업스니 돈 한 푼 ᄉᆡᆼ길 곳은 업고 허구ᄒᆞᆫ ᄂᆞᆯ 무엇으로 먹고 닙고 살아가리오 그 즁에 <rs  type="person" ref="#LDS_W2">악죵의 쳡</rs>은 <rs type="person" ref="#LDS"><rs type="person" ref="#LDS_W2">져</rs>의 남편</rs>이 벼ᄉᆞᆯ을 단여 돈을 버러드릴 졔ᄂᆞᆫ <rs ref="#LDS_W2">졔</rs>랑탁을 좀 ᄒᆡ볼 작뎡으로 입에혀 노릇을 ᄒᆞ며 가진 간특을 다 부리다가 감옥셔 삼 년에 가산을 여지업시 털어 맛치고 다시ᄂᆞᆫ 벼살도 못ᄒᆞ고 돈도 못버러드리니 날마다 함박ᄶᅩᆨ박을 메여 붓치며 포달을 부리ᄂᆞᆫ 통에 잘 먹지도 못ᄒᆞ지마는 여간 먹ᄂᆞᆫ 것이 살로 한뎜 못가ᄂᆞᆫ지라. ᄇᆡ도 곱흐고 <rs type="person" ref="#LDS_W2"><rs type="person" ref="#LDS">ᄌᆞ긔</rs>쳡</rs>의 박ᄋᆞ지 긁ᄂᆞᆫ 것도 귀치안어셔 낫 모로ᄂᆞᆫ 집으로 남이 알셰라 모를 셰라 단이며 소ᄆᆡ동량을 ᄒᆞ야가지고 <rs type="place" ref="#LDS_H"><rs type="person" ref="#LDS">ᄌᆞ긔</rs> 집</rs>에 드러갈 졔ᄂᆞᆫ ᄀᆞ쟝 누가 보내쥰 모양으로 <rs type="person" ref="#LDS_W2">그 쳡</rs>을 속여 안유ᄒᆞ며 근근히 지내더니 하로ᄂᆞᆫ 
           <rs type="place" subtype="capital">남문안</rs>
            엇던 골목에를 지나다가 <rs type="place" ref="#MR_H">대문이 큼즉ᄒᆞ고 룡마루가 번쥬구러ᄒᆞᆫ 집</rs>을 보고 얼골아ᄂᆞᆫ 사ᄅᆞᆷ이나 안이보ᄂᆞ 뒤를 흘금흘금 둘너보며 <rs type="place" ref="#MR_H">그 집</rs>으로 드러가 쳐량ᄒᆞᆫ 말로 산쳔초목이 슬어질만치 ᄋᆡ원ᄒᆞᆫ ᄉᆞ졍을 ᄒᆞ며 다쇼간 구걸을 ᄒᆞᆫ다.
         </p>
         <p>"<said who="#LDS" aloud="true" direct="true">예ㅣ ᄊᆞᆯ이 되나 돈이 되ᄂᆞ 젹션 좀 ᄒᆞ십시오. 늙은 부모가 병이 드러 여러 달포ᄌᆡ 위셕ᄒᆞ얏ᄂᆞᆫᄃᆡ 가셰가 말이 못되야 졀화를 여러ᄯᅢ ᄒᆞ얏사오니 다쇼간 젹션을 ᄒᆞ시면 미음이라도 한ᄯᅢ를 ᄭᅳᆯ여 봉양ᄒᆞ겟슴니다.</said>"</p>
         <p>
-          <rs ref="#MR_H">그 집</rs>이 공교히 부억문에셔 즁문이 마조 내다뵈이ᄂᆞᆫᄃᆡ 
+          <rs type="person" ref="#MR_H">그 집</rs>이 공교히 부억문에셔 즁문이 마조 내다뵈이ᄂᆞᆫᄃᆡ 
           <persName ref="#MR">쥬인</persName>
-          이 무엇을 ᄒᆞ러 맛ᄎᆞᆷ 부억에를 나려왓다가 즁뮨밧긔 셧ᄂᆞᆫ <rs ref="#LDS">걸인</rs>을 물ᄭᅳ럼히 내다보다가 혼ᄌᆞ 웃고 안으로 드러오며
+          이 무엇을 ᄒᆞ러 맛ᄎᆞᆷ 부억에를 나려왓다가 즁뮨밧긔 셧ᄂᆞᆫ <rs type="person" ref="#LDS">걸인</rs>을 물ᄭᅳ럼히 내다보다가 혼ᄌᆞ 웃고 안으로 드러오며
         </p>
-        <p>"<said who="#MR" aloud="false" direct="true">텬리가 무심치ᄂᆞᆫ 안이ᄒᆞ다. <rs ref="#LDS">졔</rs>가 펄경 뎌디경이 되엿군. 우슈워라 늙은 부모가 병이 드럿셔 <rs ref="#LDS">뎌</rs>의 부모가 ᄯᅩ 엇의 잇던ᄀᆞ 량친이 구몰ᄒᆞ야 조고여ᄉᆡᆼ으로 자라낫다ᄂᆞᆫᄃᆡ 오냐 입맛이 썩 붓게 두둑이 동량을 주어 이 다음에 ᄯᅩ 오ᄂᆞᆫ 양을 보겟다.</said>"</p>
+        <p>"<said who="#MR" aloud="false" direct="true">텬리가 무심치ᄂᆞᆫ 안이ᄒᆞ다. <rs type="person" ref="#LDS">졔</rs>가 펄경 뎌디경이 되엿군. 우슈워라 늙은 부모가 병이 드럿셔 <rs type="person" ref="#LDS">뎌</rs>의 부모가 ᄯᅩ 엇의 잇던ᄀᆞ 량친이 구몰ᄒᆞ야 조고여ᄉᆡᆼ으로 자라낫다ᄂᆞᆫᄃᆡ 오냐 입맛이 썩 붓게 두둑이 동량을 주어 이 다음에 ᄯᅩ 오ᄂᆞᆫ 양을 보겟다.</said>"</p>
         <p>
           ᄒᆞ더니 두 쥬문을 덜걱덜걱 열고 쓸코 쓸은 어ᄇᆡᆨ미를 푹푹 퍼셔 붉은 도ᄅᆡ함지로 슈북ᄒᆞ게 담아 
           <persName ref="#HAIN">ᄋᆞᄒᆡ하인</persName>
@@ -4035,9 +4035,9 @@
           의 뒤를 ᄯᅡ라 드러ᄀᆞ다ᄀᆞ 마루위를 흘긋 쳐다보니 <rs ref="#MR">여화여월ᄒᆞᆫ 졀문 부인</rs>이 두렷이 셔 잇는지라 구걸을 ᄒᆞ더ᄅᆡ도 렴치ᄀᆞ 잇는 사ᄅᆞᆷ ᄀᆞᆺ흐면 황송ᄒᆡ도 고ᄀᆡ를 푹 슉이고 샹벌간 쳐분만 바랄 터인ᄃᆡ <rs ref="#LDS">이</rs>는 지각을 엇더케 타고 낫는지 그 즁에도 부졍당ᄒᆞᆫ ᄉᆡᆼ각이 들기를
         </p>
         <p>"<said who="#LDS" aloud="false" direct="true">
-          잠시간 보아도 <rs ref="#MR">뎌 녀편네</rs>ᄀᆞ 썩 잘 ᄉᆡᆼ겻는ᄃᆡ <rs ref="#LDS">ᄂᆞ</rs>를 웨 이러케 졔잡담ᄒᆞ고 불너 드리노········ 거번에 동량을 한함지ᄂᆞ 쥴 ᄯᆡ브터 이샹스럽더니 이번에는 이러케 불너들릴 졔는 필유 곡졀ᄒᆞᆫ 일이로군 동량만 쥬라며는 문밧긔 셰우고라도 넉넉히 쥴 터인ᄃᆡ············· 옛날 리약이에도 <rs ref="#LDS">ᄂᆞ</rs>모양으로 궁ᄒᆞ게 도라단이다ᄀᆞ 쟝ᄀᆞ 잘 들고 ᄌᆡ물도 만히 엇은 일이 잇다더니········아마 <rs ref="#LDS">내</rs>ᄀᆞ 인졔ᄂᆞᆫ ᄉᆡᆼ수ᄀᆞ ᄂᆞ려ᄂᆞ보다. <rs ref="#LDS_H">집</rs>에 잇는 <rs ref="#LDS_W2">쳡</rs>은 <rs ref="#LDS_W2">늙은 것</rs>이 악죵만 시시로 부리고 아모 ᄌᆞ미ᄀᆞ 업것마는 그남아 버리게 되면 당쟝 몸 의탁ᄒᆞᆯ 곳이 업겟길내 마음ᄃᆡ로 못ᄒᆞ얏더니······· 엇의 아모럿턴지 뎨관하회(第觀下回)를 ᄒᆞ야 <rs ref="#LDS">내</rs>게 달도록 ᄒᆞ야보겟다</said>"</p>"
+          잠시간 보아도 <rs type="person" ref="#MR">뎌 녀편네</rs>ᄀᆞ 썩 잘 ᄉᆡᆼ겻는ᄃᆡ <rs type="person" ref="#LDS">ᄂᆞ</rs>를 웨 이러케 졔잡담ᄒᆞ고 불너 드리노········ 거번에 동량을 한함지ᄂᆞ 쥴 ᄯᆡ브터 이샹스럽더니 이번에는 이러케 불너들릴 졔는 필유 곡졀ᄒᆞᆫ 일이로군 동량만 쥬라며는 문밧긔 셰우고라도 넉넉히 쥴 터인ᄃᆡ············· 옛날 리약이에도 <rs type="person" ref="#LDS">ᄂᆞ</rs>모양으로 궁ᄒᆞ게 도라단이다ᄀᆞ 쟝ᄀᆞ 잘 들고 ᄌᆡ물도 만히 엇은 일이 잇다더니········아마 <rs ref="#LDS">내</rs>ᄀᆞ 인졔ᄂᆞᆫ ᄉᆡᆼ수ᄀᆞ ᄂᆞ려ᄂᆞ보다. <rs type="place" ref="#LDS_H">집</rs>에 잇는 <rs type="person" ref="#LDS_W2">쳡</rs>은 <rs type="person" ref="#LDS_W2">늙은 것</rs>이 악죵만 시시로 부리고 아모 ᄌᆞ미ᄀᆞ 업것마는 그남아 버리게 되면 당쟝 몸 의탁ᄒᆞᆯ 곳이 업겟길내 마음ᄃᆡ로 못ᄒᆞ얏더니······· 엇의 아모럿턴지 뎨관하회(<foreign xml:lang="zh">第觀下回</foreign>)를 ᄒᆞ야 <rs ref="#LDS">내</rs>게 달도록 ᄒᆞ야보겟다</said>"</p>"
         <p>
-          ᄒᆞ모 은근히 마음에 됴화ᄒᆞ더니 마루위로셔 <rs ref="#MR">그 녀인</rs>이 긔침 ᄒᆞᆫ 번을 카악 ᄒᆞ더니 
+          ᄒᆞ모 은근히 마음에 됴화ᄒᆞ더니 마루위로셔 <rs type="person" ref="#MR">그 녀인</rs>이 긔침 ᄒᆞᆫ 번을 카악 ᄒᆞ더니 
           <persName ref="#LDS">리시찰</persName>
            얼골이 모닥불 담아 부은 듯이 확근확근 ᄒᆞ야 지난 말이 ᄂᆞ온다.
         </p>
@@ -4048,7 +4048,7 @@
         </p>
         <div type="afterword">
         <p>
-            긔쟈 왈 소셜이라 ᄒᆞ는 것은 ᄆᆡ양 빙공착영(憑空捉影)으로 인졍에 맛도록 편즙ᄒᆞ야 풍쇽을 교졍ᄒᆞ고 샤회를 경셩ᄒᆞ는 것이 뎨일 목뎍인 즁 그와 방불ᄒᆞᆫ 사ᄅᆞᆷ과 방불ᄒᆞᆫ 사실이 잇고보면 ᄋᆡ독ᄒᆞ시는 렬위부인 신ᄉᆞ의 진진ᄒᆞᆫ ᄌᆞ미가 일층 더 ᄉᆡᆼ길 것이오 그 사ᄅᆞᆷ이 희ᄀᆡᄒᆞ고 그 ᄉᆞ실을 경계ᄒᆞ는 됴흔 영향도 업지안이ᄒᆞᆯ지라. 고로 본긔쟈는 이 쇼셜을 긔록ᄒᆞᆷᄋᆡ 스ᄉᆞ로 그 ᄌᆞ미와 그 영향이 잇슴을 바ᄅᆞ고 ᄯᅩ 바ᄅᆞ노라.
+            긔쟈 왈 소셜이라 ᄒᆞ는 것은 ᄆᆡ양 빙공착영(<foreign xml:lang="zh">憑空捉影</foreign>)으로 인졍에 맛도록 편즙ᄒᆞ야 풍쇽을 교졍ᄒᆞ고 샤회를 경셩ᄒᆞ는 것이 뎨일 목뎍인 즁 그와 방불ᄒᆞᆫ 사ᄅᆞᆷ과 방불ᄒᆞᆫ 사실이 잇고보면 ᄋᆡ독ᄒᆞ시는 렬위부인 신ᄉᆞ의 진진ᄒᆞᆫ ᄌᆞ미가 일층 더 ᄉᆡᆼ길 것이오 그 사ᄅᆞᆷ이 희ᄀᆡᄒᆞ고 그 ᄉᆞ실을 경계ᄒᆞ는 됴흔 영향도 업지안이ᄒᆞᆯ지라. 고로 본긔쟈는 이 쇼셜을 긔록ᄒᆞᆷᄋᆡ 스ᄉᆞ로 그 ᄌᆞ미와 그 영향이 잇슴을 바ᄅᆞ고 ᄯᅩ 바ᄅᆞ노라.
         </p>
         </div>
       </div>
