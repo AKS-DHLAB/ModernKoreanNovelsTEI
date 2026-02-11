@@ -59,8 +59,11 @@
                 <listPerson>
                     <person xml:id="BN"><persName xml:lang="ko">복녀</persName></person>
                     <person xml:id="BNH"><persName xml:lang="ko">복녀의 남편</persName></person>
+                    <person xml:id="ABJ"><persName xml:lang="ko">아버지</persName></person>
+                    <person xml:id="JI"><persName xml:lang="ko">장인</persName></person>
                     <person xml:id="GD"><persName xml:lang="ko">감독</persName></person>
-                    <person xml:id="CHN"><persName xml:lang="ko">처녀들</persName></person>
+                    <person xml:id="CHN" type="group"><persName xml:lang="ko">처녀들</persName></person>
+                    <person xml:id="YIN" type="group"><persName xml:lang="ko">여인들</persName></person>
                     <person xml:id="WSB"><persName xml:lang="ko">왕 서방</persName></person>
                     <person xml:id="LSB"><persName xml:lang="ko">눅 서방</persName></person>
                     <person xml:id="HNM"><persName xml:lang="ko">형님</persName></person>
@@ -70,23 +73,20 @@
                     <person xml:id="DYP"><persName xml:lang="ko">동네 여편네</persName></person>
                     <person xml:id="NI"><persName xml:lang="ko">노인</persName></person>
                     <person xml:id="HAB"><persName xml:lang="ko">홀아비</persName></person>
-                    <person xml:id="ABJ"><persName xml:lang="ko">아버지</persName></person>
                     <person xml:id="UNKN"><persName xml:lang="ko">알 수 없는 사람</persName></person>
                 </listPerson>
 
                 <!-- LIST OF PLACES -->
                 <listPlace>
-                    <place xml:id="PS"><placeName xml:lang="ko">평양 성</placeName></place>
                     <place xml:id="PY"><placeName xml:lang="ko">평양</placeName></place>
-                    <place xml:id="PB"><placeName xml:lang="ko">평양 부</placeName></place>
                     <place xml:id="NG"><placeName xml:lang="ko">농가</placeName></place>
-                    <place xml:id="CSMB"><placeName xml:lang="ko">칠성문 밖 빈민굴</placeName></place>
-                    <place xml:id="YGJ"><placeName xml:lang="ko">연광정</placeName></place>
-                    <place xml:id="DDG"><placeName xml:lang="ko">대동강</placeName></place>
+                    <place xml:id="CSMB" sameAs="https://ko.wikipedia.org/wiki/칠성문"><placeName xml:lang="ko">칠성문 밖</placeName></place>
+                    <place xml:id="BMN"><placeName xml:lang="ko">빈민굴</placeName></place>
+                    <place xml:id="YGJ" sameAs="https://ko.wikipedia.org/wiki/련광정"><placeName xml:lang="ko">연광정</placeName></place>
+                    <place xml:id="DDG" sameAs="https://ko.wikipedia.org/wiki/대동강"><placeName xml:lang="ko">대동강</placeName></place>
                     <place xml:id="GJM"><placeName xml:lang="ko">기자묘 솔밭</placeName></place>
                     <place xml:id="DN"><placeName xml:lang="ko">동네</placeName></place>
                     <place xml:id="PJS"><placeName xml:lang="ko">전주집</placeName></place>
-                    <place xml:id="SSN"><placeName xml:lang="ko">세상</placeName></place>
                     <place xml:id="KDMJ"><placeName xml:lang="ko">공동묘지</placeName></place>
                     <place xml:id="BGR"><placeName xml:lang="ko">밭고랑</placeName></place>
                     <place xml:id="WSBH"><placeName xml:lang="ko">우리집 (왕 서방)</placeName></place>
@@ -98,357 +98,78 @@
     <text>
         <body>
             <div>
-                <p>싸움, 간통, 살인, 도둑, 구걸, 징역, 이 세상의 모든 비극과 활극의 근원지인 <placeName ref="#CSMB">칠성문 밖 빈민굴</placeName>로 오기 전까지는, <rs ref="#BN #BNH">복녀의 부처</rs>는,(<rs type="occupation">사농공상</rs>의 제 이 위에 드는) <rs type="occupation" ref="#BN #BNH">농민</rs>이었었다.</p>
+                <p>싸움, 간통, 살인, 도둑, 구걸, 징역, 이 세상의 모든 비극과 활극의 근원지인 <placeName ref="#CSMB">칠성문 밖</placeName> <placeName ref="#BMN">빈민굴</placeName>로 오기 전까지는, <rs ref="#BN #BNH">복녀의 부처</rs>는,(<rs type="occupation">사농공상</rs>의 제 이 위에 드는) <rs type="occupation" ref="#BN #BNH">농민</rs>이었었다.</p>
                 <p><persName ref="#BN">복녀</persName>는, 원래 가난은 하나마 정직한 농가에서 규칙 있게 자라난 <rs ref="#BN">처녀</rs>였었다. 이전 <rs type="occupation">선비</rs>의 엄한 규율은 <rs type="occupation">농민</rs>으로 떨어지자부터 없어졌다 하나, 그러나 어딘지는 모르지만 딴 <rs type="occupation">농민</rs>보다는 좀 똑똑하고 엄한 가율이 <rs ref="#BN">그</rs>의 집에 그냥 남아 있었다. 그 가운데서 자라난 <persName ref="#BN">복녀</persName>는 물론 다른 집 <rs ref="#CHN" type="group">처녀들</rs>같이 <date type="season">여름</date>에는 벌거벗고 개울에서 멱감고, 바짓바람으로 <placeName ref="#DN">동네</placeName>를 돌아다니는 것을 예사로 알기는 알았지만, 그러나 <rs ref="#BN">그</rs>의 마음속에는 막연하나마 도덕이라는 것에 대한 저품을 가지고 있었다.</p>
                 <p><rs type="pronoun" ref="#BN">그</rs>는 <measure type="age">열 다섯 살</measure> 나는 해에 <placeName ref="#DN">동네</placeName> <rs ref="#BNH">홀아비</rs>에게 <measure type="currency">팔십 원</measure>에 팔려서 시집이라는 것을 갔다.<rs type="pronoun" ref="#BN">그</rs>의 <rs ref="#BNH">새서방</rs>(영감이라는 편이 적당할까)이라는 <rs ref="#BNH">사람</rs>은 <rs type="pronoun" ref="#BN">그</rs>보다 <measure type="duration" quantity="20" unit="year">이십 년</measure>이나 위로서, 원래 <rs ref="#ABJ">아버지</rs>의 시대에는 상당한 <rs type="occupation">농민</rs>으로서 밭도 몇 마지기가 있었으나, <rs type="pronoun" ref="#BNH">그</rs>의 대로 내려오면서는 하나 둘 줄기 시작하여서, 마지막에 <persName ref="#BN">복녀</persName>를 산 <measure type="currency" quantity="80" unit="won">팔십 원</measure>이 <rs type="pronoun" ref="#BNH">그</rs>의 마지막 재산이었었다.</p>
                 <p><rs type="pronoun" ref="#BNH">그</rs>는 극도로 게으른 <rs ref="#BNH">사람</rs>이었었다. <placeName ref="#DN">동네</placeName> <persName ref="#NI">노인</persName>의 주선으로 소작 밭깨나 얻어주면, 종자나 뿌려둔 뒤에는 후치질도 안하고 김도 안 매고 그냥 버려두었다가는, <date type="season">가을</date>에 가서는 되는 대로 거두어서 '<said direct="false" aloud="true" who="#BNH">금년은 흉년이네</said>' 하고 <placeName ref="#PJS">전주집</placeName>에는 가져도 안가고 <rs type="pronoun" ref="#BNH">자기</rs> 혼자 먹어버리고 하였다. 그러니까 <rs type="pronoun" ref="#BNH">그</rs>는 한밭을 이태를 연하여 붙여본 일이 없었다. 이리하여 <measure type="duration" unit="year">몇 해</measure>를 지내는 동안 <rs type="pronoun" ref="#BNH">그</rs>는 그 <placeName ref="#DN">동네</placeName>에서는 밭을 못 얻으리만큼 인심과 신용을 잃고 말았다.</p>
-                <p><persName ref="#BN">복녀</persName>가 시집을 온 뒤, 한 <measure type="duration" unit="year">삼사 년</measure>은 <rs ref="#ABJ">장인</rs>의 덕으로 이렁저렁 지내갔으나, 이전<rs ref="#SB">선비</rs>의 꼬리인<rs ref="#ABJ">장인</rs>도 차차 사위를 밉게 보기 시작하였다.<rs ref="#BN #BNH" type="group pronoun">그들</rs>은 처가에까지 신용을 잃게 되었다.</p>
-                
-
-                <p><rs ref="#BN #BNH" type="group pronoun">그들 부처</rs> 
-                    는 여러 가지로 의논하다가 하릴없이 
-                    <placeName ref="#PS">평양 성</placeName> 
-                    안으로 막벌이로 들어왔다. 그러나 게으른 
-                    <rs type="pronoun" ref="#BNH">그</rs> 에게는 막벌이나마 역시 되지 않았다. 
-                    <time type="day">하루 종일</time> 
-                    지게를 지고 
-                    <placeName ref="#YGJ">연광정</placeName> 
-                    에 가서 
-                    <placeName ref="#DDG">대동강</placeName> 
-                    만 내려다보고 있으니, 어찌 막벌이인들 될까. 한 
-                    <time type="month">서너 달</time>
-                    막벌이를 하다가,
-                    <rs ref="#BN #BNH" type="group pronoun">그들</rs> 
-                    은 요행 어떤 집 막간(행랑)살이로 들어가게 되었다.</p>
-        
-
-                <p>그러나 그 집에서도 
-                    <time type="duration">얼마</time> 
-                    안 하여 쫓겨나왔다. 
-                    <persName ref="#BN">복녀</persName>
-                    는 부지런히 
-                    <rs ref="#UNKN">주인</rs> 
-                    집 일을 보았지만, 
-                    <rs ref="#BNH">남편</rs> 
-                    의 게으름은 어찌할 수가 없었다. 
-                    <time type="day">매일</time>
-                    <persName ref="#BN">복녀</persName>
-                    는 눈에 칼을 세워가지고 
-                    <rs ref="#BNH">남편</rs> 
-                    을 채근하였지만, 
-                    <rs ref="#BNH">그</rs> 
-                    의 게으른 버릇은 개를 줄 수는 없었다.</p>
-        
-
+                <p><persName ref="#BN">복녀</persName>가 시집을 온 뒤, 한 <measure type="duration" unit="year">삼사 년</measure>은 <persName ref="#JIN">장인</persName>의 덕으로 이렁저렁 지내갔으나, 이전 <rs type="occupation">선비</rs>의 꼬리인<rs ref="#JIN">장인</rs>도 차차 <rs ref="#BNH">사위</rs>를 밉게 보기 시작하였다. <rs ref="#BN #BNH" type="pronoun">그들</rs>은 처가에까지 신용을 잃게 되었다.</p>
+                <p><rs ref="#BN #BNH">그들 부처</rs>는 여러 가지로 의논하다가 하릴없이 <placeName ref="#PS">평양 성</placeName> 안으로 막벌이로 들어왔다. 그러나 게으른 <rs type="pronoun" ref="#BNH">그</rs>에게는 막벌이나마 역시 되지 않았다. <measure type="duration">하루 종일</measure> 지게를 지고 <placeName ref="#YGJ">연광정</placeName>에 가서 <placeName ref="#DDG">대동강</placeName>만 내려다보고 있으니, 어찌 막벌이인들 될까. 한 <measure type="duration">서너 달</measure> 막벌이를 하다가, <rs ref="#BN #BNH" type="pronoun">그들</rs>은 요행 어떤 집 막간(행랑)살이로 들어가게 되었다.</p>
+                <p>그러나 그 집에서도 얼마 안 하여 쫓겨나왔다.<persName ref="#BN">복녀</persName>는 부지런히 주인집 일을 보았지만,<rs ref="#BNH">남편</rs>의 게으름은 어찌할 수가 없었다. 매일 <persName ref="#BN">복녀</persName>는 눈에 칼을 세워가지고 <rs ref="#BNH">남편</rs>을 채근하였지만, <rs ref="#BNH">그</rs>의 게으른 버릇은 개를 줄 수는 없었다.</p>
                 <p>"<said aloud="true" direct="true" who="#BN">벳섬 좀 치워달라우요.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#BNH">남 졸음 오는데, 
-                    <rs ref="#BNH">님자</rs> 치우시관.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs type="pronoun" ref="#BN">내</rs> 가 치우나요?</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#BNH">
-                    <time type="year">이십 년</time> 
-                    이나 밥 처먹구 그걸 못 치워.</said></p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">
-                    <seg type="interjection">에이구</seg>, 칵 죽구나 말디.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#BNH">
-                    <rs ref="#BN">이년</rs>, 뭘!</said>"</p>
-
+                <p>"<said aloud="true" direct="true" who="#BNH"><rs ref="#BNH">남</rs> 졸음 오는데, <rs ref="#BN">님자</rs> 치우시관.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#BN"><rs type="pronoun" ref="#BN">내</rs>가 치우나요?</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#BNH"><measure type="duration" quantity="20" unit="year">이십 년</measure>이나 밥 처먹구 그걸 못 치워.</said></p>
+                <p>"<said aloud="true" direct="true" who="#BN">에이구, 칵 죽구나 말디.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#BNH"><rs ref="#BN">이년</rs>, 뭘!</said>"</p>
                 <p>이러한 싸움이 그치지 않다가, 마침내 그 집에서도 쫓겨나왔다.</p>
+                <p>이젠 어디로 가나? <rs ref="#BN #BNH" type="pronoun">그들</rs>은 하릴없이 <placeName ref="#CSMB">칠성문 밖</placeName> <placeName ref="#BMN">빈민굴</placeName>로 밀리어오게 되었다.</p>
+                <p><placeName ref="#CSMB">칠성문 밖</placeName>을 한 부락으로 삼고 <rs ref="#CSMB">그곳</rs>에 모여 있는 모든 사람들의 정업은 <rs type="occupation">거러지</rs>요, 부업으로는 도둑질과 '자기네끼리의' 매음, 그밖에 이 세상의 모든 무섭고 더러운 죄악이었었다. <persName ref="#BN">복녀</persName>도 그 정업으로 나섰다.</p>
+                <p>그러나 <measure type="age" quantity="19" ref="#BN">열 아홉 살</measure>의 한창 좋은 나이의 <rs ref="#BN">여편네</rs>에게 누가 밥인들 잘 줄까.</p>
+                <p>"<said aloud="true" direct="true" who="#UNKN">젊은 거이 거랑은 왜?</said>"</p>
 
-                <p>이젠 어디로 가나? 
-                    <rs ref="#BN #BNH" type="group pronoun">그들</rs> 
-                    은 하릴없이 
-                    <placeName ref="#CSMB">칠성문 밖 빈민굴</placeName> 
-                    로 밀리어오게 되었다.</p>
-        
-
-                <p><placeName ref="#CSMB">칠성문 밖</placeName> 
-                    을 한 부락으로 삼고 
-                    <placeName ref="#CSMB">그곳</placeName> 
-                    에 모여 있는 모든 사람들의 정업은 
-                    <term type="occupation">거러지</term> 
-                    요, 부업으로는 
-                    <term type="occupation">도둑질</term> 
-                    과 '자기네끼리의' 
-                    <term type="occupation">매음</term>
-                    , 그밖에 이 
-                    <placeName ref="#SSN">세상</placeName> 
-                    의 모든 무섭고 더러운 죄악이었었다.
-                    <persName ref="#BN">복녀</persName>
-                    도 그 정업으로 나섰다.</p>
-        
-
-                <p>그러나 
-                    <measure type="age" ref="#BN">열 아홉 살</measure> 
-                    의 한창 좋은 나이의 
-                    <rs ref="#BN">여편네</rs> 
-                    에게 누가 밥인들 잘 줄까.</p>
-        
-
-                <p><said aloud="true" direct="true" who="#UNKN">젊은 거이 거랑은 왜?</said> 
-                    그런 소리를 들을 때마다 
-                    <rs type="pronoun" ref="#BN">그</rs>
-                    는 여러 가지 말로, 
-                    <rs ref="#BNH">남편</rs> 
-                    이 병으로 죽어가거니 어쩌거니 핑계는 대었지만, 그런 핑계에는 단련된 
-                    <placeName ref="#PY">평양</placeName>
-                    <rs ref="#UNKN">시민</rs> 
-                    의 동정은 역시 살 수가 없었다. 
-                    <rs ref="#BN #BNH" type="group pronoun">그들</rs> 
-                    은 이 
-                    <placeName ref="#CSMB">칠성문 밖</placeName>
-                    에서도 가장 가난한 사람 가운데 드는 편이었었다. 그 가운데서 잘 수입되는 사람은 
-                    <time type="duration" unit="day">하루</time> 
-                    에 오리짜리 돈 뿐으로 일원 
-                    <measure type="currency">칠팔십 전</measure>
-                    의 현금을 쥐고 돌아오는 사람까지 있었다. 극단으로 나가서는 
-                    <time type="night">밤</time>
-                    에 돈벌이 나갔던 사람은 <seg type="time">그날 밤</seg>
-                    <measure type="currency">사 백 여 원</measure>
-                    을 벌어 가지고 와서 그 근처에서 담배장사를 시작한 사람까지 있었다.</p>
-        
-
-                <p><persName ref="#BN">복녀</persName>
-                    는 <measure type="age" ref="#BN">열 아홉 살</measure> 
-                    이었었다. 얼굴도 그만하면 빤빤하였다. 그 동네 
-                    <rs ref="#UNKN" type="group">여인들</rs> 
-                    의 보통 하는 일을 본받아서, 
-                    <rs type="pronoun" ref="#BN">그</rs> 
-                    도 돈벌이 좀 잘하는 사람의 집에라도 간간 찾아가면, 
-                    <time type="day">매일</time>
-                    <measure type="currency">오륙십 전</measure> 
-                    은 벌 수가 있었지만, 
-                    <rs ref="#SB">선비</rs> 
-                    의 집안에서 자라난 
-                    <rs type="pronoun" ref="#BN">그</rs> 
-                    는 그런 일은 할 수가 없었다.</p>
-        
-
-                <p><rs ref="#BN #BNH" type="group">그들 부처</rs>
-                    는 역시 가난하게 지냈다. 굶는 일도 흔히 있었다.</p>
-
-                <p>
-                    <placeName ref="#GJM">기자묘 솔밭</placeName> 
-                    에 
-                    <rs type="animal">송충이</rs> 
-                    가 끓었다. 그때, 
-                    <placeName ref="#PB">평양 부</placeName> 
-                    에서는 그 <rs type="animal">송충이</rs> 
-                    잡는데(은혜를 베푸는 뜻으로) 
-                    <placeName ref="#CSMB">칠성문 밖 빈민굴</placeName>
-                    의 
-                    <rs ref="#UNKN" type="group">여인들</rs> 
-                    을 인부로 쓰게 되었다.</p>
-            
-
-                <p><placeName ref="#CSMB">빈민굴</placeName>
-                    <rs ref="#UNKN" type="group">여인들</rs> 
-                    은 모두 다 지원을 하였다. 그러나 뽑힌 것은 겨우 오십 명 쯤이었었다. 
-                    <persName ref="#BN">복녀</persName> 
-                    도 그 뽑힌 사람 가운데 한 사람이었었다.</p>
-
-                <p><persName ref="#BN">복녀</persName> 
-                    는 열심으로 
-                    <rs type="animal">송충이</rs> 
-                    를 잡았다. 소나무에 사다리를 놓고 올라가서는, 
-                    <rs type="animal">송충이</rs> 
-                    를 집게로 집어서 약물에 잡아넣고, 또 그렇게 하고, 그의 통은 잠깐 사이에 차고 하였다. 
-                    <time type="day">하루</time> 
-                    에 
-                    <measure type="currency">삼십이 전</measure> 
-                    씩의 품삯이 
-                    <rs ref="#BN">그</rs> 의 손에 들어왔다.</p>
-            
-
-                <p>그러나 
-                    <time type="day" quantity="5-6">대엿새</time> 
-                    하는 동안에 
-                    <rs type="pronoun" ref="#BN">그</rs> 
-                    는 이상한 현상을 하나 발견하였다. 그것은 다른 것이 아니라, 젊은 
-                    <term type="occupation">여인부</term>
-                    한 여나믄 사람은 언제나 
-                    <rs type="animal">송충이</rs> 
-                    는 안 잡고, 아래서 지절거리며 웃고 날뛰기만 하고 있는 것이었다. 뿐만 아니라, 그 놀고 있는 
-                    <term type="occupation">인부</term> 
-                    의 품삯은, 일하는 사람의 삯전보다 
-                    <measure type="currency">팔 전</measure> 
-                    이나 더 많이 내어주는 것이다.</p>
-            
-
-                <p><rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs> 
-                    은 한 사람뿐이었는데 
-                    <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
-                    도 그들의 놀고 있는 것을 묵인할 뿐 아니라,
-                    때때로는 
-                    <rs ref="#GD">자기</rs> 
-                    까지 섞여서 놀고 있었다.</p>
-            
-
-                <p><time type="day">어떤 날</time>
-                    <rs type="animal">송충이</rs> 
-                    를 잡다가 점심때가 되어서,나무에서 내려와서 점심을 먹고 다시 올라가려 할 때에 
-                    <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs> 
-                    이 
-                    <rs ref="#BN">그</rs>를 찾았다 -</p>
-            
-
-                <p>"<said aloud="true" direct="true" who="#GD">
-                    <persName ref="#BN">복네</persName> 
-                    ! 얘 
-                    <persName ref="#BN">복네</persName>!</said>"</p>
-
-                <p>"<said aloud="true" who="#BN">왜 그릅네까?</said>"
-                    <rs type="pronoun" ref="#BN">그</rs>
-                    는 약통과 집게를 놓고 뒤로 돌아섰다.</p>
-
+                <p>그런 소리를 들을 때마다 <rs type="pronoun" ref="#BN">그</rs>는 여러 가지 말로, <rs ref="#BNH">남편</rs>이 병으로 죽어가거니 어쩌거니 핑계는 대었지만, 그런 핑계에는 단련된 <placeName ref="#PY">평양</placeName> 시민의 동정은 역시 살 수가 없었다. <rs ref="#BN #BNH" type="pronoun">그들</rs>은 이 <placeName ref="#CSMB">칠성문 밖</placeName>에서도 가장 가난한 사람 가운데 드는 편이었었다. 그 가운데서 잘 수입되는 사람은 하루에 오리짜리 돈 뿐으로 <measure type="currency">일원 칠팔십 전</measure>의 현금을 쥐고 돌아오는 사람까지 있었다. 극단으로 나가서는 <time type="period" subtype="night">밤</time>에 돈벌이 나갔던 사람은 <time type="period" subtype="night">그날 밤</time> <measure type="currency">사 백 여 원</measure>을 벌어 가지고 와서 그 근처에서 담배장사를 시작한 사람까지 있었다.</p>
+                <p><persName ref="#BN">복녀</persName>는 <measure type="age" quantity="19" ref="#BN">열 아홉 살</measure>이었었다. 얼굴도 그만하면 빤빤하였다. 그 동네 <persName ref="YIN" type="group">여인들</persName>의 보통 하는 일을 본받아서, <rs type="pronoun" ref="#BN">그</rs>도 돈벌이 좀 잘하는 사람의 집에라도 간간 찾아가면, 매일 <measure type="currency">오륙십 전</measure>은 벌 수가 있었지만, <rs type="occupation">선비</rs>의 집안에서 자라난 <rs type="pronoun" ref="#BN">그</rs>는 그런 일은 할 수가 없었다.</p>
+                <p><rs ref="#BN #BNH" type="group">그들 부처</rs>는 역시 가난하게 지냈다. 굶는 일도 흔히 있었다.</p>
+            </div>
+            <div>
+                <p><placeName ref="#GJM">기자묘 솔밭</placeName>에 송충이가 끓었다. 그때, <rs ref="#PY">평양 '부'</rs>에서는 그 송충이 잡는데(은혜를 베푸는 뜻으로) <placeName ref="#CSMB">칠성문 밖</placeName> <placeName ref="#BMN">빈민굴</placeName>의 <persName ref="YIN" type="group">여인들</persName>을 인부로 쓰게 되었다.</p>
+                <p><placeName ref="#BMN">빈민굴</placeName> <persName ref="YIN" type="group">여인들</persName>은 모두 다 지원을 하였다. 그러나 뽑힌 것은 겨우 오십 명 쯤이었었다. <persName ref="#BN">복녀</persName>도 그 뽑힌 사람 가운데 한 사람이었었다.</p>
+                <p><persName ref="#BN">복녀</persName>는 열심으로 송충이를 잡았다. 소나무에 사다리를 놓고 올라가서는, 송충이를 집게로 집어서 약물에 잡아넣고, 또 그렇게 하고, 그의 통은 잠깐 사이에 차고 하였다. 하루에 <measure type="currency" quantity="32" unit="jeon">삼십이 전</measure>씩의 품삯이 <rs ref="#BN">그</rs>의 손에 들어왔다.</p>
+                <p>그러나 <measure type="duration">대엿새</measure> 하는 동안에 <rs type="pronoun" ref="#BN">그</rs>는 이상한 현상을 하나 발견하였다. 그것은 다른 것이 아니라, 젊은 <rs ref="YIN" type="group">여인부</rs> 한 여나믄 사람은 언제나 송충이는 안 잡고, 아래서 지절거리며 웃고 날뛰기만 하고 있는 것이었다. 뿐만 아니라, 그 놀고 있는 인부의 품삯은, 일하는 사람의 삯전보다 <measure type="currency" quantity="8" unit="jeon">팔 전</measure>이나 더 많이 내어주는 것이다.</p>
+                <p><persName ref="#GD"><rs type="occupation">감독</rs></persName>은 한 사람뿐이었는데<persName ref="#GD"><rs type="occupation">감독</rs></persName>도 그들의 놀고 있는 것을 묵인할 뿐 아니라, 때때로는 <rs ref="#GD">자기</rs>까지 섞여서 놀고 있었다.</p>
+                <p><date>어떤 날</date> 송충이를 잡다가 <time>점심때</time>가 되어서,나무에서 내려와서 점심을 먹고 다시 올라가려 할 때에 <persName ref="#GD"><rs type="occupation">감독</rs></persName>이<rs ref="#BN">그</rs>를 찾았다 -</p>
+                <p>"<said aloud="true" direct="true" who="#GD"><persName ref="#BN">복네</persName>! 얘 <persName ref="#BN">복네</persName>!</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#BN">왜 그릅네까?</said>"</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>는 약통과 집게를 놓고 뒤로 돌아섰다.</p>
                 <p>"<said aloud="true" direct="true" who="#GD">좀 오나라.</said>"</p>
-
-                <p><rs type="pronoun" ref="#BN">그</rs>는 말없이 
-                    <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
-                    앞에 갔다.</p>
-
-                <p>"<said aloud="true" direct="true" who="#GD">얘, 
-                    <rs type="pronoun" ref="#BN">너</rs>
-                    , 음… 데 뒤에 가자.</said>"</p>
-                    
-
+                <p><rs type="pronoun" ref="#BN">그</rs>는 말없이 <persName ref="#GD"><rs type="occupation">감독</rs></persName> 앞에 갔다.</p>
+                <p>"<said aloud="true" direct="true" who="#GD">얘, <rs type="pronoun" ref="#BN">너</rs>, 음… 데 뒤 좀 가보자.</said>"</p>
                 <p>"<said aloud="true" direct="true" who="#BN">뭘 하례요?</said>"</p>
-
                 <p>"<said aloud="true" direct="true" who="#GD">글쎄, 가야…</said>"</p>
-
-                <p><rs type="pronoun" ref="#BN">그</rs> 
-                    는 말없이 
-                    <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
-                    앞에 갔다.</p>
-
-                <p>"<said who="#BN">가디요. - 
-                    <rs ref="#GD">형님</rs>.</said>"</p>
-
-                <p><rs type="pronoun" ref="#BN">그</rs>
-                    는 돌아서면서 
-                    <term type="occupation">인부들</term> 
-                    모여 있는 데로 고함쳤다.</p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs ref="#UNKN">형님</rs>
-                    두 갑세다가례.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#HNM">싫다 얘. 
-                    <rs ref="#BN #GD">둘</rs> 이서 재미나게 가는데, 
-                    <rs ref="#UNKN" type="pronoun">내</rs> 
-                    가 무슨 맛에 가갔니?</said>"</p>
-                        
-
-                <p><persName ref="#BN">복녀</persName> 
-                    는 얼굴이 새빨갛게 되면서 
-                    <rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs> 
-                    에게로 돌아섰다.</p>
-
+                <p>"<said aloud="true" direct="true" who="#BN">가디요. - <persName ref="#HNM">형님</persName>.</said>"</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>는 돌아서면서 <persName ref="YIN" type="group">인부들</persName> 모여 있는 데로 고함쳤다.</p>
+                <p>"<said aloud="true" direct="true" who="#BN"><persName ref="#HNM">형님</persName>두 갑세다가례.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#HNM">싫다 얘. <rs ref="#BN #GD">둘</rs>이서 재미나게 가는데, <rs ref="#HNM" type="pronoun">내</rs>가 무슨 맛에 가갔니?</said>"</p>
+                <p><persName ref="#BN">복녀</persName>는 얼굴이 새빨갛게 되면서<persName ref="#GD"><rs type="occupation">감독</rs></persName>에게로 돌아섰다.</p>
                 <p>"<said aloud="true" direct="true" who="#GD">가보자.</said>"</p>
-
-                <p><rs ref="#GD"><term type="occupation" ref="#GD">감독</term></rs>
-                    은 저편으로 갔다. 
-                    <persName ref="#BN">복녀</persName>
-                    는 머리를 수그리고 따라갔다.</p>
-
-                <p>"<said aloud="true" direct="true" who="#DYP">
-                        <persName ref="#BN">복네</persName> 
-                        좋갔구나. </said>" 
-                        뒤에서 이러한 조롱 소리가 들렸다. 
-                        <persName ref="#BN">복녀</persName> 
-                        의 숙인 얼굴은 더욱 발갛게 되었다.</p>
-                
-
-                <p>그날부터 
-                    <persName ref="#BN">복녀</persName> 
-                    도 '일 안하고 품삯 많이 받는 인부'의 한 사람으로 되었다.</p>
-
-                <p><persName ref="#BN">복녀</persName> 
-                    의 도덕관 내지 인생관은, 그때부터 변하였다.</p>
-
-                <p><rs type="pronoun" ref="#BN">그</rs> 
-                    는 아직껏 딴 <rs ref="#UNKN">사내</rs> 
-                    와 관계를 한다는 것을 생각하여본 일도없었다. 그것은 
-                    <rs ref="#UNKN">사람</rs> 
-                    의 일이 아니요,짐승의 하는짓쯤으로만 알고 있었다. 혹은 그런 일을 하면 탁 죽어지는지도 모를 일로 알았다.</p>
-        
-
-                <p>그러나 이런 이상한 일이 어디 다시 있을까. 사람인 
-                    <rs ref="#BN">자기</rs> 
-                    도 그런 일을 한 것을 보면, 그것은 결코 사람으로 못할 일이 아니었었다. 게다가 일 안하고도 돈 더 받고, 긴장된 유쾌가 있고, 빌어먹는
-                    것보다 점잖고… 
-                    <rs type="language">일본말</rs> 로 하자면 '삼 <choice>
-                        <orig xml:lang="ja">拍子</orig>
-                        <reg xml:lang="ko">박자</reg>
-                    </choice> 같은 좋은 일은 이것뿐이었었다. 이것이야말로 삶의 비결이 아닐까. 뿐만 아니라, 이 일이 있은 뒤부터, 
-                    <rs type="pronoun" ref="#BN">그</rs> 
-                    는 처음으로 한 개 사람이 된 것
-                    같은 자신까지 얻었다.</p>
-        
-
-                <p>그 뒤부터는, <rs type="pronoun" ref="#BN">그</rs> 
-                    의 얼굴에는 조금씩 분도 바르게 되었다.</p>
-
-                <time type="year">일년</time>이 지났다.
-
-                <p><rs type="pronoun" ref="#BN">그</rs> 의 처세의 비결은 더욱 더 순탄히 진척되었다. 
-                    <rs ref="#BN #BNH" type="group pronoun">그의
-                    부처</rs> 
-                    는 이제는 그리 궁하게 지내지는 않게 되었다.</p>
-
-                <p><rs ref="#BNH">그의 남편</rs> 
-                    은 이것이 결국 좋은 일이라는 듯이 아랫목에 누워서 벌신벌신 웃고 있었다.</p>
-                <p><persName ref="#BN">복녀</persName> 
-                    의 얼굴은 더욱 이뻐졌다.</p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs ref="#UNKN" type="nickname">여보</rs>,
-                    <rs ref="#UNKN">아즈바니</rs>. 
-                    오늘은 얼마나 벌었소?</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#GZ">오늘은 많이 못 벌었쉐다.</said>"</p>
-
+                <p><persName ref="#GD"><rs type="occupation">감독</rs></persName>은 저편으로 갔다. <persName ref="#BN">복녀</persName>는 머리를 수그리고 따라갔다.</p>
+                <p>"<said aloud="true" direct="true" who="#YIN"><persName ref="#BN">복네</persName> 좋갔구나.</said>"</p>
+                <p>뒤에서 이러한 조롱 소리가 들렸다. <persName ref="#BN">복녀</persName>의 숙인 얼굴은 더욱 발갛게 되었다.</p>
+                <p>그날부터 <persName ref="#BN">복녀</persName>도 '일 안하고 품삯 많이 받는 인부'의 한 사람으로 되었다.</p>
+                <p><persName ref="#BN">복녀</persName>의 도덕관 내지 인생관은, 그때부터 변하였다.</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>는 아직껏 딴 사내와 관계를 한다는 것을 생각하여본 일도 없었다. 그것은 사람의 일이 아니요, 짐승의 하는 짓쯤으로만 알고 있었다. 혹은 그런 일을 하면 탁 죽어지는지도 모를 일로 알았다.</p>
+                <p>그러나 이런 이상한 일이 어디 다시 있을까. 사람인 <rs ref="#BN">자기</rs>도 그런 일을 한 것을 보면, 그것은 결코 사람으로 못할 일이 아니었었다. 게다가 일 안하고도 돈 더 받고, 긴장된 유쾌가 있고, 빌어먹는 것보다 점잖고… 일본말로 하자면 '삼 박자(<foreign xml:lang="ja">拍子</foreign>)' 같은 좋은 일은 이것뿐이었었다. 이것이야말로 삶의 비결이 아닐까. 뿐만 아니라, 이 일이 있은 뒤부터, <rs type="pronoun" ref="#BN">그</rs>는 처음으로 한 개 사람이 된 것 같은 자신까지 얻었다.</p>
+                <p>그 뒤부터는, <rs type="pronoun" ref="#BN">그</rs>의 얼굴에는 조금씩 분도 바르게 되었다.</p>
+                <p><rs type="duration" quantity="1" unit="year">일년</rs>이 지났다.</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>의 처세의 비결은 더욱 더 순탄히 진척되었다. <rs ref="#BN #BNH" type="pronoun">그의 부처</rs>는 이제는 그리 궁하게 지내지는 않게 되었다.</p>
+                <p><rs type="pronoun" ref="#BN">그</rs>의 <rs ref="#BNH">남편</rs>은 이것이 결국 좋은 일이라는 듯이 아랫목에 누워서 벌신벌신 웃고 있었다.</p>
+                <p><persName ref="#BN">복녀</persName>의 얼굴은 더욱 이뻐졌다.</p>
+                <p>"<said aloud="true" direct="true" who="#BN">여보, <rs ref="#GZ">아즈바니</rs>. 오늘은 얼마나 벌었소?</said>"</p>
+                <p><persName ref="#BN">복녀</persName>는 돈 좀 많이 벌은 듯한 <persName ref="#GZ">거지</persName>를 보면 이렇게 찾는다.</p>
+                <p>"<said aloud="true" direct="true" who="#GZ"><time>오늘</time>은 많이 못 벌었쉐다.</said>"</p>
                 <p>"<said aloud="true" direct="true" who="#BN">얼마?</said>"</p>
-
-                <p>"<said aloud="true" who="#GZ">도무지 
-                    <measure type="currency">열 서너 냥</measure>.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">많이 벌었쉐다가레. 
-                    <measure type="money">한 댓 냥</measure> 
-                    꿰주소고레.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#GZ">
-                    <time type="day">오늘</time>
-                    <rs ref="#GZ" type="pronoun">내가</rs>…</said>"</p>
-
-                <p>어쩌고 어쩌고 하면, 
-                    <persName ref="#BN">복녀</persName> 
-                    는 곧 뛰어가서 
-                    <rs ref="#GZ" type="pronoun">그</rs> 의 팔에늘어진다.</p>
-
-                <p>"<said aloud="true" direct="true" who="#BN">
-                    <rs type="pronoun" ref="#BN">나</rs> 
-                    한테 들킨 댐에는 뀌구야 말아요.</said>"</p>
-
-                <p>"<said aloud="true" direct="true" who="#GZ">
-                    <rs ref="#GZ" type="pronoun">난</rs> 원 이 
-                    <rs ref="#BN">아즈마니</rs> 
-                    만나믄 야단이더라. 자 꿰주디 그대신 응? 알아있디?</said>"</p>
-
+                <p>"<said aloud="true" who="#GZ">도무지 <measure type="currency">열 서너 냥</measure>.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#BN">많이 벌었쉐다가레.<measure type="currency" quantity="5" unit="nyang">한 댓 냥</measure> 꿰주소고레.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#GZ"><time>오늘</time>은 <rs ref="#GZ" type="pronoun">내</rs>가…</said>"</p>
+                <p>어쩌고 어쩌고 하면, <persName ref="#BN">복녀</persName>는 곧 뛰어가서 <rs ref="#GZ" type="pronoun">그</rs>의 팔에 늘어진다.</p>
+                <p>"<said aloud="true" direct="true" who="#BN"><rs type="pronoun" ref="#BN">나</rs>한테 들킨 댐에는 뀌구야 말아요.</said>"</p>
+                <p>"<said aloud="true" direct="true" who="#GZ"><rs ref="#GZ" type="pronoun">난</rs> 원 이 <rs ref="#BN">아즈마니</rs> 만나믄 야단이더라. 자 꿰주디 그대신 응? 알아있디?</said>"</p>
                 <p>"<said aloud="true" direct="true" who="#BN">난 몰라요. 해해해해.</said>"</p>
-
                 <p>"<said aloud="true" direct="true" who="#GZ">모르믄, 안 줄 테야.</said>"</p>
-
                 <p>"<said aloud="true" direct="true" who="#BN">글쎄, 알았대두 그른다.</said>"</p>
-        
-
                 <p>− <rs type="pronoun" ref="#BN">그</rs>의 성격은 이만큼까지 진보되었다.</p>
-
+            </div>
+            <div>
                 <p><time type="season">가을</time> 이 되었다.</p>
 
                 <p><placeName ref="#CSMB">칠성문 밖 빈민굴</placeName> 
