@@ -12,6 +12,11 @@
                <name>이하경</name>
                <note>iserene [at] sogang.ac.kr</note>
             </respStmt>
+            <respStmt>
+               <resp>TEI 검수</resp>
+               <name>김가연<idno type="ORCID">0009-0005-1231-6939</idno></name>
+               <email>darps1417@gmail.com</email>
+            </respStmt>
          </titleStmt>
 
          <publicationStmt>
@@ -51,7 +56,7 @@
                <title level="a">철세계</title>
                <author>이해조</author>
                <publisher>Wikisource(한국어)</publisher>
-               <idno type="wikisource">https://ko.wikisource.org/wiki/%EC%B2%A0%EC%84%B8%EA%B3%84</idno>
+               <idno type="wikisource">https://ko.wikisource.org/wiki/철세계</idno>
             </bibl>
 
             <bibl type="reference" xml:lang="ko">
@@ -73,7 +78,7 @@
 
       <encodingDesc>
          <projectDesc>
-            <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+            <p>본 전자본은 TEI P5 지침(TEI ALL)에 따라 구조화함.</p>
          </projectDesc>
       </encodingDesc>
 
@@ -194,20 +199,20 @@
                   <persName xml:lang="ko" type="alias">혼졸</persName>
                   <persName xml:lang="ko" type="alias">순경</persName>
                </person>
-               <person xml:id="SO" ref="https://ko.wiktionary.org/wiki/새옹지마">
+               <person xml:id="SO" sameAs="https://ko.wiktionary.org/wiki/새옹지마">
                   <persName xml:lang="ko">ᄉᆡ옹(塞翁)</persName>
                </person>
-               <person xml:id="NP" ref="https://ko.wiktionary.org/wiki/나폴레옹_보나파르트">
+               <person xml:id="NP" sameAs="https://ko.wikipedia.org/wiki/나폴레옹_보나파르트">
                   <persName xml:lang="ko">라파륜</persName>
                </person>
-               <person xml:id="NP_3" ref="https://ko.wiktionary.org/wiki/나폴레옹_3세">
+               <person xml:id="NP_3" sameAs="https://ko.wikipedia.org/wiki/나폴레옹_3세">
                   <persName xml:lang="ko">라파륜뎨삼</persName>
                </person>
                라파륜뎨삼
-               <person xml:id="PJ" ref="https://ko.wiktionary.org/wiki/편작">
+               <person xml:id="PJ" sameAs="https://ko.wiktionary.org/wiki/편작">
                   <persName xml:lang="ko">편쟉</persName>
                </person>
-               <person xml:id="HELL_K" ref="https://ko.wiktionary.org/wiki/염라대왕">
+               <person xml:id="HELL_K" sameAs="https://ko.wiktionary.org/wiki/염라대왕">
                   <persName xml:lang="ko">염라대왕</persName>
                </person>
                <person xml:id="AM">
@@ -282,13 +287,13 @@
             </listPerson>
 
             <listObject>
-               <object xml:id="CO2" type="substance" subtype="carbonDioxide" ref="https://ko.wikipedia.org/wiki/이산화_탄소">
+               <object xml:id="CO2" type="substance" subtype="carbonDioxide" sameAs="https://ko.wikipedia.org/wiki/이산화_탄소">
                   <objectName>탄산와ᄉᆞ</objectName>
                </object>
                <object xml:id="O2MASK" type="equipment">
                   <objectName>흡긔통</objectName>
                </object>
-               <object xml:id="NAH" type="plant" ref="https://ko.wikipedia.org/wiki/벨라돈나풀">
+               <object xml:id="NAH" type="plant" sameAs="https://ko.wikipedia.org/wiki/벨라돈나풀">
                   <objectName>녀아화</objectName>
                </object>
                <object xml:id="CO2_B">
@@ -300,22 +305,22 @@
             </listObject>
 
             <listOrg>
-               <org xml:id="LJ" type="ethnicity" ref="https://ko.wikipedia.org/wiki/라틴족">
+               <org xml:id="LJ" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/라틴족">
                   <orgName xml:lang="ko">라틴족</orgName>
-               </org>>
-               <org xml:id="SS" type="ethnicity" ref="https://ko.wikipedia.org/wiki/색슨인">
+               </org>
+               <org xml:id="SS" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/색슨인">
                   <orgName xml:lang="ko">살손인죵</orgName>
                </org>
-               <org xml:id="GE" type="ethnicity" ref="https://ko.wikipedia.org/wiki/게르만족">
+               <org xml:id="GE" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/게르만족">
                   <orgName xml:lang="ko">일이만</orgName>
                </org>
-               <org xml:id="GS" type="ethnicity" ref="https://ko.wikipedia.org/wiki/카자크">
+               <org xml:id="GS" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/카자크">
                   <orgName xml:lang="ko">가ᄉᆞᆯ극</orgName>
                </org>
-               <org xml:id="FR_P" type="ethnicity" ref ="https://ko.wikipedia.org/wiki/프랑스인">
+               <org xml:id="FR_P" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/프랑스인">
                   <orgName xml:lang="ko"><placeName ref="#FR">법</placeName>인</orgName>
                </org>
-               <org xml:id="CH_P" type="ethnicity" ref ="https://ko.wikipedia.org/wiki/스위스인">
+               <org xml:id="CH_P" type="ethnicity" sameAs="https://ko.wikipedia.org/wiki/스위스인">
                   <orgName xml:lang="ko"><placeName ref="#CH">셔서</placeName>인</orgName>
                </org>
                <org xml:id="JSC_R" type="residents">
@@ -344,91 +349,91 @@
 
          <settingDesc>
             <listPlace>
-               <place xml:id="FR" type="country" ref="https://ko.wikipedia.org/wiki/프랑스">
+               <place xml:id="FR" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0060457">
                   <placeName xml:lang="ko">법국</placeName>
                </place>
-               <place xml:id="UK" type="country" ref="https://ko.wikipedia.org/wiki/영국">
+               <place xml:id="UK" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0037229">
                   <placeName xml:lang="ko">영국</placeName>
                </place>
-               <place xml:id="DE" type="country" ref="https://ko.wikipedia.org/wiki/독일">
+               <place xml:id="DE" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0016030">
                   <placeName xml:lang="ko">덕국</placeName>
                </place>
-               <place xml:id="CN" type="country" ref="https://ko.wikipedia.org/wiki/중국">
+               <place xml:id="CN" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0053702">
                   <placeName xml:lang="ko">쳥국</placeName>
                </place>
-               <place xml:id="IN" type="country" ref="https://ko.wikipedia.org/wiki/인도">
+               <place xml:id="IN" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0046855">
                   <placeName xml:lang="ko">린도</placeName>
                </place>
-               <place xml:id="AMC" type="continent" ref="https://ko.wikipedia.org/wiki/아메리카">
+               <place xml:id="AMC" type="continent" sameAs="https://ko.wikipedia.org/wiki/아메리카">
                   <placeName xml:lang="ko">아미리ᄭᅡ</placeName>
                </place>
-               <place xml:id="US" type="country" ref="https://ko.wikipedia.org/wiki/미국">
+               <place xml:id="US" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0019890">
                   <placeName xml:lang="ko">합즁국</placeName>
                </place>
-               <place xml:id="JP" type="country" ref="https://ko.wikipedia.org/wiki/일본">
+               <place xml:id="JP" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0047193">
                   <placeName xml:lang="ko">일본</placeName>
                </place>
-               <place xml:id="IT" type="country" ref="https://ko.wikipedia.org/wiki/이탈리아">
+               <place xml:id="IT" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0046314">
                   <placeName xml:lang="ko">이대리</placeName>
                </place>
-               <place xml:id="ES" type="country" ref="https://ko.wikipedia.org/wiki/스페인">
+               <place xml:id="ES" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0032118">
                   <placeName xml:lang="ko">셔반아</placeName>
                </place>
-               <place xml:id="BE" type="country" ref="https://ko.wikipedia.org/wiki/벨기에">
+               <place xml:id="BE" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0022802">
                   <placeName xml:lang="ko">비래시</placeName>
                </place>
-               <place xml:id="SE" type="country" ref="https://ko.wikipedia.org/wiki/스웨덴">
+               <place xml:id="SE" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0032112">
                   <placeName xml:lang="ko">셔젼</placeName>
                </place>
-               <place xml:id="NO" type="country" ref="https://ko.wikipedia.org/wiki/노르웨이">
+               <place xml:id="NO" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0012729">
                   <placeName xml:lang="ko">라위</placeName>
                </place>
-               <place xml:id="CH" type="country" ref="https://ko.wikipedia.org/wiki/스위스">
+               <place xml:id="CH" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0032113">
                   <placeName xml:lang="ko">셔서</placeName>
                </place>
-               <place xml:id="RU" type="country" ref="https://ko.wikipedia.org/wiki/러시아">
+               <place xml:id="RU" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0017236">
                   <placeName xml:lang="ko">아라ᄉᆞ</placeName>
                </place>
-               <place xml:id="PR" type="city" ref="https://ko.wikipedia.org/wiki/파리_(프랑스)">
+               <place xml:id="PR" type="city" sameAs="https://ko.wikipedia.org/wiki/파리_(프랑스)">
                   <placeName xml:lang="ko">파려</placeName>
                </place>
-               <place xml:id="NY" type="city" ref="https://ko.wikipedia.org/wiki/뉴욕">
+               <place xml:id="NY" type="city" sameAs="https://ko.wikipedia.org/wiki/뉴욕">
                   <placeName xml:lang="ko">누육</placeName>
                </place>
-               <place xml:id="BR" type="city" ref="https://ko.wikipedia.org/wiki/브라이턴">
+               <place xml:id="BR" type="city" sameAs="https://ko.wikipedia.org/wiki/브라이턴">
                   <placeName xml:lang="ko">발뢰돈</placeName>
                </place>
-               <place xml:id="LD" type="city" ref="https://ko.wikipedia.org/wiki/런던">
+               <place xml:id="LD" type="city" sameAs="https://ko.wikipedia.org/wiki/런던">
                   <placeName xml:lang="ko">륜돈</placeName>
                </place>
-               <place xml:id="JE" type="city" ref="https://ko.wikipedia.org/wiki/예나">
+               <place xml:id="JE" type="city" sameAs="https://ko.wikipedia.org/wiki/예나">
                   <placeName xml:lang="ko">야리부</placeName>
                </place>
-               <place xml:id="AS" type="city" ref="https://ko.wikipedia.org/wiki/알자스">
+               <place xml:id="AS" type="city" sameAs="https://ko.wikipedia.org/wiki/알자스">
                   <placeName xml:lang="ko">아이ᄉᆞ사</placeName>
                </place>
-               <place xml:id="SD" type="city" ref="https://ko.wikipedia.org/wiki/스당">
+               <place xml:id="SD" type="city" sameAs="https://ko.wikipedia.org/wiki/스당">
                   <placeName xml:lang="ko">산당</placeName>
                </place>
-               <place xml:id="SF" type="city" ref="https://ko.wikipedia.org/wiki/샌프란시스코">
+               <place xml:id="SF" type="city" sameAs="https://ko.wikipedia.org/wiki/샌프란시스코">
                   <placeName xml:lang="ko">상항</placeName>
                </place>
-               <place xml:id="PCF" type="ocean" ref="https://ko.wikipedia.org/wiki/태평양">
+               <place xml:id="PCF" type="ocean" sameAs="https://ko.wikipedia.org/wiki/태평양">
                   <placeName xml:lang="ko">ᄐᆡ평양</placeName>
                </place>
-               <place xml:id="EU" type="continent" ref="https://ko.wikipedia.org/wiki/유럽">
+               <place xml:id="EU" type="continent" sameAs="https://ko.wikipedia.org/wiki/유럽">
                   <placeName xml:lang="ko">구라파</placeName>
                </place>
-               <place xml:id="ASIA" type="continent" ref="https://ko.wikipedia.org/wiki/아시아">
+               <place xml:id="ASIA" type="continent" sameAs="https://ko.wikipedia.org/wiki/아시아">
                   <placeName xml:lang="ko">아셰아</placeName>
                </place>
-               <place xml:id="RCK" type="mountains" ref="https://ko.wikipedia.org/wiki/로키산맥">
+               <place xml:id="RCK" type="mountains" sameAs="https://ko.wikipedia.org/wiki/로키산맥">
                   <placeName xml:lang="ko">낙긔산ᄆᆡᆨ</placeName>
                </place>
-               <place xml:id="CC" type="mountains" ref="https://ko.wikipedia.org/wiki/캐스케이드산맥">
+               <place xml:id="CC" type="mountains" sameAs="https://ko.wikipedia.org/wiki/캐스케이드산맥">
                   <placeName xml:lang="ko">ᄀᆡ특산</placeName>
                </place>
-               <place xml:id="OG" type="region" ref="https://ko.wikipedia.org/wiki/오리건주">
+               <place xml:id="OG" type="region" sameAs="https://ko.wikipedia.org/wiki/오리건주">
                   <placeName xml:lang="ko">아란궁</placeName>
                </place>
                <place xml:id="JSC" type="town">
@@ -481,48 +486,48 @@
 <div type="chapter" n="1">
 <head>뎨일쟝 하ᄂᆞᆯ로셔 날어온 <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure></head>
 <p>셕양은, 염々ᄒᆞ고, 만목은, 울총ᄒᆞ야, 슈간두옥이, 은영ᄒᆞᆫ듸, 긔화이초가, 산만ᄒᆞ야ᄯᅳᆯ압헤, 가득ᄒᆞ고, 셰죽념을, 빗기것어, 셔안이졍졔ᄒᆞᆫ듸, 나이, <measure type="age" unit="year" quantity="50">오십여</measure>나된, <rs ref="#ZS">신ᄉᆞ</rs>가슈염이, 희ᄯᅳᆨ희ᄯᅳᆨᄒᆞ고, 긔골이쥰슈ᄒᆞ며, 안ᄉᆡᆨ이혼후ᄒᆞ야, ᄌᆞᄋᆡ심이, 미목간에, 은연ᄒᆞ게뵈이니, 당셰에, 유명ᄒᆞᆫ, 화공이라도, 그화긔와, ᄋᆡ용을방불히, 그리기어려올너라.</p>
-<p>그<rs ref="#ZS">신ᄉᆞ</rs>ᄂᆞᆫ, <placeName ref="#FR">법국</placeName><placeName ref="#PR">파려</placeName>, <persName ref="#ZS"><roleName>의학ᄉᆞ</roleName>좌션군</persName>인ᄃᆡ, <placeName ref="#UK">영국</placeName><placeName ref="#BR">발뢰돈부</placeName>에, 와셔, <name type="studies">위ᄉᆡᆼᄉᆞ</name>를연구ᄒᆞ니, <rs ref="#BR_INN">이집</rs>은, <rs ref="#BR_INN"><rs ref="#ZS">그신ᄉᆞ</rs>의, 슉식ᄒᆞᄂᆞᆫ려관</rs>이러라.</p>
+<p>그<rs ref="#ZS">신ᄉᆞ</rs>ᄂᆞᆫ, <placeName ref="#FR">법국</placeName><placeName ref="#PR">파려</placeName>, <persName ref="#ZS"><roleName>의학ᄉᆞ</roleName>좌션군</persName>인ᄃᆡ, <placeName ref="#UK">영국</placeName><rs type="place" ref="#BR">발뢰돈부</rs>에, 와셔, <name type="studies">위ᄉᆡᆼᄉᆞ</name>를연구ᄒᆞ니, <rs type="place" ref="#BR_INN">이집</rs>은, <rs type="place" ref="#BR_INN"><rs type="person" ref="#ZS">그신ᄉᆞ</rs>의, 슉식ᄒᆞᄂᆞᆫ려관</rs>이러라.</p>
 <p>이ᄯᆡ<persName ref="#ZS">좌션군</persName>이, <rs type="object" subtype="press">대리신문ᄒᆞᆫ쟝</rs>을들고보다가, 셔안에노으며, 혼ᄌᆞ말로, 탄복ᄒᆞᄂᆞᆫ말이</p>
 <said who="#ZS" aloud="false" direct="true"><rs type="object" subtype="press">이러ᄒᆞᆫ, 신문지</rs>ᄂᆞᆫ, 응당<placeName ref="#UK">영국</placeName>즁에도, 몃ᄌᆡ안가리로다.</said>
-<p><rs type="object" subtype="press">그신문</rs>은, <date type="relative" subtype="this_day">이날</date>, <placeName ref="#BR">발뢰돈</placeName><rs type="event">위ᄉᆡᆼ회의</rs>에, <persName ref="#ZS"><placeName ref="#FR">법국</placeName><roleName>의원</roleName>좌션</persName>의, 연셜을, 게재ᄒᆞ얏고, 기외에, <orgName>태오ᄉᆞ</orgName>, <orgName>탈란</orgName>, <orgName>잡라ᄉᆞ</orgName>, <rs type="object" subtype="press">각신보</rs>에, 다이연셜를, 시럿시니, 이ᄂᆞᆫ<persName ref="#ZS">좌션<roleName>의학ᄉᆞ</roleName></persName>가, <date type="relative" subtype="last_day">어졔</date>,</p>
-<p><rs type="event">위ᄉᆡᆼ회의</rs>에, (ᄉᆞ람이, 엇지ᄒᆞ면, 죽지안는, 술법을엇을고)ᄒᆞᆫ문뎨로, 연셜ᄒᆞᆷᄋᆡ, 그말이졀당ᄒᆞᆷ으로, 일시좌즁에, 회원들이, 졀々탄복ᄒᆞ고, <placeName ref="#LD">륜돈젼도(倫敦全都)</placeName><rs type="org" subtype="press">각신보관</rs>에편젼ᄒᆞ니, <persName ref="#ZS">좌션군</persName>의명예가, 일국에굉쟝ᄒᆞ더라.</p>
+<p><rs type="object" subtype="press">그신문</rs>은, 이날, <placeName ref="#BR">발뢰돈</placeName><rs type="event">위ᄉᆡᆼ회의</rs>에, <persName ref="#ZS"><placeName ref="#FR">법국</placeName><roleName>의원</roleName>좌션</persName>의, 연셜을, 게재ᄒᆞ얏고, 기외에, <orgName>태오ᄉᆞ</orgName>, <orgName>탈란</orgName>, <orgName>잡라ᄉᆞ</orgName>, <rs type="object" subtype="press">각신보</rs>에, 다이연셜를, 시럿시니, 이ᄂᆞᆫ<persName ref="#ZS">좌션<roleName>의학ᄉᆞ</roleName></persName>가, <date type="relative" subtype="last_day">어졔</date>,</p>
+<p><rs type="event">위ᄉᆡᆼ회의</rs>에, (ᄉᆞ람이, 엇지ᄒᆞ면, 죽지안는, 술법을엇을고)ᄒᆞᆫ문뎨로, 연셜ᄒᆞᆷᄋᆡ, 그말이졀당ᄒᆞᆷ으로, 일시좌즁에, 회원들이, 졀々탄복ᄒᆞ고, <placeName type="place" ref="#LD">륜돈젼도(<foreign xml:lang="zh">倫敦全都</foreign>)</placeName><rs type="org" subtype="press">각신보관</rs>에편젼ᄒᆞ니, <persName ref="#ZS">좌션군</persName>의명예가, 일국에굉쟝ᄒᆞ더라.</p>
 <p><persName ref="#ZS">좌션군</persName>이, 맛ᄎᆞᆷ, <rs type="object" subtype="press">각신문</rs>을보다가, 창밧게인젹이ᄂᆞ거날, 창을열고보니, <rs ref="#ZS_SV">시ᄌᆞ</rs>가, 명편ᄒᆞᆫ쟝을드리며, 엿ᄌᆞ오ᄃᆡ,</p>
-<said who="#ZS_SV" aloud="true" direct="true">엇던, <rs ref="#GB">손임</rs>이, <rs ref="#ZS">션ᄉᆡᆼ</rs>을뵈와지라ᄒᆞ오니, 쳥ᄒᆞ야, 드리오릿가.</said>
+<said who="#ZS_SV" aloud="true" direct="true">엇던, <rs type="person" ref="#GB">손임</rs>이, <rs type="person" ref="#ZS">션ᄉᆡᆼ</rs>을뵈와지라ᄒᆞ오니, 쳥ᄒᆞ야, 드리오릿가.</said>
 <p><persName ref="#ZS">좌션</persName>이, 명편을밧아보고, 마ᄋᆞᆷ에, 의아ᄒᆞ야.</p>
-<said who="#ZS" aloud="false" direct="true"><rs ref="#GB">이ᄉᆞ람</rs>, <rs ref="#ZS">날</rs>과면분이업ᄂᆞᆫᄃᆡ, 엇지ᄒᆞ야, ᄎᆞᆺᄂᆞᆫ고.</said>
+<said who="#ZS" aloud="false" direct="true"><rs type="person" ref="#GB">이ᄉᆞ람</rs>, <rs type="person" ref="#ZS">날</rs>과면분이업ᄂᆞᆫᄃᆡ, 엇지ᄒᆞ야, ᄎᆞᆺᄂᆞᆫ고.</said>
 <p>ᄒᆞ며, 명편을ᄌᆡᄉᆞᆷ보니, 쎳시되.</p>
 <p><placeName><placeName ref="#LD">륜돈</placeName>ᄉᆞ샤ᄇᆡᆨ등, 구십ᄉᆞᆷ호</placeName>, <persName ref="#GB"></persName><roleName>률ᄉᆞ</roleName>, 겸, <roleName>공증인</roleName>, <persName ref="#GB">가본</persName>이라ᄒᆞ엿거ᄂᆞᆯ, <persName ref="#ZS">좌션</persName>이, 더욱의심ᄒᆞ되.</p>
-<said who="#ZS" aloud="false" direct="true">더구나, <rs type="role" ref="#GB">률ᄉᆞ</rs>가, <rs ref="#ZS">나</rs>를무ᄉᆞᆷ일로, 찻노, 아모려나, 마져, 동졍을보리라.</said>
-<p>하고, <rs ref="#ZS_SV">시ᄌᆞ</rs>다려,</p>
-<said who="#ZS" aloud="true" direct="true"><rs ref="#GB">손임</rs>을, 드러오시게ᄒᆞ여라.</said>
-<p><rs ref="#GB">ᄀᆡᆨ</rs>이, 드러오ᄂᆞᆫᄃᆡ, 안ᄉᆡᆨ이온화ᄒᆞ며, 졍신이씩々하고, 나히, <measure type="age" unit="year" quantity="30">삼십여</measure>나, 되엿더라. <persName ref="#ZS">좌션</persName>과, 례ᄒᆞ고, 좌뎡ᄒᆞᆫ후,</p>
-<p><said who="#GB" aloud="true" direct="true"><rs ref="#GB">나</rs>는, <placeName ref="#LD">륜돈</placeName><placeName>ᄇᆡᆨ등</placeName>에, 잇ᄂᆞᆫ, <persName ref="#GB"><roleName>률ᄉᆞ</roleName>가본</persName>이라ᄒᆞ오, <rs ref="#ZS">션ᄉᆡᆼ</rs>은, <persName ref="#ZS"><roleName>의학ᄉᆞ</roleName>좌션군</persName>이, 안이시오.</said></p>
+<said who="#ZS" aloud="false" direct="true">더구나, <rs type="occupation" ref="#GB">률ᄉᆞ</rs>가, <rs type="person" ref="#ZS">나</rs>를무ᄉᆞᆷ일로, 찻노, 아모려나, 마져, 동졍을보리라.</said>
+<p>하고, <rs type="person" ref="#ZS_SV">시ᄌᆞ</rs>다려,</p>
+<said who="#ZS" aloud="true" direct="true"><rs type="person" ref="#GB">손임</rs>을, 드러오시게ᄒᆞ여라.</said>
+<p><rs type="person" ref="#GB">ᄀᆡᆨ</rs>이, 드러오ᄂᆞᆫᄃᆡ, 안ᄉᆡᆨ이온화ᄒᆞ며, 졍신이씩々하고, 나히, <measure type="age" unit="year" quantity="30">삼십여</measure>나, 되엿더라. <persName ref="#ZS">좌션</persName>과, 례ᄒᆞ고, 좌뎡ᄒᆞᆫ후,</p>
+<p><said who="#GB" aloud="true" direct="true"><rs type="person" ref="#GB">나</rs>는, <placeName ref="#LD">륜돈</placeName><placeName>ᄇᆡᆨ등</placeName>에, 잇ᄂᆞᆫ, <rs type="person" ref="#GB"><rs type="occupation" ref="#GB">률ᄉᆞ</rs>가본</rs>이라ᄒᆞ오, <rs type="person" ref="#ZS">션ᄉᆡᆼ</rs>은, <persName ref="#ZS"><roleName>의학ᄉᆞ</roleName>좌션군</persName>이, 안이시오.</said></p>
 <p><said who="#ZS" aloud="true" direct="true">그럿소,</said></p>
-<p><said who="#GB" aloud="true" direct="true">그런면, <rs ref="#ZS">션ᄉᆡᆼ</rs>이<persName ref="#ZS">법랑송좌션</persName>씨시오.</said></p>
+<p><said who="#GB" aloud="true" direct="true">그런면, <rs type="person" ref="#ZS">션ᄉᆡᆼ</rs>이<persName ref="#ZS">법랑송좌션</persName>씨시오.</said></p>
 <p><said who="#ZS" aloud="true" direct="true">그러ᄒᆞ오.</said></p>
-<p><said who="#GB" aloud="true" direct="true">그러면, <rs ref="#ZS">션ᄉᆡᆼ</rs>이, 본ᄅᆡ, <placeName>디북평</placeName>에, 사셧나요.</said></p>
+<p><said who="#GB" aloud="true" direct="true">그러면, <rs type="person" ref="#ZS">션ᄉᆡᆼ</rs>이, 본ᄅᆡ, <placeName ref="https://encykorea.aks.ac.kr/Article/E0024773">디북평</placeName>에, 사셧나요.</said></p>
 <p><said who="#ZS" aloud="true" direct="true">과연, 그러ᄒᆞ오.</said></p>
-<p><said who="#GB" aloud="true" direct="true">그런즉, <rs ref="#ZS_F">존공</rs>이, <persName ref="#ZS_F">애달이좌션씨</persName>가, 안니시오.</said></p>
+<p><said who="#GB" aloud="true" direct="true">그런즉, <rs type="person" ref="#ZS_F">존공</rs>이, <persName ref="#ZS_F">애달이좌션</persName>씨가, 안니시오.</said></p>
 <p><said who="#ZS" aloud="true" direct="true">하, 그러ᄒᆞ거니와, 엇지ᄒᆞ야, 무르시나요.</said></p>
-<p><said who="#GB" aloud="true" direct="true">그런즉, <rs ref="#ZS_GF">군의됴부</rs>게셔도, <persName ref="#ZS_GF">애달이좌션시</persName>라, 아니ᄒᆞ오.</said></p>
+<p><said who="#GB" aloud="true" direct="true">그런즉, <rs type="person" ref="#ZS_GF">군의됴부</rs>게셔도, <persName ref="#ZS_GF">애달이좌션</persName>시라, 아니ᄒᆞ오.</said></p>
 <p><persName ref="#GB">가본</persName>이, ᄒᆞ면셔, 품의셔, 큰, ᄎᆡᆨᄌᆞᄒᆞ나를ᄂᆡ여, 뒤젹뒤젹ᄒᆞ더니.</p>
-<p><said who="#GB" aloud="true" direct="true">올소, <rs ref="#ZS_F">존공</rs>게셔, <date when="1857-03-06">일쳔팔ᄇᆡᆨ오십칠년삼월륙일</date>에, <placeName><placeName ref="#PR">파려</placeName>타륜리졍, 오십ᄉᆞ호</placeName>에셔, 하셰ᄒᆞ시지, 안엇소.</said></p>
+<p><said who="#GB" aloud="true" direct="true">올소, <rs type="person" ref="#ZS_F">존공</rs>게셔, <date when="1857-03-06">일쳔팔ᄇᆡᆨ오십칠년삼월륙일</date>에, <placeName><placeName ref="#PR">파려</placeName>타륜리졍, 오십ᄉᆞ호</placeName>에셔, 하셰ᄒᆞ시지, 안엇소.</said></p>
 <p><persName ref="#ZS">좌션</persName>이, 이말을듯고, 놀나며, ᄒᆞᆫ난말이.</p>
-<p><said who="#ZS" aloud="true" direct="true"><rs ref="#GB">손임</rs>이, <rs type="household" corresp="#ZS">우리집</rs>일을, 엇지이갓치, 자셰이, 아시ᄂᆞ뇨.</said></p>
+<p><said who="#ZS" aloud="true" direct="true"><rs type="person" ref="#GB">손임</rs>이, <rs type="household" ref="#ZS">우리집</rs>일을, 엇지이갓치, 자셰이, 아시ᄂᆞ뇨.</said></p>
 <p><persName ref="#GB">가본</persName>이, 그말, ᄃᆡ답은안니ᄒᆞ고, ᄯᅩ뭇되</p>
-<p><said who="#GB" aloud="true" direct="true"><date when="1897-03-06">일쳔팔ᄇᆡᆨ구십칠년삼월륙일</date>에, 하셰ᄒᆞ신, <rs ref="#GRSP"><persName ref="#ZS">좌션</persName>씨, 모친</rs>의, 일홈은, <persName ref="#GRSP">가리륜산파이</persName>인ᄃᆡ, <rs ref="#GRSP"><persName ref="#BRSP">배ᄂᆡ가륜산파이</persName>의, ᄯᆞᆯ</rs>이오, <rs ref="#GRSP">ᄆᆡ씨</rs>ᄂᆞᆫ, <date when="1812">일쳔팔ᄇᆡᆨ십이년</date>에ᄌᆞᆨ고ᄒᆞ고, <rs ref="#GKSC"><persName ref="#GRSP">가리륜산파이</persName>의, ᄒᆞᆫ, 오라버니</rs>잇셔일홈은, <persName ref="#GKSC">경극륜ᄉᆞᆫ파이</persName>인ᄃᆡ, <orgName type="military">뎨삼십륙경긔ᄃᆡ</orgName>, <rs type="person" subtype="bandsman">군악ᄉᆞ</rs>를단녓소.</said></p>
+<p><said who="#GB" aloud="true" direct="true"><date when="1897-03-06">일쳔팔ᄇᆡᆨ구십칠년삼월륙일</date>에, 하셰ᄒᆞ신, <rs type="person" ref="#GRSP"><persName ref="#ZS">좌션</persName>씨, 모친</rs>의, 일홈은, <persName ref="#GRSP">가리륜산파이</persName>인ᄃᆡ, <rs ref="#GRSP"><persName ref="#BRSP">배ᄂᆡ가륜산파이</persName>의, ᄯᆞᆯ</rs>이오, <rs type="person" ref="#GRSP">ᄆᆡ씨</rs>ᄂᆞᆫ, <date when="1812">일쳔팔ᄇᆡᆨ십이년</date>에ᄌᆞᆨ고ᄒᆞ고, <rs type="person" ref="#GKSC"><persName ref="#GRSP">가리륜산파이</persName>의, ᄒᆞᆫ, 오라버니</rs>잇셔일홈은, <persName ref="#GKSC">경극륜ᄉᆞᆫ파이</persName>인ᄃᆡ, <orgName type="military">뎨삼십륙경긔ᄃᆡ</orgName>, <rs type="person" subtype="bandsman">군악ᄉᆞ</rs>를단녓소.</said></p>
 <p><persName ref="#ZS">좌션</persName>이, 듯다가, ᄎᆞᆨ악ᄒᆞ여, 아모말도, 못ᄒᆞ고, 우둑커니, 부엉이, 갓치, 한참잇다가, 다시말를붓친다.</p>
-<p><said who="#ZS" aloud="true" direct="true">하, <rs ref="#ZS">나</rs>는, <rs type="household" corresp="#GRSP">우리<rs ref="#GRSP">죠모</rs>집</rs>일를, 모호ᄒᆞ야, 긔억지못ᄒᆞ오니, 붓그러온말이, 오ᄂᆞ, <rs type="household" corresp="#ZS">우리집</rs>, <rs type="information" subtype="familyTree">셰계</rs>가엇지ᄒᆞ야, <rs ref="#GB">션ᄉᆡᆼ</rs>의게잇던지, 이럿틋소샹이, 아시니, <rs ref="#ZS">ᄂᆡ</rs>마음이, 엇더타, ᄒᆞᆯ길업소.</said></p>
-<p><said who="#GB" aloud="true" direct="true"><rs ref="#ZS">군</rs>의, 다른형뎨ᄌᆞᄆᆡ간, 누가ᄯᅩ잇소.</said></p>
+<p><said who="#ZS" aloud="true" direct="true">하, <rs type="person" ref="#ZS">나</rs>는, <rs type="household" ref="#GRSP">우리<rs type="person" ref="#GRSP">죠모</rs>집</rs>일를, 모호ᄒᆞ야, 긔억지못ᄒᆞ오니, 붓그러온말이, 오ᄂᆞ, <rs type="household" ref="#ZS">우리집</rs>, <rs type="information" subtype="familyTree">셰계</rs>가엇지ᄒᆞ야, <rs type="person" ref="#GB">션ᄉᆡᆼ</rs>의게잇던지, 이럿틋소샹이, 아시니, <rs type="person" ref="#ZS">ᄂᆡ</rs>마음이, 엇더타, ᄒᆞᆯ길업소.</said></p>
+<p><said who="#GB" aloud="true" direct="true"><rs type="person" ref="#ZS">군</rs>의, 다른형뎨ᄌᆞᄆᆡ간, 누가ᄯᅩ잇소.</said></p>
 <p><persName ref="#ZS">좌션</persName>이, 슯흔긔ᄉᆡᆨ을ᄯᅳ이며.</p>
-<p><said who="#ZS" aloud="true" direct="true">내, <rs ref="#ZS_BRO">아오</rs>ᄒᆞᆫ아잇더니, 불ᄒᆡᆼᄒᆞ야, 일직죽고, 이제, <rs type="person" subtype="family" corresp="#ZS">우리보모</rs>혈육은, <rs ref="#ZS">나</rs>하나ᄲᅮᆫ이요.</said></p>
-<p><persName ref="#GB">가본</persName>이, 허々우시며, 일변, <rs ref="#ZS">쥬인</rs>의비회를, 위로할겸, 조롱격으로, 말을ᄒᆞᆫ다.</p>
-<p><said who="#GB" aloud="true" direct="true">허々, <rs ref="#ZS">그ᄃᆡ</rs>가, <rs type="person" subtype="peerage" ref="#ZS">후작</rs>으로, <rs type="person" subtype="peerage" ref="#ZS">각하</rs>를, 밧치리로다.</said></p>
-<p><persName ref="#ZS">좌션</persName>이, 이말을듯고, 더욱알길업셔, 물그럼이, <rs ref="#GB">ᄀᆡᆨ</rs>의모양만보며, 속종으로, <said aloud="false" direct="true" who="#ZS"><rs ref="#GB">뎌손</rs>이, 아마<name type="disease">광질</name>이잇ᄂᆞ보다, 엇지그리괴이ᄒᆞᆫ, 말을ᄒᆞ노</said>ᄒᆞ면셔, 겻눈질ᄒᆞ여, <rs ref="#GB">손</rs>을보니, <persName ref="#GB">가본</persName>이, 그눈치을알엇던지, 허々우시며, ᄒᆞᄂᆞᆫ말이라.</p>
-<p><said who="#GB" aloud="true" direct="true">그러커니, <rs ref="#ZS">그ᄃᆡ</rs>, 응당<date type="relative" subtype="this_day">오날</date>, <rs ref="#GB">쳥치안닌손</rs>이와셔, 이런말ᄒᆞᆯ줄, 몰낫스리니, <rs ref="#GB">날</rs>다려, 필연, <name type="disease">광질</name>잇다ᄒᆞ리로다, 그러ᄂᆞ, <rs ref="#ZS">각하</rs>가, 몰낫지, <rs type="person" subtype="peerage" ref="#ZS">후ᄌᆞᆨ</rs>도, 엇으려니와, ᄯᅩ, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>ᄌᆡ산을, 엇겟시니, 엇더ᄒᆞ뇨.</said></p>
-<p><said who="#ZS" aloud="true" direct="true"><rs ref="#GB">션ᄉᆡᆼ</rs>은, 무ᄉᆞᆫ말ᄉᆞᆷ이, 죵々이러ᄒᆞ시뇨.</said></p>
-<p><said who="#GB" aloud="true" direct="true"><rs ref="#GB">ᄂᆡ</rs>, <rs ref="#ZS">각하</rs>를위ᄒᆞ야, 일쟝ᄅᆡ력을말ᄒᆞ리다.</said></p>
-<p><said who="#GB" aloud="true" direct="true"><rs ref="#ZS">각하</rs>의<rs ref="#GRSP">조모</rs>, <persName ref="#GRSP">가리륜ᄉᆞᆫ파이</persName>의, <rs ref="#GKSC">오라버니</rs>, <persName ref="#GKSC">경극</persName>씨가, <orgName type="military">삼십륙경긔ᄃᆡ</orgName>, <rs type="person" subtype="bandsman">군악ᄉᆞ</rs>를단일젹에, <rs ref="#GKSC">오ᄅᆡ</rs>, <placeName ref="#IN">린도</placeName>에셔, 사ᄂᆞᆫᄃᆡ, <rs ref="#IN">그디방</rs><placeName>묵ᄉᆞ위랍ᄉᆞ</placeName>에, <rs ref="#GKSC_W">과부</rs>와, 결혼ᄒᆞ여, 살다가, <rs ref="#GKSC_W">그과부</rs>가, 즉시죽고, 일졀ᄌᆡ산집물를, <persName ref="#GKSC">경극</persName>씨가, 가지고잇더니, 그후에, <persName ref="#GKSC">경극</persName>씨가, ᄯᅩᄒᆞᆫ, <placeName>도산</placeName>에도라가고, 가산은, 의례히, <rs ref="#GKSC_S">그아들</rs>이ᄎᆞ지ᄒᆞᆯ터인ᄃᆡ, 그<rs ref="#GKSC_S">아ᄒᆡ</rs>, ᄯᅩ어려셔죽고, 이ᄯᆡ, <rs ref="#IN">이디방</rs>은<rs type="place" ref="#UK">우리<placeName ref="#UK">영국</placeName></rs>이, 뎜령ᄒᆞᆫ고로, 그ᄌᆡ산을, <orgName corresp="#UK">영국졍부</orgName>에셔, 잠시보관ᄒᆞ야, <rs ref="#GKSC">그임ᄌᆞ</rs>의, <rs ref="#ZS">졍통혈속</rs>을, 기다리ᄂᆞᆫᄃᆡ, 당초에, ᄌᆡ산슈ᄋᆡᆨ은, <measure type="currency" quantity="25000000" unit="KRW">이쳔오ᄇᆡᆨ만원</measure>일너니, 지금, <date dur="P30Y">삼십여년</date>에, 리ᄌᆞ를합계ᄒᆞ야, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>이되얏고, <rs ref="#MK">ᄂᆡ</rs>가, 또이ᄌᆡ산을간셥ᄒᆞ야, 조곰슈구롬을, 도라보지안니ᄒᆞ고, <rs ref="#ZS">졍통혈속</rs>을, ᄎᆞ지려ᄒᆞ되, <rs ref="#GB">몸</rs>이<rs type="org" subtype="farm">볍률회ᄉᆞ</rs>에, ᄆᆡ인고로, 결을이업셧고, ᄉᆞᄅᆞᆷ을널니노아, 진심갈력ᄒᆞ야, <persName ref="#GKSC">륜ᄉᆞᆫ파이</persName>의, <rs type="information" subtype="familyTree">셰계</rs>를, 엇더스나, ᄯᅩ몃ᄒᆡ에, 이혈속을찻되, ᄒᆞᆫᄉᆞᄅᆞᆷ도, ᄉᆡᆼ존ᄒᆞᆫ이업고, 속졀업시, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>을, <rs type="place" corresp="#UK">국고</rs>에잠겨두고, 다시식리ᄒᆞ지못ᄒᆞ니, 엇지가셕지안으리오, 일젼에, 우연히<rs type="object" subtype="press">신문지</rs>를보다가, <persName ref="#ZS">좌션</persName>씨의, 련셜이잇스ᄆᆡ존명을알고, <rs ref="#BR_INN">이곳</rs>에, 특히찻져왓더니, 과연<rs ref="#ZS">각하</rs>를맛낫도다, 이<placeName>묵ᄉᆞ위랍ᄉᆞ</placeName>의, <rs type="person" subtype="peerage" ref="#ZS">후작</rs>과, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>, ᄌᆡ산을, <rs ref="#ZS">각하</rs>가, 아니가지고, 뉘게가리오, <rs ref="#ZS">각하</rs>를위ᄒᆞ야, 만々치하ᄒᆞ거니와, <rs ref="#ZS">각하</rs>ㅡ이졔쓸일이잇스면, 곳, <orgName corresp="#LD">본부은ᄒᆡᆼ</orgName>에, <measure type="currency">수쳔만원</measure>이, 현ᄌᆡᄒᆞ니, 마음ᄃᆡ로, 츄심ᄒᆞᆯ것시오, <rs type="#MK">ᄂᆡ</rs>가, ᄌᆡ조업시ᄂᆞ, <date type="duration">다년</date>보관ᄒᆞ얏스니,<rs ref="#ZS">각하</rs>가, 뭇ᄂᆞᆫ말이잇스면, <rs type="#MK">ᄂᆡ</rs>가, ᄯᅩ셰々히고ᄒᆞ리니, <rs ref="#ZS">각하</rs>는, 그리아시오.</said></p>
+<p><said who="#ZS" aloud="true" direct="true"><rs type="person" ref="#ZS_BRO"><rs type="person" ref="#ZS">내</rs>, 아오</rs>ᄒᆞᆫ아잇더니, 불ᄒᆡᆼᄒᆞ야, 일직죽고, 이제, <rs type="person" ref="#ZS_F">우리보모</rs>혈육은, <rs type="person" ref="#ZS">나하나</rs>ᄲᅮᆫ이요.</said></p>
+<p><persName ref="#GB">가본</persName>이, 허々우시며, 일변, <rs type="person" ref="#ZS">쥬인</rs>의비회를, 위로할겸, 조롱격으로, 말을ᄒᆞᆫ다.</p>
+<p><said who="#GB" aloud="true" direct="true">허々, <rs type="person" ref="#ZS">그ᄃᆡ</rs>가, <rs type="occupation" subtype="peerage" ref="#ZS">후작</rs>으로, <rs type="person" subtype="peerage" ref="#ZS">각하</rs>를, 밧치리로다.</said></p>
+<p><persName ref="#ZS">좌션</persName>이, 이말을듯고, 더욱알길업셔, 물그럼이, <rs type="person" ref="#GB">ᄀᆡᆨ</rs>의모양만보며, 속종으로, <said aloud="false" direct="true" who="#ZS"><rs type="person" ref="#GB">뎌손</rs>이, 아마<rs type="disease">광질</rs>이잇ᄂᆞ보다, 엇지그리괴이ᄒᆞᆫ, 말을ᄒᆞ노</said>ᄒᆞ면셔, 겻눈질ᄒᆞ여, <rs type="person" ref="#GB">손</rs>을보니, <persName ref="#GB">가본</persName>이, 그눈치을알엇던지, 허々우시며, ᄒᆞᄂᆞᆫ말이라.</p>
+<p><said who="#GB" aloud="true" direct="true">그러커니, <rs type="person" ref="#ZS">그ᄃᆡ</rs>, 응당<date type="relative" subtype="this_day">오날</date>, <rs ref="#GB">쳥치안닌손</rs>이와셔, 이런말ᄒᆞᆯ줄, 몰낫스리니, <rs ref="#GB">날</rs>다려, 필연, <rs type="disease" ref="https://dict.wordrow.kr/m/33020/">광질</rs>잇다ᄒᆞ리로다, 그러ᄂᆞ, <rs type="person" ref="#ZS">각하</rs>가, 몰낫지, <rs type="occupation" subtype="peerage" ref="#ZS">후ᄌᆞᆨ</rs>도, 엇으려니와, ᄯᅩ, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>ᄌᆡ산을, 엇겟시니, 엇더ᄒᆞ뇨.</said></p>
+<p><said who="#ZS" aloud="true" direct="true"><rs type="person" ref="#GB">션ᄉᆡᆼ</rs>은, 무ᄉᆞᆫ말ᄉᆞᆷ이, 죵々이러ᄒᆞ시뇨.</said></p>
+<p><said who="#GB" aloud="true" direct="true"><rs ref="#GB">ᄂᆡ</rs>, <rs type="person" ref="#ZS">각하</rs>를위ᄒᆞ야, 일쟝ᄅᆡ력을말ᄒᆞ리다.</said></p>
+<p><said who="#GB" aloud="true" direct="true"><rs type="person" ref="#ZS">각하</rs>의<rs type="person" ref="#GRSP">조모</rs>, <persName ref="#GRSP">가리륜ᄉᆞᆫ파이</persName>의, <rs ref="#GKSC">오라버니</rs>, <persName ref="#GKSC">경극</persName>씨가, <orgName type="military">삼십륙경긔ᄃᆡ</orgName>, <rs type="occupation" subtype="bandsman">군악ᄉᆞ</rs>를단일젹에, <rs type="person" ref="#GKSC">오ᄅᆡ</rs>, <placeName ref="#IN">린도</placeName>에셔, 사ᄂᆞᆫᄃᆡ, <rs type="place" ref="#IN">그디방</rs><placeName>묵ᄉᆞ위랍ᄉᆞ</placeName>에, <rs type="person" ref="#GKSC_W">과부</rs>와, 결혼ᄒᆞ여, 살다가, <rs type="person" ref="#GKSC_W">그과부</rs>가, 즉시죽고, 일졀ᄌᆡ산집물를, <persName ref="#GKSC">경극</persName>씨가, 가지고잇더니, 그후에, <persName ref="#GKSC">경극</persName>씨가, ᄯᅩᄒᆞᆫ, <placeName>도산</placeName>에도라가고, 가산은, 의례히, <rs type="person" ref="#GKSC_S">그아들</rs>이ᄎᆞ지ᄒᆞᆯ터인ᄃᆡ, 그<rs type="person" ref="#GKSC_S">아ᄒᆡ</rs>, ᄯᅩ어려셔죽고, 이ᄯᆡ, <rs type="place" ref="#IN">이디방</rs>은<rs type="place" ref="#UK">우리<placeName ref="#UK">영국</placeName></rs>이, 뎜령ᄒᆞᆫ고로, 그ᄌᆡ산을, <orgName corresp="#UK"><placeName ref="UK">영국</placeName>졍부</orgName>에셔, 잠시보관ᄒᆞ야, <rs type="person" ref="#GKSC">그임ᄌᆞ</rs>의, <rs type="person" ref="#ZS">졍통혈속</rs>을, 기다리ᄂᆞᆫᄃᆡ, 당초에, ᄌᆡ산슈ᄋᆡᆨ은, <measure type="currency" quantity="25000000" unit="KRW">이쳔오ᄇᆡᆨ만원</measure>일너니, 지금, <date dur="P30Y">삼십여년</date>에, 리ᄌᆞ를합계ᄒᆞ야, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>이되얏고, <rs type="person" ref="#MK">ᄂᆡ</rs>가, 또이ᄌᆡ산을간셥ᄒᆞ야, 조곰슈구롬을, 도라보지안니ᄒᆞ고, <rs ref="#ZS">졍통혈속</rs>을, ᄎᆞ지려ᄒᆞ되, <rs type="person" ref="#GB">몸</rs>이<rs type="org" subtype="law firm">볍률회ᄉᆞ</rs>에, ᄆᆡ인고로, 결을이업셧고, ᄉᆞᄅᆞᆷ을널니노아, 진심갈력ᄒᆞ야, <persName ref="#GKSC">륜ᄉᆞᆫ파이</persName>의, <rs type="information" subtype="familyTree">셰계</rs>를, 엇더스나, ᄯᅩ몃ᄒᆡ에, 이혈속을찻되, ᄒᆞᆫᄉᆞᄅᆞᆷ도, ᄉᆡᆼ존ᄒᆞᆫ이업고, 속졀업시, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>을, <rs type="place" corresp="#UK">국고</rs>에잠겨두고, 다시식리ᄒᆞ지못ᄒᆞ니, 엇지가셕지안으리오, 일젼에, 우연히<rs type="object" subtype="press">신문지</rs>를보다가, <persName ref="#ZS">좌션</persName>씨의, 련셜이잇스ᄆᆡ존명을알고, <rs type="place" ref="#BR_INN">이곳</rs>에, 특히찻져왓더니, 과연<rs ref="#ZS">각하</rs>를맛낫도다, 이<placeName>묵ᄉᆞ위랍ᄉᆞ</placeName>의, <rs type="occupation" subtype="peerage" ref="#ZS">후작</rs>과, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>, ᄌᆡ산을, <rs ref="#ZS">각하</rs>가, 아니가지고, 뉘게가리오, <rs type="person" ref="#ZS">각하</rs>를위ᄒᆞ야, 만々치하ᄒᆞ거니와, <rs type="person" ref="#ZS">각하</rs>ㅡ이졔쓸일이잇스면, 곳, <orgName corresp="#LD">본부은ᄒᆡᆼ</orgName>에, <measure type="currency">수쳔만원</measure>이, 현ᄌᆡᄒᆞ니, 마음ᄃᆡ로, 츄심ᄒᆞᆯ것시오, <rs type="person" ref="#MK">ᄂᆡ</rs>가, ᄌᆡ조업시ᄂᆞ, <date type="duration">다년</date>보관ᄒᆞ얏스니,<rs type="person" ref="#ZS">각하</rs>가, 뭇ᄂᆞᆫ말이잇스면, <rs type="person" ref="#MK">ᄂᆡ</rs>가, ᄯᅩ셰々히고ᄒᆞ리니, <rs type="person" ref="#ZS">각하</rs>는, 그리아시오.</said></p>
 <p><persName ref="#GB">가본</persName>이, 말을맛치ᄆᆡ, <persName ref="#ZS">좌션</persName>이, ᄃᆡ답ᄒᆞᆯ바를, 모로고, 침음ᄒᆞ다가, 심두에, 말이막혀아모말도, 못ᄒᆞ더라,</p>
 </div>
 <div type="chapter" n="2">
@@ -580,7 +585,7 @@
 <head>뎨ᄉᆞ장 <orgName ref="#SS">살손인죵</orgName>과, <orgName ref="#LJ">라젼인죵</orgName></head>
 <p><persName ref="#IB">인비</persName>가, 바로<rs type="place" subtype="house" corresp="#GB"><persName ref="#GB">가본</persName>의집</rs>으로가, <persName ref="#GB">가본</persName>을보고, 인ᄉᆞᄒᆞᆫ마ᄃᆡ업시, 곳질문ᄒᆞᆫ번을, 톡々이하ᄂᆞᆫ모양이라,</p>
 <p><said who="#IB" aloud="true" direct="true"><persName ref="#IB">인비</persName>, <rs ref="#IB">나</rs>는<persName ref="#TSBF">륜산파이탈란ᄉᆡᆼ부인</persName>의, <rs ref="#IB">손ᄌᆞ</rs>오, <persName ref="#TSBF">탈란ᄉᆡᆼ부인</persName>은, 즉<persName ref="#GKSC">경극씨</persName>, <rs ref="#TSBF">맛누의</rs>신ᄃᆡ, 이졔, 그유산을엇엇다ᄒᆞᄂᆞᆫ, 쇼위<placeName ref="#FR">법국</placeName><persName ref="#ZS"><roleName>의학ᄉᆞ</roleName>좌션</persName>의, <rs ref="#GRSP">죠모</rs>ᄂᆞᆫ, <persName ref="#GKSC">경극씨</persName>의, <rs ref="#GRSP">ᄌᆞ근ᄆᆡ씨</rs>라, <rs ref="#TSBF">우리죠모</rs><persName ref="#TSBF">탈란ᄉᆡᆼ부인</persName>이, <date when="1792">일쳔칠ᄇᆡᆨ구십이년</date>에, <rs ref="#MK_GF">우리죠부</rs><persName ref="#MK_GF">묵이경</persName>의, <rs ref="#TSBF">부인</rs></said></p>
-<p><said who="#IB" aloud="true" direct="true">이되시고, <persName ref="#GKSC">경극씨</persName>와, <rs ref="#TSBF">우리죠모</rs>ᄉᆡᆼ시에, <rs type="object" subtype="letter">왕복셔ᄎᆞᆯ셕쟝</rs>이, <rs type="place" subtype="house" corresp="#IB"><rs ref="#IB">ᄂᆡ</rs>집</rs>에잇스니, 증거가명확ᄒᆞᆫ지라, <persName ref="#GKSC">경극씨</persName>가<rs ref="#IB">ᄂᆡ</rs>계ᄂᆞ, <persName ref="#ZS">좌션</persName>에게ᄂᆞ, 동시<rs ref="#GKSC">진외죵죠</rs>로ᄃᆡ, <rs ref="#TSBF">우리죠모</rs>ᄂᆞᆫ<rs ref="#TSBF">쟝녀</rs>가, 되시고, <rs ref="#GRSP"><persName ref="#ZS">좌션</persName>의죠모</rs>ᄂᆞᆫ, <rs ref="#GRSP">ᄎᆞ녀</rs>가되니, 친속은, 피ᄎᆞ일반이ᄂᆞ, 쟝유로말ᄒᆞ면, <rs type="household" corresp="#IB"><rs ref="#IB">나</rs>의 집</rs>이맛이되니, 엇지하야, 그유산을, <persName ref="#ZS">좌션</persName>이, 가지리오, <rs ref="#GB">그ᄃᆡ</rs>ᄂᆞᆫ질셔를문란케말고, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>을, 도로ᄎᆞ져, <rs ref="#IB">ᄂᆡ</rs>게돌녀보ᄂᆡ라,</said></p>
+<p><said who="#IB" aloud="true" direct="true">이되시고, <persName ref="#GKSC">경극씨</persName>와, <rs ref="#TSBF">우리죠모</rs>ᄉᆡᆼ시에, <rs type="object" subtype="letter">왕복셔ᄎᆞᆯ셕쟝</rs>이, <rs type="place" subtype="house" corresp="#IB"><rs ref="#IB">ᄂᆡ</rs>집</rs>에잇스니, 증거가명확ᄒᆞᆫ지라, <persName ref="#GKSC">경극씨</persName>가<rs ref="#IB">ᄂᆡ</rs>계ᄂᆞ, <persName ref="#ZS">좌션</persName>에게ᄂᆞ, 동시<rs ref="#GKSC">진외죵죠</rs>로ᄃᆡ, <rs ref="#TSBF">우리죠모</rs>ᄂᆞᆫ<rs ref="#TSBF">쟝녀</rs>가, 되시고, <rs ref="#GRSP"><persName ref="#ZS">좌션</persName>의죠모</rs>ᄂᆞᆫ, <rs ref="#GRSP">ᄎᆞ녀</rs>가되니, 친속은, 피ᄎᆞ일반이ᄂᆞ, 쟝유로말ᄒᆞ면, <rs type="household" ref="#IB"><rs ref="#IB">나</rs>의 집</rs>이맛이되니, 엇지하야, 그유산을, <persName ref="#ZS">좌션</persName>이, 가지리오, <rs ref="#GB">그ᄃᆡ</rs>ᄂᆞᆫ질셔를문란케말고, <measure type="currency" quantity="105000000" unit="KRW">일억오ᄇᆡᆨ만원</measure>을, 도로ᄎᆞ져, <rs ref="#IB">ᄂᆡ</rs>게돌녀보ᄂᆡ라,</said></p>
 <p>하면셔, 얼굴이, 불으락푸으락ᄒᆞ며, 슘이턱에닷ᄂᆞᆫ지, 씩씩거리니, <persName ref="#GB">가본</persName>이, 어히업셔, 젼후말을다ᄒᆞ고, ᄯᅩ일으되.</p>
 <p><persName ref="#ZS">좌션</persName>이, 임의이ᄌᆡ물을밧엇시니, 필연무단이, ᄲᆡ앗기지, 안니ᄒᆞᆯ리라ᄒᆞ나, <persName ref="#IB">인비</persName>ᄂᆞᆫ, 고집ᄒᆞ여, 졍소ᄌᆡ판가지ᄒᆞᆯ지라도, 이ᄌᆡ물를찻지못ᄒᆞ면, ᄆᆡᆼ셰코, 도라가지, 안니ᄒᆞ리라ᄒᆞ고.</p>
 <p><persName ref="#ZS">좌션</persName>은, 이ᄌᆡ물를, 혼ᄌᆞ쓰지안코, 일단ᄌᆞᄋᆡ심으로, 발셔조인광좌즁에, 션포ᄒᆞ야, 도로에파다ᄒᆞ고, 원건에류젼ᄒᆞ야, 무인부지라, 일죠에, 졸연히<rs ref="#IB">상ᄌᆡᆼ하는ᄌᆡ</rs>잇쓰니, 사ᄅᆞᆷ이, 혹<rs ref="#IB">나</rs>더러, 모칭ᄒᆞ얏다ᄒᆞ면, 엇지명예에, 손상치안으리요ᄒᆞ야, <rs type="person" subtype="group" ref="#ZS #IB">양인</rs>이상지ᄒᆞᄆᆡ, <persName ref="#GB">가본</persName>이, 좌지우지ᄒᆞ기어려와, 무한근심ᄒᆞ더니,</p>
@@ -634,7 +639,7 @@
 <p><rs ref="#MK">쇼년</rs>이, 이를보고, 탄상ᄒᆞᆷ을마지안타가, <said aloud="false" who="#MK" direct="true">ᄉᆡᆼ각건ᄃᆡ, <rs ref="#MK">내</rs>긔위<rs ref="#12_F">이곳</rs>에와셔, ᄒᆞᆫᄌᆡ죠도, <rs ref="#12_MGR">춍리</rs>압ᄒᆡ, 보이지못ᄒᆞ면, 본경륜을이로지못ᄒᆞ리라.</said></p>
 <p>ᄒᆞ고, 웃옷을벗셔노코, 곰의손을ᄌᆞᆸ아, 풀무겻ᄒᆡ셔々, <time dur="PT1H">ᄒᆞᆫ졈</time>종을로동ᄒᆞ니, 얼골이</p>
 <p>복숭아, 익어가듯ᄒᆞ며, 긔력이시진ᄒᆞ더니, <time dur="PT2H">두졈</time>종이되ᄆᆡ, 얼골에쳥ᄉᆡᆨ이돌고, ᄉᆞ시나무ᄯᅥᆯ듯ᄒᆞ다가, ᄯᅡᆼ에나가, 널부러지니, <said who="#12_MGR" aloud="true" direct="true"><rs ref="#MK">네</rs>가역ᄉᆞ에, 익지못ᄒᆞ도다, <rs ref="#12_MGR">내</rs>앗가<rs ref="#MK">네</rs>, 긔딜이약ᄒᆞ다ᄒᆞ엿더니, 과연그러ᄒᆞ고나, <rs ref="#MK">네</rs>가, 졍감당치못ᄒᆞ면, 다른<rs type="place" subtype="factory" corresp="#LCC">공쟝</rs>에, <rs type="salary">료식</rs>이좀박ᄒᆞᆯ지라도, 공역을밧구어, <rs ref="#MK">네</rs>몸을구々ᄒᆞᆫ<rs type="salary">신슈금</rs>에, 팔니지말어라.</said></p>
-<p><persName ref="#MK">약한</persName>이, 벌덕이러ᄂᆞ며, <said who="#MK" aloud="true" direct="true">안이요, 안이요, <rs ref="#MK">ᄂᆡ</rs>가그젼부터<rs type="disease">이런병</rs>이잇지, <time type="frequency">ᄆᆡ양</time>발작ᄒᆞ면, <time dur="PT1H">ᄒᆞᆫ</time><time dur="PT2H">두시간</time>을, <name type="disease">오한광열</name>과<name type="disease">수족젼</name>이나옵니다. 그시간이지ᄂᆞ면, 즉시낫ᄉᆞ오니, 념러마옵소셔.</said></p>
+<p><persName ref="#MK">약한</persName>이, 벌덕이러ᄂᆞ며, <said who="#MK" aloud="true" direct="true">안이요, 안이요, <rs ref="#MK">ᄂᆡ</rs>가그젼부터<rs type="disease">이런병</rs>이잇지, <time type="frequency">ᄆᆡ양</time>발작ᄒᆞ면, <time dur="PT1H">ᄒᆞᆫ</time><time dur="PT2H">두시간</time>을, <rs type="disease">오한광열</rs>과<rs type="disease">수족젼</rs>이나옵니다. 그시간이지ᄂᆞ면, 즉시낫ᄉᆞ오니, 념러마옵소셔.</said></p>
 <p>ᄒᆞ고, 다시달녀든다.</p>
 <p><said who="#12_MGR" aloud="true" direct="true">이리오너라, <rs ref="#12_MGR">내</rs><rs ref="#MK">너</rs>다려말ᄒᆞᆷ아.</said></p>
 <p>ᄒᆞ더니, <persName ref="#MK">약한</persName>을다리고, 다시<rs type="place" corresp="D_12"><rs ref="#12_F">본챵</rs>ᄉᆞᄌᆞ방</rs>으로가셔, <said who="#12_MGR" aloud="true" direct="true"><rs ref="#MK">네</rs>가이쇼임을, 감당치못ᄒᆞ리니, 강작ᄒᆞ지말고, <rs ref="#MK">너</rs>의근신ᄒᆞᆷ을알거니와, 각<rs type="place">공챵</rs>에<rs ref="#LCC_C">공인</rs>을, 구하ᄂᆞᆫ터이니, <rs ref="#MK">너</rs>를환방ᄒᆞ여쥴것이니, <rs ref="#MK">네</rs>쇼쟝이무엇인고.</said></p>
@@ -706,7 +711,7 @@
 <p><said who="#MINE_MGR" aloud="true" direct="true">향ᄅᆡ, 여긔셕탄이난다ᄒᆞ야, 각쳐<rs ref="#MINE">광즁</rs>길를, 이리로모앗스나, <rs type="person" subtype="surveyor">측양ᄉᆞ</rs>의말이문어질념려가, 잇다ᄒᆞ야, 즉시도로봉폐ᄒᆞᆫ곳이니라.</said></p>
 <p>(<persName ref="#MK">약한</persName>)<said who="#MK" aloud="true" direct="true"><rs ref="#MINE">광즁</rs>이심히괴이ᄒᆞ니, <rs ref="#MK">내</rs>, 긔어히ᄭᅳᆺ흘보겟다.</said></p>
 <p>ᄒᆞ고먼져드러가, 열거름을못가더니, <rs ref="#MINE_MGR">광쟝</rs>을도라보며,</p>
-<p><said who="#MK" aloud="true" direct="true"><rs ref="#MINE_MGR">션ᄉᆡᆼ</rs><name type="disease">두통</name>나ᄂᆞᆫ줄, 모로겟소.</said></p>
+<p><said who="#MK" aloud="true" direct="true"><rs ref="#MINE_MGR">션ᄉᆡᆼ</rs><rs type="disease">두통</rs>나ᄂᆞᆫ줄, 모로겟소.</said></p>
 <p>(<rs ref="#MINE_MGR">광쟝</rs>)<said who="#MINE_MGR" aloud="true" direct="true">글셰, 머리가앗득々々ᄒᆞ야, 들슈업네.</said></p>
 <p>(<persName ref="#MK">약한</persName>)<said who="#MK" aloud="true" direct="true"><rs type="place" subtype="part" ref="#MINE">이속</rs>에, 인젹이, 오ᄅᆡᄭᅳᆫ치고, <objectName ref="#CO2">탄산와ᄉᆞ</objectName>가ᄊᆞ여그러ᄒᆞ니, <rs ref="#O2MASK">흡긔통</rs>을쓸밧게슈가업소.</said></p>
 <p>ᄒᆞ고<rs type="person" subtype="group" ref="#MK #MINE_MGR">량인</rs>이, 각々코에ᄭᅵ이며, 입에물고, <measure type="length" unit="長" quantity="6">륙</measure><measure type="length" unit="長" quantity="7">칠쟝</measure>을드러가니, 홀연등불이풀은곳에, <rs type="#GA">누은사ᄅᆞᆷ</rs>이뵈이거ᄂᆞᆯ, <persName ref="#MK">약한</persName>이, 급히나아가보니.</p>
