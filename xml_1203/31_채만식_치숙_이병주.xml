@@ -17,6 +17,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>한국학중앙연구원 디지털인문학연구소</publisher>
+        <ref target="https://digitalhumanities.kr/">한국학중앙연구원 디지털인문학연구소 홈페이지</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource" xml:lang="ko">
@@ -117,6 +118,9 @@
         
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-13" who="#지해인">작업자 지해인이 TEI 검수를 완료함.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>

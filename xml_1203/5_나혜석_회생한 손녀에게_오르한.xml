@@ -84,6 +84,9 @@
                 </listPlace>
             </particDesc>
         </profileDesc>
+        <revisionDesc>
+            <change when="2026-02-13" who="#지해인">작업자 지해인이 TEI 검수를 완료함.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
