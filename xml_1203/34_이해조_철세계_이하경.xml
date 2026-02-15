@@ -12,7 +12,7 @@
                <name>이하경</name>
                <note>iserene [at] sogang.ac.kr</note>
             </respStmt>
-            <respStmt>
+            <respStmt xml:id="editor">
                <resp>TEI 검수</resp>
                <name>김가연<idno type="ORCID">0009-0005-1231-6939</idno></name>
                <email>darps1417@gmail.com</email>
@@ -89,6 +89,8 @@
          <textClass>
             <keywords scheme="local">
                <term>근현대 한국문학</term>
+               <term>과학소설</term>
+               <term>번안소설</term>
             </keywords>
          </textClass>
 

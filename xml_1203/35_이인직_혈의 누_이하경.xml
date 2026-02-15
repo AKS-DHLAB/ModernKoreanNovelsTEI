@@ -12,6 +12,11 @@
                <name>이하경</name>
                <note>iserene [at] sogang.ac.kr</note>
             </respStmt>
+            <respStmt xml:id="editor">
+               <resp>TEI 검수</resp>
+               <name>김가연<idno type="ORCID">0009-0005-1231-6939</idno></name>
+               <email>darps1417@gmail.com</email>
+            </respStmt>
          </titleStmt>
 
          <publicationStmt>
@@ -33,7 +38,7 @@
                <title level="a">혈의 누</title>
                <author>이인직</author>
                <publisher>Wikisource(한국어)</publisher>
-               <idno type="wikisource">https://ko.wikisource.org/wiki/%EB%B2%88%EC%97%AD:%ED%98%88%EC%9D%98_%EB%88%84</idno>
+               <idno type="wikisource">https://ko.wikisource.org/wiki/번역:혈의_누</idno>
                <note>본 전자본은 上/下編이 모두 입력된(2026.01.24. 기준) 위키문헌의 [혈의 루] 현대어 판본을 저본으로 함.</note>
             </bibl>
 
@@ -55,7 +60,7 @@
 
       <encodingDesc>
          <projectDesc>
-            <p>본 전자본은 위키문헌에 공개된 텍스트를 바탕으로 TEI P5 지침(TEI Lite)에 따라 구조화함.</p>
+            <p>본 전자본은 TEI P5 지침(TEI ALL)에 따라 구조화함.</p>
          </projectDesc>
       </encodingDesc>
 
@@ -81,8 +86,8 @@
           </person>          
           <person xml:id="PAD_GS">
             <persName xml:lang="ko">
-              <placeName ref="https://ko.wiktionary.org/wiki/평안도">평안도</placeName>
-              <roleName ref="https://ko.wiktionary.org/wiki/관찰사">감사</roleName>
+              <placeName sameAs="https://encykorea.aks.ac.kr/Article/E0059923">평안도</placeName>
+              <roleName sameAs="https://encykorea.aks.ac.kr/Article/E0005013">감사</roleName>
             </persName>
           </person>
           <person xml:id="ITP"><persName xml:lang="ko">통변</persName></person>
@@ -113,18 +118,18 @@
           <person xml:id="UPS"><persName xml:lang="ko">우편 군사</persName></person>
           <person xml:id="GRP"><persName xml:lang="ko">사람들</persName></person>
           <person xml:id="SJ">
-            <persName xml:lang="ko" ref="https://ko.wiktionary.org/wiki/소진_(전국)">소진(蘇秦)</persName>
+            <persName xml:lang="ko" sameAs="https://ko.wiktionary.org/wiki/소진_(전국)">소진(蘇秦)</persName>
           </person>
           <person xml:id="KYW">
-            <persName xml:lang="ko" ref="https://ko.wiktionary.org/wiki/캉유웨이">강유위(康有爲)</persName>
+            <persName xml:lang="ko" sameAs="https://ko.wiktionary.org/wiki/캉유웨이">강유위(康有爲)</persName>
           </person>
           <person xml:id="KYW_F"><persName xml:lang="ko">강유위가 소개한 청인 조력자</persName></person>
           <person xml:id="MYC">
-            <persName xml:lang="ko" ref="https://ko.wiktionary.org/wiki/민영휘">민영춘</persName>
+            <persName xml:lang="ko" sameAs="https://ko.wiktionary.org/wiki/민영휘">민영춘</persName>
             <note><ref target="#2007">혈의 누(2007)</ref>에 따르면 민영휘의 오기임.</note>
           </person>
           <person xml:id="BMC">
-            <persName xml:lang="ko" ref="https://ko.wiktionary.org/wiki/오토_폰_비스마르크">비스마르크(比斯麥)</persName>
+            <persName xml:lang="ko" sameAs="https://ko.wiktionary.org/wiki/오토_폰_비스마르크">비스마르크(比斯麥)</persName>
           </person>
           <person xml:id="CHR_SK1"><persName xml:lang="ko">서기 1</persName></person>
           <person xml:id="CHR_SK2"><persName xml:lang="ko">서기 2</persName></person>
@@ -140,393 +145,390 @@
         </listPerson>
 
         <listEvent>
-<event xml:id="CJW" 
-       from="1894-07-24" 
-       to="1895-04-17" 
-       ref="https://ko.wikipedia.org/wiki/청일_전쟁">
-    <head>청일전쟁</head>
-</event>
-        <event xml:id="IJW" ref="https://ko.wikipedia.org/wiki/임진왜란">
-          <head>임진왜란</head>
-         </event>
-        <event xml:id="GD">
-          <head>졸업</head>
-         </event>
-</listEvent>
-<listPlace>
-<place xml:id="JS" type="country" ref="https://ko.wikipedia.org/wiki/조선">
-    <placeName xml:lang="ko">조선</placeName>
-    <placeName xml:lang="ko" type="alias">대한민국</placeName>
-    <placeName xml:lang="ko" type="alias">한국</placeName>
-</place>
-<place xml:id="JP" type="country" ref="https://ko.wikipedia.org/wiki/일본">
-    <placeName xml:lang="ko">일본</placeName>
-</place>
-<place xml:id="CN" type="country" ref="https://ko.wikipedia.org/wiki/중국">
-    <placeName xml:lang="ko">청</placeName>
-</place>
-<place xml:id="US" type="country" ref="https://ko.wikipedia.org/wiki/미국">
-    <placeName xml:lang="ko">미국</placeName>
-</place>
-<place xml:id="DE" type="country" ref="https://ko.wikipedia.org/wiki/독일">
-    <placeName xml:lang="ko">독일국</placeName>
-</place>
-<place xml:id="NA" type="continent" ref="https://ko.wikipedia.org/wiki/북아메리카">
-    <placeName xml:lang="ko">북아메리카</placeName>
-</place>
-<place xml:id="PY" type="city" ref="https://ko.wikipedia.org/wiki/평양시">
-    <placeName xml:lang="ko">평양</placeName>
-    <location>
-        <country ref="#JS">조선</country>
-    </location> 
-</place>
-<place xml:id="PY_NG" type="district">
-    <placeName xml:lang="ko">평양북문</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="IC" type="city" ref="https://ko.wikipedia.org/wiki/인천광역시">
-    <placeName xml:lang="ko">인천</placeName>
-    <location>
-        <country ref="#JS">조선</country>
-    </location> 
-</place>
-<place xml:id="BS" ref="https://ko.wikipedia.org/wiki/부산광역시">
-    <placeName xml:lang="ko">부산</placeName>
-</place>
-<place xml:id="CR" ref="https://ko.wikipedia.org/wiki/초량동">
-    <placeName xml:lang="ko">초량</placeName>
-    <location>
-        <settlement ref="#BS">부산</settlement>
-    </location> 
-</place>
-<place xml:id="ORD" ref="https://ko.wikipedia.org/wiki/오륙도">
-    <placeName xml:lang="ko">오륙도</placeName>
-    <location>
-        <settlement ref="#BS">부산</settlement>
-    </location> 
-</place>
-<place xml:id="JNP" ref="https://ko.wikipedia.org/wiki/남포시">
-    <placeName xml:lang="ko">진남포</placeName>
-    <location>
-        <country ref="#JS">조선</country>
-    </location>    
-</place>
-<place xml:id="MRB" ref="https://ko.wikipedia.org/wiki/모란봉">
-    <placeName xml:lang="ko">모란봉</placeName>
-</place>
-<place xml:id="DDG" ref="https://ko.wikipedia.org/wiki/대동강">
-    <placeName xml:lang="ko">대동강</placeName>
-</place>
-<place xml:id="BMS" ref="https://encykorea.aks.ac.kr/Article/E0022109">
-    <placeName xml:lang="ko">백마산</placeName>
-    <note>연결된 링크(ref)는 백마산성에 대한 정보임.</note>
-</place>
-<place xml:id="ANG" ref="https://ko.wikipedia.org/wiki/압록강">
-    <placeName xml:lang="ko">압록강</placeName>
-</place>
-<place xml:id="UJ" ref="https://ko.wikipedia.org/wiki/의주군">
-    <placeName xml:lang="ko">의주</placeName>
-</place>
-<place xml:id="JYD" ref="https://ko.wikipedia.org/wiki/영도">
-    <placeName xml:lang="ko">절영도</placeName>
-    <location>
-        <settlement ref="#BS">부산</settlement>
-    </location>   
-</place>
-<place xml:id="PAD" ref="https://ko.wikipedia.org/wiki/평안도">
-    <placeName xml:lang="ko">평안도</placeName>
-</place>
-<place xml:id="PAD_S" ref="https://ko.wikipedia.org/wiki/평안남도">
-    <placeName xml:lang="ko">평안남도</placeName>
-</place>
-<place xml:id="OSK" ref="https://ko.wikipedia.org/wiki/오사카">
-    <placeName xml:lang="ko">대판</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-</place>
-<place xml:id="OSK_H">
-    <placeName xml:lang="ko">대판 항구</placeName>
-    <location>
-        <settlement ref="#OSK">대판</settlement>
-    </location>
-</place>
-<place xml:id="SMNSK">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/시모노세키시">마관</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-</place>
-<place xml:id="TK">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/도쿄">동경</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-</place>
-<place xml:id="YKHM">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/요코하마시">횡빈</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-</place>
-<place xml:id="GB">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/고베시">신호</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-</place>
-<place xml:id="TSM">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/쓰시마섬">대마도</placeName>
-    <location>
-        <country ref="#JP">일본</country>
-    </location> 
-<place xml:id="DC">
-    <placeName xml:lang="ko" ref="https://ko.wikipedia.org/wiki/워싱턴">화성돈</placeName>
-    <location>
-        <country ref="#US">미국</country>
-    </location> 
-</place>
-</place>
-<place xml:id="SF" ref="https://ko.wikipedia.org/wiki/샌프란시스코">
-    <placeName xml:lang="ko">상항</placeName>
-    <location>
-        <country ref="#US">미국</country>
-    </location>    
-</place>
-<place xml:id="YD" ref="https://ko.wikipedia.org/wiki/랴오둥반도">
-    <placeName xml:lang="ko">랴오둥반도</placeName>
-</place>
-<place xml:id="PCF" ref="https://ko.wikipedia.org/wiki/태평양">
-    <placeName xml:lang="ko">태평양</placeName>
-</place>
-<place xml:id="FH" ref="https://ko.wikipedia.org/wiki/야전병원">
-    <placeName xml:lang="ko">야전병원</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="HC" ref="https://ko.wikipedia.org/wiki/황천">
-    <placeName xml:lang="ko">황천</placeName>
-</place>
-<place xml:id="SHD" ref="https://ko.wikipedia.org/wiki/선화당">
-    <placeName xml:lang="ko">선화당</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-    </place>
-<place xml:id="DH" ref="https://ko.wikipedia.org/wiki/동헌">
-    <placeName xml:lang="ko">동헌</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="OR_H">
-    <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName> 가족의 집</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="GJP_H">
-    <placeName xml:lang="ko"><persName ref="#GJP">고장팔</persName> 가족의 집</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="JSS_H">
-    <placeName xml:lang="ko"><persName ref="#JSS">정상소좌</persName> 가족의 집</placeName>
-    <location>
-        <settlement ref="#OSK">대판</settlement>
-    </location>
-</place>
-<place xml:id="CHR_H">
-    <placeName xml:lang="ko"><persName ref="#CHR">최항래</persName> 가족의 집</placeName>
-    <location>
-        <settlement ref="#BS">부산</settlement>
-    </location>
-</place>
-<place xml:id="KOR_SC_OSK">
-    <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 대판 학교</placeName>
-    <location>
-        <settlement ref="#OSK">대판</settlement>
-    </location>
-</place>
-<place xml:id="KOR_SC_DC">
-    <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 화성돈 학교</placeName>
-    <location>
-        <settlement ref="#DC">화성돈</settlement>
-    </location>
-</place>
-<place xml:id="GWS_SC_DC">
-    <placeName xml:lang="ko"><persName ref="#GWS">구완서</persName>의 화성돈 학교</placeName>
-    <location>
-        <settlement ref="#DC">화성돈</settlement>
-    </location>
-</place>
-<place xml:id="KGI_SC_DC">
-    <placeName xml:lang="ko"><persName ref="#KGI">김관일</persName>의 화성돈 학교</placeName>
-    <location>
-        <settlement ref="#DC">화성돈</settlement>
-    </location>
-</place>
-<place xml:id="KOR_HT">
-    <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 미국 거주 호텔</placeName>
-    <location>
-        <country ref="#US">미국</country>
-    </location>
-</place>
-<place xml:id="KGI_HT">
-    <placeName xml:lang="ko"><persName ref="#KGI">김관일</persName>의 미국 거주 호텔</placeName>
-    <location>
-        <country ref="#US">미국</country>
-    </location>
-</place>
-<place xml:id="PY_S">
-    <placeName xml:lang="ko"><persName ref="#GSP">고장팔</persName>의 배</placeName>
-    <location>
-        <settlement ref="#PY">평양</settlement>
-    </location>
-</place>
-<place xml:id="IC_OSK_S">
-    <placeName xml:lang="ko">인천에서 대판으로 가는 어용선</placeName>
-    <desc>
-        <ref target="#IC" type="origin">인천</ref>에서 
-        <ref target="#OSK" type="destination">대판</ref>로 이동함
-    </desc>
-</place>
-<place xml:id="YKHM_SF_S">
-    <placeName xml:lang="ko">횡빈에서 상항으로 가는 화륜선</placeName>
-    <desc>
-        <ref target="#YKHM" type="origin">횡빈</ref>에서 
-        <ref target="#SF" type="destination">상항</ref>로 이동함
-    </desc>
-</place>
-<place xml:id="IC_OSK_HS">
-    <placeName xml:lang="ko">인천에서 대판으로 가는 화륜선</placeName>
-    <desc>
-        <ref target="#IC" type="origin">인천</ref>에서 
-        <ref target="#OSK" type="destination">대판</ref>로 이동함
-    </desc>
-</place>
-<place xml:id="JNP_BS_S">
-    <placeName xml:lang="ko">진남포에서 부산으로 가는 화륜선</placeName>
-    <desc>
-        <ref target="#JNP" type="origin">진남포</ref>에서 
-        <ref target="#BS" type="destination">부산</ref>로 이동함
-    </desc>
-</place>
-    <place xml:id="BS_YKHM_S">
-    <placeName xml:lang="ko">부산에서 횡빈으로 가는 화륜선</placeName>
-    <desc>
-        <ref target="#BS" type="origin">부산</ref>에서 
-        <ref target="#YKHM" type="destination">횡빈</ref>로 이동함
-    </desc>
-</place>
-</listPlace>
-
-<listOrg>
-<org xml:id="JS_P" type="people">
-    <orgName xml:lang="ko">
-        <placeName ref="#JS">조선</placeName> 백성
-    </orgName>
-</org>
-<org xml:id="CN_P" type="people">
-    <orgName xml:lang="ko">
-        <placeName ref="#CN">청</placeName>인 
-    </orgName>
-</org>
-<org xml:id="JP_P" type="people">
-    <orgName xml:lang="ko">
-        <placeName ref="#JP">일</placeName>인 
-    </orgName>
-</org>
-<org xml:id="US_P" type="people">
-    <orgName xml:lang="ko">
-        <placeName ref="#US">미국</placeName>인 
-    </orgName>
-</org>
-<org xml:id="PAD_R" type="residents">
-    <orgName xml:lang="ko">
-        <placeName ref="#PAD">평안도</placeName> 백성
-    </orgName>
-</org>
-<org xml:id="PY_R" type="residents">
-    <orgName xml:lang="ko">
-        <placeName ref="#PY">평양</placeName> 백성
-    </orgName>
-</org>
-<org xml:id="JS_S" type="military">
-    <orgName xml:lang="ko">
-        <placeName ref="#JS">조선</placeName> 군대
-    </orgName>
-</org>
-<org xml:id="JP_S" type="military">
-    <orgName xml:lang="ko">
-        <placeName ref="#JP">일본</placeName> 군대
-    </orgName>
-    <orgName xml:lang="ko" type="alias">일본 보초병</orgName>
-    <orgName xml:lang="ko" type="alias">일본 헌병</orgName>
-    <orgName xml:lang="ko" type="alias">일병</orgName>
-</org>
-<org xml:id="CN_S" type="military">
-    <orgName xml:lang="ko">
-        <placeName ref="#CN">청국</placeName> 군대
-    </orgName>
-</org>
-<org xml:id="CN_GHD" type="party">
-    <orgName xml:lang="ko">
-        <placeName ref="#CN">청국</placeName> 개혁당
-    </orgName>
-</org>
-<org xml:id="YB" type="class">
-    <orgName xml:lang="ko">양반</orgName>
-</org>
-<org xml:id="SN" type="class">
-    <orgName xml:lang="ko">상놈</orgName>
-</org>
-<org xml:id="FC" type="countries">
-    <orgName xml:lang="ko">외국</orgName>
-</org>
-</listOrg>
-      </particDesc>
-    </profileDesc>
-  </teiHeader>
+            <event xml:id="CJW" from="1894-07-24" to="1895-04-17" sameAs="https://encykorea.aks.ac.kr/Article/E0056610">
+            <head>청일전쟁</head>
+            </event>
+            <event xml:id="IJW" from="1592----" to="1598----" sameAs="https://encykorea.aks.ac.kr/Article/E0047674">
+                <head>임진왜란</head>
+            </event>
+            <event xml:id="GD">
+                <head>졸업</head>
+            </event>
+        </listEvent>
+        
+        <listPlace>
+            <place xml:id="JS" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0051904">
+                <placeName xml:lang="ko">조선</placeName>
+                <placeName xml:lang="ko" type="alias">대한민국</placeName>
+                <placeName xml:lang="ko" type="alias">한국</placeName>
+            </place> 
+            <place xml:id="JP" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0047193">
+                <placeName xml:lang="ko">일본</placeName>
+            </place>
+            <place xml:id="CN" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0053702">
+                <placeName xml:lang="ko">청</placeName>
+            </place>
+            <place xml:id="US" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0019890">
+                <placeName xml:lang="ko">미국</placeName>
+            </place>
+            <place xml:id="DE" type="country" sameAs="https://encykorea.aks.ac.kr/Article/E0016030">
+                <placeName xml:lang="ko">독일국</placeName>
+            </place>
+            <place xml:id="NA" type="continent" sameAs="https://ko.wikipedia.org/wiki/북아메리카">
+                <placeName xml:lang="ko">북아메리카</placeName>
+            </place>
+            <place xml:id="PY" type="city" sameAs="https://encykorea.aks.ac.kr/Article/E0059979">
+                <placeName xml:lang="ko">평양</placeName>
+                <location>
+                    <country ref="#JS">조선</country>
+                </location> 
+            </place>
+            <place xml:id="PY_NG" type="district">
+                <placeName xml:lang="ko">평양북문</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="IC" type="city" sameAs="https://encykorea.aks.ac.kr/Article/E0047056">
+                <placeName xml:lang="ko">인천</placeName>
+                <location>
+                    <country ref="#JS">조선</country>
+                </location> 
+            </place>
+            <place xml:id="BS" sameAs="https://encykorea.aks.ac.kr/Article/E0024209">
+                <placeName xml:lang="ko">부산</placeName>
+            </place>
+            <place xml:id="CR" sameAs="https://ko.wikipedia.org/wiki/초량동">
+                <placeName xml:lang="ko">초량</placeName>
+                <location>
+                    <settlement ref="#BS">부산</settlement>
+                </location> 
+            </place>
+            <place xml:id="ORD" sameAs="https://encykorea.aks.ac.kr/Article/E0038203">
+                <placeName xml:lang="ko">오륙도</placeName>
+                <location>
+                    <settlement ref="#BS">부산</settlement>
+                </location>
+            </place>
+            <place xml:id="JNP" sameAs="https://ko.wikipedia.org/wiki/남포시">
+                <placeName xml:lang="ko">진남포</placeName>
+                <location>
+                    <country ref="#JS">조선</country>
+                </location>    
+            </place>
+            <place xml:id="MRB" sameAs="https://ko.wikipedia.org/wiki/모란봉">
+                <placeName xml:lang="ko">모란봉</placeName>
+            </place>
+            <place xml:id="DDG" sameAs="https://encykorea.aks.ac.kr/Article/E0014213">
+                <placeName xml:lang="ko">대동강</placeName>
+            </place>
+            <place xml:id="BMS" sameAs="https://encykorea.aks.ac.kr/Article/E0022109">
+                <placeName xml:lang="ko">백마산</placeName>
+            </place>
+            <place xml:id="ANG" sameAs="https://encykorea.aks.ac.kr/Article/E0035176">
+                <placeName xml:lang="ko">압록강</placeName>
+            </place>
+            <place xml:id="UJ" sameAs="https://ko.wikipedia.org/wiki/의주군">
+                <placeName xml:lang="ko">의주</placeName>
+            </place>
+            <place xml:id="JYD" sameAs="https://ko.wikipedia.org/wiki/영도">
+                <placeName xml:lang="ko">절영도</placeName>
+                <location>
+                    <settlement ref="#BS">부산</settlement>
+                </location>   
+            </place>
+            <place xml:id="PAD" sameAs="https://ko.wikipedia.org/wiki/평안도">
+                <placeName xml:lang="ko">평안도</placeName>
+            </place>
+            <place xml:id="PAD_S" sameAs="https://encykorea.aks.ac.kr/Article/E0059919">
+                <placeName xml:lang="ko">평안남도</placeName>
+            </place>
+            <place xml:id="OSK" sameAs="https://ko.wikipedia.org/wiki/오사카">
+                <placeName xml:lang="ko">대판</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+            </place>
+            <place xml:id="OSK_H">
+                <placeName xml:lang="ko">대판 항구</placeName>
+                <location>
+                    <settlement ref="#OSK">대판</settlement>
+                </location>
+            </place>
+            <place xml:id="SMNSK">
+                <placeName xml:lang="ko" sameAs="https://ko.wikipedia.org/wiki/시모노세키시">마관</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+            </place>
+            <place xml:id="TK">
+                <placeName xml:lang="ko" sameAs="https://ko.wikipedia.org/wiki/도쿄">동경</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+            </place>
+            <place xml:id="YKHM">
+                <placeName xml:lang="ko" sameAs="https://ko.wikipedia.org/wiki/요코하마시">횡빈</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+            </place>
+            <place xml:id="GB">
+                <placeName xml:lang="ko" sameAs="https://ko.wikipedia.org/wiki/고베시">신호</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+            </place>
+            <place xml:id="TSM">
+                <placeName xml:lang="ko" sameAs="https://encykorea.aks.ac.kr/Article/E0014339">대마도</placeName>
+                <location>
+                    <country ref="#JP">일본</country>
+                </location> 
+                <place xml:id="DC">
+                    <placeName xml:lang="ko" sameAs="https://ko.wikipedia.org/wiki/워싱턴">화성돈</placeName>
+                    <location>
+                        <country ref="#US">미국</country>
+                    </location> 
+                </place>
+            </place>
+            <place xml:id="SF" sameAs="https://ko.wikipedia.org/wiki/샌프란시스코">
+                <placeName xml:lang="ko">상항</placeName>
+                <location>
+                    <country ref="#US">미국</country>
+                </location>
+            </place>
+            <place xml:id="YD" sameAs="https://ko.wikipedia.org/wiki/랴오둥반도">
+                <placeName xml:lang="ko">랴오둥반도</placeName>
+            </place>
+            <place xml:id="PCF" sameAs="https://ko.wikipedia.org/wiki/태평양">
+                <placeName xml:lang="ko">태평양</placeName>
+            </place>
+            <place xml:id="FH" sameAs="https://ko.wikipedia.org/wiki/야전병원">
+                <placeName xml:lang="ko">야전병원</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="HC" sameAs="https://ko.wikipedia.org/wiki/황천">
+                <placeName xml:lang="ko">황천</placeName>
+            </place>
+            <place xml:id="SHD" sameAs="https://ko.wikipedia.org/wiki/선화당">
+                <placeName xml:lang="ko">선화당</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="DH" sameAs="https://ko.wikipedia.org/wiki/동헌">
+                <placeName xml:lang="ko">동헌</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="OR_H">
+                <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName> 가족의 집</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="GJP_H">
+                <placeName xml:lang="ko"><persName ref="#GJP">고장팔</persName> 가족의 집</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="JSS_H">
+                <placeName xml:lang="ko"><persName ref="#JSS">정상소좌</persName> 가족의 집</placeName>
+                <location>
+                    <settlement ref="#OSK">대판</settlement>
+                </location>
+            </place>
+            <place xml:id="CHR_H">
+                <placeName xml:lang="ko"><persName ref="#CHR">최항래</persName> 가족의 집</placeName>
+                <location>
+                    <settlement ref="#BS">부산</settlement>
+                </location>
+            </place>
+            <place xml:id="KOR_SC_OSK">
+                <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 대판 학교</placeName>
+                <location>
+                    <settlement ref="#OSK">대판</settlement>
+                </location>
+            </place>
+            <place xml:id="KOR_SC_DC">
+                <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 화성돈 학교</placeName>
+                <location>
+                    <settlement ref="#DC">화성돈</settlement>
+                </location>
+            </place>
+            <place xml:id="GWS_SC_DC">
+                <placeName xml:lang="ko"><persName ref="#GWS">구완서</persName>의 화성돈 학교</placeName>
+                <location>
+                    <settlement ref="#DC">화성돈</settlement>
+                </location>
+            </place>
+            <place xml:id="KGI_SC_DC">
+                <placeName xml:lang="ko"><persName ref="#KGI">김관일</persName>의 화성돈 학교</placeName>
+                <location>
+                    <settlement ref="#DC">화성돈</settlement>
+                </location>
+            </place>
+            <place xml:id="KOR_HT">
+                <placeName xml:lang="ko"><persName ref="#KOR">김옥련</persName>의 미국 거주 호텔</placeName>
+                <location>
+                    <country ref="#US">미국</country>
+                </location>
+            </place>
+            <place xml:id="KGI_HT">
+                <placeName xml:lang="ko"><persName ref="#KGI">김관일</persName>의 미국 거주 호텔</placeName>
+                <location>
+                    <country ref="#US">미국</country>
+                </location>
+            </place>
+            <place xml:id="PY_S">
+                <placeName xml:lang="ko"><persName ref="#GSP">고장팔</persName>의 배</placeName>
+                <location>
+                    <settlement ref="#PY">평양</settlement>
+                </location>
+            </place>
+            <place xml:id="IC_OSK_S">
+                <placeName xml:lang="ko">인천에서 대판으로 가는 어용선</placeName>
+                <desc>
+                    <ref target="#IC" type="origin">인천</ref>에서 
+                    <ref target="#OSK" type="destination">대판</ref>로 이동함
+                </desc>
+            </place>
+            <place xml:id="YKHM_SF_S">
+                <placeName xml:lang="ko">횡빈에서 상항으로 가는 화륜선</placeName>
+                <desc>
+                    <ref target="#YKHM" type="origin">횡빈</ref>에서 
+                    <ref target="#SF" type="destination">상항</ref>로 이동함
+                </desc>
+            </place>
+            <place xml:id="IC_OSK_HS">
+                <placeName xml:lang="ko">인천에서 대판으로 가는 화륜선</placeName>
+                <desc>
+                    <ref target="#IC" type="origin">인천</ref>에서 
+                    <ref target="#OSK" type="destination">대판</ref>로 이동함
+                </desc>
+            </place>
+            <place xml:id="JNP_BS_S">
+                <placeName xml:lang="ko">진남포에서 부산으로 가는 화륜선</placeName>
+                <desc>
+                    <ref target="#JNP" type="origin">진남포</ref>에서 
+                    <ref target="#BS" type="destination">부산</ref>로 이동함
+                </desc>
+            </place>
+                <place xml:id="BS_YKHM_S">
+                <placeName xml:lang="ko">부산에서 횡빈으로 가는 화륜선</placeName>
+                <desc>
+                    <ref target="#BS" type="origin">부산</ref>에서 
+                    <ref target="#YKHM" type="destination">횡빈</ref>로 이동함
+                </desc>
+            </place>
+        </listPlace>
+        
+        <listOrg>
+            <org xml:id="JS_P" type="people">
+                <orgName xml:lang="ko">
+                    <placeName ref="#JS">조선</placeName> 백성
+                </orgName>
+            </org>
+            <org xml:id="CN_P" type="people">
+                <orgName xml:lang="ko">
+                    <placeName ref="#CN">청</placeName>인 
+                </orgName>
+            </org>
+            <org xml:id="JP_P" type="people">
+                <orgName xml:lang="ko">
+                    <placeName ref="#JP">일</placeName>인 
+                </orgName>
+            </org>
+            <org xml:id="US_P" type="people">
+                <orgName xml:lang="ko">
+                    <placeName ref="#US">미국</placeName>인 
+                </orgName>
+            </org>
+            <org xml:id="PAD_R" type="residents">
+                <orgName xml:lang="ko">
+                    <placeName ref="#PAD">평안도</placeName> 백성
+                </orgName>
+            </org>
+            <org xml:id="PY_R" type="residents">
+                <orgName xml:lang="ko">
+                    <placeName ref="#PY">평양</placeName> 백성
+                </orgName>
+            </org>
+            <org xml:id="JS_S" type="military">
+                <orgName xml:lang="ko">
+                    <placeName ref="#JS">조선</placeName> 군대
+                </orgName>
+            </org>
+            <org xml:id="JP_S" type="military">
+                <orgName xml:lang="ko">
+                    <placeName ref="#JP">일본</placeName> 군대
+                </orgName>
+                <orgName xml:lang="ko" type="alias">일본 보초병</orgName>
+                <orgName xml:lang="ko" type="alias">일본 헌병</orgName>
+                <orgName xml:lang="ko" type="alias">일병</orgName>
+            </org>
+            <org xml:id="CN_S" type="military">
+                <orgName xml:lang="ko">
+                    <placeName ref="#CN">청국</placeName> 군대
+                </orgName>
+            </org>
+            <org xml:id="CN_GHD" type="party">
+                <orgName xml:lang="ko">
+                    <placeName ref="#CN">청국</placeName> 개혁당
+                </orgName>
+            </org>
+            <org xml:id="YB" type="class">
+                <orgName xml:lang="ko">양반</orgName>
+            </org>
+            <org xml:id="SN" type="class">
+                <orgName xml:lang="ko">상놈</orgName>
+            </org>
+            <org xml:id="FC" type="countries">
+                <orgName xml:lang="ko">외국</orgName>
+            </org>
+        </listOrg>
+    </particDesc>
+</profileDesc>
+</teiHeader>
   <text>
     <body>
       <div>
-        <p>혈(血)의 누(淚)</p>
+        <p>혈(<foreign xml:lang="zh">血</foreign>)의 누(<foreign xml:lang="zh">淚</foreign>)누</p>
         <head>상편</head>
-        <p><rs ref="#CJW">일청전쟁(日淸戰爭)</rs>의 총소리는 <placeName ref="#PY">평양</placeName> 일경이 떠나가는 듯하더니, 그 총소리가 그치매 사람의 자취는 끊어지고 <rs type="place" subtype="mountain" ref="#PY">산</rs>과 <rs type="place" subtype="field" ref="#PY">들</rs>에 비린 티끄뿐이라.</p>
-        <p><placeName ref="#PY">평양성</placeName>의 <placeName ref="#MRB">모란봉</placeName>에 떨어지는 <time type="timeOfDay" subtype="evening">저녁</time> 볕은 뉘엿뉘엿 넘어가는데, 저 햇빛을 붙들어매고 싶은 마음에 붙들어매지는 못하고 숨이 턱에 닿은 듯이 갈팡질팡하는 <rs ref="#CCA">한 부인</rs>이 나이 <measure type="age" unit="year" quantity="30">삼십</measure>이 될락말락하고, 얼굴은 분을 따고 넣은 듯이 흰 얼굴이나 인정 없이 뜨겁게 내리쪼이는 <date type="season">가을</date> 볕에 얼굴이 익어서 선앵둣빛이 되고, 걸음걸이는 허둥지둥하는데 옷은 흘러내려서 젖가슴이 다 드러나고 치맛자락은 땅에 질질 끌려서 걸음을 걷는 대로 치마가 밟히니, <rs ref="#CCA">그 부인</rs>은 아무리 급한 걸음걸이를 하더라도 멀리 가지도 못하고 허둥거리기만 한다.</p>
-        <p>남이 <rs ref="#CCA">그 모양</rs>을 볼 지경이면 <rs ref="#CCA">저렇게 어여쁜 젊은 여편네</rs>가 술 먹고 한길에 나와서 주정한다 할 터이나, <rs ref="#CCA">그 부인</rs>은 술 먹었다 하는 말은 고사하고 미쳤다, 지랄한다 하더라도 그따위 소리는 귀에 들리지 아니할 만하더라.</p>
-        <p>무슨 소회가 그리 대단한지 <rs ref="#CCA">그 부인</rs>더러 물을 지경이면 대답할 여가도 없이 <persName ref="#KOR">옥련</persName>이를 부르면서 돌아다니더라.</p>
-        <p><said who="#CCA">“<persName ref="#KOR">옥련아</persName>, <persName ref="#KOR">옥련아</persName><persName ref="#KOR">옥련아</persName><persName ref="#KOR">옥련아</persName>, 죽었느냐 살았느냐. 죽었거든 <rs ref="#KOR">죽은 얼굴</rs>이라도 한번 다시 만나보자. <persName ref="#KOR">옥련아</persName><persName ref="#KOR">옥련아</persName>, 살았거든 <rs ref="#CCA">어미</rs> 애를 그만 쓰이고 어서 바삐 <rs ref="#CCA">내</rs> 눈에 보이게 하여라. <persName ref="#KOR">옥련아</persName>, 총에 맞아 죽었느냐, 창에 찔려 죽었느냐, 사람에게 밟혀 죽었느냐. 어리고 고운 살에 가시가 박힌 것을 보아도 <rs ref="#CCA">어미</rs> 된 <rs ref="#CCA">이내</rs> 마음에 <rs ref="#CCA">내</rs> 살이 지겹게 아프던 <rs ref="#CCA">내</rs> 마음이라. <time type="timeOfDay" subtype="this_morning">오늘 아침</time>에 <rs ref="#OR_H">집</rs>에서 떠나올 때에 <persName ref="#KOR">옥련</persName>이가 <rs ref="#CCA">내</rs> 앞에 서서 아장아장 걸어다니면서, <rs ref="#CCA">어머니</rs> 어서 갑시다 하던 <persName ref="#KOR">옥련</persName>이가 어디로 갔느냐.”</said></p>
-        <p>하면서 <persName ref="#KOR">옥련</persName>이를 찾으려고 골몰한 정신에, <persName ref="#KOR">옥련</persName>이보다 <rs ref="#KGI"><measure type="amount" unit="times" quantity="10">열 갑절</measure> <measure type="amount" unit="times" quantity="20">스무 갑절</measure> 더 소중하게 생각하는 사람</rs>을 잃고도 모르고 <persName ref="#KOR">옥련</persName>이만 부르며 다니다가 목이 쉬고 기운이 탈진하여 <rs type="place" subtype="mountain" ref="#MRB">산비탈 잔디풀 위</rs>에 털썩 주저앉았다가 <said aloud="false" who="#CCA"><rs ref="#KGI"> 혼자말로 <persName ref="#KOR">옥련</persName><rs ref="#KGI">아버지</rs></rs>는 <persName ref="#KOR">옥련</persName>이 찾으려고 저 건너 <rs type="place" subtype="mountain" ref="#MRB">산 밑</rs>으로 가더니 어디까지 갔누</said> 하며 <persName ref="#KOR">옥련</persName>이를 찾던 마음이 홀지에 변하여 <rs ref="#KGI"><persName ref="#KOR">옥련</persName> 아버지</rs>를 기다린다.</p>
-        <p>기다리는 사람은 아니 오고, 인간 사정은 조금도 모르는 <time type="timeOfDay" subtype="sunset">석양</time>은 제 빛 다 가지고 저 갈 데로 가니 산빛은 점점 먹장을 갈아 붓는 듯이 검어지고 <placeName ref="#DDG">대동강</placeName> 물소리는 그윽한데, <rs type="event">전쟁</rs>에 죽은 더운 송장 새 귀신들이 어두운 빛을 타서 낱낱이 일어나는 듯 <rs ref="#CCA">내</rs> 앞에 모여드는 듯하니, <rs ref="#CCA"><rs type="place" subtype="boudoir">규중</rs>에서 생장한 부인의</rs> 마음이라, 무서운 마음에 간이 녹는 듯하여 숨도 크게 쉬지 못하고 앉았는데, 홀연히 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>에서 <rs ref="#NG">사람</rs>의 소리가 들리거늘, <rs ref="#CCA">그 부인</rs>이 가만히 들은 즉 길 잃고 사람 잃고 애쓰는 소리라.</p>
-        <p><said who="#NG">“에그, 깜깜하여라. 이리 가도 길이 없고 저리 가도 길이 없으니 어디로 가면 길을 찾을까. <rs ref="#NG">나</rs>는 <rs ref="#NG">사나이</rs>라 <rs ref="#NG">다리 힘도 좋고 겁도 없는 사람</rs>이언마는 <rs type="place" subtype="mountain" ref="#MRB">이러한 산비탈</rs>에서 <time type="timeOfDay" subtype="this_night">이 밤</time>을 새고 <rs ref="#NG_W">사람</rs>을 찾아다니려 하면 이 고생이 이렇게 대단하거든, <rs ref="#NG_W">겁도 많고 다녀 보지 못하던 여편네</rs>가 <time type="timeOfDay" subtype="this_night">이 밤</time>에 <rs ref="#NG">나</rs>를 찾아 다니느라고 오죽 고생이 될까.”</said></p>
-        <p>하는 소리를 듣고 <rs ref="#CCA">부인</rs>의 마음에 <rs ref="#CJW">난리중에 피란</rs> 가다가 <rs type="group" subtype="role" ref="#CCA #KGI">부부</rs>가 서로 잃고 서로 종적을 모르니 살아 생이별을 한 듯하더니 하늘이 도와서 다시 만나 본다 하여 반가운 마음에 소리를 질렀더라.</p>
-        <p><said who="#CCA">“<rs ref="#KGI">여보</rs>, <rs ref="#CCA">나</rs> 여기 있소. <rs ref="#CCA">날</rs> 찾아 다니느라고 얼마나 애를 쓰셨소.”</said></p>
-        <p>하면서 급한 걸음으로 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>으로 향하여 내려가다가 비탈에 넘어져 구르니, <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>에서 올라오던 <rs ref="#NG">남자</rs>가 달려들어서 <rs ref="#CCA">그 부인</rs>을 붙들어 일으키니, <rs ref="#CCA">그 부인</rs>이 정신을 차려 본즉 북두갈고리 같은 <rs ref="#NG">농군</rs>의 험한 손이 <rs ref="#CCA">내</rs> 손에 닿으니 별안간에 선뜩한 마음에 소름이 끼치면서 가슴이 덜컥 내려앉고 겁결에 목소리가 나오지 못한다.</p>
-        <p><rs ref="#NG">그 남자</rs>도 또한 난리중에 <rs ref="#NG_W"><rs ref="#NG">제</rs> 계집</rs> 찾아 다니는 <rs ref="#NG">사람</rs>인데, <rs ref="#NG_W">그 계집</rs>인즉 <date type="relative"><rs ref="#CJW">피란</rs> 갈 때</date>에 팔승 무명을 강풀 한 됫박이나 먹였던지 장작같이 풀 센 치마를 입고 나간 터이요, 또 <rs ref="#NG_W">그 계집</rs>은 <rs type="person" ref="#NG_W">호미자루, 절굿공이, 다듬잇방망이, 그러한 셋궂은 일로 자라난 <rs ref="#NG">농군</rs>의 계집</rs>이라, <rs ref="#NG">그 남자</rs>가 <rs type="#CCA"><rs type="place" subtype="mountain" ref="#MRB">언덕</rs>에서 소리하고 내려오는 계집</rs>이 <rs ref="#NG_W"><rs ref="#NG">제</rs> 계집</rs>으로 알고 붙들었는데, <rs ref="#CCA"><rs type="place" subtype="mountain" ref="#MRB">그 언덕</rs>에서 부르던 부인</rs>의 손은 명주 같이 부드럽고 옷은 십이승 아랫질 세모시 치마가 이슬에 눅었는데, <rs ref="#NG">그 농군</rs>은 <rs ref="#NG"><rs ref="#NG">제</rs> 평생에 그 옷 입은 그런 손길을 만져 보기는 고사하고 쳐다보지도 못하던 위인</rs>이러라.</p>
-        <p><rs ref="#CCA">부인</rs>은 <rs ref="#KGI"><rs ref="#CCA">자기</rs> 남편</rs>이 아닌 줄 깨닫고 <rs ref="#NG">사나이</rs>도 <rs ref="#NG_W"><rs ref="#NG">제</rs> 계집</rs> 아닌 줄 알았더라. <rs ref="#CCA">부인</rs>은 겁이 나서 간이 서늘하고 <rs ref="#NG">남자</rs>는 <rs type="person" subtype="metaphor" ref="#CCA">선녀</rs>를 만난 듯하여 흥김, 겁김에 가슴이 두근거리면서 숨소리는 크고 목소리는 아니 나온다. <rs ref="#CCA">그 부인의</rs> 마음에, <said aloud="false" who="#CCA">아까는 호랑이도 무섭고 귀신도 무섭더니, 지금은 호랑이나 와서 <rs ref="#CCA">나</rs>를 잡아먹든지 귀신이나 와서 <rs ref="#NG">저놈</rs>을 잡아가든지</said> 그런 뜻밖의 일을 기다리나, 호랑이도 아니 오고 귀신도 아니 오고, 눈에 보이는 것은 말 못 하는 하늘의 별뿐이요, <rs type="place" subtype="mountain" ref="#MRB">이 산중</rs>에는 <rs ref="#CCA">죄 없고 힘 없는 이 내 몸</rs>과 <rs ref="#NG">저 몹쓸 놈</rs>과 <rs type="group" ref="#CCA #NG">단 두 사람</rs>뿐이라.</p>
+        <p><rs type="event" ref="#CJW">일청전쟁(<foreign xml:lang="zh">日淸戰爭</foreign>)</rs>의 총소리는 <placeName ref="#PY">평양</placeName> 일경이 떠나가는 듯하더니, 그 총소리가 그치매 사람의 자취는 끊어지고 <rs type="place" subtype="mountain" ref="#PY">산</rs>과 <rs type="place" subtype="field" ref="#PY">들</rs>에 비린 티끄뿐이라.</p>
+        <p><rs type="place" subtype="castle" ref="#PY">평양성</rs>의 <placeName ref="#MRB">모란봉</placeName>에 떨어지는 <time>저녁</time> 볕은 뉘엿뉘엿 넘어가는데, 저 햇빛을 붙들어매고 싶은 마음에 붙들어매지는 못하고 숨이 턱에 닿은 듯이 갈팡질팡하는 <rs type="person" ref="#CCA">한 부인</rs>이 나이 <measure type="age" unit="year" quantity="30">삼십</measure>이 될락말락하고, 얼굴은 분을 따고 넣은 듯이 흰 얼굴이나 인정 없이 뜨겁게 내리쪼이는 <date type="season">가을</date> 볕에 얼굴이 익어서 선앵둣빛이 되고, 걸음걸이는 허둥지둥하는데 옷은 흘러내려서 젖가슴이 다 드러나고 치맛자락은 땅에 질질 끌려서 걸음을 걷는 대로 치마가 밟히니, <rs type="person" ref="#CCA">그 부인</rs>은 아무리 급한 걸음걸이를 하더라도 멀리 가지도 못하고 허둥거리기만 한다.</p>
+        <p>남이 <rs type="person" ref="#CCA">그 모양</rs>을 볼 지경이면 <rs type="person" ref="#CCA">저렇게 어여쁜 젊은 여편네</rs>가 술 먹고 한길에 나와서 주정한다 할 터이나, <rs type="person" ref="#CCA">그 부인</rs>은 술 먹었다 하는 말은 고사하고 미쳤다, 지랄한다 하더라도 그따위 소리는 귀에 들리지 아니할 만하더라.</p>
+        <p>무슨 소회가 그리 대단한지 <rs type="person" ref="#CCA">그 부인</rs>더러 물을 지경이면 대답할 여가도 없이 <persName ref="#KOR">옥련</persName>이를 부르면서 돌아다니더라.</p>
+        <p>“<said who="#CCA"><persName ref="#KOR">옥련</persName>아, <persName ref="#KOR">옥련아</persName><persName ref="#KOR">옥련</persName>아<persName ref="#KOR">옥련</persName>아, 죽었느냐 살았느냐. 죽었거든 <rs type="person" ref="#KOR">죽은 얼굴</rs>이라도 한번 다시 만나보자. <persName ref="#KOR">옥련</persName>아<persName ref="#KOR">옥련</persName>아, 살았거든 <rs type="person" ref="#CCA">어미</rs> 애를 그만 쓰이고 어서 바삐 <rs type="person" ref="#CCA">내</rs> 눈에 보이게 하여라. <persName ref="#KOR">옥련</persName>아, 총에 맞아 죽었느냐, 창에 찔려 죽었느냐, 사람에게 밟혀 죽었느냐. 어리고 고운 살에 가시가 박힌 것을 보아도 <rs type="person" ref="#CCA">어미</rs> 된 <rs type="person" ref="#CCA">이내</rs> 마음에 <rs type="person" ref="#CCA">내</rs> 살이 지겹게 아프던 <rs type="person" ref="#CCA">내</rs> 마음이라. <time>오늘 아침</time>에 <rs type="place" ref="#OR_H">집</rs>에서 떠나올 때에 <persName ref="#KOR">옥련</persName>이가 <rs ref="#CCA">내</rs> 앞에 서서 아장아장 걸어다니면서, <rs type="person" ref="#CCA">어머니</rs> 어서 갑시다 하던 <persName ref="#KOR">옥련</persName>이가 어디로 갔느냐.</said>”</p>
+        <p>하면서 <persName ref="#KOR">옥련</persName>이를 찾으려고 골몰한 정신에, <persName ref="#KOR">옥련</persName>이보다 <rs type="person" ref="#KGI"><measure type="amount" unit="times" quantity="10">열 갑절</measure> <measure type="amount" unit="times" quantity="20">스무 갑절</measure> 더 소중하게 생각하는 사람</rs>을 잃고도 모르고 <persName ref="#KOR">옥련</persName>이만 부르며 다니다가 목이 쉬고 기운이 탈진하여 <rs type="place" subtype="mountain" ref="#MRB">산비탈 잔디풀 위</rs>에 털썩 주저앉았다가 혼자말로 <said aloud="false" who="#CCA"><rs type="person" ref="#KGI"><persName ref="#KOR">옥련</persName>아버지</rs>는 <persName ref="#KOR">옥련</persName>이 찾으려고 저 건너 <rs type="place" subtype="mountain" ref="#MRB">산 밑</rs>으로 가더니 어디까지 갔누</said> 하며 <persName ref="#KOR">옥련</persName>이를 찾던 마음이 홀지에 변하여 <rs type="person" ref="#KGI"><persName ref="#KOR">옥련</persName> 아버지</rs>를 기다린다.</p>
+        <p><rs type="person" ref="#KOR">기다리는 사람</rs>은 아니 오고, 인간 사정은 조금도 모르는 <time>석양</time>은 제 빛 다 가지고 저 갈 데로 가니 산빛은 점점 먹장을 갈아 붓는 듯이 검어지고 <placeName ref="#DDG">대동강</placeName> 물소리는 그윽한데, <rs type="event" ref="#CJW">전쟁</rs>에 죽은 더운 송장 새 귀신들이 어두운 빛을 타서 낱낱이 일어나는 듯 <rs type="person" ref="#CCA">내</rs> 앞에 모여드는 듯하니, <rs type="person" ref="#CCA"><rs type="place" subtype="boudoir" ref="https://wordrow.kr/의미/규중">규중</rs>에서 생장한 부인의</rs> 마음이라, 무서운 마음에 간이 녹는 듯하여 숨도 크게 쉬지 못하고 앉았는데, 홀연히 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>에서 <rs ref="#NG">사람</rs>의 소리가 들리거늘, <rs ref="#CCA">그 부인</rs>이 가만히 들은 즉 길 잃고 사람 잃고 애쓰는 소리라.</p>
+        <p>“<said who="#NG">에그, 깜깜하여라. 이리 가도 길이 없고 저리 가도 길이 없으니 어디로 가면 길을 찾을까. <rs type="person" ref="#NG">나</rs>는 <rs type="person" ref="#NG">사나이</rs>라 <rs type="person" ref="#NG">다리 힘도 좋고 겁도 없는 사람</rs>이언마는 <rs type="place" subtype="mountain" ref="#MRB">이러한 산비탈</rs>에서 <time>이 밤</time>을 새고 <rs type="person" ref="#NG_W">사람</rs>을 찾아다니려 하면 이 고생이 이렇게 대단하거든, <rs type="person" ref="#NG_W">겁도 많고 다녀 보지 못하던 여편네</rs>가 <time>이 밤</time>에 <rs type="person" ref="#NG">나</rs>를 찾아 다니느라고 오죽 고생이 될까.</said>”</p>
+        <p>하는 소리를 듣고 <rs type="person" ref="#CCA">부인</rs>의 마음에 난리중에 피란 가다가 <rs type="person" subtype="group" ref="#CCA #KGI">부부</rs>가 <rs type="person" subtype="group" ref="#CCA #KGI">서로</rs> 잃고 <rs type="person" subtype="group" ref="#CCA #KGI">서로</rs> 종적을 모르니 살아 생이별을 한 듯하더니 하늘이 도와서 다시 만나 본다 하여 반가운 마음에 소리를 질렀더라.</p>
+        <p>“<said who="#CCA"><rs type="person" ref="#KGI">여보</rs>, <rs type="person" ref="#CCA">나</rs> 여기 있소. <rs type="person" ref="#CCA">날</rs> 찾아 다니느라고 얼마나 애를 쓰셨소.</said>”</p>
+        <p>하면서 급한 걸음으로 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>으로 향하여 내려가다가 비탈에 넘어져 구르니, <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>에서 올라오던 <rs type="person" ref="#NG">남자</rs>가 달려들어서 <rs type="person" ref="#CCA">그 부인</rs>을 붙들어 일으키니, <rs type="person" ref="#CCA">그 부인</rs>이 정신을 차려 본즉 북두갈고리 같은 <rs type="person" ref="#NG">농군</rs>의 험한 손이 <rs type="person" ref="#CCA">내</rs> 손에 닿으니 별안간에 선뜩한 마음에 소름이 끼치면서 가슴이 덜컥 내려앉고 겁결에 목소리가 나오지 못한다.</p>
+        <p><rs type="person" ref="#NG">그 남자</rs>도 또한 난리중에 <rs type="person" ref="#NG_W"><rs type="person" ref="#NG">제</rs> 계집</rs> 찾아 다니는 <rs type="person" ref="#NG">사람</rs>인데, <rs type="person" ref="#NG_W">그 계집</rs>인즉 <date><rs type="event" ref="#CJW">피란</rs> 갈 때</date>에 팔승 무명을 강풀 한 됫박이나 먹였던지 장작같이 풀 센 치마를 입고 나간 터이요, 또 <rs type="person" ref="#NG_W">그 계집</rs>은 <rs type="person" ref="#NG_W">호미자루, 절굿공이, 다듬잇방망이, 그러한 셋궂은 일로 자라난 <rs type="person" ref="#NG">농군</rs>의 계집</rs>이라, <rs type="person" ref="#NG">그 남자</rs>가 <rs type="person" ref="#CCA"><rs type="place" subtype="mountain" ref="#MRB">언덕</rs>에서 소리하고 내려오는 계집</rs>이 <rs type="person" ref="#NG_W"><rs type="person" ref="#NG">제</rs> 계집</rs>으로 알고 붙들었는데, <rs type="person" ref="#CCA"><rs type="place" subtype="mountain" ref="#MRB">그 언덕</rs>에서 부르던 부인</rs>의 손은 명주 같이 부드럽고 옷은 십이승 아랫질 세모시 치마가 이슬에 눅었는데, <rs type="person" ref="#NG">그 농군</rs>은 <rs type="person" ref="#NG">제 평생에 그 옷 입은 그런 손길을 만져 보기는 고사하고 쳐다보지도 못하던 위인</rs>이러라.</p>
+        <p><rs type="person" ref="#CCA">부인</rs>은 <rs type="person" ref="#KGI"><rs type="person" ref="#CCA">자기</rs> 남편</rs>이 아닌 줄 깨닫고 <rs type="person" ref="#NG">사나이</rs>도 <rs type="person" ref="#NG_W"><rs type="person" ref="#NG">제</rs> 계집</rs> 아닌 줄 알았더라. <rs type="person" ref="#CCA">부인</rs>은 겁이 나서 간이 서늘하고 <rs type="person" ref="#NG">남자</rs>는 <rs type="person" subtype="metaphor" ref="#CCA">선녀</rs>를 만난 듯하여 흥김, 겁김에 가슴이 두근거리면서 숨소리는 크고 목소리는 아니 나온다. <rs type="person" ref="#CCA">그 부인의</rs> 마음에, <said aloud="false" who="#CCA">아까는 호랑이도 무섭고 귀신도 무섭더니, 지금은 호랑이나 와서 <rs type="person" ref="#CCA">나</rs>를 잡아먹든지 귀신이나 와서 <rs type="person" ref="#NG">저놈</rs>을 잡아가든지</said> 그런 뜻밖의 일을 기다리나, 호랑이도 아니 오고 귀신도 아니 오고, 눈에 보이는 것은 말 못 하는 하늘의 별뿐이요, <rs type="place" subtype="mountain" ref="#MRB">이 산중</rs>에는 <rs type="person" ref="#CCA">죄 없고 힘 없는 이 내 몸</rs>과 <rs type="person" ref="#NG">저 몹쓸 놈</rs>과 <rs type="person" subtype="group" ref="#CCA #NG">단 두 사람</rs>뿐이라.</p>
         <p>사람이 겁이 나다가 오래 되면 악이 나는 법이라. 겁이 날 때는 숨도 크게 못 쉬다가 악이 나면반벙어리 같은 사람도 말이 물 퍼붓듯 나오는 일도 있는지라.</p>
-        <p><said who="#CCA">“<rs ref="#NG">여보</rs>, 웬 사람이오. <rs ref="#NG">여보</rs>, 대답 좀 하오. <rs ref="#NG">여보</rs> <rs ref="#CCA">남</rs>을 붙들고 떨기는 왜 그리 떠오. <rs ref="#NG">여보</rs>, <rs ref="#NG">벙어리</rs>요 <rs ref="#NG">도둑놈</rs>이오? <rs ref="#NG">도둑놈</rs>이거든 <rs ref="#CCA">내 몸</rs>의 옷이나 벗어 줄 터이니 다 가져가오.”</said></p>
-        <p>그 <rs ref="#NG">남자</rs>가 못생긴 마음에 어기뚱한 생각이 나서 <rs ref="#NG">말 한마디 엄두가 아니 나던 위인</rs>이 불 같은 욕심에 말문이 함부로 열렸더라.</p>
-        <p><said who="#NG">“<rs ref="#CCA">여보</rs>, 웬 <rs ref="#CCA">여편네</rs>가 <time type="relative" subtype="this_night">이 밤중</time>에 여기 와서 있소? 아마 <rs ref="#CCA">시집살이 마다고 도망하는 여편네</rs>지. <rs  type="person" subtype="fugitive" ref="#CCA">도망꾼</rs>이라도 붙들어다가 데리고 살면 계집 없느니보다 날 터이니 데리고 갈 일이로구. 데리고 가기는 나중 일이어니와…… <rs ref="#NG">내</rs>가 <time type="timeOfDay" subtype="last_night">어젯밤</time> 꿈에 <rs type="place" subtype="mountain" ref="#MRB">이 산중</rs>에서 장가를 들었더니 꿈도 신통히 맞힌다.”</said></p>
-        <p>하면서 <rs ref="#NG">무지막지한 놈</rs>의 행위라 불측한 소리가 점점 심하니, <rs ref="#CCA">그 부인</rs>이 죽어서 이 욕을 아니 보리라 하는 마음뿐이나, 어느 틈에 죽을 겨를도 없는지라.</p>
-        <p>사람이 생목숨을 버리는 것은 사람이 제일 설워하는 일인데, 죽으려 하여도 죽지도 못하는 <rs ref="#CCA">그 부인</rs> 생각은 어떻다 형용할 수 없는 터이라.</p>
-        <p>빌어 보면 좋을까 생각하여 이리 빌고 저리 빌고 각색으로 빌어 보니 <rs ref="#NG">그 놈</rs>의 귀에 비는 소리가 쓸데없고 하릴없는 지경이라. <rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>에서 <rs ref="#JP_S">웬 사람</rs>이 소리를 지르는데 무슨 소린지는 모르나 <rs ref="#CCA">부인</rs>은 그 소리를 듣고 죽었던 부모가 살아온 듯이 기쁜 마음에 마주 소리를 질렀더라.</p>
-        <p><said who="#CCA">“<rs type="person" ref="#CCA">사람</rs> 좀 살려 주오…….”</said></p>
-        <p>하는 소리가 아무리 <rs ref="#CCA">부인</rs>의 목소리라도 죽을 힘을 다 들여서 지르는 밤소리라 <rs type="place" subtype="mountain" ref="#MRB">산골</rs>이 울리니 <rs type="person" ref="#JP_S"><rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>의 사람</rs>이 또 소리를 지른다. <rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>와 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>이 <measure type="length" unit="間" quantity="2">두 간</measure> 길이쯤 되나 지척을 불변하는 칠야에 서로 모양도 못 보고 또 서로 말도 못 알아듣는 터이라, <rs type="person" ref="#JP_S"><rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>의 사람</rs>이 총 한 방을 놓으니 <time type="timeOfDay" subtype="night">밤중</time>의 총소리라, <rs type="place" subtype="mountain" ref="#MRB">산</rs>이 울리면서 <rs ref="#JP_S">사람</rs>이 모여드는데 <orgName ref="#JP_S">일본 보초병들</orgName>이러라. 누구는 겁이 많고 누구는 겁이 없다 하는 말도 알 수 없는 말이라. 세상에 죄 있는 사람같이 겁 많은 사람은 없고, 죄 없는 사람같이 다기 있는 것은 없다. <rs ref="#CCA">부인</rs>은 총소리에도 겁이 없고 도리어 욕을 면한 것만 천행으로 여기는데, <rs ref="#NG">그 남자</rs>는 <rs ref="#NG">제</rs>가 불측한 마음으로 불측한 일을 바라던 차이라, 총소리를 듣고 <rs ref="#NG">저</rs>를 죽이러 온 사람으로 알고 달아난다. <time type="timeOfDay" ref="#daytime">밝은 날</time> 같으면 달아날 생각도 못 하였을 터이나, <time type="timeOfDay" ref="#night">깜깜한 밤</time>이라 옆으로 비켜 서기만 하여도 알 수 없는 고로 종적 없이 달아났더라. <orgName ref="#JP_S">보초병</orgName>이 <rs ref="#CCA">부인</rs>을 잡아서 앞세우고 가는데 서로 말은 못 하고 <rs type="person" subtype="metaphor" ref="#JP_S">벙어리</rs>가 <rs type="animal" subtype="metaphor" ref="#CCA">소</rs>를 몰고 가는 듯하다.</p>
-        <p>계엄중(戒嚴中) 총소리라 <placeName ref="#PY">평양성</placeName> <rs ref="#JP_S">근처에 있던 헌병</rs>이 낱낱이 모여들어서 <rs type="person" ref="#JP_S">총 놓은 군사</rs>와 <rs ref="#CCA">부인</rs>을 데리고 <rs type="place" corresp="#JP_S">헌병부</rs>로 향하여 가니, <rs ref="#CCA">그 부인</rs>은 어디인지 모르고 가나 <rs type="place" ref="#PY">성</rs>도 보이고 <rs type="place" ref="#PY_NG">문</rs>도 보이는데, 정신을 차려 본즉 <placeName ref="#PY_NG">평양성 북문</placeName>이라.</p>
-        <p><time type="timeOfDay" subtype="night">밤</time>은 깊어 사람의 자취도 없고 사면에서 닭은 홰를 치며 울고 개는 <rs type="place" subtype="private_house">여염집</rs> <rs type="place" subtype="gate">평대문</rs> <rs type="place" subtype="hole">개구멍</rs>으로 주둥이만 내어 놓고 짖는다. 닭소리, 개소리에 <rs ref="#CCA">부인</rs>의 발이 땅에 떨어지지 못하여 걸음을 멈추고 섰는데, 오장이 녹는 듯하고 눈물이 앞을 가린다. <rs ref="#OR_D">개</rs>는 명물이라 <rs ref="#CCA">밤사람</rs>을 알아보고 반가워 뛰어 나오다가 <rs type="person" ref="#JP_S">헌병</rs>이 칼을 빼어 <rs ref="#OR_D">개</rs>를 차려 하니 <rs ref="#OR_D">개</rs> 쫓겨 들어가며 짖으나 사람도 말을 통치 못하거든 더구나 짐승이야…….</p>
-        <p><said aloud="false" who="#CCA">“<rs ref="#OR_D">개</rs>야, <rs ref="#OR_D">너</rs> 혼자 <rs ref="#OR_H">집</rs>을 지키고 있구나. <rs type="group" ref="#KGI #CCA #KOR">우리</rs>가 <date type="relative"><rs ref="#CJW">피란</rs> 갈 때</date>에 <rs ref="#OR_D">너</rs>를 <rs type="place" subtype="part" ref="#OR_H">부엌</rs>에 가두고 나왔더니 어디로 나왔느냐. <rs ref="#OR_D">너</rs>와 같이 <rs ref="#OR_H">집</rs>에 있었더면 이러한 일이 생기지 아니하였을 것을 살 곳 찾아가느라고 죽을 길 고생 길로 들어갔다. <rs ref="#CCA">나</rs>는 살아와서 <rs ref="#OR_D">너</rs>를 다시 본다마는 <persName ref="#KGI">서방님</persName>도 아니 계시다, <rs ref="#OR_D">너</rs>를 귀애하던 <persName ref="#KOR">옥련</persName>이도 없다, <rs ref="#CCA">내</rs>가 <rs ref="#OR_D">너</rs>와 같이 다리 힘이 좋으면 방방곡곡이 찾아다닐 터이나, 다리 힘도 없고 <rs ref="#CCA">세상에 만만하고 불쌍한 것은 여편네</rs>라 겁나는 것 많아서 못 다니겠다. 닭도 <rs ref="#OR_H">주인 없는 집</rs>에서 혼자 울고, <rs ref="#OR_D">개</rs>도 <rs ref="#OR_H">주인 없는 집</rs>에서 혼자 짖는구나. <rs ref="#OR_D">개</rs>야, 이리 나오거라. <rs ref="#CCA">나</rs>는 어디로 잡혀 가는지 <rs ref="#CCA">내</rs> 발로 걸어가나 <rs ref="#CCA">내</rs> 마음으로 가는 것은 아니다.”</said></p>
-        <p><rs type="person" ref="#JP_S">헌병</rs>이 소리를 질러 가기를 재촉하니 <rs ref="#CCA">부인</rs>이 하릴없이 <orgName corresp="#JP_S">헌병부</orgName>로 잡혀 가는데 <rs ref="#OR_D">개</rs>는 멍멍 짖으며 따라오니 <rs ref="#OR_H"><rs ref="#OR_D">그 개</rs> 짖고 나오던 집</rs>은 <rs ref="#OR_H"><rs ref="#CCA">부인</rs>의 집</rs>이러라.</p>
-        <p>그날은 <placeName ref="#PY">평양성</placeName>에서 싸움 결말 나던 날이요, <rs ref="#CN_P"><rs ref="#PY_R">성중의 사람</rs>이 진저리 내던 청인</rs>이 그림자도 없이 다 쫓겨 나가던 날이요, 철환은 공중에서 우박 쏟아지듯 하고 총소리는 <placeName ref="#PY">평양성</placeName> 근처가 다 두려 빠지고 사람 하나도 아니 남을 듯하던 날이요, <orgName ref="#PY_R">평양사람</orgName>이 <orgName ref="#JP_S">일병</orgName> 들어온다는 소문을 듣고 <orgName ref="#JP_S">일병</orgName>은 어떠한지, <rs type="event" ref="#IJW">임진난리</rs>에 <placeName ref="#PY">평양</placeName> 싸움 이야기하며 별공론이 다 나고 별염려 다 하던 <orgName ref="#JP_S">그 일병</orgName>이 장마통에 <rs type="nature" subtype="metaphor" ref="#JP_S">검은 구름</rs> 떠들어오듯 <rs ref="#PY">성</rs>내·<rs ref="#PY">성</rs>외에 빈틈없이 들어와 박히던 날이라.</p>
-        <p>본래 <rs ref="#PY_R"><placeName ref="#PY">평양성</placeName>중 사는 사람들</rs>이 <rs ref="#CN_P">청인</rs>의 작폐에 견디지 못하여 <rs ref="#PY_R">산골로 <rs ref="#CJW">피란</rs> 간 사람</rs>이 많더니, 산중에서는 <rs ref="#CN_S">청인 군사</rs>를 만나면 <rs type="animal" subtype="metaphor" ref="#CN_S">호랑이</rs> 본 것 같고 <rs type="person" subtype="metaphor" ref="#CN_S">원수</rs> 만난 것 같다. 어찌하여 그렇게 감정이 사나우냐 할 지경이면, <rs ref="#CN_S">청인의 군사</rs>가 <rs type="place" subtype="mountain" ref="#PY"></rs>산에 가서 <rs type="group" subtype="role" ref="#PY_R">젊은 부녀</rs>를 보면 겁탈하고, 돈이 있으면 빼앗아 가고, <rs ref="#CN_S">제</rs>게 쓸데없는 물건이라도 <persName  type="person" subtype="metaphor" ref="#CN_S">놀부</persName>의 심사같이 장난하니, <rs ref="#PY_R"><rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs ref="#CJW">피란</rs> 간 사람</rs>은 난리를 한 층 더 겪는다. 그러므로 <rs ref="#PY_R"><rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs ref="#CJW">피란</rs> 갔던 사람</rs>이 <placeName ref="#PY">평양성</placeName>으로 <rs ref="#PY_R">도로 <rs ref="#CJW">피란</rs> 온 사람</rs>도 많이 있었더라.</p>
-        <p><rs ref="#CCA">그 부인</rs>은 <placeName ref="#PY_NG">평양성 북문</placeName> 안에 사는데 <date type="relative">며칠 전</date>에 <rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs ref="#CJW">피란</rs>도 갔다가 <rs type="place" subtype="mountain" ref="#PY">산</rs>에도 있을 수 없고, <rs type="place" subtype="rural_area">촌</rs>에 사는 <rs type="place">일갓집</rs>으로 <rs ref="#CJW">피란</rs> 갔다가 <rs type="place" subtype="single_room">단칸방</rs>에서 주인과 손과 여덟 식구가 <date dur="#P2D">이틀 밤</date>을 앉아 새우고 하릴없이 <placeName ref="#PY">평양성 내</placeName>로 도로 온 지가 불과 <date type="relative">수일 전</date>이라. 그때 마음에 다시는 죽어도 <rs ref="#CJW">피란</rs> 가지 아니한다하였더니, <time type="relative" subtype="this_dawn">오늘 새벽</time>부터 총소리는 천지를 뒤집어 놓고 사면 <rs type="place" subtype="mountain" ref="#PY">산꼭대기</rs> <rs type="place" subtype="field" ref="#PY">들 가운데</rs>에 불비가 쏟아지니 밝기를 기다려서 <rs ref="#CJW">피란</rs>길을 떠났는데, 아무것도 가진 것 없고 <rs type="group" subtype="role" ref="#CCA #KGI">젊은 내외</rs>와 <rs ref="#KOR">어린 딸 옥련이</rs>와 <rs type="group" subtype="role" ref="#CCA #KGI #KOR">단 세 식구</rs> <rs ref="#CJW">피란</rs>이라.</p>
-        <p><rs ref="#PY">성</rs>중에는 울음 천지요, <rs ref="#PY">성</rs>밖에는 송장 천지요, 산에는 <rs ref="#PY_R"><rs ref="#CJW">피란</rs>꾼</rs> 천지라. <rs ref="#PY_R">어미</rs>가 <rs ref="#PY_R">자식</rs> 부르는 소리,<rs ref="#PY_R">서방</rs>이 <rs ref="#PY_R">계집</rs> 부르는 소리, <rs ref="#PY_R">계집</rs>이 <rs ref="#PY_R">서방</rs> 부르는 소리, 이렇게 <rs type="person" ref="#PY_R">사람</rs> 찾는 소리뿐이라. <rs type="person" ref="#PY_R">어린아이</rs>를 내버리고 <rs type="person" ref="#PY_R">저 혼자 달아나는 사람</rs>도 있고, <rs type="group" ref="#PY_R">두 내외 손을 맞붙들고 마주 찾는 사람</rs>도 있더니, 석양판에는 <rs type="group" ref="#PY_R">그 사람</rs>이 다 어디로 가고 없던지 보이지 아니하고, <placeName ref="#MRB">모란봉</placeName> 아래서 <rs ref="#CCA"><persName ref="#KOR">옥련</persName>이 부르고 다니는 부인</rs> 하나만 남아 있더라.</p>
+        <p>“<said who="#CCA"><rs type="person" ref="#NG">여보</rs>, 웬 사람이오. <rs type="person" ref="#NG">여보</rs>, 대답 좀 하오. <rs type="person" ref="#NG">여보</rs> <rs type="person" ref="#CCA">남</rs>을 붙들고 떨기는 왜 그리 떠오. <rs type="person" ref="#NG">여보</rs>, <rs type="person" ref="#NG">벙어리</rs>요 <rs type="person" ref="#NG">도둑놈</rs>이오? <rs type="person" ref="#NG">도둑놈</rs>이거든 <rs type="person" ref="#CCA">내</rs> 몸의 옷이나 벗어 줄 터이니 다 가져가오.</said>”</p>
+        <p>그 <rs type="person" ref="#NG">남자</rs>가 못생긴 마음에 어기뚱한 생각이 나서 <rs type="person" ref="#NG">말 한마디 엄두가 아니 나던 위인</rs>이 불 같은 욕심에 말문이 함부로 열렸더라.</p>
+        <p><said who="#NG">“<rs type="person" ref="#CCA">여보</rs>, 웬 <rs type="person" ref="#CCA">여편네</rs>가 <time>이 밤중</time>에 여기 와서 있소? 아마 <rs type="person" ref="#CCA">시집살이 마다고 도망하는 여편네</rs>지. <rs type="person" subtype="fugitive" ref="#CCA">도망꾼</rs>이라도 붙들어다가 데리고 살면 계집 없느니보다 날 터이니 데리고 갈 일이로구. 데리고 가기는 나중 일이어니와…… <rs type="person" ref="#NG">내</rs>가 <time>어젯밤</time> 꿈에 <rs type="place" subtype="mountain" ref="#MRB">이 산중</rs>에서 장가를 들었더니 꿈도 신통히 맞힌다.</said>”</p>
+        <p>하면서 <rs type="person" ref="#NG">무지막지한 놈</rs>의 행위라 불측한 소리가 점점 심하니, <rs type="person" ref="#CCA">그 부인</rs>이 죽어서 이 욕을 아니 보리라 하는 마음뿐이나, 어느 틈에 죽을 겨를도 없는지라.</p>
+        <p>사람이 생목숨을 버리는 것은 사람이 제일 설워하는 일인데, 죽으려 하여도 죽지도 못하는 <rs type="person" ref="#CCA">그 부인</rs> 생각은 어떻다 형용할 수 없는 터이라.</p>
+        <p>빌어 보면 좋을까 생각하여 이리 빌고 저리 빌고 각색으로 빌어 보니 <rs type="person" ref="#NG">그 놈</rs>의 귀에 비는 소리가 쓸데없고 하릴없는 지경이라. <rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>에서 <rs type="person" subtype="military" ref="#JP_S">웬 사람</rs>이 소리를 지르는데 무슨 소린지는 모르나 <rs type="person" ref="#CCA">부인</rs>은 그 소리를 듣고 죽었던 부모가 살아온 듯이 기쁜 마음에 마주 소리를 질렀더라.</p>
+        <p>“<said who="#CCA"><rs type="person" ref="#CCA">사람</rs> 좀 살려 주오…….</said>”</p>
+        <p>하는 소리가 아무리 <rs type="person" ref="#CCA">부인</rs>의 목소리라도 죽을 힘을 다 들여서 지르는 밤소리라 <rs type="place" subtype="mountain" ref="#MRB">산골</rs>이 울리니 <rs type="org" subtype="military" ref="#JP_S"><rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>의 사람</rs>이 또 소리를 지른다. <rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>와 <rs type="place" subtype="mountain" ref="#MRB">언덕 밑</rs>이 <measure type="length" unit="間" quantity="2">두 간</measure> 길이쯤 되나 지척을 불변하는 칠야에 서로 모양도 못 보고 또 서로 말도 못 알아듣는 터이라, <rs type="org" subtype="military" ref="#JP_S"><rs type="place" subtype="mountain" ref="#MRB">언덕 위</rs>의 사람</rs>이 총 한 방을 놓으니 <time>밤중</time>의 총소리라, <rs type="place" subtype="mountain" ref="#MRB">산</rs>이 울리면서 <rs type="org" subtype="military" ref="#JP_S">사람</rs>이 모여드는데 <orgName ref="#JP_S">일본 보초병들</orgName>이러라. 누구는 겁이 많고 누구는 겁이 없다 하는 말도 알 수 없는 말이라. 세상에 죄 있는 사람같이 겁 많은 사람은 없고, 죄 없는 사람같이 다기 있는 것은 없다. <rs type="person" ref="#CCA">부인</rs>은 총소리에도 겁이 없고 도리어 욕을 면한 것만 천행으로 여기는데, <rs type="person" ef="#NG">그 남자</rs>는 <rs type="person" ref="#NG">제</rs>가 불측한 마음으로 불측한 일을 바라던 차이라, 총소리를 듣고 <rs type="person" ref="#NG">저</rs>를 죽이러 온 사람으로 알고 달아난다. <time>밝은 날</time> 같으면 달아날 생각도 못 하였을 터이나, <time>깜깜한 밤</time>이라 옆으로 비켜 서기만 하여도 알 수 없는 고로 종적 없이 달아났더라. <orgName ref="#JP_S">보초병</orgName>이 <rs type="person" ref="#CCA">부인</rs>을 잡아서 앞세우고 가는데 서로 말은 못 하고 <rs type="person" subtype="metaphor" ref="#JP_S">벙어리</rs>가 <rs type="animal" subtype="metaphor" ref="#CCA">소</rs>를 몰고 가는 듯하다.</p>
+        <p>계엄중(<foreign xml:lang="zh">戒嚴中</foreign>) 총소리라 <rs type="place" subtype="castle" ref="#PY">평양성</rs> <rs type="org" subtype="military" ref="#JP_S">근처에 있던 헌병</rs>이 낱낱이 모여들어서 <rs type="person" ref="#JP_S">총 놓은 군사</rs>와 <rs type="person" ref="#CCA">부인</rs>을 데리고 <rs type="place" corresp="#JP_S">헌병부</rs>로 향하여 가니, <rs type="person" ref="#CCA">그 부인</rs>은 어디인지 모르고 가나 <rs type="place" ref="#PY">성</rs>도 보이고 <rs type="place" ref="#PY_NG">문</rs>도 보이는데, 정신을 차려 본즉 <placeName ref="#PY_NG">평양성 북문</placeName>이라.</p>
+        <p><time>밤</time>은 깊어 사람의 자취도 없고 사면에서 닭은 홰를 치며 울고 개는 <rs type="place" subtype="private_house">여염집</rs> <rs type="place" subtype="gate">평대문</rs> <rs type="place" subtype="hole">개구멍</rs>으로 주둥이만 내어 놓고 짖는다. 닭소리, 개소리에 <rs type="person" ref="#CCA">부인</rs>의 발이 땅에 떨어지지 못하여 걸음을 멈추고 섰는데, 오장이 녹는 듯하고 눈물이 앞을 가린다. <rs type="animals" ref="#OR_D">개</rs>는 명물이라 <rs type="person" ref="#CCA">밤사람</rs>을 알아보고 반가워 뛰어 나오다가 <rs type="person" subtype="military" ref="#JP_S">헌병</rs>이 칼을 빼어 <rs type="animals" ef="#OR_D">개</rs>를 차려 하니 <rs type="animals" ref="#OR_D">개</rs> 쫓겨 들어가며 짖으나 사람도 말을 통치 못하거든 더구나 짐승이야…….</p>
+        <p>“<said who="#CCA"><rs type="animals" ref="#OR_D">개</rs>야, <rs type="animals" ref="#OR_D">너 혼자</rs> <rs type="place" ref="#OR_H">집</rs>을 지키고 있구나. <rs type="person" subtype="group" ref="#KGI #CCA #KOR">우리</rs>가 <date><rs type="event" ref="#CJW">피란</rs> 갈 때</date>에 <rs type="animals" ref="#OR_D">너</rs>를 <rs type="place" subtype="part" ref="#OR_H">부엌</rs>에 가두고 나왔더니 어디로 나왔느냐. <rs type="animals" ref="#OR_D">너</rs>와 같이 <rs type="place" ref="#OR_H">집</rs>에 있었더면 이러한 일이 생기지 아니하였을 것을 살 곳 찾아가느라고 죽을 길 고생 길로 들어갔다. <rs type="person" ref="#CCA">나</rs>는 살아와서 <rs type="animals" ref="#OR_D">너</rs>를 다시 본다마는 <rs type="person" ref="#KGI">서방님</rs>도 아니 계시다, <rs type="animals" ref="#OR_D">너</rs>를 귀애하던 <persName ref="#KOR">옥련</persName>이도 없다, <rs type="person" ref="#CCA">내</rs>가 <rs type="animals" ref="#OR_D">너</rs>와 같이 다리 힘이 좋으면 방방곡곡이 찾아다닐 터이나, 다리 힘도 없고 <rs type="person" ref="#CCA">세상에 만만하고 불쌍한 것은 여편네</rs>라 겁나는 것 많아서 못 다니겠다. 닭도 <rs type="place" ref="#OR_H">주인 없는 집</rs>에서 혼자 울고, <rs type="animals" ref="#OR_D">개</rs>도 <rs type="place" ref="#OR_H">주인 없는 집</rs>에서 혼자 짖는구나. <rs type="animals" ref="#OR_D">개</rs>야, 이리 나오거라. <rs type="person" ref="#CCA">나</rs>는 어디로 잡혀 가는지 <rs type="person" ref="#CCA">내</rs> 발로 걸어가나 <rs type="person" ref="#CCA">내</rs> 마음으로 가는 것은 아니다.</said>”</p>
+        <p><rs type="person" subtype="military" ref="#JP_S">헌병</rs>이 소리를 질러 가기를 재촉하니 <rs type="person" ref="#CCA">부인</rs>이 하릴없이 <orgName corresp="#JP_S">헌병부</orgName>로 잡혀 가는데 <rs type="animals" ref="#OR_D">개</rs>는 멍멍 짖으며 따라오니 <rs type="place" ref="#OR_H"><rs type="animals" ref="#OR_D">그 개</rs> 짖고 나오던 집</rs>은 <rs type="place" ref="#OR_H"><rs type="person" ref="#CCA">부인</rs>의 집</rs>이러라.</p>
+        <p>그날은 <rs type="place" subtype="castle" ref="#PY">평양성</rs>에서 싸움 결말 나던 날이요, <rs type="org" subtype="people" ref="#CN_P"><rs type="org" subtype="residents" ref="#PY_R">성중의 사람</rs>이 진저리 내던 청인</rs>이 그림자도 없이 다 쫓겨 나가던 날이요, 철환은 공중에서 우박 쏟아지듯 하고 총소리는 <rs type="place" subtype="castle" ref="#PY">평양성</rs> 근처가 다 두려 빠지고 사람 하나도 아니 남을 듯하던 날이요, <orgName ref="#PY_R">평양사람</orgName>이 <orgName ref="#JP_S">일병</orgName> 들어온다는 소문을 듣고 <orgName ref="#JP_S">일병</orgName>은 어떠한지, <rs type="event" ref="#IJW">임진난리</rs>에 <placeName ref="#PY">평양</placeName> 싸움 이야기하며 별공론이 다 나고 별염려 다 하던 <orgName ref="#JP_S">그 일병</orgName>이 장마통에 <rs type="nature" subtype="metaphor" ref="#JP_S">검은 구름</rs> 떠들어오듯 <rs type="place" subtype="city" ref="#PY">성</rs><offset>내</offset>·<rs type="place" subtype="city" ref="#PY">성</rs><offset>외</offset>에 빈틈없이 들어와 박히던 날이라.</p>
+        <p>본래 <rs type="org" subtype="residents" ref="#PY_R"><rs type="place" subtype="castle" ref="#PY">평양성</rs>중 사는 사람들</rs>이 <rs type="org" subtype="people" ref="#CN_P">청인</rs>의 작폐에 견디지 못하여 <rs type="org" subtype="residents" ref="#PY_R">산골로 <rs type="event" ref="#CJW">피란</rs> 간 사람</rs>이 많더니, 산중에서는 <rs type="org" subtype="military" ref="#CN_S">청인 군사</rs>를 만나면 <rs type="animal" subtype="metaphor" ref="#CN_S">호랑이</rs> 본 것 같고 <rs type="person" subtype="metaphor" ref="#CN_S">원수</rs> 만난 것 같다. 어찌하여 그렇게 감정이 사나우냐 할 지경이면, <rs type="org" subtype="military" ref="#CN_S">청인의 군사</rs>가 <rs type="place" subtype="mountain" ref="#PY"></rs>산에 가서 <rs type="group" subtype="role" ref="#PY_R">젊은 부녀</rs>를 보면 겁탈하고, 돈이 있으면 빼앗아 가고, <rs ref="#CN_S">제</rs>게 쓸데없는 물건이라도 <persName  type="person" subtype="metaphor" ref="#CN_S">놀부</persName>의 심사같이 장난하니, <rs ref="#PY_R"><rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs ref="#CJW">피란</rs> 간 사람</rs>은 난리를 한 층 더 겪는다. 그러므로 <rs ref="#PY_R"><rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs type="event" ref="#CJW">피란</rs> 갔던 사람</rs>이 <rs type="place" subtype="castle" ref="#PY">평양성</rs>으로 <rs type="org" subtype="residents" ref="#PY_R">도로 <rs type="event" ref="#CJW">피란</rs> 온 사람</rs>도 많이 있었더라.</p>
+        <p><rs type="person" ref="#CCA">그 부인</rs>은 <placeName ref="#PY_NG">평양성 북문</placeName> 안에 사는데 <date type="relative">며칠 전</date>에 <rs type="place" subtype="mountain" ref="#PY">산</rs>에 <rs ref="#CJW">피란</rs>도 갔다가 <rs type="place" subtype="mountain" ref="#PY">산</rs>에도 있을 수 없고, <rs type="place" subtype="rural_area">촌</rs>에 사는 <rs type="place">일갓집</rs>으로 <rs ref="#CJW">피란</rs> 갔다가 <rs type="place" subtype="single_room">단칸방</rs>에서 주인과 손과 여덟 식구가 <date>이틀 밤</date>을 앉아 새우고 하릴없이 <rs type="place" subtype="castle" ref="#PY">평양성</rs> <offset>내</offset>로 도로 온 지가 불과 <date>수일 전</date>이라. 그때 마음에 다시는 죽어도 <rs type="event" ref="#CJW">피란</rs> 가지 아니한다하였더니, <time>오늘 새벽</time>부터 총소리는 천지를 뒤집어 놓고 사면 <rs type="place" subtype="mountain" ref="#PY">산꼭대기</rs> <rs type="place" subtype="field" ref="#PY">들 가운데</rs>에 불비가 쏟아지니 밝기를 기다려서 <rs ref="#CJW">피란</rs>길을 떠났는데, 아무것도 가진 것 없고 <rs type="group" subtype="role" ref="#CCA #KGI">젊은 내외</rs>와 <rs type="person" ref="#KOR">어린 딸 옥련이</rs>와 <rs type="group" subtype="role" ref="#CCA #KGI #KOR">단 세 식구</rs> <rs type="event" ref="#CJW">피란</rs>이라.</p>
+        <p><rs ref="#PY">성</rs>중에는 울음 천지요, <rs ref="#PY">성</rs>밖에는 송장 천지요, 산에는 <rs ref="#PY_R"><rs type="event" ref="#CJW">피란</rs>꾼</rs> 천지라. <rs ref="#PY_R">어미</rs>가 <rs ref="#PY_R">자식</rs> 부르는 소리,<rs ref="#PY_R">서방</rs>이 <rs ref="#PY_R">계집</rs> 부르는 소리, <rs ref="#PY_R">계집</rs>이 <rs ref="#PY_R">서방</rs> 부르는 소리, 이렇게 <rs type="person" ref="#PY_R">사람</rs> 찾는 소리뿐이라. <rs type="person" ref="#PY_R">어린아이</rs>를 내버리고 <rs type="person" ref="#PY_R">저 혼자 달아나는 사람</rs>도 있고, <rs type="group" ref="#PY_R">두 내외 손을 맞붙들고 마주 찾는 사람</rs>도 있더니, 석양판에는 <rs type="group" ref="#PY_R">그 사람</rs>이 다 어디로 가고 없던지 보이지 아니하고, <placeName ref="#MRB">모란봉</placeName> 아래서 <rs ref="#CCA"><persName ref="#KOR">옥련</persName>이 부르고 다니는 부인</rs> 하나만 남아 있더라.</p>
         <p><rs ref="#KGI"><rs ref="#CCA">그 부인</rs>의 남편 되는 사람</rs>은 나이<measure type="age" unit="year" quantity="29">스물아홉 살</measure>인데, <persName ref="#KGI"><placeName ref="#PY">평양서</placeName> 돈 잘 쓰기로 이름 있던 김관일</persName>이라.</p>
         <p><rs ref="#CJW">피란</rs>길 <rs type="person">인해</rs> 중에 서로 잃고 서로 찾다가 <persName ref="#KGI">김관일</persName>은 <rs ref="#OR_H"><rs ref="#KGI">저</rs>의 집</rs>으로 혼자 돌아와서 <time type="timeOfDay" subtype="that_night">그날 밤</time>에 <rs ref="#OR_H">빈집</rs>에 혼자 있다가 <time type="timeOfDay" subtype="night">밤중</time>에 <rs ref="#OR_D">개</rs>가 하도 몹시 짖거늘 일어나서 <rs type="place" subtype="part" ref="#OR_H">대문</rs>을 열고 보려 하다가 겁이 나서 열지는 못하고 <rs type="place" subtype="part" ref="#OR_H">문틈</rs>으로 내다보기도 하였으나 벌써 <rs ref="#JP_S">헌병</rs>이 <rs ref="#CCA">그 부인</rs>을 앞세우고 가니, <persName ref="#KGI">김관일</persName>은 <rs ref="#CCA">그 부인</rs>이 <rs ref="#JP_S">헌병</rs>에게 붙들려 가는 줄은 생각 밖이요, <rs ref="#CCA">그 부인</rs>은 <rs ref="#KGI">그 남편</rs>이 <rs ref="#OR_H">집</rs>에 있기는 또한 꿈도 아니 꾸었더라.</p>
         <p><persName ref="KGI">김씨</persName>는 혼자 <rs ref="#OR_H">빈집</rs>에 있어서 <time type="timeOfDay" subtype="night">밤새도록</time> 잠들지 못하고 별생각이 다 난다. <placeName ref="#PY_NG">북문</placeName> 밖 <rs type="place" subtype="field" ref="#PY">넓은 들</rs>에 <rs type="group" ref="#JS_S #CN_S #JP_S">철환 맞아 죽은 송장</rs>과 <rs type="group" corresp="#JS_S #CN_S #JP_S">죽으려고 숨넘어가는 반송장들</rs>은 제각각 <rs type="group" ref="#JS #CN #JP">제 나라</rs>를 위하여 <rs type="group" corresp="#JS #CN #JP">전장에 나와서 죽은 장수와 군사들</rs>이라. 죽어도 <rs type="group" corresp="#JS_S #CN_S #JP_S">제</rs> 직분이어니와, <rs type="nature" subtype="metaphor" ref="#PY_R">엎드러지고 곱들어져서 봄바람에 떨어진 꽃</rs>과 같이 <rs ref="#PY_R">간 곳마다 발에 밟히고 눈에 걸리는 <rs ref="#CJW">피란</rs>꾼들</rs>은 <rs ref="#JS">나라</rs>의 운수런가. <rs ref="#PY_R">제</rs> 팔자 기박하여 <orgName ref="#PY_R">평양 백성</orgName> 되었던가. 땅도 <placeName ref="#JS">조선 땅</placeName>이요 사람도 <orgName ref="#JS_P">조선 사람</orgName>이라. <rs type="animal" subtype="metaphor" ref="#CN #JP">고래</rs> 싸움에 <rs type="animal" subtype="metaphor" ref="#JS">새우</rs> 등 터지듯이, <rs ref="#JS_P"><rs ref="#JS">우리나라</rs>사람들</rs>이 <rs ref="#CJW"><rs ref="#JP #CN">남의 나라</rs> 싸움</rs>에 이렇게 참혹한 일을 당하는가. <rs ref="#CCA"><rs ref="#KGI">우리</rs> 마누라</rs>는 <rs ref="#CCA"><rs type="place" subtype="gate">대문 밖</rs>에 한걸음 나가 보지 못한 사람</rs>이요, <rs ref="#KOR"><rs ref="#KGI">내</rs> 딸</rs>은 <rs ref="#KOR"><measure type="age" unit="year" quantity="7">일곱 살</measure> 된 어린아이</rs>라 어디서 밟혀 죽었는가. 슬프다. 저러한 송장들은 피가 시내 되어 <placeName ref="#DDG">대동강</placeName>에 흘러들어 여울목 치는 소리 무심히 듣지 말지어다. <orgName ref="#PY_R">평양 백성</orgName>의 원통하고 설운 소리가 아닌가. 무죄히 죄를 받는 것도 <rs ref="#JS_P">우리나라 사람</rs>이요, 무죄히 목숨을 지키지 못하는 것도 <rs ref="#JS_P">우리나라사람</rs>이라. 이것은 하늘이 지으신 일이런가, 사람이 지은 일이런가. 아마도 사람의 일은 사람이 짓는 것이다. <rs ref="#JS_P">우리나라 사람</rs>이 <rs ref="#JS_P"></rs><rs ref="#JS_P">제</rs> 몸만 위하고 <rs ref="#JS_P">제</rs> 욕심만 채우려 하고, <rs ref="#JS_P">남은 죽든지 살든지, <rs ref="#JS">나라</rs>가 망하든지 흥하든지 <rs ref="#JS_P">제</rs> 벼슬만 잘하여 <rs ref="#JS_P">제</rs> 살만 찌우면 제일로 아는 사람들</rs>이라.</p>
@@ -536,7 +538,7 @@
         <p><rs ref="#CCA">그 부인</rs>은 <orgName corresp="#JP_S"><orgName ref="#JP_S">일본군</orgName> 헌병부</orgName>로 잡혀 갔으나, <rs ref="#CCA"><rs type="place" subtype="boudoir">규중</rs>에서 생장<rs ref="#CCA">한 부인</rs>이 그러한 난리중에 그러한 풍파를 겪었다 하는 말을 듣는 자 누가 불쌍타 하지 아니하리요. <rs ref="#ITP">통변</rs>이 말을 전하는 대로 <rs type="person" ref="#JP_S">헌병장</rs>이 고개를 기울이고 불쌍하다 가이없다 하더니, <time type="timeOfDay" subtype="that_night">그 밤</time>에는 <rs type="place" corresp="#JP_S">군중</rs>에서 보호하고 <date type="relative" subtype="next_day">그 이튿날</date> <rs ref="#OR_H"><rs ref="#CCA">제</rs> 집</rs>으로 돌려보내니, 부인</rs>은 <date dur="P1D">하룻밤</date> 동안에 세상 풍파를 다 지내고 <rs ref="#OR_H">본집</rs>으로 돌아왔더라.</p>
         <p><date type="timeOfDay" subtype="morning">아침 날</date> 서늘한 기운에 빈집같이 쓸쓸한 것은 없는데 <rs ref="#CCA">그 부인</rs>이 <rs ref="#OR_H">그 집</rs>에 들어와 보더니 처창한 마음이 새로이 나서 <said aloud="false" who="#CCA"><rs ref="#OR_H">이 집구석</rs>에서 <rs ref="#CCA">나 혼자</rs> 살아 무엇 하리</said> 하면서 <rs type="place" subtype="part" ref="#OR_H">마루</rs> 끝에 털썩 걸터앉더니 정신없이 모으로 쓰러졌다.</p>
         <p><date type="relative" subtype="last_day">어젯날</date><date type="relative"> <rs ref="#CJW">피란</rs> 갈 때</date>에 급하고 겁나는 마음에 밥도 먹지 아니하고 나섰다가 <date dur="P1D">하룻날</date> <date dur="P1D">하룻밤</date>에 고생한 일은 인간에 <rs ref="#CCA">나</rs> 하나뿐인가 싶은 마음에 배가 고픈지 다리가 아픈지 모르고 지냈더니, <rs ref="#OR_H"><rs ref="#CCA">내</rs> 집</rs>으로 돌아오니 <rs ref="#KGI">남편</rs>도 소식 없고 <persName ref="#KOR">옥련</persName>이도 간 곳 없고, <rs type="place" subtype="part" ref="#OR_H">엉성한 네 기둥과 적적한 마루 위에 덧문 척척 닫힌 방</rs>을 보고, <said aloud="false" who="#CCA">이 몸이 앉은 채로 쓰러져 없었으면 좋으련마는, 그렇지 아니하면 무슨 경황에 <rs ref="#CCA">내</rs> 손으로 저 방문을 열고 <rs ref="#CCA">내</rs> 발로 <rs type="place" subtype="part" ref="#OR_H">저 방</rs>으로 들어갈까</said> 하는 혼자말을 다 마치지 못하고 정신을 잃었더라.</p>
-        <p>평시절 같으면 <rs ref="#NB">이웃사람</rs>도 오락가락하고 <rs type="person" subtype="seller">방물장수</rs>, <rs type="person" subtype="seller">떡장수</rs>도 들락날락할 터인데, 그때는 <rs ref="#PY_R"><placeName ref="#PY">평양성</placeName> 중에 살던 사람들</rs>이 이번 불소리에 다 달아나고 있는 것은 <orgName ref="#JP_S">일본 군사</orgName>뿐이라. <rs ref="#JP_S">그 군사들</rs>이 <rs type="animal" subtype="metaphor" ref="#JP_S">까마귀 떼</rs> 다니듯이 하며 <rs type="place" subtype="house" ref="#PY">이집</rs> <rs type="place" subtype="house" ref="#PY">저집</rs> 함부로 들어간다.</p>
+        <p>평시절 같으면 <rs ref="#NB">이웃사람</rs>도 오락가락하고 <rs type="person" subtype="seller">방물장수</rs>, <rs type="person" subtype="seller">떡장수</rs>도 들락날락할 터인데, 그때는 <rs ref="#PY_R"><rs type="place" subtype="castle" ref="#PY">평양성</rs> 중에 살던 사람들</rs>이 이번 불소리에 다 달아나고 있는 것은 <orgName ref="#JP_S">일본 군사</orgName>뿐이라. <rs ref="#JP_S">그 군사들</rs>이 <rs type="animal" subtype="metaphor" ref="#JP_S">까마귀 떼</rs> 다니듯이 하며 <rs type="place" subtype="house" ref="#PY">이집</rs> <rs type="place" subtype="house" ref="#PY">저집</rs> 함부로 들어간다.</p>
         <p>본래 <rs type="rule">전시국제공법(戰時國際公法)</rs>에, 전장에서 <rs ref="#CJW">피란</rs> 가고 사람 없는 집은 집도 점령하고 물건도 점령하는 법이라. 그런고로 <rs ref="#JP_S">군사들</rs>이 빈 집을 보면 일삼아 들어간다.</p>
         <p><rs ref="#OR_H"><persName ref="#KGI">김씨</persName> 집</rs>에 들어와서 보는 <rs ref="#JP_S">군사들</rs>은 <rs type="place" subtype="part" ref="#OR_H">마루 끝</rs>에 <rs ref="#CCA">부인</rs>이 누웠는 것을 보고 도로 나갈 뿐이라. 아마도 <rs ref="#CCA">부인</rs>을 구하여 줄 사람은 없었더라. 만일 <date type="season">엄동설한</date>에 <date dur="#P1D">하루 동안</date>을 <rs type="place" subtype="part" ref="#OR_H">마루</rs>에 누웠으면 얼어 죽었을 터이나, 다행히 일기가 더운 때라, <date dur="P1D">종일</date> 정신없이 <rs type="place" subtype="part" ref="#OR_H">마루</rs>에 누웠으나 관계치 아니하였더라.</p>
         <p><time type="timeOfDay" subtype="night">밤</time>이 되매 비로소 정신이 나기 시작하는데, 꿈 깨고 잠 깨듯 별안간에 정신이 난 것이 아니라 <placeName ref="#MRB">모란봉</placeName>에 안개 걷히듯 차차 정신이 난다. 처음에 눈을 떠서 보니 하늘에는 별이 총총하고, 다시 눈을 둘러보니 <rs ref="#OR_H">우중충한 집</rs>에 <rs ref="#CCA">나</rs> 혼자 누웠으니 <rs ref="#OR_H">이곳</rs>은 어디며 <rs ref="#OR_H">이 집</rs>은 뉘 집인지, <rs ref="#CCA">나</rs>는 어찌하여 <rs ref="#OR_H">여기</rs> 와서 누웠는지 곡절을 모른다.</p>
@@ -553,10 +555,10 @@
         <p><rs ref="#KGI">남편</rs>이 살아 오거니 하고 고대할 때는 마음을 붙일 곳이 있어서 살아 있었거니와, 죽어서 못 오거니 하고 단망하니 잠시도 이 세상에 있기가 싫다.</p>
         <p><rs ref="#CCA">부인</rs>이 죽기로 결심하고 <placeName ref="#DDG">대동강</placeName> 물에 빠져 죽을 차로 <time type="timeOfDay" subtype="night">밤</time> 되기를 기다려 <rs ref="#DDG">강가</rs>로 향하여 가니, <date when="--09-15">그 때</date>는 <date when="--09-15">구월 보름</date>이라 하늘은 씻은 듯하고 달은 초롱 같다. <rs ref="#DDG">은가루를 뿌린 듯한 백사장</rs>에 인적은 끊어지고 백구는 잠들었다. <rs ref="#CCA">부인</rs>이 탄식하여 가로되,</p>
         <p><said who="#CCA">“달아 물어 보자, 너는 널리 보리로다. <persName ref="#KGI">낭군</persName>이 소식 없고 <persName ref="#KOR">옥련</persName>은 간 곳 없다. 이 세상에 있으면 <rs ref="#OR_H">집</rs> 찾아왔으련만 일거 무소식하니 <rs type="person" subtype="metaphor" ref="#KOR #KGI">북망객</rs> 됨이로다. <rs ref="#CCA">이 몸</rs>이 혼자 살면 <date>일평생</date> 근심이요, <rs ref="#CCA">이 몸</rs>이 죽었으면 이 근심 모르리라. <date dur="P15Y">십오 년</date> <rs type="group" subtype="role" ref="#KGI #CCA">부부</rs>정과 <date dur="P7Y">일곱 해</date> <rs type="group" subtype="role" ref="#KOR #CCA">모녀</rs>정이 어느 때 있었던지 지금은 꿈 같도다. 꿈같은 <rs ref="#CCA">이내</rs> 평생 <date when="--09-15">오늘날</date>뿐이로다. <rs type="place" subtype="water">푸르고 깊은 물</rs>은 갈 길이 저기로다.”</said></p>
-        <p>이러한 탄식을 마치매 치마를 걷어잡고 이를 악물고 두 눈을 딱 감으면서 <rs type="place" subtype="water">물</rs>에 뛰어내리니, <rs ref="#DDG">그 물</rs>은 <placeName ref="#DDG">대동강</placeName>이요 <rs ref="#CCA">그 사람</rs>은 <rs ref="#CCA"><persName ref="#KGI">김관일</persName>의 부인</rs>이라. <rs type="place" subtype="water">물</rs> 아래 뱃나들이에 <rs ref="#PY_S">한 거룻배</rs>가 비꼈는데, <rs ref="#PY_S">그 배 속</rs>에서 <rs type="person" subtype="boat_man" ref="#BM">사공</rs> 하나와 <placeName ref="#PY">평양성</placeName> 내에 사는 <persName ref="#GJP">고장팔</persName>이라 하는 사람과 <rs type="person" subtype="group" ref="#GJP #BM">단둘</rs>이 <time type="timeOfDay" subtype="night">달밤</time>에 밤<rs></rs>윷을 노는데, 그 <rs type="person" subtype="boat_man" ref="#BM">사공</rs>과 <persName ref="#GJP">고가</persName>는 각 <rs ref="#GJP #BM">어미 자식</rs>이나 성정은 어찌 그리 똑같던지, <rs type="person" subtype="boat_man" ref="#BM">사공</rs>이 <persName ref="#GJP">고가</persName>를 닮았는지, <persName ref="#GJP">고가</persName>가 <rs type="person" subtype="boat_man" ref="#BM">사공</rs>을 닮았는지, 벌어먹는 길만 다르나 일만 없으면 <rs type="person" subtype="group" ref="#BM #GJP">두 놈</rs>이 함께 붙어 지낸다.</p>
+        <p>이러한 탄식을 마치매 치마를 걷어잡고 이를 악물고 두 눈을 딱 감으면서 <rs type="place" subtype="water">물</rs>에 뛰어내리니, <rs ref="#DDG">그 물</rs>은 <placeName ref="#DDG">대동강</placeName>이요 <rs ref="#CCA">그 사람</rs>은 <rs ref="#CCA"><persName ref="#KGI">김관일</persName>의 부인</rs>이라. <rs type="place" subtype="water">물</rs> 아래 뱃나들이에 <rs ref="#PY_S">한 거룻배</rs>가 비꼈는데, <rs ref="#PY_S">그 배 속</rs>에서 <rs type="person" subtype="boat_man" ref="#BM">사공</rs> 하나와 <rs type="place" subtype="castle" ref="#PY">평양성</rs> 내에 사는 <persName ref="#GJP">고장팔</persName>이라 하는 사람과 <rs type="person" subtype="group" ref="#GJP #BM">단둘</rs>이 <time type="timeOfDay" subtype="night">달밤</time>에 밤<rs></rs>윷을 노는데, 그 <rs type="person" subtype="boat_man" ref="#BM">사공</rs>과 <persName ref="#GJP">고가</persName>는 각 <rs ref="#GJP #BM">어미 자식</rs>이나 성정은 어찌 그리 똑같던지, <rs type="person" subtype="boat_man" ref="#BM">사공</rs>이 <persName ref="#GJP">고가</persName>를 닮았는지, <persName ref="#GJP">고가</persName>가 <rs type="person" subtype="boat_man" ref="#BM">사공</rs>을 닮았는지, 벌어먹는 길만 다르나 일만 없으면 <rs type="person" subtype="group" ref="#BM #GJP">두 놈</rs>이 함께 붙어 지낸다.</p>
         <p>무엇을 하느라고 같이 붙어 지내는고. <rs type="person" subtype="group" ref="#BM #GJP">둘</rs> 중에 하나만 돈이 있으면 서로 꾸어 주며 투전을 하고, <rs type="person" subtype="group" ref="#BM #GJP">둘</rs>이 다 돈이 없으면 담배내기 밤윷이라도 아니 놀고는 못 견딘다. <date dur="#P2D">하루</date> 밥을 굶어라 하면 어렵게 여기지 아니하나 <date dur="#P2D">하루</date> 노름을 하지 말라 하면 병이 날 듯한 <rs ref="#GJP">놈들</rs>이라. <time type="timeOfDay" subtype="that_night">그 밤</time>에도 <persName ref="#GJP">고가</persName>가 <rs type="person" subtype="boat_man" ref="#BM">그 사공</rs>을 찾아가서 <rs type="person" subtype="group" ref="#BM #GJP">단둘</rs>이 밤윷을 놀다가 <rs type="place" subtype="water">물</rs> 위에서 이상한 소리가 들리나 윷에 미쳐서 정신을 모르다가, <rs type="place" subtype="water">물</rs> 위에서 <rs ref="#CCA">웬 사람</rs>이 떠내려오다가 <rs ref="#PY_S">배</rs>에 걸려서 허덕거리는 것을 보고 급히 뛰어내려서 건진즉 <rs ref="#CCA"><rs ref="#CCA"><rs ref="#CCA">한 부인</rs>이라. 본래 부인</rs>이 높은 언덕에서 뛰어내렸더면 <rs type="place" subtype="water">물</rs>이 깊고 얕고 간에 살기가 어려웠을 터이나, <rs type="place" subtype="shoal" ref="#DDG">모래톱</rs>에서 <rs type="place" subtype="water">물</rs>로 뛰어들어가니 <rs type="place" subtype="water">그 물</rs>이 <measure type="length" unit="尺" atLeast="1" atMost="2">한두 자 깊이</measure>가 될락말락한 물이라, <rs type="place" subtype="water">물</rs>이 낮아 죽지 아니하였으나 부인</rs>은 죽을 마음으로 빠진 고로 <rs type="place" subtype="water">얕은 물</rs>이라도 죽을 작정만 하고 드러누우니 얼른 죽지는 아니하고 <rs type="place" subtype="water">물</rs>에 떠서 내려가다가 <rs ref="#GJP"><rs ref="#PY_S">배</rs>에 있던 사람</rs>에게 구원한 것이 되었더라.</p>
         <p>화약 연기는 구름에 비 묻어 다니듯이 <placeName ref="#PY">평양</placeName>의 총소리가 <placeName ref="#UJ">의주</placeName>로 올라가더니 <placeName ref="#BMS">백마산</placeName>에는 철환 비가 오고 <placeName ref="#ANG">압록강</placeName>에는 송장으로 다리를 놓는다.</p>
-        <p><placeName ref="#PY">평양</placeName>은 난리 평정이 되고 <placeName ref="#UJ">의주</placeName>는 새로 난리를 만났으니 가령 <rs type="place" subtype="metaphor" ref="#JS">화재 만난 집</rs>에서 <rs type="place" subtype="metaphor" ref="#PY">안방</rs>에는 불을 잡았으나 <rs type="place" subtype="metaphor" ref="#UJ">건넌방</rs>에는 불이 붙는 격이라. <rs type="place" subtype="metaphor" ref="#PY">안방</rs>이나 <rs type="place" subtype="metaphor" ref="#UJ">건넌방</rs>이나 <rs type="place" subtype="metaphor" ref="#JS">집</rs>은 <rs type="place" subtype="metaphor" ref="#JS">한 집</rs>이언만, <rs type="group" subtype="role" ref="#PY_R">안방 식구</rs>는 <rs type="place" subtype="metaphor" ref="#PY">제 방</rs>에만 불 꺼지면 다행으로 안다. <placeName ref="#UJ">의주</placeName>서는 피비 오는데 <placeName ref="#PY">평양성</placeName>중에는 차차 웃음 소리가 난다.</p>
+        <p><placeName ref="#PY">평양</placeName>은 난리 평정이 되고 <placeName ref="#UJ">의주</placeName>는 새로 난리를 만났으니 가령 <rs type="place" subtype="metaphor" ref="#JS">화재 만난 집</rs>에서 <rs type="place" subtype="metaphor" ref="#PY">안방</rs>에는 불을 잡았으나 <rs type="place" subtype="metaphor" ref="#UJ">건넌방</rs>에는 불이 붙는 격이라. <rs type="place" subtype="metaphor" ref="#PY">안방</rs>이나 <rs type="place" subtype="metaphor" ref="#UJ">건넌방</rs>이나 <rs type="place" subtype="metaphor" ref="#JS">집</rs>은 <rs type="place" subtype="metaphor" ref="#JS">한 집</rs>이언만, <rs type="group" subtype="role" ref="#PY_R">안방 식구</rs>는 <rs type="place" subtype="metaphor" ref="#PY">제 방</rs>에만 불 꺼지면 다행으로 안다. <placeName ref="#UJ">의주</placeName>서는 피비 오는데 <rs type="place" subtype="castle" ref="#PY">평양성</rs>중에는 차차 웃음 소리가 난다.</p>
         <p><rs ref="#PY_R"><rs ref="#CJW">피란</rs> 가서 어느 구석에 숨어 있던 사람들</rs>이 차차 모여들어서 <rs ref="#PY">성중</rs>에는 옛 모양이 돌아온다.</p>
         <p><rs type="place" subtype="house" ref="#PY">집집</rs>의 걸어 닫혔던 <rs type="place" subtype="gate" ref="#PY">대문</rs>도 열리고, <rs type="place" subtype="alley">골목골목</rs>에 사람의 자취가 없던 곳도 사람이 오락가락하고, 개 짖고 연기 나는 모양이 세상은 평화 된 듯하나, <rs ref="#OR_H"><placeName ref="#PY_NG">북문</placeName> 안의 <persName ref="#KGI">김관일</persName>의 집</rs>에는 <rs type="place" subtype="part" ref="#OR_H">대문</rs>이 닫힌 대로 있고 <rs ref="#OR_H">그 집</rs> <rs type="place" subtype="part" ref="#OR_H">문간</rs>엔 사람이 와서 찾는 자도 없었더라. <date type="relative">하루는</date> <rs ref="#CHR">어떠한 노인</rs>이 부담말 타고 오다가 <rs ref="#OR_H"><persName ref="#KGI">김씨</persName> 집</rs> 앞에서 말께 내리더니, <rs ref="#OR_H"><persName ref="#KGI">김씨</persName> 집</rs> <rs type="place" subtype="part" ref="#OR_H">대문</rs>을 흔들어 본즉 <rs type="place" subtype="part" ref="#OR_H">문</rs>이 걸리지 아니하였거늘 <rs type="place" subtype="part" ref="#OR_H">안</rs>으로 들어가더니 나와서 <rs ref="#NB">이웃집</rs>에 말을 묻는다.</p>
         <p><said who="#CHR">“<rs ref="#NB">여보</rs>, 말 좀 물어 봅시다. <rs ref="#OR_H">저 집</rs>이 <persName ref="#KGI">김관일</persName> <persName ref="#KGI">김<roleName>초시</roleName></persName> 집이오?”</said></p>
@@ -565,7 +567,7 @@
         <p><said who="#NB">“<rs ref="#NB">우리</rs>도 <rs ref="#CJW">피란</rs> 갔다가 돌아온 지가 <date type="relative">며칠</date> 되지 아니하였으니 <rs ref="#OR_H">이웃집 일</rs>이라도 자세히 모르겠소.”</said></p>
         <p><rs ref="#CHR">노인</rs>이 하릴없이 다시 <rs ref="#OR_H"><persName ref="#KGI">김씨</persName> 집</rs>에 들어가서 자세히 살펴보니 <rs type="group" ref="#CCA #KGI #KOR">사람</rs>은 난리를 만나 도망하고 세간은 도둑을 맞아서 빈 농짝만 남았는데, 벽에 언문 글씨가 있으니, 그 글씨는 <rs ref="#CCA"><persName ref="#KGI">김관일</persName>부인의</rs> 필적인데, <placeName ref="#DDG">대동강</placeName> <rs type="place" subtype="water">물</rs>에 빠져 죽으려고 나가던 날의 세상 영결하는 말이라.</p>
         <p><rs ref="#CHR">노인</rs>이 그 필적을 보고 놀랍고 슬픈 마음을 진정치 못하였더라.</p>
-        <p><rs ref="#CHR">그 노인</rs>은 본래 <placeName ref="#PY">평양성</placeName>내에서 살던 <persName ref="#CHR">최<roleName>주사</roleName></persName>라 하는 사람인데 이름은 <persName ref="#CHR">항래</persName>라. <date type="relative">십 년 전</date>에 <placeName ref="#BS">부산</placeName>으로이사하여 크게 장사하는데, 그때 나이 <measure type="age" unit="year" quantity="50">오십</measure>이라. 재산은 유여하나 아들이 없어서 <rs ref="#CHR_S">양자</rs>하였더니 <rs ref="#CHR_S">양자</rs>는 합의치 못하고, 소생은 <rs ref="#CCA">딸 하나</rs> 있으니 <rs ref="#CCA">그 딸</rs>은 편애할 뿐 아니라 <rs ref="#CCA">그 딸</rs>을 기를 때에 <rs ref="#CCA"><persName ref="#CHR">최<roleName>주사</roleName></persName>는 애쓰고 마음 상하면서 길러 낸 딸</rs>이요, <rs ref="#CCA">눈살맞고 자라난 딸</rs>인데, <rs ref="#CCA">그 딸</rs>인즉 <rs ref="#CCA"><persName ref="#KGI">김관일</persName>의 부인</rs>이라.</p>
+        <p><rs ref="#CHR">그 노인</rs>은 본래 <rs type="place" subtype="castle" ref="#PY">평양성</rs>내에서 살던 <persName ref="#CHR">최<roleName>주사</roleName></persName>라 하는 사람인데 이름은 <persName ref="#CHR">항래</persName>라. <date type="relative">십 년 전</date>에 <placeName ref="#BS">부산</placeName>으로이사하여 크게 장사하는데, 그때 나이 <measure type="age" unit="year" quantity="50">오십</measure>이라. 재산은 유여하나 아들이 없어서 <rs ref="#CHR_S">양자</rs>하였더니 <rs ref="#CHR_S">양자</rs>는 합의치 못하고, 소생은 <rs ref="#CCA">딸 하나</rs> 있으니 <rs ref="#CCA">그 딸</rs>은 편애할 뿐 아니라 <rs ref="#CCA">그 딸</rs>을 기를 때에 <rs ref="#CCA"><persName ref="#CHR">최<roleName>주사</roleName></persName>는 애쓰고 마음 상하면서 길러 낸 딸</rs>이요, <rs ref="#CCA">눈살맞고 자라난 딸</rs>인데, <rs ref="#CCA">그 딸</rs>인즉 <rs ref="#CCA"><persName ref="#KGI">김관일</persName>의 부인</rs>이라.</p>
         <p><persName ref="#CHR">최씨</persName>가 <rs ref="#CCA">그 딸</rs> 기를 때의 일을 말하자 하면 <persName ref="#SJ">소진(蘇秦)</persName>의 혀를 두 셋씩 이어 놓고 <time type="relative" subtype="daytime"><date when="--03--">삼</date><date when="--04--"></date>사월 긴긴 해</time>를 몇씩 포개 놓을지라도 다 말할 수 없는 일이러라. <rs ref="#CCA">그 부인</rs>의 이름은 <persName ref="#CCA">춘애</persName>라. <measure type="age" unit="year" quantity="7">일곱 살</measure>에 <rs ref="#CHR_W1">그 모친</rs>이 돌아가고 <rs ref="#CHR_W2">계모</rs>에게 길렸는데, <rs ref="#CHR_W2">그 계모</rs>는 부인 범절에는 사사이 칭찬 듣는 사람이나 한 가지 결점이 있으니, 그 흠절은 <rs ref="#CHR_W1">전실</rs> 소생 <persName ref="#CCA">춘애</persName>에게 몹시 구는 것이라. 세간 그릇 하나라도 <rs ref="#CHR_W1">전실 부인</rs>이 쓰던 것이면 <rs type="person" subtype="shaman">무당</rs> 불러서 불살라 버리든지 깨뜨려 버리든지 하여야 속이 시원하여지는 성정이라. 그러한 <rs ref="#CHR_W1">계모</rs>의 성정에 사르지도 못하고 깨뜨리지도 못할 것은 <rs ref="#CCA">전실 소생 춘애</rs>라. <persName ref="#CHR">최씨</persName>가 <rs ref="#CCA">그 딸</rs>을 <rs type="object" subtype="metaphor" ref="#CCA">옥</rs>같이 사랑하고 <rs  type="object" subtype="metaphor" ref="#CCA">금</rs>같이 귀애하나 <rs ref="#CHR_W2">그 후취 부인</rs> 보는 때는 조금도 귀애하는 모양을 보이면 <persName ref="#CCA">춘애</persName>는 <rs ref="#CHR_W2">그 계모</rs>에게 음해를 받을 터이라. 그런고로 <persName ref="#CHR">최<roleName>주사</roleName></persName>가 <rs ref="#CCA">그 딸</rs>을 칭찬하고 싶은 때도 <rs ref="#CHR_W2">그 계모</rs> 보는 데는 꾸짖고 미워하는 상을 보이는 일도 많다.</p>
         <p>그러면 <persName ref="#CHR">최<roleName>주사</roleName></persName>가 <rs ref="#CHR_W2">그 후취 부인</rs>에게 쥐여 지내느냐 할 지경이면 그렇지도 아니하다.</p>
         <p><rs ref="#CHR_W2">그 후취 부인</rs>은 죽어 백골 된 <rs ref="#CHR_W1">전실</rs>에게 투기하는 마음 한 가지만 아니면 아무 흠절이 없으니, <rs ref="#CHR_W2">그러<rs ref="#CCA"><rs ref="#CCA">한 부인</rs>은 쇠사슬로 신을 삼아 신고 그 신이 날이 나도록 <placeName ref="#JS">조선 팔도</placeName>를 다 돌아다니더라도 <rs ref="#CHR_W2">그만한 아내</rs>는 얻기가 어렵다 하는 집안 공론이다. <persName ref="#CHR">최씨</persName>가 <rs ref="#CHR_W2">후취 부인</rs>과 금실도 좋고 <rs ref="#CCA"><rs ref="#CHR_W1">전취</rs> 소생 <persName ref="#CCA">춘애</persName></rs>도 사랑하니, <persName ref="#CCA">춘애</persName>를 위하여 주려 하면 <rs ref="#CHR_W2">후실 부인</rs>의 뜻을 맞추어 주는 일이 상책이라. <persName ref="#CCA">춘애</persName>가 어려서부터 총명하고 눈치 빠르기로는 어린아이로 볼 수가 없다. <rs ref="#CHR_W2">계모</rs>에게 따르기를 <rs ref="#CHR_W1">생모</rs>같이 따르면서 혼자 앉으면 눈물을 씻고 <rs ref="#CHR_W1">죽은 어머니</rs>를 생각하더라. <persName ref="#CCA">춘애</persName>가 그러한 고생을 하고 자라나서 <persName ref="#KGI">김관일</persName>의 부인</rs>이 되었는데, <persName ref="#CHR">최씨</persName>는 그 딸</rs>을 출가한 딸로 여기지 아니하고 <rs ref="#CCA">젖 먹이는 딸</rs>과 같이 안다.</p>
@@ -643,7 +645,7 @@
         <p><rs type="object" subtype="newspaper">호외</rs> <measure type="amount" unit="sheet" quantity="1">한 장</measure>이 <rs type="household" corresp="#JSS_H">온 집안</rs>의 화기를 끊어 버렸더라. <persName ref="#JSS">정상 <roleName>군의</roleName></persName>는 인간의 다시 오지 못하는 길을 가고, <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>은 <rs type="place" subtype="part" ref="#JSS_H">찬 베개 빈방</rs>에서 적적히 <rs type="time">세월</rs>을 보내더라.</p>
         <p><placeName ref="#JS">조선</placeName> 풍속 같으면 청상과부가 시집가지 아니하는 것을 가장 잘난 일로 알고 일평생을 근심 중으로 지내나, 그러한 도덕상의 죄가 되는 악한 풍속은 <rs ref="#FC">문명한 나라</rs>에는 없는 고로, 젊어서 과부가 되면 시집 가는 것은 <placeName ref="#FC">천하만국</placeName>에 부끄러운 일이 아니라. <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>이 어진 남편을 얻어 시집을 간다.</p>
         <p><said who="#JSS_W">“<rs ref="#KOR">이애</rs> <persName ref="#KOR">옥련</persName>아, <rs ref="#JSS_W">내</rs>가 젊은 터에 평생을 혼자 살 수 없고 시집을 가려 하는데 <rs type="person"><rs ref="#KOR">너</rs>를 거두어 줄 사람</rs>이 없으니 그것이 불쌍한 일이로구나…….”</said></p>
-        <p><persName ref="#KOR">옥련</persName>의 마음에는 <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>이 시집 가는 곳에 <rs ref="#JSS_W">부인</rs>을 따라가고 싶으나, <rs ref="#JSS_W">부인</rs>이 데리고 가지 아니할 말을 하니 <persName ref="#KOR">옥련</persName>이는 새로이 <placeName ref="#PY">평양성</placeName> 밑 <placeName ref="#MRB">모란봉</placeName> 아래서 <rs type="group" subtype="role" ref="#KGI">부모</rs>를 잃고 발을 구르며 울던 때 마음이 별안간에 다시 난다. <persName ref="#KOR">옥련</persName>이가 <rs ref="#JSS_W">부인</rs>의 무릎 위에 푹 엎디며 목이 메어 하는 말이,</p>
+        <p><persName ref="#KOR">옥련</persName>의 마음에는 <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>이 시집 가는 곳에 <rs ref="#JSS_W">부인</rs>을 따라가고 싶으나, <rs ref="#JSS_W">부인</rs>이 데리고 가지 아니할 말을 하니 <persName ref="#KOR">옥련</persName>이는 새로이 <rs type="place" subtype="castle" ref="#PY">평양성</rs> 밑 <placeName ref="#MRB">모란봉</placeName> 아래서 <rs type="group" subtype="role" ref="#KGI">부모</rs>를 잃고 발을 구르며 울던 때 마음이 별안간에 다시 난다. <persName ref="#KOR">옥련</persName>이가 <rs ref="#JSS_W">부인</rs>의 무릎 위에 푹 엎디며 목이 메어 하는 말이,</p>
         <p><said who="#KOR">“<rs ref="#JSS_W">어머니</rs>, <rs ref="#JSS_W">어머니</rs>가 가시면 <rs ref="#KOR">나</rs>는 누구를 믿고 사나.”</said></p>
         <p><said who="#JSS_W">“오냐, <rs ref="#JSS_W">나</rs>는 죽은 셈만 치려무나.”</said></p>
         <p><said who="#KOR">“<rs ref="#JSS_W">어머니</rs> 죽으면 <rs ref="#KOR">나</rs>도 같이 죽지.”</said></p>
@@ -781,7 +783,7 @@
         <p>말을 멈추고 <persName ref="#GWS">구씨</persName>를 치어다보는데, <persName ref="#GWS">구씨</persName>가 <persName ref="#KOR">옥련</persName>의 근심 있는 기색을 언뜻 짐작하였으나 <persName ref="#GWS">구씨</persName>는 본래 활발한 사람이라. 시계를 내어 보더니 선뜻 일어나며 작별인사하고 저벅저벅 내려가는데, <persName ref="#KOR">옥련</persName>이는 의구히 의자에 걸어앉아서 먼산을 보며 잊었던 근심을 다시 한다. 한숨을 쉬고 혼자 신세타령을 하며 옛일도 생각하고 앞일도 걱정하는데 뜻을 정치 못한다.</p>
         <p><said aloud="false" who="#KOR">“어― <rs type="time">세월</rs>도 쉽구나. <placeName>일본서</placeName> <placeName ref="#US">미국</placeName>으로 건너오던 날이 어제 같구나. <rs ref="#KOR">내</rs>가 <placeName ref="#JP">일본</placeName> <placeName ref="#OSK">대판</placeName> 있을 때에 <rs type="org" subtype="primary_school" ref="#KOR_SC_OSK">심상소학교</rs> <date type="relative"><rs type="event">졸업</rs></date>하던 날은 <time dur="PT12H">하룻밤</time>에 <measure type="count" unit="time" quantity="2">두 번</measure>을 죽으려고 하였더니 <rs type="relative" subtype="this_day">오늘</rs> 또 어떠한 팔자 사나운 일이나 없을는지. <rs ref="#KOR">내</rs>가 죽기가 싫어서 죽지 아니한 것도 아니요, 공부하고자 하여 <rs ref="#US">이곳</rs>에 온 것도 아니라. <placeName ref="#OSK">대판항</placeName>에서 죽기로 결심하고 <rs type="place" subtype="water">물</rs>에 떨어지려 할 때에 한 되는 마음으로 꿈이 되어 그랬던지, <rs ref="#CCA">우리 어머니</rs>가 <rs ref="#KOR">나</rs>더러 죽지 말라 하시던 소리가 아무리 꿈일지라도 역력하기가 생시 같은 고로 슬픈 마음을 진정하고 <rs ref="#KOR">이 목숨</rs>이 다시 살아나서 넓은 천지에 붙일 곳이 없는지라. 지향없이 <rs type="place" subtype="train"><placeName ref="#TK">동경</placeName> 가는 기차</rs>를 타고 가다가 천우신조하여 <rs ref="#GWS">고국 사람</rs>을 만나서 일동일정(一動一靜)을 <rs ref="#GWS">남</rs>에게 신세를 지고 <rs type="relative" subtype="this_day">오늘</rs>까지 있었으니 <rs type="time">허구한 세월</rs>을 <rs ref="#GWS">남</rs>의 덕만 바랄 수는 없고, 만일 그 신세를 아니 지을 지경이면 <rs type="time">하루 한시</rs>라도 여비를 어찌 써서 있을 수도 없으니 어찌하여야 좋을는지…… <rs type="group" subtype="role" ref="#KGI #CCA">우리 부모</rs>는 세상에 살아 있는지, <rs type="group" subtype="role" ref="#KGI #CCA">부모</rs>의 사생도 모르니 헐헐한 <rs ref="#KOR">이 한 몸</rs>이 살아 있은들 무엇 하리요. 차라리 <placeName ref="#OSK">대판</placeName>서 죽었더면 이 근심을 몰랐을 것인데 어찌하여 살았던가. <rs type="time">사람의 일평생</rs>이 이렇듯 근심만 할진대 죽어 모르는 것이 제일이라. 그러나 지금 여기서는 죽으려도 죽을 수도 없구나. <rs ref="#KOR">내</rs>가 죽으면 <persName ref="#GWS">구씨</persName>는 <rs ref="#KOR">나</rs>를 대단히 그르게 여길 터이라. <persName ref="#GWS">구씨</persName>의 태산 같은 은혜를 입고 그 은혜를 갚지 못하고 죽으면 <rs ref="#GWS">남</rs>의 은혜를 저버리는 것이라. 어찌하면 좋을꼬.”</said></p>
         <p>그렇듯 탄식하고 <rs type="relative" subtype="that_night">그 밤</rs>을 의자에 앉은 채로 새우다가 정신이 혼혼하여 잠이 들며 꿈을 꾸었더라.</p>
-        <p>꿈에는 <date when="--08-15">팔월 추석</date>인데, <placeName ref="#PY">평양성</placeName>중에서 <date dur="P1Y">일년</date> 제일 가는 명절이라고 와글와글하는 중이라. <rs type="person">아이들</rs>은 추석빔으로 새옷을 입고 떡조각 실과개를 배가 톡 터지도록 먹고 어깨로 숨을 쉬는 것들이 가로도 뛰고 세로도 뛴다.</p>
+        <p>꿈에는 <date when="--08-15">팔월 추석</date>인데, <rs type="place" subtype="castle" ref="#PY">평양성</rs>중에서 <date dur="P1Y">일년</date> 제일 가는 명절이라고 와글와글하는 중이라. <rs type="person">아이들</rs>은 추석빔으로 새옷을 입고 떡조각 실과개를 배가 톡 터지도록 먹고 어깨로 숨을 쉬는 것들이 가로도 뛰고 세로도 뛴다.</p>
         <p>어른들은 이 세상이 웬 세상이냐 하도록 술 먹고 주정을 하면서 <rs type="place" subtype="alley" ref="#PY">한길</rs>을 쓸어 지나가고, 거문고 줄 양금채는 꾀꼬리 소리 같은 여청 시조를 어울려서 <rs type="place" subtype="alley" ref="#PY">이 골목</rs> <rs type="place" Ssubtype="alley" ref="#PY">저 골목</rs>,<rs type="place" subtype="reception_room">이 사랑</rs> <rs type="place" subtype="reception_room">저 사랑</rs>에서 어디든지 그 소리 없는 곳이 없다. <rs type="place" ref="#PY">성중</rs>이 그렇게 흥치로 지내는데, <persName ref="#KOR">옥련</persName>이는 꿈에도 흥치가 없고 비창한 마음으로 <rs type="place" corresp="#CCA KGI">부모 산소</rs>에 다니러 간다.</p>
         <p><placeName ref="#PY_NG">북문</placeName> 밖에 나가서 <placeName ref="#MRB">모란봉</placeName>에 올라가니 고려장(高麗葬)같이 <rs type="place" corresp="#CCA KGI">큰 쌍분</rs>이 있는데, <persName ref="#KOR">옥련</persName>이가 <rs type="place" corresp="#CCA KGI">묘 앞</rs>으로 가서 앉으며 허리춤에서 <rs type="object" subtype="fruit">능금</rs> <measure type="amount" unit="piece" quantity="2">두 개</measure>를 집어 내며 하는 말이,</p>
         <p><said who="#KOR" type="dream">“<rs ref="#CCA">여보</rs> <rs ref="#CCA">어머니</rs>, 이렇게 큰 <rs type="object" subtype="fruit">능금</rs> 구경하셨소? <rs ref="#KOR">내</rs>가 <placeName ref="#US">미국</placeName>서 나올 때에 사가지고 왔소. <measure type="amount" unit="piece" quantity="1">한 개</measure>는 <rs ref="#KGI">아버지</rs> 드리고 <measure type="amount" unit="piece" quantity="1">한 개</measure>는 <rs ref="#CCA">어머니</rs> 잡수시오.”</said></p>
@@ -999,12 +1001,12 @@
 		<p><rs type="place" subtype="train">기차</rs>의 연기 뿜는 고동 소리가 점점 잦으며 <rs type="place" subtype="train">기차</rs>는 구루마같이 달아난다. <rs type="place" subtype="train">기차</rs>는 점점 멀어지고 연기만이 남아서 공중에 서렸는데 눈물이 가득한 <persName ref="#KOR">옥련</persName>의 눈이 <rs type="place" subtype="train">기차</rs> 연기만 바라보고 섰다.</p>
 		<p><said who="#KGI">"<rs ref="#KOR">이애</rs> <persName ref="#KOR">옥련</persName>아, 울지 말고 들어가자. 오래 섰으면 <orgName>철도회사</orgName> 사람에게 핀잔보고 쫓겨난다. <rs type="time">몇 해</rs>만 지내면 <rs ref="#KGI">나</rs>도 귀국하고 <rs ref="#KOR">너</rs>도 귀국할 터인데 그렇게 섭섭하게 여길 게 무엇이냐. 네가 <placeName>일본</placeName>과 <placeName ref="#US">미국</placeName>으로 유리 표박하여 <rs type="group" subtype="role" ref="#CCA #KGI">부모</rs>의 사생을 모르고 있을 때를 생각하여 보아라. 지금은 <rs type="group" subtype="role" ref="#CCA #KGI">부모</rs>를 만나 보았으니 좀 좋은 일이냐. <rs ref="#KOR">이애</rs> <persName ref="#KOR">옥련</persName>아, <rs type="group" ref="#KOR #KGI">우리</rs> 이 길로 <rs type="place" subtype="park" ref="#DC">공원</rs>에 나가서 바람이나 쏘이고 구경이나 하자."</said></p>
 		<p>하면서 <persName ref="#KOR">옥련</persName>이를 데리고 <rs type="place" subtype="park" ref="#DC">공원</rs>으로 들어가니 석양은 만리요, <placeName ref="#SF">상항</placeName>은 보이지 아니하더라.</p>
-		<p><persName ref="#KOR">옥련</persName>이가 <rs ref="#CCA">어머니</rs>를 이별하고 섭섭하여 하는 모양이 실성을 할 것 같은지라, <rs ref="#KGI">그 부친</rs>이 중언부언하여 <persName ref="#KOR">옥련</persName>이를 위로하고 각기 <rs type="place" subtype="group" ref="#KOR_HT #KGI_HT">호텔</rs>에 돌아가더라.</p>
+		<p><persName ref="#KOR">옥련</persName>이가 <rs type="person" ref="#CCA">어머니</rs>를 이별하고 섭섭하여 하는 모양이 실성을 할 것 같은지라, <rs ref="#KGI">그 부친</rs>이 중언부언하여 <persName ref="#KOR">옥련</persName>이를 위로하고 각기 <rs type="place" subtype="group" ref="#KOR_HT #KGI_HT">호텔</rs>에 돌아가더라.</p>
 		<p><persName ref="#KOR">옥련</persName>이가 <rs ref="#CJW">난리중</rs>에 <rs type="group" subtype="role" ref="#CCA #KGI">그 부모</rs>를 잃고 <rs ref="#JP #US">타국</rs>으로 유리할 때에 <rs type="group" subtype="role" ref="#CCA #KGI">그 부모</rs>가 다 죽은 줄로 알고 있던 터이라.</p>
-		<p><placeName ref="#JP">일본</placeName> <placeName ref="#OSK">대판</placeName> <rs ref="#JSS_H">정상<roleName>군의</roleName>집</rs>에 있을 때 지내던 일을 말할지라도 <rs ref="#KOR_SC_OSK">학교</rs>에 가면 공부에만 정신이 쓰이고 <rs ref="#JSS_H">집</rs>에 돌아오면 <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>에게 정도 들었고 조심도 극진히 하였고 동무를 대하면 재미있게 놀아도 보았는데 그럭저럭 <rs type="group" subtype="role" ref="#CCA #KGI">부모</rs> 생각도 다 잊었으니, <placeName ref="#US">미국</placeName>에 온 지 <measure unit="year" atLeast="4" atMost="5">사오 년</measure> 만에 천만의외에 <rs ref="#KGI">그 부친</rs>을 만나 보고 <rs ref="#CCA">그 어머니</rs> 생존한 줄을 알았는데 하루바삐 <rs ref="#CCA">그 어머니</rs> 얼굴을 보고 싶으나 일변으로 생각하면 <rs ref="#CCA">그 어머니</rs>가 살아 있는 것만 기뻐하여 얼굴에 희색이 만면하던 <persName ref="#KOR">옥련</persName>이가 <rs ref="#CCA">그 어머니</rs>를만나 보고 작별하더니 얼굴에 근심빛뿐이라.</p>
-		<p>귀에는 <rs ref="#CCA">어머니</rs> 소리가 들리는 듯하고 눈에는 <rs ref="#CCA">어머니</rs> 모양이 보이는 듯하다. <date type="relative"><rs ref="#CJW"><placeName ref="#PY">평양성</placeName> 난리</rs> 후</date>에 <rs ref="#CCA">그 어머니</rs>가 고생한 이야기 하던 것과 <placeName ref="#DC">화성돈</placeName> 정거장에서 <rs ref="#CCA">그 어머니</rs> 떠나던 일은 <persName ref="#KOR">옥련</persName>의 마음속에 사진같이 다 박혀 있다. <persName ref="#KOR">옥련</persName>이가 지향없이 혼자말로,</p>
-		<p><said aloud="false" who="#KOR">“<rs ref="#CCA">우리 어머니</rs>는 어디쯤이나 가셨누. <rs ref="#KGI">아버지</rs>도 <rs ref="#US">여기</rs>에 계시고 <rs ref="#KOR">나</rs>도 <rs ref="#US">여기</rs> 있는데 <rs ref="#CCA">어머니 혼자</rs> <rs ref="#JS">우리나라</rs>로 가시는구나. <rs ref="#KOR">내 몸</rs> 둘이 되었으면 하나는 <rs ref="#KGI">아버지</rs> 뫼시고 있고 하나는 <rs ref="#CCA">어머니</rs> 뫼시고 있고지고. <rs ref="#CCA">우리 어머니</rs>가 <placeName ref="#PY">평양성 중</placeName>에서 <date dur="P10Y">십 년 동안</date>을 근심중으로 지내시고 또 혼자 <placeName ref="#PY">평양</placeName>으로 가시는구나. <rs ref="#KOR">나</rs>를 생각하시느라고 병환이나 아니 날까.”</said></p>
-		<p><persName ref="#KOR">옥련</persName>이가 그렇게 <rs ref="#CCA">어머니</rs>를 생각하고 있는데 <rs ref="#CCA">그 어머니</rs> 마음은 어떠할꼬. <rs ref="#CCA"><persName ref="#KOR">옥련</persName>의 어머니</rs>는 <rs ref="#KGI">남편</rs>도 이별하고 <rs ref="#KOR">그 딸</rs> <persName ref="#KOR">옥련</persName>이도 이별하였으니 그 이별은 겹이별이라. 그 근심이 오직 대단할 것 아니언마는 <rs ref="#CCA"><persName ref="#KOR">옥련</persName>의 모친</rs> 마음이 그렇지 아니하고 도리어 기쁜 마음뿐이라.</p>
+		<p><placeName ref="#JP">일본</placeName> <placeName ref="#OSK">대판</placeName> <rs ref="#JSS_H">정상<roleName>군의</roleName>집</rs>에 있을 때 지내던 일을 말할지라도 <rs type="org" subtype="school" ref="#KOR_SC_OSK">학교</rs>에 가면 공부에만 정신이 쓰이고 <rs ref="#JSS_H">집</rs>에 돌아오면 <rs ref="#JSS_W"><persName ref="#JSS">정상</persName> 부인</rs>에게 정도 들었고 조심도 극진히 하였고 동무를 대하면 재미있게 놀아도 보았는데 그럭저럭 <rs type="group" subtype="role" ref="#CCA #KGI">부모</rs> 생각도 다 잊었으니, <placeName ref="#US">미국</placeName>에 온 지 <measure unit="year" atLeast="4" atMost="5">사오 년</measure> 만에 천만의외에 <rs ref="#KGI">그 부친</rs>을 만나 보고 <rs type="person" ref="#CCA">그 어머니</rs> 생존한 줄을 알았는데 하루바삐 <rs type="person" ref="#CCA">그 어머니</rs> 얼굴을 보고 싶으나 일변으로 생각하면 <rs type="person" ref="#CCA">그 어머니</rs>가 살아 있는 것만 기뻐하여 얼굴에 희색이 만면하던 <persName ref="#KOR">옥련</persName>이가 <rs type="person" ref="#CCA">그 어머니</rs>를만나 보고 작별하더니 얼굴에 근심빛뿐이라.</p>
+		<p>귀에는 <rs type="person" ref="#CCA">어머니</rs> 소리가 들리는 듯하고 눈에는 <rs type="person" ref="#CCA">어머니</rs> 모양이 보이는 듯하다. <date><rs type="event" ref="#CJW"><rs type="place" subtype="castle" ref="#PY">평양성</rs> 난리</rs> 후</date>에 <rs type="person" ref="#CCA">그 어머니</rs>가 고생한 이야기 하던 것과 <placeName ref="#DC">화성돈</placeName> 정거장에서 <rs type="person" ref="#CCA">그 어머니</rs> 떠나던 일은 <persName ref="#KOR">옥련</persName>의 마음속에 사진같이 다 박혀 있다. <persName ref="#KOR">옥련</persName>이가 지향없이 혼자말로,</p>
+		<p>“<said aloud="false" who="#KOR"><rs type="person" ref="#CCA">우리 어머니</rs>는 어디쯤이나 가셨누. <rs type="person" ref="#KGI">아버지</rs>도 <rs type="place" subtype="country" ref="#US">여기</rs>에 계시고 <rs type="person" ref="#KOR">나</rs>도 <rs type="place" subtype="country" ref="#US">여기</rs> 있는데 <rs type="person" ref="#CCA">어머니 혼자</rs> <rs type="place" subtype="country" ref="#JS">우리나라</rs>로 가시는구나. <rs type="person" ref="#KOR">내</rs> 몸 둘이 되었으면 <rs type="person" ref="#KOR">하나</rs>는 <rs ref="#KGI">아버지</rs> 뫼시고 있고 <rs type="person" ref="#KOR">하나</rs>는 <rs type="person" ref="#CCA">어머니</rs> 뫼시고 있고지고. <rs type="person" ref="#CCA">우리 어머니</rs>가 <placeName ref="#PY">평양성 중</placeName>에서 <date>십 년 동안</date>을 근심중으로 지내시고 또 혼자 <placeName ref="#PY">평양</placeName>으로 가시는구나. <rs type="person" ref="#KOR">나</rs>를 생각하시느라고 병환이나 아니 날까.</said>”</p>
+		<p><persName ref="#KOR">옥련</persName>이가 그렇게 <rs type="person" ref="#CCA">어머니</rs>를 생각하고 있는데 <rs type="person" ref="#CCA">그 어머니</rs> 마음은 어떠할꼬. <rs type="person" ref="#CCA"><persName ref="#KOR">옥련</persName>의 어머니</rs>는 <rs type="person" ref="#KGI">남편</rs>도 이별하고 <rs ref="#KOR">그 딸</rs> <persName ref="#KOR">옥련</persName>이도 이별하였으니 그 이별은 겹이별이라. 그 근심이 오직 대단할 것 아니언마는 <rs type="person" ref="#CCA"><persName ref="#KOR">옥련</persName>의 모친</rs> 마음이 그렇지 아니하고 도리어 기쁜 마음뿐이라.</p>
 		<p>출전:만세보(1906.7.22~1906.10.10)</p>
 	  </div>
 	</body>
