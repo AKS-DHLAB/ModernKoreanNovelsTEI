@@ -5,6 +5,11 @@
             <titleStmt>
                 <title>우울증</title>
                 <author>정인택<idno type="ISNI">0000 0000 8441 3830</idno></author>
+                <respStmt>
+                    <resp>TEI 인코딩</resp>
+                    <name>박선영<idno type="ORCID">0009-0001-1340-0455</idno></name>
+                    <email>sun09125@gmail.com</email>
+                </respStmt>
             </titleStmt>
 
             <publicationStmt>
@@ -17,10 +22,7 @@
                     <author>정인택</author>
                     <publisher>Wikisource(한국어)</publisher>
                     <idno type="wikisource">https://ko.wikisource.org/wiki/%EC%9A%B0%EC%9A%B8%EC%A6%9D</idno>
-
-
                 </bibl>
-
                 <bibl type="reference" xml:lang="ko">
                     <title level="a">우울증</title>
                     <idno type="encykorea-id">E0050803</idno>

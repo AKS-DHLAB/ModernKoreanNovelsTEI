@@ -5,6 +5,11 @@
             <titleStmt>
                 <title>유치장에서 만난 사나이</title>
                 <author>김사량<idno type="ISNI">0000 0003 7474 1955</idno></author>
+                <respStmt>
+                    <resp>TEI 인코딩</resp>
+                    <name>박선영<idno type="ORCID">0009-0001-1340-0455</idno></name>
+                    <email>sun09125@gmail.com</email>
+                </respStmt>
             </titleStmt>
 
             <publicationStmt>

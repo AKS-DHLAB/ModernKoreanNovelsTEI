@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xml:lang="ko">
-      <teiHeader>
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>K박사의 연구</title>
                 <author>김동인<idno type="ISNI">0000 0001 0915 8152</idno></author>
+                <respStmt>
+                    <resp>TEI 인코딩</resp>
+                    <name>박선영<idno type="ORCID">0009-0001-1340-0455</idno></name>
+                    <email>sun09125@gmail.com</email>
+                </respStmt>
             </titleStmt>
 
             <publicationStmt>
@@ -44,106 +49,106 @@
                     근현대 한국문학
                 </keywords>
             </textClass>
-<particDesc>
-        <listPerson>
-          <!-- 외화 관련 및 역사적 인물 -->
-          <person xml:id="ME">
-            <persName xml:lang="ko">나</persName>
-            <note>1인칭 주인공이자 외화의 서술자로, 본명이 등장하지 않는 관계로 '나'로 표기</note>
-          </person>
-          <person xml:id="MLS" sameAs="https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A8%B8%EC%8A%A4_%EB%A1%9C%EB%B2%84%ED%8A%B8_%EB%A7%AC%EC%84%9C%EC%8A%A4">
-            <persName xml:lang="ko">맬서스</persName>
-            <persName xml:lang="en">Thomas Robert Malthus</persName>
-            <note>'인구론'을 쓴 영국의 인구통계학자</note>
-          </person>
-          <person xml:id="WSC"><persName xml:lang="ko">W씨</persName></person>
-          <person xml:id="SMG"><persName xml:lang="ko">신문기자</persName></person>
-          <person xml:id="SNG" sex="2" sameAs="https://ko.wikipedia.org/wiki/%EB%A7%88%EA%B1%B0%EB%A6%BF_%EC%83%9D%EC%96%B4">
-            <persName xml:lang="ko">생어</persName>
-            <persName xml:lang="en">M.Sanger</persName>
-            <note>산아제한론을 주장한 인물</note>
-          </person>
-          <person xml:id="SAUM"><persName xml:lang="ko">사음</persName></person>
-          <person xml:id="SMA"><persName xml:lang="ko">사음의 아들</persName></person>
+            <particDesc>
+                <listPerson>
+                    <!-- 외화 관련 및 역사적 인물 -->
+                    <person xml:id="ME">
+                        <persName xml:lang="ko">나</persName>
+                        <note>1인칭 주인공이자 외화의 서술자로, 본명이 등장하지 않는 관계로 '나'로 표기</note>
+                    </person>
+                    <person xml:id="MLS" sameAs="https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A8%B8%EC%8A%A4_%EB%A1%9C%EB%B2%84%ED%8A%B8_%EB%A7%AC%EC%84%9C%EC%8A%A4">
+                        <persName xml:lang="ko">맬서스</persName>
+                        <persName xml:lang="en">Thomas Robert Malthus</persName>
+                        <note>'인구론'을 쓴 영국의 인구통계학자</note>
+                    </person>
+                    <person xml:id="WSC"><persName xml:lang="ko">W씨</persName></person>
+                    <person xml:id="SMG"><persName xml:lang="ko">신문기자</persName></person>
+                    <person xml:id="SNG" sex="F" sameAs="https://ko.wikipedia.org/wiki/%EB%A7%88%EA%B1%B0%EB%A6%BF_%EC%83%9D%EC%96%B4">
+                        <persName xml:lang="ko">생어</persName>
+                        <persName xml:lang="en">M.Sanger</persName>
+                        <note>산아제한론을 주장한 인물</note>
+                    </person>
+                    <person xml:id="SAUM"><persName xml:lang="ko">사음</persName></person>
+                    <person xml:id="SMA"><persName xml:lang="ko">사음의 아들</persName></person>
 
-          <!-- 박사 댁 식구들 -->
-          <listPerson type="household">
-            <head>K 박사 댁 식구들</head>
-            <person xml:id="KPB"><persName xml:lang="ko">K 박사</persName></person>
-            <person xml:id="C"><persName xml:lang="ko">C</persName></person>
-            <person xml:id="BDD"><persName xml:lang="ko">복동이</persName></person>
-            <person xml:id="SNM"><persName xml:lang="ko">수남이</persName></person>
-            <personGrp xml:id="SERVANTS">
-              <note>행랑식구 세 사람, 식모 하나, 침모 하나를 포함한 무명의 고용인 집단</note>
-            </personGrp>
-          </listPerson>
-          <personGrp xml:id="ASSISTANT">
-            <note>임시 조수 두 사람</note>
-          </personGrp>
-          <personGrp xml:id="HUMANS">
-            <note>이론적 의미의 인류</note>
-          </personGrp>
-          <person xml:id="SAUM_DOG">
-            <persName xml:lang="ko">개</persName>
-            <note>사음의 집에서 키우는 개</note>
-          </person>
-        </listPerson>
-        <listPlace>
-          <place xml:id="LAB"><placeName xml:lang="ko">연구실</placeName></place>
-          <place xml:id="BOG"><placeName xml:lang="ko">변소</placeName></place>
-          <place xml:id="EARTH"><placeName xml:lang="ko" type="planet">지구</placeName></place>
-          <place xml:id="KSTA"><placeName xml:lang="ko" type="station">K역</placeName></place>
-          <place xml:id="TGUN"><placeName xml:lang="ko" type="district">T군</placeName></place>
-          <place xml:id="CGUN"><placeName xml:lang="ko" type="district">C군</placeName></place>
-          <place xml:id="YONCHEONGJANG"><placeName xml:lang="ko">Y온천장</placeName></place>
-          <place xml:id="GERMANY"><placeName xml:lang="ko" type="country">독일</placeName></place>
-          <place xml:id="JAPAN"><placeName xml:lang="ko" type="country">일본</placeName></place>
-          <place xml:id="USA"><placeName xml:lang="ko" type="country">미국</placeName></place>
-        </listPlace>
-        <listObject>
-          <object xml:id="KB_INVENTION">
-            <objectName>○○병</objectName>
-            <note>K 박사가 인류의 식량 문제를 해결하기 위해 대변에서 자양분을 추출하여 만든 발명품</note>
-          </object>
-        </listObject>
-        <listBibl>
-          <bibl xml:id="KB_DOCUMENT">
-            <title>○○병에 대한 성명서</title>
-            <author ref="#KPB"/>
-            <note>K 박사가 자신의 발명품 ○○병을 홍보하기 위해 직접 작성한 문서</note>
-          </bibl>
-          <bibl xml:id="JOURNAL">
-            <title level="a">○○떡 시식회 기사</title>
-            <publisher ref="#I_NEWS"/>
-          </bibl>
-          <org xml:id="I_NEWS">
-            <orgName>I신문사</orgName>
-          </org>
-        </listBibl>
-      </particDesc>
+                    <!-- 박사 댁 식구들 -->
+                    <listPerson type="household">
+                        <head>K 박사 댁 식구들</head>
+                        <person xml:id="KPB"><persName xml:lang="ko">K 박사</persName></person>
+                        <person xml:id="C"><persName xml:lang="ko">C</persName></person>
+                        <person xml:id="BDD"><persName xml:lang="ko">복동이</persName></person>
+                        <person xml:id="SNM"><persName xml:lang="ko">수남이</persName></person>
+                        <personGrp xml:id="SERVANTS">
+                            <note>행랑식구 세 사람, 식모 하나, 침모 하나를 포함한 무명의 고용인 집단</note>
+                        </personGrp>
+                    </listPerson>
+                    <personGrp xml:id="ASSISTANT">
+                        <note>임시 조수 두 사람</note>
+                    </personGrp>
+                    <personGrp xml:id="HUMANS">
+                        <note>이론적 의미의 인류</note>
+                    </personGrp>
+                    <person xml:id="SAUM_DOG">
+                        <persName xml:lang="ko">개</persName>
+                        <note>사음의 집에서 키우는 개</note>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="LAB"><placeName xml:lang="ko">연구실</placeName></place>
+                    <place xml:id="BOG"><placeName xml:lang="ko">변소</placeName></place>
+                    <place xml:id="EARTH"><placeName xml:lang="ko" type="planet">지구</placeName></place>
+                    <place xml:id="KSTA"><placeName xml:lang="ko" type="station">K역</placeName></place>
+                    <place xml:id="TGUN"><placeName xml:lang="ko" type="district">T군</placeName></place>
+                    <place xml:id="CGUN"><placeName xml:lang="ko" type="district">C군</placeName></place>
+                    <place xml:id="YONCHEONGJANG"><placeName xml:lang="ko">Y온천장</placeName></place>
+                    <place xml:id="GERMANY"><placeName xml:lang="ko" type="country">독일</placeName></place>
+                    <place xml:id="JAPAN"><placeName xml:lang="ko" type="country">일본</placeName></place>
+                    <place xml:id="USA"><placeName xml:lang="ko" type="country">미국</placeName></place>
+                </listPlace>
+                <listObject>
+                    <object xml:id="KB_INVENTION">
+                        <objectName>○○병</objectName>
+                        <note>K 박사가 인류의 식량 문제를 해결하기 위해 대변에서 자양분을 추출하여 만든 발명품</note>
+                    </object>
+                </listObject>
+                <listBibl>
+                    <bibl xml:id="KB_DOCUMENT">
+                        <title>○○병에 대한 성명서</title>
+                        <author ref="#KPB"/>
+                        <note>K 박사가 자신의 발명품 ○○병을 홍보하기 위해 직접 작성한 문서</note>
+                    </bibl>
+                    <bibl xml:id="JOURNAL">
+                        <title level="a">○○떡 시식회 기사</title>
+                        <publisher ref="#I_NEWS"/>
+                    </bibl>
+                    <org xml:id="I_NEWS">
+                        <orgName>I신문사</orgName>
+                    </org>
+                </listBibl>
+            </particDesc>
         </profileDesc>
     </teiHeader>
-  <text>
-    <body>
-      <div type="frame" n="outer">
-        <p>"<said who="#ME"><rs ref="#KPB"><rs ref="#C">자네</rs> 선생</rs>은 이즈음 뭘 하나?</said>"</p>
-        <p><persName ref="#ME">나</persName>는 어떤 날 <persName ref="#KPB">K 박사</persName>의 조수로 있는 <persName ref="#C">C</persName>를 만나서 말끝에 이런 말을 물어보았다.</p>
-        <p>"<said who="#C">노신다네.</said>"</p>
-        <p>"<said who="#ME">왜?</said>"</p>
-        <p>"<said who="#C">왜라니?</said>"</p>
-        <p>"<said who="#ME">그새 뭘 연구하고 있었지?</said>"</p>
-        <p>"<said who="#C">벌써 그만뒀지.</said>"</p>
-        <p>"<said who="#ME">왜 그만둬?</said>"</p>
-        <p>"<said who="#C">말하자면 장난이라네. 하기야 성공했지. 그렇지만 먹어주질 않으니 어쩌나.</said>"</p>
-        <p>"<said who="#ME">먹다니?</said>"</p>
-        <p>"<said who="#C">글쎄. <rs ref="#ME">이 사람</rs>아, 똥을 누가 먹어.</said>"</p>
-        <p>"<said who="#ME">똥?</said>"</p>
-        <p>"<said who="#C"><rs ref="#ME">자네</rs> <rs type="event">시식회</rs>에 안 왔었나?</said>"</p>
-        <p>"<said who="#ME"><rs type="event">시식회</rs>?</said>"</p>
-        <p><persName ref="#C">C</persName>의 말은 전부 ‘?’였다.</p>
-        <p>"<said who="#C"><rs type="event">시식회</rs>까지 모를 적에는 <rs ref="#ME">자네</rs>는 모르는 모양일세그려. 그럼 <rs ref="#C">내</rs> 이야기해줄게 웃지 말고 듣게.</said>"</p>
-        <p>이러한 말끝에 <persName ref="#C">C</persName>는 <persName ref="#KPB">K 박사</persName>의 연구며 그 성공에서 실패까지의 이야기를 들려주었다.</p>
-        <div type="embedded" n="inner">
+    <text>
+        <body>
+            <div type="frame" n="outer">
+                <p>"<said who="#ME"><rs ref="#KPB"><rs ref="#C">자네</rs> 선생</rs>은 이즈음 뭘 하나?</said>"</p>
+                <p><persName ref="#ME">나</persName>는 어떤 날 <persName ref="#KPB">K 박사</persName>의 조수로 있는 <persName ref="#C">C</persName>를 만나서 말끝에 이런 말을 물어보았다.</p>
+                <p>"<said who="#C">노신다네.</said>"</p>
+                <p>"<said who="#ME">왜?</said>"</p>
+                <p>"<said who="#C">왜라니?</said>"</p>
+                <p>"<said who="#ME">그새 뭘 연구하고 있었지?</said>"</p>
+                <p>"<said who="#C">벌써 그만뒀지.</said>"</p>
+                <p>"<said who="#ME">왜 그만둬?</said>"</p>
+                <p>"<said who="#C">말하자면 장난이라네. 하기야 성공했지. 그렇지만 먹어주질 않으니 어쩌나.</said>"</p>
+                <p>"<said who="#ME">먹다니?</said>"</p>
+                <p>"<said who="#C">글쎄. <rs ref="#ME">이 사람</rs>아, 똥을 누가 먹어.</said>"</p>
+                <p>"<said who="#ME">똥?</said>"</p>
+                <p>"<said who="#C"><rs ref="#ME">자네</rs> <rs type="event">시식회</rs>에 안 왔었나?</said>"</p>
+                <p>"<said who="#ME"><rs type="event">시식회</rs>?</said>"</p>
+                <p><persName ref="#C">C</persName>의 말은 전부 ‘?’였다.</p>
+                <p>"<said who="#C"><rs type="event">시식회</rs>까지 모를 적에는 <rs ref="#ME">자네</rs>는 모르는 모양일세그려. 그럼 <rs ref="#C">내</rs> 이야기해줄게 웃지 말고 듣게.</said>"</p>
+                <p>이러한 말끝에 <persName ref="#C">C</persName>는 <persName ref="#KPB">K 박사</persName>의 연구며 그 성공에서 실패까지의 이야기를 들려주었다.</p>
+                <div type="embedded" n="inner">
           <said who="#C"><p><persName ref="#MLS">맬서스</persName>라나…… ‘<q who="#MLS" type="maxim">사람은 기하학급으로 늘어나고 먹을 것은 수학급으로밖에는 늘지 못한다</q>’고 <rs ref="#MLS">이런 말을 한 사람</rs>이 있지 않나. <rs ref="#KPB">박사</rs>의 연구도 이 말을 근본 삼아가지고 시작되었다네.</p>
           <p>어떤 날(<time type="season">여름</time>일세) <rs ref="#KPB">박사</rs>는 책을 보고 있고 <rs ref="#C">나</rs>는 다른 생각을 하면서 같이 앉았노라는데 <rs ref="#KPB">박사</rs>가 머리를 번듯이 들더니,</p>
           <p>"<said who="#KPB"><rs ref="#C">자네</rs>, 똥 좀 퍼 오게.</said>"</p>

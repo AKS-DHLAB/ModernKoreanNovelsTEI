@@ -5,6 +5,11 @@
             <titleStmt>
                 <title>도정</title>
                 <author>지하련<idno type="ISNI">0000 0004 7359 8703</idno></author>
+                <respStmt>
+                    <resp>TEI 인코딩</resp>
+                    <name>박선영<idno type="ORCID">0009-0001-1340-0455</idno></name>
+                    <email>sun09125@gmail.com</email>
+                </respStmt>
             </titleStmt>
 
             <publicationStmt>
