@@ -45,7 +45,7 @@
 
     <profileDesc>
       <langUsage>
-        <language ident="ko">Korean</language>
+        <language ident="ko">한국어</language>
       </langUsage>
       <textClass>
         <keywords scheme="local">
@@ -77,6 +77,9 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-17" who="#지해인">작업자 지해인이 TEI 검수를 완료함.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
