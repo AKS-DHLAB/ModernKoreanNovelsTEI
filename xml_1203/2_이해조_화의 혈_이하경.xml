@@ -56,21 +56,13 @@
           <note type="acquisition">위키문헌의 일부 누락된 정보를 보완하는 데 참조함.</note>
         </bibl>
 
-        <biblStruct type="reference">
-          <analytic>
-            <author>이해조</author>
-            <title level="a">화의 혈</title>
-          </analytic>
-          <monogr>
-            <title level="m">구마검·모란병·자유종·산천초목·화의 혈</title>
-            <editor>권영민·김종욱·배경열</editor>
-            <imprint>
-              <publisher>서울대학교출판부</publisher>
-              <date>2003-12-30</date>
-            </imprint>
-            <note type="acquisition">위키문헌의 일부 누락된 정보를 보완하는 데 참조함.</note>
-          </monogr>
-        </biblStruct>
+        <bibl type="reference" xml:lang="ko">
+          <title level="m">구마검·모란병·자유종·산천초목·화의 혈</title>
+          <editor>권영민·김종욱·배경열</editor>
+          <publisher>서울대학교출판부</publisher>
+          <date>2003-12-30</date>
+          <note type="acquisition">위키문헌의 일부 누락된 정보를 보완하는 데 참조함.</note>
+        </bibl>
       </sourceDesc>
     </fileDesc>
 
