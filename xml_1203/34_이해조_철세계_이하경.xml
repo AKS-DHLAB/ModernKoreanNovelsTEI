@@ -488,6 +488,11 @@
             </listPlace>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2026-01-08" who="#이하경">작업자 이하경이 TEI 인코딩을 시작함.</change>
+         <change when="2026-02-17" who="#김가연">검수자 김가연이 TEI 인코딩을 수정 완료함.</change>
+    </revisionDesc>
+
    </teiHeader>
 <text>
    <div type="chapter" n="1">

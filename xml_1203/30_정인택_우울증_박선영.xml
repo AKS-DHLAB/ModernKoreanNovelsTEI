@@ -112,6 +112,10 @@
         </listPlace>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <change when="2025--" who="#박선영">작업자 박선영이 TEI 인코딩을 시작함.</change>
+      <change when="2026-02-17" who="#김가연">검수자 김가연이 TEI 인코딩을 수정 완료함.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
