@@ -78,6 +78,8 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2025-12-30" who="#김가연">작업자 김가연이 TEI 인코딩을 시작함.</change>
+      <change when="2026-12-30" who="#김가연">작업자 김가연이 TEI 인코딩을 완료함.</change>
       <change when="2026-02-17" who="#지해인">작업자 지해인이 TEI 검수를 완료함.</change>
     </revisionDesc>
   </teiHeader>
