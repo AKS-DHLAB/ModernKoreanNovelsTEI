@@ -1,6 +1,6 @@
 # ModernKoreanNovelsTEI
 
-This repository provides a high-quality dataset of **34 Korean modern literary works**, encoded in **TEI P5 (eXtensible Markup Language)**. This project aims to bridge the gap between Modern Korean literature and Digital Humanities by providing machine-readable, semantically enriched texts.
+This repository provides a high-quality dataset of **33 Korean modern literary works**, encoded in **TEI P5 (eXtensible Markup Language)**. This project aims to bridge the gap between Modern Korean literature and Digital Humanities by providing machine-readable, semantically enriched texts.
 
 * **The web application (“Conversion of Korean Modern Literature xml/tei") built on Google AI Studio (Gemini 2.5 Flash)**: [Link](https://ai.studio/apps/drive/1gca8QHQLFCb79saG23wcFyidHFKjgUAb)
 
@@ -64,35 +64,41 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 
 ## 📚 List of Works
 
-| Author | Title (Original) | Title (English/Translit) |
-| :--- | :--- | :--- |
-| **Yi Kwang-su** | 무정 (단편) | Mujeong (Short Story) |
-| **Yi Hae-jo** | 화의 혈 | Hwa-ui Hyeol |
-| **Kim Myeong-sun** | 의심의 소녀 | Suspicious Girl |
-| **Na Hye-sok** | 경희 | Gyeong-hui |
-| **Na Hye-sok** | 회생한 손녀에게 | To a Resurrected Granddaughter |
-| **Na Hye-sok** | 규원 | Gyu-won |
-| **Kim Dong-in** | 약한 자의 슬픔 | Sorrow of the Weak |
-| **Kim Dong-in** | 감자 | Potato |
-| **Hyun Jin-geon** | 술 권하는 사회 | A Society that Forces Drink |
-| **Hyun Jin-geon** | 빈처 | The Poor Wife |
-| **Hyun Jin-geon** | 운수 좋은 날 | A Lucky Day |
-| **Hyun Jin-geon** | B사감과 러브레터 | B-Sagam and Love Letters |
-| **Bang Jung-hwan** | 만년 셔츠 | Eternal Shirt |
-| **Bang Jung-hwan** | 동무를 위하여 | For a Friend |
-| **Bang Jung-hwan** | 금시계 | Gold Watch |
-| **Baek Sin-ae** | 나의 어머니 | My Mother |
-| **Chae Man-sik** | 레디메이드 인생 | Ready-made Life |
-| **Kim Nam-cheon** | 물 | Water |
-| **Yi Hyo-seok** | 메밀꽃 필 무렵 | When Buckwheat Flowers Bloom |
-| **Kang Kyeong-ae** | 소금 | Salt |
-| **Kye Yong-mook** | 백치 아다다 | Idiot Adada |
-| **Kim Yu-jeong** | 동백꽃 | Camellia Flowers |
-| **Yi Sang** | 날개 | Wings |
-| **Ji Ha-ryeon** | 도정 | Do-jeong (The Path) |
-| **Yi Ik-sang** | 낙오자 | The Outcast |
-| **Choi Seo-hae** | 향수 | Nostalgia |
-| **Na Do-hyang** | 물레방아 | The Watermill |
+| No. | Author | Title (English / Transliteration) | Date |
+| :--- | :--- | :--- | :--- |
+| 1 | Yi In-jik | Tears of Blood (Hyeol-ui Nu) | 1906 |
+| 2 | Yi Hae-jo | The Iron World (Cheol-segye) | 1908 |
+| 3 | Yi Kwang-su | The Heartless (Mujeong - Short Story) | 1910 |
+| 4 | Yi Hae-jo | Blood of Flowers (Hwa-ui Hyeol) | 1911.04 |
+| 5 | Kim Myeong-sun | The Girl of Mystery (Uisim-ui Sonyeo) | 1917.11 |
+| 6 | Na Hye-seok | Kyung-hee | 1918.03 |
+| 7 | Na Hye-seok | To the Revived Granddaughter | 1918.09 |
+| 8 | Kim Dong-in | The Sorrows of the Weak | 1919.02~03 |
+| 9 | Yi Ik-sang | The Straggler (Nagoja) | 1919.07.14 |
+| 10 | Hyun Jin-geon | A Poor Wife (Bincheo) | 1921.01 |
+| 11 | Na Hye-seok | Gyu-won | 1921.07 |
+| 12 | Hyun Jin-geon | A Society That Drives You to Drink | 1921.11 |
+| 13 | Choi Seo-hae | Nostalgia (Hyangsu) | 1924.04 |
+| 14 | Hyun Jin-geon | A Lucky Day (Unsu Joeun Nal) | 1924.06 |
+| 15 | Kim Dong-in | Potato (Gamja) | 1925.01 |
+| 16 | Hyun Jin-geon | Director B and the Love Letters | 1925.02 |
+| 17 | Na Do-hyang | The Watermill (Mullebang-a) | 1925.09 |
+| 18 | Bang Jeong-hwan | For Our Friends | 1927.02 |
+| 19 | Bang Jeong-hwan | The Eternal Shirt (Mannyeon Shirt) | 1927.03 |
+| 20 | Bang Jeong-hwan | The Gold Watch | 1929.01~02 |
+| 21 | Kim Dong-in | Dr. K’s Research | 1929.12 |
+| 22 | Kim Nam-cheon | Water (Mul) | 1933.06 |
+| 23 | Chae Man-sik | Ready-made Life | 1934.05~07 |
+| 24 | Kang Kyeong-ae | Salt (Sogeum) | 1934.05~10 |
+| 25 | Gye Yong-mook | Adada the Idiot (Baekchi Adada) | 1935 |
+| 26 | Kim Yu-jeong | The Camellias (Dongbaek-kkot) | 1936.05 |
+| 27 | Yi Sang | The Wings (Nalgae) | 1936.09 |
+| 28 | Yi Hyo-seok | When Buckwheat Flowers Bloom | 1936.10 |
+| 29 | Chae Man-sik | Uncle Chi-suk | 1938 |
+| 30 | Jeong In-taek | Melancholy (Uuljeung) | 1940.09 |
+| 31 | Kim Sa-ryang | The Man Met in the Detention Center | 1941 |
+| 32 | Ji Ha-ryeon | The Journey (Dojeong) | 1946.07 |
+| 33 | Kang So-cheon | The Photo Studio that Takes Pictures of Dreams | 1954.03 |
 
 ## 📝 License & Attribution
 
