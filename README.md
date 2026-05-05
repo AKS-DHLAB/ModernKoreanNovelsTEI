@@ -20,8 +20,9 @@ Unlike simple text conversion, this dataset follows the **TEI (Text Encoding Ini
 
 ## 📂 Repository Structure
 
-* **/xml**: Contains the `.xml` files encoded in TEI P5.
-* **/scraping**: Python scripts used to collect raw data from sources like Wikisource.
+* `/code`: Contains the Python scripts used for scraping raw data and the source code for preprocessing and formatting the collected files into a structured layout.
+* `/dataset`: Contains the final KNoTE dataset fully processed.
+* `/rawdata`: Stores the initial, unrefined data as it was first collected by the scraping scripts prior to any processing.
 
 ## 🛠 XML Structure Example (Snippet)
 
