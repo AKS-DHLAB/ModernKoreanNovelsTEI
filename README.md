@@ -1,4 +1,4 @@
-# ModernKoreanNovelsTEI
+# KNoTE (Korean Novel TEI Encoded)
 
 This repository provides a high-quality dataset of **33 Korean modern literary works**, encoded in **TEI P5 (eXtensible Markup Language)**. This project aims to bridge the gap between Modern Korean literature and Digital Humanities by providing machine-readable, semantically enriched texts.
 
