@@ -74,7 +74,7 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 | 5 | Kim Myeong-sun | The Girl of Mystery (Uisim-ui Sonyeo) | 1917.11 |
 | 6 | Na Hye-seok | Kyung-hee | 1918.03 |
 | 7 | Na Hye-seok | To the Revived Granddaughter | 1918.09 |
-| 8 | Kim Dong-in | The Sorrows of the Weak | 1919.02~03 |
+| 8 | Kim Dong-in | The Sorrows of the Weak | 1919.02-03 |
 | 9 | Yi Ik-sang | The Straggler (Nagoja) | 1919.07.14 |
 | 10 | Hyun Jin-geon | A Poor Wife (Bincheo) | 1921.01 |
 | 11 | Na Hye-seok | Gyu-won | 1921.07 |
@@ -86,11 +86,11 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 | 17 | Na Do-hyang | The Watermill (Mullebang-a) | 1925.09 |
 | 18 | Bang Jeong-hwan | For Our Friends | 1927.02 |
 | 19 | Bang Jeong-hwan | The Eternal Shirt (Mannyeon Shirt) | 1927.03 |
-| 20 | Bang Jeong-hwan | The Gold Watch | 1929.01~02 |
+| 20 | Bang Jeong-hwan | The Gold Watch | 1929.01-02 |
 | 21 | Kim Dong-in | Dr. K’s Research | 1929.12 |
 | 22 | Kim Nam-cheon | Water (Mul) | 1933.06 |
-| 23 | Chae Man-sik | Ready-made Life | 1934.05~07 |
-| 24 | Kang Kyeong-ae | Salt (Sogeum) | 1934.05~10 |
+| 23 | Chae Man-sik | Ready-made Life | 1934.05-07 |
+| 24 | Kang Kyeong-ae | Salt (Sogeum) | 1934.05-10 |
 | 25 | Gye Yong-mook | Adada the Idiot (Baekchi Adada) | 1935 |
 | 26 | Kim Yu-jeong | The Camellias (Dongbaek-kkot) | 1936.05 |
 | 27 | Yi Sang | The Wings (Nalgae) | 1936.09 |
