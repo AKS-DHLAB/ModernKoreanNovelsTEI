@@ -142,41 +142,41 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 
 ## 📚 List of Works
 
-| No. | Author | Title (English / Transliteration) | Year |
-| :--- | :--- | :--- | :--- |
-| 1 | Yi In-jik | Tears of Blood (Hyeol-ui Nu) | 1906 |
-| 2 | Yi Hae-jo | The Iron World (Cheol-segye) | 1908 |
-| 3 | Yi Kwang-su | The Heartless (Mujeong - Short Story) | 1910 |
-| 4 | Yi Hae-jo | Blood of Flowers (Hwa-ui Hyeol) | 1911 |
-| 5 | Kim Myeong-sun | The Girl of Mystery (Uisim-ui Sonyeo) | 1917 |
-| 6 | Na Hye-seok | Kyung-hee | 1918 |
-| 7 | Na Hye-seok | To the Revived Granddaughter | 1918 |
-| 8 | Kim Dong-in | The Sorrows of the Weak | 1919 |
-| 9 | Yi Ik-sang | The Straggler (Nagoja) | 1919 |
-| 10 | Hyun Jin-geon | A Poor Wife (Bincheo) | 1921 |
-| 11 | Na Hye-seok | Gyu-won | 1921 |
-| 12 | Hyun Jin-geon | A Society That Drives You to Drink | 1921 |
-| 13 | Choi Seo-hae | Nostalgia (Hyangsu) | 1924 |
-| 14 | Hyun Jin-geon | A Lucky Day (Unsu Joeun Nal) | 1924 |
-| 15 | Kim Dong-in | Potato (Gamja) | 1925 |
-| 16 | Hyun Jin-geon | Director B and the Love Letters | 1925 |
-| 17 | Na Do-hyang | The Watermill (Mullebang-a) | 1925 |
-| 18 | Bang Jeong-hwan | For Our Friends | 1927 |
-| 19 | Bang Jeong-hwan | The Eternal Shirt (Mannyeon Shirt) | 1927 |
-| 20 | Bang Jeong-hwan | The Gold Watch | 1929 |
-| 21 | Kim Dong-in | Dr. K’s Research | 1929 |
-| 22 | Kim Nam-cheon | Water (Mul) | 1933 |
-| 23 | Chae Man-sik | Ready-made Life | 1934 |
-| 24 | Kang Kyeong-ae | Salt (Sogeum) | 1934 |
-| 25 | Gye Yong-mook | Adada the Idiot (Baekchi Adada) | 1935 |
-| 26 | Kim Yu-jeong | The Camellias (Dongbaek-kkot) | 1936 |
-| 27 | Yi Sang | The Wings (Nalgae) | 1936 |
-| 28 | Yi Hyo-seok | When Buckwheat Flowers Bloom | 1936 |
-| 29 | Chae Man-sik | Uncle Chi-suk | 1938 |
-| 30 | Jeong In-taek | Melancholy (Uuljeung) | 1940 |
-| 31 | Kim Sa-ryang | The Man Met in the Detention Center | 1941 |
-| 32 | Ji Ha-ryeon | The Journey (Dojeong) | 1946 |
-| 33 | Kang So-cheon | The Photo Studio that Takes Pictures of Dreams | 1954 |
+| No. | Author (English) | Author (Korean) | Title (English / Transliteration) | Titel (Korean) | Year |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Yi In-jik | 이인직 | Tears of Blood (Hyeol-ui Nu) | 혈의 누 | 1906 |
+| 2 | Yi Hae-jo | 이해조 | The Iron World (Cheol-segye) | 철세계 | 1908 |
+| 3 | Yi Kwang-su | 이광수 | The Heartless (Mujeong - Short Story) | 무정(단편) | 1910 |
+| 4 | Yi Hae-jo | 이해조 | Blood of Flowers (Hwa-ui Hyeol) | 화의 혈 | 1911 |
+| 5 | Kim Myeong-sun | 김명순 | The Girl of Mystery (Uisim-ui Sonyeo) | 의심의 소녀 | 1917 |
+| 6 | Na Hye-seok | 나혜석 | Kyung-hee | 경희 | 1918 |
+| 7 | Na Hye-seok | 나혜석 | To the Revived Granddaughter | 회생한 손녀에게 | 1918 |
+| 8 | Kim Dong-in | 김동인 | The Sorrows of the Weak | 약한 자의 슬픔 | 1919 |
+| 9 | Yi Ik-sang | 이익상 | The Straggler (Nagoja) | 낙오자 | 1919 |
+| 10 | Hyun Jin-geon | 현진건 | A Poor Wife (Bincheo) | 빈처 | 1921 |
+| 11 | Na Hye-seok | 나혜석 | Gyu-won | 규원 | 1921 |
+| 12 | Hyun Jin-geon | 현진건 | A Society That Drives You to Drink | 술 권하는 사회 | 1921 |
+| 13 | Choi Seo-hae | 최서해 | Nostalgia (Hyangsu) | 향수 | 1924 |
+| 14 | Hyun Jin-geon | 현진건 | A Lucky Day (Unsu Joeun Nal) | 운수 좋은 날 | 1924 |
+| 15 | Kim Dong-in | 김동인 | Potato (Gamja) | 감자 | 1925 |
+| 16 | Hyun Jin-geon | 현진건 | Director B and the Love Letters | B사감과 러브레터 | 1925 |
+| 17 | Na Do-hyang | 나도향 | The Watermill (Mullebang-a) | 물레방아 | 1925 |
+| 18 | Bang Jeong-hwan | 방정환 | For Our Friends | 동무를 위하여 | 1927 |
+| 19 | Bang Jeong-hwan | 방정환 | The Eternal Shirt (Mannyeon Shirt) | 만년 셔츠 | 1927 |
+| 20 | Bang Jeong-hwan | 방정환 | The Gold Watch | 금시계 | 1929 |
+| 21 | Kim Dong-in | 김동인 | Dr. K's Research | K박사의 연구 | 1929 |
+| 22 | Kim Nam-cheon | 김남천 | Water (Mul) | 물 | 1933 |
+| 23 | Chae Man-sik | 채만식 | Ready-made Life | 레디메이드 인생 | 1934 |
+| 24 | Kang Kyeong-ae | 강경애 | Salt (Sogeum) | 소금 | 1934 |
+| 25 | Gye Yong-mook | 계용묵 | Adada the Idiot (Baekchi Adada) | 백치 아다다 | 1935 |
+| 26 | Kim Yu-jeong | 김유정 | The Camellias (Dongbaek-kkot) | 동백꽃 | 1936 |
+| 27 | Yi Sang | 이상 | The Wings (Nalgae) | 날개 | 1936 |
+| 28 | Yi Hyo-seok | 이효석 | When Buckwheat Flowers Bloom | 메밀꽃 필 무렵 | 1936 |
+| 29 | Chae Man-sik | 채만식 | Uncle Chi-suk | 치숙 | 1938 |
+| 30 | Jeong In-taek | 정인택 | Melancholy (Uuljeung) | 우울증 | 1940 |
+| 31 | Kim Sa-ryang | 김사량 | The Man Met in the Detention Center | 유치장에서 만난 사나이 | 1941 |
+| 32 | Ji Ha-ryeon | 지하련 | The Journey (Dojeong) | 도정 | 1946 |
+| 33 | Kang So-cheon | 강소천 | The Photo Studio that Takes Pictures of Dreams | 꿈을 찍는 사진관 | 1954 |
 
 ## 📝 License & Attribution
 
