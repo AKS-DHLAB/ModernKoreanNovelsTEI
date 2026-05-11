@@ -142,7 +142,7 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 
 ## 📚 List of Works
 
-| No. | Author (English) | Author (Korean) | Title (English / Transliteration) | Titel (Korean) | Year |
+| No. | Author (English) | Author (Korean) | Title (English / Transliteration) | Title (Korean) | Year |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Yi In-jik | 이인직 | Tears of Blood (Hyeol-ui Nu) | 혈의 누 | 1906 |
 | 2 | Yi Hae-jo | 이해조 | The Iron World (Cheol-segye) | 철세계 | 1908 |
