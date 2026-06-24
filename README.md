@@ -7,16 +7,14 @@ This repository provides a high-quality dataset of **33 Korean modern literary w
 
 ## 📌 Project Overview
 
-Unlike simple text conversion, this dataset follows the **TEI (Text Encoding Initiative) P5 guidelines**. It includes detailed metadata, character descriptions, linguistic variations (Hanja/Hangul), and semantic tagging for emotions and places.
+Unlike simple text conversion, this dataset follows the **TEI (Text Encoding Initiative) P5 guidelines**. It includes detailed metadata, character descriptions, linguistic variations (Hanja/Hangul), and semantic tagging.
 
 ### Key Features
 
 * **TEI Standard**: Fully compliant with TEI P5 (`<teiHeader>`, `<body>`, `<div>`).
-* **Semantic Tagging**:
 * **Characters**: Linked via `xml:id` and `ref` (e.g., `<persName ref="#YB">`).
-* **Linguistic Mapping**: Original Hanja and modern Hangul mapped via `<choice>`, `<orig>`, and `<reg>`.
+* **Linguistic Mapping**: Original Hanja and modern Hangul mapped via `<foreign xml:lang="zh">`.
 * **Entities**: Places (`<placeName>`), Dates (`<date>`), and Occupations (`<occupation>`).
-* **Emotions**: Sentiment analysis support through `<seg type="emotion" subtype="...">`.
 * **Scholarly Metadata**: Includes source descriptions, publication history, and revision logs.
 
 ## 📂 Repository Structure
@@ -125,7 +123,7 @@ The dataset uses a hierarchical structure to capture both the content and the co
 <text>
     <body>
         <p>
-            <persName ref="#YB">부인</persName>은 <seg type="emotion" subtype="hope">희망</seg>도 없고...
+            <persName ref="#YB">부인</persName>은 희망도 없고...
         </p>
     </body>
 </text>
