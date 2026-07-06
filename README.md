@@ -14,7 +14,7 @@ Unlike simple text conversion, this dataset follows the **TEI (Text Encoding Ini
 * **TEI Standard**: Fully compliant with TEI P5 (`<teiHeader>`, `<body>`, `<div>`).
 * **Characters**: Linked via `xml:id` and `ref` (e.g., `<persName ref="#YB">`).
 * **Linguistic Mapping**: Original Hanja and modern Hangul mapped via `<foreign xml:lang="zh">`.
-* **Entities**: Places (`<placeName>`), Dates (`<date>`).
+* **Entities**: Places (`<placeName>`), Dates (`<date>`),  and Times (`<time>`).
 * **Scholarly Metadata**: Includes source descriptions, publication history, and revision logs.
 
 ## 📂 Repository Structure
