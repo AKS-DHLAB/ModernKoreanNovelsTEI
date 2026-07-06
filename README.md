@@ -181,4 +181,4 @@ Link: [Conversion of Korean Modern Literature xml/tei](https://ai.studio/apps/dr
 This dataset is maintained and inspired by the Digital Humanities Lab at the **Academy of Korean Studies**.
 Licensed under **CC BY 4.0**.
 
-This dataset will be uploaded to **Zenodo**, and a **DOI** will be issued for formal academic citation.
+This dataset uploaded to **Zenodo**, and a **DOI** issued for formal academic citation. (https://doi.org/10.5281/zenodo.19813475)
