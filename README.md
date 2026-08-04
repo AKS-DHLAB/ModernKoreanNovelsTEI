@@ -2,7 +2,7 @@
 
 This repository provides a high-quality dataset of **33 Korean modern literary works**, encoded in **TEI P5 (eXtensible Markup Language)**. This project aims to bridge the gap between Modern Korean literature and Digital Humanities by providing machine-readable, semantically enriched texts.
 
-* **KNoTE: A TEI Encoded XML Dataset of Modern Korean Novels**: [10.5334/johd.590](https://doi.org/10.5334/johd.590)
+* **Kim, G., Park, S., Ji, H., Lee, H., Lee, B., Jeong, C., & Kim, B. (2026). KNoTE: A TEI Encoded XML Dataset of Modern Korean Novels. Journal of Open Humanities Data, 12(1), 102-102.**: [10.5334/johd.590](https://doi.org/10.5334/johd.590)
 * **KNoTE dataset**: [10.5281/zenodo.21218299](https://doi.org/10.5281/zenodo.21218299)
 * **The web application (“Conversion of Korean Modern Literature xml/tei") built on Google AI Studio (Gemini 2.5 Flash)**: [Link](https://ai.studio/apps/drive/1gca8QHQLFCb79saG23wcFyidHFKjgUAb)
 
